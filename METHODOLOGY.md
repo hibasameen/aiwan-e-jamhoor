@@ -393,3 +393,47 @@ sheets (~600 MB; safe to delete once digitised).
    the Paniala-vs-Paharpur boundary (NA-43/44); the Nasirabad tehsil split (NA-254/255).
 4. Integrate into the app: `na_2023delim_simplified.geojson` with the per-seat `confidence`
    property surfaced (hatch or outline the `low` seats so readers know which lines are soft).
+
+
+## 9. The four elections — circumstances and observer findings
+
+A seat map cannot show that one campaign was fought under a boycott, another under a bombing
+campaign aimed at three named parties, and a third with the largest party stripped of its ballot
+symbol. The app carries a per-election context card (map page, right column) and the Method page
+carries the full account. The standard is the same one used for boundaries: **report what named
+observers concluded, quote them, link the source, and offer no verdict of our own.** No aggregate
+"fairness score" is published.
+
+| Election | Date | Seats polled | Turnout | Candidates | Won by <5% |
+|---|---|---|---|---|---|
+| 2008 | 18 Feb 2008 | 268 of 272 | 44% | 2,180 | 62 |
+| 2013 | 11 May 2013 | 269 of 272 | 55% | 4,496 | 52 |
+| 2018 | 25 Jul 2018 | 270 of 272 | 52% | 3,431 | 79 |
+| 2024 | 8 Feb 2024 | 265 of 266 | 48% | 5,112 | 68 |
+
+Seats-polled, candidate counts and margins are computed from `data/results_all.json`; turnout is the
+registered-voter-weighted figure from our own data, which tracks the official numbers (2008 ~44%,
+2013 55.0% ECP, 2018 51.9–52.1%, 2024 47.6% FAFEN-from-ECP).
+
+- **2008** — poll moved from 8 Jan to 18 Feb after Benazir Bhutto's assassination; 4 seats did not
+  poll; boycotted by PTI, JI and the APDM; no Commonwealth observation (Pakistan was suspended).
+  EU EOM: "a level playing field was not provided during the campaign." Democracy International:
+  "the elections provided a genuine opportunity for Pakistani voters to express their will."
+- **2013** — first civilian-to-civilian handover; highest turnout since 1977; TTP violence targeted
+  ANP, MQM and PPP specifically. EU EOM: "The high number of attacks affected campaigning and
+  unbalanced the playing field." 2015 judicial commission: "in large part organised and conducted
+  fairly and in accordance with the law." ~500 polling stations recorded zero women voting.
+- **2018** — Nawaz Sharif disqualified for life and jailed 12 days before the poll; ~370,000 troops
+  deployed, many inside polling stations; the RTS collapsed on election night. Two distinct verdicts
+  from the same mission: EU EOM "There was no level playing field for electoral contestants" on the
+  campaign, but "Voting was assessed as well-conducted and transparent" on the day, with the count
+  faulted. EU observers did not cover Balochistan.
+- **2024** — Supreme Court stripped PTI of its symbol on 13 Jan; candidates ran as independents;
+  NA-8 Bajaur postponed after a candidate was killed; nationwide mobile shutdown on polling day;
+  results ~15 hours late; Form-45 vs Form-47 dispute unadjudicated. EU High Representative: "We
+  regret the lack of a level playing field." Commonwealth (final report Sept 2025): "impinged on the
+  credibility, transparency and inclusiveness of the electoral process." HRCP: "The integrity of the
+  2024 elections was compromised."
+
+Caveat carried in the app: observer missions differ in mandate, coverage and access, so the absence
+of a finding is not evidence of its absence.
