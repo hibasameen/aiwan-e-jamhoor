@@ -854,7 +854,7 @@
   "notes": "Khwaja Muhammad Khan Hoti branch is a rival wing of the Hoti clan; exact blood kinship unsourced, no edge drawn."
  },
  {
-  "family": "Niazi (Mianwali)",
+  "family": "Niazi (Imran Khan)",
   "base": "Mianwali",
   "edges": [
    {
@@ -863,7 +863,13 @@
     "rel": "cousins",
     "note": "Inamullah Niazi, Imran Khan's estranged first cousin; ran against him in 2013",
     "src": "https://en.wikipedia.org/wiki/Inamullah_Niazi"
-   },
+   }
+  ]
+ },
+ {
+  "family": "Sher Afgan Niazi",
+  "base": "Mianwali",
+  "edges": [
    {
     "a": "P01088",
     "b": "P09068",
@@ -871,8 +877,7 @@
     "note": "Amjad Ali Khan Niazi (PTI MNA) is Sher Afgan Niazi's son - separate Niazi dynasty, not Imran's kin",
     "src": "https://en.wikipedia.org/wiki/Amjad_Ali_Khan_Niazi"
    }
-  ],
-  "notes": "2024 NA-89 'Imran Khan' (IND, 8th) is a namesake, not the PTI founder. Rokhri-Niazi family (Humair Hayat Rokhri) is a third Mianwali dynasty."
+  ]
  },
  {
   "family": "Gilani",
