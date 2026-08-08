@@ -1,89 +1,94 @@
 # Recovering true pre-2002 constituency boundaries
 
-**Status: not done.** 1990, 1993 and 1997 are currently drawn as district
-aggregates projected onto the 2002 constituency shapes. That is deliberate and
-documented in `DATA_DICTIONARY.md`, but it means the outlines on screen for
-those years are 2002 boundaries, not the boundaries those elections were fought
-on. This note records what is already built, the obstacle that stopped the work,
-and what a proper job requires. It is written so someone can resume cold.
+**Status: georeferencing solved, extraction not finished.** 1990, 1993 and 1997
+are still drawn as district aggregates projected onto the 2002 shapes. This note
+records what works, with measurements, and what remains.
 
-## Why this is now possible
+## Why this is possible
 
-The 1977 delimitation — 207 general seats, used from 1977 through 1997 — was
-never published in geospatial form. But `data/sources/` holds labelled
-constituency maps for 1990, 1993 and 1997 (Saad Ali Khan Pakistan, CC BY-SA 4.0,
-~3,500 px) which draw those boundaries and **print each seat's NA number inside
-its region**. That printed number is the join key, so identity does not have to
-be inferred.
+The 1977 delimitation — 207 general seats, used 1977 to 1997 — was never
+published in geospatial form. But `data/sources/` holds labelled constituency
+maps for 1990, 1993 and 1997 (Saad Ali Khan Pakistan, CC BY-SA 4.0, ~3,500 px)
+which draw those boundaries and **print each seat's NA number inside its
+region**, so identity does not have to be inferred.
 
-Their fidelity is measured, not assumed: `CROSSCHECK.md` reports 1,023 seats
-checked across six elections at 99.2% consistency with our independent results
-once OCR misreads are allowed for. These are accurate drawings.
+Their fidelity is measured: `CROSSCHECK.md` reports 1,023 seats checked across
+six elections at 99.2% consistency with our independent results.
 
-## What already works
+## What works
 
-`scripts/read_labelled_map.py` segments a map into flat-filled regions and OCRs
-the NA number inside each. On the 1997 map it finds 366 regions and reads 157
-labels (~76%). Each region yields a pixel mask, a bounding box and a fill
-colour. This is the hard half of the extraction and it is done.
+**Segmentation and labelling** — `scripts/read_labelled_map.py` finds the
+flat-filled regions and OCRs the number inside each. On the 1997 map: 366
+regions, 157 labels read (~76%).
 
-## The obstacle: georeferencing
+**Georeferencing** — `scripts/georef_map.py` and `scripts/georef_refine.py`.
+The insight that makes it work: the map's party-coloured pixels and the union of
+`data/na_constituencies_2002delim.geojson` describe *the same territory* —
+Pakistan's National Assembly area, excluding Kashmir and Gilgit-Baltistan — so
+the two masks can be aligned directly, no control points needed. Kashmir and GB
+are `#7f7f7f` grey plus diagonal hatching and are excluded from the mask.
 
-Region masks are in image coordinates. Turning them into real geometry needs a
-transform from pixels to lon/lat, and the cheap approach does not work.
+Fit quality on the 1997 map:
 
-Tried: use each labelled region's district (known from the returns) and that
-district's true centroid as a control point, then fit a polynomial warp.
-
-| Control points | Best fit | Median error | p90 |
+| Stage | IoU | Median edge error | p90 |
 |---|---|---|---|
-| 144 (all labelled regions) | cubic | 39 km | — |
-| 24 (single-seat districts only, Karachi excluded) | cubic | 24 km | 184 km |
+| Moment start | 0.62 | — | — |
+| Affine, optimised on IoU | 0.919 | 7.1 km | 23.9 km |
+| Quadratic warp | 0.934 | 4.8 km | 16.8 km |
 
-Constituency work needs error well under ~5 km, so this is an order of magnitude
-short. Two causes: a district centroid is not a seat centroid, and a few misread
-labels drag the fit hard (NA-4 Nowshera lands 582 km out).
+For contrast, the approach tried first — control points from each labelled
+region's district centroid — reached only 24-39 km median. **Do not go back to
+control points.** Fit mask to mask.
 
-**Do not pursue centroid control points.** Use outline matching instead.
+**End-to-end check.** Pushing each labelled region's centroid through the warp,
+66% land inside the district their own name says, and the misses sit a median of
+18.6 km away. The failures are diagnostic rather than random:
 
-## The plan
+- The extreme ones are known OCR misreads — NA-19 Bannu lands 1,315 km out,
+  NA-4 Nowshera 890 km, NA-134 Rajanpur 862 km. These are the same seats flagged
+  as label misreads in `CROSSCHECK.md`.
+- The Lahore seats (NA-93, 94, 95) land ~490 km out because they are drawn in
+  the **Lahore inset box**, not on the main map. This is expected and confirms
+  each inset needs its own transform.
 
-1. **Build the constituency-area mask.** Select pixels close to a known party
-   fill, which excludes the borders and, importantly, Kashmir and
-   Gilgit-Baltistan — those are `#7f7f7f` grey and diagonal hatching, and are not
-   part of the National Assembly area or of the 2002 outline we fit against.
-2. **Exclude the insets.** The five city boxes and the legend are separate
-   connected components. On the 1997 map, land components are: the main landmass
-   at `x[121,3468] y[90,2400]`; Karachi at `x[44,1126] y[2298,2921]`; and smaller
-   boxes at `x[3018,3334] y[1045,1378]`, `x[1475,1672] y[390,522]`,
+## What remains
+
+1. **Per-inset transforms.** Five city boxes are separate connected components.
+   On the 1997 map: Karachi at `x[44,1126] y[2298,2921]`, plus boxes at
+   `x[3018,3334] y[1045,1378]`, `x[1475,1672] y[390,522]`,
    `x[2527,2716] y[1261,1419]`, `x[2692,2798] y[1028,1118]`. Legend swatches are
-   50x44 px. Each inset needs its **own** transform — they are drawn at a
-   different scale from the main map.
-3. **Fit the transform by outline.** Take the outer contour of the main-map mask
-   and fit it to the true national outline (union of
-   `data/na_constituencies_2002delim.geojson`, bounds
-   `60.879, 23.695, 75.375, 36.909`). Coarse align on moments and bounding box,
-   then refine with ICP. Thousands of unambiguous points beats two dozen noisy
-   ones. Validate on held-out points before trusting it.
-4. **Trace the regions.** Contour each region mask and simplify, but do it so
-   neighbours share edges — trace the border network once and assemble polygons
-   from it, rather than tracing each region independently, or you get slivers and
-   overlaps along every shared boundary.
-5. **Finish the labelling.** OCR recall is ~76%. The rest can come from
-   elimination inside a district (we know how many seats each district had and
-   which numbers are missing) plus adjacency. Every region must end up with
-   exactly one NA number, and every NA number used once.
-6. **Validate before shipping.** Suggested gates: 207 polygons per year; no
-   overlaps beyond a small tolerance; the union matches the national outline to a
-   few km; each seat's polygon falls inside the district its name says; and the
-   party colours implied by the new geometry still reproduce `CROSSCHECK.md`.
+   50x44 px. Fit each the same way, against the union of the districts it covers
+   rather than the whole country.
+2. **Correct the OCR misreads before using labels as truth.** A label is
+   suspect when its region lands far from the district its number implies. That
+   distance is now computable, so it can gate acceptance: reject, then re-read or
+   resolve by elimination within the district.
+3. **Lift recall from 76% to complete.** Remaining regions can be resolved by
+   elimination — we know how many seats each district had and which numbers are
+   still unassigned — plus adjacency.
+4. **Trace the regions.** Contour each region and simplify, but trace the border
+   *network* once and assemble polygons from it, rather than tracing regions
+   independently, or every shared boundary produces slivers and overlaps.
+5. **Validate before shipping.** 207 polygons per year; no overlaps beyond
+   tolerance; union matches the national outline; each seat inside the district
+   its name says; and the party colours implied by the new geometry still
+   reproduce `CROSSCHECK.md`.
+
+## Accuracy expectations
+
+A ~5 km median is fine for rural seats, which run tens of kilometres across, and
+too coarse for urban ones — but urban seats are exactly the ones drawn in the
+insets, where a dedicated transform on a zoomed drawing should do much better.
+Some residual is irreducible: this is a hand-drawn map, not a survey. Whatever
+ships should carry its measured error, not be presented as exact.
 
 ## When it lands
 
 Replace the projection for 1990, 1993 and 1997: set `YEARS[y].unit` away from
 `'proj'`, point `geo` at the new layer, drop the `XW` apportionment path and the
-district-outline overlay, and restore the normal per-seat detail panel. Keep
-`scripts/build_1990s_districts.py` — the district aggregates remain the honest
-fallback if any year fails validation. Update `DATA_DICTIONARY.md`, and add the
-CC BY-SA attribution and share-alike note for the derived geometry to
+district-outline overlay, restore the normal per-seat detail panel, and remove
+the `Y.unit!=='proj'` guard that currently suppresses the district line. Keep
+`scripts/build_1990s_districts.py` — the aggregates stay the honest fallback for
+any year that fails validation. Update `DATA_DICTIONARY.md`, and add the
+CC BY-SA attribution and share-alike note for derived geometry to
 `DATA_LICENSE.md`.
