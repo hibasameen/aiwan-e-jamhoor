@@ -667,6 +667,27 @@
     "rel": "in-laws",
     "note": "Son-in-law",
     "src": "https://en.wikipedia.org/wiki/Muhammad_Safdar_Awan"
+   },
+   {
+    "a": "P00127",
+    "b": "P02691",
+    "rel": "in-laws",
+    "note": "Samdhis: Dar's eldest son married Nawaz's daughter Asma, 2004",
+    "src": "https://en.wikipedia.org/wiki/Ishaq_Dar"
+   },
+   {
+    "a": "P00127",
+    "b": "P04266",
+    "rel": "uncle-nephew",
+    "note": "Abid Sher Ali, thrice MNA NA-84 Faisalabad (listed as 'Abid Ali' in the 2002-13 returns)",
+    "src": "https://en.wikipedia.org/wiki/Abid_Sher_Ali"
+   },
+   {
+    "a": "P01133",
+    "b": "P04266",
+    "rel": "father-son",
+    "note": "Ch. Sher Ali, ex-mayor of Faisalabad, is Abid's father",
+    "src": "https://en.wikipedia.org/wiki/Abid_Sher_Ali"
    }
   ],
   "notes": ""
