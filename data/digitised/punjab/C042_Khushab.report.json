@@ -1,0 +1,22 @@
+{
+ "canvas_id": "C042_Khushab",
+ "seats": [
+  "NA-87",
+  "NA-88"
+ ],
+ "sheet_used": "khushab_na87_88.jpg",
+ "rms_km": 2.856,
+ "area_share_sheet": {
+  "NA-87": 0.299,
+  "NA-88": 0.696
+ },
+ "area_share_out": {
+  "NA-88": 0.677,
+  "NA-87": 0.323
+ },
+ "issues": [
+  "NA-87 uncoloured on sheet (white with dense pink QH/mouza hatching); NA-87 region recovered by line-density blob, then rebuilt as exact canvas remainder of NA-88 (green wash)",
+  "sheet is a hand-annotated district map (handwritten NA labels, \"proposed by objectors\" note), not the printed preliminary style; labels match final numbering per na_2024_districts.csv"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,2833 @@
+[
+ {
+  "family": "Leghari",
+  "base": "Dera Ghazi Khan / Rajanpur",
+  "notes": "Rivals of the Khosas in DG Khan; no intermarriage found. Sindh and RYK Legharis are unrelated clans.",
+  "nodes": [
+   {
+    "id": "P00187",
+    "name": "Sardar Farooq Ahmad Khan Leghari",
+    "wins": 4,
+    "win_years": "1993|2002|2008",
+    "years": "1993|2002|2008",
+    "parties": "IND|NA(alliance)|PMLQ|PPP",
+    "districts": "dg khan|dg khan cum rajanpur|rajanpur|sahiwal"
+   },
+   {
+    "id": "P01512",
+    "name": "Sardar Awais Ahmad Khan Leghari",
+    "wins": 3,
+    "win_years": "2002|2013|2024",
+    "years": "1997|2002|2008|2013|2018|2024",
+    "parties": "IND|NA(alliance)|PMLN|PMLQ",
+    "districts": "dg khan|dg khan cum rajanpur"
+   },
+   {
+    "id": "P06973",
+    "name": "Sardar Muhammad Jamal Khan Leghari",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "IND",
+    "districts": "dg khan"
+   },
+   {
+    "id": "P13860",
+    "name": "Ammar Ahmad Khan Leghari",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PMLN",
+    "districts": "rajanpur"
+   },
+   {
+    "id": "P01508",
+    "name": "Sardar M. Jafar Khan Leghari",
+    "wins": 5,
+    "win_years": "1997|2002|2008|2013|2018",
+    "years": "1997|2002|2008|2013|2018",
+    "parties": "IND|NA(alliance)|PMLN|PMLQ|PTI",
+    "districts": "dg khan cum rajanpur|rajanpur"
+   },
+   {
+    "id": "P01511",
+    "name": "Sardar Mansoor Ahmad Khan Leghari",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997",
+    "parties": "IND",
+    "districts": "dg khan cum rajanpur"
+   },
+   {
+    "id": "P06975",
+    "name": "Sardar Maqsood Khan Leghari",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "PMLQ",
+    "districts": "dg khan"
+   },
+   {
+    "id": "P10848",
+    "name": "MUHAMMAD MOHSIN LEGHARI",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018",
+    "parties": "IND",
+    "districts": "rajanpur"
+   },
+   {
+    "id": "P04748",
+    "name": "Meena Ahsan Leghari",
+    "wins": 0,
+    "win_years": "",
+    "years": "2008",
+    "parties": "IND",
+    "districts": "dg khan|rajanpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00187",
+    "b": "P01512",
+    "rel": "father-son",
+    "note": "Awais is son of President Farooq Leghari",
+    "src": "https://en.wikipedia.org/wiki/Awais_Leghari"
+   },
+   {
+    "a": "P00187",
+    "b": "P06973",
+    "rel": "father-son",
+    "note": "Jamal Leghari (ex-senator) is Farooq's elder son",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P01512",
+    "b": "P06973",
+    "rel": "siblings",
+    "note": "Both sons of Farooq Leghari",
+    "src": "https://en.wikipedia.org/wiki/Awais_Leghari"
+   },
+   {
+    "a": "P01512",
+    "b": "P13860",
+    "rel": "father-son",
+    "note": "Ammar (won NA-187 Rajanpur 2024) is Awais's only son",
+    "src": "https://www.pakistantoday.com.pk/2023/01/19/farooq-legharis-grandson-launched-to-contest-against-imran-khan-in-na-193-rajanpur-by-poll/"
+   },
+   {
+    "a": "P00187",
+    "b": "P13860",
+    "rel": "grandfather-grandson",
+    "note": "4th generation of the dynasty",
+    "src": "https://www.pakistantoday.com.pk/2023/01/19/farooq-legharis-grandson-launched-to-contest-against-imran-khan-in-na-193-rajanpur-by-poll/"
+   },
+   {
+    "a": "P00187",
+    "b": "P01508",
+    "rel": "cousins",
+    "note": "Jaffar Khan Leghari (d.2022) was Farooq's cousin",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P00187",
+    "b": "P01511",
+    "rel": "cousins",
+    "note": "Mansoor Leghari listed as Farooq's cousin",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P00187",
+    "b": "P06975",
+    "rel": "cousins",
+    "note": "Maqsood Leghari listed as Farooq's cousin",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P01508",
+    "b": "P10848",
+    "rel": "uncle-nephew",
+    "note": "Mohsin Leghari turbaned as Jaffar's successor",
+    "src": "https://www.thenews.com.pk/tns/detail/1030575-battle-of-the-sardars"
+   },
+   {
+    "a": "P01508",
+    "b": "P04748",
+    "rel": "spouses",
+    "note": "Dr Mina Ehsan Leghari is Jaffar's wife",
+    "src": "https://alchetron.com/Mina-Ehsan-Leghari"
+   }
+  ],
+  "total_wins": 13
+ },
+ {
+  "family": "Khosa",
+  "base": "Dera Ghazi Khan",
+  "notes": "Same DG Khan Khosa tribe as Latif Khosa but no documented degree of kinship between his line and Zulfiqar's.",
+  "nodes": [
+   {
+    "id": "P10832",
+    "name": "Sardar Zulfiqar Ali Khan Khosa",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018|2024",
+    "parties": "IND|PTI",
+    "districts": "dg khan"
+   },
+   {
+    "id": "P10837",
+    "name": "Sardar Dost Muhammad Khan Khosa",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018|2024",
+    "parties": "IND|PPP",
+    "districts": "dg khan"
+   },
+   {
+    "id": "P00188",
+    "name": "Sardar Muhammad Saif Ul Din Khan Khosa",
+    "wins": 1,
+    "win_years": "2008",
+    "years": "1993|1997|2008|2013",
+    "parties": "IND|PMLN|PPP",
+    "districts": "dg khan|dg khan cum rajanpur"
+   },
+   {
+    "id": "P00184",
+    "name": "Sardar M. Amjad Farooq Khan",
+    "wins": 3,
+    "win_years": "1997|2013|2018",
+    "years": "1993|1997|2002|2008|2013|2018|2024",
+    "parties": "IND|PMLN",
+    "districts": "dg khan|taunsa"
+   },
+   {
+    "id": "P13831",
+    "name": "Abdul Qadir Khan Khosa",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PMLN",
+    "districts": "dg khan"
+   },
+   {
+    "id": "P13198",
+    "name": "Sardar Muhammad Latif Khan Khosa",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "IND",
+    "districts": "lahore"
+   },
+   {
+    "id": "P06350",
+    "name": "Sardar Khurram Latif Khan Khosa",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "PPP",
+    "districts": "lahore"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P10832",
+    "b": "P10837",
+    "rel": "father-son",
+    "note": "Dost Muhammad (ex-CM Punjab) is Zulfiqar Khosa's son",
+    "src": "https://en.wikipedia.org/wiki/Dost_Muhammad_Khosa"
+   },
+   {
+    "a": "P10832",
+    "b": "P00188",
+    "rel": "father-son",
+    "note": "Saif-ud-Din Khosa is Zulfiqar's son",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Saif-ud-Din_Khosa"
+   },
+   {
+    "a": "P00188",
+    "b": "P10837",
+    "rel": "siblings",
+    "note": "Both sons of Zulfiqar Khosa",
+    "src": "https://en.wikipedia.org/wiki/Dost_Muhammad_Khosa"
+   },
+   {
+    "a": "P10832",
+    "b": "P00184",
+    "rel": "cousins",
+    "note": "Intra-Khosa feud: Zulfiqar vs cousin Amjad Farooq",
+    "src": "https://www.dawn.com/news/1419695"
+   },
+   {
+    "a": "P00184",
+    "b": "P13831",
+    "rel": "father-son",
+    "note": "Abdul Qadir Khosa (won NA-184 2024) is Amjad Farooq's son",
+    "src": "https://en.wikipedia.org/wiki/Abdul_Qadir_Khan_Khosa"
+   },
+   {
+    "a": "P13198",
+    "b": "P06350",
+    "rel": "father-son",
+    "note": "Khurram Latif Khosa is ex-Governor Latif Khosa's son",
+    "src": "https://thefridaytimes.com/01-Jan-2024/attack-on-police-personnel-latif-khosa-s-son-arrested-in-lahore"
+   }
+  ],
+  "total_wins": 6
+ },
+ {
+  "family": "Kanju",
+  "base": "Lodhran",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00119",
+    "name": "M. Siddiq Khan Kanju",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1993|1997",
+    "parties": "PMLN",
+    "districts": "lodhran|multan cum lodhran"
+   },
+   {
+    "id": "P06782",
+    "name": "Abdul Rehman Khan Kanju",
+    "wins": 3,
+    "win_years": "2013|2018|2024",
+    "years": "2013|2018|2024",
+    "parties": "IND|PMLN",
+    "districts": "lodhran"
+   },
+   {
+    "id": "P03034",
+    "name": "M. Akhtar Khan Kanjoo",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "2002|2008|2013|2018|2024",
+    "parties": "IND|PMLN|PMLQ|PTI",
+    "districts": "lodhran"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00119",
+    "b": "P06782",
+    "rel": "father-son",
+    "note": "Abdul Rehman is elder son of Siddique Kanju (assassinated 2001)",
+    "src": "https://en.wikipedia.org/wiki/Siddiq_Khan_Kanju"
+   },
+   {
+    "a": "P00119",
+    "b": "P03034",
+    "rel": "siblings",
+    "note": "Akhtar Kanju was Siddique's brother; factions split after 2013",
+    "src": "https://ojs.mrj.com.pk/index.php/MRJ/article/download/394/474/1220"
+   },
+   {
+    "a": "P03034",
+    "b": "P06782",
+    "rel": "uncle-nephew",
+    "note": "Uncle and nephew contested against each other 2013/2018/2024",
+    "src": "https://www.thenews.com.pk/print/1153784-triangular-battle-in-na-154-lodhran-i-as-key-clans-hold-sway"
+   }
+  ],
+  "total_wins": 5
+ },
+ {
+  "family": "Hiraj",
+  "base": "Khanewal",
+  "notes": "Two branches (Mehr vs Sardar) of the clan; no sourced kinship between branches - kept unconnected.",
+  "nodes": [
+   {
+    "id": "P00141",
+    "name": "Mehar Khizar Hayat Hiraj",
+    "wins": 0,
+    "win_years": "",
+    "years": "1993",
+    "parties": "National Peoples Party",
+    "districts": "khanewal"
+   },
+   {
+    "id": "P03038",
+    "name": "Muhammad Raza Hayat Hiraj",
+    "wins": 4,
+    "win_years": "2002|2008|2013|2024",
+    "years": "2002|2008|2013|2018|2024",
+    "parties": "IND|PMLQ|PPP|PTI",
+    "districts": "khanewal"
+   },
+   {
+    "id": "P01458",
+    "name": "Sardar Allah Yar Hiraj",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997",
+    "parties": "PPP",
+    "districts": "khanewal"
+   },
+   {
+    "id": "P03042",
+    "name": "Hamid Yar Hiraj",
+    "wins": 2,
+    "win_years": "2002|2008",
+    "years": "2002|2008|2013|2024",
+    "parties": "IND|PMLQ",
+    "districts": "khanewal"
+   },
+   {
+    "id": "P10592",
+    "name": "Ahmad Yar Hiraj",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018",
+    "parties": "PTI",
+    "districts": "khanewal"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00141",
+    "b": "P03038",
+    "rel": "father-son",
+    "note": "Raza Hayat Hiraj born to Mahr Khizar Hayat Hiraj",
+    "src": "https://en.wikipedia.org/wiki/Raza_Hayat_Hiraj"
+   },
+   {
+    "a": "P01458",
+    "b": "P03042",
+    "rel": "father-son",
+    "note": "Hamid Yar Hiraj's father Sardar Allah Yar Hiraj (MPA 1985-96)",
+    "src": "https://www.pakpedia.pk/hamid-yar-hiraj/"
+   },
+   {
+    "a": "P03042",
+    "b": "P10592",
+    "rel": "siblings",
+    "note": "Hamid Yar and Ahmad Yar Hiraj are brothers",
+    "src": "https://www.dawn.com/news/280841/old-players-with-new-captains-in-khanewal"
+   },
+   {
+    "a": "P01458",
+    "b": "P10592",
+    "rel": "father-son",
+    "note": "Ahmad Yar also son of Allah Yar Hiraj",
+    "src": "https://www.pakpedia.pk/hamid-yar-hiraj/"
+   }
+  ],
+  "total_wins": 6
+ },
+ {
+  "family": "Khichi",
+  "base": "Vehari",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P01487",
+    "name": "M. Nawaz Khan Alias Dilawar Khan Khichi",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1997",
+    "parties": "PMLN",
+    "districts": "vehari"
+   },
+   {
+    "id": "P03109",
+    "name": "Aurangzeb Khan Khichi",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2002|2008|2013|2018|2024",
+    "parties": "IND|PMLQ|PTI",
+    "districts": "vehari"
+   },
+   {
+    "id": "P03098",
+    "name": "Khan Aftab Ahmed Khan Khichi",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "2002|2008|2013|2018|2024",
+    "parties": "IND|PMLQ|PTI",
+    "districts": "vehari"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01487",
+    "b": "P03109",
+    "rel": "father-son",
+    "note": "Aurangzeb is son of Dilawar Khan Khichi",
+    "src": "https://tribune.com.pk/story/2454214/dynastic-politics-dominates-veharis-electoral-landscape"
+   },
+   {
+    "a": "P01487",
+    "b": "P03098",
+    "rel": "uncle-nephew",
+    "note": "Aftab is son of Dilawar's brother Mumtaz Khichi",
+    "src": "https://loksujag.com/story/vehari-election-situation-scenario-eng"
+   },
+   {
+    "a": "P03109",
+    "b": "P03098",
+    "rel": "cousins",
+    "note": "First cousins contesting adjacent Vehari seats",
+    "src": "https://loksujag.com/story/vehari-election-situation-scenario-eng"
+   }
+  ],
+  "total_wins": 4
+ },
+ {
+  "family": "Daultana",
+  "base": "Vehari",
+  "notes": "Lineage of ex-Punjab CM Mumtaz Daultana. 'Azeema Daultana' in data is actually Azeem Daultana (male).",
+  "nodes": [
+   {
+    "id": "P00173",
+    "name": "Tehmina Daultana",
+    "wins": 4,
+    "win_years": "1993|1997|2008|2024",
+    "years": "1993|1997|2002|2008|2018|2024",
+    "parties": "PMLN",
+    "districts": "vehari"
+   },
+   {
+    "id": "P03097",
+    "name": "Shahida Daultana",
+    "wins": 0,
+    "win_years": "",
+    "years": "2002",
+    "parties": "PPP",
+    "districts": "vehari"
+   },
+   {
+    "id": "P04717",
+    "name": "Azeema Daultana",
+    "wins": 1,
+    "win_years": "2008",
+    "years": "2008",
+    "parties": "PPP",
+    "districts": "vehari"
+   },
+   {
+    "id": "P06924",
+    "name": "Natasha Daultana",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013|2018",
+    "parties": "PPP",
+    "districts": "vehari"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00173",
+    "b": "P03097",
+    "rel": "cousins",
+    "note": "Shahida (daughter of ex-CM Mumtaz Daultana) vs cousin Tehmina in 2002",
+    "src": "https://www.dawn.com/news/54310"
+   },
+   {
+    "a": "P04717",
+    "b": "P06924",
+    "rel": "siblings",
+    "note": "Azeem Daultana (miscoded 'Azeema'; d.2012) and sister Natasha",
+    "src": "https://en.wikipedia.org/wiki/Azeem_Daultana"
+   },
+   {
+    "a": "P00173",
+    "b": "P04717",
+    "rel": "aunt-nephew",
+    "note": "Azeem was Tehmina's nephew",
+    "src": "https://en.wikipedia.org/wiki/Azeem_Daultana"
+   },
+   {
+    "a": "P00173",
+    "b": "P06924",
+    "rel": "aunt-nephew",
+    "note": "Natasha is Tehmina's niece",
+    "src": "https://www.dawn.com/news/1419976"
+   }
+  ],
+  "total_wins": 5
+ },
+ {
+  "family": "Talpur (Mirpurkhas/Umerkot)",
+  "base": "Mirpur Khas / Umerkot",
+  "notes": "No sourced kinship between Yousuf Talpur (Umerkot) and Munawar Ali Talpur (Mirpurkhas) - same tribe, treat as separate dynasties.",
+  "nodes": [
+   {
+    "id": "P05102",
+    "name": "Mir Munawar Ali Talpur",
+    "wins": 4,
+    "win_years": "2008|2013|2018|2024",
+    "years": "2008|2013|2018|2024",
+    "parties": "PPP",
+    "districts": "mirpurkhas|old mirpurkhas"
+   },
+   {
+    "id": "P01651",
+    "name": "Faryal Talpur",
+    "wins": 1,
+    "win_years": "2013",
+    "years": "1997|2013",
+    "parties": "IND|PPP",
+    "districts": "nawabshah|old larkana"
+   },
+   {
+    "id": "P00493",
+    "name": "Nawab Muhammad Yousif Talpur",
+    "wins": 6,
+    "win_years": "1993|2002|2008|2013|2018|2024",
+    "years": "1993|1997|2002|2008|2013|2018|2024",
+    "parties": "PPP",
+    "districts": "mirpurkhas|mirpurkhas cum umerkot|old mirpurkhas|umerkot"
+   },
+   {
+    "id": "P14081",
+    "name": "Muhammad Taimur Talpur",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "IND",
+    "districts": "umerkot"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P05102",
+    "b": "P01651",
+    "rel": "spouses",
+    "note": "Faryal Talpur (nee Zardari) is Mir Munawar Ali Talpur's wife",
+    "src": "https://en.wikipedia.org/wiki/Faryal_Talpur"
+   },
+   {
+    "a": "P00493",
+    "b": "P14081",
+    "rel": "father-son",
+    "note": "Taimur Talpur is son of Nawab Yousuf Talpur (identity high-probability)",
+    "src": "https://www.dawn.com/news/1892860/mna-nawab-yousuf-talpur-passes-away"
+   }
+  ],
+  "total_wins": 11
+ },
+ {
+  "family": "Bachani",
+  "base": "Tando Allahyar",
+  "notes": "Husband-wife-son seat rotation in NA-217/223/224.",
+  "nodes": [
+   {
+    "id": "P00456",
+    "name": "Abdul Sattar Bachani",
+    "wins": 2,
+    "win_years": "1993|2013",
+    "years": "1993|1997|2013|2018|2024",
+    "parties": "IND|PPP",
+    "districts": "hyderabad|old hyderabad|tando allahyar"
+   },
+   {
+    "id": "P03451",
+    "name": "Shamshad Sattar Bachani",
+    "wins": 2,
+    "win_years": "2002|2008",
+    "years": "2002|2008",
+    "parties": "PPP",
+    "districts": "hyderabad|old hyderabad"
+   },
+   {
+    "id": "P05069",
+    "name": "Zulfiqar Bachani",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2008|2018|2024",
+    "parties": "IND|PPP",
+    "districts": "old hyderabad|tando allahyar"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00456",
+    "b": "P03451",
+    "rel": "spouses",
+    "note": "Shamshad is Abdul Sattar Bachani's wife (held seat 2002/2008)",
+    "src": "https://www.dawn.com/news/1026171/tando-allahyar-magsis-vs-ppp-with-a-few-vote-spoilers"
+   },
+   {
+    "a": "P00456",
+    "b": "P05069",
+    "rel": "father-son",
+    "note": "Zulfiqar Sattar Bachani succeeded to the seat 2018/2024",
+    "src": "https://www.app.com.pk/domestic/senior-ppp-leader-haji-abdul-sattar-bachani-laid-to-rest-in-tando-allahyar/"
+   },
+   {
+    "a": "P03451",
+    "b": "P05069",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://www.pakpedia.pk/zulfiqar-bachani/"
+   }
+  ],
+  "total_wins": 6
+ },
+ {
+  "family": "Mirza",
+  "base": "Badin",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00472",
+    "name": "Dr. Zulfiqar Ali Mirza",
+    "wins": 1,
+    "win_years": "1993",
+    "years": "1993|2008|2024",
+    "parties": "IND|PPP",
+    "districts": "badin|old badin"
+   },
+   {
+    "id": "P01764",
+    "name": "Dr. Fahmida Mirza",
+    "wins": 5,
+    "win_years": "1997|2002|2008|2013|2018",
+    "years": "1997|2002|2008|2013|2018|2024",
+    "parties": "GDA|IND|PPP",
+    "districts": "badin|old badin"
+   },
+   {
+    "id": "P07754",
+    "name": "Hasnain Ali Mirza",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013|2024",
+    "parties": "IND",
+    "districts": "badin|old badin"
+   },
+   {
+    "id": "P11147",
+    "name": "Muhammad Hassam Mirza",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018|2024",
+    "parties": "GDA|IND",
+    "districts": "badin"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00472",
+    "b": "P01764",
+    "rel": "spouses",
+    "note": "Zulfiqar Mirza and Speaker Fehmida Mirza, Badin's power couple",
+    "src": "https://www.dawn.com/news/1809336/battle-lines-drawn-between-resilient-mirzas-vigilant-ppp-in-badin"
+   },
+   {
+    "a": "P00472",
+    "b": "P07754",
+    "rel": "father-son",
+    "note": "Hasnain Mirza (MPA Badin) their son",
+    "src": "https://en.wikipedia.org/wiki/Hasnain_Mirza"
+   },
+   {
+    "a": "P01764",
+    "b": "P07754",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Hasnain_Mirza"
+   },
+   {
+    "a": "P00472",
+    "b": "P11147",
+    "rel": "father-son",
+    "note": "Hassam Mirza, GDA's NA Badin candidate 2018/2024",
+    "src": "https://www.thenews.com.pk/print/1143340-nomination-papers-of-zulfiqar-mirza-fahmida-mirza-two-sons-rejected"
+   },
+   {
+    "a": "P01764",
+    "b": "P11147",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://www.dawn.com/news/1809336/battle-lines-drawn-between-resilient-mirzas-vigilant-ppp-in-badin"
+   },
+   {
+    "a": "P07754",
+    "b": "P11147",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.thenews.com.pk/print/1143340-nomination-papers-of-zulfiqar-mirza-fahmida-mirza-two-sons-rejected"
+   }
+  ],
+  "total_wins": 6
+ },
+ {
+  "family": "Jillani Pirs",
+  "base": "Tharparkar / Mirpurkhas",
+  "notes": "Two branches; no sourced kinship between them. Distinct from Multan Gilanis.",
+  "nodes": [
+   {
+    "id": "P00482",
+    "name": "Pir Aftab Hussain Shah Gilani",
+    "wins": 5,
+    "win_years": "1993|1997|2002|2008|2024",
+    "years": "1993|1997|2002|2008|2018|2024",
+    "parties": "IND|PPP",
+    "districts": "mirpur khas|mirpurkhas|old mirpurkhas"
+   },
+   {
+    "id": "P05094",
+    "name": "Pir Shafqat Hussain Shah Jilani",
+    "wins": 1,
+    "win_years": "2013",
+    "years": "2008|2013",
+    "parties": "IND|PPP",
+    "districts": "old mirpurkhas"
+   },
+   {
+    "id": "P01781",
+    "name": "Pir Noor M. Shah Jilani",
+    "wins": 3,
+    "win_years": "1997|2013|2018",
+    "years": "1997|2008|2013|2018",
+    "parties": "PMLF|PMLN|PPP",
+    "districts": "mirpurkhas cum umerkot|old mirpurkhas|tharparkar"
+   },
+   {
+    "id": "P14083",
+    "name": "Pir Ameer Ali Shah Jellani",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PPP",
+    "districts": "tharparkar"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00482",
+    "b": "P05094",
+    "rel": "siblings",
+    "note": "Pir Aftab and Pir Shafqat Jillani are brothers",
+    "src": "https://en.wikipedia.org/wiki/Aftab_Hussain_Shah_Jillani"
+   },
+   {
+    "a": "P01781",
+    "b": "P14083",
+    "rel": "father-son",
+    "note": "Ameer Ali Shah Jeelani succeeded father Pir Noor Muhammad (d.2020)",
+    "src": "https://en.wikipedia.org/wiki/Pir_Ameer_Ali_Shah_Jeelani"
+   }
+  ],
+  "total_wins": 10
+ },
+ {
+  "family": "Shirazi",
+  "base": "Thatta / Sujawal",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00563",
+    "name": "Syed Ijaz Ali Shah Sheerazi",
+    "wins": 0,
+    "win_years": "",
+    "years": "1993|1997",
+    "parties": "IND",
+    "districts": "thatta"
+   },
+   {
+    "id": "P00564",
+    "name": "Syed Shafqat Hussain Shah Sheerazi",
+    "wins": 2,
+    "win_years": "1993|1997",
+    "years": "1993|1997|2013|2018",
+    "parties": "IND|PPP",
+    "districts": "sujawal|thatta"
+   },
+   {
+    "id": "P03537",
+    "name": "Syed Ayaz Ali Shah Sheerazi",
+    "wins": 5,
+    "win_years": "2002|2008|2013|2018|2024",
+    "years": "2002|2008|2013|2018|2024",
+    "parties": "IND|PMLQ|PPP",
+    "districts": "sujawal|thatta"
+   },
+   {
+    "id": "P05200",
+    "name": "Syed Riaz Hussain Shah Sheerazi",
+    "wins": 0,
+    "win_years": "",
+    "years": "2008|2013",
+    "parties": "IND|PMLQ",
+    "districts": "thatta"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00563",
+    "b": "P00564",
+    "rel": "siblings",
+    "note": "Aijaz and Shafqat, sons of patriarch Qadir Dino Shah Shirazi",
+    "src": "https://www.dawn.com/news/757967/shirazis-of-thatta-join-ppp-again"
+   },
+   {
+    "a": "P00563",
+    "b": "P03537",
+    "rel": "father-son",
+    "note": "Ayaz Shah Sheerazi (MNA 2002-) is Aijaz's son",
+    "src": "https://www.dawn.com/news/757967/shirazis-of-thatta-join-ppp-again"
+   },
+   {
+    "a": "P00563",
+    "b": "P05200",
+    "rel": "father-son",
+    "note": "Riaz Shah Shirazi (MPA) also Aijaz's son",
+    "src": "https://www.brecorder.com/news/40039663"
+   },
+   {
+    "a": "P03537",
+    "b": "P05200",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.brecorder.com/news/40039663"
+   },
+   {
+    "a": "P00564",
+    "b": "P03537",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://www.dawn.com/news/757967/shirazis-of-thatta-join-ppp-again"
+   }
+  ],
+  "total_wins": 7
+ },
+ {
+  "family": "Mahar",
+  "base": "Ghotki / Shikarpur",
+  "notes": "Ghotki sardar lineage and Shikarpur branch share the tribe; no specific kinship sourced between them.",
+  "nodes": [
+   {
+    "id": "P04884",
+    "name": "Ali Muhammad Khan Mahar",
+    "wins": 3,
+    "win_years": "2008|2013|2018",
+    "years": "2008|2013|2018",
+    "parties": "IND|PPP",
+    "districts": "ghotki"
+   },
+   {
+    "id": "P01601",
+    "name": "Ali Gohar Khan Mahar",
+    "wins": 2,
+    "win_years": "2013|2024",
+    "years": "1997|2013|2024",
+    "parties": "IND|PPP",
+    "districts": "ghotki|sukkur cum ghotki"
+   },
+   {
+    "id": "P10947",
+    "name": "Ali Nawaz Khan Mahar",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018",
+    "parties": "IND",
+    "districts": "ghotki"
+   },
+   {
+    "id": "P00283",
+    "name": "Sardar Ghulam M. Khan Mehar",
+    "wins": 1,
+    "win_years": "1993",
+    "years": "1993",
+    "parties": "PMLN",
+    "districts": "sukkur cum ghotki"
+   },
+   {
+    "id": "P07363",
+    "name": "Haji Khan Mahar",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "IND",
+    "districts": "ghotki"
+   },
+   {
+    "id": "P01614",
+    "name": "Ghous Bux Khan Mahar",
+    "wins": 5,
+    "win_years": "1997|2002|2008|2013|2018",
+    "years": "1997|2002|2008|2013|2018|2024",
+    "parties": "GDA|IND|PMLF|PMLQ",
+    "districts": "old shikarpur|shikarpur"
+   },
+   {
+    "id": "P13905",
+    "name": "Muhammad Shahryar Khan Mahar",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PPP",
+    "districts": "shikarpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P04884",
+    "b": "P01601",
+    "rel": "siblings",
+    "note": "Ali Mohammad (ex-CM Sindh) and Ali Gohar (tribal sardar), sons of Ali Anwar Mahar",
+    "src": "https://en.wikipedia.org/wiki/Ali_Mohammad_Mahar"
+   },
+   {
+    "a": "P04884",
+    "b": "P10947",
+    "rel": "siblings",
+    "note": "Ali Nawaz third brother",
+    "src": "https://en.wikipedia.org/wiki/Ali_Nawaz_Khan_Mahar"
+   },
+   {
+    "a": "P01601",
+    "b": "P10947",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Ali_Gohar_Khan_Mahar"
+   },
+   {
+    "a": "P00283",
+    "b": "P01601",
+    "rel": "uncle-nephew",
+    "note": "Ghulam Muhammad Mahar (d.1995) paternal uncle of the Ali Anwar branch",
+    "src": "https://www.dawn.com/news/1495964"
+   },
+   {
+    "a": "P00283",
+    "b": "P04884",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Ghulam_Muhammad_Khan_Mahar"
+   },
+   {
+    "a": "P01601",
+    "b": "P07363",
+    "rel": "father-son",
+    "note": "Haji Khan Mahar is Ali Gohar's son",
+    "src": "https://www.dawn.com/news/1495964"
+   },
+   {
+    "a": "P01614",
+    "b": "P13905",
+    "rel": "father-son",
+    "note": "Shahryar Mahar (MNA Shikarpur 2024) is Ghous Bux Mahar's son",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Shaharyar_Khan_Mahar"
+   }
+  ],
+  "total_wins": 12
+ },
+ {
+  "family": "Bhutto-Zardari",
+  "base": "Larkana / Nawabshah",
+  "notes": "Bilawal is also grandson of Nusrat Bhutto. Faryal's marriage to Mir Munawar Ali Talpur links this family to the Mirpurkhas Talpurs.",
+  "nodes": [
+   {
+    "id": "P00400",
+    "name": "Begum Nusrat Bhutto",
+    "wins": 2,
+    "win_years": "1993|1997",
+    "years": "1993|1997",
+    "parties": "PPP",
+    "districts": "larkana"
+   },
+   {
+    "id": "P00416",
+    "name": "Benazir Bhutto",
+    "wins": 3,
+    "win_years": "1993|1997",
+    "years": "1993|1997",
+    "parties": "PPP",
+    "districts": "hyderabad|larkana"
+   },
+   {
+    "id": "P00412",
+    "name": "Mir Murtaza Bhutto",
+    "wins": 0,
+    "win_years": "",
+    "years": "1993",
+    "parties": "Shaheed Bhutto Committee",
+    "districts": "badin|dadu|hyderabad|karachi south|larkana|thatta"
+   },
+   {
+    "id": "P00330",
+    "name": "Asif Ali Zardari",
+    "wins": 3,
+    "win_years": "1993|2018|2024",
+    "years": "1993|2018|2024",
+    "parties": "PPP",
+    "districts": "naushero feroz|nawabshah|shaheed benazirabad"
+   },
+   {
+    "id": "P09469",
+    "name": "Bilawal Bhutto Zardari",
+    "wins": 3,
+    "win_years": "2018|2024",
+    "years": "2018|2024",
+    "parties": "PPP",
+    "districts": "karachi south|lahore|larkana|malakand|qambar shahdadkot"
+   },
+   {
+    "id": "P00374",
+    "name": "Hakim Ali Zardari",
+    "wins": 1,
+    "win_years": "1993",
+    "years": "1993|1997",
+    "parties": "IND|PPP",
+    "districts": "nawabshah"
+   },
+   {
+    "id": "P01651",
+    "name": "Faryal Talpur",
+    "wins": 1,
+    "win_years": "2013",
+    "years": "1997|2013",
+    "parties": "IND|PPP",
+    "districts": "nawabshah|old larkana"
+   },
+   {
+    "id": "P01687",
+    "name": "Ghinwa Bhutto",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997|2008|2013",
+    "parties": "PPP-SB",
+    "districts": "larkana|old larkana"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00400",
+    "b": "P00416",
+    "rel": "mother-daughter",
+    "note": "Nusrat Bhutto and Benazir",
+    "src": "https://en.wikipedia.org/wiki/Nusrat_Bhutto"
+   },
+   {
+    "a": "P00400",
+    "b": "P00412",
+    "rel": "mother-son",
+    "note": "Murtaza was Nusrat's eldest son",
+    "src": "https://en.wikipedia.org/wiki/Murtaza_Bhutto"
+   },
+   {
+    "a": "P00416",
+    "b": "P00412",
+    "rel": "siblings",
+    "note": "Politically estranged; Murtaza killed 1996",
+    "src": "https://en.wikipedia.org/wiki/Murtaza_Bhutto"
+   },
+   {
+    "a": "P00416",
+    "b": "P00330",
+    "rel": "spouses",
+    "note": "Benazir m. Asif Zardari 1987",
+    "src": "https://en.wikipedia.org/wiki/Benazir_Bhutto"
+   },
+   {
+    "a": "P00330",
+    "b": "P09469",
+    "rel": "father-son",
+    "note": "Bilawal inherited the Larkana seat",
+    "src": "https://en.wikipedia.org/wiki/Bilawal_Bhutto_Zardari"
+   },
+   {
+    "a": "P00416",
+    "b": "P09469",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Bilawal_Bhutto_Zardari"
+   },
+   {
+    "a": "P00374",
+    "b": "P00330",
+    "rel": "father-son",
+    "note": "Hakim Ali Zardari won Nawabshah 1993",
+    "src": "https://en.wikipedia.org/wiki/Hakim_Ali_Zardari"
+   },
+   {
+    "a": "P00374",
+    "b": "P01651",
+    "rel": "father-daughter",
+    "note": "Faryal is Hakim Ali's daughter",
+    "src": "https://en.wikipedia.org/wiki/Zardari_family"
+   },
+   {
+    "a": "P00330",
+    "b": "P01651",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.dawn.com/news/1024467/faryal-talpur"
+   },
+   {
+    "a": "P00374",
+    "b": "P09469",
+    "rel": "grandfather-grandson",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Zardari_family"
+   },
+   {
+    "a": "P01651",
+    "b": "P09469",
+    "rel": "aunt-nephew",
+    "note": "",
+    "src": "https://www.dawn.com/news/1024467/faryal-talpur"
+   },
+   {
+    "a": "P00412",
+    "b": "P01687",
+    "rel": "spouses",
+    "note": "Ghinwa is Murtaza's widow, leads PPP-SB",
+    "src": "https://en.wikipedia.org/wiki/Ghinwa_Bhutto"
+   },
+   {
+    "a": "P00416",
+    "b": "P01687",
+    "rel": "in-laws",
+    "note": "Sisters-in-law; branches contested Larkana against each other",
+    "src": "https://en.wikipedia.org/wiki/Ghinwa_Bhutto"
+   }
+  ],
+  "total_wins": 13
+ },
+ {
+  "family": "Jatoi",
+  "base": "Naushahro Feroze",
+  "notes": "The Dadu Jatois (Liaqat Ali Jatoi etc.) are a different hereditary family.",
+  "nodes": [
+   {
+    "id": "P00329",
+    "name": "Ghulam Mustafa Khan Jatoi",
+    "wins": 2,
+    "win_years": "1993|1997",
+    "years": "1993|1997",
+    "parties": "National Peoples Party",
+    "districts": "naushero feroz"
+   },
+   {
+    "id": "P01644",
+    "name": "Ghulam Murtaza Khan Jatoi",
+    "wins": 2,
+    "win_years": "2008|2013",
+    "years": "1997|2008|2013|2018|2024",
+    "parties": "GDA|IND|NP|National Peoples Party",
+    "districts": "naushahro feroze|naushero feroz|naushero feroze"
+   },
+   {
+    "id": "P01640",
+    "name": "Arif Mustafa Jatoi",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997|2002|2018",
+    "parties": "IND",
+    "districts": "naushahro feroze|naushero feroz"
+   },
+   {
+    "id": "P01638",
+    "name": "Masroor Khan Jatoi",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997|2013",
+    "parties": "IND|Pakistan Milli Ittehad",
+    "districts": "naushero feroz|naushero feroze"
+   },
+   {
+    "id": "P03357",
+    "name": "Dr. Abdul Ghaffar Khan Jatoi",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "2002",
+    "parties": "NA(alliance)",
+    "districts": "naushero feroz"
+   },
+   {
+    "id": "P07525",
+    "name": "Asif Mustafa Jatoi",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "IND",
+    "districts": "naushero feroze"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00329",
+    "b": "P01644",
+    "rel": "father-son",
+    "note": "Ghulam Murtaza is son of caretaker-PM Ghulam Mustafa Jatoi",
+    "src": "https://en.wikipedia.org/wiki/Ghulam_Murtaza_Jatoi"
+   },
+   {
+    "a": "P00329",
+    "b": "P01640",
+    "rel": "father-son",
+    "note": "Arif Mustafa Jatoi",
+    "src": "https://en.wikipedia.org/wiki/Arif_Mustafa_Jatoi"
+   },
+   {
+    "a": "P00329",
+    "b": "P01638",
+    "rel": "father-son",
+    "note": "Masroor Khan Jatoi",
+    "src": "https://www.dawn.com/news/504792/thousands-attend-jatoi-funeral"
+   },
+   {
+    "a": "P00329",
+    "b": "P03357",
+    "rel": "siblings",
+    "note": "Dr Abdul Ghaffar Jatoi held NA-211 in 2002",
+    "src": "https://www.dawn.com/news/504792/thousands-attend-jatoi-funeral"
+   },
+   {
+    "a": "P00329",
+    "b": "P07525",
+    "rel": "father-son",
+    "note": "Asif Mustafa Jatoi, ex-senator",
+    "src": "https://www.dawn.com/news/846847/veteran-politician-mustafa-jatoi-dies"
+   }
+  ],
+  "total_wins": 5
+ },
+ {
+  "family": "Sharif",
+  "base": "Lahore",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00127",
+    "name": "Mian M. Nawaz Sharif",
+    "wins": 8,
+    "win_years": "1993|1997|2013|2024",
+    "years": "1993|1997|2013|2024",
+    "parties": "PMLN",
+    "districts": "abbbottabad cum haripur|abbottabad cum haripur|lahore|manseh"
+   },
+   {
+    "id": "P01325",
+    "name": "Mian Muhammad Shehbaz Sharif",
+    "wins": 6,
+    "win_years": "1993|1997|2013|2018|2024",
+    "years": "1993|1997|2013|2018|2024",
+    "parties": "PMLN",
+    "districts": "dg khan|karachi west|kasur|lahore|swat"
+   },
+   {
+    "id": "P06203",
+    "name": "Muhammad Hamza Shehbaz Sharif",
+    "wins": 3,
+    "win_years": "2013|2018|2024",
+    "years": "2013|2018|2024",
+    "parties": "PMLN",
+    "districts": "lahore"
+   },
+   {
+    "id": "P13165",
+    "name": "Maryam Nawaz Sharif",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PMLN",
+    "districts": "lahore"
+   },
+   {
+    "id": "P07485",
+    "name": "Capt. (R) Muhammad Safdar",
+    "wins": 1,
+    "win_years": "2013",
+    "years": "2013",
+    "parties": "PMLN",
+    "districts": "tor ghar cum mansehra"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00127",
+    "b": "P01325",
+    "rel": "siblings",
+    "note": "Nawaz and Shehbaz Sharif, both PMs",
+    "src": "https://en.wikipedia.org/wiki/Hamza_Shahbaz"
+   },
+   {
+    "a": "P01325",
+    "b": "P06203",
+    "rel": "father-son",
+    "note": "Hamza Shahbaz",
+    "src": "https://en.wikipedia.org/wiki/Hamza_Shahbaz"
+   },
+   {
+    "a": "P00127",
+    "b": "P13165",
+    "rel": "father-daughter",
+    "note": "Maryam Nawaz, CM Punjab",
+    "src": "https://en.wikipedia.org/wiki/Maryam_Nawaz"
+   },
+   {
+    "a": "P13165",
+    "b": "P07485",
+    "rel": "spouses",
+    "note": "Capt (R) Safdar Awan m. Maryam 1992",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Safdar_Awan"
+   },
+   {
+    "a": "P00127",
+    "b": "P06203",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Hamza_Shahbaz"
+   },
+   {
+    "a": "P01325",
+    "b": "P13165",
+    "rel": "uncle-nephew",
+    "note": "Uncle-niece",
+    "src": "https://en.wikipedia.org/wiki/Maryam_Nawaz"
+   },
+   {
+    "a": "P06203",
+    "b": "P13165",
+    "rel": "cousins",
+    "note": "Rival heirs apparent",
+    "src": "https://en.wikipedia.org/wiki/Maryam_Nawaz"
+   },
+   {
+    "a": "P00127",
+    "b": "P07485",
+    "rel": "in-laws",
+    "note": "Son-in-law",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Safdar_Awan"
+   }
+  ],
+  "total_wins": 19
+ },
+ {
+  "family": "Chaudhry of Gujrat",
+  "base": "Gujrat",
+  "notes": "Moonis Elahi's NA-64 win was a 2018 by-election (not in GE data); Shafay Hussain is provincial.",
+  "nodes": [
+   {
+    "id": "P01227",
+    "name": "Ch. Shujaat Hussain",
+    "wins": 3,
+    "win_years": "1997|2002",
+    "years": "1993|1997|2002|2008",
+    "parties": "PMLN|PMLQ",
+    "districts": "bhakkar|gujrat"
+   },
+   {
+    "id": "P02735",
+    "name": "Ch. Wajahat Hussain",
+    "wins": 2,
+    "win_years": "2002|2008",
+    "years": "2002|2008|2013",
+    "parties": "IND|PMLQ",
+    "districts": "gujrat"
+   },
+   {
+    "id": "P04809",
+    "name": "Parvez Elahi",
+    "wins": 3,
+    "win_years": "2013|2018",
+    "years": "2008|2013|2018",
+    "parties": "PML|PMLQ",
+    "districts": "bahawalpur|chakwal|gujrat"
+   },
+   {
+    "id": "P12456",
+    "name": "Choudhary Salik Hussain",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PMLQ",
+    "districts": "gujrat"
+   },
+   {
+    "id": "P10005",
+    "name": "Hussain Elahi",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2018|2024",
+    "parties": "PML|PMLQ",
+    "districts": "gujrat"
+   },
+   {
+    "id": "P12431",
+    "name": "Ch. Musa Elahi",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "PMLQ",
+    "districts": "gujrat"
+   },
+   {
+    "id": "P12457",
+    "name": "Qaisara Elahi",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "IND",
+    "districts": "gujrat|mandi bahauddin"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01227",
+    "b": "P02735",
+    "rel": "siblings",
+    "note": "Shujaat and Wajahat, sons of Zahoor Elahi",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Shujaat_Hussain"
+   },
+   {
+    "a": "P01227",
+    "b": "P04809",
+    "rel": "cousins",
+    "note": "Pervaiz Elahi first cousin (also brother-in-law)",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Shujaat_Hussain"
+   },
+   {
+    "a": "P02735",
+    "b": "P04809",
+    "rel": "cousins",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Shujaat_Hussain"
+   },
+   {
+    "a": "P01227",
+    "b": "P12456",
+    "rel": "father-son",
+    "note": "Salik Hussain won NA-64 2024",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Salik_Hussain"
+   },
+   {
+    "a": "P02735",
+    "b": "P10005",
+    "rel": "father-son",
+    "note": "Hussain Elahi won NA-68 2018, NA-63 2024",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
+   },
+   {
+    "a": "P02735",
+    "b": "P12431",
+    "rel": "father-son",
+    "note": "Musa Elahi",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Musa_Elahi"
+   },
+   {
+    "a": "P10005",
+    "b": "P12431",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Musa_Elahi"
+   },
+   {
+    "a": "P04809",
+    "b": "P12457",
+    "rel": "spouses",
+    "note": "Qaisara Elahi, PTI-backed 2024",
+    "src": "https://www.dawn.com/news/1807450"
+   },
+   {
+    "a": "P01227",
+    "b": "P12457",
+    "rel": "siblings",
+    "note": "Qaisara is Shujaat's sister",
+    "src": "https://www.dawn.com/news/1807450"
+   },
+   {
+    "a": "P12457",
+    "b": "P12456",
+    "rel": "aunt-nephew",
+    "note": "Aunt vs nephew contest NA-64 2024",
+    "src": "https://www.dawn.com/news/1807450"
+   },
+   {
+    "a": "P01227",
+    "b": "P10005",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
+   },
+   {
+    "a": "P01227",
+    "b": "P12431",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Musa_Elahi"
+   },
+   {
+    "a": "P02735",
+    "b": "P12456",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Salik_Hussain"
+   },
+   {
+    "a": "P12456",
+    "b": "P10005",
+    "rel": "cousins",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
+   }
+  ],
+  "total_wins": 11
+ },
+ {
+  "family": "Bilour",
+  "base": "Peshawar",
+  "notes": "Bashir and Haroon Bilour (both assassinated) held provincial seats only, so absent from NA data. Cookman has no 1997 NA-1 Peshawar rows at all - Ghulam Bilour's 1997 record is missing from source data.",
+  "nodes": [
+   {
+    "id": "P00001",
+    "name": "Haji Ghulam Ahmed Bilour",
+    "wins": 1,
+    "win_years": "2008",
+    "years": "1993|2008|2013|2018|2024",
+    "parties": "ANP",
+    "districts": "peshawar"
+   },
+   {
+    "id": "P09627",
+    "name": "Ilyas Ahmad Bilour",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018",
+    "parties": "IND",
+    "districts": "peshawar"
+   },
+   {
+    "id": "P02712",
+    "name": "Usman Bashir Bilour",
+    "wins": 0,
+    "win_years": "",
+    "years": "2002",
+    "parties": "ANP",
+    "districts": "peshawar"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00001",
+    "b": "P09627",
+    "rel": "siblings",
+    "note": "Ghulam Ahmad and Ilyas Bilour, brothers (identity of 2018 row probable)",
+    "src": "https://en.wikipedia.org/wiki/Ilyas_Ahmed_Bilour"
+   },
+   {
+    "a": "P00001",
+    "b": "P02712",
+    "rel": "uncle-nephew",
+    "note": "Usman Bashir Bilour (d.2014), son of Bashir Bilour (assassinated 2012)",
+    "src": "https://tribune.com.pk/story/804216/usman-bashir-bilour-1972-2014"
+   },
+   {
+    "a": "P09627",
+    "b": "P02712",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Ilyas_Ahmed_Bilour"
+   }
+  ],
+  "total_wins": 1
+ },
+ {
+  "family": "Wali Khan / Hoti",
+  "base": "Charsadda / Mardan",
+  "notes": "Khwaja Muhammad Khan Hoti branch is a rival wing of the Hoti clan; exact blood kinship unsourced, no edge drawn.",
+  "nodes": [
+   {
+    "id": "P01071",
+    "name": "Asfandyar Wali Khan",
+    "wins": 3,
+    "win_years": "1993|1997|2008",
+    "years": "1993|1997|2002|2008|2013|2018",
+    "parties": "ANP",
+    "districts": "charsadda|swabi"
+   },
+   {
+    "id": "P11863",
+    "name": "Aimal Wali Khan",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "ANP",
+    "districts": "charsadda"
+   },
+   {
+    "id": "P11838",
+    "name": "Amir Haider Khan",
+    "wins": 2,
+    "win_years": "2013|2018",
+    "years": "2013|2018|2024",
+    "parties": "ANP",
+    "districts": "mardan"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01071",
+    "b": "P11863",
+    "rel": "father-son",
+    "note": "Aimal Wali (ANP president) son of Asfandyar; great-grandson of Bacha Khan",
+    "src": "https://en.wikipedia.org/wiki/Aimal_Wali_Khan"
+   },
+   {
+    "a": "P01071",
+    "b": "P11838",
+    "rel": "uncle-nephew",
+    "note": "Ameer Haider Hoti (KP CM 2008-13) is Asfandyar's nephew via the Hoti-Wali Khan marriage",
+    "src": "https://en.wikipedia.org/wiki/Ameer_Haider_Khan_Hoti"
+   },
+   {
+    "a": "P11863",
+    "b": "P11838",
+    "rel": "cousins",
+    "note": "The two 2024 ANP standard-bearers are first cousins",
+    "src": "https://en.wikipedia.org/wiki/Ameer_Haider_Khan_Hoti"
+   }
+  ],
+  "total_wins": 5
+ },
+ {
+  "family": "Niazi (Mianwali)",
+  "base": "Mianwali",
+  "notes": "2024 NA-89 'Imran Khan' (IND, 8th) is a namesake, not the PTI founder. Rokhri-Niazi family (Humair Hayat Rokhri) is a third Mianwali dynasty.",
+  "nodes": [
+   {
+    "id": "P01405",
+    "name": "Imran Ahmed Khan Niazi",
+    "wins": 9,
+    "win_years": "2002|2013|2018",
+    "years": "1997|2002|2013|2018",
+    "parties": "PTI",
+    "districts": "abbbottabad cum haripur|bannu|di khan cum tank cum kulachi|i"
+   },
+   {
+    "id": "P02450",
+    "name": "Inamullah Khan",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1997|2002|2008|2013",
+    "parties": "IND|PMLN",
+    "districts": "lahore|mianwali"
+   },
+   {
+    "id": "P01088",
+    "name": "Dr. Sher Afghan Khan Niazi",
+    "wins": 2,
+    "win_years": "1993|2002",
+    "years": "1993|1997|2002|2008",
+    "parties": "IND|PMLQ|PPP",
+    "districts": "mianwali"
+   },
+   {
+    "id": "P09068",
+    "name": "Amjid Ali Khan",
+    "wins": 2,
+    "win_years": "2013|2018",
+    "years": "2013|2018",
+    "parties": "PTI",
+    "districts": "mianwali"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01405",
+    "b": "P02450",
+    "rel": "cousins",
+    "note": "Inamullah Niazi, Imran Khan's estranged first cousin; ran against him in 2013",
+    "src": "https://en.wikipedia.org/wiki/Inamullah_Niazi"
+   },
+   {
+    "a": "P01088",
+    "b": "P09068",
+    "rel": "father-son",
+    "note": "Amjad Ali Khan Niazi (PTI MNA) is Sher Afgan Niazi's son - separate Niazi dynasty, not Imran's kin",
+    "src": "https://en.wikipedia.org/wiki/Amjad_Ali_Khan_Niazi"
+   }
+  ],
+  "total_wins": 14
+ },
+ {
+  "family": "Gilani",
+  "base": "Multan",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00101",
+    "name": "Syed Yousaf Raza Gilani",
+    "wins": 3,
+    "win_years": "1993|2008|2024",
+    "years": "1993|1997|2008|2018|2024",
+    "parties": "PPP",
+    "districts": "multan"
+   },
+   {
+    "id": "P04653",
+    "name": "Syed Abdul Qadir Gilani",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2008|2013|2018|2024",
+    "parties": "PPP",
+    "districts": "multan"
+   },
+   {
+    "id": "P06667",
+    "name": "Syed Ali Moosa Gilani",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2013|2018|2024",
+    "parties": "PPP",
+    "districts": "multan"
+   },
+   {
+    "id": "P06675",
+    "name": "Syed Ali Qasim Gillani",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "IND",
+    "districts": "multan"
+   },
+   {
+    "id": "P06737",
+    "name": "Syed Ali Hider Gillani",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "IND",
+    "districts": "multan"
+   },
+   {
+    "id": "P00103",
+    "name": "Syed Ahmad Mujtaba Gilani",
+    "wins": 0,
+    "win_years": "",
+    "years": "1993|1997|2002|2008|2013",
+    "parties": "IND|PPP",
+    "districts": "multan"
+   },
+   {
+    "id": "P00114",
+    "name": "Tanveer-Ul-Hassan Gilani",
+    "wins": 0,
+    "win_years": "",
+    "years": "1993|1997|2002|2018",
+    "parties": "IND|PMLQ|PPP",
+    "districts": "multan"
+   },
+   {
+    "id": "P03024",
+    "name": "Syed Asad Murtaza Gilani",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "2002|2013",
+    "parties": "IND|PPP",
+    "districts": "multan"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00101",
+    "b": "P04653",
+    "rel": "father-son",
+    "note": "Abdul Qadir Gilani, eldest son of PM Yousaf Raza Gilani",
+    "src": "https://en.wikipedia.org/wiki/Abdul_Qadir_Gillani"
+   },
+   {
+    "a": "P00101",
+    "b": "P06667",
+    "rel": "father-son",
+    "note": "Ali Musa Gilani",
+    "src": "https://en.wikipedia.org/wiki/Ali_Musa_Gilani"
+   },
+   {
+    "a": "P00101",
+    "b": "P06675",
+    "rel": "father-son",
+    "note": "Ali Qasim Gilani (2013 covering candidate; won NA-148 by-poll 2024)",
+    "src": "https://en.wikipedia.org/wiki/Kasim_Gilani"
+   },
+   {
+    "a": "P00101",
+    "b": "P06737",
+    "rel": "father-son",
+    "note": "Ali Haider Gilani (kidnapped 2013)",
+    "src": "https://en.wikipedia.org/wiki/Ali_Haider_Gilani"
+   },
+   {
+    "a": "P00101",
+    "b": "P00103",
+    "rel": "siblings",
+    "note": "Ahmed Mujtaba Gilani, YRG's younger brother",
+    "src": "https://www.pap.gov.pk/members/profile/en/19/830"
+   },
+   {
+    "a": "P00101",
+    "b": "P00114",
+    "rel": "cousins",
+    "note": "Tanveer-ul-Hassan Gilani, Minister of State 1994-96",
+    "src": "https://en.wikipedia.org/wiki/Syed_Tanveer-ul-Hassan_Gillani"
+   },
+   {
+    "a": "P00101",
+    "b": "P03024",
+    "rel": "uncle-nephew",
+    "note": "Asad Murtaza Gilani (d.2015 Mina stampede), MNA 2002",
+    "src": "https://en.wikipedia.org/wiki/Assad_Murtaza_Gilani"
+   }
+  ],
+  "total_wins": 6
+ },
+ {
+  "family": "Qureshi",
+  "base": "Multan",
+  "notes": "Father Makhdoom Sajjad Hussain Qureshi (Governor Punjab 1985-88, shrine sajjada nashin) predates the data window.",
+  "nodes": [
+   {
+    "id": "P00130",
+    "name": "Makhdoom Shah Mehmood Qureshi",
+    "wins": 5,
+    "win_years": "1993|2002|2008|2013|2018",
+    "years": "1993|1997|2002|2008|2013|2018|2024",
+    "parties": "IND|PPP|PTI",
+    "districts": "multan|multan cum khanewal|old mirpurkhas|tharparkar|umerkot"
+   },
+   {
+    "id": "P10634",
+    "name": "MAKHDOOM ZAIN  HUSSAIN QURESHI",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2018|2024",
+    "parties": "IND|PTI",
+    "districts": "multan|tharparkar"
+   },
+   {
+    "id": "P13519",
+    "name": "Mehar Bano Qureshi",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "IND",
+    "districts": "multan"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00130",
+    "b": "P10634",
+    "rel": "father-son",
+    "note": "Zain Qureshi won NA-157 in 2018, NA-150 in 2024",
+    "src": "https://en.wikipedia.org/wiki/Zain_Qureshi"
+   },
+   {
+    "a": "P00130",
+    "b": "P13519",
+    "rel": "father-daughter",
+    "note": "Mehar Bano Qureshi, PTI-backed 2024",
+    "src": "https://www.dawn.com/news/1703916"
+   },
+   {
+    "a": "P10634",
+    "b": "P13519",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.dawn.com/news/1703916"
+   }
+  ],
+  "total_wins": 7
+ },
+ {
+  "family": "Hashmi",
+  "base": "Multan",
+  "notes": "Javed Hashmi has no verified blood relatives among constituency candidates; daughter Mamoona sat on a reserved seat (not in constituency data).",
+  "nodes": [
+   {
+    "id": "P00131",
+    "name": "Makhdoom Muhammad Javed Hashmi",
+    "wins": 7,
+    "win_years": "1997|2002|2008|2013",
+    "years": "1993|1997|2002|2008|2013|2024",
+    "parties": "IND|PMLN|PTI",
+    "districts": "islamabad|lahore|multan|multan cum khanewal|rawalpindi"
+   }
+  ],
+  "edges": [],
+  "total_wins": 7
+ },
+ {
+  "family": "Chattha",
+  "base": "Gujranwala / Wazirabad",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P01184",
+    "name": "Ch. Hamid Nasir Chatha",
+    "wins": 2,
+    "win_years": "1993|2002",
+    "years": "1993|1997|2002|2008",
+    "parties": "PML-H|PMLJ|PMLQ",
+    "districts": "gujranwala|gujranwalla"
+   },
+   {
+    "id": "P04389",
+    "name": "Muhammad Ahmad Chattha",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2008|2013|2018|2024",
+    "parties": "IND|PML-H|PTI",
+    "districts": "gujranwala|gujranwalla|wazirabad"
+   },
+   {
+    "id": "P02560",
+    "name": "M. Fayyaz Chattha",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997|2024",
+    "parties": "IND",
+    "districts": "gujranwala|wazirabad"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01184",
+    "b": "P04389",
+    "rel": "father-son",
+    "note": "Ahmed Chattha inherited Wazirabad seat from ex-Speaker Hamid Nasir Chattha",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Ahmed_Chattha"
+   },
+   {
+    "a": "P01184",
+    "b": "P02560",
+    "rel": "father-son",
+    "note": "Fayyaz Chattha, two-time district nazim",
+    "src": "https://www.dawn.com/news/1936737"
+   },
+   {
+    "a": "P04389",
+    "b": "P02560",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Hamid_Nasir_Chattha"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Cheema (Wazirabad)",
+  "base": "Gujranwala / Wazirabad",
+  "notes": "Not related to Tariq Bashir Cheema of Bahawalpur.",
+  "nodes": [
+   {
+    "id": "P04386",
+    "name": "Justice Iftikhar Ahmad Cheema",
+    "wins": 2,
+    "win_years": "2008|2013",
+    "years": "2008|2013",
+    "parties": "PMLN",
+    "districts": "gujranwalla"
+   },
+   {
+    "id": "P10084",
+    "name": "NISAR AHMED CHEEMA",
+    "wins": 1,
+    "win_years": "2018",
+    "years": "2018|2024",
+    "parties": "PMLN",
+    "districts": "gujranwala|wazirabad"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P04386",
+    "b": "P10084",
+    "rel": "siblings",
+    "note": "Justice Iftikhar Cheema and Nisar Cheema, brothers (third brother ex-IG Zulfiqar)",
+    "src": "https://en.wikipedia.org/wiki/Nisar_Ahmed_Cheema"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Cheema (Bahawalpur)",
+  "base": "Bahawalpur",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00226",
+    "name": "Tariq Basheer Cheema",
+    "wins": 3,
+    "win_years": "2013|2018|2024",
+    "years": "1993|2013|2018|2024",
+    "parties": "IND|PML|PMLQ|PPP",
+    "districts": "bahawalpur|bahawlpur"
+   },
+   {
+    "id": "P04819",
+    "name": "Tahir Bashir Cheema",
+    "wins": 1,
+    "win_years": "2013",
+    "years": "2008|2013",
+    "parties": "PMLN|PMLQ",
+    "districts": "bahawalnagar"
+   },
+   {
+    "id": "P13638",
+    "name": "Wali Daad Cheema",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "IND",
+    "districts": "bahawalpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00226",
+    "b": "P04819",
+    "rel": "siblings",
+    "note": "Tahir Bashir Cheema, MNA Bahawalnagar",
+    "src": "https://en.wikipedia.org/wiki/Tariq_Bashir_Cheema"
+   },
+   {
+    "a": "P00226",
+    "b": "P13638",
+    "rel": "father-son",
+    "note": "Wali Daad Cheema contested 2024",
+    "src": "https://en.wikipedia.org/wiki/Tariq_Bashir_Cheema"
+   }
+  ],
+  "total_wins": 4
+ },
+ {
+  "family": "Tarar",
+  "base": "Hafizabad",
+  "notes": "Mandi Bahauddin Tarars (Mumtaz, Zafarullah, Tariq) are same-clan rivals, not one family.",
+  "nodes": [
+   {
+    "id": "P01193",
+    "name": "Afzal Hussain Tarar",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1993|1997",
+    "parties": "PMLN",
+    "districts": "hafizabad"
+   },
+   {
+    "id": "P04391",
+    "name": "Saira Afzal Tarar",
+    "wins": 2,
+    "win_years": "2008|2013",
+    "years": "2008|2013|2018|2024",
+    "parties": "PMLN",
+    "districts": "hafizabad"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01193",
+    "b": "P04391",
+    "rel": "father-daughter",
+    "note": "Saira Afzal Tarar (ex-health minister) daughter of Afzal Hussain Tarar",
+    "src": "https://english.aaj.tv/news/330359560/veteran-politican-afzal-tarar-passes-away"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Warraich",
+  "base": "Rahim Yar Khan",
+  "notes": "Ch Jaffar Iqbal (Gujjar) is a rival, not a Warraich.",
+  "nodes": [
+   {
+    "id": "P00254",
+    "name": "Ch. Zaffar Iqbbal Warraich",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "1993|1997|2002|2008",
+    "parties": "PMLQ|PPP",
+    "districts": "rahimyar khan"
+   },
+   {
+    "id": "P04840",
+    "name": "Javed Iqbal Warraich",
+    "wins": 2,
+    "win_years": "2008|2024",
+    "years": "2008|2013|2024",
+    "parties": "IND|PPP",
+    "districts": "rahim yar khan|rahimyar khan"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00254",
+    "b": "P04840",
+    "rel": "cousins",
+    "note": "Zafar and Javed Iqbal Warraich are cousins (Dawn)",
+    "src": "https://www.dawn.com/news/1024703/where-only-parties-change"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Mengal",
+  "base": "Khuzdar",
+  "notes": "Akhtar Mengal (son of Ataullah Mengal, who never contested NA 1993-2024) has no verified NA-contesting kin in data. Rival Naseer Mengal family: sons Shafiq (P11620) and Atta-ur-Rehman (P05448) are brothers, sons of caretaker CM Naseer Mengal.",
+  "nodes": [
+   {
+    "id": "P00819",
+    "name": "Muhammad Akhtar Mengal",
+    "wins": 3,
+    "win_years": "1997|2018|2024",
+    "years": "1993|1997|2018|2024",
+    "parties": "BNP|Balochistan National Movement (Mengal)",
+    "districts": "kalat cum mastung cum kharan|khuzdar|lasbela cum gwadar|quet"
+   },
+   {
+    "id": "P03852",
+    "name": "Abdur Rauf Mengal",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "2002",
+    "parties": "BNP",
+    "districts": "khuzdar"
+   }
+  ],
+  "edges": [],
+  "total_wins": 4
+ },
+ {
+  "family": "Mengal (Naseer branch)",
+  "base": "Khuzdar (Wadh)",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P11620",
+    "name": "MirShafiq U Rehman Mengal",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018|2024",
+    "parties": "IND",
+    "districts": "khuzdar"
+   },
+   {
+    "id": "P05448",
+    "name": "Mir Atta-Ur-Rehman Mengal",
+    "wins": 0,
+    "win_years": "",
+    "years": "2008|2013",
+    "parties": "IND|PMLQ",
+    "districts": "khuzdar"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P11620",
+    "b": "P05448",
+    "rel": "siblings",
+    "note": "Shafiq and Atta-ur-Rehman, sons of ex-caretaker-CM Naseer Mengal; anti-BNP family",
+    "src": "https://www.thenews.com.pk/print/1323973-baloch-leader-killed-in-khuzdar-attack"
+   }
+  ],
+  "total_wins": 0
+ },
+ {
+  "family": "Bugti",
+  "base": "Dera Bugti",
+  "notes": "Kalpar-clan Bugtis (Ahmadan Bugti) are tribal rivals, not kin. Mian Khan Mandrani Bugti (2024 winner) is Mondrani sub-tribe, unconnected.",
+  "nodes": [
+   {
+    "id": "P00809",
+    "name": "Nawab M. Akbar Khan Bugti",
+    "wins": 2,
+    "win_years": "1993|1997",
+    "years": "1993|1997",
+    "parties": "JWP",
+    "districts": "sibi cum dera bugti cum kohlu cum ziarat|sibi cum kohlu cum "
+   },
+   {
+    "id": "P08197",
+    "name": "Nawabzada Talal Akbar Bugti",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "JWP",
+    "districts": "old sibi|quetta|quetta cum chagai"
+   },
+   {
+    "id": "P08338",
+    "name": "Nawabzada Shahzain Bugtti",
+    "wins": 1,
+    "win_years": "2018",
+    "years": "2013|2018|2024",
+    "parties": "JWP",
+    "districts": "dera bugti cum kohlu cum barkhan cum sibi cum lehri|old nasi"
+   },
+   {
+    "id": "P08319",
+    "name": "Nawabzada Guaram Khan Bugti",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013",
+    "parties": "IND",
+    "districts": "old nasirabad|old sibi"
+   },
+   {
+    "id": "P11475",
+    "name": "Nawab Muhammad Mir Ali Bugti",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018",
+    "parties": "IND",
+    "districts": "dera bugti cum kohlu cum barkhan cum sibi cum lehri"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00809",
+    "b": "P08197",
+    "rel": "father-son",
+    "note": "Talal Akbar Bugti led JWP after Nawab Akbar Bugti's 2006 killing",
+    "src": "https://en.wikipedia.org/wiki/Talal_Akbar_Bugti"
+   },
+   {
+    "a": "P08197",
+    "b": "P08338",
+    "rel": "father-son",
+    "note": "Shahzain Bugti won NA-259 in 2018",
+    "src": "https://en.wikipedia.org/wiki/Shahzain_Bugti"
+   },
+   {
+    "a": "P00809",
+    "b": "P08338",
+    "rel": "grandfather-grandson",
+    "note": "",
+    "src": "https://www.dawn.com/news/304185/bugti-s-grandson-shahzain-freed"
+   },
+   {
+    "a": "P08197",
+    "b": "P08319",
+    "rel": "father-son",
+    "note": "Gohram Bugti",
+    "src": "https://en.wikipedia.org/wiki/Gohram_Bugti"
+   },
+   {
+    "a": "P00809",
+    "b": "P08319",
+    "rel": "grandfather-grandson",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Gohram_Bugti"
+   },
+   {
+    "a": "P08338",
+    "b": "P08319",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Gohram_Bugti"
+   },
+   {
+    "a": "P00809",
+    "b": "P11475",
+    "rel": "grandfather-grandson",
+    "note": "Mir Aali Bugti, tribal Nawab since 2006, son of late Salal Bugti",
+    "src": "https://www.dawn.com/news/594978/whats-in-the-name-bugti-2"
+   },
+   {
+    "a": "P08338",
+    "b": "P11475",
+    "rel": "cousins",
+    "note": "Paternal first cousins",
+    "src": "https://tribune.com.pk/story/532237/brothers-in-arms-2"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Jamali",
+  "base": "Jafarabad / Nasirabad",
+  "notes": "Sindh Jamalis (incl. Rafique Ahmed Jamali of Dadu) are a different branch. Jan Mohammad Jamali held provincial seats only.",
+  "nodes": [
+   {
+    "id": "P00814",
+    "name": "Mir Zafarullah Khan Jamali",
+    "wins": 3,
+    "win_years": "1993|2002|2013",
+    "years": "1993|2002|2013",
+    "parties": "IND|PMLQ",
+    "districts": "jaffarabad cum nasirabad|nasirabad|old nasirabad"
+   },
+   {
+    "id": "P02035",
+    "name": "Mir Faridullah Khan Jamali",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1997",
+    "parties": "IND",
+    "districts": "jaffarabad cum nasirabad"
+   },
+   {
+    "id": "P03832",
+    "name": "Taj Muhammad Jamali",
+    "wins": 1,
+    "win_years": "2008",
+    "years": "2002|2008",
+    "parties": "NA(alliance)|PPP",
+    "districts": "old nasirabad|sibi cum kohlu cum dera bugti"
+   },
+   {
+    "id": "P08328",
+    "name": "Mir Changez Khan Jamali",
+    "wins": 0,
+    "win_years": "",
+    "years": "2013|2018|2024",
+    "parties": "PPP",
+    "districts": "jafarabad cum sohbatpur|old nasirabad|sohbatpur cum jaffarab"
+   },
+   {
+    "id": "P11505",
+    "name": "Mir Khan Muhammad Jamali",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2018|2024",
+    "parties": "PMLN|PTI",
+    "districts": "jafarabad cum sohbatpur|sohbatpur cum jaffarabad cum usta mu"
+   },
+   {
+    "id": "P05418",
+    "name": "Abdul Rehman Khan Jamali",
+    "wins": 0,
+    "win_years": "",
+    "years": "2008",
+    "parties": "PMLQ",
+    "districts": "old nasirabad"
+   },
+   {
+    "id": "P11507",
+    "name": "Rahat Jamali",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018",
+    "parties": "IND",
+    "districts": "jafarabad cum sohbatpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00814",
+    "b": "P02035",
+    "rel": "father-son",
+    "note": "Fareedullah won the family seat in 1997; son of PM Zafarullah Jamali",
+    "src": "https://www.thenews.com.pk/tns/detail/761148-the-first-among-baloch-chiefs"
+   },
+   {
+    "a": "P00814",
+    "b": "P03832",
+    "rel": "cousins",
+    "note": "Taj Muhammad Jamali, ex-CM Balochistan",
+    "src": "https://www.thenews.com.pk/tns/detail/761148-the-first-among-baloch-chiefs"
+   },
+   {
+    "a": "P03832",
+    "b": "P08328",
+    "rel": "father-son",
+    "note": "Changez Jamali elected unopposed after Taj's 2009 death",
+    "src": "https://www.dawn.com/news/1010600"
+   },
+   {
+    "a": "P00814",
+    "b": "P08328",
+    "rel": "uncle-nephew",
+    "note": "Zafarullah faced 'his own nephew' Changez in 2013",
+    "src": "https://www.dawn.com/news/1010600"
+   },
+   {
+    "a": "P00814",
+    "b": "P11505",
+    "rel": "uncle-nephew",
+    "note": "Khan Muhammad Jamali (MNA 2018 PTI, 2024 PMLN)",
+    "src": "https://www.thenews.com.pk/tns/detail/761148-the-first-among-baloch-chiefs"
+   },
+   {
+    "a": "P00814",
+    "b": "P05418",
+    "rel": "siblings",
+    "note": "Abdul Rehman Jamali, younger brother (high confidence)",
+    "src": "https://www.dawn.com/news/618662/jamalis-younger-brother-gets-ppp-ticket-for-assembly-seat"
+   },
+   {
+    "a": "P00814",
+    "b": "P11507",
+    "rel": "uncle-nephew",
+    "note": "Rahat Jamali (uncle-niece), sister of Jan Muhammad Jamali of the rival wing",
+    "src": "https://www.dawn.com/news/1010600"
+   }
+  ],
+  "total_wins": 7
+ },
+ {
+  "family": "Jadoon",
+  "base": "Abbottabad",
+  "notes": "Azhar Jadoon (PTI 2013) was Amanullah's electoral rival - same tribe, no kinship.",
+  "nodes": [
+   {
+    "id": "P00073",
+    "name": "Amanullah Khan Jadoon",
+    "wins": 1,
+    "win_years": "2002",
+    "years": "1993|1997|2002|2008",
+    "parties": "IND|PML-H|PMLQ",
+    "districts": "abbbottabad cum haripur|abbottabad|abbottabad cum haripur"
+   },
+   {
+    "id": "P09530",
+    "name": "Ali Khan Jadoon",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2018|2024",
+    "parties": "IND|PTI",
+    "districts": "abbottabad"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00073",
+    "b": "P09530",
+    "rel": "father-son",
+    "note": "Ali Khan Jadoon (PTI MNA 2018/2024) son of ex-minister Amanullah Jadoon",
+    "src": "https://en.wikipedia.org/wiki/Ali_Khan_Jadoon"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Tamman",
+  "base": "Chakwal (Talagang)",
+  "notes": "Mansoor Hayat Tamman heads a rival faction of the biradri; precise kinship unsourced.",
+  "nodes": [
+   {
+    "id": "P01040",
+    "name": "Sardar Mumtaz Khan",
+    "wins": 2,
+    "win_years": "1993|2013",
+    "years": "1993|2013",
+    "parties": "PMLN|PPP",
+    "districts": "chakwal"
+   },
+   {
+    "id": "P04150",
+    "name": "M. Faiz Malik Tamman",
+    "wins": 2,
+    "win_years": "2002|2008",
+    "years": "2002|2008|2018|2024",
+    "parties": "IND|PMLN",
+    "districts": "chakwal|talagang cum chakwal"
+   },
+   {
+    "id": "P12404",
+    "name": "Shahroz Khan",
+    "wins": 0,
+    "win_years": "",
+    "years": "2024",
+    "parties": "IND",
+    "districts": "talagang cum chakwal"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01040",
+    "b": "P04150",
+    "rel": "uncle-nephew",
+    "note": "Sardar Mumtaz Tamman is Faiz Malik Tamman's maternal uncle",
+    "src": "https://www.dawn.com/news/793580/lines-are-being-drawn-for-the-battle-in-chakwal"
+   },
+   {
+    "a": "P01040",
+    "b": "P12404",
+    "rel": "grandfather-grandson",
+    "note": "Shahroz Khan Tamman (identity very likely)",
+    "src": "https://www.dawn.com/news/1809373"
+   }
+  ],
+  "total_wins": 4
+ },
+ {
+  "family": "Mela",
+  "base": "Sargodha",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P02411",
+    "name": "Ch. Ghias Ahmad Mela",
+    "wins": 3,
+    "win_years": "1997|2002|2008",
+    "years": "1997|2002|2008|2013",
+    "parties": "PMLN|PMLQ",
+    "districts": "sargodha"
+   },
+   {
+    "id": "P10164",
+    "name": "Usama Ahmed Mela",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2018|2024",
+    "parties": "IND|PTI",
+    "districts": "sargodha"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P02411",
+    "b": "P10164",
+    "rel": "father-son",
+    "note": "Usama Ghias Mela (won NA-83 2024) son of Ghias Mela",
+    "src": "https://en.wikipedia.org/wiki/Usama_Ghias_Mela"
+   }
+  ],
+  "total_wins": 4
+ },
+ {
+  "family": "Awaisi",
+  "base": "Bahawalpur",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P04795",
+    "name": "Mian Najibuddin Awaisi",
+    "wins": 2,
+    "win_years": "2013|2018",
+    "years": "2008|2013|2018|2024",
+    "parties": "IND|PMLN|PMLQ",
+    "districts": "bahawalpur"
+   },
+   {
+    "id": "P13651",
+    "name": "Muhammad Usman Awaisi",
+    "wins": 1,
+    "win_years": "2024",
+    "years": "2024",
+    "parties": "PMLN",
+    "districts": "bahawalpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P04795",
+    "b": "P13651",
+    "rel": "father-son",
+    "note": "Usman Awaisi won NA-167 in 2024; father ran as covering IND in same seat",
+    "src": "https://www.dawn.com/news/1811728/close-battle-anticipated-as-ppp-pml-n-pti-contenders-gear-up"
+   }
+  ],
+  "total_wins": 3
+ },
+ {
+  "family": "Soomro",
+  "base": "Jacobabad / Shikarpur",
+  "notes": "Larkana JUI-F Soomros (Khalid Mehmood -> son Rashid Mehmood) are a separate religious-political family.",
+  "nodes": [
+   {
+    "id": "P00314",
+    "name": "Illahi Bakhsh Soomro",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1993|1997|2002|2008|2013",
+    "parties": "PMLN|PMLQ",
+    "districts": "jacobabad"
+   },
+   {
+    "id": "P10865",
+    "name": "Muhammad Mian Soomro",
+    "wins": 1,
+    "win_years": "2018",
+    "years": "2018|2024",
+    "parties": "IND|PTI",
+    "districts": "jacobabad"
+   },
+   {
+    "id": "P01613",
+    "name": "Iftikhar Soomro",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997|2002|2013",
+    "parties": "IND|PTI",
+    "districts": "jacobabad|old shikarpur|shikarpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00314",
+    "b": "P10865",
+    "rel": "uncle-nephew",
+    "note": "Elahi Bux Soomro (ex-Speaker) is paternal uncle of Muhammad Mian Soomro (caretaker PM)",
+    "src": "https://tribune.com.pk/story/530272/ilahi-bux-soomro-mends-fences-with-nephew-mohammad-mian-soomro"
+   },
+   {
+    "a": "P00314",
+    "b": "P01613",
+    "rel": "siblings",
+    "note": "Iftikhar Soomro (probable identity)",
+    "src": "https://www.liquisearch.com/elahi_bux_soomro/family"
+   }
+  ],
+  "total_wins": 2
+ },
+ {
+  "family": "Soomro (Larkana JUI-F)",
+  "base": "Larkana",
+  "notes": "",
+  "nodes": [
+   {
+    "id": "P00417",
+    "name": "Dr. Khalid Mehmood Soomro",
+    "wins": 0,
+    "win_years": "",
+    "years": "1993|1997|2002",
+    "parties": "IJM|JUIF|MMA",
+    "districts": "larkana"
+   },
+   {
+    "id": "P10899",
+    "name": "Rashid Mehmood Soomro",
+    "wins": 0,
+    "win_years": "",
+    "years": "2018|2024",
+    "parties": "JUIF|MMA",
+    "districts": "larkana|shikarpur"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P00417",
+    "b": "P10899",
+    "rel": "father-son",
+    "note": "Rashid Mehmood Soomro, son of Senator Khalid Mehmood Soomro (assassinated 2014)",
+    "src": "https://en.wikipedia.org/wiki/Rashid_Mahmood_Soomro"
+   }
+  ],
+  "total_wins": 0
+ },
+ {
+  "family": "Bijarani",
+  "base": "Kashmore-Kandhkot",
+  "notes": "4-generation dynasty per Wikipedia (father and grandfather in colonial/provincial assemblies).",
+  "nodes": [
+   {
+    "id": "P03338",
+    "name": "Mir Hazar Khan Bijarani",
+    "wins": 2,
+    "win_years": "2002|2008",
+    "years": "2002|2008",
+    "parties": "IND|PPP",
+    "districts": "jacobabad"
+   },
+   {
+    "id": "P04948",
+    "name": "Mir Shabbir Ali Bijarani",
+    "wins": 2,
+    "win_years": "2013|2024",
+    "years": "2008|2013|2024",
+    "parties": "IND|PPP",
+    "districts": "jacobabad|kashmore"
+   },
+   {
+    "id": "P03342",
+    "name": "Mir Mehboob Ali Khan Bijarani",
+    "wins": 0,
+    "win_years": "",
+    "years": "2002",
+    "parties": "IND",
+    "districts": "jacobabad"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P03338",
+    "b": "P04948",
+    "rel": "father-son",
+    "note": "Shabbir Bijarani inherited seat of Mir Hazar Khan Bijarani (d.2018)",
+    "src": "https://www.dawn.com/news/1416846"
+   },
+   {
+    "a": "P03338",
+    "b": "P03342",
+    "rel": "uncle-nephew",
+    "note": "Mehboob Bijarani, now clan sardar",
+    "src": "https://pas.gov.pk/members/profile/33/770"
+   },
+   {
+    "a": "P04948",
+    "b": "P03342",
+    "rel": "cousins",
+    "note": "",
+    "src": "https://tribune.com.pk/story/1745359/bijarani-likely-return-ppp"
+   }
+  ],
+  "total_wins": 4
+ },
+ {
+  "family": "Sultan (Sultan Bahoo shrine)",
+  "base": "Jhang (Garh Maharaja)",
+  "notes": "Gaddi nashins of the Sultan Bahoo shrine - NOT the Shah Jeewna pirs (that is rival Faisal Saleh Hayat's family).",
+  "nodes": [
+   {
+    "id": "P01170",
+    "name": "Sahabzada M. Nazeer Sultan",
+    "wins": 2,
+    "win_years": "1993|2013",
+    "years": "1993|1997|2002|2008|2013",
+    "parties": "IND|NA(alliance)|PMLQ|PPP",
+    "districts": "jhang"
+   },
+   {
+    "id": "P09304",
+    "name": "Muhammad Ameer Sultan",
+    "wins": 2,
+    "win_years": "2018|2024",
+    "years": "2013|2018|2024",
+    "parties": "IND|PTI",
+    "districts": "jhang"
+   },
+   {
+    "id": "P04313",
+    "name": "Sahabzada M. Mehboob Sultan",
+    "wins": 4,
+    "win_years": "2002|2008|2018|2024",
+    "years": "2002|2008|2013|2018|2024",
+    "parties": "IND|PMLN|PMLQ|PTI",
+    "districts": "jhang"
+   },
+   {
+    "id": "P02534",
+    "name": "Sahabzada Sultan Abdul Majeed",
+    "wins": 0,
+    "win_years": "",
+    "years": "1997",
+    "parties": "IND",
+    "districts": "jhang"
+   }
+  ],
+  "edges": [
+   {
+    "a": "P01170",
+    "b": "P09304",
+    "rel": "father-son",
+    "note": "Ameer Sultan (PTI MNA 2018/2024) son of Sahibzada Nazir Sultan (d.2022)",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Ameer_Sultan"
+   },
+   {
+    "a": "P04313",
+    "b": "P01170",
+    "rel": "cousins",
+    "note": "Mehboob Sultan and Nazir Sultan are cousins (Lok Sujag)",
+    "src": "https://loksujag.com/story/jhang-election-scenario"
+   },
+   {
+    "a": "P01170",
+    "b": "P02534",
+    "rel": "siblings",
+    "note": "Majeed Sultan, elder brother (plausible identity)",
+    "src": "https://www.dawn.com/news/1408322"
+   }
+  ],
+  "total_wins": 8
+ }
+]

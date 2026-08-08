@@ -1,0 +1,33 @@
+{
+ "canvas_id": "C059_Vehari",
+ "seats": [
+  "NA-156",
+  "NA-157",
+  "NA-158",
+  "NA-159"
+ ],
+ "sheet_used": null,
+ "rms_km": null,
+ "area_share_sheet": {
+  "NA-156": 0.224,
+  "NA-157": 0.25,
+  "NA-158": 0.272,
+  "NA-159": 0.254
+ },
+ "area_share_out": {
+  "NA-156": 0.239,
+  "NA-157": 0.24,
+  "NA-158": 0.252,
+  "NA-159": 0.269
+ },
+ "issues": [
+  "sheet vehari_na156.jpg inspected and REJECTED: it is 'MULTAN CITY / MULTAN DISTRICT Preliminary Delimitation 2023' urban map showing PP-213..PP-220 (Multan provincial seats) - no Vehari geography at all; it belongs to the Multan filing it came from",
+  "no usable Vehari sheet in sheets/punjab/; all 4 seats reconstructed from FINAL compositions (Wikipedia/DBpedia infoboxes): NA-156 Vehari-I = Burewala Tehsil (partly, incl Burewala city); NA-157 Vehari-II = Burewala Tehsil (partly) + Vehari Tehsil (partly); NA-158 Vehari-III = Mailsi Tehsil (partly) + Vehari Tehsil (partly, incl Vehari city); NA-159 Vehari-IV = Mailsi Tehsil (partly, incl Mailsi city)",
+  "method: gb ADM3 tehsil polygons (BUREWALA/VEHARI/MAILSI) clipped to canvas; ~330 m cells tiling the canvas exactly; each cell locked to its tehsil's candidate seats, partial-tehsil splits resolved per-cell by containment/nearest against na_2024delim_simplified reference geometries; majority smoothing + contiguity cleanup; exact partition (symmetric difference vs canvas = 0.0, pairwise overlaps < 1e-16)",
+  "area_share_sheet field holds the na_2024delim_simplified reference shares renormalised (raw shares sum to 0.92 due to gaps in that simplified file), not a sheet measurement; max drift vs output 2.0 pp",
+  "internal split lines within Burewala (156/157), Vehari (157/158) and Mailsi (158/159) tehsils are approximate (reference-guided cell assignment, straight-ish lines); tehsil-boundary segments of the seat borders are real ADM3 lines",
+  "small border slivers of neighbouring tehsils inside the canvas (~2% area: Chichawatni, Mian Channu, Dunyapur, Karorpacca etc. edge effects) assigned to nearest of the 3 Vehari tehsils before seat assignment",
+  "NA-156 carries the canvas's own detached NE fragment (canvas is a 2-part MultiPolygon with 30 holes; all inherited into the output)"
+ ],
+ "confidence": "medium"
+}

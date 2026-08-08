@@ -1,0 +1,30 @@
+{
+ "canvas_id": "C047_TobaTekSingh",
+ "seats": [
+  "NA-105",
+  "NA-106",
+  "NA-107"
+ ],
+ "sheet_used": "tts_na106_107.jpg",
+ "rms_km": 1.878,
+ "area_share_sheet": {
+  "NA-105": 0.2835,
+  "NA-106": 0.3499,
+  "NA-107": 0.3666
+ },
+ "area_share_out": {
+  "NA-105": 0.3095,
+  "NA-106": 0.353,
+  "NA-107": 0.3375
+ },
+ "issues": [
+  "sheet tts_na106_107.jpg carries all three seats (NA-105/106/107) despite filename; tts_na105_106.jpg is the same map without per-seat colour wash (line-work only), used as visual cross-check - consistent",
+  "sheet drawing is rotated/sheared ~20 deg vs true north despite its N-up compass; similarity ICP (0/90/180/270 starts) mis-fit with 13-15pp area drift on NA-105 - fixed with dense rotation starts (15 deg) + affine ICP refinement, rms 3.24->1.88 km, drift <3.5pp",
+  "decorative frame and green title band whited out (top 14.5%) before segmentation - green frame ornament otherwise leaks into the NA-105 mask and poisons the nearest-label transfer",
+  "seat numbering on sheet (handwritten NA.105/NA.106/NA.107) matches final numbering per na_2024_districts.csv",
+  "NA-107 hue wraps the red/pink boundary (salmon ~h0-5 body, magenta ~h160 near urban); wrapped hue gate (150,14) used",
+  "NA-105 (0.310) > Gojra tehsil share (0.220, geoBoundaries ADM3): sheet shows prelim NA-105 extending south-east beyond Gojra tehsil into Toba Tek Singh tehsil - consistent",
+  "NA-107 written as exact canvas remainder for exact partition; detached slivers <0.5% reassigned to longest-shared-boundary neighbour"
+ ],
+ "confidence": "high"
+}

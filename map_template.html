@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aiwan-e-Jamhoor — National Assembly Elections 2008–2024</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+:root{
+  color-scheme: light;
+  --surface-1:#fcfcfb; --page:#f9f9f7;
+  --ink-1:#0b0b0b; --ink-2:#52514e; --ink-3:#898781;
+  --grid:#e1e0d9; --baseline:#c3c2b7; --ring:rgba(11,11,11,0.10);
+  --sea:#eef1f0; --stroke:#ffffff; --hatch:#d8d6cf;
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --surface-1:#1a1a19; --page:#0d0d0d;
+  --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
+  --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,0.10);
+  --sea:#141413; --stroke:#3a3a38; --hatch:#3a3a38;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --surface-1:#1a1a19; --page:#0d0d0d;
+    --ink-1:#ffffff; --ink-2:#c3c2b7; --ink-3:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --ring:rgba(255,255,255,0.10);
+    --sea:#141413; --stroke:#3a3a38; --hatch:#3a3a38;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink-1);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1280px;margin:0 auto;padding:16px 20px 32px}
+header{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-bottom:12px}
+h1{font-size:19px;margin:0;font-weight:650}
+h1 span{color:var(--ink-3);font-weight:450}
+.seg{display:inline-flex;border:1px solid var(--ring);border-radius:8px;overflow:hidden;background:var(--surface-1)}
+.seg button{border:0;background:transparent;color:var(--ink-2);padding:7px 16px;font:inherit;font-weight:600;cursor:pointer}
+.seg button.on{background:var(--ink-1);color:var(--page)}
+.spacer{flex:1}
+input[type="search"]{background:var(--surface-1);border:1px solid var(--ring);border-radius:8px;color:var(--ink-1);padding:7px 12px;font:inherit;width:230px}
+.iconbtn{border:1px solid var(--ring);background:var(--surface-1);color:var(--ink-2);border-radius:8px;padding:7px 12px;font:inherit;cursor:pointer}
+.iconbtn.on{background:var(--ink-1);color:var(--page)}
+.summary{background:var(--surface-1);border:1px solid var(--ring);border-radius:12px;padding:12px 16px;margin-bottom:12px}
+.sumtitle{font-size:12px;color:var(--ink-2);margin-bottom:8px}
+.sumtitle b{color:var(--ink-1);font-size:13px}
+.bar{display:flex;height:22px;border-radius:5px;overflow:hidden;gap:2px;background:var(--page)}
+.bar div{min-width:2px;transition:width .35s}
+.barlabels{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px;font-size:12px;color:var(--ink-2)}
+.barlabels span b{color:var(--ink-1)}
+.main{display:flex;gap:12px;align-items:stretch}
+.mapcard{flex:1.55;background:var(--surface-1);border:1px solid var(--ring);border-radius:12px;padding:8px;position:relative;min-width:0}
+#map{width:100%;height:640px;display:block}
+#map .cst{stroke:var(--stroke);stroke-width:.45;cursor:pointer}
+#map .cst:hover{stroke:var(--ink-1);stroke-width:1.1}
+#map .cst.sel{stroke:var(--ink-1);stroke-width:1.4}
+#map .dim{opacity:.18}
+.zoombtns{position:absolute;top:14px;left:14px;display:flex;flex-direction:column;gap:4px}
+.zoombtns button{width:30px;height:30px;border-radius:7px;border:1px solid var(--ring);background:var(--surface-1);color:var(--ink-1);font-size:16px;cursor:pointer}
+.maptip{position:fixed;pointer-events:none;background:var(--surface-1);border:1px solid var(--ring);box-shadow:0 4px 14px rgba(0,0,0,.18);border-radius:9px;padding:9px 12px;font-size:12.5px;display:none;z-index:10;max-width:250px}
+.maptip .t1{font-weight:650;font-size:13px}
+.maptip .t2{color:var(--ink-2)}
+.side{flex:1;display:flex;flex-direction:column;gap:12px;min-width:300px;max-width:390px}
+.card{background:var(--surface-1);border:1px solid var(--ring);border-radius:12px;padding:14px 16px}
+.card h2{font-size:13px;margin:0 0 10px;color:var(--ink-2);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.legend{display:flex;flex-direction:column;gap:3px}
+.lrow{display:flex;align-items:center;gap:9px;padding:4px 6px;border-radius:7px;cursor:pointer;font-size:13px}
+.lrow:hover{background:var(--page)}
+.lrow.off{opacity:.35}
+.lswatch{width:14px;height:14px;border-radius:4px;flex:none;border:1px solid var(--ring)}
+.lname{flex:1}
+.lcount{font-weight:650;font-variant-numeric:tabular-nums}
+.lnote{font-size:11.5px;color:var(--ink-3);margin-top:8px}
+#detail .empty{color:var(--ink-3);font-size:13px;padding:6px 0 2px}
+.dhead .na{font-size:16px;font-weight:700}
+.dhead .nm{color:var(--ink-2);font-size:13px;margin-left:6px}
+.dmeta{display:flex;flex-wrap:wrap;gap:5px 16px;margin:9px 0 12px;font-size:12.5px;color:var(--ink-2)}
+.dmeta b{color:var(--ink-1);font-variant-numeric:tabular-nums}
+.cand{margin-bottom:9px}
+.cand .r1{display:flex;justify-content:space-between;gap:8px;font-size:12.5px}
+.cand .nm{font-weight:600}
+.cand .pt{color:var(--ink-2);font-size:11.5px}
+.cand .vt{font-variant-numeric:tabular-nums;color:var(--ink-2);white-space:nowrap}
+.cand .track{height:7px;background:var(--page);border-radius:4px;margin-top:3px;overflow:hidden}
+.cand .fill{height:100%;border-radius:4px}
+.notes{font-size:11.5px;color:var(--ink-3);line-height:1.5}
+.notes a{color:var(--ink-2)}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{color:var(--ink-2);text-align:left;font-weight:600;padding:7px 8px;border-bottom:1px solid var(--baseline);cursor:pointer;white-space:nowrap;position:sticky;top:0;background:var(--surface-1)}
+td{padding:6px 8px;border-bottom:1px solid var(--grid)}
+td.num{font-variant-numeric:tabular-nums;text-align:right}
+.tswatch{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:7px;border:1px solid var(--ring)}
+#tablewrap{display:none;max-height:640px;overflow:auto;padding:0 8px 8px}
+footer{margin-top:14px;font-size:11.5px;color:var(--ink-3);line-height:1.6}
+footer a{color:var(--ink-2)}
+@media (max-width:900px){.main{flex-direction:column}.side{max-width:none}#map{height:520px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Aiwan-e-Jamhoor <span>· National Assembly general elections</span></h1>
+    <div class="seg" id="yearseg"></div>
+    <div class="spacer"></div>
+    <input type="search" id="search" list="cstlist" placeholder="Find constituency (e.g. NA-55)">
+    <datalist id="cstlist"></datalist>
+    <button class="iconbtn" id="tablebtn" title="Toggle table view">Table</button>
+    <button class="iconbtn" id="themebtn" title="Toggle light/dark">◐</button>
+  </header>
+
+  <div class="summary">
+    <div class="sumtitle" id="sumtitle"></div>
+    <div class="bar" id="seatbar"></div>
+    <div class="barlabels" id="seatlabels"></div>
+  </div>
+
+  <div class="main">
+    <div class="mapcard">
+      <svg id="map"></svg>
+      <div id="tablewrap"></div>
+      <div class="zoombtns" id="zoombtns">
+        <button id="zin">+</button><button id="zout">−</button><button id="zreset" title="Reset view">⌂</button>
+      </div>
+    </div>
+    <div class="side">
+      <div class="card">
+        <h2>Seats won <span id="legyear"></span></h2>
+        <div class="legend" id="legend"></div>
+        <div class="lnote">Click a party to highlight its seats. “Other” groups parties with few seats — exact party shown per constituency.</div>
+      </div>
+      <div class="card" id="detail">
+        <h2>Constituency</h2>
+        <div class="empty">Click a constituency on the map (or search) for full results.</div>
+      </div>
+      <div class="card">
+        <h2>Notes</h2>
+        <div class="notes" id="mapnotes"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <b>Sources:</b> results 2008–2018 — Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> &amp; <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (ECP-derived; GPL-3.0); results 2024 — <a href="https://www.electionpakistani.com/ge2024/">ElectionPakistani</a> (ECP Form-47 transcription, unofficial). Boundaries: 2002 delimitation — <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; 2018 &amp; 2023 delimitations — reconstructed from district boundaries + seat–district mappings (see METHODOLOGY.md). All boundaries approximate. Vote shares are of validated/total tabulated votes. 2024 figures are provisional (Form-47) and predate tribunal revisions.
+  </footer>
+</div>
+<div class="maptip" id="tip"></div>
+
+<script>
+const RESULTS = /*__RESULTS__*/;
+const GEOS = {'2002': /*__GEO2002__*/, '2018': /*__GEO2018__*/, '2024': /*__GEO2024__*/};
+
+const PARTY_CAT = {
+ 'Pakistan Muslim League (Nawaz)':'PML-N',
+ 'Pakistan Peoples Party Parliamentarians':'PPP',
+ 'Pakistan Muslim League (Qaid-e-Azam)':'PML-Q',
+ 'Independents':'IND',
+ 'Muttahida Qaumi Movement':'MQM',
+ 'Awami National Party':'ANP',
+ 'Jamiat Ulema-e Islam (Fazl)':'JUI-F',
+ 'Pakistan Muslim League (Functional)':'PML-F',
+ 'Pakistan Tehreek-e-Insaf':'PTI',
+ 'Pakistan Muslim League (N)':'PML-N',
+ 'Independent':'IND',
+ 'Muttahida Qaumi Movement Pakistan':'MQM',
+ 'Muttahida Majlis-e-Amal Pakistan':'MMA',
+ 'Pakistan Muslim League':'PML-Q',
+ 'Pakistan Muslim League (Q)':'PML-Q',
+ 'Balochistan Awami Party':'BAP',
+ 'Jamiat Ulema-e-Islam (F)':'JUI-F',
+ 'Istehkam-e-Pakistan Party':'IPP'
+};
+const COLORS = {
+ 'PML-N':'#006400','PML-Q':'#52b452','PPP':'#1c1c1c','IND':'#b7b3a8','MQM':'#c245b8',
+ 'ANP':'#e34948','PTI':'#7a1f3d','JUI-F':'#c98500','MMA':'#c98500','PML-F':'#2a5bd7',
+ 'BAP':'#5b7ba6','IPP':'#8a6d1a','Other':'#00a3c7'
+};
+const DARK_OVERRIDE = {'PPP':'#f0efec','IND':'#6e6a5f'};
+function isDark(){
+  return document.documentElement.dataset.theme==='dark' ||
+    (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+}
+function colorFor(cat){ return (isDark() && DARK_OVERRIDE[cat]) ? DARK_OVERRIDE[cat] : COLORS[cat]; }
+const CAT_ORDER = ['PML-N','PPP','PTI','PML-Q','IND','MQM','MMA','ANP','JUI-F','PML-F','BAP','IPP','Other'];
+const YEARS = {
+ '2008': {geo:'2002', delim:'2002 delimitation', seats:272, postponed:['NA-37','NA-42','NA-119','NA-207'], missing_geom:['NA-95','NA-96']},
+ '2013': {geo:'2002', delim:'2002 delimitation', seats:272, postponed:['NA-38','NA-83','NA-254'], missing_geom:['NA-95','NA-96']},
+ '2018': {geo:'2018', delim:'2018 delimitation (reconstructed boundaries)', seats:272, postponed:['NA-60','NA-103'], missing_geom:[]},
+ '2024': {geo:'2024', delim:'2023 delimitation (reconstructed boundaries)', seats:266, postponed:[], missing_geom:[]}
+};
+
+let year = '2013';
+let filterCat = null;
+let selected = null;
+let tableMode = false;
+
+const catOf = p => PARTY_CAT[p] || 'Other';
+const fmt = n => n==null ? '—' : n.toLocaleString('en-US');
+const pc = n => n==null ? '—' : n.toFixed(1)+'%';
+
+// ---------- map ----------
+const svg = d3.select('#map');
+const W = 860, H = 640;
+svg.attr('viewBox', `0 0 ${W} ${H}`);
+const gRoot = svg.append('g');
+const proj = d3.geoMercator();
+const path = d3.geoPath(proj);
+
+let feats = [], paths = null, fittedGeo = null;
+function rebuildPaths(){
+  const geo = GEOS[YEARS[year].geo];
+  if(fittedGeo !== YEARS[year].geo){
+    proj.fitExtent([[8,8],[W-8,H-8]], geo);
+    fittedGeo = YEARS[year].geo;
+  }
+  feats = geo.features;
+  paths = gRoot.selectAll('path').data(feats, d=>d.properties.na).join('path')
+    .attr('class','cst').attr('d', path)
+    .on('mousemove', onMove).on('mouseleave', hideTip)
+    .on('click', (e,d)=>selectCst(d.properties.na));
+}
+
+const zoom = d3.zoom().scaleExtent([1,14]).on('zoom', e=>gRoot.attr('transform', e.transform));
+svg.call(zoom);
+d3.select('#zin').on('click', ()=>svg.transition().call(zoom.scaleBy, 1.6));
+d3.select('#zout').on('click', ()=>svg.transition().call(zoom.scaleBy, 1/1.6));
+d3.select('#zreset').on('click', ()=>svg.transition().call(zoom.transform, d3.zoomIdentity));
+
+function fillFor(na){
+  const r = RESULTS[year][na];
+  return r ? colorFor(catOf(r.wp)) : 'url(#hatch)';
+}
+function repaint(){
+  if(!paths) return;
+  paths.attr('fill', d=>fillFor(d.properties.na))
+    .classed('dim', d=>{
+      if(!filterCat) return false;
+      const r = RESULTS[year][d.properties.na];
+      return !r || catOf(r.wp)!==filterCat;
+    })
+    .classed('sel', d=>d.properties.na===selected);
+}
+
+// hatch pattern for no-result seats
+const defs = svg.append('defs');
+const pat = defs.append('pattern').attr('id','hatch').attr('width',6).attr('height',6)
+  .attr('patternUnits','userSpaceOnUse').attr('patternTransform','rotate(45)');
+pat.append('rect').attr('width',6).attr('height',6).attr('fill','var(--page)');
+pat.append('line').attr('x1',0).attr('y1',0).attr('x2',0).attr('y2',6)
+  .attr('stroke','var(--hatch)').attr('stroke-width',2.2);
+
+// ---------- tooltip ----------
+const tip = document.getElementById('tip');
+function onMove(e,d){
+  const na = d.properties.na, r = RESULTS[year][na];
+  let html = `<div class="t1">${na}${r? ' · '+r.name : ''}</div>`;
+  if(r){
+    html += `<div class="t2">${r.wn}</div><div class="t2">${r.wp} — ${fmt(r.wv)} votes (${pc(r.ws)})</div><div class="t2">Turnout ${pc(r.to)}</div>`;
+  } else {
+    html += `<div class="t2">Poll postponed on election day — no GE result</div>`;
+  }
+  if(d.properties.approx) html += `<div class="t2" style="opacity:.75">Boundary within district: approximate</div>`;
+  tip.innerHTML = html; tip.style.display='block';
+  const x = Math.min(e.clientX+14, innerWidth-260), y = Math.min(e.clientY+14, innerHeight-110);
+  tip.style.left = x+'px'; tip.style.top = y+'px';
+}
+function hideTip(){ tip.style.display='none'; }
+
+// ---------- summary + legend ----------
+function seatTotals(){
+  const t = {};
+  for(const [na,r] of Object.entries(RESULTS[year])) { const c=catOf(r.wp); t[c]=(t[c]||0)+1; }
+  return CAT_ORDER.filter(c=>t[c]).map(c=>[c,t[c]]).sort((a,b)=>b[1]-a[1]);
+}
+function renderSummary(){
+  const tot = seatTotals();
+  const n = tot.reduce((s,x)=>s+x[1],0);
+  const Y = YEARS[year];
+  const post = Y.postponed.length;
+  document.getElementById('sumtitle').innerHTML =
+    `<b>General Election ${year}</b> — ${n} of ${Y.seats} general seats decided on election day${post? ` (${post} postponed)`:''} · ${Y.delim}. Directly elected seats only; excludes reserved seats and later by-elections.`;
+  const bar = document.getElementById('seatbar'); bar.innerHTML='';
+  const lab = document.getElementById('seatlabels'); lab.innerHTML='';
+  for(const [c,v] of tot){
+    const d = document.createElement('div');
+    d.style.width = (100*v/n)+'%'; d.style.background = colorFor(c); d.title = `${c}: ${v}`;
+    bar.appendChild(d);
+    const s = document.createElement('span');
+    s.innerHTML = `<span class="tswatch" style="background:${colorFor(c)}"></span>${c} <b>${v}</b>`;
+    lab.appendChild(s);
+  }
+}
+function renderLegend(){
+  document.getElementById('legyear').textContent = '· '+year;
+  const tot = seatTotals();
+  const el = document.getElementById('legend'); el.innerHTML='';
+  for(const [c,v] of tot){
+    const row = document.createElement('div');
+    row.className = 'lrow'+(filterCat && filterCat!==c ? ' off':'');
+    row.innerHTML = `<span class="lswatch" style="background:${colorFor(c)}"></span><span class="lname">${c}</span><span class="lcount">${v}</span>`;
+    row.onclick = ()=>{ filterCat = (filterCat===c? null : c); renderLegend(); repaint(); };
+    el.appendChild(row);
+  }
+}
+
+// ---------- detail ----------
+function selectCst(na){
+  selected = na; repaint();
+  const r = RESULTS[year][na];
+  const d = document.getElementById('detail');
+  const f = feats.find(f=>f.properties.na===na);
+  const where = f ? `${f.properties.dist||''}${f.properties.teh? ' · '+f.properties.teh:''}` : '';
+  if(!r){
+    d.innerHTML = `<h2>Constituency</h2><div class="dhead"><span class="na">${na}</span></div>
+      <div class="empty">Polling was postponed here on election day ${year} (candidate death or security); the seat was filled later in a supplementary poll. Not shown to keep the map strictly general-election-day results.</div>`;
+    return;
+  }
+  const winCat = catOf(r.wp);
+  let html = `<h2>Constituency</h2>
+    <div class="dhead"><span class="na">${na}</span><span class="nm">${r.name} · ${r.prov}</span></div>
+    ${where? `<div class="dmeta" style="margin-top:2px">${where}</div>`:''}
+    <div class="dmeta">
+      <span>Registered <b>${fmt(r.reg)}</b></span>
+      <span>Turnout <b>${pc(r.to)}</b></span>
+      <span>Margin <b>${pc(r.mov)}</b></span>
+      <span>Candidates <b>${r.nc}</b></span>
+      ${r.ps? `<span>Polling stations <b>${fmt(r.ps)}</b></span>`:''}
+      ${r.rej!=null? `<span>Rejected <b>${fmt(r.rej)}</b></span>`:''}
+    </div>`;
+  if(r.f47w) html += `<div class="lnote" style="margin:0 0 10px">⚠ Official Form-47 (election day) declared <b>${r.f47w.n}</b> (${r.f47w.p}, ${fmt(r.f47w.v)} votes) the winner here; the result shown reflects a later recount/tribunal revision.</div>`;
+  const maxv = r.cands.length? Math.max(...r.cands.map(c=>c.v||0)) : 1;
+  for(const c of r.cands){
+    const cc = catOf(c.p);
+    html += `<div class="cand">
+      <div class="r1"><span><span class="nm">${c.n}</span><br><span class="pt">${c.p}</span></span>
+      <span class="vt">${fmt(c.v)}${c.s!=null? ' · '+pc(c.s):''}</span></div>
+      <div class="track"><div class="fill" style="width:${maxv? Math.max(2,100*(c.v||0)/maxv):0}%;background:${colorFor(cc)}"></div></div>
+    </div>`;
+  }
+  if(r.nc>r.cands.length) html += `<div class="lnote">Top ${r.cands.length} of ${r.nc} candidates shown.</div>`;
+  if(YEARS[year].missing_geom.includes(na)) html += `<div class="lnote">This urban seat has no polygon in the source shapefile — results shown here only.</div>`;
+  d.innerHTML = html;
+}
+
+// ---------- search ----------
+const dl = document.getElementById('cstlist');
+function renderSearch(){
+  dl.innerHTML='';
+  for(const [na,r] of Object.entries(RESULTS[year])){
+    const o = document.createElement('option'); o.value = `${na} ${r.name}`; dl.appendChild(o);
+  }
+}
+document.getElementById('search').addEventListener('change', e=>{
+  const na = e.target.value.split(' ')[0].trim();
+  if(RESULTS[year][na] || YEARS[year].postponed.includes(na)) selectCst(na);
+  e.target.value='';
+});
+
+// ---------- table view ----------
+let sortKey='na', sortAsc=true;
+function renderTable(){
+  const wrap = document.getElementById('tablewrap');
+  const rows = Object.entries(RESULTS[year]).map(([na,r])=>({
+    na, n: parseInt(na.replace('NA-','')), name:r.name, prov:r.prov, wn:r.wn, wp:r.wp,
+    wv:r.wv, ws:r.ws, to:r.to, mov:r.mov,
+    ru: r.cands[1] ? r.cands[1].n+' ('+(catOf(r.cands[1].p))+')' : '—'
+  }));
+  const key = sortKey==='na'?'n':sortKey;
+  rows.sort((a,b)=>{
+    const x=a[key], y=b[key];
+    const c = (x==null)-(y==null) || (typeof x==='string'? String(x).localeCompare(String(y)) : x-y);
+    return sortAsc? c : -c;
+  });
+  const cols = [['na','Seat'],['name','Name'],['prov','Province'],['wn','Winner'],['wp','Party'],['wv','Votes'],['ws','Share'],['to','Turnout'],['mov','Margin'],['ru','Runner-up']];
+  let h = '<table><thead><tr>'+cols.map(([k,l])=>`<th data-k="${k}">${l}${sortKey===k? (sortAsc?' ↑':' ↓'):''}</th>`).join('')+'</tr></thead><tbody>';
+  for(const r of rows){
+    h += `<tr><td>${r.na}</td><td>${r.name}</td><td>${r.prov}</td><td>${r.wn}</td>
+      <td><span class="tswatch" style="background:${colorFor(catOf(r.wp))}"></span>${r.wp}</td>
+      <td class="num">${fmt(r.wv)}</td><td class="num">${pc(r.ws)}</td><td class="num">${pc(r.to)}</td><td class="num">${pc(r.mov)}</td><td>${r.ru}</td></tr>`;
+  }
+  wrap.innerHTML = h+'</tbody></table>';
+  wrap.querySelectorAll('th').forEach(th=>th.onclick=()=>{
+    const k = th.dataset.k;
+    if(sortKey===k) sortAsc=!sortAsc; else {sortKey=k; sortAsc=true;}
+    renderTable();
+  });
+}
+document.getElementById('tablebtn').onclick = ()=>{
+  tableMode = !tableMode;
+  document.getElementById('tablebtn').classList.toggle('on', tableMode);
+  document.getElementById('map').style.display = tableMode? 'none':'block';
+  document.getElementById('zoombtns').style.display = tableMode? 'none':'flex';
+  document.getElementById('tablewrap').style.display = tableMode? 'block':'none';
+  if(tableMode) renderTable();
+};
+
+// ---------- notes ----------
+function renderNotes(){
+  const NOTES = {
+   '2008': `Boundaries: <b>2002 delimitation</b> (rugpundit digitisation of ECP maps). Two Gujranwala urban seats (<b>NA-95, NA-96</b>) lack polygons — searchable and in the table. Hatched seats: polling postponed.`,
+   '2013': `Boundaries: <b>2002 delimitation</b> (rugpundit digitisation of ECP maps). Two Gujranwala urban seats (<b>NA-95, NA-96</b>) lack polygons — searchable and in the table. Hatched seats: polling postponed.`,
+   '2018': `Boundaries: <b>reconstructed</b> for the 2018 delimitation — exact at district level; multi-seat districts split by Voronoi around Dawn/plotree seat centroids (approximate, esp. inside cities). Results: Cookman (ECP provisional). Hatched: postponed (NA-60, NA-103).`,
+   '2024': `Boundaries: <b>reconstructed</b> for the 2023 delimitation — exact at district level; within-district splits approximate (2018-aligned seeds; Karachi &amp; Sanghar k-means). Results: ElectionPakistani transcription cross-checked against 254 official scanned Form-47s (registered voters, turnout, polling stations, rejected votes shown are official Form-47 figures). Most winning independents were PTI-backed (shown as IND). Five seats flagged where the election-day Form-47 winner was later reversed.`
+  };
+  document.getElementById('mapnotes').innerHTML = NOTES[year] + ` Party colours follow common media convention; “Other” groups small parties.`;
+}
+
+// ---------- year toggle / theme ----------
+const seg = document.getElementById('yearseg');
+['2008','2013','2018','2024'].forEach(y=>{
+  const b = document.createElement('button');
+  b.textContent = y; b.classList.toggle('on', y===year);
+  b.onclick = ()=>{ year=y; filterCat=null; selected=null;
+    seg.querySelectorAll('button').forEach(x=>x.classList.toggle('on', x.textContent===y));
+    const d = document.getElementById('detail');
+    d.innerHTML = '<h2>Constituency</h2><div class="empty">Click a constituency on the map (or search) for full results.</div>';
+    renderAll();
+  };
+  seg.appendChild(b);
+});
+document.getElementById('themebtn').onclick = ()=>{
+  const cur = document.documentElement.dataset.theme ||
+    (matchMedia('(prefers-color-scheme: dark)').matches? 'dark':'light');
+  document.documentElement.dataset.theme = cur==='dark'? 'light':'dark';
+  renderAll(); if(selected) selectCst(selected);
+};
+
+function renderAll(){ rebuildPaths(); renderSummary(); renderLegend(); renderSearch(); renderNotes(); repaint(); if(tableMode) renderTable(); }
+renderAll();
+</script>
+</body>
+</html>

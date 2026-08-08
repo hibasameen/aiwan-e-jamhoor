@@ -1,0 +1,24 @@
+{
+ "canvas_id": "C049_NankanaSahib",
+ "seats": [
+  "NA-111",
+  "NA-112"
+ ],
+ "sheet_used": "sheets/punjab/nankana_na111_112.jpg",
+ "rms_km": 1.965,
+ "area_share_sheet": {
+  "NA-111": 0.4285,
+  "NA-112": 0.5715
+ },
+ "area_share_out": {
+  "NA-111": 0.3978,
+  "NA-112": 0.6022
+ },
+ "issues": [
+  "sheet is a mauza-level district map with a single hand-drawn thick black demarcation line (labelled NA-111 -> north, NA-112 -> south); no colour wash, so split done by barrier-line interior components instead of hue masks",
+  "NA-111 = Sangla Hill + Shah Kot tehsils + northern Nankana Sahib tehsil band (Mohlan, Warburton, Tashpur/Fateh Darya, Mandi Faizabad); NA-112 = rest of Nankana Sahib tehsil incl. Nankana Sahib city and the Sharea Bhangar/Fata Thata pocket south of the line - verified against the marker line at full resolution",
+  "nankana_na111.jpg (same base map, PP-132..135 markup) used only as cross-check; its PP-133 wash is consistent with the NA-111 southern limit in the west but diverges near Mandi Faizabad (PP boundaries, not used)",
+  "NA-112 written as exact canvas remainder of NA-111 for exact partition; area-share drift sheet vs out ~3pp (marker-line thickness ~0.5 km on the ground absorbed into NA-112)"
+ ],
+ "confidence": "high"
+}

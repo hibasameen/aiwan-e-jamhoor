@@ -1,0 +1,31 @@
+{
+ "canvas_id": "C034_Gujrat",
+ "seats": [
+  "NA-62",
+  "NA-63",
+  "NA-64",
+  "NA-65"
+ ],
+ "sheet_used": "sheets/punjab/gujrat_na62_65.jpg",
+ "rms_km": 2.35,
+ "area_share_sheet": {
+  "NA-62": 0.3506,
+  "NA-63": 0.2865,
+  "NA-64": 0.0801,
+  "NA-65": 0.2828
+ },
+ "area_share_out": {
+  "NA-62": 0.3119,
+  "NA-63": 0.305,
+  "NA-64": 0.1139,
+  "NA-65": 0.2692
+ },
+ "issues": [
+  "sheet labels already match FINAL numbering (NA-62..65 = Gujrat I-IV per data/na_2024_districts.csv); no renumber mapping needed",
+  "primary sheet gujrat_na62_65.jpg shows all four seats coloured (yellow=NA-62, pink=NA-63, green=NA-64, purple=NA-65); cross-checked against gujrat_na64_65.jpg (NA-64/65 washes, consistent) and gujrat_na62_63.jpg (line-work only, consistent)",
+  "thick light-green District-Boundary line contaminated the NA-64 (green) mask along the NW rim; fixed by constraining green mask to 41px-eroded content blob + proximity component filter -- NA-64 sheet share (0.080) is therefore an underestimate of its drawn wash; out share 0.114",
+  "Metropolitan Corporation Gujrat overlay (brown patch around Gujrat city) hides the seat wash there; the NA-63/NA-64 line through that patch comes from nearest-label interpolation (est. 1-2 km extra uncertainty locally)",
+  "canvas polygon has 32 hairline slit holes; partition inherits them exactly"
+ ],
+ "confidence": "high"
+}

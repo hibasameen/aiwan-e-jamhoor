@@ -1,0 +1,35 @@
+{
+ "canvas_id": "C040_Gujranwala",
+ "seats": [
+  "NA-77",
+  "NA-78",
+  "NA-79",
+  "NA-80",
+  "NA-81"
+ ],
+ "sheet_used": "gujranwala_na77_79_81.jpg (primary); gujranwala_na81_hfz.jpg (NA-81 cross-check via ORB homography); gujranwala_na77_80.jpg (city PP map, no NA lines, unused)",
+ "rms_km": 1.612,
+ "area_share_sheet": {
+  "NA-77": 0.169,
+  "NA-78": 0.0704,
+  "NA-79": 0.3913,
+  "NA-80": 0.0482,
+  "NA-81": 0.3211
+ },
+ "area_share_out": {
+  "NA-77": 0.1394,
+  "NA-78": 0.0714,
+  "NA-79": 0.3945,
+  "NA-80": 0.0717,
+  "NA-81": 0.323
+ },
+ "issues": [
+  "NA-78 vs NA-80 internal city split is NOT drawn on any available sheet: the Metropolitan Corporation (yellow wash) region was split into equal-area north (NA-78) / south (NA-80) halves along its principal-axis median; orientation (78=N/NE incl. Gage Wali strip, 80=S/SW incl. Marallwala lobe and urban Eminabad) follows the handwritten \"Part of NA-78\"/\"Part of NA-80\" marks on gujranwala_na81_hfz.jpg; both seats flagged approx:true",
+  "prelim-vs-prelim disagreement between the two annotated sheets: gujranwala_na81_hfz.jpg draws NA-81 including Buddha Goraya (west of city) and assigns Talwandi Musa Khan (NE) away from NA-77, while the primary district proposal sheet washes Buddha Goraya as NA-79 and Talwandi Musa Khan as NA-77; output follows the primary sheet; NA-81 IoU vs the hfz-sheet red region (canvas-clipped) = 0.765",
+  "prelim NA-81 was Gujranwala-cum-Hafizabad; final NA-81 is Gujranwala-V only - all Hafizabad spill lies outside the canvas and was clipped by construction; the Gujranwala-side geometry of the hfz sheet red region was used only as cross-check",
+  "canvas (Gujranwala minus Wazirabad tehsil-carve) contains many tiny sliver polygons along the old NW district boundary (carve artifacts, up to lat 32.56); they were absorbed into the nearest seats (mostly NA-77/NA-81) to keep an exact partition",
+  "the northern cantonment lobe (green wash on primary sheet, Cantonment Board hatch on hfz sheet) was assigned to NA-77 (blue NA-77 wash surrounds it; not part of the yellow city region); NA-77 sheet share 0.169 vs output 0.139 mainly from canvas clipping of the northern lobe area",
+  "2018-delimitation layer could not be used to guide the city split: its Gujranwala city seats are displaced ~10+ km southeast of the actual city"
+ ],
+ "confidence": "medium"
+}

@@ -1,0 +1,1337 @@
+[
+ {
+  "family": "Leghari",
+  "base": "Dera Ghazi Khan / Rajanpur",
+  "edges": [
+   {
+    "a": "P00187",
+    "b": "P03124",
+    "rel": "father-son",
+    "note": "Awais is son of President Farooq Leghari",
+    "src": "https://en.wikipedia.org/wiki/Awais_Leghari"
+   },
+   {
+    "a": "P00187",
+    "b": "P06973",
+    "rel": "father-son",
+    "note": "Jamal Leghari (ex-senator) is Farooq's elder son",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P03124",
+    "b": "P06973",
+    "rel": "siblings",
+    "note": "Both sons of Farooq Leghari",
+    "src": "https://en.wikipedia.org/wiki/Awais_Leghari"
+   },
+   {
+    "a": "P03124",
+    "b": "P13860",
+    "rel": "father-son",
+    "note": "Ammar (won NA-187 Rajanpur 2024) is Awais's only son",
+    "src": "https://www.pakistantoday.com.pk/2023/01/19/farooq-legharis-grandson-launched-to-contest-against-imran-khan-in-na-193-rajanpur-by-poll/"
+   },
+   {
+    "a": "P00187",
+    "b": "P13860",
+    "rel": "grandfather-grandson",
+    "note": "4th generation of the dynasty",
+    "src": "https://www.pakistantoday.com.pk/2023/01/19/farooq-legharis-grandson-launched-to-contest-against-imran-khan-in-na-193-rajanpur-by-poll/"
+   },
+   {
+    "a": "P00187",
+    "b": "P01508",
+    "rel": "cousins",
+    "note": "Jaffar Khan Leghari (d.2022) was Farooq's cousin",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P00187",
+    "b": "P01511",
+    "rel": "cousins",
+    "note": "Mansoor Leghari listed as Farooq's cousin",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P00187",
+    "b": "P06975",
+    "rel": "cousins",
+    "note": "Maqsood Leghari listed as Farooq's cousin",
+    "src": "https://en.wikipedia.org/wiki/Farooq_Leghari"
+   },
+   {
+    "a": "P01508",
+    "b": "P10848",
+    "rel": "uncle-nephew",
+    "note": "Mohsin Leghari turbaned as Jaffar's successor",
+    "src": "https://www.thenews.com.pk/tns/detail/1030575-battle-of-the-sardars"
+   },
+   {
+    "a": "P01508",
+    "b": "P04748",
+    "rel": "spouses",
+    "note": "Dr Mina Ehsan Leghari is Jaffar's wife",
+    "src": "https://alchetron.com/Mina-Ehsan-Leghari"
+   }
+  ],
+  "notes": "Rivals of the Khosas in DG Khan; no intermarriage found. Sindh and RYK Legharis are unrelated clans."
+ },
+ {
+  "family": "Khosa",
+  "base": "Dera Ghazi Khan",
+  "edges": [
+   {
+    "a": "P10832",
+    "b": "P10837",
+    "rel": "father-son",
+    "note": "Dost Muhammad (ex-CM Punjab) is Zulfiqar Khosa's son",
+    "src": "https://en.wikipedia.org/wiki/Dost_Muhammad_Khosa"
+   },
+   {
+    "a": "P10832",
+    "b": "P00188",
+    "rel": "father-son",
+    "note": "Saif-ud-Din Khosa is Zulfiqar's son",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Saif-ud-Din_Khosa"
+   },
+   {
+    "a": "P00188",
+    "b": "P10837",
+    "rel": "siblings",
+    "note": "Both sons of Zulfiqar Khosa",
+    "src": "https://en.wikipedia.org/wiki/Dost_Muhammad_Khosa"
+   },
+   {
+    "a": "P10832",
+    "b": "P00184",
+    "rel": "cousins",
+    "note": "Intra-Khosa feud: Zulfiqar vs cousin Amjad Farooq",
+    "src": "https://www.dawn.com/news/1419695"
+   },
+   {
+    "a": "P00184",
+    "b": "P13831",
+    "rel": "father-son",
+    "note": "Abdul Qadir Khosa (won NA-184 2024) is Amjad Farooq's son",
+    "src": "https://en.wikipedia.org/wiki/Abdul_Qadir_Khan_Khosa"
+   },
+   {
+    "a": "P13198",
+    "b": "P06350",
+    "rel": "father-son",
+    "note": "Khurram Latif Khosa is ex-Governor Latif Khosa's son",
+    "src": "https://thefridaytimes.com/01-Jan-2024/attack-on-police-personnel-latif-khosa-s-son-arrested-in-lahore"
+   }
+  ],
+  "notes": "Same DG Khan Khosa tribe as Latif Khosa but no documented degree of kinship between his line and Zulfiqar's."
+ },
+ {
+  "family": "Kanju",
+  "base": "Lodhran",
+  "edges": [
+   {
+    "a": "P00119",
+    "b": "P06782",
+    "rel": "father-son",
+    "note": "Abdul Rehman is elder son of Siddique Kanju (assassinated 2001)",
+    "src": "https://en.wikipedia.org/wiki/Siddiq_Khan_Kanju"
+   },
+   {
+    "a": "P00119",
+    "b": "P03034",
+    "rel": "siblings",
+    "note": "Akhtar Kanju was Siddique's brother; factions split after 2013",
+    "src": "https://ojs.mrj.com.pk/index.php/MRJ/article/download/394/474/1220"
+   },
+   {
+    "a": "P03034",
+    "b": "P06782",
+    "rel": "uncle-nephew",
+    "note": "Uncle and nephew contested against each other 2013/2018/2024",
+    "src": "https://www.thenews.com.pk/print/1153784-triangular-battle-in-na-154-lodhran-i-as-key-clans-hold-sway"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Hiraj",
+  "base": "Khanewal",
+  "edges": [
+   {
+    "a": "P00141",
+    "b": "P03038",
+    "rel": "father-son",
+    "note": "Raza Hayat Hiraj born to Mahr Khizar Hayat Hiraj",
+    "src": "https://en.wikipedia.org/wiki/Raza_Hayat_Hiraj"
+   },
+   {
+    "a": "P01458",
+    "b": "P03042",
+    "rel": "father-son",
+    "note": "Hamid Yar Hiraj's father Sardar Allah Yar Hiraj (MPA 1985-96)",
+    "src": "https://www.pakpedia.pk/hamid-yar-hiraj/"
+   },
+   {
+    "a": "P03042",
+    "b": "P10592",
+    "rel": "siblings",
+    "note": "Hamid Yar and Ahmad Yar Hiraj are brothers",
+    "src": "https://www.dawn.com/news/280841/old-players-with-new-captains-in-khanewal"
+   },
+   {
+    "a": "P01458",
+    "b": "P10592",
+    "rel": "father-son",
+    "note": "Ahmad Yar also son of Allah Yar Hiraj",
+    "src": "https://www.pakpedia.pk/hamid-yar-hiraj/"
+   }
+  ],
+  "notes": "Two branches (Mehr vs Sardar) of the clan; no sourced kinship between branches - kept unconnected."
+ },
+ {
+  "family": "Khichi",
+  "base": "Vehari",
+  "edges": [
+   {
+    "a": "P01487",
+    "b": "P03109",
+    "rel": "father-son",
+    "note": "Aurangzeb is son of Dilawar Khan Khichi",
+    "src": "https://tribune.com.pk/story/2454214/dynastic-politics-dominates-veharis-electoral-landscape"
+   },
+   {
+    "a": "P01487",
+    "b": "P03098",
+    "rel": "uncle-nephew",
+    "note": "Aftab is son of Dilawar's brother Mumtaz Khichi",
+    "src": "https://loksujag.com/story/vehari-election-situation-scenario-eng"
+   },
+   {
+    "a": "P03109",
+    "b": "P03098",
+    "rel": "cousins",
+    "note": "First cousins contesting adjacent Vehari seats",
+    "src": "https://loksujag.com/story/vehari-election-situation-scenario-eng"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Daultana",
+  "base": "Vehari",
+  "edges": [
+   {
+    "a": "P01494",
+    "b": "P03097",
+    "rel": "cousins",
+    "note": "Shahida (daughter of ex-CM Mumtaz Daultana) vs cousin Tehmina in 2002",
+    "src": "https://www.dawn.com/news/54310"
+   },
+   {
+    "a": "P04717",
+    "b": "P06924",
+    "rel": "siblings",
+    "note": "Azeem Daultana (miscoded 'Azeema'; d.2012) and sister Natasha",
+    "src": "https://en.wikipedia.org/wiki/Azeem_Daultana"
+   },
+   {
+    "a": "P01494",
+    "b": "P04717",
+    "rel": "aunt-nephew",
+    "note": "Azeem was Tehmina's nephew",
+    "src": "https://en.wikipedia.org/wiki/Azeem_Daultana"
+   },
+   {
+    "a": "P01494",
+    "b": "P06924",
+    "rel": "aunt-nephew",
+    "note": "Natasha is Tehmina's niece",
+    "src": "https://www.dawn.com/news/1419976"
+   }
+  ],
+  "notes": "Lineage of ex-Punjab CM Mumtaz Daultana. 'Azeema Daultana' in data is actually Azeem Daultana (male)."
+ },
+ {
+  "family": "Talpur (Mirpurkhas/Umerkot)",
+  "base": "Mirpur Khas / Umerkot",
+  "edges": [
+   {
+    "a": "P05102",
+    "b": "P01651",
+    "rel": "spouses",
+    "note": "Faryal Talpur (nee Zardari) is Mir Munawar Ali Talpur's wife",
+    "src": "https://en.wikipedia.org/wiki/Faryal_Talpur"
+   },
+   {
+    "a": "P00493",
+    "b": "P14081",
+    "rel": "father-son",
+    "note": "Taimur Talpur is son of Nawab Yousuf Talpur (identity high-probability)",
+    "src": "https://www.dawn.com/news/1892860/mna-nawab-yousuf-talpur-passes-away"
+   }
+  ],
+  "notes": "No sourced kinship between Yousuf Talpur (Umerkot) and Munawar Ali Talpur (Mirpurkhas) - same tribe, treat as separate dynasties."
+ },
+ {
+  "family": "Bachani",
+  "base": "Tando Allahyar",
+  "edges": [
+   {
+    "a": "P00456",
+    "b": "P03451",
+    "rel": "spouses",
+    "note": "Shamshad is Abdul Sattar Bachani's wife (held seat 2002/2008)",
+    "src": "https://www.dawn.com/news/1026171/tando-allahyar-magsis-vs-ppp-with-a-few-vote-spoilers"
+   },
+   {
+    "a": "P00456",
+    "b": "P05069",
+    "rel": "father-son",
+    "note": "Zulfiqar Sattar Bachani succeeded to the seat 2018/2024",
+    "src": "https://www.app.com.pk/domestic/senior-ppp-leader-haji-abdul-sattar-bachani-laid-to-rest-in-tando-allahyar/"
+   },
+   {
+    "a": "P03451",
+    "b": "P05069",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://www.pakpedia.pk/zulfiqar-bachani/"
+   }
+  ],
+  "notes": "Husband-wife-son seat rotation in NA-217/223/224."
+ },
+ {
+  "family": "Mirza",
+  "base": "Badin",
+  "edges": [
+   {
+    "a": "P00472",
+    "b": "P01764",
+    "rel": "spouses",
+    "note": "Zulfiqar Mirza and Speaker Fehmida Mirza, Badin's power couple",
+    "src": "https://www.dawn.com/news/1809336/battle-lines-drawn-between-resilient-mirzas-vigilant-ppp-in-badin"
+   },
+   {
+    "a": "P00472",
+    "b": "P07754",
+    "rel": "father-son",
+    "note": "Hasnain Mirza (MPA Badin) their son",
+    "src": "https://en.wikipedia.org/wiki/Hasnain_Mirza"
+   },
+   {
+    "a": "P01764",
+    "b": "P07754",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Hasnain_Mirza"
+   },
+   {
+    "a": "P00472",
+    "b": "P11147",
+    "rel": "father-son",
+    "note": "Hassam Mirza, GDA's NA Badin candidate 2018/2024",
+    "src": "https://www.thenews.com.pk/print/1143340-nomination-papers-of-zulfiqar-mirza-fahmida-mirza-two-sons-rejected"
+   },
+   {
+    "a": "P01764",
+    "b": "P11147",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://www.dawn.com/news/1809336/battle-lines-drawn-between-resilient-mirzas-vigilant-ppp-in-badin"
+   },
+   {
+    "a": "P07754",
+    "b": "P11147",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.thenews.com.pk/print/1143340-nomination-papers-of-zulfiqar-mirza-fahmida-mirza-two-sons-rejected"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Jillani Pirs",
+  "base": "Tharparkar / Mirpurkhas",
+  "edges": [
+   {
+    "a": "P00482",
+    "b": "P05094",
+    "rel": "siblings",
+    "note": "Pir Aftab and Pir Shafqat Jillani are brothers",
+    "src": "https://en.wikipedia.org/wiki/Aftab_Hussain_Shah_Jillani"
+   },
+   {
+    "a": "P01781",
+    "b": "P14083",
+    "rel": "father-son",
+    "note": "Ameer Ali Shah Jeelani succeeded father Pir Noor Muhammad (d.2020)",
+    "src": "https://en.wikipedia.org/wiki/Pir_Ameer_Ali_Shah_Jeelani"
+   }
+  ],
+  "notes": "Two branches; no sourced kinship between them. Distinct from Multan Gilanis."
+ },
+ {
+  "family": "Shirazi",
+  "base": "Thatta / Sujawal",
+  "edges": [
+   {
+    "a": "P00563",
+    "b": "P00564",
+    "rel": "siblings",
+    "note": "Aijaz and Shafqat, sons of patriarch Qadir Dino Shah Shirazi",
+    "src": "https://www.dawn.com/news/757967/shirazis-of-thatta-join-ppp-again"
+   },
+   {
+    "a": "P00563",
+    "b": "P03537",
+    "rel": "father-son",
+    "note": "Ayaz Shah Sheerazi (MNA 2002-) is Aijaz's son",
+    "src": "https://www.dawn.com/news/757967/shirazis-of-thatta-join-ppp-again"
+   },
+   {
+    "a": "P00563",
+    "b": "P05200",
+    "rel": "father-son",
+    "note": "Riaz Shah Shirazi (MPA) also Aijaz's son",
+    "src": "https://www.brecorder.com/news/40039663"
+   },
+   {
+    "a": "P03537",
+    "b": "P05200",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.brecorder.com/news/40039663"
+   },
+   {
+    "a": "P00564",
+    "b": "P03537",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://www.dawn.com/news/757967/shirazis-of-thatta-join-ppp-again"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Mahar",
+  "base": "Ghotki / Shikarpur",
+  "edges": [
+   {
+    "a": "P04884",
+    "b": "P07352",
+    "rel": "siblings",
+    "note": "Ali Mohammad (ex-CM Sindh) and Ali Gohar (tribal sardar), sons of Ali Anwar Mahar",
+    "src": "https://en.wikipedia.org/wiki/Ali_Mohammad_Mahar"
+   },
+   {
+    "a": "P04884",
+    "b": "P10947",
+    "rel": "siblings",
+    "note": "Ali Nawaz third brother",
+    "src": "https://en.wikipedia.org/wiki/Ali_Nawaz_Khan_Mahar"
+   },
+   {
+    "a": "P07352",
+    "b": "P10947",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Ali_Gohar_Khan_Mahar"
+   },
+   {
+    "a": "P00283",
+    "b": "P07352",
+    "rel": "uncle-nephew",
+    "note": "Ghulam Muhammad Mahar (d.1995) paternal uncle of the Ali Anwar branch",
+    "src": "https://www.dawn.com/news/1495964"
+   },
+   {
+    "a": "P00283",
+    "b": "P04884",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Ghulam_Muhammad_Khan_Mahar"
+   },
+   {
+    "a": "P07352",
+    "b": "P07363",
+    "rel": "father-son",
+    "note": "Haji Khan Mahar is Ali Gohar's son",
+    "src": "https://www.dawn.com/news/1495964"
+   },
+   {
+    "a": "P01614",
+    "b": "P13905",
+    "rel": "father-son",
+    "note": "Shahryar Mahar (MNA Shikarpur 2024) is Ghous Bux Mahar's son",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Shaharyar_Khan_Mahar"
+   }
+  ],
+  "notes": "Ghotki sardar lineage and Shikarpur branch share the tribe; no specific kinship sourced between them."
+ },
+ {
+  "family": "Bhutto-Zardari",
+  "base": "Larkana / Nawabshah",
+  "edges": [
+   {
+    "a": "P00400",
+    "b": "P00416",
+    "rel": "mother-daughter",
+    "note": "Nusrat Bhutto and Benazir",
+    "src": "https://en.wikipedia.org/wiki/Nusrat_Bhutto"
+   },
+   {
+    "a": "P00400",
+    "b": "P00412",
+    "rel": "mother-son",
+    "note": "Murtaza was Nusrat's eldest son",
+    "src": "https://en.wikipedia.org/wiki/Murtaza_Bhutto"
+   },
+   {
+    "a": "P00416",
+    "b": "P00412",
+    "rel": "siblings",
+    "note": "Politically estranged; Murtaza killed 1996",
+    "src": "https://en.wikipedia.org/wiki/Murtaza_Bhutto"
+   },
+   {
+    "a": "P00416",
+    "b": "P00330",
+    "rel": "spouses",
+    "note": "Benazir m. Asif Zardari 1987",
+    "src": "https://en.wikipedia.org/wiki/Benazir_Bhutto"
+   },
+   {
+    "a": "P00330",
+    "b": "P09469",
+    "rel": "father-son",
+    "note": "Bilawal inherited the Larkana seat",
+    "src": "https://en.wikipedia.org/wiki/Bilawal_Bhutto_Zardari"
+   },
+   {
+    "a": "P00416",
+    "b": "P09469",
+    "rel": "mother-son",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Bilawal_Bhutto_Zardari"
+   },
+   {
+    "a": "P00374",
+    "b": "P00330",
+    "rel": "father-son",
+    "note": "Hakim Ali Zardari won Nawabshah 1993",
+    "src": "https://en.wikipedia.org/wiki/Hakim_Ali_Zardari"
+   },
+   {
+    "a": "P00374",
+    "b": "P01651",
+    "rel": "father-daughter",
+    "note": "Faryal is Hakim Ali's daughter",
+    "src": "https://en.wikipedia.org/wiki/Zardari_family"
+   },
+   {
+    "a": "P00330",
+    "b": "P01651",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.dawn.com/news/1024467/faryal-talpur"
+   },
+   {
+    "a": "P00374",
+    "b": "P09469",
+    "rel": "grandfather-grandson",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Zardari_family"
+   },
+   {
+    "a": "P01651",
+    "b": "P09469",
+    "rel": "aunt-nephew",
+    "note": "",
+    "src": "https://www.dawn.com/news/1024467/faryal-talpur"
+   },
+   {
+    "a": "P00412",
+    "b": "P01687",
+    "rel": "spouses",
+    "note": "Ghinwa is Murtaza's widow, leads PPP-SB",
+    "src": "https://en.wikipedia.org/wiki/Ghinwa_Bhutto"
+   },
+   {
+    "a": "P00416",
+    "b": "P01687",
+    "rel": "in-laws",
+    "note": "Sisters-in-law; branches contested Larkana against each other",
+    "src": "https://en.wikipedia.org/wiki/Ghinwa_Bhutto"
+   }
+  ],
+  "notes": "Bilawal is also grandson of Nusrat Bhutto. Faryal's marriage to Mir Munawar Ali Talpur links this family to the Mirpurkhas Talpurs."
+ },
+ {
+  "family": "Jatoi",
+  "base": "Naushahro Feroze",
+  "edges": [
+   {
+    "a": "P00329",
+    "b": "P01644",
+    "rel": "father-son",
+    "note": "Ghulam Murtaza is son of caretaker-PM Ghulam Mustafa Jatoi",
+    "src": "https://en.wikipedia.org/wiki/Ghulam_Murtaza_Jatoi"
+   },
+   {
+    "a": "P00329",
+    "b": "P01640",
+    "rel": "father-son",
+    "note": "Arif Mustafa Jatoi",
+    "src": "https://en.wikipedia.org/wiki/Arif_Mustafa_Jatoi"
+   },
+   {
+    "a": "P00329",
+    "b": "P01638",
+    "rel": "father-son",
+    "note": "Masroor Khan Jatoi",
+    "src": "https://www.dawn.com/news/504792/thousands-attend-jatoi-funeral"
+   },
+   {
+    "a": "P00329",
+    "b": "P03357",
+    "rel": "siblings",
+    "note": "Dr Abdul Ghaffar Jatoi held NA-211 in 2002",
+    "src": "https://www.dawn.com/news/504792/thousands-attend-jatoi-funeral"
+   },
+   {
+    "a": "P00329",
+    "b": "P07525",
+    "rel": "father-son",
+    "note": "Asif Mustafa Jatoi, ex-senator",
+    "src": "https://www.dawn.com/news/846847/veteran-politician-mustafa-jatoi-dies"
+   }
+  ],
+  "notes": "The Dadu Jatois (Liaqat Ali Jatoi etc.) are a different hereditary family."
+ },
+ {
+  "family": "Sharif",
+  "base": "Lahore",
+  "edges": [
+   {
+    "a": "P00127",
+    "b": "P01325",
+    "rel": "siblings",
+    "note": "Nawaz and Shehbaz Sharif, both PMs",
+    "src": "https://en.wikipedia.org/wiki/Hamza_Shahbaz"
+   },
+   {
+    "a": "P01325",
+    "b": "P06203",
+    "rel": "father-son",
+    "note": "Hamza Shahbaz",
+    "src": "https://en.wikipedia.org/wiki/Hamza_Shahbaz"
+   },
+   {
+    "a": "P00127",
+    "b": "P13165",
+    "rel": "father-daughter",
+    "note": "Maryam Nawaz, CM Punjab",
+    "src": "https://en.wikipedia.org/wiki/Maryam_Nawaz"
+   },
+   {
+    "a": "P13165",
+    "b": "P07485",
+    "rel": "spouses",
+    "note": "Capt (R) Safdar Awan m. Maryam 1992",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Safdar_Awan"
+   },
+   {
+    "a": "P00127",
+    "b": "P06203",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Hamza_Shahbaz"
+   },
+   {
+    "a": "P01325",
+    "b": "P13165",
+    "rel": "uncle-nephew",
+    "note": "Uncle-niece",
+    "src": "https://en.wikipedia.org/wiki/Maryam_Nawaz"
+   },
+   {
+    "a": "P06203",
+    "b": "P13165",
+    "rel": "cousins",
+    "note": "Rival heirs apparent",
+    "src": "https://en.wikipedia.org/wiki/Maryam_Nawaz"
+   },
+   {
+    "a": "P00127",
+    "b": "P07485",
+    "rel": "in-laws",
+    "note": "Son-in-law",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Safdar_Awan"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Chaudhry of Gujrat",
+  "base": "Gujrat",
+  "edges": [
+   {
+    "a": "P01227",
+    "b": "P02735",
+    "rel": "siblings",
+    "note": "Shujaat and Wajahat, sons of Zahoor Elahi",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Shujaat_Hussain"
+   },
+   {
+    "a": "P01227",
+    "b": "P04809",
+    "rel": "cousins",
+    "note": "Pervaiz Elahi first cousin (also brother-in-law)",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Shujaat_Hussain"
+   },
+   {
+    "a": "P02735",
+    "b": "P04809",
+    "rel": "cousins",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Shujaat_Hussain"
+   },
+   {
+    "a": "P01227",
+    "b": "P12456",
+    "rel": "father-son",
+    "note": "Salik Hussain won NA-64 2024",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Salik_Hussain"
+   },
+   {
+    "a": "P02735",
+    "b": "P10005",
+    "rel": "father-son",
+    "note": "Hussain Elahi won NA-68 2018, NA-63 2024",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
+   },
+   {
+    "a": "P02735",
+    "b": "P12431",
+    "rel": "father-son",
+    "note": "Musa Elahi",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Musa_Elahi"
+   },
+   {
+    "a": "P10005",
+    "b": "P12431",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Musa_Elahi"
+   },
+   {
+    "a": "P04809",
+    "b": "P12457",
+    "rel": "spouses",
+    "note": "Qaisara Elahi, PTI-backed 2024",
+    "src": "https://www.dawn.com/news/1807450"
+   },
+   {
+    "a": "P01227",
+    "b": "P12457",
+    "rel": "siblings",
+    "note": "Qaisara is Shujaat's sister",
+    "src": "https://www.dawn.com/news/1807450"
+   },
+   {
+    "a": "P12457",
+    "b": "P12456",
+    "rel": "aunt-nephew",
+    "note": "Aunt vs nephew contest NA-64 2024",
+    "src": "https://www.dawn.com/news/1807450"
+   },
+   {
+    "a": "P01227",
+    "b": "P10005",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
+   },
+   {
+    "a": "P01227",
+    "b": "P12431",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Musa_Elahi"
+   },
+   {
+    "a": "P02735",
+    "b": "P12456",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Salik_Hussain"
+   },
+   {
+    "a": "P12456",
+    "b": "P10005",
+    "rel": "cousins",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
+   }
+  ],
+  "notes": "Moonis Elahi's NA-64 win was a 2018 by-election (not in GE data); Shafay Hussain is provincial."
+ },
+ {
+  "family": "Bilour",
+  "base": "Peshawar",
+  "edges": [
+   {
+    "a": "P00001",
+    "b": "P09627",
+    "rel": "siblings",
+    "note": "Ghulam Ahmad and Ilyas Bilour, brothers (identity of 2018 row probable)",
+    "src": "https://en.wikipedia.org/wiki/Ilyas_Ahmed_Bilour"
+   },
+   {
+    "a": "P00001",
+    "b": "P02712",
+    "rel": "uncle-nephew",
+    "note": "Usman Bashir Bilour (d.2014), son of Bashir Bilour (assassinated 2012)",
+    "src": "https://tribune.com.pk/story/804216/usman-bashir-bilour-1972-2014"
+   },
+   {
+    "a": "P09627",
+    "b": "P02712",
+    "rel": "uncle-nephew",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Ilyas_Ahmed_Bilour"
+   }
+  ],
+  "notes": "Bashir and Haroon Bilour (both assassinated) held provincial seats only, so absent from NA data. Cookman has no 1997 NA-1 Peshawar rows at all - Ghulam Bilour's 1997 record is missing from source data."
+ },
+ {
+  "family": "Wali Khan / Hoti",
+  "base": "Charsadda / Mardan",
+  "edges": [
+   {
+    "a": "P01071",
+    "b": "P11863",
+    "rel": "father-son",
+    "note": "Aimal Wali (ANP president) son of Asfandyar; great-grandson of Bacha Khan",
+    "src": "https://en.wikipedia.org/wiki/Aimal_Wali_Khan"
+   },
+   {
+    "a": "P01071",
+    "b": "P11838",
+    "rel": "uncle-nephew",
+    "note": "Ameer Haider Hoti (KP CM 2008-13) is Asfandyar's nephew via the Hoti-Wali Khan marriage",
+    "src": "https://en.wikipedia.org/wiki/Ameer_Haider_Khan_Hoti"
+   },
+   {
+    "a": "P11863",
+    "b": "P11838",
+    "rel": "cousins",
+    "note": "The two 2024 ANP standard-bearers are first cousins",
+    "src": "https://en.wikipedia.org/wiki/Ameer_Haider_Khan_Hoti"
+   }
+  ],
+  "notes": "Khwaja Muhammad Khan Hoti branch is a rival wing of the Hoti clan; exact blood kinship unsourced, no edge drawn."
+ },
+ {
+  "family": "Niazi (Mianwali)",
+  "base": "Mianwali",
+  "edges": [
+   {
+    "a": "P01405",
+    "b": "P02450",
+    "rel": "cousins",
+    "note": "Inamullah Niazi, Imran Khan's estranged first cousin; ran against him in 2013",
+    "src": "https://en.wikipedia.org/wiki/Inamullah_Niazi"
+   },
+   {
+    "a": "P01088",
+    "b": "P09068",
+    "rel": "father-son",
+    "note": "Amjad Ali Khan Niazi (PTI MNA) is Sher Afgan Niazi's son - separate Niazi dynasty, not Imran's kin",
+    "src": "https://en.wikipedia.org/wiki/Amjad_Ali_Khan_Niazi"
+   }
+  ],
+  "notes": "2024 NA-89 'Imran Khan' (IND, 8th) is a namesake, not the PTI founder. Rokhri-Niazi family (Humair Hayat Rokhri) is a third Mianwali dynasty."
+ },
+ {
+  "family": "Gilani",
+  "base": "Multan",
+  "edges": [
+   {
+    "a": "P00101",
+    "b": "P04653",
+    "rel": "father-son",
+    "note": "Abdul Qadir Gilani, eldest son of PM Yousaf Raza Gilani",
+    "src": "https://en.wikipedia.org/wiki/Abdul_Qadir_Gillani"
+   },
+   {
+    "a": "P00101",
+    "b": "P06667",
+    "rel": "father-son",
+    "note": "Ali Musa Gilani",
+    "src": "https://en.wikipedia.org/wiki/Ali_Musa_Gilani"
+   },
+   {
+    "a": "P00101",
+    "b": "P06675",
+    "rel": "father-son",
+    "note": "Ali Qasim Gilani (2013 covering candidate; won NA-148 by-poll 2024)",
+    "src": "https://en.wikipedia.org/wiki/Kasim_Gilani"
+   },
+   {
+    "a": "P00101",
+    "b": "P06737",
+    "rel": "father-son",
+    "note": "Ali Haider Gilani (kidnapped 2013)",
+    "src": "https://en.wikipedia.org/wiki/Ali_Haider_Gilani"
+   },
+   {
+    "a": "P00101",
+    "b": "P00103",
+    "rel": "siblings",
+    "note": "Ahmed Mujtaba Gilani, YRG's younger brother",
+    "src": "https://www.pap.gov.pk/members/profile/en/19/830"
+   },
+   {
+    "a": "P00101",
+    "b": "P00114",
+    "rel": "cousins",
+    "note": "Tanveer-ul-Hassan Gilani, Minister of State 1994-96",
+    "src": "https://en.wikipedia.org/wiki/Syed_Tanveer-ul-Hassan_Gillani"
+   },
+   {
+    "a": "P00101",
+    "b": "P03024",
+    "rel": "uncle-nephew",
+    "note": "Asad Murtaza Gilani (d.2015 Mina stampede), MNA 2002",
+    "src": "https://en.wikipedia.org/wiki/Assad_Murtaza_Gilani"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Qureshi",
+  "base": "Multan",
+  "edges": [
+   {
+    "a": "P02989",
+    "b": "P10634",
+    "rel": "father-son",
+    "note": "Zain Qureshi won NA-157 in 2018, NA-150 in 2024",
+    "src": "https://en.wikipedia.org/wiki/Zain_Qureshi"
+   },
+   {
+    "a": "P02989",
+    "b": "P13519",
+    "rel": "father-daughter",
+    "note": "Mehar Bano Qureshi, PTI-backed 2024",
+    "src": "https://www.dawn.com/news/1703916"
+   },
+   {
+    "a": "P10634",
+    "b": "P13519",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://www.dawn.com/news/1703916"
+   }
+  ],
+  "notes": "Father Makhdoom Sajjad Hussain Qureshi (Governor Punjab 1985-88, shrine sajjada nashin) predates the data window."
+ },
+ {
+  "family": "Hashmi",
+  "base": "Multan",
+  "edges": [],
+  "notes": "Javed Hashmi has no verified blood relatives among constituency candidates; daughter Mamoona sat on a reserved seat (not in constituency data).",
+  "seeds": [
+   "P00131"
+  ]
+ },
+ {
+  "family": "Chattha",
+  "base": "Gujranwala / Wazirabad",
+  "edges": [
+   {
+    "a": "P01184",
+    "b": "P04389",
+    "rel": "father-son",
+    "note": "Ahmed Chattha inherited Wazirabad seat from ex-Speaker Hamid Nasir Chattha",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Ahmed_Chattha"
+   },
+   {
+    "a": "P01184",
+    "b": "P02560",
+    "rel": "father-son",
+    "note": "Fayyaz Chattha, two-time district nazim",
+    "src": "https://www.dawn.com/news/1936737"
+   },
+   {
+    "a": "P04389",
+    "b": "P02560",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Hamid_Nasir_Chattha"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Cheema (Wazirabad)",
+  "base": "Gujranwala / Wazirabad",
+  "edges": [
+   {
+    "a": "P04386",
+    "b": "P10084",
+    "rel": "siblings",
+    "note": "Justice Iftikhar Cheema and Nisar Cheema, brothers (third brother ex-IG Zulfiqar)",
+    "src": "https://en.wikipedia.org/wiki/Nisar_Ahmed_Cheema"
+   }
+  ],
+  "notes": "Not related to Tariq Bashir Cheema of Bahawalpur."
+ },
+ {
+  "family": "Cheema (Bahawalpur)",
+  "base": "Bahawalpur",
+  "edges": [
+   {
+    "a": "P00226",
+    "b": "P04819",
+    "rel": "siblings",
+    "note": "Tahir Bashir Cheema, MNA Bahawalnagar",
+    "src": "https://en.wikipedia.org/wiki/Tariq_Bashir_Cheema"
+   },
+   {
+    "a": "P00226",
+    "b": "P13638",
+    "rel": "father-son",
+    "note": "Wali Daad Cheema contested 2024",
+    "src": "https://en.wikipedia.org/wiki/Tariq_Bashir_Cheema"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Tarar",
+  "base": "Hafizabad",
+  "edges": [
+   {
+    "a": "P01193",
+    "b": "P04391",
+    "rel": "father-daughter",
+    "note": "Saira Afzal Tarar (ex-health minister) daughter of Afzal Hussain Tarar",
+    "src": "https://english.aaj.tv/news/330359560/veteran-politican-afzal-tarar-passes-away"
+   }
+  ],
+  "notes": "Mandi Bahauddin Tarars (Mumtaz, Zafarullah, Tariq) are same-clan rivals, not one family."
+ },
+ {
+  "family": "Warraich",
+  "base": "Rahim Yar Khan",
+  "edges": [
+   {
+    "a": "P00254",
+    "b": "P04840",
+    "rel": "cousins",
+    "note": "Zafar and Javed Iqbal Warraich are cousins (Dawn)",
+    "src": "https://www.dawn.com/news/1024703/where-only-parties-change"
+   }
+  ],
+  "notes": "Ch Jaffar Iqbal (Gujjar) is a rival, not a Warraich."
+ },
+ {
+  "family": "Mengal",
+  "base": "Khuzdar",
+  "edges": [],
+  "notes": "Akhtar Mengal (son of Ataullah Mengal, who never contested NA 1993-2024) has no verified NA-contesting kin in data. Rival Naseer Mengal family: sons Shafiq (P11620) and Atta-ur-Rehman (P05448) are brothers, sons of caretaker CM Naseer Mengal.",
+  "seeds": [
+   "P00819",
+   "P03852"
+  ]
+ },
+ {
+  "family": "Mengal (Naseer branch)",
+  "base": "Khuzdar (Wadh)",
+  "edges": [
+   {
+    "a": "P11620",
+    "b": "P05448",
+    "rel": "siblings",
+    "note": "Shafiq and Atta-ur-Rehman, sons of ex-caretaker-CM Naseer Mengal; anti-BNP family",
+    "src": "https://www.thenews.com.pk/print/1323973-baloch-leader-killed-in-khuzdar-attack"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Bugti",
+  "base": "Dera Bugti",
+  "edges": [
+   {
+    "a": "P00809",
+    "b": "P08197",
+    "rel": "father-son",
+    "note": "Talal Akbar Bugti led JWP after Nawab Akbar Bugti's 2006 killing",
+    "src": "https://en.wikipedia.org/wiki/Talal_Akbar_Bugti"
+   },
+   {
+    "a": "P08197",
+    "b": "P08338",
+    "rel": "father-son",
+    "note": "Shahzain Bugti won NA-259 in 2018",
+    "src": "https://en.wikipedia.org/wiki/Shahzain_Bugti"
+   },
+   {
+    "a": "P00809",
+    "b": "P08338",
+    "rel": "grandfather-grandson",
+    "note": "",
+    "src": "https://www.dawn.com/news/304185/bugti-s-grandson-shahzain-freed"
+   },
+   {
+    "a": "P08197",
+    "b": "P08319",
+    "rel": "father-son",
+    "note": "Gohram Bugti",
+    "src": "https://en.wikipedia.org/wiki/Gohram_Bugti"
+   },
+   {
+    "a": "P00809",
+    "b": "P08319",
+    "rel": "grandfather-grandson",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Gohram_Bugti"
+   },
+   {
+    "a": "P08338",
+    "b": "P08319",
+    "rel": "siblings",
+    "note": "",
+    "src": "https://en.wikipedia.org/wiki/Gohram_Bugti"
+   },
+   {
+    "a": "P00809",
+    "b": "P11475",
+    "rel": "grandfather-grandson",
+    "note": "Mir Aali Bugti, tribal Nawab since 2006, son of late Salal Bugti",
+    "src": "https://www.dawn.com/news/594978/whats-in-the-name-bugti-2"
+   },
+   {
+    "a": "P08338",
+    "b": "P11475",
+    "rel": "cousins",
+    "note": "Paternal first cousins",
+    "src": "https://tribune.com.pk/story/532237/brothers-in-arms-2"
+   }
+  ],
+  "notes": "Kalpar-clan Bugtis (Ahmadan Bugti) are tribal rivals, not kin. Mian Khan Mandrani Bugti (2024 winner) is Mondrani sub-tribe, unconnected."
+ },
+ {
+  "family": "Jamali",
+  "base": "Jafarabad / Nasirabad",
+  "edges": [
+   {
+    "a": "P00814",
+    "b": "P02035",
+    "rel": "father-son",
+    "note": "Fareedullah won the family seat in 1997; son of PM Zafarullah Jamali",
+    "src": "https://www.thenews.com.pk/tns/detail/761148-the-first-among-baloch-chiefs"
+   },
+   {
+    "a": "P00814",
+    "b": "P03832",
+    "rel": "cousins",
+    "note": "Taj Muhammad Jamali, ex-CM Balochistan",
+    "src": "https://www.thenews.com.pk/tns/detail/761148-the-first-among-baloch-chiefs"
+   },
+   {
+    "a": "P03832",
+    "b": "P08328",
+    "rel": "father-son",
+    "note": "Changez Jamali elected unopposed after Taj's 2009 death",
+    "src": "https://www.dawn.com/news/1010600"
+   },
+   {
+    "a": "P00814",
+    "b": "P08328",
+    "rel": "uncle-nephew",
+    "note": "Zafarullah faced 'his own nephew' Changez in 2013",
+    "src": "https://www.dawn.com/news/1010600"
+   },
+   {
+    "a": "P00814",
+    "b": "P11505",
+    "rel": "uncle-nephew",
+    "note": "Khan Muhammad Jamali (MNA 2018 PTI, 2024 PMLN)",
+    "src": "https://www.thenews.com.pk/tns/detail/761148-the-first-among-baloch-chiefs"
+   },
+   {
+    "a": "P00814",
+    "b": "P05418",
+    "rel": "siblings",
+    "note": "Abdul Rehman Jamali, younger brother (high confidence)",
+    "src": "https://www.dawn.com/news/618662/jamalis-younger-brother-gets-ppp-ticket-for-assembly-seat"
+   },
+   {
+    "a": "P00814",
+    "b": "P11507",
+    "rel": "uncle-nephew",
+    "note": "Rahat Jamali (uncle-niece), sister of Jan Muhammad Jamali of the rival wing",
+    "src": "https://www.dawn.com/news/1010600"
+   }
+  ],
+  "notes": "Sindh Jamalis (incl. Rafique Ahmed Jamali of Dadu) are a different branch. Jan Mohammad Jamali held provincial seats only."
+ },
+ {
+  "family": "Jadoon",
+  "base": "Abbottabad",
+  "edges": [
+   {
+    "a": "P00073",
+    "b": "P09530",
+    "rel": "father-son",
+    "note": "Ali Khan Jadoon (PTI MNA 2018/2024) son of ex-minister Amanullah Jadoon",
+    "src": "https://en.wikipedia.org/wiki/Ali_Khan_Jadoon"
+   }
+  ],
+  "notes": "Azhar Jadoon (PTI 2013) was Amanullah's electoral rival - same tribe, no kinship."
+ },
+ {
+  "family": "Tamman",
+  "base": "Chakwal (Talagang)",
+  "edges": [
+   {
+    "a": "P01040",
+    "b": "P04150",
+    "rel": "uncle-nephew",
+    "note": "Sardar Mumtaz Tamman is Faiz Malik Tamman's maternal uncle",
+    "src": "https://www.dawn.com/news/793580/lines-are-being-drawn-for-the-battle-in-chakwal"
+   },
+   {
+    "a": "P01040",
+    "b": "P12404",
+    "rel": "grandfather-grandson",
+    "note": "Shahroz Khan Tamman (identity very likely)",
+    "src": "https://www.dawn.com/news/1809373"
+   }
+  ],
+  "notes": "Mansoor Hayat Tamman heads a rival faction of the biradri; precise kinship unsourced."
+ },
+ {
+  "family": "Mela",
+  "base": "Sargodha",
+  "edges": [
+   {
+    "a": "P02411",
+    "b": "P10164",
+    "rel": "father-son",
+    "note": "Usama Ghias Mela (won NA-83 2024) son of Ghias Mela",
+    "src": "https://en.wikipedia.org/wiki/Usama_Ghias_Mela"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Awaisi",
+  "base": "Bahawalpur",
+  "edges": [
+   {
+    "a": "P04795",
+    "b": "P13651",
+    "rel": "father-son",
+    "note": "Usman Awaisi won NA-167 in 2024; father ran as covering IND in same seat",
+    "src": "https://www.dawn.com/news/1811728/close-battle-anticipated-as-ppp-pml-n-pti-contenders-gear-up"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Soomro",
+  "base": "Jacobabad / Shikarpur",
+  "edges": [
+   {
+    "a": "P00314",
+    "b": "P10865",
+    "rel": "uncle-nephew",
+    "note": "Elahi Bux Soomro (ex-Speaker) is paternal uncle of Muhammad Mian Soomro (caretaker PM)",
+    "src": "https://tribune.com.pk/story/530272/ilahi-bux-soomro-mends-fences-with-nephew-mohammad-mian-soomro"
+   },
+   {
+    "a": "P00314",
+    "b": "P01613",
+    "rel": "siblings",
+    "note": "Iftikhar Soomro (probable identity)",
+    "src": "https://www.liquisearch.com/elahi_bux_soomro/family"
+   }
+  ],
+  "notes": "Larkana JUI-F Soomros (Khalid Mehmood -> son Rashid Mehmood) are a separate religious-political family."
+ },
+ {
+  "family": "Soomro (Larkana JUI-F)",
+  "base": "Larkana",
+  "edges": [
+   {
+    "a": "P00417",
+    "b": "P10899",
+    "rel": "father-son",
+    "note": "Rashid Mehmood Soomro, son of Senator Khalid Mehmood Soomro (assassinated 2014)",
+    "src": "https://en.wikipedia.org/wiki/Rashid_Mahmood_Soomro"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "family": "Bijarani",
+  "base": "Kashmore-Kandhkot",
+  "edges": [
+   {
+    "a": "P03338",
+    "b": "P04948",
+    "rel": "father-son",
+    "note": "Shabbir Bijarani inherited seat of Mir Hazar Khan Bijarani (d.2018)",
+    "src": "https://www.dawn.com/news/1416846"
+   },
+   {
+    "a": "P03338",
+    "b": "P03342",
+    "rel": "uncle-nephew",
+    "note": "Mehboob Bijarani, now clan sardar",
+    "src": "https://pas.gov.pk/members/profile/33/770"
+   },
+   {
+    "a": "P04948",
+    "b": "P03342",
+    "rel": "cousins",
+    "note": "",
+    "src": "https://tribune.com.pk/story/1745359/bijarani-likely-return-ppp"
+   }
+  ],
+  "notes": "4-generation dynasty per Wikipedia (father and grandfather in colonial/provincial assemblies)."
+ },
+ {
+  "family": "Sultan (Sultan Bahoo shrine)",
+  "base": "Jhang (Garh Maharaja)",
+  "edges": [
+   {
+    "a": "P01170",
+    "b": "P09304",
+    "rel": "father-son",
+    "note": "Ameer Sultan (PTI MNA 2018/2024) son of Sahibzada Nazir Sultan (d.2022)",
+    "src": "https://en.wikipedia.org/wiki/Muhammad_Ameer_Sultan"
+   },
+   {
+    "a": "P04313",
+    "b": "P01170",
+    "rel": "cousins",
+    "note": "Mehboob Sultan and Nazir Sultan are cousins (Lok Sujag)",
+    "src": "https://loksujag.com/story/jhang-election-scenario"
+   },
+   {
+    "a": "P01170",
+    "b": "P02534",
+    "rel": "siblings",
+    "note": "Majeed Sultan, elder brother (plausible identity)",
+    "src": "https://www.dawn.com/news/1408322"
+   }
+  ],
+  "notes": "Gaddi nashins of the Sultan Bahoo shrine - NOT the Shah Jeewna pirs (that is rival Faisal Saleh Hayat's family)."
+ }
+]

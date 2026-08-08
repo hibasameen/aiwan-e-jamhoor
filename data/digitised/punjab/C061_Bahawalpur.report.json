@@ -1,0 +1,34 @@
+{
+ "canvas_id": "C061_Bahawalpur",
+ "seats": [
+  "NA-164",
+  "NA-165",
+  "NA-166",
+  "NA-167",
+  "NA-168"
+ ],
+ "sheet_used": "bwp_na164_168_b.jpg",
+ "rms_km": 3.826,
+ "area_share_sheet": {
+  "NA-164": 0.1061,
+  "NA-165": 0.754,
+  "NA-166": 0.069,
+  "NA-167": 0.0494,
+  "NA-168": 0.0214
+ },
+ "area_share_out": {
+  "NA-164": 0.1269,
+  "NA-165": 0.7645,
+  "NA-166": 0.0695,
+  "NA-167": 0.0305,
+  "NA-168": 0.0085
+ },
+ "issues": [
+  "Both sheets are objection-stage \"PROPOSED BY APPLICANT\" maps (Muhammad Munir / Muhammad Shahzad Akhtar), not official ECP preliminary sheets; they carry identical 5-way tehsil-based splits (matching the final tehsil composition) so the split was accepted: NA-164=Hasilpur+Khairpur Tamewali (cyan), NA-165=Yazman+Cholistan (pale yellow), NA-166=Ahmadpur East (red), NA-167=Bahawalpur Saddar (purple), NA-168=Bahawalpur City (magenta); handwritten NA labels on both sheets match FINAL numbering per data/na_2024_districts.csv, no renumbering needed.",
+  "Map is drawn rotated ~40 deg (north points upper-right per compass rose) and is anisotropically distorted vs the modern district polygon; standard 0/90/180/270 similarity ICP collapsed, so fit used 4 feature anchors (Panjnad west tip, Hasilpur east/north tips, Cholistan south tip) -> affine LSQ -> trimmed affine-ICP -> 4-round TPS-ICP; final outline rms 3.8 km (residual is genuine old-map warp, mostly on the under-drawn Ahmadpur East riverine arm tip and the SE Cholistan wedge absent from the sheet).",
+  "NA-165 (very pale wash) segmented as district-body remainder after flood-fill body extraction; body mask carried small text-strip artifacts on the north edge, removed by 25px elliptical opening.",
+  "NA-168 (Bahawalpur City) sheet share 2.1% vs output 0.9%: the TPS compression of the exaggerated drawn riverine strip squeezes the smallest seat; its position/neighbours (between NA-167 and NA-164 on the Sutlej opposite Lodhran) are correct but its outline carries the largest relative uncertainty (~2-4 km).",
+  "Cross-check sheet bwp_na164_168.jpg processed with the identical pipeline: output shares agree within 1.1 pp on every seat (e.g. NA-165 0.764 vs 0.771), confirming the two sheets encode the same split."
+ ],
+ "confidence": "medium"
+}

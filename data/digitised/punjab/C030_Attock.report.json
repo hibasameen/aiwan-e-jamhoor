@@ -1,0 +1,23 @@
+{
+ "canvas_id": "C030_Attock",
+ "seats": [
+  "NA-49",
+  "NA-50"
+ ],
+ "sheet_used": "attock_na50.jpg",
+ "rms_km": 2.874,
+ "area_share_sheet": {
+  "NA-49": 0.2783,
+  "NA-50": 0.7217
+ },
+ "area_share_out": {
+  "NA-49": 0.2365,
+  "NA-50": 0.7635
+ },
+ "issues": [
+  "NA-50 marked only by sparse pink highlighter scribbles; internal NA-49/NA-50 line from nearest-label transfer",
+  "salmon-filled QH \"Attock-II\" (Attock tehsil) assigned to NA-49 (north of the marked seat boundary)",
+  "canvas polygon contains microscopic slivers/holes (data artifacts, <0.05 km2 each); seats inherit them so union==canvas exactly"
+ ],
+ "confidence": "medium"
+}

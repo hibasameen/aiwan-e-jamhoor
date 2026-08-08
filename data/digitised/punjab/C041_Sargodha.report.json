@@ -1,0 +1,38 @@
+{
+ "canvas_id": "C041_Sargodha",
+ "seats": [
+  "NA-82",
+  "NA-83",
+  "NA-84",
+  "NA-85",
+  "NA-86"
+ ],
+ "sheet_used": "sargodha_na82_83_86.jpg",
+ "cross_check_sheets": [
+  "sargodha_na83_85.jpg",
+  "sargodha_na82_83.jpg"
+ ],
+ "rms_km": 1.909,
+ "area_share_sheet": {
+  "NA-82": 0.2062,
+  "NA-83": 0.2602,
+  "NA-84": 0.112,
+  "NA-85": 0.1709,
+  "NA-86": 0.2508
+ },
+ "area_share_out": {
+  "NA-82": 0.2231,
+  "NA-83": 0.2689,
+  "NA-84": 0.1555,
+  "NA-85": 0.1649,
+  "NA-86": 0.1876
+ },
+ "label_mapping": "identity (prelim sheet labels NA-82..86 Sargodha-I..V match final 2024 csv)",
+ "issues": [
+  "Sheets show PRELIMINARY 2023 proposal; final delimitation may differ within-district (no final sheet available). Numbering identical to final csv.",
+  "NA-84 seed recovered as remainder of face partition (urban red wash poisoned the orange boundary-line mask over Sargodha city); its area share drifted +4.4pp between sheet-pixel and output classification.",
+  "Sargodha Cantonment assigned to NA-84 with Sargodha city, per hand-drawn navy NA-84 loop on sargodha_na83_85.jpg; Shaheen Abad QH protrusion to NA-85 per face partition.",
+  "NA-82/NA-86 share a boundary in the NW (Shahpur vs Bhera line); verified NA-82=Bhera+Bhalwal (NE), NA-86=Shahpur+Sahiwal (W) from seat labels on both other sheets."
+ ],
+ "confidence": "high"
+}

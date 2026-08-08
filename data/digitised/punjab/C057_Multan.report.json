@@ -1,0 +1,42 @@
+{
+ "canvas_id": "C057_Multan",
+ "seats": [
+  "NA-148",
+  "NA-149",
+  "NA-150",
+  "NA-151",
+  "NA-152",
+  "NA-153"
+ ],
+ "sheet_used": "multan_na148_151.jpg (district: yellow=NA-148 incl. Qadirpur Rawan T.C., salmon=NA-151, green strip=Part NA-149, white SW=NA-152+153) + multan_na153.jpg (pink wash=NA-153 vs rest of SW=NA-152) + multan_na148_149_151.jpg (city: blue=NA-148 incl. Cantonment, pink=NA-149, tan=NA-150, green=NA-151); multan_na150.jpg used as cross-check only (proposal variant, cantonment uncoloured, contradicts final composition so not digitised)",
+ "rms_km": 1.02,
+ "rms_km_by_sheet": {
+  "multan_na148_151.jpg": 1.02,
+  "multan_na153.jpg": 1.16,
+  "city_sheet_trimmed_icp_vs_MCM_blob": 0.46
+ },
+ "area_share_sheet": {
+  "NA-148": 0.159,
+  "NA-149": 0.014,
+  "NA-150": 0.011,
+  "NA-151": 0.162,
+  "NA-152": 0.243,
+  "NA-153": 0.412
+ },
+ "area_share_out": {
+  "NA-148": 0.165,
+  "NA-149": 0.013,
+  "NA-150": 0.011,
+  "NA-151": 0.2,
+  "NA-152": 0.232,
+  "NA-153": 0.379
+ },
+ "issues": [
+  "Sheets are PRELIMINARY delimitation; final (2024) kept all six seats within Multan district (na_2024_districts.csv) and final compositions verified via Wikipedia anchors: NA-148 includes Multan Cantonment (matches city sheet blue), NA-150 = Multan City area, NA-153 = Shujabad(part)+Jalalpur Pirwala. Prelim-vs-final micro-changes around Qadirpur Rawan T.C. and the Part-NA-149 strip (ECP 910,134 vs proposal 903,411 for NA-148) could not be resolved from public sources; ECP-prelim reading used (QR T.C. in NA-148 per printed label).",
+  "Both district sheets draw a straight SE district edge and omit the canvas eastern bulge (lon 71.72-71.83); bulge filled by nearest-label transfer (north part NA-148, south part NA-151).",
+  "City sheet georeferenced by scale+translation ICP of its coloured union against the MCM+cantonment white blob of the district sheet (trimmed rms 0.46 km, scale converged 0.0099-0.0102 km/px from all inits); residual vs remembered landmarks ~1-1.5 km, so NA-149/NA-150 internal city boundaries carry ~1-1.5 km uncertainty (confidence medium for city seats).",
+  "multan_na150.jpg (second city sheet) shows a conflicting proposal (cantonment not in NA-148); rejected because final composition places Cantonment in NA-148.",
+  "NA-148 spans rural NE plus city blocks (cantonment and eastern city); in the output these connect via a thin northern city strip so the seat is single-part, but the cantonment link is within the ~1-1.5 km city-georef uncertainty and may be discontiguous in reality."
+ ],
+ "confidence": "medium"
+}

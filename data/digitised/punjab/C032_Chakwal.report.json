@@ -1,0 +1,23 @@
+{
+ "canvas_id": "C032_Chakwal",
+ "seats": [
+  "NA-58",
+  "NA-59"
+ ],
+ "sheet_used": "chakwal_na58_59.jpg",
+ "rms_km": 2.312,
+ "area_share_sheet": {
+  "NA-58": 0.3811,
+  "NA-59": 0.6189
+ },
+ "area_share_out": {
+  "NA-58": 0.3579,
+  "NA-59": 0.6421
+ },
+ "issues": [
+  "sheet shows PROPOSED NA-58/NA-59 (hand-annotated); final numbering identical per data/na_2024_districts.csv",
+  "pink Kallar Kahar pocket inside green east half kept with NA-59 as drawn",
+  "canvas polygon contains microscopic slivers/holes (data artifacts, <0.05 km2 each); seats inherit them so union==canvas exactly"
+ ],
+ "confidence": "high"
+}

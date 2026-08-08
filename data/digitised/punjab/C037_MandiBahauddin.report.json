@@ -1,0 +1,25 @@
+{
+ "canvas_id": "C037_MandiBahauddin",
+ "seats": [
+  "NA-68",
+  "NA-69"
+ ],
+ "sheet_used": "mandib_na68_69.jpg",
+ "rms_km": 2.104,
+ "area_share_sheet": {
+  "NA-68": 0.4247,
+  "NA-69": 0.5753
+ },
+ "area_share_out": {
+  "NA-68": 0.4498,
+  "NA-69": 0.5502
+ },
+ "issues": [
+  "NA-68=orange marker wash (east), NA-69=blue marker wash (west); yellow MC patches (MC M.B.Din, MC Phalia) fall inside NA-68 and merge into its hue range; green MC Malakwal hole inside NA-69 filled by nearest-label.",
+  "River Jhelum/Chenab bands (hue 106-114) share the blue family with the NA-69 wash; excluded by capping NA-69 hue at 104, which removed river strips outside the district boundary.",
+  "A thin NA-69 sliver along the Chenab southeast of the internal boundary jog is drawn on the sheet and retained.",
+  "Cross-check sheet mandib_na68_69_b.jpg is a greyscale provincial (PP-40..43) map; only qualitative cross-check possible - consistent mid-district N-S divide.",
+  "Sheet labels match FINAL numbering (NA-68 Mandi Bahauddin-I, NA-69 Mandi Bahauddin-II per data/na_2024_districts.csv)."
+ ],
+ "confidence": "high"
+}

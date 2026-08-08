@@ -1,0 +1,23 @@
+{
+ "canvas_id": "C058_Lodhran",
+ "seats": [
+  "NA-154",
+  "NA-155"
+ ],
+ "sheet_used": "lodhran_na.jpg",
+ "rms_km": 0.997,
+ "area_share_sheet": {
+  "NA-154": 0.534,
+  "NA-155": 0.466
+ },
+ "area_share_out": {
+  "NA-154": 0.525,
+  "NA-155": 0.475
+ },
+ "issues": [
+  "sheet lodhran_na154.jpg is a PP proposal map (PP-225..228), not used; lodhran_na.jpg used (hand-marked Proposed NA-154/NA-155)",
+  "only NA-155 carries a colour wash; NA-154 taken as district-body remainder (body mask from boundary flood-fill)",
+  "seat numbering on sheet matches final numbering per na_2024_districts.csv (NA-154 Lodhran-I, NA-155 Lodhran-II)"
+ ],
+ "confidence": "high"
+}

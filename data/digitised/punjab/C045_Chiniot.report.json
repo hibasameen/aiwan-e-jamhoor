@@ -1,0 +1,23 @@
+{
+ "canvas_id": "C045_Chiniot",
+ "seats": [
+  "NA-93",
+  "NA-94"
+ ],
+ "sheet_used": "chiniot_na93_94.jpg",
+ "rms_km": 1.105,
+ "area_share_sheet": {
+  "NA-93": 0.5997,
+  "NA-94": 0.4003
+ },
+ "area_share_out": {
+  "NA-94": 0.3938,
+  "NA-93": 0.6062
+ },
+ "issues": [
+  "chiniot_na93_94_b.jpg carries no constituency colour wash (only faint highlighter labels); used only as line-work cross-check",
+  "NA-93/NA-94 boundary partly follows the Chenab river band which is uncoloured on the sheet; the line there is a nearest-label midline (~1 km uncertainty)",
+  "NA-93 written as exact canvas remainder of NA-94 (both masks were good; remainder chosen for exact partition)"
+ ],
+ "confidence": "high"
+}

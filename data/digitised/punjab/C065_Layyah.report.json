@@ -1,0 +1,22 @@
+{
+ "canvas_id": "C065_Layyah",
+ "seats": [
+  "NA-181",
+  "NA-182"
+ ],
+ "sheet_used": "layyah_na181_182_b.jpg",
+ "rms_km": 0.973,
+ "area_share_sheet": {
+  "NA-181": 0.719,
+  "NA-182": 0.281
+ },
+ "area_share_out": {
+  "NA-181": 0.709,
+  "NA-182": 0.291
+ },
+ "issues": [
+  "Choubara Municipal Corporation brick-red overlay inside NA-181 masked as pink; disconnected components reassigned to NA-181",
+  "seat numbering on sheet matches final numbering per na_2024_districts.csv (NA-181 Layyah-I, NA-182 Layyah-II)"
+ ],
+ "confidence": "high"
+}

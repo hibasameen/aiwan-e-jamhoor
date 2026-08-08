@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aiwan-e-Jamhoor — Method &amp; sources</title>
+<meta name="description" content="How the data and maps behind Aiwan-e-Jamhoor were built — results 2008–2024, three delimitations, boundary digitisation, and the honest limits of each number and line.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%2314523a%22/%3E%3Cg%20transform%3D%22translate%286%206%29%20scale%280.8125%29%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2229%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2226%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%224.2%22%20stroke-dasharray%3D%223.4%203.4%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2223%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Cg%20stroke%3D%22%23c9a13f%22%20stroke-width%3D%221.7%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M13%2032%20H51%20M32%2013%20V51%20M15.55%2022.5%20L48.45%2041.5%20M22.5%2015.55%20L41.5%2048.45%20M22.5%2048.45%20L41.5%2015.55%20M15.55%2041.5%20L48.45%2022.5%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2219%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2213%22%20stroke-width%3D%222.2%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%227%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%223.6%22%20fill%3D%22%23c9a13f%22/%3E%3C/g%3E%3C/svg%3E">
+<meta property="og:title" content="Aiwan-e-Jamhoor — Method &amp; sources">
+<meta property="og:description" content="How the data and maps were built, and the honest limits of each number and line.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://hibasameen.github.io/aiwan-e-jamhoor/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://hibasameen.github.io/aiwan-e-jamhoor/og-image.png">
+<meta property="og:url" content="https://hibasameen.github.io/aiwan-e-jamhoor/method.html">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  color-scheme:light;
+  --page:#eeece6; --surface:#f7f6f2; --surface-2:#e7e4dc;
+  --ink:#12110f; --ink-2:#4a473f; --ink-3:#6a675e;
+  --line:#cfcbc0; --line-2:#e3e0d7;
+  --green:#14523a; --green-2:#1e6a49; --gold:#b8912f; --gold-2:#c9a13f;
+  --cream:#f2efe6;
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#12130f; --surface:#1a1b17; --surface-2:#24251f;
+  --ink:#f3f1e9; --ink-2:#c7c3b6; --ink-3:#918d80;
+  --line:#33342c; --line-2:#2a2b23;
+  --green:#4f9e78; --green-2:#3f8a66; --gold:#cba43f; --gold-2:#d8b451;
+  --cream:#f2efe6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--page);color:var(--ink);font-family:Archivo,system-ui,sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-decoration:none}
+a:hover{color:var(--ink)}
+.mono{font-family:'Space Mono',monospace}
+
+/* ---- shared shell: header ---- */
+header.shell{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
+.shell-in{max-width:1400px;margin:0 auto;padding:13px 32px;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:13px;cursor:pointer}
+.brand .mk{width:38px;height:38px;color:var(--green);flex:none}
+.brand .wm{font-family:'EB Garamond',serif;font-size:23px;line-height:1.05;letter-spacing:.005em;color:var(--ink)}
+.brand .wm .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:17px;color:var(--gold);margin-inline-start:8px;vertical-align:2px}
+.brand .sub{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-top:1px}
+nav.main{display:flex;gap:2px;margin-left:6px}
+nav.main a{border:0;background:transparent;color:var(--ink-2);font:600 13.5px Archivo,sans-serif;padding:8px 14px;border-radius:2px;cursor:pointer}
+nav.main a:hover{background:var(--surface-2);color:var(--ink)}
+nav.main a.on{background:var(--ink);color:var(--page)}
+.spacer{flex:1}
+.hdr-tools{display:flex;align-items:center;gap:8px}
+.icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--page);color:var(--ink-2);border-radius:2px;cursor:pointer;font-size:15px;line-height:1}
+.icon-btn:hover{color:var(--ink)}
+
+/* ---- article ---- */
+main{max-width:760px;margin:0 auto;padding:64px 32px 110px}
+.eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-bottom:14px}
+h1.title{font-family:'EB Garamond',serif;font-weight:500;font-size:clamp(34px,6vw,52px);line-height:1.05;letter-spacing:-.012em;margin:0 0 18px}
+.standfirst{font-size:19px;line-height:1.62;color:var(--ink-2);margin:0 0 20px;text-wrap:pretty}
+article{font-family:'EB Garamond',serif;font-size:18.5px;line-height:1.66}
+article p{margin:0 0 18px;text-wrap:pretty}
+article h2{font-family:Archivo,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:var(--green);margin:52px 0 6px;padding-top:20px;border-top:1px solid var(--line)}
+article h2 .n{color:var(--ink-3);margin-right:10px}
+article h3{font-family:'EB Garamond',serif;font-weight:600;font-size:22px;margin:30px 0 8px}
+article strong{font-weight:600}
+article em{font-style:italic}
+article a{text-decoration:underline;text-underline-offset:2px}
+.callout{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:2px;padding:16px 20px;margin:22px 0;font-size:16.5px;line-height:1.6}
+.callout .lbl{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-2);display:block;margin-bottom:6px}
+table{width:100%;border-collapse:collapse;margin:22px 0;font-family:Archivo,sans-serif;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+thead th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3);border-bottom:1.5px solid var(--ink-3)}
+td.mono,th.mono{font-family:'Space Mono',monospace}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 24px;font-family:Archivo,sans-serif;font-size:13px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);border-radius:2px;padding:6px 11px}
+.chip .dot{width:11px;height:11px;border-radius:2px;flex:none}
+.chip b{font-family:'Space Mono',monospace}
+pre{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:15px 17px;overflow:auto;font-family:'Space Mono',monospace;font-size:12.5px;line-height:1.6;margin:18px 0}
+.toc{font-family:Archivo,sans-serif;font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:18px 22px;margin:28px 0 8px}
+.toc .k{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);display:block;margin-bottom:10px}
+.toc ol{margin:0;padding-left:22px;columns:2;column-gap:32px}
+.toc li{margin-bottom:5px}
+.toc a{color:var(--ink-2);text-decoration:none}
+.toc a:hover{color:var(--green);text-decoration:underline}
+
+/* ---- footer ---- */
+footer{border-top:1px solid var(--line);background:var(--surface)}
+.foot-in{max-width:1400px;margin:0 auto;padding:22px 32px 40px;display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start}
+.foot-in .mk{width:26px;height:26px;color:var(--ink-3);flex:none}
+.foot-src{flex:1 1 520px;font-size:11.5px;line-height:1.65;color:var(--ink-3);max-width:100ch}
+.foot-src b{color:var(--ink-2)}
+.foot-src a{color:var(--ink-2);text-decoration:underline;text-underline-offset:2px}
+.foot-btn{border:1px solid var(--line);background:transparent;color:var(--green);font:600 12px Archivo,sans-serif;padding:7px 12px;border-radius:2px;cursor:pointer}
+
+@media (max-width:720px){
+  .shell-in{flex-wrap:wrap;gap:12px 16px;padding:12px 18px}
+  nav.main{order:3;width:100%;margin-left:0;overflow-x:auto}
+  main{padding:44px 20px 80px}
+  .toc ol{columns:1}
+  article{font-size:17.5px}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="mk" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="4.2" stroke-dasharray="3.4 3.4"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <g stroke="#c9a13f" stroke-width="1.7" fill="none">
+    <path d="M13 32 H51 M32 13 V51 M15.55 22.5 L48.45 41.5 M22.5 15.55 L41.5 48.45 M22.5 48.45 L41.5 15.55 M15.55 41.5 L48.45 22.5"/>
+    <circle cx="32" cy="32" r="19"/><circle cx="32" cy="32" r="13" stroke-width="2.2"/><circle cx="32" cy="32" r="7"/>
+  </g>
+  <circle cx="32" cy="32" r="3.6" fill="#c9a13f"/>
+</symbol></svg>
+
+<header class="shell">
+  <div class="shell-in">
+    <a class="brand" href="index.html">
+      <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
+      <div>
+        <div class="wm">Aiwan-e-Jamhoor<span class="ur">ایوانِ جمہور</span></div>
+        <div class="sub">The People's House</div>
+      </div>
+    </a>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="map.html">Map</a>
+      <a href="dynasties.html">Dynasties</a>
+      <a class="on" href="method.html">Method</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="hdr-tools">
+      <button class="icon-btn" id="theme" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="eyebrow">Method &amp; sources</div>
+  <h1 class="title">Where every number and line comes from</h1>
+  <p class="standfirst">Aiwan-e-Jamhoor maps every National Assembly general election since 2008 on the constituency boundaries in force at the time. This is the honest account of how the data and the maps were built — and what they can and cannot be trusted to say.</p>
+
+  <p>Two facts shape everything here, and both are worth stating plainly. First, the Election Commission of Pakistan has <strong>never released GIS boundary files</strong>: every constituency polygon in public circulation, including all of ours, is a digitisation of low-resolution map sheets or a reconstruction from written seat descriptions. There is no authoritative vector ground truth to check against. Second, <strong>constituency numbers are not comparable across delimitations</strong> — NA-120 in 2013 is not NA-120 in 2018 is not NA-120 in 2024, and no official crosswalk exists. We treat the delimitation vintage as a property of every seat and never join results across vintages on the seat number alone.</p>
+
+  <div class="toc">
+    <span class="k">On this page</span>
+    <ol>
+      <li><a href="#scope">Scope</a></li>
+      <li><a href="#results">Results, 2008–2024</a></li>
+      <li><a href="#geometry">Three delimitations</a></li>
+      <li><a href="#b2018">True 2018 boundaries</a></li>
+      <li><a href="#b2023">True 2023 boundaries</a></li>
+      <li><a href="#confidence">Confidence &amp; how the map shows it</a></li>
+      <li><a href="#app">The application</a></li>
+      <li><a href="#limits">Limitations</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ol>
+  </div>
+
+  <article>
+
+    <h2 id="scope"><span class="n">01</span>Scope</h2>
+    <p>The project covers the National Assembly only, and within it the directly elected general seats only — the reserved seats for women and non-Muslims are filled by proportional allocation rather than a direct vote, and are excluded. It covers the four general elections of 2008, 2013, 2018 and 2024, and it shows strictly the <em>election-day</em> outcome: seats whose poll was postponed and later held as a supplementary poll are marked postponed rather than filled with the later winner, and by-elections between general elections are not shown. The dynasties layer reaches further back, using candidate records to 1993 to link the same person across elections.</p>
+
+    <h2 id="results"><span class="n">02</span>Results, 2008–2024</h2>
+    <p>For 2008, 2013 and 2018 the backbone is Colin Cookman's open, Commission-derived election datasets — candidate- and constituency-level CSVs, released under GPL-3.0 and candid about their own transcription errors. We keep only general-election-day rows, which excludes the supplementary polls for postponed seats. The 2018 figures are explicitly provisional: they come from a machine-readable feed ECP published in mid-2018 and later removed, and they predate tribunal revisions.</p>
+
+    <p>2024 was different: when this project was built, no neutral, consolidated, machine-readable dataset for the election existed. We built one in two passes. First, every one of the 266 constituency pages was transcribed from ElectionPakistani, which itself transcribes ECP's Form-47 provisional consolidations — giving every candidate, party and vote. Then a second, official layer was read directly from <strong>254 scanned ECP Form-47 forms</strong>, adding the figures the scrape lacked: registered voters, turnout, polling stations, and rejected votes. Every extracted row was arithmetic-checked — valid plus rejected equals polled, male plus female equals the totals, winner never exceeds valid votes.</p>
+
+    <div class="callout">
+      <span class="lbl">What the cross-check found</span>
+      Comparing the two passes, the winner agrees in 249 of 254 seats. About 198 show small vote differences between the provisional Form-47 and later revisions. <strong>Five seats are genuine reversals</strong>, where the election-day winner differs from the later declared result — NA-79, NA-81, NA-154, NA-251 and NA-261 — and the map flags all five.
+    </div>
+
+    <p>Three caveats on 2024 matter for reading the map. Party labels are <em>as declared on election day</em>: PTI was denied its symbol, so PTI-backed winners contested and are recorded as Independent, and their later move to the Sunni Ittehad Council is not applied. Our directly-elected tally — IND 99, PML-N 78, PPP 54, MQM 17 and a long tail — therefore differs by a handful of seats from commonly cited figures, because the source reflects some recounts and tribunal outcomes. And "declared" is not "current": tribunal rulings and the July 2024 reserved-seat judgment have since changed the composition of the House. Twelve seats (NA-1, 2, 4, 7, 8, 12, 14, 16, 19, 20, 21, 22) have no scanned form and rely on the transcription alone.</p>
+
+    <h2 id="geometry"><span class="n">03</span>Three delimitations</h2>
+    <p>Each election is drawn on the boundaries that were legally in force when it was held.</p>
+    <table>
+      <thead><tr><th>Election</th><th>Delimitation</th><th class="mono">Seats</th><th>Boundary source</th></tr></thead>
+      <tbody>
+        <tr><td>2008, 2013</td><td>2002</td><td class="mono">272</td><td>rugpundit digitisation</td></tr>
+        <tr><td>2018</td><td>2018</td><td class="mono">272</td><td>digitised here from ECP sheets</td></tr>
+        <tr><td>2024</td><td>2023</td><td class="mono">266</td><td>ECP sheets + published compositions</td></tr>
+      </tbody>
+    </table>
+    <p>For 2008 and 2013 we use the <code>rugpundit/PakistanConstituencies2013</code> shapefile, the de-facto research standard and itself an unofficial digitisation of ECP raster maps. Two of the 272 seats — NA-95 and NA-96 in urban Gujranwala — are absent from that source; their results stay fully searchable in the app even though the two shapes are not shaded. Thirty-four self-intersecting rings were repaired before use.</p>
+
+    <p>For 2018 and 2023, ECP has released nothing and no complete public vector file exists, so the boundaries were reconstructed here. The transparent baseline allocates every seat to its district or districts, gives whole-district seats their exact union — so <em>district edges are accurate</em> — and splits multi-seat districts with a Voronoi diagram seeded to follow ECP's numbering. Under this baseline the internal line between two seats in the same district is only approximate, and every such seat is flagged. Both the 2018 and the 2024 layers the app ships have since been upgraded past this baseline, as below.</p>
+
+    <div class="callout">
+      <span class="lbl">A rendering constraint</span>
+      D3's geographic projection reads a counter-clockwise polygon ring as inverted — a seat wound the wrong way fills the entire globe and the map becomes a solid rectangle. Every boundary file is therefore re-wound clockwise and repaired for validity before it reaches the app.
+    </div>
+
+    <h2 id="b2018"><span class="n">04</span>True 2018 boundaries</h2>
+    <p>The 114 high-resolution ECP 2018 district map sheets were digitised province by province, each with a technique matched to how that province's sheets are drawn: Quetta's grid-printed sheet georeferenced directly and the rest of Balochistan taken as exact district unions; KP's colour-fill sheets split by hue masks and fitted by iterative closest point with a thin-plate spline; Punjab's red-line sheets processed as barrier masks into interior components and assigned to known centroids; and Sindh's 28 colour-fill sheets covering 61 seats. Where a sheet's colour identifies a seat unambiguously, that colour — not the centroid guess — is authoritative. Outline-fit error runs from a few hundred metres to a few kilometres, with a median near three. The result, a 272-seat file, is what the app's 2018 layer uses.</p>
+
+    <h2 id="b2023"><span class="n">05</span>True 2023 boundaries — the 2024 map</h2>
+    <p>This is the most involved part of the project. The 266 seats fall into 109 groups over shared districts; 38 are single-seat groups needing no internal line at all, and the other 71 groups — 228 seats — needed one drawn. Three techniques were used, in order of preference. Where an ECP delimitation sheet was reachable, the seat was <strong>digitised from it</strong> (Punjab contributed 29 such groups, including all fourteen Lahore seats; Sindh contributed 13). Where no sheet was reachable, the seat was <strong>rebuilt from its published composition</strong> — the official list of tehsils, talukas or union councils it contains — by gridding the group into cells, hard-locking cells in wholly-owned tehsils, and allocating split-tehsil cells to the nearest already-assigned part of each seat under a population or area quota. A few dense city seats with neither a sheet nor a usable composition keep a Voronoi split, and are flagged.</p>
+
+    <div class="callout">
+      <span class="lbl">Contiguity as an error detector</span>
+      Pakistani constituencies are contiguous by law, so a composition that produces a <em>fragmented</em> seat is not a geometry problem — it is a signal that the composition hypothesis is wrong. That single check caught two real district-layer errors before they shipped: a 4,126 km² lobe of Surab district wrongly attached to a Kalat-area seat, and 1,120 km² of Dasht tehsil — which belongs to Mastung — wrongly inside Quetta. Both were carved out and confirmed against ECP sheets.
+    </div>
+
+    <p>Several seat-level findings are worth recording because they are easy to get wrong. Lower Dir's NA-6 and NA-7 were <strong>transposed</strong> between 2018 and 2023 — the southern Jandool/Maidan seat was NA-7 in 2018 and is NA-6 in 2023, verified three independent ways — so any analysis joining 2018 NA-6/7 geography to 2024 results is backwards. Kech's NA-258/259 split was resolved from the sheet's explicit exclusion table, overturning an earlier vote-roll guess, and Nasirabad's NA-254/255 split from FAFEN district voter rolls rather than population parity. The full partition was assembled and then verified: 266 of 266 seats present, no gaps, and a symmetric difference against the national outline of 0.0003 percent — the seats tile the country to within a rounding error.</p>
+
+    <h2 id="confidence"><span class="n">06</span>Confidence, and how the map shows it</h2>
+    <p>Because the 2024 boundaries were built three different ways, every seat carries a confidence grade, and the map is candid about it. District edges are exact throughout; only the internal lines between seats in the same district-group vary.</p>
+    <div class="chips">
+      <span class="chip"><span class="dot" style="background:var(--green)"></span><b>203</b> high — sheet-digitised or whole-district</span>
+      <span class="chip"><span class="dot" style="background:var(--gold-2)"></span><b>44</b> medium — from published composition</span>
+      <span class="chip"><span class="dot" style="background:var(--ink-3);border-radius:2px;outline:1px dashed var(--ink-2);outline-offset:1px"></span><b>19</b> low — inferred internal lines</span>
+    </div>
+    <p>Low-confidence seats — Peshawar, Islamabad, and a handful of city seats in Faisalabad, Gujranwala, Sheikhupura and Korangi — render with a <strong>dashed grey border</strong>, and every seat carries a plain-language note about its boundary provenance in the tooltip and the constituency panel.</p>
+
+    <h2 id="app"><span class="n">07</span>The application</h2>
+    <p>The site is a set of static, self-contained HTML files: the map inlines D3 and all of its data, so it runs offline and behind firewalls with no server and no build step. It offers a year switcher, a party-colour choropleth with a click-to-isolate legend, a constituency panel with the full candidate list and turnout, a sortable table view as an accessibility fallback, and a light and dark theme. Party colours follow Pakistani media convention, tuned so the normal-vision contrast passes an accessibility check; where two party colours could confuse a colour-blind reader, the seats are geographically far apart and the table view is always available as the fallback.</p>
+
+    <h2 id="limits"><span class="n">08</span>Limitations, in one place</h2>
+    <p>No boundary file here is an ECP product: district edges are reliable, but internal lines between same-district seats range from digitised-from-sheet to inferred, and none of these polygons should be used for sub-district spatial joins. The 2024 results are provisional, Form-47-derived and cross-checked but pre-final-gazette, with five seats later reversed and flagged. What the map shows is the election-day picture, not the current membership of the House after tribunal rulings and the reserved-seat judgment. Party is as-declared, so PTI-backed 2024 independents appear as Independent. And a seat number means a different piece of ground in each delimitation — the app says so wherever it invites the comparison.</p>
+
+    <h2 id="sources"><span class="n">09</span>Sources</h2>
+    <p>Results for 2008–2018 come from Colin Cookman's <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results for 2024 are an <a href="https://www.electionpakistani.com/ge2024/">ElectionPakistani</a> transcription of ECP Form-47, cross-checked against 254 official scanned forms. The 2002 boundaries are from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit/PakistanConstituencies2013</a> (GPL-3.0); the 2018 and 2023 boundaries were digitised and reconstructed in this project from ECP delimitation map sheets and published seat compositions, on geoBoundaries, COD and CartoDB district base layers. The full methodology, the code that produces every file, and a wider survey of candidate sources are published in the project's open repository.</p>
+
+    <p style="color:var(--ink-3);font-size:16px;margin-top:34px">Aiwan-e-Jamhoor is an independent civic-data project. It is not affiliated with the Election Commission of Pakistan.</p>
+
+  </article>
+</main>
+
+<footer>
+  <div class="foot-in">
+    <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
+    <div class="foot-src">
+      <b>Sources.</b> Results 2008–2018: Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results 2024: <a href="https://www.electionpakistani.com/ge2024/">ElectionPakistani</a> Form-47 transcription, unofficial, cross-checked against 254 official scanned forms. Boundaries: 2002 from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; 2018 and 2023 reconstructed and digitised here. All boundaries approximate; 2024 figures are provisional and predate tribunal revisions. Directly elected general seats only. Party colours follow Pakistani media convention.
+    </div>
+    <a class="foot-btn" href="map.html">Open the map</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var t=document.getElementById('theme');
+  try{ var s=localStorage.getItem('aej-theme'); if(s) document.documentElement.dataset.theme=s; }catch(e){}
+  t.addEventListener('click',function(){
+    var cur=document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var nx=cur==='dark'?'light':'dark';
+    document.documentElement.dataset.theme=nx;
+    try{localStorage.setItem('aej-theme',nx);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>

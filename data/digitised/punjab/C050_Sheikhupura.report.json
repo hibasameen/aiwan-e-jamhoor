@@ -1,0 +1,29 @@
+{
+ "canvas_id": "C050_Sheikhupura",
+ "seats": [
+  "NA-113",
+  "NA-114",
+  "NA-115",
+  "NA-116"
+ ],
+ "sheet_used": null,
+ "rms_km": null,
+ "area_share_sheet": {},
+ "area_share_out": {
+  "NA-113": 0.3478,
+  "NA-114": 0.1371,
+  "NA-115": 0.1513,
+  "NA-116": 0.3638
+ },
+ "issues": [
+  "no ECP sheet exists for this canvas; full composition rebuild from final-2023 compositions (Wikipedia leads, cross-checked against data/na_2024_districts.csv): NA-113=Muridke Tehsil+Ferozewala Tehsil (partly, incl Ferozewala city), NA-114=Sharak Pur Tehsil+Ferozewala (partly: Kot Abdul Malik side), NA-115=Sheikhupura city (MC+Sheikhupura QH), NA-116=Safdarabad Tehsil+rest of Sheikhupura Tehsil (Farooqabad, Mananwala Jodh Singh, Jandiala Sher Khan)",
+  "note: the parent-task hint (NA-113/114 around Sheikhupura city, NA-115 Ferozewala/Muridke) contradicts Wikipedia per-seat pages and was NOT followed; Wikipedia compositions used instead",
+  "Ferozewala internal split taken from the digitised TRUE 2018 NA-119/NA-120 boundary (na_2018delim_v2.geojson) since the 2023 composition inherits the 2018 arrangement; east ~77% of Ferozewala area (rural + Ferozewala city) to NA-113, dense western Kot Abdul Malik corridor to NA-114",
+  "NA-115/NA-116 split of Sheikhupura tehsil is invented (no sheet): 12.8 km-radius disc around Sheikhupura city sized to 40% of tehsil area (city seat is pop-dense, ~65% of tehsil pop on a smaller area); disconnected NE/SE remnant pockets of NA-116 reassigned to NA-115 by connectivity cleanup (final NA-115 = 15.1% of canvas)",
+  "NA-114 also holds 4 mauzas of Sheikhupura tehsil (Mudke, Muradey Kalan, Ghazi Androon, Noor Pur Virkan) per composition - too fine to map, left in NA-115/NA-116",
+  "gb-ADM3 tehsil layer leaves ~2% of canvas uncovered (boundary slivers, Ravi bends); per-cell nearest fill applied; 2018 NA-121/NA-122 digitised lines NOT used (NA-122 polygon spills 60% outside the district - unreliable)",
+  "all four seats single contiguous polygons; exact partition of canvas: symmetric difference ~1e-15, max pairwise overlap ~1e-17",
+  "rough population check (2017 tehsil census scaled to 2023 district total 4,049,418; quota 1,012,355): NA-113 ~1.15M (+13%), NA-114 ~1.10M (+9%), NA-115 ~0.95M (-6%), NA-116 ~0.85M (-16%) - acceptable for an approx rebuild"
+ ],
+ "confidence": "low"
+}

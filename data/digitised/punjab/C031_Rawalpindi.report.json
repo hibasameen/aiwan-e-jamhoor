@@ -1,0 +1,49 @@
+{
+ "canvas_id": "C031_Rawalpindi",
+ "seats": [
+  "NA-51",
+  "NA-52",
+  "NA-53",
+  "NA-54",
+  "NA-55",
+  "NA-56",
+  "NA-57"
+ ],
+ "sheet_used": "rwp_na52_57_b.jpg (whole-district map) + rwp_na52_57.jpg (Rawalpindi City urban map); cross-checks rwp_na53_57.jpg, rwp_na57_53.jpg agree",
+ "rms_km": 2.6,
+ "label_mapping_prelim_to_final": {
+  "NA-51": "NA-51",
+  "NA-52": "NA-52",
+  "NA-53": "NA-53",
+  "NA-54": "NA-55",
+  "NA-55": "NA-56",
+  "NA-56": "NA-57",
+  "NA-57": "NA-54"
+ },
+ "area_share_sheet_rwp_district_only": {
+  "NA-51": 0.238,
+  "NA-52": 0.341,
+  "NA-53": 0.2643,
+  "NA-54": 0.1491,
+  "NA-55": 0.0029,
+  "NA-56": 0.003,
+  "NA-57": 0.0029
+ },
+ "area_share_out_rwp_district_only": {
+  "NA-51": 0.2221,
+  "NA-52": 0.3634,
+  "NA-53": 0.2531,
+  "NA-54": 0.1409,
+  "NA-55": 0.004,
+  "NA-56": 0.0044,
+  "NA-57": 0.012
+ },
+ "issues": [
+  "Sheets carry preliminary numbering; FAFEN-recorded renumbering applied: prelim NA-54(cantonment blue)->final NA-55, prelim NA-55(city hatch)->final NA-56, prelim NA-56(Chaklala/east yellow)->final NA-57, prelim NA-57(Taxila+west metropolitan)->final NA-54. Verified by 2024 anchors: NA-52 Gujar Khan (Raja Pervaiz Ashraf), NA-54 Taxila (Aqeel Malik/Ghulam Sarwar/Nisar), NA-55 Rawalpindi Cantonment (Malik Ibrar), NA-56 Lal Haveli city seat (Hanif Abbasi vs Sheikh Rashid), plus census charge series on sheets (111xx cantonment in blue, 110xx city in hatch, 112xx Chaklala in yellow).",
+  "Murree district (Murree+Kotli Sattian tehsils, geoBoundaries ADM3) not drawn on either sheet; whole Murree part of canvas assigned to NA-51 and merged with the sheet-split Kahuta+Kallar Syedan region.",
+  "City sheet (1in=589m nominal) could not be outline-ICP-fitted to the district-map white hole (the two filings overlap-color the metropolitan fringe); used fixed-scale (empirical 12.25 m/px at 3000px, printed scale inconsistent) rigid fit anchored on the ICT border segment, translation ICP rms 0.62 km.",
+  "NA-55/56/57 internal city lines approximate (+/-1-2 km, approx:true); city core likely slightly undersized vs reality (green/pink fringe encroachment).",
+  "Page-B hole (urban filing area) transferred ~40% larger than its on-sheet pixel share; east lobe of urban area assigned to NA-53/NA-57 by nearest-label."
+ ],
+ "confidence": "medium"
+}

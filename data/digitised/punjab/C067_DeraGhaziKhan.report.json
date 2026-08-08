@@ -1,0 +1,34 @@
+{
+ "canvas_id": "C067_DeraGhaziKhan",
+ "seats": [
+  "NA-184",
+  "NA-185",
+  "NA-186"
+ ],
+ "sheet_used": "dgk_na185_186.jpg (cross-checked against dgk_na184.jpg)",
+ "rms_km": 2.38,
+ "area_share_sheet": {
+  "NA-184": 0.446,
+  "NA-185": 0.088,
+  "NA-186": 0.466
+ },
+ "area_share_out": {
+  "NA-184": 0.5,
+  "NA-185": 0.077,
+  "NA-186": 0.423
+ },
+ "label_mapping": {
+  "NA-184": "NA-184",
+  "NA-185": "NA-185",
+  "NA-186": "NA-186"
+ },
+ "issues": [
+  "Sheet is drawn ~45 deg off north AND non-uniformly area-distorted (settled plains enlarged ~3x relative to the western Sulaiman/de-excluded mountain strip); similarity and affine ICP both converge to a 180-deg-flipped fit, as warned. Fit built instead from 14 hand-verified semantic anchor correspondences (boundary landmarks: arm apex, Taunsa-carve notch, NE river corner, E river bulge, SE lobes, S spike, SW corner, W bulge, west-border shoulder points; interior: D.G.Khan and Kot Chutta municipal blobs vs true town coords) -> pinned TPS -> one trimmed boundary pass; validated visually.",
+  "Canvas Taunsa-carve boundary kept as hard boundary (clipped); the 16 small canvas sliver polygons along the carve/Indus were assigned to the nearest/adjacent seat (mostly NA-184).",
+  "Sheet shows only post-carve DG Khan district (Taunsa appears as neighbour only) - no Taunsa area needed clipping beyond the canvas itself.",
+  "Prelim sheet seat labels map 1:1 to final numbering (NA-184 I north/east incl de-excluded strip NE, NA-185 II central DG Khan city-Kot Chutta town pocket, NA-186 III Kot Chutta west + SW strip), consistent with district Roman-numeral sequence and csv; data/na_2024delim_simplified.geojson (approx:true) disagrees on ordering but its shapes are rough auto-approximations (its NA-185 covers the far-west mountain bulge, implausible for the city seat) and were not used.",
+  "area_share_sheet is measured on the distorted drawing, so it is expected to differ from area_share_out after warp correction; internal seat-line positional accuracy est. 3-5 km near the plains/towns, up to ~10 km inside the mountain strip.",
+  "Cross-check dgk_na184.jpg agrees on all three region identities; its NA-185 outline is slightly smaller in the south than the na185_186 sheet green wash (na185_186 sheet taken as authoritative for NA-185/186)."
+ ],
+ "confidence": "medium"
+}

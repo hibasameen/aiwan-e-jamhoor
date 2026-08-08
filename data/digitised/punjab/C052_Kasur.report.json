@@ -1,0 +1,37 @@
+{
+ "canvas_id": "C052_Kasur",
+ "seats": [
+  "NA-131",
+  "NA-132",
+  "NA-133",
+  "NA-134"
+ ],
+ "sheet_used": "sheets/punjab/kasur_na132.jpg",
+ "rms_km": 2.174,
+ "area_share_sheet": {
+  "NA-131": 0.1673,
+  "NA-132": 0.284,
+  "NA-133": 0.3323,
+  "NA-134": 0.2165
+ },
+ "area_share_out": {
+  "NA-131": 0.1424,
+  "NA-132": 0.2934,
+  "NA-134": 0.1856,
+  "NA-133": 0.3786
+ },
+ "issues": [
+  "sheet (from an NA-132 objection filing) DOES demarcate all four seats: pink wash labelled NA-131 (north: Kot Radha Kishan + north Kasur tehsil), green wash labelled NA-132 (south-east: MC Kasur + Ganda Singh Wala + Khudian/Usman Wala), and a hand-drawn navy ink line splitting the white remainder into NA-134 (north-west) and NA-133 (centre/south)",
+  "NA-133/NA-134: sheet demarcation matches the FINAL delimitation exactly (final NA-133 = Chunian tehsil + Chak No.34/Chakoki/Wan Adhan PCs of Pattoki-I QH; final NA-134 = rest of Pattoki tehsil; the ink line even hooks around MC Pattoki to keep it in NA-134) -> digitised from sheet, approx:false",
+  "NA-131/NA-132: the sheet pink/green split is the PRELIMINARY delimitation; the FINAL list revised it to an east/west split (final NA-131 = MC Kasur + MC Mustafa Abad + Ganda Singh Wala QH + Mustafa Abad QH + Kasur-I QH (excl. Athilpur & Aurara PCs) + Kasur-II QH + Bhala & Bhila Hithar PCs + Lakhanke PC; final NA-132 = Kot Radha Kishan tehsil + MC Khudian + MC Raja Jang + Khudian QH + Usman Wala QH + Raja Jang QH (excl. Lakhanke PC) + Bhila Hithar QH (excl. 2 PCs) + Athilpur & Aurara PCs). The final divider was reconstructed as a polyline traced along the sheet printed QH boundaries where identifiable -> approx:true on both",
+  "reconstructed NA-131/132 divider uncertainty: good (<1 km) along the Mustafa Abad/Kasur-I QH west edge and the Aurara/Athilpur jog; ~2-4 km in the central Khudian QH / Kasur-II QH belt and the south-eastern flank where PC->QH memberships are not readable on the sheet; Kailon/Qutba/Choha Churamat cells likely misassigned to NA-131 side of the Bhala/Bhila-Hithar jog",
+  "navy ink line had two detection gaps (drawn over the black MC Pattoki municipal ring; SW tip stops ~1.5 km short of the district boundary near TC Habibabad) - bridged with short straight segments",
+  "NA-133 written as exact canvas remainder for exact partition; canvas union symmetric-difference ~9e-8 deg2"
+ ],
+ "label_mapping": "sheet NA-133 (south)=final NA-133, sheet NA-134 (NW)=final NA-134 (numbering and geometry confirmed final); sheet NA-131 (pink,north)/NA-132 (green,south-east) are preliminary-delimitation regions superseded by the final east/west composition - final numbers assigned per ECP final list geography, not per sheet labels",
+ "prelim_area_share_sheet": {
+  "prelim NA-131(pink,N)": 0.2577,
+  "prelim NA-132(green,SE)": 0.1974
+ },
+ "confidence": "high (NA-133/134), medium (NA-131/132 reconstructed)"
+}

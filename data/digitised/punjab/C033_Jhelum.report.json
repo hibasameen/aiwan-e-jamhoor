@@ -1,0 +1,25 @@
+{
+ "canvas_id": "C033_Jhelum",
+ "seats": [
+  "NA-60",
+  "NA-61"
+ ],
+ "sheet_used": "jhelum_na60_61.jpg",
+ "rms_km": 2.076,
+ "area_share_sheet": {
+  "NA-60": 0.5281,
+  "NA-61": 0.4719
+ },
+ "area_share_out": {
+  "NA-60": 0.5132,
+  "NA-61": 0.4868
+ },
+ "issues": [
+  "Sheet is a hand-annotated revenue/demarcation map: seat wash NA-60=salmon (north: Sohawa, Dina, Jhelum MC area), NA-61=green (rest of Jhelum tehsil + Pind Dadan Khan strip); handwritten NA-60/NA-61 labels confirm assignment.",
+  "Dark hill-shaded area near Mangla/AJ&K weakens the salmon wash; small mask holes there were filled by nearest-label transfer.",
+  "Jhelum River is drawn green on this sheet and hugs the SE boundary adjacent to NA-61; clipped away by the canvas intersection but adds minor fit uncertainty on that edge.",
+  "Cross-check sheets jhelum_na60.jpg / jhelum_na61.jpg are tehsil-coloured base maps; their orange NA annotations are consistent with the primary split.",
+  "Sheet labels match FINAL numbering (NA-60 Jhelum-I, NA-61 Jhelum-II per data/na_2024_districts.csv); no renumbering needed."
+ ],
+ "confidence": "high"
+}

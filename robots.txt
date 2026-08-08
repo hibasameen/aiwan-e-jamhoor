@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace the host below with your live domain before launch.
+Sitemap: https://hibasameen.github.io/aiwan-e-jamhoor/sitemap.xml

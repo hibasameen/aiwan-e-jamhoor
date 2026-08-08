@@ -1,0 +1,35 @@
+{
+ "canvas_id": "C039_Narowal",
+ "seats": [
+  "NA-75",
+  "NA-76"
+ ],
+ "method": "nearest-assigned-tehsil grid partition of canvas; partial tehsils split per-cell nearest between whole-tehsil cores / town anchor points",
+ "composition": {
+  "NA-75": [
+   "Zafarwal Tehsil",
+   "Shakargarh Tehsil (excl. Bara Manga, Kanjroor, Dudhu Chak)"
+  ],
+  "NA-76": [
+   "Narowal Tehsil",
+   "Shakargarh Tehsil (part: Bara Manga, Kanjroor, Dudhu Chak)"
+  ]
+ },
+ "sources": {
+  "NA-75": "https://en.wikipedia.org/wiki/NA-75_Narowal-I",
+  "NA-76": "https://en.wikipedia.org/wiki/NA-76_Narowal-II"
+ },
+ "area_share_out": {
+  "NA-75": 0.6291,
+  "NA-76": 0.3709
+ },
+ "qa": {
+  "union_symdiff_deg2": 0.0,
+  "pairwise_overlap_deg2": 0.0,
+  "empty_seats": []
+ },
+ "issues": [
+  "Shakargarh part transferred to NA-76 (Bara Manga, Kanjroor, Dudhu Chak qanungo halqas) approximated by nearest-core split; actual halqa boundaries unavailable"
+ ],
+ "confidence": "high"
+}

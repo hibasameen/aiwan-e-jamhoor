@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Aiwan-e-Jamhoor: Pakistan National Assembly elections, mapped (2008–2024)"
+abstract: >-
+  An open dataset and interactive map of Pakistan National Assembly general
+  election results (2008, 2013, 2018, 2024) on the constituency boundaries in
+  force at each election, with candidate-level results and reconstructed /
+  digitised boundaries for the 2018 and 2023 delimitations.
+type: dataset
+authors:
+  - name: "Aiwan-e-Jamhoor project"
+keywords:
+  - Pakistan
+  - elections
+  - National Assembly
+  - constituency boundaries
+  - delimitation
+  - electoral data
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+date-released: 2026-08-05
+references:
+  - type: data
+    title: "pakistan_elections"
+    authors: [{ family-names: Cookman, given-names: Colin }]
+    url: "https://github.com/colincookman/pakistan_elections"
+    notes: "2008 & 2013 results (GPL-3.0)"
+  - type: data
+    title: "pakistan_election_results_2018"
+    authors: [{ family-names: Cookman, given-names: Colin }]
+    url: "https://github.com/colincookman/pakistan_election_results_2018"
+    notes: "2018 results (GPL-3.0)"
+  - type: data
+    title: "PakistanConstituencies2013"
+    authors: [{ name: rugpundit }]
+    url: "https://github.com/rugpundit/PakistanConstituencies2013"
+    notes: "2002-delimitation boundaries (GPL-3.0)"

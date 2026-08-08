@@ -1,0 +1,30 @@
+{
+ "canvas_id": "C056_Khanewal",
+ "seats": [
+  "NA-144",
+  "NA-145",
+  "NA-146",
+  "NA-147"
+ ],
+ "sheet_used": "khanewal_na.jpg",
+ "rms_km": 1.174,
+ "area_share_sheet": {
+  "NA-144": 0.3049,
+  "NA-145": 0.1543,
+  "NA-146": 0.2297,
+  "NA-147": 0.3112
+ },
+ "area_share_out": {
+  "NA-144": 0.3012,
+  "NA-145": 0.1753,
+  "NA-146": 0.2347,
+  "NA-147": 0.2888
+ },
+ "issues": [
+  "sheet filenames carry no seat numbers; inspection shows both sheets demarcate all four seats NA-144..NA-147, so coverage is complete and no ADM3/tehsil gap-fill was needed",
+  "khanewal_na_b.jpg (7th-census 'final' sheet) shows the same four-seat layout with identical numbering; used as cross-check only",
+  "NA-147 cyan wash shares its hue with the river band in NA-144; separated by a saturation cap (s<110) on the cyan gate",
+  "seat labels on both sheets already match FINAL numbering per data/na_2024_districts.csv (Khanewal I-IV); no renumbering mapping required"
+ ],
+ "confidence": "high"
+}

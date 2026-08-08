@@ -1,0 +1,31 @@
+{
+ "canvas_id": "C048_Jhang",
+ "seats": [
+  "NA-108",
+  "NA-109",
+  "NA-110"
+ ],
+ "sheet_used": "jhang_na108_110.jpg",
+ "rms_km": 2.69,
+ "area_share_sheet": {
+  "NA-108": 0.5172,
+  "NA-109": 0.1693,
+  "NA-110": 0.3134
+ },
+ "area_share_out": {
+  "NA-108": 0.5184,
+  "NA-109": 0.2004,
+  "NA-110": 0.2812
+ },
+ "issues": [
+  "Chenab river band through the district is uncoloured (blue wash) on the sheet; the NA-108/NA-110 and NA-108/NA-109 boundaries along it are nearest-label midlines (~1-2 km uncertainty)",
+  "orange urban patches and olive Shorkot cantonment area carry no seat colour; filled by nearest-label transfer",
+  "seat numbering on sheet (handwritten NA 108/NA 109/NA 110) matches final numbering per na_2024_districts.csv",
+  "canvas C048_Jhang is a MultiPolygon with a small detached exclave (~3.4 km2) near the Chiniot border at (72.43,31.64); assigned to NA-108 (sheet shows district north as NA-108 pink), so NA-108 is 2-part",
+  "NA-110 is 2-part: main Shorkot body plus a genuine south-western piece across the Chenab (sheet shows Tehsil A.P. Sial yellow strip wrapping the south-west) - matches sheet",
+  "NA-109 out-share 0.200 vs sheet 0.169 (+3pp): green wash under-covers the riverside edge of Tehsil Jhang; within tolerance",
+  "affine ICP with dense rotation starts used (same fitter as C047), rms 2.69 km",
+  "NA-110 written as exact canvas remainder for exact partition; sub-0.5% detached slivers reassigned to adjacent seats"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,23 @@
+{
+ "canvas_id": "C043_Mianwali",
+ "seats": [
+  "NA-89",
+  "NA-90"
+ ],
+ "sheet_used": "mianwali_na90.jpg",
+ "rms_km": 2.016,
+ "area_share_sheet": {
+  "NA-89": 0.6149,
+  "NA-90": 0.3851
+ },
+ "area_share_out": {
+  "NA-90": 0.3895,
+  "NA-89": 0.6105
+ },
+ "issues": [
+  "single sheet from the NA-90 filing shows the whole district with BOTH seats colour-washed (NA-89 pink, NA-90 green); no remainder inference needed beyond the exact-partition step",
+  "NA-89 written as exact canvas remainder of NA-90 for exact partition",
+  "sheet labels match final 2023 numbering (NA-89 Mianwali-I, NA-90 Mianwali-II); no renumbering"
+ ],
+ "confidence": "high"
+}

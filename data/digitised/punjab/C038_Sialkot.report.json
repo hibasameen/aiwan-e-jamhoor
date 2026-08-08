@@ -1,0 +1,37 @@
+{
+ "canvas_id": "C038_Sialkot",
+ "seats": [
+  "NA-70",
+  "NA-71",
+  "NA-72",
+  "NA-73",
+  "NA-74"
+ ],
+ "sheet_used": "sheets/punjab/sialkot_na73.jpg",
+ "rms_km": 0.832,
+ "area_share_sheet": {
+  "NA-70": 0.2695,
+  "NA-71": 0.0165,
+  "NA-72": 0.2677,
+  "NA-73": 0.2258,
+  "NA-74": 0.2205
+ },
+ "area_share_out": {
+  "NA-70": 0.2362,
+  "NA-71": 0.0418,
+  "NA-72": 0.3065,
+  "NA-73": 0.2124,
+  "NA-74": 0.2031
+ },
+ "issues": [
+  "sheet is a single full-district map with hand-marker NA washes over all 5 seats (pink=NA-70 Sialkot tehsil body, orange=MC Sialkot=NA-71, tan=NA-72 Pasrur, cyan=NA-73 Daska, green=NA-74); labels handwritten NA-70(1)..NA-74(5) verified at full res",
+  "similarity ICP of the toolkit collapsed on this anisotropically-stretched scan (rms 3.0 but shrunken fit); replaced with 5-anchor (N/S/W/E extremes + city centroid) affine LSQ + affine ICP + TPS: outline rms 1.43 km affine, 0.83 km post-TPS",
+  "NA-74 = Sambrial tehsil PLUS a ~5 km wash strip of west Sialkot tehsil reaching to the MC boundary (drawn on sheet, consistent with Wikipedia \"mainly comprises Sambrial Tehsil\" and population balance: Sambrial alone is ~40% under quota)",
+  "NA-71 taken as the 2018 digitised Sialkot-city seat polygon (MC Sialkot + Cantonment, red-line trace rms 1.8 km) since the orange wash covers only the MC and the cantonment is unwashed; orange wash sits inside that polygon after fit",
+  "NA-73 includes a hand-washed pocket of south-east Pasrur tehsil (drawn cyan on sheet, ~7% of Pasrur) and NA-70 takes a small bite of NE Daska south of the city (pink wash across the tehsil line, matching final composition \"Daska Tehsil (partly)\")",
+  "unwashed areas (pale south Pasrur tail, admin-colour holes: MCs, town committees) assigned by tehsil composition; where gb-ADM3 internal tehsil lines disagree with the sheet tehsil lines by 1-3 km the sheet wash wins",
+  "sheet is the PRELIMINARY 2023 delimitation; final revised 43/66 Punjab seats but Sialkot arrangement (tehsil-based, same numbering NA-70..74) matches the final composition per data/na_2024_districts.csv and Wikipedia leads; residual prelim-vs-final differences possible at mauza level, hence approx:true",
+  "exact partition of canvas verified: symmetric difference 0, max pairwise overlap ~1e-16"
+ ],
+ "confidence": "medium"
+}

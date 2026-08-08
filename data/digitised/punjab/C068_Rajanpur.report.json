@@ -1,0 +1,44 @@
+{
+ "canvas_id": "C068_Rajanpur",
+ "seats": [
+  "NA-187",
+  "NA-188",
+  "NA-189"
+ ],
+ "method": "nearest-assigned-tehsil grid partition of canvas; partial tehsils split per-cell nearest between whole-tehsil cores / town anchor points",
+ "composition": {
+  "NA-187": [
+   "Jampur Tehsil",
+   "Tribal (De-Excluded) Area (Jampur-adjacent part)"
+  ],
+  "NA-188": [
+   "Rajanpur Tehsil (partly) incl. Rajanpur city and Fazilpur",
+   "Tribal (De-Excluded) Area (Rajanpur-adjacent part)"
+  ],
+  "NA-189": [
+   "Rojhan Tehsil",
+   "Rajanpur Tehsil (part: Kot Mithan area)",
+   "Tribal (De-Excluded) Area (Rojhan-adjacent part)"
+  ]
+ },
+ "sources": {
+  "NA-187": "https://en.wikipedia.org/wiki/NA-187_Rajanpur-I",
+  "NA-188": "https://en.wikipedia.org/wiki/NA-188_Rajanpur-II",
+  "NA-189": "https://en.wikipedia.org/wiki/NA-189_Rajanpur-III"
+ },
+ "area_share_out": {
+  "NA-187": 0.3122,
+  "NA-188": 0.2437,
+  "NA-189": 0.4441
+ },
+ "qa": {
+  "union_symdiff_deg2": 9.973540481659587e-16,
+  "pairwise_overlap_deg2": 0.0,
+  "empty_seats": []
+ },
+ "issues": [
+  "Rajanpur Tehsil split by per-cell nearest town anchor (Rajanpur city/Fazilpur for NA-188 vs Kot Mithan for NA-189); actual halqa lines unavailable",
+  "De-Excluded (tribal) Area split among the three seats by adjacency (nearest assigned cells), not documented halqa lines"
+ ],
+ "confidence": "medium"
+}

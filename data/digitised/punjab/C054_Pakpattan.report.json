@@ -1,0 +1,34 @@
+{
+ "canvas_id": "C054_Pakpattan",
+ "seats": [
+  "NA-139",
+  "NA-140"
+ ],
+ "method": "nearest-assigned-tehsil grid partition of canvas; partial tehsils split per-cell nearest between whole-tehsil cores / town anchor points",
+ "composition": {
+  "NA-139": [
+   "Pakpattan Tehsil (partly) incl. Pakpattan city"
+  ],
+  "NA-140": [
+   "Arifwala Tehsil",
+   "Pakpattan Tehsil (part: some Kalyana patwar circles)"
+  ]
+ },
+ "sources": {
+  "NA-139": "https://en.wikipedia.org/wiki/NA-139_Pakpattan-I",
+  "NA-140": "https://en.wikipedia.org/wiki/NA-140_Pakpattan-II"
+ },
+ "area_share_out": {
+  "NA-139": 0.499,
+  "NA-140": 0.501
+ },
+ "qa": {
+  "union_symdiff_deg2": 3.9788910348464e-16,
+  "pairwise_overlap_deg2": 0.0,
+  "empty_seats": []
+ },
+ "issues": [
+  "Pakpattan Tehsil split by per-cell nearest town anchor (Pakpattan city vs Arifwala town); actual Kalyana patwar-circle boundaries unavailable, so the NA-140 share of Pakpattan Tehsil is likely over-stated in area"
+ ],
+ "confidence": "medium"
+}

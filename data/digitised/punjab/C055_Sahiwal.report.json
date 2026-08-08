@@ -1,0 +1,26 @@
+{
+ "canvas_id": "C055_Sahiwal",
+ "seats": [
+  "NA-141",
+  "NA-142",
+  "NA-143"
+ ],
+ "sheet_used": "sahiwal_na141_142.jpg",
+ "rms_km": 0.726,
+ "area_share_sheet": {
+  "NA-141": 0.1894,
+  "NA-142": 0.4271,
+  "NA-143": 0.3835
+ },
+ "area_share_out": {
+  "NA-141": 0.2102,
+  "NA-142": 0.4133,
+  "NA-143": 0.3764
+ },
+ "issues": [
+  "Sahiwal Metropolitan Corporation (city) area carries no seat wash on the sheet; it sits on the NA-141/NA-142 boundary and was split by proximity - urban boundary detail there is approximate.",
+  "Cross-check against second sheet sahiwal_na142_143.jpg: pixel area shares NA-141/142/143 = 0.1968/0.4259/0.3773 (vs 0.1894/0.4271/0.3835 on the sheet used) - consistent.",
+  "Sheet labels match final numbering (NA-141..143 Sahiwal-I..III per data/na_2024_districts.csv); no prelim->final revision markings on the sheets."
+ ],
+ "confidence": "high"
+}

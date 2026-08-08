@@ -1,0 +1,15 @@
+# Python dependencies for the Aiwan-e-Jamhoor data & map pipeline.
+# Install with:  pip install -r requirements.txt
+#
+# Also required (not pip): Node tooling for geometry simplification and D3 —
+#   npm install -g mapshaper
+#   npm install d3@7
+#
+# Tested on Python 3.11.
+
+pandas>=2.0
+numpy>=1.24
+shapely>=2.0        # 2.x for make_valid / orient
+geopandas>=0.14     # used by the province digitisation scripts
+Pillow>=10.0        # raster map-sheet processing (digitise_*.py, split_district_by_sheet.py)
+scipy>=1.10         # ICP / assignment / TPS in the sheet-fitting scripts

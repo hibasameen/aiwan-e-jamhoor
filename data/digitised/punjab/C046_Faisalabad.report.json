@@ -1,0 +1,48 @@
+{
+ "canvas_id": "C046_Faisalabad",
+ "seats": [
+  "NA-95",
+  "NA-96",
+  "NA-97",
+  "NA-98",
+  "NA-99",
+  "NA-100",
+  "NA-101",
+  "NA-102",
+  "NA-103",
+  "NA-104"
+ ],
+ "sheet_used": "fsd_na98.jpg (full-district colour wash, final compositions; fsd_na100.jpg used as cross-check for tehsil frame/NA-95 extent)",
+ "rms_km": 2.07,
+ "area_share_sheet": {
+  "NA-95": 0.1626,
+  "NA-96": 0.1462,
+  "NA-97": 0.2326,
+  "NA-98": 0.1796,
+  "NA-99": 0.135,
+  "NA-100": 0.0954,
+  "CITY": 0.0486
+ },
+ "area_share_out": {
+  "NA-95": 0.1771,
+  "NA-96": 0.1386,
+  "NA-97": 0.2291,
+  "NA-98": 0.1796,
+  "NA-99": 0.1537,
+  "NA-100": 0.0784,
+  "NA-101": 0.0127,
+  "NA-102": 0.0115,
+  "NA-103": 0.0096,
+  "NA-104": 0.0097
+ },
+ "issues": [
+  "City seats NA-101..NA-104 are NOT drawn on any sheet: the MCF/city area appears only as one dark-green wash on fsd_na98.jpg. Their internal boundaries are locality-anchor voronoi (Lloyd-balanced) within that blob, labelled E/N/S/W by matching the 2018 city seats NA-107/108/109/110 compass arrangement. approx:true, confidence low for these four.",
+  "NA-100's cut into MCF (annotated 'NA-100 MCF' on sheet) is evidenced but its exact city-side boundary is voronoi-approx (NW wedge of the city blob, contiguous with its rural Sadar arm).",
+  "Sheet dark-green city blob (~281 km2 after trim) sits slightly N/E of ADM3 FAISALABAD CITY tehsil (200 km2); southern lobe of the ADM3 city tehsil falls in NA-99 per the sheet colours.",
+  "Sheet annotation marks villages '374,375,376 GB' with a blue (NA-100) swatch far SE near the NA-96/NA-97 border - geographically non-contiguous with NA-100, treated as annotation noise and left with the surrounding seats.",
+  "area_share_sheet lists the uncoloured MCF blob as key CITY; on the output side that area is distributed among NA-100..NA-104.",
+  "An uncoloured gap on the sheet east of the city (Samundri Road area, between NA-95/NA-96/NA-99) was filled by nearest-colour transfer, mostly to NA-99 (+~2pp vs sheet share).",
+  "Wikipedia confirms only NA-96 (Jaranwala tehsil partly, incl. Jaranwala city) and NA-99 (Faisalabad Sadar partly, incl. Dijkot) compositions; other seat pages carry no 2023 composition text."
+ ],
+ "confidence": "medium"
+}

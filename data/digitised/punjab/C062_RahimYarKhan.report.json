@@ -1,0 +1,50 @@
+{
+ "canvas_id": "C062_RahimYarKhan",
+ "seats": [
+  "NA-169",
+  "NA-170",
+  "NA-171",
+  "NA-172",
+  "NA-173",
+  "NA-174"
+ ],
+ "sheet_used": "ryk_na174.jpg (primary, printed Preliminary Delimitation 2023, all 6 seats labelled) + ryk_na172_173.jpg (hand-coloured full-district filing, all 6 seats; label clouds fused)",
+ "rms_km": 5.79,
+ "rms_km_by_sheet": {
+  "ryk_na174.jpg": 5.79,
+  "ryk_na172_173.jpg": 6.92
+ },
+ "area_share_sheet": {
+  "NA-169": 0.106,
+  "NA-170": 0.409,
+  "NA-171": 0.119,
+  "NA-172": 0.13,
+  "NA-173": 0.115,
+  "NA-174": 0.121
+ },
+ "area_share_sheet_secondary": {
+  "NA-169": 0.125,
+  "NA-170": 0.412,
+  "NA-171": 0.133,
+  "NA-172": 0.08,
+  "NA-173": 0.112,
+  "NA-174": 0.138
+ },
+ "area_share_out": {
+  "NA-169": 0.124,
+  "NA-170": 0.427,
+  "NA-171": 0.121,
+  "NA-172": 0.084,
+  "NA-173": 0.127,
+  "NA-174": 0.117
+ },
+ "issues": [
+  "NA-171 has no dedicated filing but appears fully coloured/labelled on both full-district sheets used; recovered directly (approx:false).",
+  "Both sheets share the same base map, drawn ~1.5x horizontally stretched vs true geographic aspect; similarity ICP collapsed, so an affine (symmetric trimmed) ICP + TPS was used. rms 5.8 km (printed) / 6.9 km (hand-coloured photo) reflects base-map generalisation, not fit failure.",
+  "Internal lines are the k-NN fusion of both sheets' warped label clouds; per-seat IoU between the two single-sheet solutions was 0.39-0.85 (worst NA-172), so internal boundary positions carry an estimated 2-4 km uncertainty.",
+  "NA-172 area share differs between the two sheets themselves (0.130 printed vs 0.080 hand-coloured); fused output 0.084.",
+  "Western trans-river enclave (2 canvas island polygons) assigned wholly to NA-174 per explicit NA-174 labels on both sheets; enclave pixels too muddy (river overlay) to segment.",
+  "Prelim vs final: seat numbering NA-169..174 and boundaries agree between the preliminary printed sheet and the final hand-coloured filing (final populations annotated on it); no renumbering mapping needed."
+ ],
+ "confidence": "medium"
+}

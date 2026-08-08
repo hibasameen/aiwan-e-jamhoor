@@ -1,0 +1,24 @@
+{
+ "canvas_id": "C064_KotAddu",
+ "seats": [
+  "NA-179",
+  "NA-180"
+ ],
+ "sheet_used": "kotaddu_na179_180.jpg",
+ "rms_km": 1.416,
+ "area_share_sheet": {
+  "NA-179": 0.66,
+  "NA-180": 0.34
+ },
+ "area_share_out": {
+  "NA-179": 0.698,
+  "NA-180": 0.302
+ },
+ "issues": [
+  "no per-seat colour wash on sheet; internal boundary hand-digitised as polyline from the printed thick line, grey shading and green hand-marks",
+  "sheet carries markup: pink Talaee Chandhrar patches annotated 'want to include colour'/NA-179 and olive MC Kot Addu patch 'want to remove colour'/NA-180; applied (MC Kot Addu -> NA-180, pink patches -> NA-179)",
+  "canvas polygon is an approximate tehsil-carve from Muzaffargarh; sheet district outline differs in detail; output clipped to canvas as instructed",
+  "seat numbering on sheet matches final numbering per na_2024_districts.csv (NA-179 Kot Addu-I, NA-180 Kot Addu-II)"
+ ],
+ "confidence": "medium"
+}

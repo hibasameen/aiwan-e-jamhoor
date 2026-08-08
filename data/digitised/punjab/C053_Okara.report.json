@@ -1,0 +1,31 @@
+{
+ "canvas_id": "C053_Okara",
+ "seats": [
+  "NA-135",
+  "NA-136",
+  "NA-137",
+  "NA-138"
+ ],
+ "sheet_used": "okara_na135_137.jpg (prelim washes + NA-137 red line); okara_na138.jpg (MODIFIED sheet: final patch transfers NA-137<->NA-138)",
+ "rms_km": 2.555,
+ "rms_km_sheet2": 2.402,
+ "area_share_sheet": {
+  "NA-135": 0.2447,
+  "NA-136": 0.144,
+  "NA-137": 0.2494,
+  "NA-138": 0.3619
+ },
+ "area_share_out": {
+  "NA-135": 0.2275,
+  "NA-136": 0.146,
+  "NA-137": 0.2617,
+  "NA-138": 0.3649
+ },
+ "issues": [
+  "Sheets are PRELIMINARY 2023; okara_na138.jpg is hand-marked 'MODIFIED' with the two prelim->final transfers, which were applied: salmon patch (~64 km2, Depalpur/Kuike Bahawal area SE of Depalpur town) moved NA-138 -> NA-137; green patch (~31 km2, Bhoman Shah/Mari Kamboh) moved NA-137 -> NA-138. Final seat->district membership matches data/na_2024_districts.csv (all four in Okara).",
+  "NA-137/NA-138 line is a hand-drawn red line on the prelim sheet (no colour wash for these two seats); regions taken as the two large components separated by that line, anchored by the sheet's NA-137/NA-138 label positions (Hujra town on NA-137 side; Jhujha Kalan/Add Ram Parshad pocket opens NE into NA-138).",
+  "Okara Municipal Corporation area is unwashed on the sheet; it was assigned by proximity (mostly to NA-136, north strip to NA-135) - the true urban split NA-135/NA-136 is not derivable from this sheet.",
+  "Patch geometries transferred from the second sheet via its own outline fit (rms 2.40 km)."
+ ],
+ "confidence": "medium"
+}

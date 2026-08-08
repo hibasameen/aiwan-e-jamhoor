@@ -1,0 +1,22 @@
+{
+ "canvas_id": "C044_Bhakkar",
+ "seats": [
+  "NA-91",
+  "NA-92"
+ ],
+ "sheet_used": "bhakkar_na91_92.jpg",
+ "rms_km": 1.477,
+ "area_share_sheet": {
+  "NA-91": 0.445,
+  "NA-92": 0.552
+ },
+ "area_share_out": {
+  "NA-91": 0.465,
+  "NA-92": 0.535
+ },
+ "issues": [
+  "weak colour washes (2018 note re seeded watershed); hue gates at s>25 gave clean separation on the 2023 sheet",
+  "seat numbering on sheet matches final numbering per na_2024_districts.csv"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aiwan-e-Jamhoor — Careers &amp; Dynasties 1993–2024</title>
+<style>
+:root{
+  color-scheme: light;
+  --surface:#fcfcfb; --surface-2:#f2f1ee; --line:#e3e1db;
+  --ink:#0b0b0b; --ink-2:#52514e; --ink-3:#8a887f;
+  --accent:#2a78d6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --surface:#1a1a19; --surface-2:#242423; --line:#3a3936;
+    --ink:#ffffff; --ink-2:#c3c2b7; --ink-3:#8a887f;
+    --accent:#3987e5;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{padding:28px 24px 10px;max-width:1160px;margin:0 auto}
+h1{font-size:26px;margin:0 0 4px;font-weight:700;letter-spacing:-.3px}
+h1 .urdu{font-weight:400;color:var(--ink-2);font-size:19px}
+.sub{color:var(--ink-2);font-size:14px;margin:0}
+nav{position:sticky;top:0;background:var(--surface);border-bottom:1px solid var(--line);z-index:20;padding:0 24px}
+.nav-inner{max-width:1160px;margin:0 auto;display:flex;gap:4px;overflow-x:auto}
+nav button{background:none;border:none;border-bottom:2px solid transparent;padding:12px 14px;font:600 14px/-inherit inherit;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+nav button.on{color:var(--ink);border-bottom-color:var(--accent)}
+main{max-width:1160px;margin:0 auto;padding:20px 24px 80px}
+section{display:none}
+section.on{display:block}
+h2{font-size:19px;margin:26px 0 6px}
+h3{font-size:15px;margin:20px 0 6px}
+.note{color:var(--ink-2);font-size:13.5px;max-width:74ch}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:16px 0}
+.tile{background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.tile b{display:block;font-size:24px;font-weight:700;letter-spacing:-.4px}
+.tile span{font-size:12.5px;color:var(--ink-2)}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th{text-align:left;color:var(--ink-2);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.4px;padding:8px 10px 6px;border-bottom:1px solid var(--line)}
+td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:hover td{background:var(--surface-2)}
+.tl{display:inline-flex;gap:3px}
+.tl i{width:20px;height:14px;border-radius:3px;display:inline-block;border:1.5px solid transparent}
+.tl i.loss{background:transparent!important}
+.tl i.empty{border-color:var(--line);opacity:.45}
+.chip{display:inline-block;padding:1px 7px;border-radius:9px;font-size:12px;font-weight:600;color:#fff;margin:1px 2px 1px 0}
+.chip.light{color:#0b0b0b}
+.flow{display:inline-flex;align-items:center;gap:6px;background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:4px 10px;margin:3px 4px 3px 0;font-size:13px}
+.flow b{font-weight:700}
+.bar-row{display:grid;grid-template-columns:70px 1fr 90px;gap:10px;align-items:center;margin:5px 0;font-size:13px}
+.bar-track{height:10px;background:var(--surface-2);border-radius:5px;overflow:hidden}
+.bar-fill{height:100%;border-radius:0 4px 4px 0;background:var(--accent)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:14px 0}
+.card{background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:13px 15px;cursor:pointer;transition:border-color .12s}
+.card:hover{border-color:var(--accent)}
+.card h4{margin:0 0 2px;font-size:15px}
+.card .meta{font-size:12.5px;color:var(--ink-2)}
+#famDetail{background:var(--surface-2);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-top:14px}
+#famDetail h3{margin-top:0}
+.rel-list{font-size:13.5px}
+.rel-list li{margin:5px 0}
+.rel-list .rel{font-weight:700}
+.rel-list a{color:var(--accent);text-decoration:none;font-size:12px}
+.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--ink-2);margin:8px 0}
+.legend .sw{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:4px}
+.legend .ln{display:inline-block;width:26px;height:0;border-top:2.5px solid var(--ink-2);vertical-align:3px;margin-right:5px}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--surface);padding:6px 10px;border-radius:8px;font-size:12.5px;max-width:280px;z-index:50;display:none;line-height:1.4}
+input[type=search]{width:100%;max-width:420px;padding:10px 14px;font-size:15px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink)}
+.person-hit{padding:8px 12px;border-bottom:1px solid var(--line);cursor:pointer;font-size:14px}
+.person-hit:hover{background:var(--surface-2)}
+.svgwrap{overflow-x:auto}
+svg text{fill:var(--ink-2);font-size:11.5px}
+svg .axis line{stroke:var(--line)}
+.small{font-size:12px;color:var(--ink-3)}
+.pill{font-size:11px;background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:1px 7px;color:var(--ink-2)}
+.method p{max-width:80ch}
+@media (max-width:640px){ td:nth-child(5),th:nth-child(5){display:none} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Aiwan-e-Jamhoor <span class="urdu">ایوانِ جمہور</span></h1>
+  <p class="sub">Careers &amp; Dynasties in Pakistan's National Assembly · General elections 1993 – 2024 · candidate-level record linkage across 7 elections</p>
+</header>
+<nav><div class="nav-inner">
+  <button data-s="overview" class="on">Overview</button>
+  <button data-s="longest">Longest-serving</button>
+  <button data-s="switching">Party switching</button>
+  <button data-s="seats">Seat movers</button>
+  <button data-s="dynasties">Dynasties</button>
+  <button data-s="search">Search</button>
+  <button data-s="method">Method &amp; caveats</button>
+</div></nav>
+<main>
+
+<section id="overview" class="on">
+  <div class="tiles" id="tiles"></div>
+  <h2>Incumbent re-election rates</h2>
+  <p class="note">Of NA winners who contested the next general election, the share who won again. The 1997→2002 collapse reflects the Musharraf-era rules (graduation requirement, exiled leaderships) as much as voter behaviour; 2018→2024 shows the anti-PTI environment cutting the other way.</p>
+  <div class="svgwrap" id="turnoverChart"></div>
+  <h2>Candidates switching party labels between consecutive elections</h2>
+  <div class="svgwrap" id="switchVolChart"></div>
+  <p class="note">A "switch" = the same person contesting consecutive GEs under different labels. 2018→2024 is inflated by PTI candidates forced to run as independents after the party lost its electoral symbol.</p>
+</section>
+
+<section id="longest">
+  <h2>Most general-election wins, 1993–2024</h2>
+  <p class="note">Filled cell = seat won that year (colour = party); outlined cell = contested &amp; lost; faint cell = did not contest. Hover any cell for seat detail. Counting is <b>within this window only</b> — careers before 1993 and by-election wins are not counted.</p>
+  <div class="legend" id="legendParties"></div>
+  <table id="longestTable"></table>
+</section>
+
+<section id="switching">
+  <h2>Party retention between consecutive elections</h2>
+  <p class="note">Among candidates who contested consecutive GEs under party X, the share who stayed with X. MMA/JI/JUI-F cycling is alliance mechanics (MMA formed 2002, dissolved, re-formed 2018), not individual defection; PTI's 2024 figure is the forced move to independent tickets.</p>
+  <div id="loyaltyBars" style="max-width:560px"></div>
+  <h2>Most common switch routes</h2>
+  <h3>All switches</h3><div id="flowsAll"></div>
+  <h3>Switches followed by a win</h3><div id="flowsWin"></div>
+  <h2>Serial switchers</h2>
+  <p class="note">Most distinct party labels across a career. Sequences show party (and win/loss) at each contested election.</p>
+  <table id="serialTable"></table>
+</section>
+
+<section id="seats">
+  <h2>Winners who won from more than one district</h2>
+  <p class="note">Includes both genuine seat migration (e.g. Nawaz Sharif's Abbottabad-to-Lahore wins in the multi-seat era) and leaders winning several seats at once. Pakistani law allows contesting multiple seats simultaneously; all but one must then be vacated.</p>
+  <table id="seatTable"></table>
+</section>
+
+<section id="dynasties">
+  <h2>Verified political families</h2>
+  <p class="note">Family clusters were detected by shared rare surname tokens within districts, then each candidate relationship below was individually verified against published sources (Wikipedia, Dawn, The News, Tribune, assembly profiles). Node size = GE wins in this dataset; colour = most frequent party. Click a family to see its network and sources.</p>
+  <div class="tiles" id="dynTiles"></div>
+  <div class="cards" id="famCards"></div>
+  <div id="famDetail" style="display:none"></div>
+</section>
+
+<section id="search">
+  <h2>Find a candidate</h2>
+  <p class="note">Search across all linked persons (every NA candidacy 1993–2024). Names are linked across spelling variants; a person's card shows every candidacy attached to them.</p>
+  <input type="search" id="q" placeholder="e.g. Khursheed Shah, Bilour, Leghari…">
+  <div id="hits"></div>
+  <div id="personDetail"></div>
+</section>
+
+<section id="method" class="method">
+  <h2>Method</h2>
+  <p><b>Sources.</b> Candidate-level results: Colin Cookman's ECP compilations (GE 1993, 1997, 2002, 2008, 2013 and GE 2018) and the 2024 candidate-level scrape already used by the Aiwan-e-Jamhoor map (all 266 constituencies). Only general-election, direct (constituency) candidacies are included.</p>
+  <p><b>Record linkage.</b> Cookman's candidateID is per-row, so persons were linked across elections by name matching: transliteration normalisation (Mohammad/Muhammad, Ch./Chaudhry, Bux/Bakhsh, Mahmood/Mehmood…), honorific stripping (Haji, Maulana, Sardar-as-title, ranks), then exact and fuzzy matching gated by geography (same district base), with looser thresholds only for long, distinctive names. Same-year multi-seat candidacies are merged when name and party match exactly. Curated closed groups protect major leaders (Imran Khan, the Sharifs, Benazir, Pervaiz Elahi…) from absorbing namesakes. Around 45 additional splits/merges were applied after manual web verification of the dynasty clusters.</p>
+  <p><b>Dynasty detection.</b> Rare surname/clan tokens (person-level document frequency ≤ 120) in surname position, shared within a district, generate candidate family clusters; the top clusters plus curated cross-district families were then verified relationship-by-relationship against published sources. Only sourced relationships are drawn; same-clan namesakes are excluded.</p>
+  <h2>Caveats</h2>
+  <p>· <b>Name-only linkage is imperfect.</b> Very common short names (e.g. "Imran Khan", "Muhammad Aslam") can conflate different people in the same district, and a father and son with near-identical names can be merged. Persons spanning implausibly long careers should be treated with suspicion unless verified.</p>
+  <p>· <b>Wins are GE wins in-window.</b> By-elections, pre-1993 careers, reserved seats (women/minorities) and Senate careers are invisible here — e.g. Moonis Elahi's 2018 by-election win, Mamoona Hashmi's reserved seat, and everything before 1993 for veterans like Nawaz Sharif or Ghulam Ahmad Bilour.</p>
+  <p>· <b>Covering candidacies.</b> Feudal families routinely file token "covering" candidacies (a few hundred votes) in their own seats as insurance; these inflate contest counts and appear as family members contesting against each other.</p>
+  <p>· <b>2024 independents.</b> Most 2024 independent winners were PTI-backed after the party lost its symbol; label-based switching and retention statistics for 2024 must be read in that light.</p>
+  <p>· <b>Known source gaps.</b> Cookman 1993/1997 files carry fewer candidates per seat (often top candidates only); 1997 NA-1 Peshawar is missing entirely; 1993 covers 203 of 207 general seats.</p>
+  <p>· <b>Alliance vs party.</b> MMA (2002, 2018), IJM (1993), National Alliance (2002) and GDA are electoral alliances; movement between an alliance and its constituent party is not defection.</p>
+</section>
+</main>
+<div id="tip"></div>
+<script>
+const CAREER = /*__CAREER__*/null;
+const DYN = /*__DYN__*/null;
+const PEOPLE = /*__PEOPLE__*/null;
+const STATS = /*__STATS__*/null;
+const YEARS = [1993,1997,2002,2008,2013,2018,2024];
+
+const COLORS = {
+ 'PMLN':'#006400','PMLQ':'#52b452','PPP':'#1c1c1c','IND':'#b7b3a8','MQM':'#c245b8',
+ 'ANP':'#e34948','PTI':'#7a1f3d','JUIF':'#c98500','MMA':'#a07207','PMLF':'#2a5bd7',
+ 'BAP':'#5b7ba6','IPP':'#8a6d1a','JI':'#0e7a8a','TLP':'#444','GDA':'#7d5ba6',
+ 'PkMAP':'#b04a2f','PML-Z':'#3f7d3f','AML':'#6b4b9e','APML':'#5e5e5e','MQM-H':'#8d3d87',
+ 'BNP':'#2f6f6f','NP':'#946200','PMLJ':'#4e8d4e','PML-H':'#6a9a6a','JUP':'#a3652f',
+ 'Other':'#00a3c7'
+};
+const DARKO = {'PPP':'#f0efec','IND':'#6e6a5f','TLP':'#bbb'};
+const LIGHT_TEXT = new Set(['IND']);
+function isDark(){return matchMedia('(prefers-color-scheme: dark)').matches}
+function pc(p){ const c=(isDark()&&DARKO[p])||COLORS[p]; return c||COLORS.Other; }
+function chip(p){ const light = p==='IND'; return `<span class="chip ${light?'light':''}" style="background:${pc(p)}">${p}</span>`; }
+
+const tip = document.getElementById('tip');
+function showTip(e, html){ tip.innerHTML = html; tip.style.display='block'; moveTip(e); }
+function moveTip(e){ const x=Math.min(e.clientX+14, innerWidth-300), y=Math.min(e.clientY+14, innerHeight-80); tip.style.left=x+'px'; tip.style.top=y+'px'; }
+function hideTip(){ tip.style.display='none'; }
+
+// nav
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('main section').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); document.getElementById(b.dataset.s).classList.add('on');
+});
+
+// ---------- overview ----------
+const T = document.getElementById('tiles');
+const tiles = [
+ [STATS.candidacies.toLocaleString(),'candidacies, 7 GEs'],
+ [STATS.persons.toLocaleString(),'linked persons'],
+ [STATS.multi.toLocaleString(),'contested ≥2 elections'],
+ [STATS.multiwin.toLocaleString(),'won in ≥2 elections'],
+ [STATS.switch_events.toLocaleString(),'party-switch events'],
+ [STATS.families,'verified families'],
+ [STATS.edges,'verified kinship ties'],
+];
+T.innerHTML = tiles.map(t=>`<div class="tile"><b>${t[0]}</b><span>${t[1]}</span></div>`).join('');
+
+function barChart(el, rows, fmt, color){
+  // rows: [label, value 0-1 or count, tooltip]
+  const W=640,H=190,P={l:44,r:14,t:12,b:26};
+  const max = Math.max(...rows.map(r=>r[1]))*1.12;
+  const bw = (W-P.l-P.r)/rows.length;
+  let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`;
+  for(let g=0; g<=4; g++){
+    const v=max*g/4, y=H-P.b-(H-P.t-P.b)*g/4;
+    s+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y}" y2="${y}" stroke="var(--line)" stroke-width="1"/>`;
+    s+=`<text x="${P.l-6}" y="${y+4}" text-anchor="end">${fmt(v)}</text>`;
+  }
+  rows.forEach((r,i)=>{
+    const h=(H-P.t-P.b)*r[1]/max, x=P.l+bw*i+bw*.18, w=bw*.64, y=H-P.b-h;
+    s+=`<rect data-tt="${r[2].replace(/"/g,'&quot;')}" x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="${color}"/>`;
+    s+=`<text x="${x+w/2}" y="${H-P.b+16}" text-anchor="middle">${r[0]}</text>`;
+    s+=`<text x="${x+w/2}" y="${y-5}" text-anchor="middle" style="font-weight:600">${fmt(r[1])}</text>`;
+  });
+  s+='</svg>';
+  el.innerHTML=s;
+  el.querySelectorAll('rect').forEach(r=>{
+    r.addEventListener('mousemove',e=>{showTip(e,r.dataset.tt)});
+    r.addEventListener('mouseleave',hideTip);
+  });
+}
+const tv = CAREER.turnover;
+barChart(document.getElementById('turnoverChart'),
+  Object.keys(tv).map(k=>[k.replace('-','→'), tv[k].reelection_rate,
+    `${k}: ${tv[k].rewon} of ${tv[k].ran_again} incumbents who ran again won (${tv[k].winners} winners total)`]),
+  v=>Math.round(v*100)+'%', 'var(--accent)');
+const sp = CAREER.switch_pairs;
+const adjKeys = ['1993-1997','1997-2002','2002-2008','2008-2013','2013-2018','2018-2024'];
+barChart(document.getElementById('switchVolChart'),
+  adjKeys.map(k=>[k.replace('-','→'), sp[k]||0, `${sp[k]||0} candidates changed label ${k.replace('-',' → ')}`]),
+  v=>Math.round(v), '#7a1f3d');
+
+// ---------- longest ----------
+const mainParties=['PMLN','PPP','PTI','PMLQ','JUIF','MMA','MQM','ANP','IND'];
+document.getElementById('legendParties').innerHTML =
+  mainParties.map(p=>`<span><span class="sw" style="background:${pc(p)}"></span>${p}</span>`).join('') +
+  `<span><span class="sw" style="background:transparent;border:1.5px solid var(--ink-3)"></span>contested, lost</span>`;
+function timeline(seq){
+  const by={}; seq.forEach(s=>by[s.year]=s);
+  return '<span class="tl">'+YEARS.map(y=>{
+    const s=by[y];
+    if(!s) return `<i class="empty"></i>`;
+    const col=pc(s.party);
+    const tt=`${y} · ${s.na} ${s.constituency||''} · ${s.party} · ${s.outcome}${s.multi>1?` · ${s.multi} seats contested`:''}`;
+    if(s.outcome==='Win') return `<i data-tt="${tt}" style="background:${col};border-color:${col}"></i>`;
+    return `<i class="loss" data-tt="${tt}" style="border-color:${col}"></i>`;
+  }).join('')+'</span>';
+}
+document.getElementById('longestTable').innerHTML =
+ '<tr><th>#</th><th>Name</th><th>GE wins</th><th>1993 → 2024</th><th>Parties</th></tr>'+
+ CAREER.longest.map((d,i)=>`<tr><td>${i+1}</td><td><b>${d.name}</b></td><td>${d.ge_wins}</td>
+  <td>${timeline(d.seq)}</td><td>${d.parties.filter(p=>p).map(chip).join('')}</td></tr>`).join('');
+
+// ---------- switching ----------
+const loy = CAREER.loyalty;
+document.getElementById('loyaltyBars').innerHTML = Object.entries(loy)
+ .sort((a,b)=>b[1].rate-a[1].rate)
+ .map(([p,v])=>`<div class="bar-row"><span>${chip(p)}</span>
+   <div class="bar-track"><div class="bar-fill" style="width:${v.rate*100}%;background:${pc(p)}"></div></div>
+   <span>${Math.round(v.rate*100)}% <span class="small">(${v.stay}/${v.total})</span></span></div>`).join('');
+function flows(el, list){
+  document.getElementById(el).innerHTML = list.map(f=>
+   `<span class="flow">${chip(f[0])} → ${chip(f[1])} <b>×${f[2]}</b></span>`).join('');
+}
+flows('flowsAll', CAREER.top_all_switches);
+flows('flowsWin', CAREER.top_win_switches);
+document.getElementById('serialTable').innerHTML =
+ '<tr><th>Name</th><th>Switches</th><th>Career sequence</th></tr>'+
+ CAREER.serial.map(s=>`<tr><td><b>${s.name}</b></td><td>${s.n_switches}</td><td>`+
+   s.seq.map(q=>`<span class="pill" style="border-color:${pc(q[1])}">${q[0]} ${q[1]} ${q[2]==='Win'?'✓':'✗'}</span>`).join(' ')+
+ '</td></tr>').join('');
+
+// ---------- seats ----------
+document.getElementById('seatTable').innerHTML =
+ '<tr><th>Name</th><th>Winning seats</th></tr>'+
+ CAREER.seat_moves.map(s=>`<tr><td style="min-width:180px"><b>${s.name}</b></td><td>`+
+  s.moves.map(m=>`<span class="pill">${m[0]} · ${m[1]} ${m[2]} ${chip(m[3])}</span>`).join(' ')+
+ '</td></tr>').join('');
+
+// ---------- dynasties ----------
+const dt = document.getElementById('dynTiles');
+dt.innerHTML = [
+ [STATS.families,'families verified'],[STATS.edges,'sourced kinship ties'],
+ [STATS.dyn_wins,'GE wins by family members'],
+].map(t=>`<div class="tile"><b>${t[0]}</b><span>${t[1]}</span></div>`).join('');
+const fams = DYN.slice().sort((a,b)=>b.total_wins-a.total_wins);
+document.getElementById('famCards').innerHTML = fams.map((f,i)=>
+ `<div class="card" data-i="${i}"><h4>${f.family}</h4>
+  <div class="meta">${f.base}</div>
+  <div class="meta">${f.nodes.length} members in data · ${f.edges.length} ties · <b>${f.total_wins} GE wins</b></div></div>`).join('');
+const REL_STYLE = {
+ 'father-son':{d:'',w:2.5},'father-daughter':{d:'',w:2.5},'mother-son':{d:'',w:2.5},
+ 'mother-daughter':{d:'',w:2.5},'grandfather-grandson':{d:'10 4',w:2.5},
+ 'siblings':{d:'5 4',w:2},'spouses':{d:'',w:4},'cousins':{d:'2 4',w:1.8},
+ 'uncle-nephew':{d:'8 3 2 3',w:1.8},'aunt-nephew':{d:'8 3 2 3',w:1.8},'in-laws':{d:'1 4',w:1.5}
+};
+function domParty(parties){
+  const list = parties.split('|').filter(p=>p&&p!=='IND');
+  return list.length? list[list.length-1] : 'IND';
+}
+function famGraph(f){
+  const W=Math.min(760, Math.max(420, f.nodes.length*80)), H=Math.max(300, f.nodes.length*34+120);
+  const N = f.nodes.map((n,i)=>({...n, x:W/2+Math.cos(i*2.4)*W/4, y:H/2+Math.sin(i*2.4)*H/4, vx:0, vy:0}));
+  const idx={}; N.forEach((n,i)=>idx[n.id]=i);
+  const E = f.edges.filter(e=>idx[e.a]!=null&&idx[e.b]!=null);
+  for(let it=0; it<420; it++){
+    for(let i=0;i<N.length;i++)for(let j=i+1;j<N.length;j++){
+      let dx=N[j].x-N[i].x, dy=N[j].y-N[i].y, d2=dx*dx+dy*dy||1, d=Math.sqrt(d2);
+      const rep=2600/d2, fx=dx/d*rep, fy=dy/d*rep;
+      N[i].vx-=fx;N[i].vy-=fy;N[j].vx+=fx;N[j].vy+=fy;
+    }
+    E.forEach(e=>{
+      const a=N[idx[e.a]], b=N[idx[e.b]];
+      let dx=b.x-a.x, dy=b.y-a.y, d=Math.sqrt(dx*dx+dy*dy)||1;
+      const k=(d-110)*0.02, fx=dx/d*k, fy=dy/d*k;
+      a.vx+=fx;a.vy+=fy;b.vx-=fx;b.vy-=fy;
+    });
+    N.forEach(n=>{
+      n.vx+=(W/2-n.x)*0.003; n.vy+=(H/2-n.y)*0.003;
+      n.x+=n.vx*=0.82; n.y+=n.vy*=0.82;
+      n.x=Math.max(46,Math.min(W-46,n.x)); n.y=Math.max(34,Math.min(H-30,n.y));
+    });
+  }
+  let s=`<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" style="max-width:100%">`;
+  E.forEach(e=>{
+    const a=N[idx[e.a]], b=N[idx[e.b]], st=REL_STYLE[e.rel]||{d:'',w:1.5};
+    s+=`<line data-tt="<b>${e.rel}</b>: ${a.name} — ${b.name}${e.note?'<br>'+e.note.replace(/"/g,'&quot;'):''}" x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}" stroke="var(--ink-3)" stroke-width="${st.w}" ${st.d?`stroke-dasharray="${st.d}"`:''} opacity="0.75"/>`;
+  });
+  N.forEach(n=>{
+    const r=8+Math.min(16,n.wins*2.4), p=domParty(n.parties);
+    s+=`<circle data-tt="<b>${n.name}</b><br>${n.wins} GE wins · contested ${n.years||'—'}<br>${(n.parties||'').split('|').join(', ')}<br>${n.districts||''}" cx="${n.x}" cy="${n.y}" r="${r}" fill="${pc(p)}" stroke="var(--surface)" stroke-width="2"/>`;
+    const short=n.name.length>26? n.name.slice(0,24)+'…':n.name;
+    s+=`<text x="${n.x}" y="${n.y-r-5}" text-anchor="middle" style="fill:var(--ink);font-weight:600">${short}</text>`;
+  });
+  s+='</svg>';
+  return s;
+}
+document.getElementById('famCards').addEventListener('click',e=>{
+  const c=e.target.closest('.card'); if(!c) return;
+  const f=fams[+c.dataset.i];
+  const d=document.getElementById('famDetail');
+  d.style.display='block';
+  d.innerHTML=`<h3>${f.family} <span class="small">· ${f.base}</span></h3>
+   ${f.notes?`<p class="note">${f.notes}</p>`:''}
+   <div class="legend">
+     <span><span class="ln" style="border-top-style:solid;border-top-width:2.5px"></span>parent–child</span>
+     <span><span class="ln" style="border-top-width:4px"></span>spouses</span>
+     <span><span class="ln" style="border-top-style:dashed"></span>siblings</span>
+     <span><span class="ln" style="border-top-style:dotted"></span>cousins</span>
+     <span><span class="ln" style="border-top-style:dashed;border-top-width:1.5px"></span>uncle/aunt–nephew</span>
+   </div>
+   <div class="svgwrap">${famGraph(f)}</div>
+   <ul class="rel-list">${f.edges.map(e=>{
+     const an=(f.nodes.find(n=>n.id===e.a)||{}).name, bn=(f.nodes.find(n=>n.id===e.b)||{}).name;
+     return `<li><b>${an}</b> — <b>${bn}</b>: <span class="rel">${e.rel}</span>${e.note?` · ${e.note}`:''} ${e.src?`<a href="${e.src}" target="_blank" rel="noopener">[source]</a>`:''}</li>`;
+   }).join('')}</ul>`;
+  d.querySelectorAll('[data-tt]').forEach(el=>{
+    el.addEventListener('mousemove',ev=>showTip(ev,el.dataset.tt));
+    el.addEventListener('mouseleave',hideTip);
+  });
+  d.scrollIntoView({behavior:'smooth',block:'nearest'});
+});
+
+// tooltips for longest timelines (delegated)
+document.body.addEventListener('mousemove',e=>{
+  const t=e.target.closest('[data-tt]');
+  if(t){ showTip(e,t.dataset.tt); } else if(tip.style.display==='block' && !e.target.closest('#tip')) hideTip();
+});
+
+// ---------- search ----------
+const q=document.getElementById('q'), hits=document.getElementById('hits'), pd=document.getElementById('personDetail');
+const PIDX = Object.entries(PEOPLE).map(([id,p])=>[id, p.n.toLowerCase()]);
+q.addEventListener('input',()=>{
+  const v=q.value.trim().toLowerCase(); pd.innerHTML='';
+  if(v.length<3){hits.innerHTML='';return}
+  const m=PIDX.filter(x=>x[1].includes(v)).slice(0,40);
+  hits.innerHTML=m.map(x=>{
+    const p=PEOPLE[x[0]];
+    return `<div class="person-hit" data-id="${x[0]}"><b>${p.n}</b> <span class="small">· ${p.c.length} candidacies · ${p.w} wins · ${p.c.map(r=>r[0]).filter((y,i,a)=>a.indexOf(y)===i).join(', ')}</span></div>`;
+  }).join('');
+});
+hits.addEventListener('click',e=>{
+  const h=e.target.closest('.person-hit'); if(!h)return;
+  const p=PEOPLE[h.dataset.id];
+  pd.innerHTML=`<h3>${p.n}</h3><table><tr><th>Year</th><th>Seat</th><th>District</th><th>Party</th><th>Votes</th><th>Rank</th><th>Result</th></tr>`+
+   p.c.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${chip(r[3])}</td><td>${(+r[4]||0).toLocaleString()}</td><td>${r[5]}</td><td>${r[6]?'<b>Win</b>':'Loss'}</td></tr>`).join('')+'</table>';
+});
+</script>
+</body>
+</html>

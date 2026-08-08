@@ -1,0 +1,32 @@
+{
+ "canvas_id": "C063_Muzaffargarh",
+ "seats": [
+  "NA-175",
+  "NA-176",
+  "NA-177",
+  "NA-178"
+ ],
+ "sheet_used": "mgarh_na175_176.jpg",
+ "rms_km": 4.522,
+ "area_share_sheet": {
+  "NA-175": 0.286,
+  "NA-176": 0.191,
+  "NA-177": 0.226,
+  "NA-178": 0.296
+ },
+ "area_share_out": {
+  "NA-175": 0.371,
+  "NA-176": 0.152,
+  "NA-177": 0.179,
+  "NA-178": 0.299
+ },
+ "issues": [
+  "sheet shows the post-carve rump district with the 4 FINAL seats (no prelim 6-seat layout): handwritten NA-175..178 arrows match final numbering per na_2024_districts.csv; Kot Addu (NA-179/180) not on this sheet",
+  "sheet drawn with north pointing right and scanned 180-deg rotated; ICP start restricted to 270 deg because the 4-start search converged to a 180-flipped local optimum with lower rms (NA-178 landing north)",
+  "canvas main polygon carries a thin approx-carve collar ring (4.3% of canvas) around the Kot Addu hole that is not drawn on the sheet; fit was done against the strip (canvas minus buffered Kot Addu) and the collar was classified by nearest seat (mostly NA-175); canvas kept as hard boundary per brief",
+  "similarity+TPS fit of the long bent strip slid tangentially (NA-177 fell to 0.12 share); pinned with anchor correspondences at tehsil-line junctions plus 6 points along the NA-176/177 line (geoBoundaries ADM3: sheet shares match tehsil shares - Jatoi 0.226 = sheet NA-177 0.226, Alipur 0.267, Muzaffargarh tehsil 0.486 = sheet NA-175+176 0.477); post-warp outline rms 1.39 km",
+  "residual NA-175 drift (+8.5pp raw) decomposes into collar (+4.3pp) and sheet under-drawing the thin NE arm (sheet 7.6% vs canvas 9.6%); ex-collar/arm drift ~3.5pp; NA-176 -3.9pp; NA-177 -4.7pp consistent with NA-178 taking a south-Jatoi slice (NA-178 vs Alipur IoU 0.875, NA-175+176 vs Muzaffargarh tehsil IoU 0.858)",
+  "cross-check sheets: mgarh_na176_177 pink Alipur region consistent with NA-178 in the south; mgarh_na177_178 is a PP (provincial) map and mgarh_na178 a mouza map with degraded labels - used qualitatively only"
+ ],
+ "confidence": "medium"
+}
