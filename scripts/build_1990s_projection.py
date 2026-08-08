@@ -27,7 +27,7 @@ uf  = json.load(io.open(UNITS, encoding='utf-8'))['features']
 res = json.load(open(RES))
 
 xw, report = {}, {}
-for y in ('1993', '1997'):
+for y in ('1990', '1993', '1997'):
     units = {}
     for f in uf:
         p = f['properties']
@@ -49,7 +49,7 @@ for y in ('1993', '1997'):
             except Exception: continue
             if a <= 0: continue
             frac = a / g.area                      # share of the district inside this seat
-            elect = (r['reg'] or 0) * frac         # its electorate, apportioned
+            elect = (r.get('wt') or r.get('reg') or 0) * frac   # its electorate (or votes cast), apportioned
             if elect <= 0: continue
             touched.add(u)
             for party, n in r['tally']:
@@ -74,7 +74,7 @@ for y in ('1993', '1997'):
                  'lowPurity': sorted([(k, v['pur'], v['src'][:2]) for k, v in out.items()
                                       if v and v['pur'] < 40], key=lambda x: x[1])[:8]}
 
-for y in ('1993', '1997'):
+for y in ('1990', '1993', '1997'):
     r = report[y]
     print(f"\n{y}: filled {r['seatsFilled']}/{len(seats)} 2002 seats"
           f" | wholly inside one district {r['singleDistrict']}"

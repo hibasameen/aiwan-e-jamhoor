@@ -51,6 +51,18 @@ PARENT = {
 FOLD_1993 = {'Shangla':'Swat','Hangu':'Kohat','Lower Dir':'Dir','Upper Dir':'Dir',
              'Malir':'Karachi East'}
 FOLD_1997 = {}
+# districts that did not exist in Oct 1990, or that the 1990 returns fold into a
+# larger unit. Tharparkar then covered what became Mirpur Khas and Umerkot.
+FOLD_1990 = dict(FOLD_1993, **{
+    'Mirpur Khas':'Tharparkar','Umer Kot':'Tharparkar','Ghotki':'Sukkur',
+    'Narowal':'Sialkot','Hafizabad':'Gujranwala','Mandi Bahauddin':'Gujrat',
+    'Pakpattan':'Sahiwal','Lodhran':'Multan','Haripur':'Abbottabad','Buner':'Swat',
+    'Battagram':'Mansehra','Lakki Marwat':'Bannu','Tank':'Dera Ismail Khan',
+    'Killa Abdullah':'Pishin','Awaran':'Khuzdar','Barkhan':'Loralai',
+    'Musakhel':'Loralai','Mastung':'Kalat','Jhal Magsi':'Bolan','Nasirabad':'Jaffarabad'})
+# a unit the returns name for another year but which had no general-election
+# result in this one, so it must stay blank rather than be absorbed by a neighbour
+NOPOLL = {'1993': {'Malakand'}}
 
 TRIBAL = re.compile(r'Tribal Area \d\s*[-:]\s*(.+?) Agency')
 FR_MARKER = 'Tribal Areas Attached To'
@@ -96,7 +108,7 @@ def main():
     print(f'in-scope present-day districts: {len(geoms)}')
 
     out_feats, agg, report, shapes = [], {}, {}, {}
-    for y, fold in (('1993', FOLD_1993), ('1997', FOLD_1997)):
+    for y, fold in (('1990', FOLD_1990), ('1993', FOLD_1993), ('1997', FOLD_1997)):
         # which units do this year's returns name?
         seats = collections.defaultdict(list); fr = []
         for na, v in res[y].items():
@@ -106,16 +118,39 @@ def main():
                 else: seats[u].append(na)
         # assign every present-day district to one of this year's units
         assign, unassigned = collections.defaultdict(list), []
+        pending = {}
         for nm, g in geoms.items():
             u = PARENT.get(nm, nm)
             u = fold.get(u, u)
             u = PARENT.get(u, u); u = fold.get(u, u)
-            assign[u].append(nm)
-            if u not in seats: unassigned.append((nm, u))
+            if u in seats or u in NOPOLL.get(y, set()): assign[u].append(nm)
+            else: pending[nm] = u
+        # districts the returns never name (1990 groups several into one title, and
+        # districts created 1991-93 did not yet exist): attach each to the named unit
+        # it shares the longest border with, and record that it was placed this way.
+        byborder = []
+        for _ in range(6):
+            if not pending: break
+            placed = []
+            for nm in list(pending):
+                g = geoms[nm].buffer(0.004)
+                best, bl = None, 0.0
+                for u, mods in assign.items():
+                    for m in mods:
+                        try: l = g.intersection(geoms[m].buffer(0.004)).area
+                        except Exception: continue
+                        if l > bl: best, bl = u, l
+                if best:
+                    assign[best].append(nm); byborder.append((nm, pending[nm], best))
+                    placed.append(nm)
+            for nm in placed: pending.pop(nm, None)
+            if not placed: break
+        for nm, u in pending.items(): unassigned.append((nm, u))
         report[y] = {'unitsNamed': len(seats), 'unitsWithGeometry': len(assign),
                      'namedButNoGeometry': sorted(set(seats) - set(assign)),
                      'districtsUnassigned': sorted(unassigned),
-                     'frontierRegionSeats': fr}
+                     'frontierRegionSeats': fr,
+                     'placedByBorder': sorted(byborder)}
         # dissolve + aggregate
         yd = {}
         for u, mods in assign.items():
@@ -137,7 +172,15 @@ def main():
             tos = [(res[y][na]['to'], res[y][na]['reg']) for na in nas
                    if res[y][na]['to'] and res[y][na]['reg']]
             regs = [res[y][na]['reg'] for na in nas if res[y][na]['reg']]
-            yd[u] = {'seats': len(nas), 'wp': top,
+            # apportionment weight: registered electorate where known, else the
+            # estimated votes cast (winner's votes / winner's share), else seats
+            est = []
+            for na in nas:
+                r0 = res[y][na]
+                if r0['reg']: est.append(r0['reg'])
+                elif r0['wv'] and r0['ws']: est.append(r0['wv'] / (r0['ws'] / 100.0))
+            wt = sum(est) if est else len(nas) * 100000.0
+            yd[u] = {'seats': len(nas), 'wp': top, 'wt': round(wt),
                      'tied': len(leaders) > 1,
                      'tally': tally.most_common(),
                      'reg': sum(regs) if regs else None,
@@ -150,12 +193,14 @@ def main():
                              for na in sorted(nas, key=lambda x: int(x.split('-')[1]))]}
         agg[y] = yd
 
-    for y in ('1993', '1997'):
+    for y in ('1990', '1993', '1997'):
         r = report[y]
         print(f"\n{y}: units named {r['unitsNamed']} | with geometry {r['unitsWithGeometry']}"
               f" | tied {sum(1 for v in agg[y].values() if v.get('tied'))}")
         print(f"   named but no geometry : {r['namedButNoGeometry']}")
         print(f"   districts unassigned  : {[f'{a} (->{b})' for a,b in r['districtsUnassigned']]}")
+        pb = r['placedByBorder']
+        print(f"   placed by border      : {len(pb)} " + str([f'{a}->{c}' for a,b,c in pb[:10]]))
         print(f"   Frontier Regions seat : {r['frontierRegionSeats']}")
         covered={n['na'] for v in agg[y].values() for n in v.get('nas',[])}
         print(f"   distinct seats covered: {len(covered)} of {len(res[y])}"
@@ -165,7 +210,7 @@ def main():
     same = diff = 0
     for u, byyear in shapes.items():
         keys = list(byyear)
-        if len(keys) == 2 and json.dumps(byyear[keys[0]]) == json.dumps(byyear[keys[1]]):
+        if len(set(json.dumps(g) for g in byyear.values())) == 1 and len(keys) == 3:
             out_feats.append({'type':'Feature','properties':{'u':u,'y':'*'},'geometry':byyear[keys[0]]}); same += 1
         else:
             for yy, gm in byyear.items():
