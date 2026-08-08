@@ -43,7 +43,7 @@ def main():
     cat = lambda p: CAT.get(p, 'Other')
 
     cards = []
-    for y in YL:
+    for y in reversed(YL):          # newest first
         res = R[y]
         t = {}
         for r in res.values(): t[cat(r['wp'])] = t.get(cat(r['wp']), 0) + 1
@@ -73,8 +73,8 @@ def main():
     block = '<div class="hemis">\n' + '\n'.join(cards) + '\n    </div>\n\n    '
     idx = head + block + tail
     io.open(OUT, 'w', encoding='utf-8').write(idx)
-    print(f'rebuilt {len(cards)} hemicycles: {", ".join(YL)}')
-    for y, c in zip(YL, cards):
+    print(f'rebuilt {len(cards)} hemicycles: {", ".join(reversed(YL))}')
+    for y, c in zip(reversed(YL), cards):
         m = re.search(r'<span class="seats">(\d+) seats', c)
         t = re.search(r'<span>([^<]+)</span><span class="n">(\d+)', c)
         print(f'   {y}: {m.group(1):>3} seats | top {t.group(1)} {t.group(2)}')

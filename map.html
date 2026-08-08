@@ -304,7 +304,7 @@ function onMove(e,d){const y=state.year,Y=YEARS[y],res=Y.unit==='district'?mapRe
 
 function renderToolbar(){
   const ys=document.getElementById('yearseg');ys.innerHTML='';
-  YL.forEach(y=>{const b=document.createElement('button');b.textContent=y;if(y===state.year)b.className='on';b.onclick=()=>{state.year=y;state.selected=null;state.selectedUnit=null;state.filterCat=null;renderAll();};ys.appendChild(b);});
+  [...YL].reverse().forEach(y=>{const b=document.createElement('button');b.textContent=y;if(y===state.year)b.className='on';b.onclick=()=>{state.year=y;state.selected=null;state.selectedUnit=null;state.filterCat=null;renderAll();};ys.appendChild(b);});
   document.querySelectorAll('#modeseg button').forEach(b=>{b.classList.toggle('on',b.dataset.mode===state.mode);b.onclick=()=>{state.mode=b.dataset.mode;state.filterCat=null;renderAll();};});
   const Y=YEARS[state.year];
   const isD=Y.unit==='district'||Y.unit==='proj';
