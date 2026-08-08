@@ -7,6 +7,9 @@ wv (votes), ws (share %), reg (registered), to (turnout %), mov (margin %),
 nc (n candidates), cands: [top-6 {n,p,v,s}] }, ... }, "2013": ..., "2018": ..., "2024": ... }
 
 Sources:
+- 1993/1997/2002: colincookman/pakistan_elections, same general-election filter as
+  2008/2013. 1993 and 1997 ran on the 1977 delimitation (207 general seats); 2002 on
+  the 2002 delimitation (272), the same one used for 2008 and 2013.
 - 2008/2013: colincookman/pakistan_elections  (candidate + constituency CSVs; GE-day
   rows only — election_type == "General Election"; supplementary polls for postponed
   seats are labelled By-Election by Cookman and are excluded).
@@ -107,8 +110,11 @@ def year_2024():
 if __name__ == '__main__':
     cand = pd.read_csv('data/pakistan_elections/data/pk_candidate_data.csv', low_memory=False)
     cons = pd.read_csv('data/pakistan_elections/data/pk_constituency_data.csv', low_memory=False)
-    res = {'2008': year_0813(cand, cons, '2/18/08', '2008-02-18'),
-           '2013': year_0813(cand, cons, '5/11/13', '2013-05-11'),
+    res = {'1993': year_0813(cand, cons, '10/6/93',  '1993-10-06'),
+           '1997': year_0813(cand, cons, '2/3/97',   '1997-02-03'),
+           '2002': year_0813(cand, cons, '10/10/02', '2002-10-10'),
+           '2008': year_0813(cand, cons, '2/18/08',  '2008-02-18'),
+           '2013': year_0813(cand, cons, '5/11/13',  '2013-05-11'),
            '2018': year_2018(), '2024': year_2024()}
     json.dump(res, open('results_all.json', 'w'))
     print({y: len(v) for y, v in res.items()})

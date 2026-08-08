@@ -58,7 +58,43 @@ All coordinates are WGS-84 lon/lat. Exterior rings are stored **clockwise** for 
 `METHODOLOGY.md` §3.3). Each `Feature` has a `geometry` (Polygon or MultiPolygon) and the
 `properties` below.
 
-### 2002 delimitation — `data/na_constituencies_2002delim.geojson` (2008, 2013)
+### 1990s districts (approximate) — `data/districts_1990s.geojson` (1993, 1997)
+
+No constituency boundaries survive in geospatial form for the 1977 delimitation, under
+which the 207-seat National Assembly was elected from 1977 to 1997. The Election
+Commission first published constituency maps for the 2002 delimitation. The 1993 and
+1997 maps are therefore **district aggregates, not constituency maps**, and are not
+comparable seat-for-seat with 2002 onward.
+
+Built by `scripts/build_1990s_districts.py`, which dissolves present-day ADM2 polygons
+back into the district units the returns name. Gilgit-Baltistan and Azad Jammu &
+Kashmir are excluded — they elect no National Assembly members. Each present-day
+district is folded into its October 1993 parent using a researched, sourced lineage
+(for example Nankana Sahib into Sheikhupura, Korangi into Karachi East, Chiniot into
+Jhang, the three Kohistans into Kohistan). Every in-scope present-day district is
+assigned to exactly one unit per year, so the partition has no holes.
+
+The unit set is **year-specific**: the 1997 returns name Shangla, Hangu, Malakand and
+Upper/Lower Dir separately where 1993 folded them into Swat, Kohat and Dir, reflecting
+districts created in the mid-1990s. Geometry identical across both years is stored once
+(`y: "*"`); where it differs, one feature per year.
+
+Known limits, all deliberate:
+
+| Limit | Effect |
+|---|---|
+| 29 of 202 seats (1993) and 36 of 204 (1997) spanned two or more districts | counted in every district they name, so unit seat counts sum above the national total |
+| A district is filled by the party winning most of its seats | ties (16 in 1993, 11 in 1997) are broken by the larger combined winning vote and flagged in the panel |
+| Karachi's five 1993 reporting units were not all districts | Central and Malir were notified in 1996; Jamshed Town moved South→East in 2013. Karachi equivalences are approximate |
+| Frontier Regions seat (1997 NA-34) | unmappable — its territory is now interior to six districts. Omitted; 203 of 204 seats are mapped |
+| 1993 Malakand (NA-26) | went to a by-election on 2 Dec 1993, so it has no general-election result and is drawn as no-poll |
+| Lehri district | created 2013 from Sibi + Bolan, abolished 2018; folded wholly into Sibi |
+
+`data/districts_1990s_results.json` holds the per-unit aggregate: seat count, plurality
+party, full tally, registered electorate, electorate-weighted turnout, the present-day
+districts composing the unit, and the underlying seat list.
+
+### 2002 delimitation — `data/na_constituencies_2002delim.geojson` (2002, 2008, 2013)
 
 | Property | Type | Meaning |
 |----------|------|---------|
