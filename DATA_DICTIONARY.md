@@ -58,7 +58,7 @@ All coordinates are WGS-84 lon/lat. Exterior rings are stored **clockwise** for 
 `METHODOLOGY.md` §3.3). Each `Feature` has a `geometry` (Polygon or MultiPolygon) and the
 `properties` below.
 
-### 1990s districts (approximate) — `data/districts_1990s.geojson` (1993, 1997)
+### 1990s districts, projected onto 2002 seats — `data/districts_1990s.geojson` + `data/na2002_from_1990s.json` (1993, 1997)
 
 No constituency boundaries survive in geospatial form for the 1977 delimitation, under
 which the 207-seat National Assembly was elected from 1977 to 1997. The Election
@@ -93,6 +93,23 @@ Known limits, all deliberate:
 `data/districts_1990s_results.json` holds the per-unit aggregate: seat count, plurality
 party, full tally, registered electorate, electorate-weighted turnout, the present-day
 districts composing the unit, and the underlying seat list.
+
+**How they are drawn.** The map does not draw these district units directly. Instead
+`scripts/build_1990s_projection.py` projects each district result onto the 2002
+constituencies (`data/na2002_from_1990s.json`), so all years from 1993 to 2013 share one
+set of shapes. For each 2002 seat and each district it overlaps, the share of the
+district assumed to fall inside the seat is `area(seat n district) / area(district)`;
+that share of the district's registered electorate is split between parties in
+proportion to the seats they won there, and the largest total shades the seat. The
+district outlines are drawn over the fills so the real unit of information stays visible.
+
+This assumes uniform electorate density within each source district. It is exact where a
+2002 seat lies inside one district — 183 of 270 seats in 1993, 191 in 1997 — and weakest
+in Balochistan, where 2002 seats span several sparsely populated districts. Winner-takes-all
+assignment was rejected because it orphaned 13 districts' results entirely. The stored
+record keeps `pur`, the winning party's share of the apportioned weight, and `one`, whether
+the seat sits inside a single district; the hover text reports both. **These seats did not
+exist in 1993 or 1997: the fill is the surrounding district's result, not the seat's.**
 
 ### 2002 delimitation — `data/na_constituencies_2002delim.geojson` (2002, 2008, 2013)
 
