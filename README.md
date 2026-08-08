@@ -20,7 +20,7 @@ Four static, self-contained pages (open directly, or serve the folder):
 |------|------|
 | `index.html` | Home — the House election by election |
 | `map.html` | The map — four elections, seat by seat (D3 + all data inlined, ~3.8 MB) |
-| `dynasties.html` | Dynasties — careers, party switching, political families |
+| `candidates.html` | Dynasties — careers, party switching, political families |
 | `method.html` | Method & sources — the methodology, in the site's style |
 
 ```bash
@@ -33,7 +33,7 @@ Everything the map needs is inlined, so it also runs offline and from any static
 
 ```
 Aiwan-e-Jamhoor/
-├── index.html · map.html · dynasties.html · method.html   the site
+├── index.html · map.html · candidates.html · method.html   the site
 ├── og-image.png                     social-share card
 ├── METHODOLOGY.md                   full methodology (authoritative)
 ├── DATA_DICTIONARY.md               schema of every dataset

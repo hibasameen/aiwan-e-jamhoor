@@ -142,7 +142,7 @@ table.tbl tr:hover td{background:var(--page)}
     <nav class="main">
       <a href="index.html">Home</a>
       <a class="on" href="map.html">Map</a>
-      <a href="dynasties.html">Dynasties</a>
+      <a href="candidates.html">Candidates</a>
       <a href="method.html">Method</a>
     </nav>
     <div class="spacer"></div>
@@ -258,7 +258,7 @@ function renderToolbar(){
   document.querySelectorAll('#modeseg button').forEach(b=>{b.classList.toggle('on',b.dataset.mode===state.mode);b.onclick=()=>{state.mode=b.dataset.mode;state.filterCat=null;renderAll();};});
   const Y=YEARS[state.year];
   document.getElementById('modenote').textContent = state.mode==='winner'
-    ? 'Filled by the winning party. Dashed edges mark provisional 2024 boundaries; hatching marks a postponed poll.'
+    ? 'Filled by the winning party. Dashed edges mark provisional 2024 boundaries; hatching marks a postponed poll. In 2024 PTI ran without its symbol: its candidates appear as IND, as the returns record them.'
     : (Y.prev? `Held or turned over against ${Y.prev}.`+((state.year==='2018'||state.year==='2024')?' This pair crosses a delimitation, so the comparison is between seat numbers, not the same ground.':'') : '2008 is the first election here, so there is nothing to compare it against.');
   document.getElementById('delim').textContent=Y.delim;
   const tb=document.getElementById('tablebtn');tb.classList.toggle('on',state.tableMode);
