@@ -119,6 +119,18 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
 :root[data-theme="dark"] path[data-cat="PPP"]{fill:#e4e1d8}
 :root[data-theme="dark"] .sw[data-cat="PPP"]{background:#e4e1d8 !important}
 :root[data-theme="dark"] path[data-cat="IND"]{fill:#8f8b80}
+
+/* ---- legal bar (fixed to viewport bottom) ---- */
+body{padding-bottom:44px}
+.legal{position:fixed;left:0;right:0;bottom:0;z-index:50;border-top:1px solid var(--line);background:var(--surface-2)}
+.legal-in{max-width:1400px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:nowrap;align-items:center;gap:6px 20px;font-family:'Space Mono',monospace;font-size:11px;line-height:1.6;color:var(--ink-3);white-space:nowrap;overflow:hidden}
+.legal-in .sp{flex:1 1 auto}
+.legal-in a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.legal-in a:hover{color:var(--green);border-bottom-color:var(--green)}
+@media (max-width:900px){.legal-in .lg-opt{display:none}}
+@media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
+@media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
+@media (max-width:720px){.legal-in{padding:11px 18px}}
 </style>
 </head>
 <body>
@@ -146,6 +158,7 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
       <a class="on" href="index.html">Home</a>
       <a href="map.html">Map</a>
       <a href="candidates.html">Candidates</a>
+      <a href="about.html">About</a>
       <a href="method.html">Method</a>
     </nav>
     <div class="spacer"></div>
@@ -565,7 +578,7 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
   <div class="foot-in">
     <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
     <div class="foot-src">
-      <b>Sources.</b> Results 2008–2018: Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (Commission-derived, GPL-3.0). Results 1977–1997 and 2024: <a href="https://www.electionpakistani.com/">ElectionPakistani</a>, an unofficial transcription of Commission returns (1990s cross-checked against constituency maps). Boundaries: 2002 delimitation from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; the 1977 (200-seat) and 1985–1997 (207-seat) delimitations and the 2018 and 2023 delimitations are reconstructed here. All boundaries approximate; pre-2002 constituency shapes are district-anchored reconstructions; 2024 figures are provisional and predate tribunal revisions. Directly elected general seats only. 2024 party labels are as declared: PTI contested without its symbol and its candidates appear as independents. Party colours follow Pakistani media convention.
+      <b>Sources.</b> Results 1993–2018: Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (Commission-derived, GPL-3.0). Results 1977, 1985, 1988, 1990 and 2024: <a href="https://www.electionpakistani.com/">ElectionPakistani</a>, an unofficial transcription of Commission returns (1990–2013 winners cross-checked against independently drawn constituency maps). Boundaries: 2002 delimitation from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; the 1977 (200-seat) delimitation is reconstructed here, the 1985–1997 (207-seat) delimitation traced from labelled Commons result maps, and the 2018 and 2023 delimitations digitised here. All boundaries approximate; pre-2002 constituency shapes are district-anchored reconstructions; 2024 figures are provisional and predate tribunal revisions. Directly elected general seats only. 2024 party labels are as declared: PTI contested without its symbol and its candidates appear as independents. Party colours follow Pakistani media convention.
     </div>
     <a class="foot-btn" href="method.html">Method &amp; caveats</a>
   </div>
@@ -596,5 +609,17 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
   });
 })();
 </script>
+
+<div class="legal">
+  <div class="legal-in">
+    <span>&copy; 2026 Hiba Sameen</span>
+    <span>Code: <a href="https://opensource.org/licenses/MIT">MIT Licence</a></span>
+    <span class="lg-opt">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="sp"></span>
+    <a class="lg-nav" href="about.html">About</a>
+    <a class="lg-nav" href="method.html">Method</a>
+    <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
+  </div>
+</div>
 </body>
 </html>

@@ -138,6 +138,18 @@ table.tbl tr:hover td{background:var(--page)}
   .map-wrap{flex-direction:column}.side{max-width:none}#map{height:520px}.map-card{position:relative;top:auto}.elecband .estat{grid-template-columns:repeat(2,1fr)}.elecband .ebody{grid-template-columns:1fr;gap:22px}
   main{padding:16px 16px 60px}
 }
+
+/* ---- legal bar (fixed to viewport bottom) ---- */
+body{padding-bottom:44px}
+.legal{position:fixed;left:0;right:0;bottom:0;z-index:50;border-top:1px solid var(--line);background:var(--surface-2)}
+.legal-in{max-width:1400px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:nowrap;align-items:center;gap:6px 20px;font-family:'Space Mono',monospace;font-size:11px;line-height:1.6;color:var(--ink-3);white-space:nowrap;overflow:hidden}
+.legal-in .sp{flex:1 1 auto}
+.legal-in a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.legal-in a:hover{color:var(--green);border-bottom-color:var(--green)}
+@media (max-width:900px){.legal-in .lg-opt{display:none}}
+@media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
+@media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
+@media (max-width:720px){.legal-in{padding:11px 18px}}
 </style>
 </head>
 <body>
@@ -163,6 +175,7 @@ table.tbl tr:hover td{background:var(--page)}
       <a href="index.html">Home</a>
       <a class="on" href="map.html">Map</a>
       <a href="candidates.html">Candidates</a>
+      <a href="about.html">About</a>
       <a href="method.html">Method</a>
     </nav>
     <div class="spacer"></div>
@@ -444,4 +457,16 @@ function renderAll(){renderToolbar();if(state.tableMode){renderTable();}else{ren
 (function(){const q=new URLSearchParams(location.search);const y=q.get('year');if(y&&YEARS[y])state.year=y;const seat=q.get('seat');if(seat){const na=seat.toUpperCase();if((R[state.year]||{})[na]||YEARS[state.year].postponed.includes(na))state.selected=na;}})();
 renderAll();
 </script>
+
+<div class="legal">
+  <div class="legal-in">
+    <span>&copy; 2026 Hiba Sameen</span>
+    <span>Code: <a href="https://opensource.org/licenses/MIT">MIT Licence</a></span>
+    <span class="lg-opt">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="sp"></span>
+    <a class="lg-nav" href="about.html">About</a>
+    <a class="lg-nav" href="method.html">Method</a>
+    <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
+  </div>
+</div>
 </body></html>

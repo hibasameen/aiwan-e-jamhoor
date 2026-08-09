@@ -16,8 +16,13 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hibasameen.github.io/aiwan-e-jamhoor/about.html</loc>
+    <lastmod>2026-08-09</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://hibasameen.github.io/aiwan-e-jamhoor/method.html</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-08-09</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>

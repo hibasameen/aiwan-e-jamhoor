@@ -1,26 +1,28 @@
 # Aiwan-e-Jamhoor — ایوانِ جمہور
 
 **The People's House** — an interactive record of Pakistan's National Assembly general
-elections since 2008: every seat, every candidate, every party, mapped on the constituency
-boundaries that were actually in force at each election.
+elections since 1977: eleven elections, every seat, every candidate, every party, mapped on
+the constituency boundaries that were actually in force at each election.
 
 This is the project's working repository — the static site, the data-processing and
 map-building code, the derived datasets, and the full methodology.
 
 > **Not affiliated with the Election Commission of Pakistan.** Constituency boundaries are
-> unofficial digitisations/reconstructions; 2024 results are provisional. See
+> unofficial digitisations/reconstructions/traces; 2024 results are provisional; results for
+> 1977–1990 come from an unofficial transcription and carry no per-seat turnout. See
 > [`METHODOLOGY.md`](METHODOLOGY.md) and [`DEPLOYMENT.md`](DEPLOYMENT.md) for the full list
 > of limitations before citing.
 
 ## The site
 
-Four static, self-contained pages (open directly, or serve the folder):
+Five static, self-contained pages (open directly, or serve the folder):
 
 | File | Page |
 |------|------|
 | `index.html` | Home — the House election by election |
-| `map.html` | The map — four elections, seat by seat (D3 + all data inlined, ~3.8 MB) |
+| `map.html` | The map — eleven elections, seat by seat (D3 + all data inlined, ~7 MB) |
 | `candidates.html` | Dynasties — careers, party switching, political families |
+| `about.html` | About — what this is, who built it, sources, licence |
 | `method.html` | Method & sources — the methodology, in the site's style |
 
 ```bash
@@ -33,7 +35,7 @@ Everything the map needs is inlined, so it also runs offline and from any static
 
 ```
 Aiwan-e-Jamhoor/
-├── index.html · map.html · candidates.html · method.html   the site
+├── index.html · map.html · candidates.html · about.html · method.html
 ├── og-image.png                     social-share card
 ├── METHODOLOGY.md                   full methodology (authoritative)
 ├── DATA_DICTIONARY.md               schema of every dataset

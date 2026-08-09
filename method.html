@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aiwan-e-Jamhoor — Method &amp; sources</title>
-<meta name="description" content="How the data and maps behind Aiwan-e-Jamhoor were built — results 2008–2024, three delimitations, boundary digitisation, and the honest limits of each number and line.">
+<meta name="description" content="How the data and maps behind Aiwan-e-Jamhoor were built — results 1977–2024, five delimitations, boundary tracing and digitisation, and the honest limits of each number and line.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%2314523a%22/%3E%3Cg%20transform%3D%22translate%286%206%29%20scale%280.8125%29%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2229%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2226%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%224.2%22%20stroke-dasharray%3D%223.4%203.4%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2223%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Cg%20stroke%3D%22%23c9a13f%22%20stroke-width%3D%221.7%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M13%2032%20H51%20M32%2013%20V51%20M15.55%2022.5%20L48.45%2041.5%20M22.5%2015.55%20L41.5%2048.45%20M22.5%2048.45%20L41.5%2015.55%20M15.55%2041.5%20L48.45%2022.5%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2219%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2213%22%20stroke-width%3D%222.2%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%227%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%223.6%22%20fill%3D%22%23c9a13f%22/%3E%3C/g%3E%3C/svg%3E">
 <meta property="og:title" content="Aiwan-e-Jamhoor — Method &amp; sources">
 <meta property="og:description" content="How the data and maps were built, and the honest limits of each number and line.">
@@ -101,6 +101,18 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
   .toc ol{columns:1}
   article{font-size:17.5px}
 }
+
+/* ---- legal bar (fixed to viewport bottom) ---- */
+body{padding-bottom:44px}
+.legal{position:fixed;left:0;right:0;bottom:0;z-index:50;border-top:1px solid var(--line);background:var(--surface-2)}
+.legal-in{max-width:1400px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:nowrap;align-items:center;gap:6px 20px;font-family:'Space Mono',monospace;font-size:11px;line-height:1.6;color:var(--ink-3);white-space:nowrap;overflow:hidden}
+.legal-in .sp{flex:1 1 auto}
+.legal-in a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.legal-in a:hover{color:var(--green);border-bottom-color:var(--green)}
+@media (max-width:900px){.legal-in .lg-opt{display:none}}
+@media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
+@media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
+@media (max-width:720px){.legal-in{padding:11px 18px}}
 </style>
 </head>
 <body>
@@ -128,6 +140,7 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
       <a href="index.html">Home</a>
       <a href="map.html">Map</a>
       <a href="candidates.html">Candidates</a>
+      <a href="about.html">About</a>
       <a class="on" href="method.html">Method</a>
     </nav>
     <div class="spacer"></div>
@@ -140,21 +153,23 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
 <main>
   <div class="eyebrow">Method &amp; sources</div>
   <h1 class="title">Where every number and line comes from</h1>
-  <p class="standfirst">Aiwan-e-Jamhoor maps every National Assembly general election since 2008 on the constituency boundaries in force at the time. This is the honest account of how the data and the maps were built — and what they can and cannot be trusted to say.</p>
+  <p class="standfirst">Aiwan-e-Jamhoor maps every National Assembly general election since 1977 — eleven of them — on the constituency boundaries in force at the time. This is the honest account of how the data and the maps were built, election by election, and what they can and cannot be trusted to say.</p>
 
-  <p>Two facts shape everything here, and both are worth stating plainly. First, the Election Commission of Pakistan has <strong>never released GIS boundary files</strong>: every constituency polygon in public circulation, including all of ours, is a digitisation of low-resolution map sheets or a reconstruction from written seat descriptions. There is no authoritative vector ground truth to check against. Second, <strong>constituency numbers are not comparable across delimitations</strong> — NA-120 in 2013 is not NA-120 in 2018 is not NA-120 in 2024, and no official crosswalk exists. We treat the delimitation vintage as a property of every seat and never join results across vintages on the seat number alone.</p>
+  <p>Two facts shape everything here, and both are worth stating plainly. First, the Election Commission of Pakistan has <strong>never released GIS boundary files</strong>: every constituency polygon in public circulation, including all of ours, is a digitisation of low-resolution map sheets or a reconstruction from written seat descriptions. There is no authoritative vector ground truth to check against. Second, <strong>constituency numbers are not comparable across delimitations</strong> — NA-120 in 2013 is not NA-120 in 2018 is not NA-120 in 2024, and no official crosswalk exists. We treat the delimitation vintage as a property of every seat and never join results across vintages on the seat number alone. A third fact applies only to the older half of the record: for 1977 to 1990 the returns available to anyone are <strong>unofficial transcriptions</strong>, they carry no per-seat electorate or turnout, and several elections in that stretch were themselves contested as rigged — by the losing side at the time, and in one case by the Supreme Court two decades later.</p>
 
   <div class="toc">
     <span class="k">On this page</span>
     <ol>
       <li><a href="#scope">Scope</a></li>
-      <li><a href="#results">Results, 2008–2024</a></li>
-      <li><a href="#geometry">Three delimitations</a></li>
+      <li><a href="#results">Results, 1977–2024</a></li>
+      <li><a href="#geometry">Five delimitations</a></li>
+      <li><a href="#pre2002">Pre-2002 boundaries</a></li>
       <li><a href="#b2018">True 2018 boundaries</a></li>
       <li><a href="#b2023">True 2023 boundaries</a></li>
       <li><a href="#confidence">Confidence &amp; how the map shows it</a></li>
+      <li><a href="#crosscheck">Checking the winners</a></li>
       <li><a href="#app">The application</a></li>
-      <li><a href="#elections">The four elections</a></li>
+      <li><a href="#elections">The eleven elections</a></li>
       <li><a href="#limits">Limitations</a></li>
       <li><a href="#sources">Sources</a></li>
     </ol>
@@ -163,10 +178,29 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
   <article>
 
     <h2 id="scope"><span class="n">01</span>Scope</h2>
-    <p>The project covers the National Assembly only, and within it the directly elected general seats only — the reserved seats for women and non-Muslims are filled by proportional allocation rather than a direct vote, and are excluded. It covers the four general elections of 2008, 2013, 2018 and 2024, and it shows strictly the <em>election-day</em> outcome: seats whose poll was postponed and later held as a supplementary poll are marked postponed rather than filled with the later winner, and by-elections between general elections are not shown. The dynasties layer reaches further back, using candidate records to 1993 to link the same person across elections.</p>
+    <p>The project covers the National Assembly only, and within it the directly elected general seats only — the reserved seats for women and non-Muslims are filled by proportional allocation rather than a direct vote, and are excluded. It covers <strong>eleven general elections</strong>: 1977, 1985, 1988, 1990, 1993, 1997, 2002, 2008, 2013, 2018 and 2024. Two national polls are missing and their absence is deliberate rather than accidental — the 1970 election that preceded the break-up of the country used a different assembly altogether, and no consolidated candidate-level source for it meets the standard used here.</p>
+    <p>Throughout, the map shows strictly the <em>election-day</em> outcome: seats whose poll was postponed and later held as a supplementary poll are marked postponed rather than filled with the later winner, seats returned unopposed are shown as such, and by-elections between general elections are not shown. The dynasties layer links the same person across elections using candidate records from 1993 onward, where names are transcribed consistently enough to match.</p>
 
-    <h2 id="results"><span class="n">02</span>Results, 2008–2024</h2>
-    <p>For 2008, 2013 and 2018 the backbone is Colin Cookman's open, Commission-derived election datasets — candidate- and constituency-level CSVs, released under GPL-3.0 and candid about their own transcription errors. We keep only general-election-day rows, which excludes the supplementary polls for postponed seats. The 2018 figures are explicitly provisional: they come from a machine-readable feed ECP published in mid-2018 and later removed, and they predate tribunal revisions.</p>
+    <h2 id="results"><span class="n">02</span>Results, 1977–2024</h2>
+    <p>No single source covers the whole period, so the record is assembled from three, and which one a given election rests on matters more than any other fact about it.</p>
+
+    <table>
+      <thead><tr><th>Elections</th><th>Source</th><th>Status</th><th>Per-seat turnout</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">1977 · 1985 · 1988 · 1990</td><td>ElectionPakistani, scraped seat by seat</td><td>unofficial transcription</td><td>not published</td></tr>
+        <tr><td class="mono">1993 · 1997 · 2002</td><td>Colin Cookman, <code>pakistan_elections</code></td><td>Commission-derived, GPL-3.0</td><td>yes</td></tr>
+        <tr><td class="mono">2008 · 2013 · 2018</td><td>Colin Cookman, both repositories</td><td>Commission-derived, GPL-3.0</td><td>yes</td></tr>
+        <tr><td class="mono">2024</td><td>ElectionPakistani + 254 official Form-47 scans</td><td>provisional, cross-checked here</td><td>yes, from the forms</td></tr>
+      </tbody>
+    </table>
+
+    <p>The four oldest elections — <strong>1977, 1985, 1988 and 1990</strong> — exist in consolidated, machine-readable form nowhere official. Each of their seats was pulled individually from ElectionPakistani's per-constituency pages, cached, and parsed offline by a re-runnable script, giving 649 candidate rows for 1977, 1,065 for 1985, 1,186 for 1988 and 1,226 for 1990. Every seat parsed in all four. What the source does not carry, we do not invent: <strong>registered electorate, votes polled and turnout are simply absent per seat</strong> for these years, so those fields are null and the map shows the published national figure instead. A residue of seats gives a winner but no vote counts — nineteen in 1977, where unopposed PPP returns were a defining and much-criticised feature of the election, nine in 1985, ten in 1988 and four in 1990. Their share and margin are null rather than zero.</p>
+
+    <p>Party labels in these years need care, and two are worth stating. <strong>"PML-Q" in 1977 is the Muslim League (Qayyum group)</strong>, a 1970s faction, and must not be merged with the modern PML-Q founded in 2002. In <strong>1985 there are no parties at all</strong> — Zia's non-party election put no affiliation on the ballot, the source pages have no party column, and every seat therefore renders in the neutral independent colour. That is faithful to the source, not a gap in it. In 1988 the source records MQM's urban-Sindh winners as independents rather than under any MQM label, which is why the independent bucket for that year is larger than commonly published figures and MQM is absent from it.</p>
+
+    <p>For <strong>1993, 1997 and 2002</strong>, Cookman's <code>pakistan_elections</code> provides Commission-derived constituency and candidate tables with electorate and turnout intact, which is why those three are the earliest elections whose turnout figures on this site are computed from our own data rather than quoted. Coverage is not complete: 202 of 207 seats polled in 1993 and 204 of 207 in 1997 are present, the remainder having been postponed and filled later; 270 of 272 in 2002, with NA-262 and NA-263 re-polled in November.</p>
+
+    <p>For 2008, 2013 and 2018 the backbone is the same open, Commission-derived election datasets — candidate- and constituency-level CSVs, released under GPL-3.0 and candid about their own transcription errors. We keep only general-election-day rows, which excludes the supplementary polls for postponed seats. The 2018 figures are explicitly provisional: they come from a machine-readable feed ECP published in mid-2018 and later removed, and they predate tribunal revisions.</p>
 
     <p>2024 was different: when this project was built, no neutral, consolidated, machine-readable dataset for the election existed. We built one in two passes. First, every one of the 266 constituency pages was transcribed from ElectionPakistani, which itself transcribes ECP's Form-47 provisional consolidations — giving every candidate, party and vote. Then a second, official layer was read directly from <strong>254 scanned ECP Form-47 forms</strong>, adding the figures the scrape lacked: registered voters, turnout, polling stations, and rejected votes. Every extracted row was arithmetic-checked — valid plus rejected equals polled, male plus female equals the totals, winner never exceeds valid votes.</p>
 
@@ -177,17 +211,20 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
 
     <p>Three caveats on 2024 matter for reading the map. Party labels are <em>as declared on election day</em>: PTI was denied its symbol, so PTI-backed winners contested and are recorded as Independent, and their later move to the Sunni Ittehad Council is not applied. Our directly-elected tally — IND 99, PML-N 78, PPP 54, MQM 17 and a long tail — therefore differs by a handful of seats from commonly cited figures, because the source reflects some recounts and tribunal outcomes. And "declared" is not "current": tribunal rulings and the July 2024 reserved-seat judgment have since changed the composition of the House. Twelve seats (NA-1, 2, 4, 7, 8, 12, 14, 16, 19, 20, 21, 22) have no scanned form and rely on the transcription alone.</p>
 
-    <h2 id="geometry"><span class="n">03</span>Three delimitations</h2>
-    <p>Each election is drawn on the boundaries that were legally in force when it was held.</p>
+    <h2 id="geometry"><span class="n">03</span>Five delimitations</h2>
+    <p>Each election is drawn on the boundaries that were legally in force when it was held. There are five such maps across the period, and only one of them came from anywhere official.</p>
     <table>
       <thead><tr><th>Election</th><th>Delimitation</th><th class="mono">Seats</th><th>Boundary source</th></tr></thead>
       <tbody>
-        <tr><td>2008, 2013</td><td>2002</td><td class="mono">272</td><td>rugpundit digitisation</td></tr>
+        <tr><td>1977</td><td>1972 census</td><td class="mono">200</td><td>reconstructed here (district-anchored)</td></tr>
+        <tr><td>1985, 1988, 1990, 1993, 1997</td><td>1981 census</td><td class="mono">207</td><td>traced here from labelled result maps</td></tr>
+        <tr><td>2002, 2008, 2013</td><td>2002</td><td class="mono">272</td><td>rugpundit digitisation</td></tr>
         <tr><td>2018</td><td>2018</td><td class="mono">272</td><td>digitised here from ECP sheets</td></tr>
         <tr><td>2024</td><td>2023</td><td class="mono">266</td><td>ECP sheets + published compositions</td></tr>
       </tbody>
     </table>
-    <p>For 2008 and 2013 we use the <code>rugpundit/PakistanConstituencies2013</code> shapefile, the de-facto research standard and itself an unofficial digitisation of ECP raster maps. Two of the 272 seats — NA-95 and NA-96 in urban Gujranwala — are absent from that source; their results stay fully searchable in the app even though the two shapes are not shaded. Thirty-four self-intersecting rings were repaired before use.</p>
+    <p>The two pre-2002 maps are frequently conflated, including in this project's own earlier working files, and they are not the same thing. <strong>1977 was fought on 200 seats</strong> drawn from the 1972 census, with district names that have since gone — Lyallpur for Faisalabad, Campbellpur for Attock. The <strong>207-seat map drawn after the 1981 census served five elections unchanged</strong>, 1985 through 1997. Files here are named by seat count rather than by year to keep the two apart.</p>
+    <p>For 2002, 2008 and 2013 we use the <code>rugpundit/PakistanConstituencies2013</code> shapefile, the de-facto research standard and itself an unofficial digitisation of ECP raster maps. Two of the 272 seats — NA-95 and NA-96 in urban Gujranwala — are absent from that source; their results stay fully searchable in the app even though the two shapes are not shaded. Thirty-four self-intersecting rings were repaired before use.</p>
 
     <p>For 2018 and 2023, ECP has released nothing and no complete public vector file exists, so the boundaries were reconstructed here. The transparent baseline allocates every seat to its district or districts, gives whole-district seats their exact union — so <em>district edges are accurate</em> — and splits multi-seat districts with a Voronoi diagram seeded to follow ECP's numbering. Under this baseline the internal line between two seats in the same district is only approximate, and every such seat is flagged. Both the 2018 and the 2024 layers the app ships have since been upgraded past this baseline, as below.</p>
 
@@ -196,10 +233,29 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
       D3's geographic projection reads a counter-clockwise polygon ring as inverted — a seat wound the wrong way fills the entire globe and the map becomes a solid rectangle. Every boundary file is therefore re-wound clockwise and repaired for validity before it reaches the app.
     </div>
 
-    <h2 id="b2018"><span class="n">04</span>True 2018 boundaries</h2>
+    <h2 id="pre2002"><span class="n">04</span>Pre-2002 boundaries — tracing the 207-seat map</h2>
+    <p>The two oldest delimitations were never published in any geospatial form, and unlike 2018 and 2023 there are no ECP sheets to digitise either. What exists instead, for the 207-seat map, is a set of independently drawn result maps on Wikimedia Commons — one each for 1990, 1993 and 1997, by Saad Ali Khan Pakistan, at roughly 3,500 pixels — which draw the constituencies <em>and print each seat's NA number inside its own region</em>. Identity therefore does not have to be inferred from geography; it can be read.</p>
+
+    <p>The pipeline segments each map into flat-filled regions, reads the number inside each by OCR, georeferences the map, contour-traces every region and warps it to longitude and latitude. The step that makes the georeference work is a simple observation: the map's party-coloured pixels and the union of the 2002-delimitation constituency file describe <strong>the same territory</strong> — the National Assembly area, excluding Kashmir and Gilgit-Baltistan — so the two masks can be aligned directly, with no control points at all. An affine fit optimised on intersection-over-union reaches 0.92; a quadratic warp on top reaches 0.94, for a drawn-edge error against the true outline of <strong>about 4.7 km at the median and 16 km at the ninetieth percentile</strong>. The approach tried first, deriving control points from each labelled region's district centroid, managed only 24 to 39 km and was abandoned. Each map also carries five zoomed city inset boxes — Karachi, Lahore, Faisalabad, Peshawar and Rawalpindi — which sit outside the main projection and are fitted separately, each against the districts its own seats occupy.</p>
+
+    <p>The three years' traces are then merged seat by seat, best first, with 1993 preferred over 1997 over 1990. Of 207 seats, <strong>199 are real traces</strong>: 162 from the main map, 21 from the city insets, and 16 whose region is genuine but whose NA number was assigned by elimination or by north-to-south ordering within a district rather than read directly. Those 16 are flagged low-confidence and render dashed. The remaining <strong>eight fall back to a Voronoi split</strong> — NA-13, 50, 110, 120, 165, 166, 168 and 197. A placement rule rejects any candidate polygon sitting more than 40 km from the union of the districts its name implies; that rule caught NA-120, misread and misplaced by roughly 300 km in all three maps.</p>
+
+    <div class="callout">
+      <span class="lbl">Why the traces had to be re-tiled</span>
+      Warped raster traces cannot tile a country on their own. The raw merge left about 7 per cent of the national area in 205 gap slivers, mostly around the inset cities and along region seams, which on a choropleth read as missing seats. The final layer is therefore re-tiled on a 1.1 km grid: every traced seat is a seed, each district's cells are assigned to the nearest seed <em>among that district's own seats</em> so nothing leaks across a district line, and the result is vectorised back out. Overlap factor 1.000, coverage about 97 per cent — the remainder being hairline seams at grid resolution, invisible under the map's stroke.
+    </div>
+
+    <p><strong>1977 has no such map</strong>, because none was drawn before 1990. Its 200 seats are reconstructed the transparent way: each seat is assigned to the modern district or districts it occupied, read from the constituency names in the returns; seats owning whole districts get the exact district union, so <em>district edges are accurate</em>; multi-seat districts are split by Voronoi, so internal lines are approximate. Because 1970s and 1980s districts were larger than today's, each is expanded to the union of the modern districts it later split into, or its territory would be orphaned — Lyallpur into Faisalabad, Toba Tek Singh and Chiniot; Kohat into Kohat and Karak; Sukkur into Sukkur and Shikarpur, and so on for some fifty carve-outs. Balochistan in 1977 had only seven seats, labelled by division rather than district, and they are drawn as divisions. Tribal-area seats name no agency in the returns at all, so they share the union of the seven agencies and their placement is indicative only.</p>
+
+    <div class="callout">
+      <span class="lbl">A numbering trap in 1985</span>
+      ElectionPakistani's 1985 pages use a <strong>different seat numbering</strong> from the one shared by 1988–1997 and the Commons maps: NA-47 is Gujrat in the 1985 pages but Sargodha-I from 1988 on; NA-85 is Lahore rather than Sialkot-I. No seat-level concordance is shipped, because district-set matching cannot resolve identity where districts were re-carved between the two eras and guessing would breach the sourcing standard used everywhere else here. So 1985 renders on <strong>its own layer, keyed to its source's numbering</strong>, and the 1985-to-1988 held-or-turned comparison is switched off rather than shown wrong.
+    </div>
+
+    <h2 id="b2018"><span class="n">05</span>True 2018 boundaries</h2>
     <p>The 114 high-resolution ECP 2018 district map sheets were digitised province by province, each with a technique matched to how that province's sheets are drawn: Quetta's grid-printed sheet georeferenced directly and the rest of Balochistan taken as exact district unions; KP's colour-fill sheets split by hue masks and fitted by iterative closest point with a thin-plate spline; Punjab's red-line sheets processed as barrier masks into interior components and assigned to known centroids; and Sindh's 28 colour-fill sheets covering 61 seats. Where a sheet's colour identifies a seat unambiguously, that colour — not the centroid guess — is authoritative. Outline-fit error runs from a few hundred metres to a few kilometres, with a median near three. The result, a 272-seat file, is what the app's 2018 layer uses.</p>
 
-    <h2 id="b2023"><span class="n">05</span>True 2023 boundaries — the 2024 map</h2>
+    <h2 id="b2023"><span class="n">06</span>True 2023 boundaries — the 2024 map</h2>
     <p>This is the most involved part of the project. The 266 seats fall into 109 groups over shared districts; 38 are single-seat groups needing no internal line at all, and the other 71 groups — 228 seats — needed one drawn. Three techniques were used, in order of preference. Where an ECP delimitation sheet was reachable, the seat was <strong>digitised from it</strong> (Punjab contributed 29 such groups, including all fourteen Lahore seats; Sindh contributed 13). Where no sheet was reachable, the seat was <strong>rebuilt from its published composition</strong> — the official list of tehsils, talukas or union councils it contains — by gridding the group into cells, hard-locking cells in wholly-owned tehsils, and allocating split-tehsil cells to the nearest already-assigned part of each seat under a population or area quota. A few dense city seats with neither a sheet nor a usable composition keep a Voronoi split, and are flagged.</p>
 
     <div class="callout">
@@ -209,7 +265,7 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
 
     <p>Several seat-level findings are worth recording because they are easy to get wrong. Lower Dir's NA-6 and NA-7 were <strong>transposed</strong> between 2018 and 2023 — the southern Jandool/Maidan seat was NA-7 in 2018 and is NA-6 in 2023, verified three independent ways — so any analysis joining 2018 NA-6/7 geography to 2024 results is backwards. Kech's NA-258/259 split was resolved from the sheet's explicit exclusion table, overturning an earlier vote-roll guess, and Nasirabad's NA-254/255 split from FAFEN district voter rolls rather than population parity. The full partition was assembled and then verified: 266 of 266 seats present, no gaps, and a symmetric difference against the national outline of 0.0003 percent — the seats tile the country to within a rounding error.</p>
 
-    <h2 id="confidence"><span class="n">06</span>Confidence, and how the map shows it</h2>
+    <h2 id="confidence"><span class="n">07</span>Confidence, and how the map shows it</h2>
     <p>Because the 2024 boundaries were built three different ways, every seat carries a confidence grade, and the map is candid about it. District edges are exact throughout; only the internal lines between seats in the same district-group vary.</p>
     <div class="chips">
       <span class="chip"><span class="dot" style="background:var(--green)"></span><b>203</b> high — sheet-digitised or whole-district</span>
@@ -217,34 +273,137 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
       <span class="chip"><span class="dot" style="background:var(--ink-3);border-radius:2px;outline:1px dashed var(--ink-2);outline-offset:1px"></span><b>19</b> low — inferred internal lines</span>
     </div>
     <p>Low-confidence seats — Peshawar, Islamabad, and a handful of city seats in Faisalabad, Gujranwala, Sheikhupura and Korangi — render with a <strong>dashed grey border</strong>, and every seat carries a plain-language note about its boundary provenance in the tooltip and the constituency panel.</p>
+    <p>The same grading runs backwards through the record, on a coarser scale. The 207-seat layer used for 1985 to 1997 carries a provenance flag per seat — main-map trace, inset trace, inferred number, or Voronoi fallback — with the 16 inferred and 8 fallback seats dashed. The 1977 layer is uniformly reconstructed, so every one of its 200 seats is flagged approximate: <strong>no seat on the 1977 map should be read as a drawn boundary</strong>, only as the right district with a plausible line through it.</p>
 
-    <h2 id="app"><span class="n">07</span>The application</h2>
+    <h2 id="crosscheck"><span class="n">08</span>Checking the winners against maps we did not draw</h2>
+    <p>Boundaries can be validated against the outline of the country; results cannot be validated against anything internal. So the winners were checked against a source with no relationship to ours: the same labelled Commons result maps used for the pre-2002 tracing, which print each seat's number and shade it by winning party. Because the number is printed, the join needs no georeferencing — the label is the key. A reader segments each map, OCRs the number in each region, and colour-to-party is inferred from the modal winner in our own data among seats sharing a fill. <strong>Nothing in our data is changed by this process.</strong> It is a check, not an input.</p>
+    <table>
+      <thead><tr><th>Election</th><th class="mono">Seats read</th><th class="mono">Agree</th><th class="mono">Label misreads</th><th class="mono">Unexplained</th></tr></thead>
+      <tbody>
+        <tr><td>1990</td><td class="mono">156</td><td class="mono">148</td><td class="mono">7</td><td class="mono">1</td></tr>
+        <tr><td>1993</td><td class="mono">153</td><td class="mono">148</td><td class="mono">5</td><td class="mono">0</td></tr>
+        <tr><td>1997</td><td class="mono">155</td><td class="mono">150</td><td class="mono">4</td><td class="mono">1</td></tr>
+        <tr><td>2002</td><td class="mono">154</td><td class="mono">148</td><td class="mono">5</td><td class="mono">1</td></tr>
+        <tr><td>2008</td><td class="mono">203</td><td class="mono">197</td><td class="mono">5</td><td class="mono">1</td></tr>
+        <tr><td>2013</td><td class="mono">202</td><td class="mono">189</td><td class="mono">9</td><td class="mono">4</td></tr>
+        <tr><td><strong>All</strong></td><td class="mono"><strong>1,023</strong></td><td class="mono"><strong>980</strong></td><td class="mono"><strong>35</strong></td><td class="mono"><strong>8</strong></td></tr>
+      </tbody>
+    </table>
+    <p>Raw agreement is 95.8 per cent. Of the 43 disagreements, 35 are explained by a confusable label — the reader seeing NA-134 where the map prints NA-34 — leaving <strong>eight unexplained, 0.78 per cent of the seats checked</strong>. Coverage is limited by OCR recall rather than by the maps: labels were read for roughly three quarters of seats, and the unread ones are simply not checked. The eight residuals cluster in Peshawar and Mardan, with NA-19 Bannu recurring in both 1990 and 1997; that clustering in one dense urban area, rather than scattering at random, points to crowded labels being attached to the wrong polygon rather than to an error in the results. They would still be worth an eyeball before anyone leans on them.</p>
+    <p>One useful by-product: the 1990 map carries swatches but no legend text, so its colour key had to be established rather than read. Scaling the fills across the readable seats gave roughly IJI 112, PDA 43, independents 24, MQM 13 and ANP 7, against a published IJI of 106–111 and PDA of 44 — close enough to fix the key, which the seat-by-seat comparison then confirmed.</p>
+
+    <h2 id="app"><span class="n">09</span>The application</h2>
     <p>The site is a set of static, self-contained HTML files: the map inlines D3 and all of its data, so it runs offline and behind firewalls with no server and no build step. It offers a year switcher, a party-colour choropleth with a click-to-isolate legend, a constituency panel with the full candidate list and turnout, a sortable table view as an accessibility fallback, and a light and dark theme. Party colours follow Pakistani media convention, tuned so the normal-vision contrast passes an accessibility check; where two party colours could confuse a colour-blind reader, the seats are geographically far apart and the table view is always available as the fallback.</p>
 
 
-    <h2 id="elections"><span class="n">08</span>The four elections</h2>
-    <p>A seat map flattens an election into a colour. It cannot show that one campaign was fought
-    under a boycott, another under a bombing campaign aimed at three particular parties, and a third
-    with the largest party stripped of its ballot symbol. This section records those circumstances
-    for each election, so that the map is read with them rather than without them.</p>
+    <h2 id="elections"><span class="n">10</span>The eleven elections</h2>
+    <p>A seat map flattens an election into a colour. It cannot show that one was a non-party poll
+    held under martial law, another fought under a boycott, another under a bombing campaign aimed at
+    three particular parties, and another with the largest party stripped of its ballot symbol. This
+    section records those circumstances for each election, so that the map is read with them rather
+    than without them.</p>
 
     <p>The standard here is the same one the boundary work uses: <strong>we report what named
     observers concluded, quote them, and link the source.</strong> Aiwan-e-Jamhoor offers no verdict
     of its own on whether an election was free or fair, and publishes no aggregate "fairness score" —
     the judgements below belong to the bodies that made them, they do not always agree, and where
     they disagree that disagreement is itself the finding. Seats-polled, candidate and margin figures
-    are computed from this project's own results data; turnout is our registered-voter-weighted
-    figure, which tracks the official numbers closely.</p>
+    are computed from this project's own results data. Turnout is our registered-voter-weighted figure
+    from 1993 onward, which tracks the official numbers closely; for 1977 to 1990 no per-seat
+    electorate exists in any available source, so the published national figure is quoted instead and
+    marked with a dagger.</p>
 
     <table>
       <thead><tr><th>Election</th><th>Date</th><th class="mono">Seats polled</th><th class="mono">Turnout</th><th class="mono">Candidates</th><th class="mono">Won by &lt;5%</th></tr></thead>
       <tbody>
+        <tr><td>1977</td><td>7 Mar 1977</td><td class="mono">200 of 200</td><td class="mono">63%†</td><td class="mono">649</td><td class="mono">15</td></tr>
+        <tr><td>1985</td><td>28 Feb 1985</td><td class="mono">207 of 207</td><td class="mono">53%†</td><td class="mono">1,065</td><td class="mono">47</td></tr>
+        <tr><td>1988</td><td>16 Nov 1988</td><td class="mono">207 of 207</td><td class="mono">43%†</td><td class="mono">1,186</td><td class="mono">55</td></tr>
+        <tr><td>1990</td><td>24 Oct 1990</td><td class="mono">207 of 207</td><td class="mono">45%†</td><td class="mono">1,226</td><td class="mono">37</td></tr>
+        <tr><td>1993</td><td>6 Oct 1993</td><td class="mono">202 of 207</td><td class="mono">41%</td><td class="mono">1,405</td><td class="mono">55</td></tr>
+        <tr><td>1997</td><td>3 Feb 1997</td><td class="mono">204 of 207</td><td class="mono">36%</td><td class="mono">1,747</td><td class="mono">19</td></tr>
+        <tr><td>2002</td><td>10 Oct 2002</td><td class="mono">270 of 272</td><td class="mono">42%</td><td class="mono">2,049</td><td class="mono">59</td></tr>
         <tr><td>2008</td><td>18 Feb 2008</td><td class="mono">268 of 272</td><td class="mono">44%</td><td class="mono">2,180</td><td class="mono">62</td></tr>
         <tr><td>2013</td><td>11 May 2013</td><td class="mono">269 of 272</td><td class="mono">55%</td><td class="mono">4,496</td><td class="mono">52</td></tr>
         <tr><td>2018</td><td>25 Jul 2018</td><td class="mono">270 of 272</td><td class="mono">52%</td><td class="mono">3,431</td><td class="mono">79</td></tr>
         <tr><td>2024</td><td>8 Feb 2024</td><td class="mono">265 of 266</td><td class="mono">48%</td><td class="mono">5,112</td><td class="mono">68</td></tr>
       </tbody>
     </table>
+    <p style="font-size:15px;color:var(--ink-3)">† Published national turnout. No per-seat electorate is recorded in any available source for these four elections, so the figure is quoted rather than computed. Margins for 1977–1990 are calculated only over the seats where the source gives vote counts.</p>
+
+    <h3>1977 — a result overtaken by a coup</h3>
+    <p>Zulfikar Ali Bhutto's PPP took 156 of 200 seats. The opposition Pakistan National Alliance
+    alleged systematic rigging, mass protests followed, and on 5 July General Zia-ul-Haq seized power
+    and imposed martial law; Bhutto was tried and hanged two years later. Nineteen seats, Bhutto's own
+    Larkana among them, were returned unopposed — a fact the PNA made central to its case. Treat what
+    is mapped here as the <em>transcribed official result</em>, widely regarded as manipulated, rather
+    than as a record of voter intent. The boundaries are reconstructed, and this is the only election
+    fought on the 200-seat map.</p>
+
+    <h3>1985 — an election without parties</h3>
+    <p>Held by Zia after a 1984 referendum extended his rule, and fought entirely on a non-party basis:
+    no affiliation appeared on the ballot, and the Movement for the Restoration of Democracy boycotted.
+    The Assembly that resulted was formally one of independents, and Muhammad Khan Junejo was appointed
+    prime minister from it. Every seat therefore renders in the neutral independent colour — there is
+    no party data to show, and none is invented. The 1985 layer also uses its source's own seat
+    numbering, which differs from 1988 onward, so no comparison against the next election is offered.</p>
+
+    <h3>1988 — the first party-based election after Zia</h3>
+    <p>Zia died in an August 1988 air crash and the poll went ahead in November. Benazir Bhutto's PPP
+    won the most seats and she became prime minister, the first woman to head a modern Muslim-majority
+    state. The anti-PPP Islami Jamhoori Ittehad was formed with covert ISI backing, as the Supreme
+    Court found much later in the Asghar Khan case. Two data caveats: the source records MQM's
+    urban-Sindh winners as independents rather than under an MQM label, and ten seats give a winner
+    without vote counts.</p>
+
+    <h3>1990 — the election the Supreme Court called corrupt</h3>
+    <p>President Ghulam Ishaq Khan dismissed Bhutto's government in August under Article 58(2)(b) and
+    installed an opposition leader as caretaker prime minister. The PPP contested inside the People's
+    Democratic Alliance against the IJI and rejected the result. Twenty-two years later, deciding the
+    Asghar Khan case, the <a href="https://www.dawn.com/news/756882">Supreme Court of Pakistan</a> held
+    that &ldquo;the general election held in the year 1990 was subjected to corruption and corrupt
+    practices,&rdquo; finding that an election cell in the Presidency had channelled intelligence funds
+    to &ldquo;provide financial assistance to the favoured candidates.&rdquo; That judgement is the
+    strongest finding against any election in this dataset, and it came from a domestic court rather
+    than an observer mission. Four seats were returned unopposed.</p>
+
+    <h3>1993 — a caretaker interregnum</h3>
+    <p>Ghulam Ishaq Khan dismissed Nawaz Sharif in April 1993; the Supreme Court reinstated him; in July
+    the army brokered the resignation of both. Moeen Qureshi, a former World Bank official with no
+    domestic base, led the caretaker government, published lists of loan defaulters and tax delinquents
+    and required candidates to declare their own. Around 150,000 troops were deployed and judicial
+    officers replaced civil servants as presiding officers. The MQM boycotted the National Assembly poll
+    while contesting the provincial ones, and turnout in Karachi fell to roughly 15 per cent. No party
+    won a majority; Benazir Bhutto formed a coalition on 19 October. A Commonwealth group and an NDI
+    delegation both observed.</p>
+
+    <h3>1997 — the lowest turnout on record</h3>
+    <p>President Farooq Leghari dismissed Bhutto's government in November 1996, citing corruption,
+    extrajudicial killings and interference with the judiciary; the Supreme Court upheld the
+    dissolution. Turnout, at about 36 per cent, was the lowest in any Pakistani general election to that
+    point and remains so. PML-N won 135 of the seats polled on the day, close to a two-thirds majority,
+    and Bhutto alleged that officials had inserted extra ballots. Polling in parts of Karachi was
+    disrupted by violence; an International Progress Organization team reporting to the UN Commission on
+    Human Rights found that &ldquo;a condition of lawlessness persisted during the whole electoral
+    campaign and on the election day itself.&rdquo; A Commonwealth observer group attended, but its
+    report is not available online.</p>
+
+    <h3>2002 — an election under a rewritten constitution</h3>
+    <p>Parliament had been dissolved after the coup of 12 October 1999. The Supreme Court validated the
+    takeover but required elections within three years. Pervez Musharraf took a five-year presidential
+    term by referendum in April 2002, then issued the Legal Framework Order in August, amending the
+    constitution before the poll. Candidates were required to hold a bachelor's degree — with madrasa
+    certificates treated as equivalent — and anyone who had twice been prime minister was barred, so
+    neither Bhutto nor Sharif contested. Separate electorates for religious minorities were abolished and
+    the voting age lowered from 21 to 18. The
+    <a href="https://www.eods.eu/library/EU%20EOM%20PAKISTAN%202002_en.pdf">EU Election Observation
+    Mission</a> concluded that the process had &ldquo;resulted in serious flaws being inflicted on the
+    electoral process,&rdquo; while finding that &ldquo;polling day itself had gone relatively
+    smoothly&rdquo;; the
+    <a href="https://www.ndi.org/sites/default/files/1434_pk_election_090902_5.pdf">National Democratic
+    Institute</a>, before the vote, judged the framework to provide &ldquo;a very limited transfer of
+    power to elected civilian representatives.&rdquo; Polling in NA-262 and NA-263 was re-run in
+    November.</p>
 
     <h3>2008 — the postponed election</h3>
     <p>Polling was moved from 8 January to 18 February after Benazir Bhutto was assassinated on
@@ -333,18 +492,22 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
 
     <div class="callout">
       <span class="lbl">What we do not do</span>
-      We do not rank the four elections against one another, and we do not convert these findings into
+      We do not rank these elections against one another, and we do not convert these findings into
       a score. Observer missions differ in mandate, coverage and access — the EU covered no polling
       stations in Balochistan in 2018 and sent no public mission at all in 2024 — so the absence of a
-      finding is not evidence of its absence. Read the quotations as what a named body concluded on a
+      finding is not evidence of its absence — and for the four oldest elections here there was no
+      international observation of the kind later missions provided, which is a gap in the record
+      rather than a clean bill of health. Read the quotations as what a named body concluded on a
       stated date, nothing more and nothing less.
     </div>
 
-    <h2 id="limits"><span class="n">09</span>Limitations, in one place</h2>
-    <p>No boundary file here is an ECP product: district edges are reliable, but internal lines between same-district seats range from digitised-from-sheet to inferred, and none of these polygons should be used for sub-district spatial joins. The 2024 results are provisional, Form-47-derived and cross-checked but pre-final-gazette, with five seats later reversed and flagged. What the map shows is the election-day picture, not the current membership of the House after tribunal rulings and the reserved-seat judgment. Party is as-declared, so PTI-backed 2024 independents appear as Independent. And a seat number means a different piece of ground in each delimitation — the app says so wherever it invites the comparison.</p>
+    <h2 id="limits"><span class="n">11</span>Limitations, in one place</h2>
+    <p>No boundary file here is an ECP product: district edges are reliable, but internal lines between same-district seats range from digitised-from-sheet to traced-from-a-drawn-map to inferred, and none of these polygons should be used for sub-district spatial joins. Accuracy degrades as you go back — the 2023 and 2018 layers are digitised from sheets, the 1985–1997 layer is traced from maps drawn by someone else at roughly 4.7 km median edge error, and the 1977 layer is a district-anchored reconstruction with no drawn source at all.</p>
+    <p>The results degrade backwards too. For 1977, 1985, 1988 and 1990 the only source is an unofficial transcription, no per-seat electorate or turnout exists, and a residue of seats carries a winner with no votes; 1985 has no party labels at all, and uses a seat numbering that does not match the years around it. The 1977 and 1990 results were contested as rigged at the time, and in 1990's case a Supreme Court judgement agrees. The 2024 results are provisional, Form-47-derived and cross-checked but pre-final-gazette, with five seats later reversed and flagged. What the map shows throughout is the election-day picture, not the current membership of the House after tribunal rulings and the reserved-seat judgment; party is as-declared, so PTI-backed 2024 independents appear as Independent. And a seat number means a different piece of ground in each of the five delimitations — the app says so wherever it invites the comparison.</p>
 
-    <h2 id="sources"><span class="n">10</span>Sources</h2>
-    <p>Results for 2008–2018 come from Colin Cookman's <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results for 2024 are an <a href="https://www.electionpakistani.com/ge2024/">ElectionPakistani</a> transcription of ECP Form-47, cross-checked against 254 official scanned forms. The 2002 boundaries are from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit/PakistanConstituencies2013</a> (GPL-3.0); the 2018 and 2023 boundaries were digitised and reconstructed in this project from ECP delimitation map sheets and published seat compositions, on geoBoundaries, COD and CartoDB district base layers. The full methodology, the code that produces every file, and a wider survey of candidate sources are published in the project's open repository.</p>
+    <h2 id="sources"><span class="n">12</span>Sources</h2>
+    <p>Results for 1993–2018 come from Colin Cookman's <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results for 1977, 1985, 1988 and 1990 were scraped seat by seat from <a href="https://www.electionpakistani.com/">ElectionPakistani</a>, an unofficial transcription of Commission returns, and parsed by re-runnable offline scripts published with this project. Results for 2024 are an <a href="https://www.electionpakistani.com/ge2024/">ElectionPakistani</a> transcription of ECP Form-47, cross-checked against 254 official scanned forms.</p>
+    <p>The 2002 boundaries are from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit/PakistanConstituencies2013</a> (GPL-3.0). The 2018 and 2023 boundaries were digitised in this project from ECP delimitation map sheets and published seat compositions. The 207-seat 1985–1997 boundaries were traced from labelled result maps by <strong>Saad Ali Khan Pakistan</strong> on Wikimedia Commons, licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, which are also the independent check on winners for 1990–2013; the 1977 boundaries are reconstructed here with no drawn source. All of it sits on geoBoundaries, OCHA COD and CartoDB district base layers. The full methodology, the code that produces every file, and a wider survey of candidate sources are published in the project's open repository.</p>
 
     <p style="color:var(--ink-3);font-size:16px;margin-top:34px">Aiwan-e-Jamhoor is an independent civic-data project. It is not affiliated with the Election Commission of Pakistan.</p>
 
@@ -355,7 +518,7 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
   <div class="foot-in">
     <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
     <div class="foot-src">
-      <b>Sources.</b> Results 2008–2018: Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results 2024: <a href="https://www.electionpakistani.com/ge2024/">ElectionPakistani</a> Form-47 transcription, unofficial, cross-checked against 254 official scanned forms. Boundaries: 2002 from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; 2018 and 2023 reconstructed and digitised here. All boundaries approximate; 2024 figures are provisional and predate tribunal revisions. Directly elected general seats only. Party colours follow Pakistani media convention.
+      <b>Sources.</b> Results 1993–2018: Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results 1977, 1985, 1988, 1990 and 2024: <a href="https://www.electionpakistani.com/">ElectionPakistani</a>, an unofficial transcription of Commission returns; 2024 cross-checked against 254 official scanned Form-47s. Boundaries: 2002 delimitation from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; 2018 and 2023 digitised here; the 207-seat 1985–1997 map traced from Wikimedia Commons result maps by Saad Ali Khan Pakistan (CC BY-SA 4.0); 1977 reconstructed. All boundaries approximate; 2024 figures are provisional and predate tribunal revisions. Directly elected general seats only. Party colours follow Pakistani media convention.
     </div>
     <a class="foot-btn" href="map.html">Open the map</a>
   </div>
@@ -373,5 +536,17 @@ footer{border-top:1px solid var(--line);background:var(--surface)}
   });
 })();
 </script>
+
+<div class="legal">
+  <div class="legal-in">
+    <span>&copy; 2026 Hiba Sameen</span>
+    <span>Code: <a href="https://opensource.org/licenses/MIT">MIT Licence</a></span>
+    <span class="lg-opt">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="sp"></span>
+    <a class="lg-nav" href="about.html">About</a>
+    <a class="lg-nav" href="method.html">Method</a>
+    <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
+  </div>
+</div>
 </body>
 </html>

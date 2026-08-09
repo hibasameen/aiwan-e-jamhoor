@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aiwan-e-Jamhoor — About</title>
+<meta name="description" content="About Aiwan-e-Jamhoor: an open record of every Pakistan National Assembly general election since 1977 — who built it, where the data comes from, and the licence.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%2314523a%22/%3E%3Cg%20transform%3D%22translate%286%206%29%20scale%280.8125%29%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2229%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2226%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%224.2%22%20stroke-dasharray%3D%223.4%203.4%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2223%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Cg%20stroke%3D%22%23c9a13f%22%20stroke-width%3D%221.7%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M13%2032%20H51%20M32%2013%20V51%20M15.55%2022.5%20L48.45%2041.5%20M22.5%2015.55%20L41.5%2048.45%20M22.5%2048.45%20L41.5%2015.55%20M15.55%2041.5%20L48.45%2022.5%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2219%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2213%22%20stroke-width%3D%222.2%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%227%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%223.6%22%20fill%3D%22%23c9a13f%22/%3E%3C/g%3E%3C/svg%3E">
+<meta property="og:title" content="Aiwan-e-Jamhoor — About">
+<meta property="og:description" content="An open record of every Pakistan National Assembly general election since 1977 — what it is, who built it, and where the data comes from.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://hibasameen.github.io/aiwan-e-jamhoor/about.html">
+<meta property="og:image" content="https://hibasameen.github.io/aiwan-e-jamhoor/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://hibasameen.github.io/aiwan-e-jamhoor/og-image.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  color-scheme:light;
+  --page:#eeece6; --surface:#f7f6f2; --surface-2:#e7e4dc;
+  --ink:#12110f; --ink-2:#4a473f; --ink-3:#6a675e;
+  --line:#cfcbc0; --line-2:#e3e0d7;
+  --green:#14523a; --green-2:#1e6a49; --gold:#b8912f; --gold-2:#c9a13f;
+  --cream:#f2efe6;
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#12130f; --surface:#1a1b17; --surface-2:#24251f;
+  --ink:#f3f1e9; --ink-2:#c7c3b6; --ink-3:#918d80;
+  --line:#33342c; --line-2:#2a2b23;
+  --green:#4f9e78; --green-2:#3f8a66; --gold:#cba43f; --gold-2:#d8b451;
+  --cream:#f2efe6;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--page);color:var(--ink);font-family:Archivo,system-ui,sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-decoration:none}
+a:hover{color:var(--ink)}
+.mono{font-family:'Space Mono',monospace}
+
+/* ---- shared shell: header ---- */
+header.shell{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
+.shell-in{max-width:1400px;margin:0 auto;padding:13px 32px;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:13px;cursor:pointer}
+.brand .mk{width:38px;height:38px;color:var(--green);flex:none}
+.brand .wm{font-family:'EB Garamond',serif;font-size:23px;line-height:1.05;letter-spacing:.005em;color:var(--ink)}
+.brand .wm .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:17px;color:var(--gold);margin-inline-start:8px;vertical-align:2px}
+.brand .sub{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-top:1px}
+nav.main{display:flex;gap:2px;margin-left:6px}
+nav.main a{border:0;background:transparent;color:var(--ink-2);font:600 13.5px Archivo,sans-serif;padding:8px 14px;border-radius:2px;cursor:pointer}
+nav.main a:hover{background:var(--surface-2);color:var(--ink)}
+nav.main a.on{background:var(--ink);color:var(--page)}
+.spacer{flex:1}
+.hdr-tools{display:flex;align-items:center;gap:8px}
+.icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--page);color:var(--ink-2);border-radius:2px;cursor:pointer;font-size:15px;line-height:1}
+.icon-btn:hover{color:var(--ink)}
+
+/* ---- article ---- */
+main{max-width:760px;margin:0 auto;padding:64px 32px 100px}
+.eyebrow{font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-bottom:14px}
+h1.title{font-family:'EB Garamond',serif;font-weight:500;font-size:clamp(34px,6vw,52px);line-height:1.05;letter-spacing:-.012em;margin:0 0 18px}
+.standfirst{font-size:19px;line-height:1.62;color:var(--ink-2);margin:0 0 26px;text-wrap:pretty}
+article{font-family:'EB Garamond',serif;font-size:18.5px;line-height:1.66}
+article p{margin:0 0 18px;text-wrap:pretty}
+article h2{font-family:Archivo,sans-serif;font-weight:700;font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:var(--green);margin:52px 0 14px;padding-top:20px;border-top:1px solid var(--line)}
+article strong{font-weight:600}
+article em{font-style:italic}
+article a{text-decoration:underline;text-underline-offset:2px}
+
+/* ---- built by ---- */
+.bio{display:flex;gap:22px;align-items:flex-start}
+.bio .mk{width:58px;height:58px;color:var(--green);flex:none;margin-top:4px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 4px}
+.btns a{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--green);font:600 13px Archivo,sans-serif;padding:9px 14px;border-radius:2px;text-decoration:none}
+.btns a:hover{border-color:var(--green);background:var(--surface-2)}
+.btns svg{width:15px;height:15px;fill:currentColor;flex:none}
+
+/* ---- source list ---- */
+ul.srcs{list-style:none;margin:0 0 8px;padding:0;font-family:Archivo,sans-serif;font-size:14.5px;line-height:1.6}
+ul.srcs li{border-top:1px solid var(--line-2);padding:13px 0;color:var(--ink-2)}
+ul.srcs li:first-child{border-top:0}
+ul.srcs b{color:var(--ink);font-weight:700}
+ul.srcs .yrs{font-family:'Space Mono',monospace;font-size:12px;color:var(--ink-3);margin-left:6px}
+.callout{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:2px;padding:16px 20px;margin:22px 0;font-size:16.5px;line-height:1.6}
+.callout .lbl{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-2);display:block;margin-bottom:6px}
+pre.cite{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:14px 16px;overflow:auto;font-family:'Space Mono',monospace;font-size:12.5px;line-height:1.6;margin:16px 0;white-space:pre-wrap}
+
+/* ---- footer ---- */
+footer{border-top:1px solid var(--line);background:var(--surface)}
+.foot-in{max-width:1400px;margin:0 auto;padding:22px 32px 30px;display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start}
+.foot-in .mk{width:26px;height:26px;color:var(--ink-3);flex:none}
+.foot-src{flex:1 1 520px;font-size:11.5px;line-height:1.65;color:var(--ink-3);max-width:100ch}
+.foot-src b{color:var(--ink-2)}
+.foot-src a{color:var(--ink-2);text-decoration:underline;text-underline-offset:2px}
+.foot-btn{border:1px solid var(--line);background:transparent;color:var(--green);font:600 12px Archivo,sans-serif;padding:7px 12px;border-radius:2px;cursor:pointer}
+
+/* ---- legal bar (fixed to viewport bottom) ---- */
+body{padding-bottom:44px}
+.legal{position:fixed;left:0;right:0;bottom:0;z-index:50;border-top:1px solid var(--line);background:var(--surface-2)}
+.legal-in{max-width:1400px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:nowrap;align-items:center;gap:6px 20px;font-family:'Space Mono',monospace;font-size:11px;line-height:1.6;color:var(--ink-3);white-space:nowrap;overflow:hidden}
+.legal-in .sp{flex:1 1 auto}
+.legal-in a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.legal-in a:hover{color:var(--green);border-bottom-color:var(--green)}
+@media (max-width:900px){.legal-in .lg-opt{display:none}}
+@media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
+@media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
+
+@media (max-width:720px){
+  .shell-in{flex-wrap:wrap;gap:12px 16px;padding:12px 18px}
+  nav.main{order:3;width:100%;margin-left:0;overflow-x:auto}
+  main{padding:44px 20px 76px}
+  article{font-size:17.5px}
+  .bio{flex-direction:column;gap:10px}
+  .legal-in{padding:12px 18px}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="mk" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="4.2" stroke-dasharray="3.4 3.4"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <g stroke="#c9a13f" stroke-width="1.7" fill="none">
+    <path d="M13 32 H51 M32 13 V51 M15.55 22.5 L48.45 41.5 M22.5 15.55 L41.5 48.45 M22.5 48.45 L41.5 15.55 M15.55 41.5 L48.45 22.5"/>
+    <circle cx="32" cy="32" r="19"/><circle cx="32" cy="32" r="13" stroke-width="2.2"/><circle cx="32" cy="32" r="7"/>
+  </g>
+  <circle cx="32" cy="32" r="3.6" fill="#c9a13f"/>
+</symbol></svg>
+
+<header class="shell">
+  <div class="shell-in">
+    <a class="brand" href="index.html">
+      <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
+      <div>
+        <div class="wm">Aiwan-e-Jamhoor<span class="ur">ایوانِ جمہور</span></div>
+        <div class="sub">The People's House</div>
+      </div>
+    </a>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="map.html">Map</a>
+      <a href="candidates.html">Candidates</a>
+      <a class="on" href="about.html">About</a>
+      <a href="method.html">Method</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="hdr-tools">
+      <button class="icon-btn" id="theme" title="Toggle light / dark" aria-label="Toggle theme">◐</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="eyebrow">About</div>
+  <h1 class="title">About Aiwan-e-Jamhoor</h1>
+  <p class="standfirst">Aiwan-e-Jamhoor — <span style="font-family:'Noto Nastaliq Urdu',serif;font-size:17px;color:var(--gold)">ایوانِ جمہور</span>, the People's House — is an open record of every general election to Pakistan's National Assembly since 1977: eleven elections, every directly elected seat, every candidate and every vote, drawn on the constituency boundaries that were actually in force at the time.</p>
+
+  <article>
+
+    <p>Pakistan's election results are public, but they are not usable. They live as thousands of separate constituency pages, as scanned Form-47 PDFs, and in unofficial transcriptions of returns the Commission itself has since taken down. The boundaries are worse: the Election Commission has <strong>never released a GIS file</strong>, so every constituency map in circulation — including this one — is a digitisation of low-resolution paper sheets or a reconstruction from written seat descriptions. This project assembles both halves into one place, and is explicit about where each line and each number came from.</p>
+
+    <h2>Built by</h2>
+    <div class="bio">
+      <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
+      <div>
+        <p style="margin-bottom:0"><strong>Hiba Sameen</strong> is an economist and data scientist based in London. She holds a PhD in Economics and has worked across academia, government and think tanks on economic policy, with an interest in data science and engineering focused on making public data more accessible. Aiwan-e-Jamhoor grew out of the same frustration as its sister project, <a href="https://hibasameen.github.io/datadarbar/">Data Darbar</a>: the answers are in the public record, but nobody can get at them.</p>
+      </div>
+    </div>
+    <div class="btns">
+      <a href="https://github.com/hibasameen/aiwan-e-jamhoor"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>GitHub</a>
+      <a href="https://hibasameen.github.io/datadarbar/"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Zm5.3 5H11a12.6 12.6 0 0 0-1-2.6A6.5 6.5 0 0 1 13.3 5ZM8 1.6c.5.7 1.1 1.9 1.4 3.4H6.6C7 3.5 7.5 2.3 8 1.6ZM1.7 10A6.5 6.5 0 0 1 1.5 8c0-.7.1-1.4.2-2h2.6a15.6 15.6 0 0 0 0 4H1.7Zm.7 1.5h2.2c.3 1 .6 1.9 1 2.6a6.5 6.5 0 0 1-3.2-2.6Zm2.2-7H2.4A6.5 6.5 0 0 1 5.6 2c-.4.7-.7 1.6-1 2.6ZM8 14.4c-.5-.7-1-1.9-1.4-3.4h2.8C9 12.5 8.5 13.7 8 14.4ZM9.7 10H6.3a14 14 0 0 1 0-4h3.4a14 14 0 0 1 0 4Zm.3 4.1c.4-.7.7-1.6 1-2.6h2.2a6.5 6.5 0 0 1-3.2 2.6ZM11.6 10a15.6 15.6 0 0 0 0-4h2.6c.1.6.2 1.3.2 2s-.1 1.4-.2 2h-2.6Z"/></svg>Data Darbar</a>
+      <a href="mailto:hibasameen@gmail.com"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M1.5 3h13c.3 0 .5.2.5.5v.3L8 8.7 1 3.8v-.3c0-.3.2-.5.5-.5Zm-.5 2.5V12.5c0 .3.2.5.5.5h13c.3 0 .5-.2.5-.5V5.5L8.3 9.9a.5.5 0 0 1-.6 0L1 5.5Z"/></svg>Contact</a>
+    </div>
+
+    <h2>Sources</h2>
+    <ul class="srcs">
+      <li><b>Colin Cookman's open election datasets</b> <span class="yrs">1993 · 1997 · 2002 · 2008 · 2013 · 2018</span><br>Candidate- and constituency-level returns derived from Election Commission records and released under GPL-3.0 — <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a>.</li>
+      <li><b>ElectionPakistani</b> <span class="yrs">1977 · 1985 · 1988 · 1990 · 2024</span><br>An unofficial transcription of Commission returns, scraped constituency by constituency and parsed here. It is the only consolidated public series for the pre-1993 elections.</li>
+      <li><b>Official ECP Form-47 scans</b> <span class="yrs">2024</span><br>254 scanned provisional consolidation forms, read directly for registered voters, turnout, polling stations and rejected votes, and arithmetic-checked row by row.</li>
+      <li><b>rugpundit — PakistanConstituencies2013</b> <span class="yrs">2002 delimitation</span><br>The de-facto research standard for the 272-seat 2002 boundaries, itself an unofficial digitisation of Commission raster maps (GPL-3.0).</li>
+      <li><b>ECP delimitation map sheets</b> <span class="yrs">2018 &amp; 2023 delimitations</span><br>114 district sheets for 2018 and the 2023 sheets and published seat compositions, digitised and reconstructed in this project. No official vector file exists for either.</li>
+      <li><b>geoBoundaries, OCHA COD and GADM</b> <span class="yrs">district base layers</span><br>The district geometry the pre-2002 reconstructions and the composition-based rebuilds are anchored to.</li>
+      <li><b>Wikimedia Commons election maps</b> <span class="yrs">cross-check only</span><br>Independently drawn, seat-numbered result maps by Saad Ali Khan Pakistan (CC BY-SA 4.0), used to verify 1,023 of our winners. Nothing from them is redistributed here.</li>
+    </ul>
+
+    <div class="callout">
+      <span class="lbl">What this is not</span>
+      Aiwan-e-Jamhoor is an independent civic-data project and is <strong>not affiliated with the Election Commission of Pakistan</strong>. The boundaries are unofficial reconstructions, the 2024 results are provisional and predate tribunal revisions, and the site shows the election-day picture rather than the current composition of the House. The <a href="method.html">Method</a> page sets out every limitation in one place; read it before citing anything here.
+    </div>
+
+    <h2>Licence &amp; citation</h2>
+    <p>The <strong>code</strong> — the site, the scrapers, the boundary pipeline — is released under the <a href="https://opensource.org/licenses/MIT">MIT Licence</a>. The <strong>derived data</strong> — the consolidated results and the reconstructed boundary layers — is released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, subject to the upstream terms that travel with it: the Cookman and rugpundit datasets are GPL-3.0, and the Commons cross-check maps are CC BY-SA 4.0. Attribute as <em>"Aiwan-e-Jamhoor, with upstream sources as noted."</em></p>
+    <pre class="cite">Sameen, H. (2026). Aiwan-e-Jamhoor: Pakistan National Assembly
+elections, mapped (1977–2024). https://github.com/hibasameen/aiwan-e-jamhoor</pre>
+    <p>Corrections are welcome and wanted — a wrong winner, a misplaced boundary, a party label that should be merged. Open an issue on <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a> or get in touch.</p>
+
+  </article>
+</main>
+
+<footer>
+  <div class="foot-in">
+    <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
+    <div class="foot-src">
+      <b>Sources.</b> Results 1993–2018: Colin Cookman, <a href="https://github.com/colincookman/pakistan_elections">pakistan_elections</a> and <a href="https://github.com/colincookman/pakistan_election_results_2018">pakistan_election_results_2018</a> (GPL-3.0). Results 1977, 1985, 1988, 1990 and 2024: <a href="https://www.electionpakistani.com/">ElectionPakistani</a>, an unofficial transcription of Commission returns; 2024 cross-checked against 254 official scanned Form-47s. Boundaries: 2002 delimitation from <a href="https://github.com/rugpundit/PakistanConstituencies2013">rugpundit</a>; the 1977, 1985–1997, 2018 and 2023 delimitations are reconstructed here. All boundaries approximate. Directly elected general seats only.
+    </div>
+    <a class="foot-btn" href="method.html">Method &amp; caveats</a>
+  </div>
+</footer>
+
+<div class="legal">
+  <div class="legal-in">
+    <span>© 2026 Hiba Sameen</span>
+    <span>Code: <a href="https://opensource.org/licenses/MIT">MIT Licence</a></span>
+    <span class="lg-opt">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="sp"></span>
+    <a class="lg-nav" href="about.html">About</a>
+    <a class="lg-nav" href="method.html">Method</a>
+    <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
+  </div>
+</div>
+
+<script>
+(function(){
+  var t=document.getElementById('theme');
+  try{ var s=localStorage.getItem('aej-theme'); if(s) document.documentElement.dataset.theme=s; }catch(e){}
+  t.addEventListener('click',function(){
+    var cur=document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var nx=cur==='dark'?'light':'dark';
+    document.documentElement.dataset.theme=nx;
+    try{localStorage.setItem('aej-theme',nx);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>

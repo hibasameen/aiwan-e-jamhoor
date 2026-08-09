@@ -1,14 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this data or code, please cite it as below."
-title: "Aiwan-e-Jamhoor: Pakistan National Assembly elections, mapped (2008–2024)"
+title: "Aiwan-e-Jamhoor: Pakistan National Assembly elections, mapped (1977–2024)"
 abstract: >-
   An open dataset and interactive map of Pakistan National Assembly general
-  election results (2008, 2013, 2018, 2024) on the constituency boundaries in
-  force at each election, with candidate-level results and reconstructed /
-  digitised boundaries for the 2018 and 2023 delimitations.
+  election results (1977, 1985, 1988, 1990, 1993, 1997, 2002, 2008, 2013, 2018,
+  2024) on the constituency boundaries in force at each election, with
+  candidate-level results and reconstructed, traced and digitised boundaries for
+  the 200-seat, 207-seat, 2018 and 2023 delimitations.
 type: dataset
 authors:
-  - name: "Aiwan-e-Jamhoor project"
+  - family-names: Sameen
+    given-names: Hiba
 keywords:
   - Pakistan
   - elections

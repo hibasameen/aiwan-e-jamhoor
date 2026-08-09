@@ -90,6 +90,18 @@ table.ct td{padding:7px 10px;border-bottom:1px solid var(--line-2)}
   main{padding:24px 16px 70px}
   .chead h1{font-size:30px}
 }
+
+/* ---- legal bar (fixed to viewport bottom) ---- */
+body{padding-bottom:44px}
+.legal{position:fixed;left:0;right:0;bottom:0;z-index:50;border-top:1px solid var(--line);background:var(--surface-2)}
+.legal-in{max-width:1400px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:nowrap;align-items:center;gap:6px 20px;font-family:'Space Mono',monospace;font-size:11px;line-height:1.6;color:var(--ink-3);white-space:nowrap;overflow:hidden}
+.legal-in .sp{flex:1 1 auto}
+.legal-in a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.legal-in a:hover{color:var(--green);border-bottom-color:var(--green)}
+@media (max-width:900px){.legal-in .lg-opt{display:none}}
+@media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
+@media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
+@media (max-width:720px){.legal-in{padding:11px 18px}}
 </style>
 </head>
 <body>
@@ -112,6 +124,7 @@ table.ct td{padding:7px 10px;border-bottom:1px solid var(--line-2)}
       <a href="index.html">Home</a>
       <a href="map.html">Map</a>
       <a class="on" href="candidates.html">Candidates</a>
+      <a href="about.html">About</a>
       <a href="method.html">Method</a>
     </nav>
     <div class="spacer"></div>
@@ -279,4 +292,16 @@ try{const s=localStorage.getItem('aej-theme');if(s)document.documentElement.data
 (function(){const t=new URLSearchParams(location.search).get('tab');if(t&&TABS.some(x=>x[0]===t))state.tab=t;})();
 renderTiles();renderBody();
 </script>
+
+<div class="legal">
+  <div class="legal-in">
+    <span>&copy; 2026 Hiba Sameen</span>
+    <span>Code: <a href="https://opensource.org/licenses/MIT">MIT Licence</a></span>
+    <span class="lg-opt">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="sp"></span>
+    <a class="lg-nav" href="about.html">About</a>
+    <a class="lg-nav" href="method.html">Method</a>
+    <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
+  </div>
+</div>
 </body></html>

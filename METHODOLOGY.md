@@ -1,8 +1,10 @@
 # Aiwan-e-Jamhoor — Methodology & Data Documentation
 
-*Covers everything built in the July 2026 sessions: the data inventory, the results
-database for 2008–2024, the constituency geometries for all three delimitations,
-and the interactive map app.*
+*Covers the data inventory, the results database for **1977–2024 (eleven general
+elections)**, the constituency geometries for all **five** delimitations, and the
+interactive map app. Originally written for the 2008–2024 core in July 2026 and extended
+backwards to 1977 in August 2026; where a section still says "three delimitations" or
+"four elections", §2a, §3a and §9 are the current statements.*
 
 ---
 
@@ -43,6 +45,8 @@ Aiwan-e-Jamhoor/
 | 2018 | Cookman `pakistan_election_results_2018` | candidate | 270/272 (NA-60, 103 postponed) | ECP's short-lived machine-readable feed; **provisional**, snapshot Sep 2018 |
 | 2024 | ElectionPakistani scrape (this project) | candidate | 266/266 | **unofficial transcription of ECP Form-47**; some post-recount outcomes baked in |
 
+See **§2a** for 1977–2002, added later and sourced differently.
+
 **Aug 2026 upgrade:** 254 official scanned Form-47s (user-provided) were extracted into
 `data/results_2024/na_2024_form47_official.csv` — official registered voters, turnout,
 polling stations, rejected votes now power the app's 2024 panels; five election-day
@@ -62,6 +66,40 @@ total tabulated candidate votes (not registered voters), and turnout is blank.
 Supplementary polls for GE-day-postponed seats are labelled "By-Election" in Cookman's
 data and are deliberately excluded — the map shows strictly election-day outcomes
 (postponed seats are hatched).
+
+## 2a. Results data, 1977–2002 (added Aug 2026)
+
+| Year | Source | Coverage | Candidate rows | Per-seat electorate/turnout |
+|---|---|---|---|---|
+| 1977 | ElectionPakistani scrape (this project) | 200/200 | 649 | **not published** |
+| 1985 | same | 207/207 | 1,065 | **not published** |
+| 1988 | same | 207/207 | 1,186 | **not published** |
+| 1990 | same | 207/207 | 1,226 | **not published** |
+| 1993 | Cookman `pakistan_elections` | 202/207 GE-day | 1,405 | yes |
+| 1997 | same | 204/207 GE-day | 1,747 | yes |
+| 2002 | same | 270/272 (NA-262/263 re-polled Nov) | 2,049 | yes |
+
+Each pre-1993 year has its own `data/results_<year>/SOURCES.md` with the full gap list. The
+scrapers (`scripts/scrape_ge{1977,1985,1988,1990}.py`) are standalone urllib; because the build
+sandbox cannot reach electionpakistani.com (proxy 403), pages were fetched, cached per seat under
+`_cache/NA-{n}.md`, and converted offline by `scripts/parse_gecache.py` — that parser is what
+produced the committed CSVs and is re-runnable without network.
+
+**Things that will bite anyone reusing these:**
+
+- **No turnout before 1993.** Registered electorate, votes polled and turnout are absent per seat
+  in the source for 1977/1985/1988/1990. Fields are null; the app quotes the published national
+  figure (1977 63%, 1985 53%, 1988 43%, 1990 45%) and marks it as quoted.
+- **Winner-only seats.** 19 in 1977 (mostly unopposed PPP returns, incl. Bhutto at NA-163 Larkana),
+  9 in 1985, 10 in 1988, 4 in 1990. Votes blank ⇒ share and margin null, not zero.
+- **1985 has no parties.** Non-party election; the source pages have no party column. Every 1985
+  `party` field is blank by design.
+- **1977 "PML-Q" is the Muslim League (Qayyum group)**, a 1970s faction — *not* the PML-Q founded
+  in 2002. Do not merge.
+- **1988 has no MQM label**; its urban-Sindh winners are recorded as Independent, inflating that
+  bucket relative to published tallies. IJI (1988, 1990) is the PML-led alliance and is shown in
+  PML-N's colour with the alliance named.
+- **1985 uses a different seat numbering** from 1988–1997 — see §3a.
 
 ## 3. Constituency geometry — the three delimitations
 
@@ -150,6 +188,58 @@ GADM 3.6 because COD-2022 folds Keamari, created 2020 from West, into South).
   taluka, NA-201 = Dokri + Bakrani + the rest (geoBoundaries ADM3 talukas,
   per-cell partition; composition per the successor seats NA-194/195). Only the
   intra-Larkana-taluka line remains a centroid Voronoi -> both stay `approx`.
+
+## 3a. Pre-2002 geometry — the 200-seat and 207-seat maps (Aug 2026)
+
+Full write-up in `data/boundaries/README.md`; `BOUNDARIES_TODO.md` holds the measured fit
+diagnostics. Summary:
+
+**There are two pre-2002 delimitations, not one.** 1977 was fought on **200 seats** (1972 census,
+old district names — Lyallpur/Campbellpur); **1985–1997 used a 207-seat map** (1981 census),
+unchanged across five elections. Files are named by seat count to keep them apart; older WIP files
+using `na_1977delim_*` for the 207-seat map are misleading.
+
+**207-seat map — traced (`na_207seat_1985-1997_tessellated.geojson`, GEOS key `207seat`).**
+Traced from the labelled Commons result maps for 1990/1993/1997 (Saad Ali Khan Pakistan,
+CC BY-SA 4.0), which print each seat's NA number inside its region, so identity is read not
+inferred. Pipeline: segment flat-filled regions → OCR the label → georeference by aligning the
+map's coloured mask to the union of `na_constituencies_2002delim.geojson` (same territory, so no
+control points; control-point fitting was tried and reached only 24–39 km — do not go back to it)
+→ contour-trace → warp. Affine IoU 0.92 → quadratic warp 0.94; **median edge error ≈ 4.7 km,
+p90 ≈ 16 km**. Five city insets per map (Karachi, Lahore, Faisalabad, Peshawar, Rawalpindi) are
+fitted separately against their own seats' districts.
+
+Merged best-per-seat, 1993 > 1997 > 1990: **199 of 207 real traces** — 162 main-map, 21 inset,
+16 low-confidence (region real, NA assigned by elimination or N→S ordering; rendered dashed) —
+plus **8 Voronoi fallbacks: NA-13, 50, 110, 120, 165, 166, 168, 197**. A >40 km distance gate from
+the seat's own district union rejects misplaced candidates; it caught NA-120, misread and
+misplaced ~300 km on all three maps.
+
+Warped raster traces cannot tile: the raw merge left ~7% of the country in 205 slivers. The shipped
+layer is re-tiled by `scripts/tessellate_207.py` on a 1.1 km grid — every traced seat is a seed,
+each district's cells go to the nearest seed *among that district's own seats* — giving **overlap
+factor 1.000 and ~97% coverage** (remainder = hairline seams below stroke width).
+
+**1977 — reconstructed (`na_200seat_1977_reconstructed.geojson`, GEOS key `200seat`).** No labelled
+map exists before 1990, so this uses the source-free method: seat → modern district(s) from the
+constituency name; whole-district seats take the exact union (district edges accurate); multi-seat
+districts split by Voronoi (internal lines approximate). Era districts are expanded to the union of
+the modern districts they split into (Lyallpur → Faisalabad + Toba Tek Singh + Chiniot; Kohat →
+Kohat + Karak; Sukkur → Sukkur + Shikarpur; ~50 carve-outs in `patch_era_layers.py`). 1977
+Balochistan had 7 seats labelled by **division**, drawn as divisions. Tribal seats name no agency
+and share the FATA union — placement indicative only. Every feature carries `approx: true`.
+
+**⚠ 1985 numbering (`na_207seat_1985numbering_reconstructed.geojson`, GEOS key `207seat85`).**
+ElectionPakistani's 1985 pages use a 1977-style numbering that does **not** match 1988–1997 or the
+Commons maps (NA-47 = Gujrat in 1985 vs Sargodha-I later; NA-85 = Lahore vs Sialkot-I). District-set
+matching cannot resolve identity where districts were re-carved between eras, so **no concordance is
+shipped**: 1985 renders on its own layer in the source's numbering, and the 1985↔1988 held/turned
+comparison is disabled. The map-numbering crosswalk is `data/wip/trace/xwalk_207map.json`.
+
+**Winner cross-check (`CROSSCHECK.md`).** 1,023 seats across 1990, 1993, 1997, 2002, 2008 and 2013
+checked against the same Commons maps by printed label (no georeferencing needed): 980 agree
+(95.8%), 35 disagreements explained by OCR label confusion, **8 unexplained (0.78%)**, clustered in
+Peshawar/Mardan plus NA-19 Bannu. This changes nothing in the data — it is a check, not an input.
 
 ## 4. The app (`aiwan_e_jamhoor_map.html`)
 
@@ -395,7 +485,7 @@ sheets (~600 MB; safe to delete once digitised).
    property surfaced (hatch or outline the `low` seats so readers know which lines are soft).
 
 
-## 9. The four elections — circumstances and observer findings
+## 9. The eleven elections — circumstances and observer findings
 
 A seat map cannot show that one campaign was fought under a boycott, another under a bombing
 campaign aimed at three named parties, and a third with the largest party stripped of its ballot
@@ -406,15 +496,50 @@ observers concluded, quote them, link the source, and offer no verdict of our ow
 
 | Election | Date | Seats polled | Turnout | Candidates | Won by <5% |
 |---|---|---|---|---|---|
+| 1977 | 7 Mar 1977 | 200 of 200 | 63%† | 649 | 15 |
+| 1985 | 28 Feb 1985 | 207 of 207 | 53%† | 1,065 | 47 |
+| 1988 | 16 Nov 1988 | 207 of 207 | 43%† | 1,186 | 55 |
+| 1990 | 24 Oct 1990 | 207 of 207 | 45%† | 1,226 | 37 |
+| 1993 | 6 Oct 1993 | 202 of 207 | 41% | 1,405 | 55 |
+| 1997 | 3 Feb 1997 | 204 of 207 | 36% | 1,747 | 19 |
+| 2002 | 10 Oct 2002 | 270 of 272 | 42% | 2,049 | 59 |
 | 2008 | 18 Feb 2008 | 268 of 272 | 44% | 2,180 | 62 |
 | 2013 | 11 May 2013 | 269 of 272 | 55% | 4,496 | 52 |
 | 2018 | 25 Jul 2018 | 270 of 272 | 52% | 3,431 | 79 |
 | 2024 | 8 Feb 2024 | 265 of 266 | 48% | 5,112 | 68 |
 
-Seats-polled, candidate counts and margins are computed from `data/results_all.json`; turnout is the
-registered-voter-weighted figure from our own data, which tracks the official numbers (2008 ~44%,
-2013 55.0% ECP, 2018 51.9–52.1%, 2024 47.6% FAFEN-from-ECP).
+Seats-polled, candidate counts and margins are computed from this project's own results data;
+turnout is the registered-voter-weighted figure from 1993 onward, which tracks the official numbers
+(2008 ~44%, 2013 55.0% ECP, 2018 51.9–52.1%, 2024 47.6% FAFEN-from-ECP). **† = published national
+turnout, quoted not computed** — no per-seat electorate exists for 1977/1985/1988/1990, and margins
+for those years are computed only over seats where the source gives vote counts.
 
+- **1977** — PPP 156 of 200; PNA alleged systematic rigging, mass protests, Zia's coup on 5 Jul and
+  martial law; Bhutto later hanged. 19 unopposed returns incl. Bhutto at Larkana. Treat as the
+  *transcribed official result*, widely regarded as manipulated. Only election on the 200-seat map.
+- **1985** — non-party election under Zia after the 1984 referendum; MRD boycott; Assembly of
+  independents, Junejo appointed PM. No party data exists to show. Own seat numbering (§3a).
+- **1988** — first party-based election after Zia's death; PPP largest, Benazir Bhutto PM. IJI formed
+  with covert ISI backing, as the Supreme Court found in the Asghar Khan case.
+- **1990** — Bhutto dismissed under 58(2)(b) in August; PPP contested inside the PDA and rejected the
+  result. Supreme Court, *Asghar Khan* (19 Oct 2012): "The general election held in the year 1990 was
+  subjected to corruption and corrupt practices", finding an election cell in the Presidency had
+  channelled funds to "provide financial assistance to the favoured candidates." **The strongest
+  adverse finding against any election in this dataset, and from a domestic court.**
+- **1993** — Ishaq Khan dismissed Sharif, SC reinstated him, army brokered both resignations. Moeen
+  Qureshi's caretaker government published defaulter lists; ~150,000 troops deployed; MQM boycotted
+  the NA poll (Karachi turnout ~15%). No majority; Bhutto coalition from 19 Oct. Commonwealth and NDI
+  observed.
+- **1997** — Leghari dismissed Bhutto in Nov 1996 under 58(2)(b); SC upheld it. **Lowest turnout of
+  any Pakistani general election (~36%).** PML-N 135 of the seats polled. IPO team to the UN
+  Commission on Human Rights: "a condition of lawlessness persisted during the whole electoral
+  campaign and on the election day itself." Commonwealth report not available online.
+- **2002** — post-coup election under the Legal Framework Order; degree requirement (madrasa
+  certificates equivalent), two-term PM bar excluded Bhutto and Sharif; separate electorates
+  abolished, voting age cut to 18. EU EOM: "resulted in serious flaws being inflicted on the
+  electoral process", but "polling day itself had gone relatively smoothly." NDI (pre-election):
+  the framework "provides for a very limited transfer of power to elected civilian representatives."
+  NA-262/263 re-polled in November.
 - **2008** — poll moved from 8 Jan to 18 Feb after Benazir Bhutto's assassination; 4 seats did not
   poll; boycotted by PTI, JI and the APDM; no Commonwealth observation (Pakistan was suspended).
   EU EOM: "a level playing field was not provided during the campaign." Democracy International:
@@ -436,4 +561,6 @@ registered-voter-weighted figure from our own data, which tracks the official nu
   2024 elections was compromised."
 
 Caveat carried in the app: observer missions differ in mandate, coverage and access, so the absence
-of a finding is not evidence of its absence.
+of a finding is not evidence of its absence — and for 1977–1990 there was no international
+observation of the kind later missions provided, which is a gap in the record rather than a clean
+bill of health.
