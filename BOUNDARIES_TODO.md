@@ -1,6 +1,6 @@
 # Recovering true pre-2002 constituency boundaries
 
-**Status: georeferencing solved, extraction not finished.** 1990, 1993 and 1997
+**Status: extractor runs end to end and produces 162 of 207 seats for 1997. Not shipped — see 'Where it stands'.** 1990, 1993 and 1997
 are still drawn as district aggregates projected onto the 2002 shapes. This note
 records what works, with measurements, and what remains.
 
@@ -50,6 +50,34 @@ control points.** Fit mask to mask.
 - The Lahore seats (NA-93, 94, 95) land ~490 km out because they are drawn in
   the **Lahore inset box**, not on the main map. This is expected and confirms
   each inset needs its own transform.
+
+## Where it stands
+
+`scripts/extract_1977_boundaries.py` runs the whole pipeline and writes
+`data/wip/na_1977delim_1997_partial.geojson`. On the 1997 map:
+
+- main-map georeference **IoU 0.942**
+- OCR read 208 of 366 regions
+- 50 labels rejected by the distance gate, 15 recovered by elimination
+- **163 of 207 seats identified, 162 polygons built**
+- union covers 84% of the country, IoU 0.812 against the true outline, and only
+  0.6% of area is duplicated between seats — so what is produced is structurally
+  sound, with Balochistan seats largest and Lahore seats smallest, as expected
+
+It is **not** wired into the map, because swapping it in would leave 45 seats
+blank — worse than the district aggregate it would replace.
+
+The two things blocking completion:
+
+1. **Inset fits are poor.** Main map 0.942, but Karachi 0.154 and the other
+   boxes 0.63-0.75. Fitting an inset against the union of its seats' *modern*
+   districts is the wrong target — those extents have changed, and for Karachi
+   they include rural area the inset does not draw. Try fitting against the
+   drawn area's own convex structure, or against 2002-delimitation seats
+   restricted to that city, or hand-place two or three control points per inset.
+2. **Label recovery stalls.** Elimination only added 15. It needs the inset
+   transforms first, since most rejected labels are inset seats whose positions
+   are currently wrong.
 
 ## What remains
 
