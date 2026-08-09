@@ -1,0 +1,35 @@
+NA-6 Mardan I Detail Election 1988 Result
+https://www.electionpakistani.com/ge1988/NA-6.htm?v=1
+→ https://www.electionpakistani.com/ge1988/NA-6.htm?v=1
+Content-Type: text/html
+
+---
+meta-AUTHOR: created by MASK
+meta-description: Detail and complete election result of NA-6 Mardan I with votes detail of General Election 1988. Names of all contestant candidates and their votes in general election 1988
+meta-keywords: NA 6 Mardan Election 1988 Result,Complete Result of NA-6 Mardan,election 1988 result,election 1988,general election 1988,election result
+title: NA-6 Mardan I Detail Election 1988 Result
+---
+
+| NA 6 Mardan-I Election 1988 Result |
+| ---------------------------------- |
+
+- | [Home](https://www.electionpakistani.com/index.html) |
+| ---------------------------------------- |
+| [Election 2008](https://www.electionpakistani.com/ge2008/index.html) |
+| [Election 2002](https://www.electionpakistani.com/ge2002/index.html) |
+| [Election 1997](https://www.electionpakistani.com/ge1997/index.html) |
+| [Election 1993](https://www.electionpakistani.com/ge1993/index.html) |
+| [Election 1990](https://www.electionpakistani.com/ge1990/index.html) |
+| [Election 1988](https://www.electionpakistani.com/ge1988/index.html) |
+| [Election 1985](https://www.electionpakistani.com/ge1985/index.html) |
+| [Political Parties](https://www.electionpakistani.com/parties/index.html) |
+| | NA-6 Mardan-I Detail Election Result 1988
+
+| Detail and complete election result of NA-6 Mardan-1 with votes detail of General Election 1988. provide the information about Names of all candidates , their party affiliation and their votes in general election 1988 of Pakistan .Haji Muhammad Yaqoob was elected MNA from N.A-6 Mardan-I in the general election 1988. | |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+Complete Result of NA-6 Mardan
+
+| **Candidate Name** | **Party** | **Votes** |
+| ------------------------ | --------- | --------- |
+| **Haji Muhammad Yaqoob** | **PPP** | **46091** |
+| Muhammad Azam Khan | ANP | 32138 |

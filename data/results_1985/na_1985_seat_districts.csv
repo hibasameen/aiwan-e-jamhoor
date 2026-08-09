@@ -1,0 +1,208 @@
+na,constituency_name,districts
+NA-1,Peshawar,Peshawar
+NA-2,Peshawar,Peshawar
+NA-3,Peshawar,Peshawar
+NA-4,Peshawar,Peshawar
+NA-5,Peshawar,Peshawar
+NA-6,Mardan,Mardan
+NA-7,Mardan,Mardan
+NA-8,Mardan,Mardan
+NA-9,Mardan,Mardan
+NA-10,Kohat,Kohat
+NA-11,Kohat Karak,Kohat;Karak
+NA-12,Abbottabad,Abbottabad
+NA-13,Abbottabad,Abbottabad
+NA-14,Abbottabad,Abbottabad
+NA-15,Mansehra,Mansehra
+NA-16,Mansehra,Mansehra
+NA-17,Mansehra Kohistan,Mansehra;Kohistan
+NA-18,Dera Ismail Khan,Dera Ismail Khan
+NA-19,Bannu,Bannu
+NA-20,Bannu,Bannu
+NA-21,Swat,Swat
+NA-22,Swat,Swat
+NA-23,Swat,Swat
+NA-24,Chitral,Chitral
+NA-25,Malakand Dir,Malakand;Lower Dir;Upper Dir
+NA-26,Dir,Lower Dir;Upper Dir
+NA-27,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-28,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-29,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-30,North Waziristan Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-31,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-32,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-33,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-34,Trial Area,Bajaur Agency;Khyber Agency;Kurram Agency;Mohmand Agency;North Waziristan Agency;Orakzai Agency;South Waziristan Agency
+NA-35,Islamabad,Islamabad
+NA-36,Rawalpindi,Rawalpindi
+NA-37,Rawalpindi,Rawalpindi
+NA-38,Rawalpindi,Rawalpindi
+NA-39,Rawalpindi,Rawalpindi
+NA-40,Rawalpindi,Rawalpindi
+NA-41,Attock,Attock
+NA-42,Attock,Attock
+NA-43,Attock,Attock
+NA-44,Jhelum,Jhelum
+NA-45,Jhelum,Jhelum
+NA-46,Jhelum,Jhelum
+NA-47,Gujrat,Gujrat
+NA-48,Gujrat,Gujrat
+NA-49,Gujrat,Gujrat
+NA-50,Gujrat,Gujrat
+NA-51,Gujrat,Gujrat
+NA-52,Gujrat,Gujrat
+NA-53,Khushab,Khushab
+NA-54,Khushab,Khushab
+NA-55,Sargodha,Sargodha
+NA-56,Sargodha,Sargodha
+NA-57,Sargodha,Sargodha
+NA-58,Sargodha,Sargodha
+NA-59,Sargodha,Sargodha
+NA-60,Mianwali,Mianwali
+NA-61,Mianwali Bhakkar,Mianwali;Bhakkar
+NA-62,Bhakkar,Bhakkar
+NA-63,Jhang,Jhang
+NA-64,Jhang,Jhang
+NA-65,Jhang,Jhang
+NA-66,Jhang,Jhang
+NA-67,Jhang,Jhang
+NA-68,Faisalabad,Faisalabad
+NA-69,Faisalabad,Faisalabad
+NA-70,Faisalabad,Faisalabad
+NA-71,Faisalabad,Faisalabad
+NA-72,Faisalabad,Faisalabad
+NA-73,Faisalabad,Faisalabad
+NA-74,Faisalabad,Faisalabad
+NA-75,Faisalabad,Faisalabad
+NA-76,Faisalabad,Faisalabad
+NA-77,Faisalabad,Faisalabad
+NA-78,Toba Tek Singh,Toba Tek Singh
+NA-79,Toba Tek Singh,Toba Tek Singh
+NA-80,Toba Tek Singh,Toba Tek Singh
+NA-81,Lahore,Lahore
+NA-82,Lahore,Lahore
+NA-83,Lahore,Lahore
+NA-84,Lahore,Lahore
+NA-85,Lahore,Lahore
+NA-86,Lahore,Lahore
+NA-87,Lahore,Lahore
+NA-88,Lahore,Lahore
+NA-89,Kasur,Kasur
+NA-90,Kasur,Kasur
+NA-91,Kasur,Kasur
+NA-92,Kasur,Kasur
+NA-93,Sheikhupura,Sheikhupura
+NA-94,Sheikhupura,Sheikhupura
+NA-95,Sheikhupura,Sheikhupura
+NA-96,Sheikhupura,Sheikhupura
+NA-97,Sheikhupura,Sheikhupura
+NA-98,Gujranwala,Gujranwala
+NA-99,Gujranwala,Gujranwala
+NA-100,Gujranwala,Gujranwala
+NA-101,Gujranwala,Gujranwala
+NA-102,Gujranwala,Gujranwala
+NA-103,Gujranwala,Gujranwala
+NA-104,Sialkot I,Sialkot
+NA-105,Sialkot,Sialkot
+NA-106,Sialkot,Sialkot
+NA-107,Sialkot,Sialkot
+NA-108,Sialkot,Sialkot
+NA-109,Sialkot,Sialkot
+NA-110,Sialkot,Sialkot
+NA-111,Multan,Multan
+NA-112,Multan,Multan
+NA-113,Multan,Multan
+NA-114,Multan,Multan
+NA-115,Multan,Multan
+NA-116,Multan,Multan
+NA-117,Multan,Multan
+NA-118,Multan,Multan
+NA-119,Multan,Multan
+NA-120,Multan,Multan
+NA-121,Vehari,Vehari
+NA-122,Vehari,Vehari
+NA-123,Vehari,Vehari
+NA-124,Dera Ghazi Khan,Dera Ghazi Khan
+NA-125,Dera Ghazi Khan,Dera Ghazi Khan
+NA-126,Rajanpur,Rajanpur
+NA-127,Muzaffargarh,Muzaffargarh
+NA-128,Muzaffargarh,Muzaffargarh
+NA-129,Muzaffargarh,Muzaffargarh
+NA-130,Layyah,Layyah
+NA-131,Layyah,Layyah
+NA-132,Sahiwal,Sahiwal
+NA-133,Sahiwal,Sahiwal
+NA-134,Sahiwal,Sahiwal
+NA-135,Sahiwal,Sahiwal
+NA-136,Sahiwal,Sahiwal
+NA-137,Okara,Okara
+NA-138,Okara,Okara
+NA-139,Okara,Okara
+NA-140,Bahawalpur,Bahawalpur
+NA-141,Bahawalpur II,Bahawalpur
+NA-142,Bahawalpur,Bahawalpur
+NA-143,Bahawalpur Bahawalnagar,Bahawalpur;Bahawalnagar
+NA-144,Bahawalnagar,Bahawalnagar
+NA-145,Bahawalnagar,Bahawalnagar
+NA-146,Bahawalnagar,Bahawalnagar
+NA-147,Rahim Yar Khan,Rahim Yar Khan
+NA-148,Rahim Yar Khan,Rahim Yar Khan
+NA-149,Rahim Yar Khan,Rahim Yar Khan
+NA-150,Rahim Yar Khan,Rahim Yar Khan
+NA-151,Sukkur,Sukkur
+NA-152,Sukkur,Sukkur
+NA-153,Sukkur,Sukkur
+NA-154,Shikarpur,Shikarpur
+NA-155,Shikarpur,Shikarpur
+NA-156,Jacobabad,Jacobabad
+NA-157,Jacobabad,Jacobabad
+NA-158,Nawabshah,Shaheed Benazirabad
+NA-159,Nawabshah,Shaheed Benazirabad
+NA-160,Nawabshah,Shaheed Benazirabad
+NA-161,Nawabshah,Shaheed Benazirabad
+NA-162,Khairpur,Khairpur
+NA-163,Khairpur,Khairpur
+NA-164,Larkana,Larkana
+NA-165,Larkana,Larkana
+NA-166,Larkana,Larkana
+NA-167,Hyderabad,Hyderabad
+NA-168,Hyderabad,Hyderabad
+NA-169,Hyderabad,Hyderabad
+NA-170,Hyderabad,Hyderabad
+NA-171,Hyderabad,Hyderabad
+NA-172,Badin,Badin
+NA-173,Badin,Badin
+NA-174,Tharparkar,Tharparkar
+NA-175,Tharparkar,Tharparkar
+NA-176,Tharparkar,Tharparkar
+NA-177,Dadu,Dadu
+NA-178,Dadu,Dadu
+NA-179,Dadu,Dadu
+NA-180,Sanghar,Sanghar
+NA-181,Sanghar,Sanghar
+NA-182,Thatta,Thatta
+NA-183,Thatta,Thatta
+NA-184,Karachi,Karachi
+NA-185,Karachi,Karachi
+NA-186,Karachi,Karachi
+NA-187,Karachi,Karachi
+NA-188,Karachi,Karachi
+NA-189,Karachi VI,Karachi
+NA-190,Karachi,Karachi
+NA-191,Karachi,Karachi
+NA-192,Karachi,Karachi
+NA-193,Karachi,Karachi
+NA-194,Karachi,Karachi
+NA-195,Karachi,Karachi
+NA-196,Karachi,Karachi
+NA-197,Quetta Chagai,Quetta
+NA-198,Pishin,Pishin
+NA-199,Loralai,Loralai
+NA-200,Zhob,Zhob
+NA-201,Kachhi I,Kachhi
+NA-202,Sibbi Kohlu Dera Bugti,Dera Bugti;Sibi;Kohlu
+NA-203,Naseerabad,Nasirabad
+NA-204,Kalat Kharan,Kalat;Kharan
+NA-205,Khuzdar,Khuzdar
+NA-206,Lasbla Gwadur,Lasbela;Gwadar
+NA-207,Turbat Panjgur,Kech;Panjgur

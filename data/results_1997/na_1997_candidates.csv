@@ -1,0 +1,1723 @@
+na,candidate_name,party,votes,rank
+NA-1,Ghulam Ahmad Bloor,ANP,25930,1
+NA-1,Qamar Abbass,PPP,11275,2
+NA-1,Aurungzaib Mohmand,Independent,223,3
+NA-1,Ghulam Muhammad Bazaz,Independent,193,4
+NA-1,Rehmat Gul Afridi,Independent,150,5
+NA-1,Muhammad Khurshid Anwar,Independent,67,6
+NA-1,Qamar Ali Shah,Independent,54,7
+NA-1,Muhammad Jahanzaib Khan,Independent,49,8
+NA-2,Arbab Muhammad Jehangir Khan,ANP,24094,1
+NA-2,Haji   Ghulam Ali,JUI-F,12415,2
+NA-2,Ibadat   Ullah Khan,PTI,4348,3
+NA-2,Muhammad Fayyaz Khan Khalil,PPP-SB,1859,4
+NA-2,Taj   Muhammad Amar,NPP-WG,645,5
+NA-2,Arbab   Mushtaq Ahmad,HPG,631,6
+NA-2,Imtiaz   Elahi Paracha,Independent,570,7
+NA-3,Arbab Saad Ulllah Khan,ANP,48451,1
+NA-3,Sardar Ali Khan,PPP,20291,2
+NA-3,Salim Akbar Afridi,PPP-SB,2149,3
+NA-3,Muhammad Naeem Qasmi,Independent,842,4
+NA-4,Wali Muhammad Khan,ANP,43511,1
+NA-4,Naseer Ullah Khan Babar,PPP,22213,2
+NA-4,Umar Khan Yousifzai,PTI,3022,3
+NA-4,Syed Azmat Ali Shah Gillani (RTD),Independent,580,4
+NA-5,Asfand Yar Wali Khan,ANP,53059,1
+NA-5,Moulana Gohar Shah,JUI-F,34733,2
+NA-5,Ejaz Khistro Khan,PPP-SB,5508,3
+NA-5,Ziarat Gul,Independent,3818,4
+NA-5,Hikmat Shah,Independent,1919,5
+NA-5,Muhammad Nazeef,PKMAP,1485,6
+NA-5,Engineer Fawad ul Haq,TIP,1263,7
+NA-6,Haji Naseem Ur Rehman,ANP,36412,1
+NA-6,Haji   Muhammad Yaqoob,PPP,15564,2
+NA-6,Latif   Ur Rehman,PTI,7264,3
+NA-6,Fazil   E Azam,HPG,699,4
+NA-7,Muhammad Azam Khan,ANP,29117,1
+NA-7,Muhammad Idress Khan,Independent,17104,2
+NA-7,Haji   Sarfraz Khan,PPP,15743,3
+NA-7,Muhammad Zahir,PAP,4935,4
+NA-7,Sikandar Khan,Independent,3704,5
+NA-7,Moulana Noor ur Haq,AQP,1208,6
+NA-7,Ziarat   Khan Tormand,Independent,959,7
+NA-7,Aurangzaib Khan,HPG,542,8
+NA-7,Colonel (R) Haji Syed Nasir Shah,TIP,397,9
+NA-8,Haji Rehman Ullah,ANP,39828,1
+NA-8,Iftikhar Ahmad Khan,PML-N,36589,2
+NA-8,Munfat   Khan,PPP,12279,3
+NA-8,Asad   Qaisar,PTI,4113,4
+NA-8,Awal   Sher Khan,Independent,4009,5
+NA-8,Syed   Zabihullah,PPP-SB,2399,6
+NA-8,Ayub   Khan,AQP,2031,7
+NA-8,Hakim   Khan,PAP,1770,8
+NA-8,Shad   Nabi,Independent,1219,9
+NA-8,Yaqoob   Khan,PML-J,1039,10
+NA-8,Gul   Mast Khan (Rtd),Independent,686,11
+NA-8,Abdul   Hafeez Khan,Independent,141,12
+NA-9,Javid Ibrahim Paracha,PML-N,61412,1
+NA-9,Syed   Iftikhar Hussain Gillani,Independent,17142,2
+NA-9,Syed   Abid Javed,PPP-SB,5894,3
+NA-9,Malik   Fida Muhammad,JUI-S,5082,4
+NA-9,Al-Haj   Muhammad Hafeez Ullah,Independent,4621,5
+NA-10,Shams Ur Rehman,ANP,22959,1
+NA-10,Muhammad Aslam Khan Khattak,Indepednent,15596,2
+NA-10,Raza   Kulli Khan Khattak,PML-N,5945,3
+NA-10,Malik   Zafar Azam,Independent,5845,4
+NA-10,Brigadier (R) Bashir Hussain,Independent,2661,5
+NA-10,Maulana Mir Zaqeem Khan,JUI-S,1654,6
+NA-10,Altaf   Qadir,Independent,713,7
+NA-10,Muhammad Riaz,Independent,310,8
+NA-10,Abdul   Haleem Khattak,Independent,148,9
+NA-11,Sardar Mehtab Ahmad Khan Abbasi,PML-N,55341,1
+NA-11,Aman   Ullah Khan Jadoon,Independent,21253,2
+NA-11,Imran   Ahmad Khan Niazi,PTI,5227,3
+NA-11,Sardar   Gulzar Ahmad Abbasi,PPP,2509,4
+NA-11,Rashida Batool,PPP-SB,1405,5
+NA-11,Haji   Mushtaq Awan,Independent,1097,6
+NA-11,Qari   Mehboob ur Rehman Qureishi,JUI-F,431,7
+NA-12,Muhammad Nawaz Sharif,PML-N,62070,1
+NA-12,Sardar Haidar Zaman,Independent,30315,2
+NA-12,Suleman Farsi,PTI,3187,3
+NA-12,Abdul Latif Abbasi,PPP,1918,4
+NA-13,Gohar Ayub Khan,PML-N,73150,1
+NA-13,Khizar   Hayyat Khan,Independent,11594,2
+NA-13,Muhammad Shehr Yar Khan,PTI,9067,3
+NA-13,Muhammad Tahir Qureshi,PPP,6162,4
+NA-14,Sardar Muhammad Yousaf,PML-N,46918,1
+NA-14,Moulana Syed Ghulam Nabi Shah,JUI-F,21157,2
+NA-14,Asif   Akbar Khan,Independent,6154,3
+NA-14,Sher   Baz Khan Akhundzada,Independent,1127,4
+NA-14,Abdul   Sattar Khan Swati,PTI,843,5
+NA-15,Nawabzada Salah Uddin Saeed,PML-N,20438,1
+NA-15,Muhammad Azam Khan,Independent,17631,2
+NA-15,Zar   Gul,Independent,15817,3
+NA-15,Alhaj   Syed Qasim Shah,Independent,9662,4
+NA-15,Niaz   Muhammad,Independent,1014,5
+NA-16,Muhammad Nawaz Khan,PML-N,17242,1
+NA-16,Alam Zeb Khan,JUI-S,12677,2
+NA-16,Sardar Malik Jan Muhammad,PAP,4928,3
+NA-17,Aurangzeb,Independent,10686,1
+NA-17,Maulana Abdul Baqi,PML-N,8204,2
+NA-17,Haji Misar Khan Malik,JUI-F,1544,3
+NA-17,Muhammad Siraf,Independent,1410,4
+NA-17,Gul Dad,PPP,803,5
+NA-17,Saif Ur Rehman,Independent,342,6
+NA-17,Haji Fazal Rehman,PPP-SB,242,7
+NA-18,Alhaj   Sardar Umar Farooq Khan,PML-N,74486,1
+NA-18,Moulana Fazal Ur Rehman,Independent,53948,2
+NA-18,Fazal   Karim Khan Kundi,Independent,16720,3
+NA-18,Imran   Khan Niazi,PTI,6001,4
+NA-18,Khalifa Abdul Qayuum,Independent,5184,5
+NA-18,Musarrat Shaheen,Independent,3131,6
+NA-18,Haji   Sanaullah Khan,Independent,2799,7
+NA-18,Amin   Ullah Khan (RTD),Independent,2764,8
+NA-18,Ghulam   Abbas Shah Advocate (RTD),Independent,1679,9
+NA-18,Malik   Salahuddin,Independent,1212,10
+NA-18,Nawabzada Saadat Khan,Independent,1038,11
+NA-18,Muhammad Tariq Arbab,Independent,952,12
+NA-19,Malik Nasir Khan,PML-N,19070,1
+NA-19,Moulana Naseeb Ali Shah,JUI-F,17902,2
+NA-19,Malik Riaz Khan,Independent,8626,3
+NA-19,Pir Syed Abbas Shah,Independent,8469,4
+NA-19,Muhammad Zubair Khan,PTI,5229,5
+NA-19,Abdur Rab Khan,Independent,1413,6
+NA-19,Attaullah Jan,Independent,1160,7
+NA-19,Sher Ali Baz Khan,Independent,637,8
+NA-19,Muhammad Ali Khan,HPG,425,9
+NA-19,Noor Jehan Begum,PPP-SB,345,10
+NA-20,Muhammad Kabir Khan Marwat,PML-N,35772,1
+NA-20,Anwar   Saif Ullah Khan,PML-J,35419,2
+NA-20,Amir   Nawaz Khan Advocate,JUI-F,6571,3
+NA-20,Gulo   Khan,Independent,3076,4
+NA-20,Salim   Saifullah Khan,Independent,1443,5
+NA-20,Moulvi   Ahmad Jan Ghazanvi,Independent,1043,6
+NA-20,Asif   Saleem,Independent,1005,7
+NA-20,Amanullah Khan Maidad Khel,Independent,476,8
+NA-20,Munawar Khan Advocate,Independent,237,9
+NA-21,Mian Gul Aurang Zeb,PML-N,25018,1
+NA-21,Faqir   Muhammad Khan,ANP,14402,2
+NA-21,Imran   Khan,PTI,10716,3
+NA-21,Javed   Iqbal,PPP,7593,4
+NA-21,Moulana Ubaid Ur Rehman,JUI-F,2740,5
+NA-21,Abdul   Wadood alias Ayeen Khan,Independent,746,6
+NA-21,Wzir   Zada,Independent,465,7
+NA-22,Shujat Ali Khan,PML-N,25142,1
+NA-22,Muhammad Ali Khan Advocate,ANP,11297,2
+NA-22,Shahzad Gujjar,Independent,9729,3
+NA-22,Dost   Muhammad Khan,PPP,8909,4
+NA-22,Doctor   Mehboor Ur Rehman,Independent,5908,5
+NA-22,Molvi   Abdur Raheem,JUI-F,4746,6
+NA-22,Mian   Hassan,Independent,2448,7
+NA-22,Abdul   Wadood alias Kaki Jan,PTI,1024,8
+NA-22,Haji   Muhammad Amin,PAP,912,9
+NA-23,Abdul Mateen Khan,ANP,22662,1
+NA-23,Fanoos Gujjar,PAP,15204,2
+NA-23,Muhammad Sahrab Khan,PPP,13553,3
+NA-23,Taj Muhammad Khan,Independent,7772,4
+NA-23,Moulana Fazal e Wadood,JUI-F,3352,5
+NA-23,Amir ul Aman,PTI,2390,6
+NA-24,Shahzada Mohi Ud Din,PML-N,24302,1
+NA-24,Major   (R) Ahmad Saeed Khan,PPP,12222,2
+NA-24,Allah   Dad,PPP-SB,6977,3
+NA-24,Molvi   Abdul Hamid Khan,JUI-F,6538,4
+NA-25,Inayat Khan,PML-N,23328,1
+NA-25,Najam   ud Din,PPP,16370,2
+NA-25,Muhammad Ghulam Advocate,Independent,4156,3
+NA-25,Muhammad Anwar Khan Advocate,Independent,665,4
+NA-25,Mir   Habib Jan,Independent,557,5
+NA-25,Iftikhar Ahmad,Independent,472,6
+NA-25,Akhundzada Baharawar Said,Independent,395,7
+NA-26,Alhaj Muhammad Khan,PML-N,33477,1
+NA-26,Muhammad Humayun Khan,PPP,22413,2
+NA-26,Zamin Ahmad Khan,Independent,4812,3
+NA-26,Zafar Khan,PAP,3828,4
+NA-26,Mian Atta Ur Rehman,PTI,2246,5
+NA-26,Alamgir Khan,Independent,989,6
+NA-27,Baroz Khan,Independent,8725,1
+NA-27,Abdur Rehman,Independent,5628,2
+NA-27,Ghulam Muhammad Sadiq,Independent,4702,3
+NA-27,Tahir Akhtar,Independent,3872,4
+NA-27,Mehruban Shah,Independent,3516,5
+NA-27,Qadar Gul,Independent,3254,6
+NA-27,Manzoor,Independent,2660,7
+NA-27,Sher Zada,Independent,2324,8
+NA-27,Muhammad Saeed,Independent,1714,9
+NA-27,Nayyar   Zaman,Independent,1423,10
+NA-27,Said Qahar,Independent,1325,11
+NA-27,Muhammad Zahir Shah,Independent,1039,12
+NA-27,Fazal Subhan,Independent,877,13
+NA-27,Zahir Shah Gurbaz,Independent,694,14
+NA-27,Gul Badshah,Independent,564,15
+NA-27,Swat Khan,Independent,441,16
+NA-27,Ghulam Qadir,Independent,371,17
+NA-27,Abdul Wahid,Independent,286,18
+NA-27,Zareen Khan,Independent,265,19
+NA-27,Azmat Khan,Independent,240,20
+NA-27,Zahir Shah,Independent,194,21
+NA-27,Hussain Shah,Independent,158,22
+NA-27,Bakhat Muhammad,Independent,155,23
+NA-27,Rooman,Independent,148,24
+NA-27,Amin Ul Haq,Independent,146,25
+NA-27,Ilyas Khan,Independent,142,26
+NA-27,Atta Ullah,Independent,136,27
+NA-27,Bakhat Jamal,Independent,104,28
+NA-27,Jahangir,Independent,84,29
+NA-27,Haroon,Independent,77,30
+NA-27,Iqbal,Independent,55,31
+NA-27,Javed Yousif,Independent,31,32
+NA-28,Zarin Khan Mengal,Independent,36275,1
+NA-28,Sayed Sajjad Hussain Mian,Independent,22384,2
+NA-28,Coloner (R) Syed Sajjad Hussain,Independent,18759,3
+NA-28,Haji Kamal Hussain,Independent,15835,4
+NA-28,Sher Muhammad,Independent,6425,5
+NA-28,Salah Uddin,Independent,6362,6
+NA-28,Syed Altaf Hussain,Independent,2953,7
+NA-28,Haji Muqarab Hussain,Independent,2842,8
+NA-28,Malik   Multan,Independent,2311,9
+NA-28,Syed Yousif Hussain,Independent,2270,10
+NA-28,Shamal Sayed Mian,Independent,1255,11
+NA-28,Shaukat Hussain,Independent,1081,12
+NA-28,Haji Raheem Khan,Independent,939,13
+NA-28,Malik   Muhammad Naseer Khan,Independent,831,14
+NA-28,Asghar Hussain,Independent,583,15
+NA-28,Muhammad Hussain S/O Ali Hussain,Independent,504,16
+NA-28,Tariq Hussain,Independent,349,17
+NA-28,Haji Sardar Khan,Independent,344,18
+NA-28,Mehdi   Hussain,Independent,312,19
+NA-28,Mohabat Khan Bangash,Independent,288,20
+NA-28,Allaudin,Independent,241,21
+NA-28,Syed Sadiq Ali Shah,Independent,217,22
+NA-28,Malik   Mohabat Khan,Independent,192,23
+NA-28,Ghadir   Hussain,Independent,157,24
+NA-28,Nazir   Hussain Hazara,Independent,130,25
+NA-28,Ali Muhammad,Independent,86,26
+NA-28,Haji Ghani ur Rehman,Independent,83,27
+NA-28,Niaz   Muhammad,Independent,82,28
+NA-28,Zarman Khan,Independent,79,29
+NA-28,Dawood Khan,Independent,77,30
+NA-28,Zawar Jan,Independent,72,31
+NA-28,Malik   Zafar Khan,Independent,70,32
+NA-28,Muhammad Hussain S/O Haji Ali Raza,Independent,68,33
+NA-28,Rishman Khan,Independent,61,34
+NA-28,Haji Gulbat Khan,Independent,58,35
+NA-28,Haji Mansab Ali Khan,Independent,57,36
+NA-28,Abdul Bari,Independent,57,37
+NA-28,Khaista Jan,Independent,53,38
+NA-28,Syed Sarfaraz Ali Shah,Independent,52,39
+NA-28,Habib Jan,Independent,47,40
+NA-28,Malik   Gul Akbar,Independent,47,41
+NA-28,Haji Faza Maula,Independent,42,42
+NA-28,Munir   Khan,Independent,41,43
+NA-28,Shah Wali,Independent,40,44
+NA-28,Mula   Jan S/O Qutub Din,Independent,39,45
+NA-28,Malik   Machaki Khan,Independent,38,46
+NA-28,Siyal Khan,Independent,37,47
+NA-28,Habib Hussain,Independent,35,48
+NA-28,Sabir Jan,Independent,35,49
+NA-28,Wali   Khan,Independent,34,50
+NA-28,Caption (R) Noor Afridi,Independent,31,51
+NA-28,Rahmat Khan,Independent,30,52
+NA-28,Farman   Ali,Independent,29,53
+NA-28,Haji Muhammad Aslam Khan,Independent,27,54
+NA-28,Haji Muzaffar Khan,Independent,26,55
+NA-28,Warkhim Bas Shah,Independent,26,56
+NA-28,Sayed Zahir Shah,Independent,25,57
+NA-28,Umar Khan,Independent,25,58
+NA-28,Haji Pir Badshah,Independent,25,59
+NA-28,Doctor Gul Manan,Independent,24,60
+NA-28,Malik   Ashraf Khan,Independent,24,61
+NA-28,Haji Sher Hassan,Independent,23,62
+NA-28,Muhammad Yousaf,Independent,23,63
+NA-28,Tahir Hussain,Independent,22,64
+NA-28,Malik   Hanif Jan,Independent,22,65
+NA-28,Shah Noor,Independent,21,66
+NA-28,Malik   Saif Ullah Khan Orazkzai,Independent,21,67
+NA-28,Haji Hamid Khan,Independent,20,68
+NA-28,Haji Sultan Muhammad,Independent,20,69
+NA-28,Muhammad Habib Khan,Independent,20,70
+NA-28,Doctor Abdul Janan,Independent,19,71
+NA-28,Malik   Khaista Jan,Independent,19,72
+NA-28,Said Aslam Khan,Independent,17,73
+NA-28,Abdul Manan,Independent,16,74
+NA-28,Muhammad Samar Din,Independent,16,75
+NA-28,Haji Muhammad Sharif,Independent,15,76
+NA-28,Haji Suhbat Khan Orakzai,Independent,14,77
+NA-28,Haji Gul Said,Independent,14,78
+NA-28,Dr. Muhammad Aslam Khan,Independent,14,79
+NA-28,Ghulam   Nabi Khan,Independent,14,80
+NA-28,Malik   Fakhar Zaman,Independent,13,81
+NA-28,Akhundzada Muhammad Akram,Independent,13,82
+NA-28,Arbab Khan,Independent,12,83
+NA-28,Akbar Jan,Independent,12,84
+NA-28,Hayat Khan,Independent,12,85
+NA-28,Malik   Mehboob Ali Khan,Independent,12,86
+NA-28,Malik   Hamza Khan,Independent,11,87
+NA-28,Malik   Said Abbas,Independent,11,88
+NA-28,Major   (R) Sabit Hussain,Independent,11,89
+NA-28,Mula   Jan S/O Haji Hussain Jan,Independent,11,90
+NA-29,Syed Munir Said,Independent,9714,1
+NA-29,Muhammad Azad Gul,Independent,8096,2
+NA-29,Muhammad Afzal,Independent,4012,3
+NA-29,Khan   Afzal,Independent,3994,4
+NA-29,Colonel (R) Aman Ullah Khan,Independent,3481,5
+NA-29,Shah   Iran,Independent,2621,6
+NA-29,Muhammad Nawaz,Independent,2447,7
+NA-29,Muhammad Zarin,Independent,1540,8
+NA-29,Muhammad Amin,Independent,861,9
+NA-29,Spin   Gull,Independent,243,10
+NA-30,Dindar,Independent,22721,1
+NA-30,Muhammad Ajmal Khan,Independent,13376,2
+NA-30,Said   Azam,Independent,4564,3
+NA-30,Muhammad Sharif,Independent,2533,4
+NA-30,Rehman   Gull,Independent,2142,5
+NA-30,Noor   Jannat Gul,Independent,1807,6
+NA-30,Mishar   Khan,Independent,924,7
+NA-30,Khan   Azhar,Independent,667,8
+NA-30,Muhammad Yaqoob Khan,Independent,239,9
+NA-30,Samar   Gul,Independent,233,10
+NA-30,Sherin   Akbar,Independent,205,11
+NA-30,Muhammad Sher,Independent,174,12
+NA-30,Muhammad Asghar Khan,Independent,154,13
+NA-30,Muhammad Sharif Khan,Independent,123,14
+NA-30,Syed   Mustafa Kamal,Independent,105,15
+NA-30,Awaz   Khan,Independent,95,16
+NA-30,Jehanzeb,Independent,84,17
+NA-30,Said   Noor Khan,Independent,76,18
+NA-30,Amal   Zar,Independent,72,19
+NA-30,Mamoor   Khan,Independent,63,20
+NA-30,Muhammad Hashim,Independent,55,21
+NA-30,Jannat   Rehman,Independent,52,22
+NA-30,Arsala   Khan,Independent,34,23
+NA-30,Zarmali Khan,Independent,28,24
+NA-30,Rasool   Din,Independent,27,25
+NA-30,Nadir   Khan,Independent,12,26
+NA-30,Nasrullah Khan,Independent,11,27
+NA-31,Moulana Noor Muhammad,Independent,25604,1
+NA-31,Alam   Jan Mahsud,Independent,15466,2
+NA-31,Abdul   Qayoom,Independent,10060,3
+NA-31,Raza   Khan,Independent,9308,4
+NA-31,Moulana Muhammad Saleh Shah,Independent,4967,5
+NA-31,Anwar   Kamal Wazir,Independent,4202,6
+NA-31,Malik   Mirza Aalam Khan,Independent,2902,7
+NA-31,Aziz   Ul Hussain Wazir,Independent,2534,8
+NA-31,Saleem   Khan,Independent,1154,9
+NA-31,Muhammad Zaman Mahsud,Independent,1063,10
+NA-31,Haji   Dashat Khan,Independent,641,11
+NA-31,Ghalib   Khan,Independent,496,12
+NA-31,Muhammad Zaman,Independent,420,13
+NA-31,Feroz   Khan,Independent,303,14
+NA-31,Dilawar Khan,Independent,192,15
+NA-31,Muhammad Amin Khan,Independent,139,16
+NA-31,Maaz   Ullah Khan,Independent,131,17
+NA-31,Abdul   Karim Khan Mahsud,Independent,120,18
+NA-31,Khurshid Alam Khan,Independent,100,19
+NA-31,Atlas   Khan,Independent,91,20
+NA-31,Jalal   Khan,Independent,65,21
+NA-31,Sardar   Hassan Khan,Independent,55,22
+NA-31,Alamzeb Khan,Independent,50,23
+NA-31,Babu   Khan,Independent,46,24
+NA-31,Haji   Muhammad Kalam Khan,Independent,31,25
+NA-32,Haji Lal Karim,Independent,14519,1
+NA-32,Mian   Shah Jahan,Independent,8009,2
+NA-32,Muhammad Dawood Khan,Independent,5631,3
+NA-32,Busmillah Khan,Independent,5380,4
+NA-32,Shahabuddin Khan,Independent,3748,5
+NA-32,Haji   Gul Zada,Independent,2433,6
+NA-32,Molvi   Abdul Haleem,Independent,2388,7
+NA-32,Said   Abdul Manan Jan,Independent,1089,8
+NA-32,Muhammad Akbar,Independent,727,9
+NA-32,Malik   Mahboob Jan,Independent,680,10
+NA-32,Umar   Khitab Sharifkhanvi,Independent,566,11
+NA-32,Muhammad Nawaz Khan,Independent,565,12
+NA-32,Engineer Afsar Khan,Independent,535,13
+NA-32,Akhundzada Chattan,Independent,487,14
+NA-32,Burhan   Uddin Khan,Independent,484,15
+NA-32,Mian   Habib Ur Rehman,Independent,479,16
+NA-32,Engineer Fazil Karim,Independent,400,17
+NA-32,Khaista Gul,Independent,307,18
+NA-32,Muhammad Ehsan Ullah,Independent,257,19
+NA-32,Haji   Rehman,Independent,254,20
+NA-32,Hazrat   Rasool,Independent,247,21
+NA-32,Bashir   Ullah,Independent,191,22
+NA-32,Muhammad Rahim,Independent,179,23
+NA-32,Hafiz   Muhammad Jan,Independent,177,24
+NA-32,Adam   Khan,Independent,170,25
+NA-32,Shaibzada Bahauddin,Independent,142,26
+NA-32,Malik   Khan Zaib,Independent,45,27
+NA-33,Abdul Latif Afridi,Independent,16075,1
+NA-33,Noor   Ul Haq Qadri,Independent,14745,2
+NA-33,Malik   Darya Khan Zakha Khel,Independent,7270,3
+NA-33,Engineer Noor Alam,Independent,6869,4
+NA-33,Mian   Gull Afridi,Independent,5844,5
+NA-33,Haji   Muhammad Shah Afridi,Independent,4634,6
+NA-33,Rashid   Gul,Independent,3181,7
+NA-33,Imran   Khan Afridi,Independent,2764,8
+NA-33,Sahibzada Muhammad Umar Banori,Independent,2485,9
+NA-33,Haji   Ahmad Khan Kukikhel,Independent,2203,10
+NA-33,Faizullah Shah,Independent,1544,11
+NA-33,Akhundzada Muhammad Anwar,Independent,1333,12
+NA-33,Ali   Akbar,Independent,1063,13
+NA-33,Pir   Roh Ullah Shah Banori,Independent,655,14
+NA-33,Doctor   Nusrat Ali Afridi,Independent,584,15
+NA-33,Saidara Hassan,Independent,362,16
+NA-33,Malik   Waris Khan Afridi,Independent,343,17
+NA-33,Khursheed Khan Afridi,Independent,320,18
+NA-33,Abdul   Rafiq,Independent,282,19
+NA-33,Haji   Nawab Khan,Independent,269,20
+NA-33,Naveed   Kamal,Independent,266,21
+NA-33,Afrasib Afridi,Independent,252,22
+NA-33,Major   (R) Bakhat Hassan Shinwari,Independent,252,23
+NA-33,Saif   Ur Rehman Shinwari,Independent,245,24
+NA-33,Rafi   Ullah Shanwari,Independent,229,25
+NA-33,Saidan   Shah Shanwari,Independent,184,26
+NA-33,Ziarat   Khan Zakhakhel,Independent,121,27
+NA-33,Muhammad Hashim Khan,Independent,90,28
+NA-33,Akhtar   Jan,Independent,89,29
+NA-33,Sharbat Ali,Independent,56,30
+NA-33,Inayat   Ullah Afridi,Independent,51,31
+NA-33,Khitab   Gul Afridi,Independent,22,32
+NA-34,Haji Malik Baz Gul Afridi,Independent,16670,1
+NA-34,Malik   Noor Sher,Independent,7057,2
+NA-34,Said   Khan,Independent,5582,3
+NA-34,Masood   Khan Afridi,Independent,4206,4
+NA-34,Muhammad Nadir Shah,Independent,4045,5
+NA-34,Syed   Shakir Ullah Shah,Independent,3189,6
+NA-34,Said   Wazir Khan,Independent,2966,7
+NA-34,Zahid   Shah Storiani,Independent,2554,8
+NA-34,Haji   Muhammad Jan Khan Afridi,Independent,2209,9
+NA-34,Ibrahim Afridi,Independent,1213,10
+NA-34,Zahir   Shah,Independent,1090,11
+NA-34,Malik   Haji Feroz,Independent,551,12
+NA-34,Rool   Ul Amin,Independent,458,13
+NA-34,Nasrullah,Independent,414,14
+NA-34,Taj   Khan,Independent,294,15
+NA-34,Ghulam   Hassan Afridi,Independent,281,16
+NA-34,Malik   Taj Ali Afridi,Independent,152,17
+NA-34,Muhammad Azam Afridi,Independent,116,18
+NA-34,Khunai   Khel,Independent,90,19
+NA-34,Malik   Haji Fteh Khan,Independent,88,20
+NA-34,Malik   Said Ameer,Independent,87,21
+NA-34,Tahoor   Ul Islam,Independent,77,22
+NA-34,Abdul   Razzaq,Independent,48,23
+NA-34,Qayoum   Khan,Independent,48,24
+NA-34,Noor   Zaman,Independent,40,25
+NA-34,Jana   Bahadur Khan,Independent,31,26
+NA-34,Malik   Anayat Ullah Afridi,Independent,26,27
+NA-34,Javed   Iqbal,Independent,23,28
+NA-35,Syed Zafar Ali Shah,PML-N,64500,1
+NA-35,Syed   Nayyar Hussain Bukhari,PPP,29847,2
+NA-35,Imran   Khan,PML-N,5868,3
+NA-35,Wasal   Ahmad Shahid,HPG,577,4
+NA-35,Nadeem   Mukhtar Chaudhary,Independent,407,5
+NA-36,Shahid Khaqan Abbasi,PML-N,65194,1
+NA-36,Zaheer   Ud Din Babar Awan Advocate,PML-J,21768,2
+NA-36,Javaid   Iqbal Satti,PPP,21386,3
+NA-37,Chaudhary Muhammad Khurshid Zaman,PML-N,75567,1
+NA-37,Raja   Parvaiz Ashraf,PPP,44511,2
+NA-37,Malik   Khalid Mazhar,PTI,3291,3
+NA-37,Zahoor   Alam Bhatti,PPP-SB,1251,4
+NA-38,Sheikh Rasheed Ahmad,PML-N,72183,1
+NA-38,Naheed   Khan,PPP,24714,2
+NA-38,Badshah Mir Khan Afridi,Independent,6228,3
+NA-38,Muhammad Akmal Mirza,PTI,3806,4
+NA-38,Haji   Muhammad Salim Khan Cheema,Independent,669,5
+NA-38,A.Z   Malik Abdul Hameed,Independent,150,6
+NA-39,Muhammad Ijaz Ul Haq,PML-N,87392,1
+NA-39,Raja   Shahid Zafar,PPP,31838,2
+NA-39,Ch.   Zammurrad Hussain Advocate,PTI,5174,3
+NA-39,Safia   Yameen,Independent,754,4
+NA-39,Talib   Hussain Qureishi,JUP,188,5
+NA-39,Syed   Imtiaz Hussain Bukhari,Independent,139,6
+NA-40,Chaudhary Nisar Ali Khan,PML-N,79255,1
+NA-40,Sardar   Shoaib Mumtaz Khan,PPP,41008,2
+NA-40,Ch.   Ghulam Jillani,PTI,3588,3
+NA-40,Abdul   Qadir Khan,HPG,1243,4
+NA-41,Sheikh Aftab Ahmad,PML-N,67275,1
+NA-41,Malik   Muhammad Aslam Khan,PPP,35204,2
+NA-41,Hafiz   Muhammad Saeed,Independent,4094,3
+NA-41,Raes   Ahmad Khan,PTI,3416,4
+NA-41,Maqbool Elahi Siddiqi,Independent,1760,5
+NA-42,Malik Lal Khan,PML-N,83921,1
+NA-42,Malik   Atta Muhammad,PPP,60319,2
+NA-42,Khaki   Jan,PTI,4248,3
+NA-43,Lt.   General (R) Abdul Majeed Malik,PML-N,84900,1
+NA-43,Raja   Munawar Ahmad,PPP,32293,2
+NA-43,Chaudhary Muhammad Ali Khan,Independent,2977,3
+NA-43,Syed   Muhammad Asghar Ali Shah,PTI,1671,4
+NA-43,Syed   Munawar Hussain Naqvi,Independent,336,5
+NA-43,Muhammad Salim Asghar,Independent,318,6
+NA-43,Aman   Ullah,Independent,316,7
+NA-44,Sardar Mansoor Hayat Tumman,PML-N,85228,1
+NA-44,Fauzia   Behram,PML-J,45615,2
+NA-44,Al Haj   Malik Muhammad Hayat,PTI,2974,3
+NA-44,Malik   Lal Khan,Independent,1712,4
+NA-45,Raja Muhammad Afzal Khan,PML-N,73212,1
+NA-45,Chaudhary Farrukh Altaf,PPP,32097,2
+NA-45,Muhammad Riaz Malik,PTI,2801,3
+NA-45,Abdul   Majeed Maloot,Independent,958,4
+NA-46,Nawabzada Iqbal Mehdi Khan,PML-N,60237,1
+NA-46,Raja   Nasir Ali Khan,PPP,31346,2
+NA-46,Raja   Fayyaz Asif,PPP-ZAB,2549,3
+NA-46,Tahir   Asif Chaudhary,PTI,2077,4
+NA-46,Mazhar   Hussain Mirza,PML-Q,1231,5
+NA-47,Adnan Hayyat Noon,PML-N,58284,1
+NA-47,Inam   Ul Haq Paracha,PPP,42192,2
+NA-47,Ishfaq   Akhtar,PTI,1610,3
+NA-47,Ch.   Muhammad Afzal Gondal,Independent,968,4
+NA-47,Haroon   Ehsan Piracha,Independent,777,5
+NA-47,Chaudhary Muhammad Iqbal Ramay,Independent,565,6
+NA-48,Chaudhary Ghias Ahmad Mela,PML-N,56948,1
+NA-48,Mian   Manazir Ali Ranjha,PPP,38573,2
+NA-48,Rana   Muhammad Yaseen,Independnet,2311,3
+NA-48,Riaz   Ahmad Ranjha,PTI,1221,4
+NA-48,Ch.   Muhammad Hussain Waraich,Independent,710,5
+NA-48,Rao   Abdul Ghafoor Khan,Independent,657,6
+NA-48,Colonel (R) Malik Fazal ur Rehman,Independent,491,7
+NA-48,Mian   Saif Ahmad Ranjha,Independent,402,8
+NA-48,Chaudhary Shah Nawaz Ranjha,Independent,270,9
+NA-49,Chaudhary Abdul Hameed,PML-N,67824,1
+NA-49,Malik   Muhammad Aslam Kachila,PPP,37104,2
+NA-49,Zulfiqar Anwar Bajwa,PTI,1333,3
+NA-49,Anwar   Khurshid,Independent,595,4
+NA-49,Hafiz   Abdul Rauf,Independent,460,5
+NA-49,Akhtar   Saleem Qureishi,Independent,353,6
+NA-49,Malik   Khizar Hayyat Awan,Independent,124,7
+NA-50,Malik Umar Aslam,PML-N,79666,1
+NA-50,Tanveer Sultan Awan,Independnet,36617,2
+NA-50,Asif   Hussain Virk,PPP,11421,3
+NA-50,Muahmmad Aslam Awan,PTI,3917,4
+NA-50,Mussarat Nazir,Independent,1655,5
+NA-51,Chaudhary Anwar Ali Cheema,,73825,1
+NA-51,Siraj Din Gujjar,,31527,2
+NA-51,Sahibzada Ghulam Naseer Uddin Sialvi,,6535,3
+NA-51,Syed Nusrat Ali Shah,,6459,4
+NA-51,Muhammad Bilal,,2169,5
+NA-51,Chaudhary Tahir Javed Arain,,1203,6
+NA-51,Riaz Amir alias Abdul Haq,,800,7
+NA-52,Sardar Shuja Muhammad Khan,PML-N,68959,1
+NA-52,Malik   Ghulam Muhammad Tiwana,Independent,44805,2
+NA-52,Iftikhar Hussain Aheer,PPP,3137,3
+NA-52,Sardar   Naveed Haidar Khan,PTI,2090,4
+NA-53,Muhammad Maqbool Ahmad Khan,PML-N,39147,1
+NA-53,Ubaid   Ullah Khan Shadi Khel,PML-Q,36201,2
+NA-53,Imran   Khan,PTI,17859,3
+NA-53,Gul   Hameed Khan Rokhri,Independent,5650,4
+NA-53,Abdul   Rehman alias Babli Khar,Independent,1831,5
+NA-53,Shafa   Ullah Khan,Independent,488,6
+NA-53,Mursaleen Khan Khattak,Independent,379,7
+NA-53,Sardar   Rafiq Khan,Independent,171,8
+NA-54,Inam Ullah Khan Niazi,PML-N,53861,1
+NA-54,Muhammad Humair Hayat Rokhari,Independent,29638,2
+NA-54,Dr.   Sher Afghan Niazi,PPP,20758,3
+NA-54,Abdul   Aziz Khan,NPP,3640,4
+NA-54,Sardar   Rafiq Khan,Independent,1356,5
+NA-55,Muhammad Asghar Khan,Independent,59584,1
+NA-55,Muhammad Zafar Ullah Khan,PML-N,58382,2
+NA-55,Shafa   Ullah Khan,Independent,1834,3
+NA-55,Muhammad Arshad Faqeer,HPG,730,4
+NA-56,Muhammad Zafar Ullah Khan Dhandla,PML-N,60419,1
+NA-56,Rasheed Akbar Khan Nawani,Independent,58462,2
+NA-57,Rana Zahid Tauseef,PML-N,72214,1
+NA-57,Syed   Muhammad Makhdoom,Independnet,19048,2
+NA-57,Mian   Zahid Sarfraz,PML-J,18977,3
+NA-57,Mian   Abdul Saboor Tariq,PTI,1442,4
+NA-58,Rai   Salah Uddin Khan,PML-N,56668,1
+NA-58,Rai   Ejaz Hussain,PPP,30032,2
+NA-58,Rai   Muhammad Jaffar Khan,Independent,4414,3
+NA-58,Muhammad Hayyat Khan,PTI,2194,4
+NA-58,Chaudhary Manzoor Ali,Independent,1717,5
+NA-59,Mian Nasir Ali Khan,PML-N,46339,1
+NA-59,Zahoor   Ahmad Shah,PML-J,22469,2
+NA-59,Khan   Shahadat Ali Khan Baloch,PPP,19869,3
+NA-59,Mahar   Maqbool Ahmad Fatiana,Independent,5230,4
+NA-59,Rao   Khizar Hayat Khan,PTI,1625,5
+NA-59,Mian   Shabbir Hassan Khan,Independent,1252,6
+NA-59,Zulfiqar Ali,Independent,867,7
+NA-59,Muhammad Iqbal,Independent,615,8
+NA-59,Moualna Zia Uddin Azad,Independent,227,9
+NA-60,Safdar ur Rehman,PML-N,69246,1
+NA-60,Chaudhary Muhamamd Abdullah Ghazi,PML-J,16850,2
+NA-60,Rao   Safdar Ali Khan,Independnet,5045,3
+NA-60,Major   (R) Abdul Basir,Independent,4374,4
+NA-61,Mian Muhammad Farooq,PML-N,69035,1
+NA-61,Ch.   Shahid Nazeer Ahmad,PPP,36801,2
+NA-61,Zahid   Nazir,Independent,1387,3
+NA-61,Muhammad Ijaz Virk,Independent,511,4
+NA-61,Muhammad Naeem Tahir,Independent,480,5
+NA-61,Chaudhary Muhammad Rasheed Randhawa,Independent,129,6
+NA-62,Raja Nadir Parvaiz Khan,PML-N,56853,1
+NA-62,Ghulam   Mustafa Bajwa,PPP,22637,2
+NA-62,Gul   Ijaz Chaudhary,PTI,863,3
+NA-62,Abdul   Rehman Mughal,Independent,606,4
+NA-62,Sohail   Iqbal Bajwa,Independent,481,5
+NA-62,Nisar   Ahmad Gujjar,Independent,433,6
+NA-62,Chaudhary Muhammad Akram Randhawa,Independent,425,7
+NA-63,Haji Muhammad Akram Ansari,PML-N,62963,1
+NA-63,Riaz   Ahmad Ansari,PPP,29889,2
+NA-63,Musharraf Ali Khan Advocate,PTI,942,3
+NA-63,Pir   Muhammad Fazal e Haq Rizvi,JMP,154,4
+NA-63,Muhammad Mukhtar Rana,Independent,134,5
+NA-64,Chaudhary Sher Ali,PML-N,69782,1
+NA-64,Sheikh Muhammad Aslam   Guchha,PPP,25242,2
+NA-64,Imtiaz Naveed,PTI,1741,3
+NA-64,Haji Khalid Saeed,PSL,172,4
+NA-65,Mian Abdul Manan,PML-N,72840,1
+NA-65,Mehar   Abdur Rasheed,PPP,25652,2
+NA-65,Mumtaz   Ali Cheema,Independent,7729,3
+NA-65,Mian   Khalid Sarfraz,PTI,2394,4
+NA-65,Chaudhary Hanif Ahmad Dogar,Independent,1475,5
+NA-65,Khawja   Atta Ur Rehman,PPP-SB,309,6
+NA-65,Dr.   Ahmad Saeed Khan,MJA-H,236,7
+NA-66,Qaisar Ahmad Sheikh,PML-N,39272,1
+NA-66,Syed   Muhammad Raza Shah,PML-N,19446,2
+NA-66,Sardarzada Zafar Abbas Syed,PPP,14714,3
+NA-66,Malik   Ghulam Abbas Nissoana,Independent,13390,4
+NA-66,Sardar   Muhammad Ali Shah,Independent,10870,5
+NA-66,Malik   Rab Nawaz Advocate,Independent,836,6
+NA-66,Muhammad Ismail Bodhar Lali,Independent,769,7
+NA-66,Chaudhary Ahmad Khan Daoka,Independent,533,8
+NA-66,Hafiz   Muhammad Abu Bakar,MIP,461,9
+NA-66,Malik   Muhammad Nazeer Umar,PDP,239,10
+NA-66,Hafiz   Fazal Ahmad,JUI,119,11
+NA-67,Moulana Muhammad Rehmat Ullah,PML-N,52911,1
+NA-67,Makhdoomzada Syed Asad Hayyat,PPP,25165,2
+NA-67,Mehar   Muhammad Nawaz,Independent,22681,3
+NA-67,Chaudhary Muhammad Khan Chaddar,PTI,1568,4
+NA-68,Nawab Aman Ullah Khan Sial,PML-N,60490,1
+NA-68,Moulana Azam Tariq,MIP,44796,2
+NA-68,Sahibzada Riaz ul Hassan,Independent,2697,3
+NA-68,Muhammad Zahid,Independent,1081,4
+NA-68,Muhammad Ali Sial,Independent,649,5
+NA-68,M.S   Fakhari,Independent,619,6
+NA-68,Muhammad Ajmal Nawaz Naul,Independent,415,7
+NA-68,Abdul   Ghafor Jhangvi,Independent,332,8
+NA-69,Syeda Abida Hussain,PML-N,68577,1
+NA-69,Makhdoom Syed Faisal Saleh Hayat,PPP,44211,2
+NA-69,Moulana Abdul Ghafor Jhangvi,MIP,4344,3
+NA-69,Syed   Abid Hussain Shah,Independent,1703,4
+NA-70,Sahibzada Muhammad Tahir Sultan,PML-N,70662,1
+NA-70,Sahibzada Muhammad Nazir Sultan,PPP,33483,2
+NA-70,Tajammal Hussain,Independent,2158,3
+NA-70,Mulazim Hussain jafri,Independent,1372,4
+NA-70,Sardar   Azhar Ali Mekan,PTI,822,5
+NA-70,Sahibzada Sultan Abdul Majeed,Independent,670,6
+NA-71,Ch.   Asad Ur Rehman,PML-N,77777,1
+NA-71,Khalid   Ahmad Khan Kharal,PPP,32036,2
+NA-71,Rai   Atiq Ur Rehman,Independent,3743,3
+NA-71,Ghulam   Shabbir Khan,Independent,2754,4
+NA-71,Ch.   Ikram Ul Haq,PTI,2016,5
+NA-71,Chaudhary Muhammad Yousif Majeed,Independent,443,6
+NA-72,Ch. Abdul Sattar S/O Mian Sultan Ali,PML-N,66886,1
+NA-72,Chaudhary Muhammad Ishfaq Ahmad,PPP,29701,2
+NA-72,Abdul Rehman,PTI,2038,3
+NA-72,Chaudhary Abdul Sattar S/O Khair Din,Independent,1848,4
+NA-72,Mian Tanveer Alam Advocate,PML-J,1343,5
+NA-72,Muhammad Hanif,Independent,706,6
+NA-72,Mian Muhammad Javed Iqbal,Independent,621,7
+NA-72,AG Aadil,PPP-Sb,596,8
+NA-72,Muhammad Aslam,Independent,325,9
+NA-72,Mian Manzor Ahmad Advocate,Independent,210,10
+NA-72,Syed Muhammad Ayub Shah,Independent,197,11
+NA-73,Hamza,PML-N,43931,1
+NA-73,Chaudhary Amjad Ali Waraich,Independent,39278,2
+NA-73,Haji   Muhammad Ishaque,PPP,23357,3
+NA-73,Mehr   Muhammad Sadiq,Independent,4474,4
+NA-73,Hamza   Naimat Ali,Independent,1195,5
+NA-73,Ch.   Abdul Hameed Kahloon,PPP-SB,758,6
+NA-73,Mushtaq Ahmad,PTI,432,7
+NA-74,Ghulam Sarwar Cheema,PML-N,68236,1
+NA-74,Hamid   Nasir Chattha,PML-J,45823,2
+NA-74,Chaudhary Hassan Nawaz,PTI,2761,3
+NA-74,Nasrullah Khan,Independent,2492,4
+NA-74,Adnan   Sarwar Cheema,Independent,1977,5
+NA-74,Syed   Safdar Hussain Rizvi,Independent,407,6
+NA-74,Muhammad Fayyaz Chattha,Independent,376,7
+NA-74,Sabir   Ali Chaudhary,Independent,263,8
+NA-74,Malik   Abdur Rehman Sadiq,Independent,207,9
+NA-75,Afzal Hussian Tarar,PML-N,63925,1
+NA-75,Ch.   Mehdi Hussain Bhatti,PPP,51870,2
+NA-75,Chaudhary Nazar Abbas Bhatti,Independent,3144,3
+NA-75,Shahdat Khan Bhatti,PTI,2453,4
+NA-75,Malik   Muhammad Wazir Awan,Independent,2001,5
+NA-75,Mian   Shahid Hussain Khan Bhatti,Independent,558,6
+NA-76,Ghulam Dastgir Khan,PML-N,64108,1
+NA-76,Chaudhary Khalid Humayun,PPP,27044,2
+NA-76,Naveed   Anwar Naveed,PTI,2084,3
+NA-76,Raja   Muhammad Parvaiz Khan,Independent,488,4
+NA-76,Ghulam   Qadir Khan,Independent,301,5
+NA-76,Qari   Muhammad Ikram,JUI-S,232,6
+NA-76,Muhammad Siddique Nadeem,Independent,50,7
+NA-77,Chaudhary Mahmood Bashir Virk,PML-N,64729,1
+NA-77,Khawja   Muhammad Aslam Lone,PPP,27751,2
+NA-77,Khalid   Zafar,PTI,2394,3
+NA-77,Muhammad Iqbal Khan Cheema,NPP,2150,4
+NA-77,Ch.   Muhammad Zahid Javed,Independent,647,5
+NA-77,Rana   Zahoor Ahmad Khan,PPP-SB,462,6
+NA-77,Muhammad Hussain,Independent,234,7
+NA-77,Kh.   Khalid Aziz Lone,Independent,216,8
+NA-78,Rana Nazir Ahmad Khan,PML-N,69009,1
+NA-78,Muhammad Abdullah Virk,PPP,21847,2
+NA-78,Chaudhary Muhammad Boota,PTI,3734,3
+NA-78,Abdul   Ghani,Independent,2598,4
+NA-78,Aijaz   Ahmad Al Khas,PPP-Zab,1457,5
+NA-78,Rana   Zulqarnain Khan,HPG,463,6
+NA-78,Imtiaz   Ahmad Virk,Independent,428,7
+NA-78,Rana   Sagheer Ahmad Khan,Independent,384,8
+NA-78,Malik   Mehdi Hassan Khan,PPP-SB,338,9
+NA-78,Taj   Din Phullanwali Sarkar,Independent,322,10
+NA-79,Chaudhary Ijaz Ahmad,PML-N,58756,1
+NA-79,Ch.   Liaqat Ali Waraich,Independent,26985,2
+NA-79,Sardar   Muhammad Tariq Raza,PPP,21018,3
+NA-79,Gulzar   Hussain,Independent,3165,4
+NA-79,Ijaz   Ahmad,Independent,1256,5
+NA-79,Ghulam   Rasool Ranjha Advocate,Independent,959,6
+NA-79,Alhaj   Chaudhary Muhammad Arshad Aulakh,PPP-ZAB,627,7
+NA-79,Liaqat   Ali,PPP-SB,499,8
+NA-79,Nisar   Ahmad,Independent,410,9
+NA-79,Muhammad Abbas Waraich,Independent,406,10
+NA-79,Ch.   Muhammad Nawaz Virk,Independent,320,11
+NA-79,Mudassar Qayyum Nahra,Independent,294,12
+NA-79,Muhammad Nawaz Malhi,Independent,205,13
+NA-80,Chaudhary Mubasher Hussain,PML-N,87144,1
+NA-80,Nawabzada Ghazanfar Ali Gul,PPP,50716,2
+NA-80,Doctor   Syed Shoukat Hussain,PTI,2063,3
+NA-80,Dr.   Zulfiqar Mehdi Faisal,KT,1567,4
+NA-80,Ch.   Asghar Ali Ghural,Independent,1233,5
+NA-80,Chaudhary Irfan Ahmad Safi,Independent,620,6
+NA-80,Muhammad Ashraf,Independent,491,7
+NA-80,Afrasiab Zafar,Independent,358,8
+NA-81,Chaudhary Shujat   Hussain,PML-N,86903,1
+NA-81,Chaudhary Ahmad Mukhtar,PPP,41126,2
+NA-81,Ch. Tahir Akram,Independent,3444,3
+NA-81,Choudhary Afzaal Anwar,PTI,2992,4
+NA-81,Ch. Ajmal Ali Khawar,Independent,2135,5
+NA-81,Syed Shaukat Kamal,PPP-SB,657,6
+NA-81,Abdul Malik Rehmani,Independent,530,7
+NA-81,Al-Haj Mirza Saeed Baig,AQP,426,8
+NA-81,Mirza Atta Ur Rehman,HPG,196,9
+NA-82,Syed Manzoor Hussain   Shah,PML-N,88093,1
+NA-82,Haji Muhammad Asghar,PPP,44490,2
+NA-82,Ch. Muhammad Farooq,PML-J,9928,3
+NA-82,Shahnaz Ahmad,Independent,3657,4
+NA-82,Arshad Dad,PTI,3547,5
+NA-82,Irfan Saleem,Independent,877,6
+NA-82,Syed Noor Ul Hassan Shah,Independent,746,7
+NA-82,Qamar Zaman,Independent,520,8
+NA-82,Sheikh Qamar u Zaman,Independent,506,9
+NA-82,Chaudhary Ayaz Ahmad,Independent,106,10
+NA-83,Mumtaz Ahmad Tarar,PML-N,64233,1
+NA-83,Zafar   Ullah Tarar,PPP,35104,2
+NA-83,Syed   Mehfoz Ahmad Shah,Independent,14033,3
+NA-83,Masood   Ahmad Aftab,Independent,3131,4
+NA-83,Chaudhary Ghulam Rasool Advocate,Independent,2948,5
+NA-83,Farhat   Hafeez Sabazwari,PPP-ZAB,1509,6
+NA-83,Major   (R) Sher Muhammad Gondal,Independent,864,7
+NA-83,Munawar Hussain Tarar,Independent,644,8
+NA-84,Muhammad Iqbal Bosal,PML-N,56292,1
+NA-84,Nazar   Muhammad Gondal,PPP,30749,2
+NA-84,Umar   Hayat Laleka,Independent,3478,3
+NA-84,Haji   Muhammad Afzal Chun,Independent,2184,4
+NA-84,Chaudhary Faiz Ahmad Advcoate,PTI,1143,5
+NA-84,Ch.   Muhammad Nawaz Bosal,Independent,1074,6
+NA-84,Muhammad Aslam Zouq,Independent,984,7
+NA-85,Khawaja Muhammad Asif,PML-N,64394,1
+NA-85,Mian   Muhammad Naeem ur Rehman,PPP,16126,2
+NA-85,Rana   Nasrullah Khan,PTI,2085,3
+NA-85,Doctor   Hafeez Chechi,PPP-SB,501,4
+NA-85,Syed   Munawar Hussain Babi,Independent,232,5
+NA-85,Manzoor Elahi Malik,Independent,191,6
+NA-86,Chaudhary Ameer Hussain,PML-N,72370,1
+NA-86,Ch.   Khush Akhtar Subhani,PML-J,37667,2
+NA-86,Khalid   javed,Independent,4892,3
+NA-86,Ch.   Abdul Majeed Advcoate,PTI,2691,4
+NA-86,Colonel (R) Mushtaq Khan Khichi,Independent,443,5
+NA-87,Syed Iftikhar Ul Hassan Shah,PML-N,71321,1
+NA-87,Ejaz   Ahmad Cheema,PPP,33061,2
+NA-87,Chaudhary Sadaqat Ali,Independent,13025,3
+NA-87,Ch.   Muhammad Malik Ghumman (Retired),Independent,1603,4
+NA-88,Chaudhary Sikandar Hayat Malhi,PML-N,66203,1
+NA-88,Chaudhary Abdul Sattar,PML-J,32978,2
+NA-88,Muhammad Ahmad,Independent,3357,3
+NA-88,Ghulam   Abbas (Retired),Independent,1714,4
+NA-89,Chaudhary Muhammad Sarwar Khan,PML-N,59340,1
+NA-89,Muhammad Akbar Kahlon,PPP,20413,2
+NA-89,Muhammad Naseer Khan,Independent,2458,3
+NA-89,Pervaiz Sarwar Anjum,PTI,637,4
+NA-89,Ch.   Ghulam Ahmad Khan,Independent,476,5
+NA-89,Chaudhary Tahir Sarwar,Independent,311,6
+NA-89,Mansoor Sarwar,Independent,147,7
+NA-90,Ahsan Iqbal,PML-N,59677,1
+NA-90,Chaudhary Akhtar Ali,PML-J,25387,2
+NA-90,Hamid   Malhi,PTI,1740,3
+NA-90,Chaudhary Anwar Ul Haq,Independent,1354,4
+NA-91,Daniyal Aziz,Independent,36940,1
+NA-91,Chaudhary Muhammad Rafiq,PML-N,30104,2
+NA-91,Muhammad Ishfaq Taj,Independent,11305,3
+NA-91,Muhammad Khalid Chaudhary,PPP,5310,4
+NA-91,Noor   Ali Taj,PTI,794,5
+NA-91,Muhammad Afzal,Independent,758,6
+NA-92,Mian Muhammad Azhar,PML-N,57220,1
+NA-92,Mian   Mehmood Ahmad,PML-J,11914,2
+NA-92,Hasnain Al Makki,PTI,2339,3
+NA-92,Mian   Muhammad Asif,Independent,1018,4
+NA-92,Rana   Muhammad Haleem Khan,HPG,119,5
+NA-93,Mian Abdul Waheed,PML-N,63068,1
+NA-93,Salman   Taseer,PPP,27887,2
+NA-93,Air   Marshal (R) Khurshid Anwar Mirza,PTI,3546,3
+NA-93,Hameed   Ud Din Masharqi,KT,623,4
+NA-93,Syed   Aasim Raza Sherazi,AQP,340,5
+NA-93,Javed   Amin Nayyar,Independent,245,6
+NA-93,Major   (R) Aftab Ahmad Khan Lodhi,TI,159,7
+NA-93,Inam   Ali Bhatti,Independent,58,8
+NA-94,Tariq Aziz,PML-N,50227,1
+NA-94,Mian   Misbah Ur Rehman,PPP,17821,2
+NA-94,Imran   Khan,PTI,4595,3
+NA-94,Mian   Naveed Aziz,PPP-SB,435,4
+NA-94,Almas   Haidar Kazmi,HPG,312,5
+NA-94,Doctor   Qari Ashfaqullah,PML-Qasim,186,6
+NA-94,Farooq   Tariq,AL,179,7
+NA-94,Faisal   Mehmood Khan Advocate,PDP,63,8
+NA-94,Haji   Muhammad Iqbal Chaudhary,Independent,51,9
+NA-95,Mian Muhammad Nawaz Sharif,PML-N,50592,1
+NA-95,Hafiz   Ghulam Mohi uddin,PPP,9623,2
+NA-95,Imran   Khan,PTI,5365,3
+NA-95,Sheikh   Muhammad Anwar Saeed,Independent,359,4
+NA-95,Raja   Abdul Sattar,PPP-SB,223,5
+NA-95,Doctor   Khaqan Bakhat Yawar Khan,Independent,133,6
+NA-95,Muhammad Ashfaq Chaudhary,Independent,72,7
+NA-95,Doctor   Nawab Amber Shahzada,Independent,55,8
+NA-95,Jamil   Asghar Khizri,Independent,46,9
+NA-95,Hussain Abbas Advocate,PAP,38,10
+NA-96,Mian Muhammad Shahbaz Sharif,PML-N,47614,1
+NA-96,Muhammad Hanif Ramay,PPP,10410,2
+NA-96,Khawaja Shabahuddin,PTI,2125,3
+NA-96,Zafar   Ullah Khan,WP,168,4
+NA-96,Doctor   Abdul Qayyum Khan,KT,168,5
+NA-97,Muhammad ishaq Dar,PML-N,61556,1
+NA-97,Prof.   Ijaz Ul Hassan,PPP,16958,2
+NA-97,Doctor   Parvaiz Hassan,PTI,7811,3
+NA-97,Chaudhary Ali Hussain,HPG,386,4
+NA-97,Muhammad Naveed Chaudhary,PPP-SB,364,5
+NA-97,Tariq   Atta,Independent,251,6
+NA-97,Syed   Ahmad Saeed Karmani,Independent,79,7
+NA-98,Mian Muhammad Munir,PML-N,55606,1
+NA-98,Mian   Aziz Ur Rehman Chan,PPP,13802,2
+NA-98,Hamid   Khan Advocate,PTI,5923,3
+NA-98,Zahid   Bashir,Independent,329,4
+NA-98,Ghulam   Nabi Bhatti Allahwala,PDP,112,5
+NA-98,Malik   Muhammad Aslam,Independent,86,6
+NA-98,Syed   Mehmood Ali,Independent,54,7
+NA-98,Rana   Ahmad Saeed Advocate,Independent,52,8
+NA-98,Muhammad Yaqoob Sidhu,Independent,36,9
+NA-99,Sardar Kamil Umar,PML-N,50387,1
+NA-99,Malik   Shah Muhammad Mohsin,PPP,16901,2
+NA-99,Doctor   Chaudhary Zahid Akram Natt,Independent,4834,3
+NA-99,Arif   Zia,Independent,989,4
+NA-99,Sohail   Asghar Ghurki,Independent,354,5
+NA-99,Shaukat Ali,Independent,253,6
+NA-99,Muhammad Idrees,PTI,215,7
+NA-99,Chaudhary Kamran Siddque,Independent,79,8
+NA-100,Chaudhary Muhammad Aasiq Diyal,Independent,28589,1
+NA-100,Shaukat Ali,PML-N,28089,2
+NA-100,Chaudhary Khalid Javed Ghurki,PPP,19804,3
+NA-100,Ijaz   Ahmad Diyal,Independent,589,4
+NA-100,Chaudhary Shabbir Ahmad Khan,Independent,438,5
+NA-100,Samina   Khalid Ghurki,Independent,434,6
+NA-100,Abdul   Waheed,Independent,310,7
+NA-101,Rana Tanveer Hussain,PML-N,66902,1
+NA-101,Nissar   Ahmad Puno,PPP,26192,2
+NA-101,Muhammad Saleem,Independent,3886,3
+NA-101,Mian   Ali Asghar,PTI,3524,4
+NA-101,Chaudhary Muhammad Anwar,Independent,728,5
+NA-101,Rana   Muhammad Sarwat Iqbal,WP,235,6
+NA-102,Mahmood Akbar Khan,PML-N,67003,1
+NA-102,Haji   Munawar Hussain Manj,PPP,33603,2
+NA-102,Qaisar   Zulfiqar Bhatti,Independent,1980,3
+NA-102,Chaudhary Muhammad Inam Ullah,PTI,1931,4
+NA-102,Malik   Riasat Ali,PPP-SB,1639,5
+NA-102,Ch.   Muhammad Khan Manjj,Independent,619,6
+NA-103,Chaudhary Barjees Tahir,PML-N,52199,1
+NA-103,Rai   Ejaz Ahmad Khan,PPP,22705,2
+NA-103,Mian   Shahid Haidar,PTI,5493,3
+NA-103,Ishtiaq Ahmad Cheema,Independent,2748,4
+NA-103,Begum   Farkhanda Rai,PPP-SB,2425,5
+NA-103,Malik   Maqsood Ahmad Awan,Independent,1198,6
+NA-103,Nazar   Hussain Sanaya,Independent,863,7
+NA-103,Abdul   Latif Anwar,JUI-S,265,8
+NA-104,Ch.   Naeem Hussain Chatta,PML-N,72038,1
+NA-104,Chaudhary Tawakkal Ullah Virk,PPP,28296,2
+NA-104,Ch.   Muhammad Sadiq Dhillon,PTI,2760,3
+NA-104,Sheikh   Babar Nasim,PPP-SB,1640,4
+NA-104,Muhammad Saleem Akhtar,AQP,1545,5
+NA-104,Malik   Noor Hussain Noorka,Independent,1020,6
+NA-105,Rai   Mansab Ali Khan,PML-N,44049,1
+NA-105,Mehar   Saeed Ahmad Zafar,Independent,24952,2
+NA-105,Rai   Bashir Ahmad Khan Bhatti,PPP,11269,3
+NA-105,Rai   Sarwar Khan Kharal,PPP-Zab,2193,4
+NA-105,Ashraf   Ali Javid,SI,388,5
+NA-105,Mahar   Rang Elahi,Independent,357,6
+NA-105,Rai   Saleem Ur Rehman Bhatti,PTI,303,7
+NA-105,Haji   Rai Muhammad Nawaz Kharral,Independent,259,8
+NA-106,Mian Khurshid Mehmood Kasuri,PML-N,62215,1
+NA-106,Sardar   Aasef Ahmad Ali,PML-J,27429,2
+NA-106,Mehar   Muhammad Rafiq,Independent,3910,3
+NA-106,Sardar   Muhammad Hussain,Independent,1642,4
+NA-106,Habib   Ullah Khan,PTI,904,5
+NA-106,Bakhtiar Mehmood,Independent,839,6
+NA-106,Sardar   Qaisar Ali Khan,ANP,535,7
+NA-106,Sardar   Haroon Ahmad Ali,Independent,310,8
+NA-107,Chaudhary Muhammad Hanif Khan,PML-N,50927,1
+NA-107,Mazhar   Hayyat,PML-J,22854,2
+NA-107,Muhammad Hussain Ansari,Independent,6743,3
+NA-107,Syeda   Nealofar Mehdi,Independent,3860,4
+NA-107,Muhammad Arshad,PTI,2157,5
+NA-107,Sahibzada Ahmad Raza Khan Kasuri,Independent,1022,6
+NA-107,Malik   Waqar Ahmad Khan Naul,Independent,269,7
+NA-108,Rana Muhammad Hayat Khan,PML-N,66990,1
+NA-108,Sardar   Talib Hussain Nakai,PML-J,32160,2
+NA-108,Sardar   Parvaiz Hussain Nakei,Independent,1569,3
+NA-108,Rana   Muhammad Arif,Independent,878,4
+NA-109,Moulana Moeen Uddin Lakhvi,PML-N,59977,1
+NA-109,Sardar   Muhammad Arif Nakai,PML-J,22652,2
+NA-109,Abdul   Aziz Azizi,JUI-S,8120,3
+NA-109,Sardar   Muhammad Ashiq,Independent,2264,4
+NA-109,Sardar   Javed Iqbal,Independent,1551,5
+NA-110,Mian Muhammad Zaman,PML-N,53567,1
+NA-110,Rao   Sikandar Iqbal,PPP,34365,2
+NA-110,Mian   Yawar Zaman,Independent,2352,3
+NA-110,Rao   Abdul Majeed Khan,Independent,1125,4
+NA-110,Dr.   Manzoor Ul Hassan,PTI,783,5
+NA-110,Muhammad Shafi,Independent,470,6
+NA-110,Wing   Commander (R) Ehsan Ul Haq,Independent,194,7
+NA-110,Mian   Muhammad Atiq Ur Rehman,PDP,151,8
+NA-111,Syed Sajjad Haidar,PML-N,49023,1
+NA-111,Shafqat Abbas Rabhera,PPP,39416,2
+NA-111,Chaudhary Mumtaz Ali,Independent,4461,3
+NA-111,Rai   Muhammad Khalid Kharal,Independent,1877,4
+NA-111,Chaudhary Mehmood Ahmad Gill,PTI,1227,5
+NA-111,Rai   Ahmad Hassan Kharal,Independent,346,6
+NA-112,Rao   Qaisar Ali Khan,PML-N,47697,1
+NA-112,Mian   Manzoor Ahmad Watto,PML-J,26449,2
+NA-112,Rao   Muhammad Ajmal,PPP,16166,3
+NA-112,Mian   Ahmad Shujah Watto,Independent,3076,4
+NA-112,Doctor   Syed Asmat Abbas,PTI,1814,5
+NA-112,Rao   Muhammad Safdar Khan,AIMP,462,6
+NA-113,Mian Muhammad Yasin Watto,PML-N,48960,1
+NA-113,Mian   Manzoor Ahmad Watto,PML-J,46403,2
+NA-113,Mian   Muhammad Ferooz Khan,PPP,4864,3
+NA-113,Muhammad Saeed Ladhuka,PTI,421,4
+NA-114,Haji Sikandar Hayat Bosan,PML-N,67320,1
+NA-114,Syed   Yousif Raza Gillani,PPP,44603,2
+NA-114,Abdur   Rehman Khan,PTI,1385,3
+NA-114,Syed   Ahmad Mujtaba Gillani,Independent,1090,4
+NA-114,Zafar   Ali Bosan,Independent,1081,5
+NA-114,Muhammad Ramzan,HPG,245,6
+NA-114,Muhammad Latif Ansar,Independent,138,7
+NA-115,Haji Muhammad Boota,PML-N,56331,1
+NA-115,Malik   Salah Uddin Dogar,PPP,24366,2
+NA-115,Muhammad Arif Sheikh,PTI,2390,3
+NA-115,Abdul   Latif Rao,PPP-Zab,482,4
+NA-115,Muhammad Nadeem Qureshi,ANP,286,5
+NA-115,Ishaq   Khan Khakwani (Retired),PPP-Sb,274,6
+NA-115,Manshad Ali Qureishi,HPG,199,7
+NA-115,Syed   Muhammad Zaman Shah,Independent,99,8
+NA-115,Pirzada Moen Uddin Qureshi,PSL,69,9
+NA-116,Sheikh Muhammad Tahir Rasheed,PML-N,47322,1
+NA-116,Syed   Tanveer Ul Hassan Gillani,PPP,30874,2
+NA-116,Mian   Mukhtar Ahmad,Independent,1294,3
+NA-116,Muhammad Bilal Khan Laghari,Independent,812,4
+NA-116,Ikram   Uddin,PSL,179,5
+NA-117,Ghulam Qasim Khan,PML-N,72957,1
+NA-117,Rana Mumtaz Ahmad Khan Noon,PPP,47501,2
+NA-117,Rana Riaz Ahmad Khan Noon,Independent,3429,3
+NA-117,Syed Nasir Ali Rizvi,Independent,645,4
+NA-117,Sardar Sikandar Hayat Khan,PTI,605,5
+NA-118,Muhammad Siddique Khan Kanjo,PML-N,82287,1
+NA-118,Mirza   Muhammad Nasir Baig,PPP,40236,2
+NA-118,Mian   Muhammad Tufail Thakkar,HPG,1468,3
+NA-118,Mian   Aziz Ahmad jandeer,PTI,985,4
+NA-118,Syed   Nasir Ali Rizvi,Independent,548,5
+NA-119,Syed Javed Ali Shah,PML-N,71953,1
+NA-119,Malik   Ghulam Abbas Khakhi,PPP,38173,2
+NA-119,Rana   Muhammad Qasim Noon,Independent,1780,3
+NA-119,Colonel (R) Muhammad Younas Ali,PTI,1606,4
+NA-119,Hafiz   Ghulam Haidar,HPG,790,5
+NA-119,Chaudhary Muhammad Hanif Meo,Independent,635,6
+NA-120,Makhdoom Muhammad Javed,PML-N,59675,1
+NA-120,Shah   Mehmood Qureshi,PPP,49346,2
+NA-120,Riaz   Hussain Wahla,Independent,3365,3
+NA-120,Syed   Makhdoom Ghulam Jillani,Independent,1208,4
+NA-120,Akhtar   Hussain Wahla,PTI,956,5
+NA-120,Arshad   Hussain Maitla,Independent,652,6
+NA-120,Iftikhar Akhtar Randhawa,HPG,536,7
+NA-121,Syed Fakhar Imam Shah,PML-N,56225,1
+NA-121,Raza   Hayyat Hiraj,PPP,49251,2
+NA-121,Rao   Khalid Mehmood,Independent,1166,3
+NA-121,Iftikhar Ahmad Haqani,JUI-F,1113,4
+NA-121,Syed   Faisal Imam Shah,Independent,325,5
+NA-122,Major (R) Aftab Ahmad Daha,PML-N,60525,1
+NA-122,Sardar   Allah Yar Hiraj,PPP,36936,2
+NA-122,Hameed   Ullah Khan Niazi,PTI,2271,3
+NA-122,Aman   Ullah Khan,Independent,1300,4
+NA-122,Javed   Iqbal Hashmi,Independent,563,5
+NA-123,Majeeda Wyen,PML-N,68701,1
+NA-123,Pir   Muhammad Aslam Bodla,PPP,36932,2
+NA-123,Peer   Arif Zaman Qureshi,Independent,7978,3
+NA-123,Pir   Shujat Hussain Qureshi,Independent,4183,4
+NA-123,Azhar   Maqbool Shah Advocate,PTI,966,5
+NA-123,Muhammad Younis,Independent,684,6
+NA-123,Qari   Muhammad Safdar Javid,JUI,398,7
+NA-123,Mehar   Muhammad Afzal Dhillon,JUP,141,8
+NA-123,Tauqeer Abbas Shah,Independent,84,9
+NA-124,Mian Anwar Ul Haq Ramay,PML-N,71832,1
+NA-124,Chaudahry Nauraiz Shakoor,PPP,32692,2
+NA-124,Shabbir Ali Ahmad Khan,Independent,2341,3
+NA-124,Rana Muhammad Hanif Khan,PTI,1373,4
+NA-124,Muhammad Ashraf Akhtar Walaytia,Independent,691,5
+NA-125,Chaudhary Muhammad Ashraf,PML-N,75214,1
+NA-125,Mehar   Ghulam Farid Kathia,PPP,24807,2
+NA-125,Muhammad Saeed Bhutta,NPP,2543,3
+NA-125,Doctor   Rai Shabbir Ahmad Kharal,PPP-Zab,1755,4
+NA-125,Ghulam   Farid,Independent,1470,5
+NA-125,Haji   Hafeez Ul Haq Advocate,PTI,1454,6
+NA-125,Ch.   Muhammad Rafique Zafar ( Retired ),Independent,1000,7
+NA-126,Rai   Ahmad Nawaz,PML-N,85145,1
+NA-126,Begum   Shahnaz Javed,PPP,39900,2
+NA-126,Dr.   Imam Bakhsh Advocate,PTI,1752,3
+NA-126,Malik   Iqbal Ahmad Langrial,Independent,712,4
+NA-127,Raja Shahid Saeed Khan,PML-N,66563,1
+NA-127,Mian   Muhammad Amjad Joiya,PPP,42765,2
+NA-127,Chaudhary Shahbaz Wains,Independent,2085,3
+NA-128,Mehmood Ahmad Khan,PML-N,67413,1
+NA-128,Rao   Muhammad Hashim Khan,PPP,38456,2
+NA-128,Mian   Ghulam Muhammad Ahmad Khan Manika,Independent,8226,3
+NA-128,Mian   Ahmad Raza Manika,Independent,2352,4
+NA-128,Sardar   Mansib Ali Dogar,Independent,1338,5
+NA-129,Muhammad Nawaz alias Dilawar Khan Khichi,PML-N,90967,1
+NA-129,Noor   Muhammad Khan Bhaba,PPP,36678,2
+NA-129,Mian   Haq Nawaz,PTI,3062,3
+NA-129,Khizar   Hayat Khan Bhabha,Independent,1769,4
+NA-129,Malik   Riaz Muhammad Miswan,Independent,970,5
+NA-130,Tahmina Daultana,PML-N,70335,1
+NA-130,Akbar   Ali Bhatti,Independent,42355,2
+NA-130,Ishaq   Khan Khakwani,PPP,7852,3
+NA-130,Haji   Zafar Ali Shah,Independent,2675,4
+NA-130,Mian   Allah Bakhash Soru,AQP,756,5
+NA-131,Syed Shahid Mehdi Nasim,PML-N,75281,1
+NA-131,Qurban   Ali Chohan,PPP,47090,2
+NA-131,Chaudhary Muhammad Iqbal Gujjar,PTI,1664,3
+NA-131,Abdul   Rashid Bhatti,Independent,1292,4
+NA-131,Malik   Muhammad Iqbal,Independent,438,5
+NA-132,Muhammad Amjad Farooq Khan Khosa,PML-N,73302,1
+NA-132,Sardar   Mansoor Ahmad Khan Leghari,Independent,59761,2
+NA-132,Khawja   Jamal Ud Din Asghar,PPP,3005,3
+NA-132,Sardar   Muhammad Jamal Khan,Independent,2732,4
+NA-132,Muhammad Akbar Khan Hotani,Independent,2731,5
+NA-132,Dilshad Ahmad Shaheen,Independent,568,6
+NA-132,Maulana Fazal Ur Rehman,JUI-F,155,7
+NA-133,Muhammad Jaffar Khan Leghari,Independent,69532,1
+NA-133,Imtiaz   Ahmad Khan Laghari,PML-N,48977,2
+NA-133,Malik   Muhammad Iqbal Arain,PPP,9817,3
+NA-133,Saif   Uddin Khan Khosa,Independent,3212,4
+NA-133,Sardar   Mansoor Ahmad Khan Laghari,Independent,2716,5
+NA-133,Sardar   Owais Ahmad Khan Leghari,Independent,2173,6
+NA-133,Muhammad Yousif Khan Leghari,Independent,1471,7
+NA-134,Sardar Nasrullah Khan Dreshik,Independent,73112,1
+NA-134,Mir   Balkh Sher Mazari,Independent,37768,2
+NA-134,Muhammad Sadiq Khan Sherwani,PML-N,18839,3
+NA-135,Syed Jamil Ahmad Hussain Bukhari,PML-N,67542,1
+NA-135,Sardar   Abdul Qayyum Khan Jatoi,PPP,40880,2
+NA-135,Haji   Rasool Bux Khan,Independent,3275,3
+NA-135,Makhdoom Syed Abdullah Shah Bukhari,Independent,1410,4
+NA-135,Manzoor Ahmad Malik,PTI,662,5
+NA-135,Moulana Shah Ahmad Noorani,Independent,383,6
+NA-136,Mian Atta Muhammad Qureshi,PML-N,48505,1
+NA-136,Nawabzada Nasrullah Khan,PDP,46096,2
+NA-136,Ghulam   Muhammad Mustafa Khar,Independent,14415,3
+NA-137,Malik Ghulam Muhammad Noor Rabbani Khar,,61482,1
+NA-137,Malik Ghulam Muhammad Fakhar ur Rusul Arbi Khar,,14293,2
+NA-137,Allah Bakhash Mujahid,,11527,3
+NA-137,Sheikh Muhammad Hussain,,8149,4
+NA-137,Pir Abdul Munam Bodla,,1365,5
+NA-137,Dr. Syed Athar Mehdi Shah Kazmi,,725,6
+NA-137,Ahmad Ali Khan,,522,7
+NA-138,Mian Ghulam Abbas Qureshi,PML-N,71852,1
+NA-138,Malik   Ghulam Muhammad Mustafa Khar,Independent,25910,2
+NA-138,Mian   Salman Afaq,PPP,2355,3
+NA-138,Qari   Abdul Karim,Independent,1438,4
+NA-138,Niaz   Ahmad Khan Buzdar,PML-J,1227,5
+NA-138,Mian   Amjad Abbas Qureshi,Independent,1127,6
+NA-138,Umar   Farooq Ahsan Qureshi,PTI,519,7
+NA-138,Chaudhary Muhammad Abdullah,HPG,217,8
+NA-139,Malik Ghulam Haidar Thind,PML-N,63098,1
+NA-139,Malik   Niaz Ahmad Jhakhar,PPP,37933,2
+NA-139,Zafar   Iqbal Mughal,PTI,2303,3
+NA-140,Sahibzada Faiz ul Hassan Sehwag,PML-N,50710,1
+NA-140,Muhammad Jahangir Khan,PPP,28444,2
+NA-140,Syed   Muhammad Hassan,Independent,13557,3
+NA-140,Syed   Faizul Hassan,PTI,1677,4
+NA-140,Manzor   Hussain,Independent,998,5
+NA-140,Chaudhary Ghulam Farooq,Independent,374,6
+NA-140,Malik   Mushtaq Ahmad Samtia,Independent,124,7
+NA-141,Nawab Salah Ud Din Abbasi,PML-N,86867,1
+NA-141,Shahzada Saeed Ur Rasheed Mehmood Abbasi,Independent,28709,2
+NA-141,Farood   Ahmad Malik,PTI,7374,3
+NA-142,Shahzada Farooq Anwar Abbasi,PML-N,76518,1
+NA-142,Chaudhary Mumtaz Ahmad Jajja,PML-J,30611,2
+NA-142,Raja   Mukhtar Ali,PTI,2386,3
+NA-142,Muhammad Javed Khan Daulatzai,Independent,2001,4
+NA-142,Mian   Ehsan Bari,Independent,1472,5
+NA-142,Mian   Muhammad Azahar,Independent,1465,6
+NA-142,Naseem   Ahmad Khan,HPG,982,7
+NA-142,Malik   Muhammad Bilal,Independent,344,8
+NA-143,Seth Aqeel ur Rehman,PML-N,67215,1
+NA-143,Riaz Hussain Pirzada,PPP,37216,2
+NA-144,Doctor Noor Muhammad Ghaffari,PML-N,70015,1
+NA-144,Syed   Rashid Ahmad Shah,PML-J,34065,2
+NA-144,Doctor   Mian Akhtar Ali Lalika,JUI-S,14796,3
+NA-144,Mian   Akhtar Saeed Watto,PTI,1628,4
+NA-144,Zafar   Ahmad Chishti,PPP-SB,1054,5
+NA-145,Mian Abdul Sattar Laleka,PML-N,72440,1
+NA-145,Mian   Mamtaz Ahmad Matiana,PPP,49033,2
+NA-145,Muhammad Tahir Mehmood,Independent,6154,3
+NA-145,Engineer Shafiq Metla,PTI,1442,4
+NA-145,Doctor   Ehsan Bari Mian,Independent,1393,5
+NA-145,Mian   Allah Dad Khan Laleka,Independent,819,6
+NA-145,Ali   Muhammad Khan,Independent,540,7
+NA-145,Chaudhary Muhammad Sharif,Independent,288,8
+NA-146,Chaudhary Abdul Ghafoor,PML-N,72181,1
+NA-146,Ali   Akbar Mazhar Wains,PPP,45590,2
+NA-146,Muhammad Bashir,Independent,10752,3
+NA-146,Doctor   Sahib Ehsan Bari Mian,Independent,1479,4
+NA-146,Choudhary Nazir Ahmad,PTI,1458,5
+NA-146,Doctor   Mian Akhtar Ali Lalika,Independent,486,6
+NA-146,Mian   Allah Dad Khan Laleka,Independent,238,7
+NA-147,Makhdoom Syed Ahmad Mehmood,PML-N,62052,1
+NA-147,Makhdoom Syed Ahmad Alam Anwar,PPP,54459,2
+NA-147,Rais Mushtaq Ahmad,Independent,2481,3
+NA-147,Mian Ehsan Bari,Independent,1991,4
+NA-147,Haji Muhammad Saif Ullah Khan (Rtd),Independent,1659,5
+NA-147,Rais Ghulam Muhammad,PTI,1441,6
+NA-148,Makhdoom Imad uddin,PML-N,68742,1
+NA-148,Makdoom Shahab Ud din,PPP,42683,2
+NA-148,Abdul   Majeed Kanju,SNP,2940,3
+NA-148,Doctor   Muhammad Alam Khan Naro,Independent,1311,4
+NA-149,Chaudhary Muhammad Jaffar Iqbal,,76201,1
+NA-149,Ch. Zafar Iqbal Waraich,,40301,2
+NA-149,Doctor Ehsan Bari Mian,,2909,3
+NA-149,Javid Muhammad Khan Niazi,,1347,4
+NA-149,Makhdoom Safdar Hussain,,1287,5
+NA-149,Chaudhary Iftikhar Muhammad,,948,6
+NA-149,Abdul Majeed Kanju,,612,7
+NA-149,Muhammad Sarwar Akhtar,,492,8
+NA-149,Engineer Javed Akhtar,,422,9
+NA-149,Muhammad Azim Solangi,,341,10
+NA-150,Syed Ahmad Mehmood,PML-N,76440,1
+NA-150,Sardar   Rafiq Haidar Khan Leghari,PPP,42687,2
+NA-150,Sahir   Zaki,PTI,2017,3
+NA-150,Muhammad Akbar Pehalwan,HPG,1271,4
+NA-151,Syed Khurshid Ahmad Shah,PPP,42459,1
+NA-151,Islama   ud Din Shaikh,Independent,36369,2
+NA-151,Pirzada Abdul Majeed,PPP-SB,4869,3
+NA-151,Naeam   Siddiqui,HPG,2980,4
+NA-151,Syed   Abid Shah Musvi,PML-N,2872,5
+NA-151,Abdul   Qayyum Qureshi,Independent,329,6
+NA-151,Syed   Parvaiz Ali Shah,Independent,303,7
+NA-151,Shahid   Hussain Mangi,Independent,238,8
+NA-151,Fazal   Rehman Paracha,Independent,216,9
+NA-151,Agha   Fakhar uddin Khan,Independent,169,10
+NA-151,Lashkar Ali Khan Sheikh,Independent,152,11
+NA-151,Farukh   Adil Sheikh,Independent,143,12
+NA-151,Haji   Yar Muhammad Ghumro,Independent,116,13
+NA-151,Syed   Javed Hussain Shah,Independent,100,14
+NA-151,Hidayat Ullah,Independent,97,15
+NA-151,Zafar   Khan Gadi Pathan,Independent,86,16
+NA-151,Rahim   Bakhash,Independent,70,17
+NA-151,Ali   Nawaz Shah,Independent,64,18
+NA-151,Seth   Muhammad Tajdar,Independent,59,19
+NA-151,Chohan   Manzoor Ali Sajidi,Independent,50,20
+NA-151,Najam   Ud din Shaikh,Independent,44,21
+NA-152,Ali   Muhammad Khan Mehar,PPP,51816,1
+NA-152,Sardar   Haji Khan,Independent,11840,2
+NA-152,Molana   Abdul Qayyum Halejivi,JUI-F,8457,3
+NA-152,Muhammad Sabir Kamboh,HPG,948,4
+NA-152,Aman   Ullah,Independent,637,5
+NA-152,Sardar   Ali Gohar Khan Mahar,Independent,228,6
+NA-152,Faiz   Ullah Korai,Independent,214,7
+NA-152,Abdul   Kalam Shah,Independent,212,8
+NA-152,Abdul   Latif Shah Jillani,Independent,190,9
+NA-152,Jam   Saif ullah Khan Dharijo,Independent,187,10
+NA-153,Khalid Ahmad Khan Lund,PPP,46385,1
+NA-153,Faqir   Abdul Haq alias Mian Mitho,Independent,31825,2
+NA-153,Molvi   Muhammad Ishaque,JUI-F,2583,3
+NA-153,Haji   Ahmad Yar Khan,Independent,840,4
+NA-153,Shabrati,Independent,772,5
+NA-153,Mian   Farooq Ahmad,Independent,463,6
+NA-153,Muhammad Amin Somro,Independent,261,7
+NA-154,Aftab Shahban Mirani,PPP,20806,1
+NA-154,Moulvi   Muhammad Alim Pahore,JUI-F,19069,2
+NA-154,Junaid   Ahmad Somoro,PPP-SB,18649,3
+NA-154,Iftikhar Somoro,Independent,11771,4
+NA-155,Ghous Bakhash Khan Mahar,Independent,27009,1
+NA-155,Wahid   Bux Khan Bhayo,PPP,20038,2
+NA-155,Abdul   Qadir Ghumro,Independent,970,3
+NA-155,Agha   Sher Khan,Independent,584,4
+NA-155,Agha   Rafi Uddin,Independent,311,5
+NA-155,Agha   Siraj Khan,Independent,253,6
+NA-155,Ghulam   Rasool Abro,Independent,151,7
+NA-155,Agha   Masih Ud Din,Independent,123,8
+NA-156,Ellahi Bux Somro,PML-N,33700,1
+NA-156,Khawand Bakhash Somoro,PPP,21000,2
+NA-156,Mir   Ahmad Nawaz Jakhrani,PPP-SB,14672,3
+NA-156,Mir   Faiz Muhammad Dool,JUI-F,4747,4
+NA-156,Shafi   Muhammad,Independent,1447,5
+NA-156,Kashmir Khan Jakhrani,Independent,1444,6
+NA-156,Aijaz   Hussain Jakhrani,Independent,774,7
+NA-156,Asghar   Ali Panhwar,Independent,259,8
+NA-157,Mir   Hazar Khan Bajarani,PPP-SB,41325,1
+NA-157,Mir   Imran Khan Bajarani,PPP,21979,2
+NA-157,Moulana Mufti Ghulam Ullah,JUI-F,7264,3
+NA-157,Mir   Hussain Khan,PML-N,1756,4
+NA-157,Shabir   Ali Khan,Independent,1269,5
+NA-157,Nawab   Din,JWP,363,6
+NA-158,Ghulam Mustafa Khan Jatoi,,49334,1
+NA-158,Haji Rehmat Ullah Behan,,24405,2
+NA-158,Syed Mithal Shah,,4571,3
+NA-158,Moulana Muhammad Hassan Bangash,,959,4
+NA-158,Mohammad Younis Behan,,540,5
+NA-158,Khan Muhammad Jamali,,284,6
+NA-158,Syed Zafar Ali Shah,,220,7
+NA-158,Dil Muhammad Jamali,,205,8
+NA-158,Ghulam Rasool Jatoi,,159,9
+NA-158,Zulfiqar Ali Behan,,146,10
+NA-158,Masroor Khan Jatoi,,117,11
+NA-158,Ghulam Qadir Khan Chandio,,115,12
+NA-158,Mumtaz Ali Jamali,,94,13
+NA-158,Arif Mustafa Jatoi,,76,14
+NA-158,Abdul Rasheed,,74,15
+NA-159,Syed Asgahr Ali Shah,PML-N,38080,1
+NA-159,Mian   Khalid Rajpar,PPP,28468,2
+NA-159,Ghulam   Rasool Jatoi,NPP,27454,3
+NA-159,Zafar   Ali Shah,PPP-SB,13536,4
+NA-159,Abdul   Sattar Abbasi,Independent,2047,5
+NA-159,Muhammad Luqman Sial,Independent,981,6
+NA-159,Ghulam   Asghar Abbasi,Independent,502,7
+NA-159,Rias   Ghulam Murtaza Khan Jatoi,Independent,282,8
+NA-159,Arif   Mustafa Jatoi,Independent,221,9
+NA-159,Munawar Ali Shah,Independent,213,10
+NA-159,Ghulam   Hassan Abbasi,Independent,149,11
+NA-159,Muhammad Sharif Malik,HPG,132,12
+NA-159,Nadir   Ali Rajpar,Independent,115,13
+NA-160,Syed Shaukat Hussain Shah,PML-N,37964,1
+NA-160,Faryal   Talpur,PPP,29634,2
+NA-160,Abdul   Rauf Khan,HPG,15163,3
+NA-160,Syed   Noor Ahmad Shah,PPP-SB,6200,4
+NA-160,Kamran   Azizullah Abro,Independent,911,5
+NA-160,Khan   Muhammad Khaskheli,Independent,586,6
+NA-160,Rais   Elahi Bakhash Dahri,Independent,509,7
+NA-160,Rao   Muhammad Yaqoob Khan,Independent,358,8
+NA-160,Mumtaz   Ali Jamali,Independent,354,9
+NA-160,Syed   Azam Hussain Shah,PMI,252,10
+NA-160,Syed   Nawaz Ali Shah,Independent,225,11
+NA-160,Inayat   Ali Rind,Independent,187,12
+NA-160,Muhammad Akram Mirza,PTI,178,13
+NA-160,Khan   Muhammad Jamali,Independent,150,14
+NA-160,Hakim   Ali Zardari,Independent,73,15
+NA-161,Syed Shabbir Ahmad Shah,PML-N,40043,1
+NA-161,Mushtaq Ahmad Rahu,PPP,26731,2
+NA-161,Sardar   Asif Ali Dahri,PPP-SB,4570,3
+NA-161,Sardar   Jam Tammachi Unar,Independent,850,4
+NA-161,Faryal   Talpur,Independent,601,5
+NA-161,Syed   Photal Shah,Independent,583,6
+NA-161,Moula   Bakhash Khaskheli,Independent,408,7
+NA-161,Hakim   Ali Zardari,Independent,183,8
+NA-161,Ghulam   Mustafa Shah,Independent,180,9
+NA-161,Aasim   Kabeer,HPG,155,10
+NA-162,Syed Ghous Ali Shah,PML-N,58136,1
+NA-162,Syed   Asad Ali Shah,PPP,50984,2
+NA-162,Pir   Sibghat Ullah Shah,Independent,7660,3
+NA-162,Irshad   Jillani,PPP-SB,4170,4
+NA-162,Tahir   Imtiaz Phulpoto,Independent,1655,5
+NA-162,Araz   Muhammad Gopang,Independent,1445,6
+NA-162,Syed   Shabbir Haidar Shah,Independent,833,7
+NA-162,Tauseef Ullah Shaikh,PTI,286,8
+NA-162,Syed   Qaim Ali Shah,Independent,209,9
+NA-162,Syed   Zahid Hussain Shah,Independent,140,10
+NA-162,Doctor   Hassan Ali Solangi,Independent,139,11
+NA-162,Shafi   Muhammad Chandio,Independent,132,12
+NA-162,Syed   Shakir Ali Shah,Independent,90,13
+NA-162,Muhammad Ali Kalhoro,Independent,63,14
+NA-163,Peer Syed Fazal Ali Shah Jillani,PPP,53498,1
+NA-163,Syed Sadar Uddin Shah,Independent,45804,2
+NA-163,Pir Syed Niaz Hussain Shah Jellani,PML-N,15267,3
+NA-163,Makhdoom Muhammad Rafiq,PPP-SB,3718,4
+NA-163,Fakir   Bakhat Ali Hasbani,UNA,1770,5
+NA-163,Pir   Syed Haji Gul Shaha Jillani,Independent,495,6
+NA-163,Syed   Shakir Ali Shah,Independent,373,7
+NA-163,Peer   Syed Aashiq Mohyuddin Shah,Independent,95,8
+NA-164,Begum Nusrat Bhutto,PPP,39045,1
+NA-164,Altaf   Hussain Annar,Independent,22269,2
+NA-164,Ghanwa   Bhutto,PPP-SB,20528,3
+NA-164,Rasheeda Khoro,PML-N,6301,4
+NA-164,Ashraf   Khatoon Abbasi,Independent,2004,5
+NA-164,Molvi   Ali Muhammad,JUI-F,1002,6
+NA-164,Khaksar Sabiha Sultana,KT,797,7
+NA-164,Moula   Bakhash Junejo,PTI,347,8
+NA-164,Nisar   Ahmad Khoro,Independent,197,9
+NA-164,Abdul   Sattar Morio,Independent,97,10
+NA-165,Shabbir Ahmad Chandio,PPP,35377,1
+NA-165,Ghanwa   Bhutto,PPP-SB,24085,2
+NA-165,Altaf   Hussain Tunio,PML-N,12820,3
+NA-165,Moulana Muhammad Sadiq Mugheri,JUI-F,2913,4
+NA-165,Khaksar Tariq Masood Mughal,KT,1280,5
+NA-165,Ashraf   Khatoon Abbasi,Independent,532,6
+NA-165,Sardar   Khan Chandio,Independent,430,7
+NA-166,Mohtarma Benazir Bhutto,PPP,46992,1
+NA-166,Farooq   Ali Bhutto,PPP-Sb,22015,2
+NA-166,Doctor   Khalid Mehmood Somro,JUI-F,6901,3
+NA-166,Abdul   Hameed Mugheri,PML-N,2952,4
+NA-166,Dr.   Mazhar Ali Mughal,Independent,1978,5
+NA-166,Syed   Hassan Ali Shah,Independent,1337,6
+NA-166,Mir   Aamir Khan Magsi,Independent,782,7
+NA-166,Abdul   Nabi Khan Brohi,PTI,596,8
+NA-166,Mir   Nadir Ali Magsi,Independent,214,9
+NA-166,Abdul   Rashied Jatoi,Independent,192,10
+NA-166,Allah   Bakhash Jalbani,Independent,138,11
+NA-167,Makhdoom Amin Faheem,PPP,40743,1
+NA-167,Makhdoom Shah Nawaz,PPP-SB,18187,2
+NA-167,Syed   Shahab Uddin Shah,PML-J,5639,3
+NA-167,Syed   Shah Muhammad Shah,PML-N,1816,4
+NA-167,Ghulam   Rasool,Independent,821,5
+NA-167,Makhdoom Jamil uz Zaman,Independent,324,6
+NA-167,Zulfiqar Ali,Independent,317,7
+NA-167,Syed   Shuja Muhammad Shah,Independent,277,8
+NA-167,Shah   Zaman Shah,Independent,225,9
+NA-167,Ali   Jan,HPG,176,10
+NA-168,Tariq Javed,HPG,51226,1
+NA-168,Sahibzada Shabbir Ansari,Independent,16243,2
+NA-168,Alhaj   Muhammad Umar Qureishi,PPP,3223,3
+NA-168,Muhammad Qasim Shaikh,PPP-Sb,1293,4
+NA-168,Nasir   Pirzada,PTI,690,5
+NA-168,Nawab   Mirza Advocate,Independent,520,6
+NA-168,Riaz   Qureishi,MQM-H,258,7
+NA-168,Sheikh   Muhammad Yaqoob,MKP,226,8
+NA-168,Muhammad Ali Gohar,PML-J,92,9
+NA-168,Moulana Taj Muhammad Nahiyoon,Independent,74,10
+NA-169,Doctor Khalid Maqbool Siddiqui,,54044,1
+NA-169,Muhamamd Rashid Naghar,,12388,2
+NA-169,Zahid Ali Bhurgari,,8254,3
+NA-169,Shazia Akbar Abbasi,,1485,4
+NA-169,Engineer Asghar Noorani,,823,5
+NA-169,Qais Muhammad Shaikh,,163,6
+NA-169,Saad Shibli,,161,7
+NA-169,Rasheed Ahmad Khan,,98,8
+NA-170,Syed Naveed Qamar,PPP,39225,1
+NA-170,Mir   Haidar Ali Khan Talpur,PML-N,15950,2
+NA-170,Yousif   Ali Kausar Bhatti,PPP-Sb,14920,3
+NA-170,Abdul   Haleem Memon Wakeel,Independent,1000,4
+NA-170,Pir   Sajjad Sarhandi,Independent,663,5
+NA-170,Syed   Anwar Hussain Shah,Independent,486,6
+NA-170,Farhan   Nabi Memoon,Independent,441,7
+NA-170,Ghulam   Hussain Solangi,Independent,362,8
+NA-170,Doctor   Aziz Talpur,AT,273,9
+NA-170,Mir   Ghulam Ali Khan Talpor,Independent,256,10
+NA-170,Muhammad Yameen,HPG,168,11
+NA-170,Aleem   Uddin,Independent,140,12
+NA-170,Syed   Jial Shah,Independent,133,13
+NA-170,Miran   Muhammad Shah,Independent,52,14
+NA-171,Mohtarma Benazir Bhutto,PPP,47897,1
+NA-171,Allah   Bux Khan Magsi,PPP-SB,22290,2
+NA-171,Doctor   Dodo Mahari,UNA,713,3
+NA-171,Ayub   Bhai,Independent,295,4
+NA-172,Abdul Sattar Sirewal,PPP,25145,1
+NA-172,Ghulam   Ali Khan Nizamani,PML-N,18040,2
+NA-172,Haji   Abdullah Halipota,PPP-SB,11003,3
+NA-172,Ali   Akbar Nizamani,Independent,4247,4
+NA-172,Doctor   Qadir Magsi,UNA,2952,5
+NA-172,Shafi   Muhammad Nizamani,Independent,528,6
+NA-172,Haji   Allah Dino Leghari,Independent,520,7
+NA-173,Doctor Fahmida Mirza,PPP,26737,1
+NA-173,Syed   Ali Bakhash Shah,PML-N,23599,2
+NA-173,Pir   Altaf Hussain Shah,PPP-SB,8306,3
+NA-173,Liaqat   Ali Bhurgari,UNA,1965,4
+NA-173,Qazi   Amjad Abid Abbasi,Independent,466,5
+NA-173,Muhammad Rahim Boohar,Independent,423,6
+NA-173,Dr.   Fawad Hussain Mirza,Independent,210,7
+NA-173,Muhammad Iqbal Qassar,PTI,149,8
+NA-173,Ghulam   Ali Nizamani,Independent,93,9
+NA-173,Abdullah sheedi,Independent,79,10
+NA-173,Nadir   Hussain Khawja,Independent,26,11
+NA-173,Mazhar   Ali Ansari,Independent,18,12
+NA-174,Pir   Aftab Hussain Shah Gillani,PPP,34477,1
+NA-174,Syed   Qurban Ali Shah,PML-N,29418,2
+NA-174,Shabbir Ahmad Qaimkhani,HPG,28482,3
+NA-174,Abdul   Sattar Qureishi,Independent,1216,4
+NA-174,Zahid   Ali Qaimkhani,MQM-H,618,5
+NA-174,Muhammad Ayub Khan,PTI,350,6
+NA-174,Shams   Uddin Shaikh Advocate,Independent,295,7
+NA-174,Dost   Muhammad,Independent,232,8
+NA-174,Ali   Hassan,Independent,147,9
+NA-174,Peer   Shafqat Hussain Shah,Independent,122,10
+NA-174,Abid   Hussain Rajpoot,Independent,47,11
+NA-175,Pir   Noor Muhammad Shah Jillani,PML-N,28678,1
+NA-175,Nawab   Muhammad Yousif Talpur,PPP,22310,2
+NA-175,Muhammad Asad Ali Khan Junejo,PML-J,16000,3
+NA-175,Ghulam   Mustafa Khaskheli,PPP-SB,5588,4
+NA-175,Rasool   Bakhash Rajar,Independent,2164,5
+NA-175,Anwar   Ali,Independent,794,6
+NA-175,Muhammad Jadam Mangrio,Independent,672,7
+NA-175,Ghulam   Mustafa,HPG,632,8
+NA-175,Muhammad Yousif Leghari,Independent,176,9
+NA-175,Muhammad Anwar Gondal,Independent,105,10
+NA-175,Sufi   Fateh Ali,Independent,88,11
+NA-175,Nawab   Abdul Ghani Talpor,Independent,59,12
+NA-176,Arab Ghulam Raheem,Independent,53888,1
+NA-176,Makhdoom Saeed Uz Zaman Atif,PPP,28860,2
+NA-176,Arbab   Zakaullah,Independent,1113,3
+NA-176,Arbab   Faiz Muhammad,Independent,538,4
+NA-176,Peer   Aftab Hussain Shah,Independent,476,5
+NA-176,Qurban   Ali Kaloi,Independent,205,6
+NA-177,Malik Asad Sikandar,Independent,41223,1
+NA-177,Pir   Zaman Shah Jillani,PPP,34423,2
+NA-177,Abdul   Saleem Rajpot,PML-N,3146,3
+NA-177,Muhammad Suleman Bhulai,PPP-SB,3000,4
+NA-177,Iqbal   Ahmad,HPG,2284,5
+NA-177,Zulfiqar Ali Bhotani,Independent,444,6
+NA-177,Khalid,Independent,393,7
+NA-177,Doctor   Qadir Magsi,UNA,219,8
+NA-177,Nawab   Abdul Ghani Talpur,Independent,154,9
+NA-177,Syed   Jallal Mehmoood Shah,Independent,141,10
+NA-177,Murad   Ali Shah,Independent,129,11
+NA-177,Syed   Abdullah Shah,Independent,96,12
+NA-178,Muhammad Bux Jamali,PPP,35479,1
+NA-178,Mumtaz   Ali Bhand,PPP-SB,16946,2
+NA-178,Sadaqat Ali Jatoi,PML-N,11057,3
+NA-178,Rafiq   Ahmad Jamali,Independent,363,4
+NA-178,Ghulam   Ullah Khan Lund,Independent,332,5
+NA-178,Abdul   Latif Khushak,PTI,312,6
+NA-178,Doctor   Manzor Hussain Laghari,Independent,167,7
+NA-179,Abdul Hameed Khan Jatoi,PML-N,40156,1
+NA-179,Rafiq   Ahmad Mahessar,PPP,37165,2
+NA-179,Qazi   Shafiq Ahmad,PPP-SB,10886,3
+NA-179,Rafiq   Ahmad Magsi,Independent,808,4
+NA-180,Haji Peer Bakhash,Independent,49197,1
+NA-180,Jian   Khan Sarfaraz Rajar,PPP,16055,2
+NA-180,Haji   Muhammad Islam Qureishi,PML-N,9719,3
+NA-180,Muhammad Akhtar,HPG,1428,4
+NA-180,Muhammad Asad Ali Khan Junejo,PML-J,625,5
+NA-180,Wazir   Hussain,PPP-SB,549,6
+NA-180,Haji   Khuda Bux,Independent,157,7
+NA-180,Muhammad Siddique,Independent,99,8
+NA-180,Syed   Saeed Ahmad Shah,Independent,80,9
+NA-180,Raja   Liaqat Ali,Independent,68,10
+NA-181,Jam   Mashooq Ali,Independent,49474,1
+NA-181,Fida   Hussain Dero,PPP,33597,2
+NA-181,Mansoor Ali,HPG,8530,3
+NA-181,Doctor   Jam Saleem Raza,PPP-SB,2411,4
+NA-181,Jam   Qaim Ali Khan,UNA,1104,5
+NA-181,Doctor   Mir Baig,Independent,389,6
+NA-181,Moulana Muhammad Hassan Abbasi,JUI-F,262,7
+NA-181,Mehboob Ali Shah,Independent,234,8
+NA-181,Umaid   Ali Rind,Independent,206,9
+NA-181,Chaudhary Sanawer Ali Jutt,Independent,184,10
+NA-181,Ali   Bakhash,Independent,176,11
+NA-181,Jam   Madad Ali,Independent,116,12
+NA-181,Shahid   Khan Khanzada,Independent,101,13
+NA-181,Jamshid Ali,Independent,64,14
+NA-181,Anwar   Ali Sheikh,Independent,54,15
+NA-181,Roshan   Ud Din Junejo,Independent,27,16
+NA-182,Ghulam Hussain Babu,PPP,35241,1
+NA-182,Doctor   Qadir Magsi,UNA,14196,2
+NA-182,Altaf   Hussain Shah,PPP-SB,11753,3
+NA-182,Muhammad Hashim Seenharo,PML-N,2296,4
+NA-182,Tufail   Ahmad,Independent,757,5
+NA-182,Syed   Ijaz Ali Sherazi,Independent,708,6
+NA-182,Aziz   Ur Rehman Jokhio,Independent,477,7
+NA-182,Sufi   Muhammad Habib Khan Warsi,Independent,424,8
+NA-183,Syed Shafqat Hussain Sherazi,PPP,42710,1
+NA-183,Abdul   Rehman,Independent,29271,2
+NA-183,Inayat   Ullah Pilijo,PPP-SB,1791,3
+NA-183,Haji   Muhammad Gugo,PML-N,518,4
+NA-184,Mian Ijaz Shafi,PML-N,35451,1
+NA-184,Muhammad Irfan Khan,HPG,32668,2
+NA-184,Major   General (R) Naseer Ullah Khan Babar,PPP,23512,3
+NA-184,Muhammad Amin Khattak,ANP,2705,4
+NA-184,Imran   Ahmad Khan,PTI,2037,5
+NA-184,Moulana Muhammad Abdul Rehman Farooqi,JUI-F,1105,6
+NA-184,Ali   Muhammad Sunara,Independent,1075,7
+NA-184,Mujahid Khan Baloch,Independent,940,8
+NA-184,Ghulam   Ahmad Chishti,PPP-SB,842,9
+NA-184,Mian   Umar Ber,PKMAP,251,10
+NA-184,Subhan   Ali,PKQP,191,11
+NA-184,Shafiq   Ahmad Qureishi,PDP,94,12
+NA-184,Sardar   Muhammad Ishaq,Independent,91,13
+NA-184,Javed   Ahamd Chattari,Independent,40,14
+NA-185,AK   Shams,HPG,85503,1
+NA-185,Muhammad Afaq Khan Shahid,PPP,8037,2
+NA-185,Muhammad Farooq Ilyas,Independent,4632,3
+NA-185,Syed   Mustaqeem Pirzada,PTI,2995,4
+NA-185,Altaf   Hussain Shah,ANP,2579,5
+NA-185,Najeeb   Ullah alias Najeeb Thalo,PPP-SB,2333,6
+NA-185,Shaukat Ali Khan,PML-F,634,7
+NA-185,Khurshid Ali Kaka Je,PKMAP,557,8
+NA-185,Muhammad Wasim Khan,Independent,363,9
+NA-185,Ahsan   Ahmad Hashmi,Independent,199,10
+NA-186,Kanwar Khalid Younis Ali Khan,HPG,63447,1
+NA-186,Dost   Muhammad Faizi,PML-N,15964,2
+NA-186,Muneera Shakir,PPP,2928,3
+NA-186,Muhammad Azhar ul Hassan Haidari,PTI,1125,4
+NA-186,Syed   Kamran Ali Rizvi,MQM-H,237,5
+NA-186,Muhammad Abdul Aleem Khan,PML-J,103,6
+NA-186,Azra   Muqeem Advocate,Independent,43,7
+NA-187,Muhammad Farooq Ahmed,HPG,62621,1
+NA-187,Hafiz   Muhammad Taqqi,PML-N,11220,2
+NA-187,Abdul   Hameed Qureishi,PPP,1291,3
+NA-187,Sultan   Ahmad,PTI,896,4
+NA-187,Muhammad Rafiq Rathor,Independent,789,5
+NA-187,Shamsheer Ahmad Khan,MQM-H,529,6
+NA-187,Shamim   Khan,Independent,199,7
+NA-187,Wakeel   Ahmad Jamali,Independent,162,8
+NA-187,Seemi   Yousif Siddiqi,Independent,118,9
+NA-188,Hassan Musana Alvi,HPG,105323,1
+NA-188,Muhammad Munawar Azeem Khan,PML-N,13276,2
+NA-188,Asmat   Ullah Khan,PPP,1839,3
+NA-188,Ashraf   Jabbar Qureshi,PTI,1434,4
+NA-188,Lal   Den,Independent,560,5
+NA-188,Syed   Iqbal Haidar,MWM,293,6
+NA-188,Syed   Hassan Raza,Independent,106,7
+NA-188,Muhammad Ashraf Zaib,NPP-W,84,8
+NA-188,Arif   Mughal,PPP-SB,69,9
+NA-188,Muhammad Nazim,PAKNP,41,10
+NA-189,Waja Ahmad Karim Dad,PPP,23104,1
+NA-189,Muhammad Younis Baloch,PML-N,22792,2
+NA-189,Abdul   Aziz Memon,PPP-SB,6806,3
+NA-189,Yousuf   Musti Khan,Independent,851,4
+NA-189,Amir   Ali Shah,PTI,764,5
+NA-189,Ahmad   Ali Somoro,PPP-Zab,719,6
+NA-189,Muhammad Ashfaq,Independent,280,7
+NA-189,Muhammad Saleem Baloch,Independent,155,8
+NA-189,Abdul   Razzaq,Independent,85,9
+NA-189,Nabeel   Ahmad Gabol,Independent,76,10
+NA-190,Dr.   Muhammad Farooq Sattar,HPG,27711,1
+NA-190,Haji   Muhammad Hanif Tayyab,PML-N,17333,2
+NA-190,Iftikhar Hussain,PPP,11621,3
+NA-190,Abdul   Habib Memon,PPP-Sb,930,4
+NA-190,Imran   Khan,PTI,911,5
+NA-190,Muhammad Salim,MQM-H,180,6
+NA-190,Abdul   Razzaq Sangrani,Independent,162,7
+NA-190,Qasim   Ghanchi,Independent,132,8
+NA-190,Aslam   Aseer,Independent,49,9
+NA-190,Syed   Nusrat Ali,Independent,49,10
+NA-191,Caption (R) Haleem Ahmad Siddiqui,PML-N,31414,1
+NA-191,Muhammad Abdul Jalil,HPG,25008,2
+NA-191,Umar   Farooq Khan,PPP,4005,3
+NA-191,Nazim   Haji,PTI,2821,4
+NA-191,Noor   Muhammad,Independent,1376,5
+NA-191,Mirza   Mushtaq,PDP,282,6
+NA-191,Tariq   Abbas Awan,Independent,67,7
+NA-191,Khanzada Imran Khan,Independent,63,8
+NA-191,Riaz   Ahmad Khan,Independent,57,9
+NA-191,Muhammad Yousif Qureishi,TI,44,10
+NA-191,Sohail   Liaqat Malik,Independent,43,11
+NA-191,Faqir   Syed Aziz Uddin,Independent,35,12
+NA-191,Abdul   Rauf Khan Sasoli (Rtd),Independent,33,13
+NA-191,Muhammad Arif Siddique,Independent,20,14
+NA-191,Muhammad Tariq Ghani,Independent,15,15
+NA-191,Muhammad Tariq Ghani,Independent,15,16
+NA-191,Muhammad Aslam Kashmiri,Independent,14,17
+NA-192,Ijaz Mehmood,HPG,32554,1
+NA-192,Syed   Hafeez Uddin,PML-N,14732,2
+NA-192,Sheikh   Muhammad Saeed Chawala,PPP,2847,3
+NA-192,Tahseen Zafar,MQM-H,1346,4
+NA-192,Syed   Marghoob Hussain,PTI,954,5
+NA-192,Muhammad Zafar Khan,Independent,260,6
+NA-192,Abdul   Sadiq Khan,PPP-SB,188,7
+NA-192,Mehfooz Ul Nabi Khan,Independent,179,8
+NA-192,Muhammad Ayub Khan,Independent,177,9
+NA-192,Muhammad Ayub,Independent,66,10
+NA-192,Muhammad Wassay Jalil,Independent,60,11
+NA-192,Arshad   Ali Khan,Independent,32,12
+NA-193,Doctor Nishat Malik,HPG,36738,1
+NA-193,Abu   Bakat Shaikhani,PML-N,22328,2
+NA-193,Afzal   Ahmad Sheikh,PTI,2345,3
+NA-193,Fouzia   Wahab,PPP,1705,4
+NA-193,Khawaja Muhammad Sharaf Ul Islam,MQM-H,702,5
+NA-193,Ijaz   Ahmad Khan,PPP-SB,241,6
+NA-193,Rehmat   Elahi Shaikh,Independent,118,7
+NA-193,Muhammad Younus,Independent,116,8
+NA-193,Fateh   Yab Ali Khan,Independent,103,9
+NA-193,Mohsin,Independent,35,10
+NA-193,Rajab   Ali Naimi,Independent,29,11
+NA-193,Mehmood Ul Haq,JUP-N,29,12
+NA-193,Muhammad Wasay Jalil,Independent,29,13
+NA-194,Muhammad Arif Khan,HPG,38637,1
+NA-194,Tuba   Durrani,PML-N,12945,2
+NA-194,Muzaffar Ali Shajrah,Independent,7226,3
+NA-194,Nazir   Ahmad,MQM-H,3150,4
+NA-194,Muhammad Zubair Khan,PTI,580,5
+NA-194,Farzana Latif,PPP-SB,390,6
+NA-194,Abdur   Rauf Shaikh,Independent,138,7
+NA-194,Muhammad Aslam,SI,137,8
+NA-194,Qazi   Khalid Ali Advocate,Independent,130,9
+NA-194,Sohail   Anjum Advocate,WP,45,10
+NA-195,Shaikh Liaqat Hussain,HPG,26692,1
+NA-195,Sahabzada Muneer Uddin Khan,PML-N,19949,2
+NA-195,Naseer   Uddin,MQM-H,11568,3
+NA-195,Nabi   Dad Khan,PPP,10771,4
+NA-195,jam   Sultan Ahmad,PPP-SB,9028,5
+NA-195,Amanullah Paracha,PTI,1981,6
+NA-195,Qari   Sher Afzal Khan,JUI-F,882,7
+NA-195,Naseem   Khan,PMI,669,8
+NA-195,Syed   Mehmood Hussain Hashmi,Independent,180,9
+NA-195,Umar   Hayyat,Independent,127,10
+NA-195,Muhammad Shabbir Shamsi,Independent,113,11
+NA-195,Doctor   Arif Alvi,MKP,94,12
+NA-196,Muhammad Farukkh Naeem Siddiqui,HPG,44394,1
+NA-196,Abdullah Murad,PPP,14169,2
+NA-196,Rahila   Tiwana,PML-N,11127,3
+NA-196,Sardar   Akhtar Ali Baloch,PPP-SB,4161,4
+NA-196,Waqar   Ahmad Farooqi,MQM-H,1528,5
+NA-196,Syed   Atiq Ur Rehman Shah Hashmi,PTI,1022,6
+NA-196,Nisar   Ahmad Magsi Advocate,ST,173,7
+NA-196,Arshad   Ali Khan,Independent,140,8
+NA-196,Dildar   Hussain Barbat,Independent,138,9
+NA-196,Muhammad Afzal Rana,PDP,116,10
+NA-196,Muhammad Mubin Peerzada,Independent,84,11
+NA-196,Syed   Aashiq Hussain,Independent,58,12
+NA-196,Akhlaq   Ahmad Bughio,Independent,57,13
+NA-196,Muhammad Sabir Shamsi,Independent,46,14
+NA-197,Meer   Atif Ali Sanjrani,PML-N,25261,1
+NA-197,Hafiz   Hussain Ahmad,JUI-F,18700,2
+NA-197,Sardar   Fateh Muhammad Mohammad Hasni,PPP,17473,3
+NA-197,Mehmood Khan Achakzai,PKMAP,14187,4
+NA-197,Doctor   Abdul Hakeem Lehri,BNP,13703,5
+NA-197,Ghulam   Ali Haidari,Independent,6701,6
+NA-197,Muhammad Hashim Breach,Independent,3022,7
+NA-197,Khud e   Noor,JWP,2624,8
+NA-197,Arbab   Abdul Zahir Kansi,ANP,1638,9
+NA-197,Akbar   Sher Babar,PTI,1562,10
+NA-197,Muhammad Sadiq Kurd,HPG,1283,11
+NA-197,Doctor   Muhammad ishaq Baloch,BNM,899,12
+NA-197,Muhammad Sarwar Khan Kakar,PML-J,707,13
+NA-197,Sardar   Nisar Ali Khan,Independent,582,14
+NA-197,Malik   Sher Zaman Kakar,KJPP,553,15
+NA-197,Agha   Mehboob Shah,PPP-SB,215,16
+NA-197,Doctor   Sardar Muhammad Hussain,Independent,126,17
+NA-197,Mir   Abdul Khaliq Muhammad Hasnni,PML-Q Shuja,105,18
+NA-198,Moulvi Abdul Ghani,JUI-F,25476,1
+NA-198,Muhammad Sarwar Khan Kakar,PML-J,22694,2
+NA-198,Mahmood Khan Achakzai,PKMAP,22388,3
+NA-198,Syed   Muhammad Fazal Agha,PML-N,1714,4
+NA-198,Muhammad Wasey Tareen Advocate,PPP,1507,5
+NA-198,Haji   Jalani Khan,ANP,913,6
+NA-198,Abdul   Jaleel,Independent,114,7
+NA-198,Abdul   Ghaffar,KJPP,83,8
+NA-199,Sardar Muhammad Yaqoob Khan Nasir,PML-N,20428,1
+NA-199,Haji   Gul Muhammad Khan Dummar,JUI,14423,2
+NA-199,Mir   Baz Muhammad Khetran,PPP,11515,3
+NA-199,Sardar   Muhammad Azam Khan,PKMAP,2814,4
+NA-199,Muhammad Israr Tareen,Independent,790,5
+NA-199,Sardar   Dur Muhammad Nasir,Independent,756,6
+NA-199,Abdul   Majeed Khetran,BNM,686,7
+NA-199,Wadeera Ameer Muhammad Khan Khetran,Independent,644,8
+NA-199,Sardar   Jamil ur Rehman,Independent,624,9
+NA-199,Sardar   Muhammad Ashraf Khan Kakar,KJPP,611,10
+NA-199,Muhammad Asad,PTI,604,11
+NA-199,Doctor   Muhammad Azeem Khan Jogezai,ANP,248,12
+NA-199,Wazir   Muhammad Nasir,Independent,195,13
+NA-199,Qazi   Muhammad Aslam,Independent,149,14
+NA-199,Haji   Habib Ullah Khan Khudezai,Independent,131,15
+NA-200,Moulvi Muhammad Khan Sherani,JUI-F,14679,1
+NA-200,Nawab   Muhammad Ayaz Khan Jogezai,PKMAP,7180,2
+NA-200,Sardar   Wazir Muhammad Jogezai,JUI-S,6012,3
+NA-200,Jaffar   Khan Mandokhel,PML-N,4279,4
+NA-200,Malik   Shams Uddin Kakar,KJPP,2160,5
+NA-200,Malik   khalid Hassan Mandokhel,PTI,565,6
+NA-200,Haji   Akhtar Muhammad,PPP,299,7
+NA-200,Muhammad Ibrahim Sherani,Independent,277,8
+NA-200,Fazal   Karam,Independent,255,9
+NA-200,Karim   Dad Mandokhel (Rtd),Independent,224,10
+NA-201,Sardar Yar   Muhammad Rind,JWP,26363,1
+NA-201,Mir Tariq Hussain   Magsi,PML-N,19986,2
+NA-202,Nawab Muhammad Akbar Khan Bugti,JWP,29276,1
+NA-202,Nawab   Muhammad Ayaz Khan,PKMAP,9690,2
+NA-202,Dilawar Khan Kakar,JUI,5400,3
+NA-202,Mir   Baz Muhammad Bijarani Mari,Independent,3791,4
+NA-202,Raziq   Bugti,Independent,3231,5
+NA-202,Nawbzada Mir Hunza,Independent,2978,6
+NA-202,Khuda   e Noor,ANP,2306,7
+NA-202,Shahid   Ameen,BNM,1967,8
+NA-202,Muhammad Yaqoob Ziaratwal,PPP,1140,9
+NA-203,Mir   Faridullah Khan Jamali,Independent,18703,1
+NA-203,Izhar   Hussain Khoso,BNP,13369,2
+NA-203,Muhammad Sadiq Umrani,PPP,7500,3
+NA-203,Mir   Ubaidullah Jamote,JQM,6098,4
+NA-203,Mir   Manzoor Ahmad Khoso,JWP,2709,5
+NA-203,Doctor   Hafeez Ur Rehman Khosa,JUI-F,2554,6
+NA-203,Meer   Ali Dost Jamali,Independent,1116,7
+NA-203,Sardar   Fateh Ali Umrani,Independent,749,8
+NA-203,Doctor   Abdul Hai Baloch,BNM,655,9
+NA-203,Ahmad   Ali Khan,Independent,500,10
+NA-204,Sardar Muhammad Akhtar Maingal,BNP,26775,1
+NA-204,Molvi   Abdul Ghafoor Haidari,JUI-F,17126,2
+NA-204,Doctor   Abdul Hayee Baloch,BNM,16165,3
+NA-204,Mir   Ali Ahmad,JWP,3014,4
+NA-204,Abdul   Hafeez,JIP,1006,5
+NA-204,Meer   Khalid Khan Nowsherwani,Independent,698,6
+NA-204,Mir   Muhammad Ismail,Independent,240,7
+NA-204,Mir   Abdul Qayyum,Independent,135,8
+NA-205,Mir   Muhammad Hasil Khan Bazinjo,BNP,25615,1
+NA-205,Mir   Muhammad Ayub Jattak,BNM,19825,2
+NA-205,Sardar   Muhammad Akhtar Mangal,Independent,1087,3
+NA-205,Khair   Jaan Baloch,PPP,931,4
+NA-205,Javed   Ahmad,PPP-SB,799,5
+NA-206,Jam   Muhammad Yousif,PML-N,33026,1
+NA-206,Ghulam   Akbar Lasi,PPP,11725,2
+NA-206,Mir   Muhammad Hasil Khan Bazinjo,BNP,5454,3
+NA-206,Rajab   Ali Rind,BNM,4294,4
+NA-206,Abdul   Rahim Zafar,JWP,1779,5
+NA-206,Molvi   Muhammad Yaqoob Sasoli,Independent,1061,6
+NA-206,Abdul   Hameed,Independent,926,7
+NA-207,Shakeel Ahmad Baloch Advocate,BNP,39838,1
+NA-207,Doctor   Muhammad Yasin Baloch,BNM,27863,2
+NA-207,Molvi   Rehmat Ulllah,JUI-F,5299,3
