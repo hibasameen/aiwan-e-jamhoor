@@ -1,0 +1,397 @@
+pid,existing,hist_name,hist_years,hist_dists,exist_years,exist_dists,evidence
+P00780,Arbab M. Jehangir Khan,Arbab Muhammad Jahangir Khan,1977|1988|1990,peshawar,1993|1997,peshawar,di+d
+P02523,Sarfaraz Khan,Sarfraz Khan,1977|1985|1988,faisalabad|mardan,1997|2002|2013,abbottabad|mardan,sq+dL11
+P01168,M. Azam Khan,Muhammad Azam Khan,1977|1985|1988|1990,abbottabad|karachi west|mardan|sialkot,1993|1997|2024,mardan,sq+dL8
+P06941,Nisar Ahmad,Moulana Nisar Ahmad,1977|1988|1990,abbottabad|dadu|di khan|larkana|sukkar|vehari,2013,vehari,sq+d+rare di10 GAP23
+P00261,Shaukat Ali Khan,Shaukat Ali Khan,1977|1985,mansehra,1993,mansehra,sq+dL14
+P00443,Molana Abdul Baqi,Moulana Abdul Baqi,1977|1990,kohistan|mansehra kohistan|quetta,1993|1997,kohistan,sq+dL9
+P01113,Khanzada Khan,Khanzada Khan,1977|1985|1990,mansehra kohistan|mardan|trial area,1993|2008|2013,mardan,sq+dL12
+P08216,Abdul Samad Khan,Abdul Samad Khan,1977|1990,bannu,2013|2018,bannu,sq+d+rare di14 GAP23
+P05563,Shamsulhaq,Shams ul Haq,1977|1988,ta,2008,ta,sq+d di10 GAP20
+P02329,M. Hashim Khan,Muhammad Hashim Khan,1977|1990,karachi east|ta,1997|2013|2024,islamabad|ta|ta khyber agency,di+d
+P09826,Sher Bahadur Khan,Sher   Bahadur Khan,1977|1990,sahiwal|ta,2018,ta,sq+d+rare di15 GAP28
+P02557,Nasrullah Khan,Nasrullah   Khan,1977|1988|1990,gujranwala|peshawar|rawalpindi|swat|ta,1997,gujranwala,sq+dL13
+P01001,Col. (R) Habib Khan,Colonel (R) Habib Khan,1977|1988,rawalpindi,1993,rawalpindi,sq+dL9
+P01006,Raja Abdul Aziz Bhatti,Raja Abdul Aziz Bhatti,1977|1990,rawalpindi,1993,rawalpindi,sq+dL19
+P01008,Malik Mehboob Hussain,Malik   Mehboob Hussain,1977|1985,rawalpindi,1993,rawalpindi,sq+dL19
+P01045,Dr. Ghulam Hussain,Doctor Ghulam Hussain,1977|1988|1990,jhelum,1993|2002,jhelum,sq+dL13
+P07236,Mushtaq Ahmad,Mushtaq Ahmad,1977|1990,jhelum|karachi south|multan|sahiwal|sheikhupura,2013|2018|2024,faisalabad|gujranwala|jhelum|karachi central|karachi east|rahimyar khan,sq+d+rare di12 GAP23
+P02391,Raja Munawar Ahmad,Raja Munawar Ahmad,1977|1985|1988,chakwal|jhelum,1997,chakwal,sq+dL16
+P01227,Ch. Shujaat Hussain,Chaudhary   Shujat Hussain,1977|1985|1988|1990,gujrat,1993|1997|2002|2008,bhakkar|gujrat,sq+dL22
+P01222,Ch. Ghulam Rasool,Chaudhary Ghulam Rasool,1977|1988,gujrat,1993|2002,bahawalnagar|gujranwala cum hafizabad,sqL20
+P00490,Ghulam Rasool,Ghulam   Rasool,1977|1985|1988|1990,gujrat|karachi west|nawabshah|okara|sanghar,1993|1997|2013|2024,hyderabad|karachi west|mirpurkhas|naushahro feroze|old larkana|qambar shahdadkot,sq+dL12
+P02434,Syed Nusrat Ali Shah,Syed Nusrat Ali Shah,1977|1985|1988|1990,sargodha,1997|2013,sargodha,sq+dL17
+P01083,Molana M. Abdul Sattar Khan Niazi,Moulana Abdul Sattar Khan Niazi,1977|1988|1990,mianwali|mianwali full,1993,mianwali,sq+dL20
+P01152,Molana Haji M. Rehmatullah,Moulana Rehmat Ullah,1977|1985|1988|1990,jhang|nawabshah|sukkur,1993|1997|2002|2008|2018,jhang|kharan cum panjgur|loralai cum musa khail cum ziarat cum dukki cum harnai|nasirabad cum kachhi cum jhal magsi|peshawar|turbat cum panjgur,sq+dL11
+P01134,Mian Zahid Sarfraz,Mian   Zahid Sarfraz,1977|1985|1988|1990,faisalabad|lyallpur faisalabad,1993|1997|2002,faisalabad,sq+dL16
+P01109,Khan Shahadat Ali Khan Baloch,Khan Shahdat Ali Khan Baloch,1977|1988|1990,faisalabad|faisalabad lyallpur,1993|1997|2013,faisalabad,sq+dL25
+P01181,Hamza,Hamza   M.A,1977|1985|1988|1990,lyallpur|toba tek singh,1993|2002|2008,toba tek singh,sq+dL5
+P00376,Syed Ghulam Mustafa Shah,Ghulam Mustafa Shah,1977|1988|1990,badin|lahore|nawabshah|thatta,1993|1997|2002|2008|2013|2018|2024,nawabshah|shaheed benazirabad|thatta,sq+dL17
+P02908,Malik Mushtaq Ahmad,Malik Mushtaq Ahmad,1977|1988,sheikhupura,2002|2008|2013,sheikhupura,sq+d di17 GAP14
+P02923,Mian Shamim Haider,Mian Shamim Haidar,1977|1985|1988|1990,sheikhupura,2002|2008|2013,sheikhupura,sq+d di12 GAP12
+P01184,Ch. Hamid Nasir Chatha,Hamid Nasir Chattha,1977|1985,gujranwala,1993|1997|2002|2008,gujranwala|gujranwalla,sq+dL17
+P01194,Ghulam Dastgir Khan,Ghulam Dastgir Khan,1977|1985|1988|1990,gujranwala|gujranwala general,1993|1997,gujranwala,sq+dL17
+P02945,Shabbir Ahmad,Shabir   Ahmad,1977|1985|1988|1990,gujranwala|gujrat|nawabshah|quetta chagai|tharparkar,2002|2008|2013|2018|2024,faisalabad|gujrat|kasur|lahore|narowal,sq+d di11 GAP12
+P01027,Ghulam Sarwar Khan,Ghulam Sarwar Khan Advocate,1977|1988|1990,rawalpindi|sialkot,1993|2002|2008|2013|2018|2024,rawalpindi,sq+dL16
+P00575,Abdul Hameed,Abdul Hameed,1977|1985|1990,bahawalpur bahawalnagar|karachi west|multan,1993,karachi west,sq+dL11
+P02993,Sheikh Khizar Hayat,Sheikh Khizar Hayat,1977,multan,2002,multan,sq+d+rare di17 GAP25
+P01092,M. Zafarullah Khan,Zafar Ullah Khan,1977|1985|1988,lahore|lahore full|multan,1993|1997,bhakkar|lahore,sq+dL14
+P01487,M. Nawaz Khan Alias Dilawar Khan Khichi,Mohammad Nawaz Khan @ Dilawar Khan   Khichi,1977|1985|1988|1990,vehari,1997,vehari,di+d
+P00187,Sardar Farooq Ahmad Khan Leghari,Sardar Farooq Ahmad Khan Leghari,1977|1988|1990,dg khan,1993|2002|2008,dg khan|dg khan cum rajanpur|rajanpur|sahiwal,sq+dL28
+P00195,Nawabzada Nasrullah Khan,Nawabzada Nasrullah Khan,1977|1988|1990,muzaffargarh,1993|1997,muzaffaragarh|muzaffargarh,sq+dL22
+P00151,Ch. M. Ashraf,Chaudhary   Muhammad Ashraf,1977|1988,sahiwal,1993|1997|2002|2008|2013|2018|2024,sahiwal,sq+dL22
+P00157,Molvi Bashir Ahmad,Bashir   Ahmad,1977,sahiwal,1993|2018,sahiwal,sq+d di11 GAP16
+P00366,Molvi Abdul Karim,Molvi   Abdul Karim,1977|1985|1988|1990,nawabshah|quetta|sukkur|ta,1993,nawabshah,sq+dL10
+P00323,Mir Mehran Khan Bijarani,Mir Mehran Khan Bajarani,1977|1985|1988|1990,jacobabad,1993,jacobabad,sq+dL21
+P00375,Syed Shabir Ahmad Shah,Syed Shabbir Ahmad Shah,1977|1988|1990,nawabshah,1993|1997,nawabshah,sq+dL19
+P01653,Syed Noor Ahmad Shah,Syed Noor Ahmad Shah,1977,nawabshah,1997,nawabshah,sq+d di17 GAP20
+P01673,Syed Kazim Ali Shah,Syed Qaim Ali Shah,1977|1990,khairpur,1997|2013|2018,khairpur|naushahro feroze|shaheed benazirabad,sq+dL15
+P00386,Syed Ghous Ali Shah,Syed Ghous Ali Shah,1977,khairpur,1993|1997|2013|2018|2024,khairpur,sq+d di16 GAP16
+P00391,Pir Syed Abdul Qadir Shah,Pir Syed Abdul Qadir Shah,1977|1988|1990,khairpur,1993,khairpur cum sukkur,sqL21
+P00459,Syed Umed Ali Shah,Syed   Umed Ali Shah,1977|1988|1990,hyderabad|hyederabad,1993,hyderabad,sq+dL15
+P00465,Haji Abdullah Halepoto,Haji Abdullah Halepota,1977|1985|1988|1990,badin,1993|1997,badin,sq+dL16
+P00643,Haji M. Hanif Tayyab,Muhammad Hanif Tayyab,1977|1985|1990,karachi|muzaffargarh,1993|1997|2002,islamabad|karachi|karachi south,di+d
+P00614,Syed Saeed Hassan,Syed Saeed Hassan,1977|1985,karachi,1993,karachi central,sqL15
+P00686,Syed Munawar Hassan,Syed Munawar Hassan,1977|1988|1990,karachi|karachi east,1993|2002,karachi|karachi east,sq+dL17
+P00604,Shah Farid-Ul-Haq,Shah Farid ul Haq,1977|1988|1990,hyderabad|karachi|karachi central,1993,karachi central,sq+dL14
+P00736,Fatehyab Ali Khan,Fateh Yab Ali Khan,1977|1988,karachi|karachi east,1993|1997|2002,karachi east|mirpurkhas,sq+dL15
+P00742,Mehmood Khan Achakzai,Mahmood Khan Achakzai,1977|1990,pishin|quetta,1993|1997|2002|2013|2018|2024,killa abdullah|killa abdullah cum chaman|pishin cum killa abdullah|quetta|quetta cum chagai,sq+dL19
+P00000,Syed Zafar Ali Shah,Syed Zafar Ali Shah,1985|1988|1990,islamabad full|nawabshah|peshawar,1993|1997|2002|2008|2013|2018|2024,dadu|islamabad|naushero feroz|naushero feroze|nawabshah|peshawar|rawalpindi,sq+dL16
+P02081,Molvi Abdul Hamid Khan,Abdul Hamid Khan,1985|1988,dadu|peshawar,1997|2002,chitral|haripur,sqL14
+P01167,Haji M. Yaqoob Khan,Muhammad Yaqoob Khan,1985,mardan|peshawar,1993|1997,mardan|swabi,di+d
+P01167,Haji M. Yaqoob Khan,Yaqoob Khan,1985|1990,mardan|swabi,1993|1997,mardan|swabi,sq+dL10
+P00073,Amanullah Khan Jadoon,Amanullah Khan Jadoon,1985|1990,abbottabad,1993|1997|2002|2008,abbbottabad cum haripur|abbottabad|abbottabad cum haripur,sq+dL19
+P00218,Syed Qasim Shah,Syed Qasim Shah,1985|1988|1990,mansehra|mansehra complete,1993|1997|2013,mansehra|mansehra cum haripur,sq+dL13
+P00259,Nawabzada Salahuddin Saeed,Nawabzada Salahuddin Saeed,1985,mansehra,1993|1997|2002|2008|2013,mansehra|mansehra cum haripur|tor ghar cum mansehra,sq+dL24
+P00440,Malik Said Ahmad,Said Ahmad Malik,1985|1988|1990,kohistan|mansehra kohistan,1993,kohistan,sq+dL14
+P01387,Habibullah Khan,Habibullah Khan,1985|1988,bannu|di khan|quetta chagai,1997|2013,kasur|rawalpindi,sqL14
+P00845,Mian Gul Aurangzeb,Miangul Aurangzeb,1985,swat,1993|1997,swat,sq+dL16
+P00924,Alhaj Ghazi Said Jamal,Ghazi Said Jamal,1985|1988|1990,ta|ta orakzai agency|trial area,1993,ta orakzai agency,sq+dL14
+P00977,Sultan Muhammad,Sultan Muhammad,1985,north waziristan trial area,1993|1997,ta khyber agency|ta kurram agency,sqL14
+P00952,Bismillah Khan,Bismillah Khan,1985|1988|1990,pishin|ta|trial area,1993|1997|2013,ta|ta bajaur agency,sq+dL13
+P00989,Haji M. Nawaz Khokhar,Muhammad Nawaz Khokhar,1985|1988|1990,islamabad|islamabad full,1993,islamabad,di+d
+P00000,Syed Zafar Ali Shah,Zafar Ali Shah,1985,islamabad,1993|1997|2002|2008|2013|2018|2024,dadu|islamabad|naushero feroz|naushero feroze|nawabshah|peshawar|rawalpindi,sq+dL12
+P04107,Raja M. Zafar-Ul-Haq,Raja Muhammad Zafar ul Haq,1985|1988,rawalpindi,2002,rawalpindi,sq+d di14 GAP14
+P01007,Raja M. Zaheer Khan,Raja Muhammad Zaheer,1985|1988|1990,rawalpindi,1993,rawalpindi,di+d
+P02369,Sheikh Rasheed Ahmad,Sheikh Rasheed Ahmad,1985|1988|1990,rawalpindi,1997|2008|2024,rawalpindi,sq+dL18
+P01018,Raja Shahid Zafar,Raja Shahid Zafar,1985|1988|1990,rawalpindi,1993|1997,rawalpindi,sq+dL15
+P05728,Muhammad Basharat Raja,Raja Muhammad Basharat,1985|1988,rawalpindi,2008|2013|2024,rawalpindi,sq+d di12 GAP20
+P01026,Ch. Nisar Ali Khan,Chaudahry Nisar Ali Khan,1985|1990,rawalpindi,1993|1997|2002|2008|2013|2018|2024,rawalpindi,sq+dL20
+P01029,Malik M. Aslam Khan,Malik Muhammad Aslam,1985|1988|1990,attock|attock complete|faisalabad|sargodha,1993|1997,attock|attok,di+d
+P01044,Raja Muhammad Afzal Khan,Raja Muhammad Afzal Khan,1985|1988|1990,jhelum,1993|1997|2013,jhelum,sq+dL21
+P01037,Sardar M. Ashraf Khan,Sardar Muhammad Ashraf Khan,1985|1988|1990,chakwal|jhelum,1993,chakwal,di+d
+P00741,Ch. Abdul Razzaq,Choudhary Abdul Razzaq,1985,gujrat,1993,karachi east,sqL19
+P02615,Ch. Ajmal Ali Khawar,Chaudhary Ajmal Ali Khawar,1985,gujrat,1997,gujrat,sq+d di22 GAP12
+P01243,Syed Manzoor Hussain Shah,Syed Manzoor Hussain Shah,1985|1988|1990,gujrat|nawabshah,1993|1997,gujrat cum jhelum,sqL22
+P01234,Ch. Nisar Ahmad,Chaudhary Nisar Ahmad,1985,gujrat,1993,gujrat,sq+dL18
+P06053,Hafiz Munawar Hussain,Munawar Hussain,1985|1988,faisalabad|gujrat,2013,gujrat,sq+d+rare di14 GAP25
+P01077,Malik M. Naeem Khan,Malik Muhammad Naeem Khan,1985|1988|1990,khushab|sargodha cum khushab|sargodha khushab,1993,sargodha cum khushab,di+d
+P01074,Ch. Anwar Ali Cheema,Chaudhary Anwar Ali Cheema,1985|1988|1990,sargodha,1993|1997|2002|2008|2013,sargodha,sq+dL22
+P01084,M. Maqbool Ahmad Khan,Maqbool Ahmad Khan,1985|1988,mianwali|mianwali full,1993|1997,mianwali,sq+dL16
+P01088,Dr. Sher Afghan Khan Niazi,Doctor Sher Afgan Khan Niazi,1985|1988|1990,mianwali|mianwali bhakkar|mianwali full,1993|1997|2002|2008,mianwali,sq+dL19
+P12819,Rasheed Akbar Khan Nawani,Rasheed Akbar Khan Nawani,1985|1988|1990,bhakkar,2024,bhakkar,sq+d+rare di22 GAP34
+P02512,Nawab Amanullah Khan Sial,Nawab Amanullah Khan Siyal,1985|1990,jhang,1997,jhang,sq+dL22
+P02520,Syeda Abida Hussain,Begum Syeda Abida Hussain,1985|1988|1990,jhang,1997|2008,jhang,sq+dL17
+P01171,Khan M. Arif Khan,Khan Muhammad Arif Khan,1985|1988,jhang,1993,jhang,di+d
+P01170,Sahabzada M. Nazeer Sultan,Sahabzada Muhammad Nazeer Sultan,1985,jhang,1993|1997|2002|2008|2013,jhang,di+d
+P01120,Sardar Dildar Ahmad Cheema,Dildar Ahmad Cheema,1985|1988|1990,faisalabad,1993|2002|2018,faisalabad,sq+dL23
+P00133,Akhtar Hussain Gill,Akhtar Hussain Gill,1985|1988|1990,faisalabad|khanewal|lahore,1993|2002|2013,khanewal|multan cum khanewal,sq+dL17
+P02456,Rai Salahuddin Khan,Rai Salahuddin Khan,1985|1988,faisalabad,1997|2002,faisalabad,sq+dL17
+P01122,Ch. M. Bashir Randhawa,Ch. Muhammad Bashir Randhawa,1985,faisalabad,1993,faisalabad,di+d
+P01124,Ghulam Mustafa Bajwa,Ghulam Mustafa Bajwa,1985|1988|1990,faisalabad,1993,faisalabad,sq+dL18
+P01174,Ch. Asad-Ur-Rehman,Chaudhary Asad ur Rehman,1985|1988|1990,toba tek singh,1993|1997|2002|2008|2013|2018|2024,toba tek singh,sq+dL20
+P01269,Ch. Abdul Sattar,Chaudhary Abdul Sattar,1985|1990,sialkot|toba tek singh,1993|1997|2002|2008|2024,gujrat|sialkot,sq+dL19
+P01344,Liaqat Ali,Mian Liaqat Ali,1985,lahore,1993,lahore,di+d
+P00202,Liaqat Baloch,Liaqat Baloch,1985|1988|1990,lahore,1993|2002|2013|2018|2024,lahore|multan|muzaffargarh,sq+dL12
+P01332,Qari Muhammad Zawar Bahadur,Hafiz Qari Muhammad Zawar Bahadur,1985,lahore,1993|2008|2013,lahore,sq+dL20
+P00127,Mian M. Nawaz Sharif,Mian Muhammad Nawaz Sharif,1985|1988|1990,lahore|lahore full|multan|okara|sargodha|sialkot,1993|1997|2013|2024,abbbottabad cum haripur|abbottabad cum haripur|lahore|mansehra cum torghar|sargodha,sq+dL23
+P01319,Irfan Saeed,Irfan Saeed,1985,lahore,1993,lahore,sq+dL10
+P01318,Hafiz Salman Butt,Hafiz Salman Butt,1985|1988|1990,lahore,1993|2002|2013|2018,lahore,sq+dL10
+P01326,Mian Yousaf Salahuddin,Mian Yousaf Salahuddin,1985,lahore,1993,lahore,sq+dL20
+P01343,Wazir Ali Bhatti,Wazir Ali Bhatti,1985|1988|1990,lahore,1993,lahore,sq+dL14
+P01348,M. Abdul Ghafoor Alwari,Molvi Abdul Ghafoor Alwari,1985|1988|1990,kasur|lahore,1993,lahore,sq+dL18
+P00053,Rao Khizar Hayat,Rao Muhammad Khizar Hayat,1985,kasur,1993,kasur,di+d
+P00068,Molana Moeenuddin Lakhvi,Maulana Moeenuddin Lakhvi,1985|1988|1990,kasur,1993|1997|2002,kasur,sq+dL16
+P00024,Rana Tanveer Hussain,Rana Tanveer Hussain,1985|1990,sheikhupura,1993|1997|2002|2008|2013|2018|2024,sheikhupura,sq+dL18
+P00430,Mushtaq Ahmad Khan,Mushtaq Ahmad Khan,1985,sheikhupura,1993|2002,hyderabad,sqL16
+P00044,Rai Mansab Ali Khan,Rai Mansab Ali Khan,1985|1988|1990,multan|sheikhupura,1993|1997|2002|2008|2013,sheikhupura,sq+dL16
+P01093,Bashir Ahmad Khan,Bashir Ahmad Khan,1985,sheikhupura,1993,bhakkar,sqL15
+P00026,Ch. M. Anwar,Ch. Muhammad Anwar,1985|1988|1990,gujranwala|sheikhupura,1993|1997|2013|2024,faisalabad|jhang|sheikhupura,sq+dL21
+P01213,Rana Nazir Ahmad Khan,Rana Nazir Ahmad Khan,1985|1988|1990,gujranwala,1993|1997|2008|2018|2024,gujranwala|gujranwalla,sq+dL18
+P02584,Ch. Ijaz Ahmad,Chaudahry Ejaz Ahmad,1985|1988|1990,gujranwala,1997,gujranwala cum hafizabad,sqL17
+P01290,M. Naeem-Ur-Rehman,Mian Muhammad Naeem ur Rehman,1985,sialkot,1993|1997,narowal|sialkot,di+d
+P01264,Prof M. Amin Javed,Professor Amin Javed,1985,sialkot,1993|2002,sialkot,sq+dL9
+P01284,Ch. Shafaat Ahmad Khan,Chaudhary Shafaat Ahmad Khan,1985|1990,sialkot,1993,narowal,sqL24
+P02658,Ch. Anwar-Ul-Haq,Ch. Anwar ul Haq,1985|1988,sialkot,1997|2002|2013|2024,narowal,sqL18
+P00135,Syed Fakhar Imam,Syed Fakhar Imam Shah,1985|1988|1990,khanewal|multan,1993|2002|2008|2013|2018|2024,khanewal,sq+dL18
+P01457,Aftab Ahmad Khan Daha,Aftab   Ahmad Khan Daha,1985|1988|1990,khanewal|multan,1997,khanewal,sq+dL18
+P00138,Pir M. Aslam Bodla,Pir Muhammad Aslam Bodla,1985|1988|1990,khanewal|multan|na khanewal,1993|2002|2008,khanewal,di+d
+P00120,Khurshid Ahmad Khan Kanju,Khurshid Ahmad Khan Kanju,1985|1988,multan,1993,lodhran,sqL22
+P00200,Ehsan Karim Qureshi,Mian Ehsan Karim Qureshi,1985|1990,muzaffargarh,1993,muzaffargarh,di+d
+P00199,Malik Ghulam Mustafa Khar,Malik Ghulam Muhammad Murtaza Khar,1985|1988|1990,muzaffargarh,1993|1997|2002|2013|2018|2024,kot addu|lahore|muzaffaragrah|muzaffargarh,di+d
+P00212,Malik Niaz Ahmad Jakhar,Malik Niaz Ahmad Jhakkar,1985|1988|1990,layyah,1993|1997|2002|2008|2024,layyah,sq+dL20
+P00156,Rai Ahmad Nawaz,Rai Ahmed Nawaz,1985|1988|1990,sahiwal,1993|1997,sahiwal,sq+dL13
+P00160,Raja Shahid Saeed Khan,Raja Shahid Saeed Khan,1985|1988|1990,sahiwal,1993|1997,pakpattan|sahiwal,sq+dL19
+P01412,Syed Sajjad Haider,Syed Sajjad Haider,1985|1988|1990,okara,1997,okara,sq+dL16
+P00092,Rao M. Afzal Khan,Rao Muhammad Afzal Khan,1985|1988,okara,1993,okara,di+d
+P00096,Mian M. Yasin Khan Wattoo,Mian Muhammad Yasin Khan Wattoo,1985|1990,okara,1993,okara,di+d
+P00098,Dr. Qasim Ali Wattoo,Doctor Qasim Ali Wattoo,1985,okara,1993,okara,sq+dL14
+P01544,Shahzada Saeed-Ur-Rasheed Mehmood Abbasi,Shahzada Saeed ur Rasheed Mahmood   Abbasi,1985,bahawalpur,1997,bahawalpur,sq+d di35 GAP12
+P01546,Raja Mukhtar Ali,Raja Mukhtar Ali,1985,bahawalpur,1997,bahawalpur,sq+d di14 GAP12
+P00230,Syed Tasneem Nawaz Gardezi,Syed Tasneem Nawaz Gardezi,1985|1988|1990,bahawalpur,1993|2002|2008,bahawalpur|bahawlpur,sq+dL23
+P00232,Mian Abdul Sattar Laleka,Mian Abdul Sattar Laleka,1985,bahawalnagar,1993|1997,bahawalnagar,sq+dL21
+P00242,Ch. Abdul Ghafoor,Chaudhary Abdul Ghafoor,1985|1988|1990,bahawalnagar,1993|1997|2002|2008|2013,bahawalnagar|khanewal,sq+dL20
+P00245,Syed Ahmad Alam Anwar,Syed Ahmad Alam Anwar,1985|1988|1990,rahim yar khan|rahimyar khan,1993,rahimyar khan,sq+dL18
+P07217,Sheikh Fayyaz Ud Din,Shaikh Fayyaz Uddin,1985|1988,rahim yar khan|rahimyar khan,2013|2018|2024,rahim yar khan|rahimyar khan,sq+d+rare di17 GAP25
+P00266,Sardar Rafiq Haider Khan Leghari,Sardar Rafiq Haider Khan Leghari,1985|1988|1990,rahim yar khan,1993|2013|2018,rahimyar khan,sqL28
+P01581,Islamuddin Sheikh,Islam uddin Sheikh,1985|1990,sukkur,1997,sukkur,sq+dL16
+P00314,Illahi Bakhsh Soomro,Ellahi Bakhsh Soomro,1985|1988|1990,jacobabad|shikarpur,1993|1997|2002|2008|2013,jacobabad,sq+dL18
+P00305,Agha Atta M. Khan,Agha Atta Muhammad Khan,1985|1988,shikarpur,1993,shikarpur,di+d
+P00346,Munawar Ali Shah,Syed Munawar Ali Shah,1985|1990,nawabshah,1993|1997,naushero feroz,sqL14
+P00345,Syed Murad Ali Shah,Syed Murad Ali Shah,1985|1988|1990,nawabshah|toba tek singh,1993|2002|2008|2013,naushero feroz|naushero feroze,sqL16
+P00333,Dil Murad Jamali,Dil Murad Jamali,1985|1988|1990,naushero feroz|nawabshah,1993|1997,naushero feroz,sq+dL14
+P00374,Hakim Ali Zardari,Hakim Ali Zardari,1985|1988|1990,nawabshah,1993|1997,nawabshah,sq+dL15
+P00408,Sardar Ahmad Sultan Chandio,Sardar Ahmad Sultan Chandio,1985,larkana,1993,larkana,sq+dL24
+P01760,Ali Akbar Nizamani,Ali Akbar Nizamani,1985,badin,1997,badin,sq+d di16 GAP12
+P00483,Syed Qurban Ali Shah,Syed Qurban Ali Shah,1985|1988|1990,tharparkar,1993|1997|2002|2008|2013,mirpurkhas|old mirpurkhas,sqL17
+P01810,Abdul Hameed Khan Jatoi,Abdul Hameed Khan Jatoi,1985,dadu,1997,dadu,sq+d di20 GAP12
+P05287,Qadir Bux,Qadir Bakhsh,1985,karachi,2008|2013,karachi,sq+d+rare di11 GAP23
+P00612,Muzaffar Ahmad Hashmi,Muzaffar Ahmad Hashmi,1985|1988|1990,karachi|karachi central,1993|2002,karachi|karachi central,sq+dL19
+P05230,Muhammad Afaque Khan,Muhammad Afaque Khan,1985|1988,karachi|karachi west,2008,karachi,sq+d di10 GAP20
+P00737,Haider Ali Molji,Haider Ali Molji,1985,karachi,1993,karachi east,sqL14
+P00743,Sardar Fateh M. M. Hasni,Haji Sardar Fateh Muhammad Muhammad   Hassani,1985,quetta chagai,1993|1997|2002|2008|2018|2024,chagai cum nushki cum kharan|chagai cum nushki cum kharan cum washuk|kharan cum panjgur|quetta cum chagai|quetta cum chagai cum mastung,sqL34
+P02017,Sardar Wazir Ahmad Jogezai,Sardar Wazir Ahmad Jogezai,1985|1988,zhob,1997|2008,old zhob|zhob cum killa saifullah,sqL23
+P00814,Mir Zafarullah Khan Jamali,Mir Zafarullah Khan Jamali,1985|1988|1990,jaffarabad|naseerabad,1993|2002|2013,jaffarabad cum nasirabad|nasirabad|old nasirabad,sqL23
+P00001,Haji Ghulam Ahmad Bilour,Ghulam Ahmad Bilour,1988|1990,peshawar,1993|2008|2013|2018|2024,peshawar,sq+dL17
+P02227,Sardar Ali Khan,Sardar Ali Khan,1988,peshawar,1997,peshawar,sq+dL13
+P03906,Abdul Latif,Abdul Latif,1988|1990,faisalabad|peshawar,2002|2013|2018|2024,chitral|peshawar,sq+d di10 GAP12
+P08838,Pirzada Nabi Amin,Pirzada Nahi Amin,1988|1990,peshawar,2013|2024,nowshera|peshawar,sq+d+rare di15 GAP23
+P01276,Syed Iftikhar Hussain Gilani,Syed Iftikhar Hussain Gillani,1988|1990,kohat|rahimyar khan,1993|2002|2008,kohat,sq+dL25
+P00009,Molana Shaheed Ahmad,Maulana Shaheed Ahmad,1988|1990,karak,1993,karak,sq+dL5
+P00074,Jamal Khan Abbasi,Jamal Khan Abbasi,1988,abbottabad,1993,abbottabad cum haripur,sqL15
+P00217,Sardar M. Yousaf,Sardar Muhammad Yousif,1988|1990,mansehra,1993|1997|2013,mansehra,sq+dL20
+P00635,Molvi Ali Akbar,Maulvi Ali Akbar,1988|1990,bannu,1993,bannu,sq+dL8
+P02093,Alamgir Khan,Alamgir Khan,1988,bannu,1997|2013,bannu|malakand protected area cum lower dir,sq+dL11
+P00638,Khaliq Dad Khan,Khaliq Dad Khan,1988|1990,bannu|mianwali|swat,1993,bannu|swat,sq+dL13
+P00846,Ubaid Ur Rehman,Obaid ur Rehman,1988|1990,swat,1993|1997|2013|2018|2024,di khan|swat|tank|tank cum di khan,sq+dL13
+P02069,Dr. Mehboob-Ur-Rehman,Mehboob ur Rehman,1988|1990,swat,1997,swat cum shangla,sqL15
+P00848,M. Afzal Khan,Muhammad Afzal Khan,1988|1990,swat,1993,swat,di+d
+P00400,Begum Nusrat Bhutto,Begum Nusrat Bhutto,1988|1990,chitral|larkana,1993|1997,larkana,sq+dL12
+P00863,Najmuddin,Najmud Din,1988|1990,dir,1993|1997,dir|upper dir cum lower dir,sq+dL9
+P00977,Sultan Muhammad,Sultan Muhammad,1988,ta,1993|1997,ta khyber agency|ta kurram agency,sqL14
+P00431,Dost Muhammad,Dost Muhammad,1988|1990,hyderabad|ta,1993|1997|2024,hyderabad|karachi west|mirpurkhas,sq+dL12
+P00970,Malik Waris Khan,Malik Waris Khan,1988,ta,1993|2013|2018,ta|ta khyber agency,sq+dL14
+P08770,Malik Roza Din,Malik Roza Din,1988,ta,2013,ta,sq+d+rare di12 GAP25
+P01000,Shahid Khaqan Abbasi,Shahid Khaqan Abbasi,1988|1990,rawalpindi,1993|1997|2002|2008|2013|2018,islamabad|rawalpindi,sq+dL18
+P01013,Raja Abid Hussain,Raja Abid Hussain,1988,rawalpindi,1993,rawalpindi,sq+dL15
+P04982,Aftab Ahmed,Aftab Ahmad,1988|1990,nawabshah|rawalpindi,2008,nawabshah,sq+d di10 GAP18
+P01033,Amir M. Khan,Amir Muhammad Khan,1988|1990,attock,1993,attock,di+d
+P01034,Malik Allah Yar Khan,Malik Allah Yar Khan,1988|1990,attock,1993|2002,attock,sq+dL17
+P01032,Malik Lal Khan,Malik Lal Khan,1988|1990,attock,1993|1997,attock|attok|chakwal,sq+dL12
+P01048,Nawabzada Iqbal Mehdi Khan,Nawabzada Iqbal Mehdi,1988|1990,jhelum,1993|1997,jhelum,sq+dL23
+P01062,Mumtaz Ahmad Kahloon,Mumtaz Ahmad Kahloon,1988,sargodha,1993,sargodha,sq+dL18
+P01092,M. Zafarullah Khan,Muhammad Zafar Ullah Khan,1988,bhakkar,1993|1997,bhakkar|lahore,di+d
+P01093,Bashir Ahmad Khan,Bashir Ahmad Khan,1988|1990,bhakkar,1993,bhakkar,sq+dL15
+P01106,Rai M. Aslam Khan,Rana Muhammad Aslam Khan,1988|1990,faisalabad|okara,1993|2024,faisalabad|nankana sahib,sq+dL20
+P01110,Alhaj Mian Nasir Ali Khan,Mian Nasir Ali Khan,1988,faisalabad,1993|1997,faisalabad,sq+dL16
+P01129,Nisar Akbar Khan,Nisar Akbar Khan,1988,faisalabad,1993|2002|2008|2013,faisalabad,sq+dL14
+P01128,Haji Muhammad Akram Ansari,Muhammad Akram Ansari,1988|1990,faisalabad,1993|1997|2008|2013|2018|2024,faisalabad,sq+dL19
+P01139,Mehar Abdur Rasheed,Mehar Abdur Rasheed,1988|1990,faisalabad,1993,faisalabad,sq+dL17
+P01133,Ch. Sher Ali,Chaudhary Sher Ali,1988|1990,faisalabad,1993|1997,faisalabad,sq+dL15
+P01146,Amir Hussain Syed,Amir Hussain Syed,1988|1990,jhang,1993,jhang,sq+dL15
+P01170,Sahabzada M. Nazeer Sultan,Sahibzada Muhamamd Nazir Sultan,1988|1990,jhang,1993|1997|2002|2008|2013,jhang,sq+dL28
+P01173,Khalid Ahmad Khan Kharal,Khalid Ahmad Khan Kharal,1988,toba tek singh,1993|1997|2002,toba tek singh,sq+dL21
+P01186,Col. Ghulam Sarwar Cheema,Colonel (R) Ghulam Sarwar Cheema,1988|1990,gujranwala,1993|1997,gujranwala,sq+dL18
+P01184,Ch. Hamid Nasir Chatha,Chaudhary Hamid Nasir Chatha,1988|1990,gujranwala,1993|1997|2002|2008,gujranwala|gujranwalla,sq+dL24
+P01201,Ghulam Qadir Khan,Ghulam Qadir Khan,1988,gujranwala general,1993|1997|2002,gujranwala,sqL15
+P01254,Nazar Muhammad Gondal,Nazar Muhammad Gondal,1988|1990,gujrat,1993|1997|2008|2013|2018|2024,m b din|mandi bahauddin,sqL19
+P02772,Akhtar Javed Pirzada,Akhtar Javed Pirzada,1988,sialkot,2002,sialkot,sq+d di18 GAP14
+P01263,Amir Hussain,Amir Hussain,1988,sialkot,1993|1997,sialkot,sq+dL11
+P01393,M. Hussain Ansari,Muhammad Hussain Ansari,1988|1990,kasur|lahore|lahore full,1997,kasur,di+d
+P00416,Benazir Bhutto,Benazir Bhutto,1988|1990,karachi south|lahore|larkana|peshawar,1993|1997,hyderabad|larkana,sq+dL13
+P02676,Dr. Qari Ashfaqullah,Doctor Qari Ashfaq Ullah,1988,lahore,1997|2013,lahore,sq+dL11
+P01331,Jehangir Badar,Jahangir Badar,1988|1990,lahore,1993|2002|2008,lahore,sq+dL13
+P02697,Syed Ahmad Saeed Karmani,Syed Ahmad Saeed Karmani,1988,lahore,1997|2002,lahore,sq+dL21
+P00031,Ch. Nazir Ahmad Virk,Chaudhary Nazir Ahmad Virk,1988|1990,sheikhupura,1993|2002,sheikhupura,sq+dL22
+P00029,Haji Munawar Hussain Manj,Munawar Hussain Manj,1988|1990,sheikhupura,1993|1997|2008|2013|2018,sheikhupura,sq+dL18
+P00035,M. Khan Manj,Muhammad Khan Manj,1988|1990,sheikhupura,1993,sheikhupura,di+d
+P00037,M. Arif Awan,Muhammad Arif Awan,1988|1990,sheikhupura,1993,sheikhupura,di+d
+P06495,Muhammad Barjees Tahir,Muhammad Barjees Tahir,1988|1990,sheikhupura,2013|2024,nankana sahib|sheikhupura,sq+d+rare di12 GAP23
+P00040,Ch. Tawakkalullah Virk,Chaudhary Tawakkal Ullah Virk,1988|1990,sheikhupura,1993|1997|2008,sheikhupura,sq+dL25
+P00041,Haji Naeem Hussain Chatha,Haji Naeem Hussain Chatha,1988|1990,sheikhupura,1993|1997,sheikhupura,sq+dL18
+P01394,Syeda Nelofar Mehdi,Syeda Nelofar Mehdi,1988|1990,kasur,1997,kasur,sq+dL17
+P00066,Malik Ashiq Hussain,Malik Ashiq Hussain,1988,kasur,1993,kasur,sq+dL17
+P00067,Sardar M. Ashiq Dogar,Sardar Muhammad Ashiq Dogar,1988|1990,kasur,1993,kasur,di+d
+P00097,Manzoor Ahmad Khan,Mian Manzoor Ahmad Khan,1988,okara,1993|2008|2018,ghotki|jacobabad|layyah|mianwali|okara,sq+dL20
+P00109,Syed Hamid Saeed Kazmi,Syed Hamid Saeed Kazmi,1988|1990,multan,1993|2002|2008|2018|2024,multan|rahim yar khan|rahimyar khan,sq+dL19
+P03012,Malik Mukhtar Ahmad Awan,Malik Mukhtar Ahmad Awan,1988|1990,multan|multan general,2002,multan,sq+d di21 GAP12
+P00121,Mirza M. Nasir Baig,Mirza Muhammad Nasir Baig,1988|1990,multan,1993|1997|2002|2008|2013,lodhran|multan cum lodhran,sqL22
+P00144,Anwar-Ul-Haq Ramay,Anwar ul Haq Ramay,1988|1990,sahiwal,1993|1997|2002|2008|2024,sahiwal,sq+dL15
+P00150,Mehar Ghulam Farid Kathia,Mehar Ghulam Farid Kathia,1988|1990,sahiwal,1993|1997|2002|2013|2024,sahiwal,sq+dL22
+P00155,Begum Shahnaz Javed,Begum Shahnaz Javid,1988|1990,sahiwal,1993|1997|2002|2008,sahiwal,sq+dL12
+P01541,Manzoor Hussain,Haji Manzoor Hussain,1988,vehari,1997|2018|2024,khanewal|lahore|layyah,sqL14
+P01495,Akbar Ali Bhatti,Akbar Ali Bhatti,1988|1990,vehari,1997,vehari,sq+dL14
+P02536,Ghulam Shabbir Khan,Ghulam Shabbir Khan,1988,muzaffargarh,1997|2002,toba tek singh,sqL17
+P00196,Mian Atta M. Qureshi,Mian Atta Muhammad Qureshi,1988|1990,muzaffargarh,1993|1997,muzaffaragarh|muzaffargarh,di+d
+P03152,Mehar Tanveer Ahmad Jangla,Mehr Tanveer Ahmad Jangla,1988,muzaffargarh,2002,muzaffargarh,sq+d di23 GAP14
+P00197,Muzaffar Mehdi Hashmi,Muzaffar Mehdi Hashmi,1988,muzaffargarh,1993,muzaffargarh,sq+dL19
+P00205,Dr. Syed Athar Mehdi Kazmi,Doctor Syed Athar Mehdi Kazmi,1988|1990,muzaffargarh,1993,muzaffargarh,sq+dL19
+P00220,Sahabzada Faiz-Ul-Hassan,Sahibzada Faiz-ul-Hassan,1988|1990,layyah,1993|1997|2002|2008|2013|2018,layyah,sq+dL21
+P03186,Muhammad Farooq Azam Malik,Muhammad Farooq Azam Malik,1988|1990,bahawalpur,2002|2008|2013|2018,bahawalpur,sq+d di15 GAP12
+P03204,Syed Mumtaz Alam Gilani,Syed Mumtaz Alam Gillani,1988|1990,bahawalnagar,2002|2008,bahawalnagar,sq+d di20 GAP12
+P00236,Prof. Dr. Noor M. Ghaffari,Doctor Noor Muhammad Ghaffari,1988|1990,bahawalnagar,1993|1997|2002|2008|2024,bahawalnagar,di+d
+P00243,Ehsan Bari Mian Dr. Sahib,Doctor Mian Ehsan Bari,1988,bahawalnagar,1993|1997|2002|2008|2013,bahawalnagar|bahawalpur|rahimyar khan,di+d
+P00250,Makhdoom Rukanuddin,Makhdoom Rukun-ud-Din,1988|1990,rahim yar khan,1993,rahimyar khan,sqL18
+P00249,Makhdoom Shahabuddin,Makhdoom Shahab ud Din,1988|1990,rahim yar khan,1993|1997|2002|2008|2013|2018,rahimyar khan,sqL19
+P00993,Mian Mumtaz Rabbani,Mian Mumtaz Rabbani,1988,sukkar,1993,islamabad,sqL17
+P01621,Agha Masihuddin Khan,Agha Masihuddin Khan,1988,shikarpur,1997,shikarpur,sq+dL18
+P00355,Ghulam Mujtaba Khan,Ghulam Mujtaba Khan,1988,nawabshah,1993,naushero feroz,sqL17
+P01633,Haji Rehmatullah Behan,Haji Rehmatullah Behan,1988,nawabshah,1997,naushero feroz,sqL16
+P00329,Ghulam Mustafa Khan Jatoi,Ghulam Mustafa Khan Jatoi,1988|1990,naushero feroz|nawabshah,1993|1997,naushero feroz,sq+dL22
+P00335,Ghulam Mustafa Jamali,Ghulam Mustafa Jamali,1988|1990,naushero feroz|nawabshah,1993,naushero feroz,sq+dL19
+P10984,Syed Pervez Ali Shah Jeelani,Syed Pervez Ali Shah Jillani,1988|1990,khairpur,2018,khairpur,sq+d+rare di24 GAP28
+P00392,Pir Syed Saddaruddin Shah,Pir Saddaruddin Shah,1988|1990,khairpur,1993,khairpur cum sukkur,sqL22
+P13981,Abdul Salam,Abdul Salam,1988|1990,khairpur|pishin,2024,khairpur,sq+d+rare di10 GAP34
+P03406,Makhdoom M. Amin Faheem,Makhdoom Amin Faheem,1988|1990,hyderabad|hyederabad,2002,hyderabad,sq+d di18 GAP12
+P00426,Sheikh Aftab Ahmad,Aftab Ahmad Sheikh,1988|1990,attock|hyederabad,1993|1997|2008|2013|2018|2024,attock|attok|hyderabad|old larkana,sq+dL16
+P01790,Nawab Abdul Ghani Talpur,Nawab Abdul Ghani Talpur,1988|1990,dadu|hyederabad,1997|2002|2008,dadu|mirpurkhas cum umerkot|old dadu,sq+dL21
+P00468,Dr. Abdul Haq Nizamani,Dr. Haji Abdul Haq Nizamani,1988,badin,1993,badin,sq+dL16
+P00482,Pir Aftab Hussain Shah Gilani,Pir Aftab Hussain Shah Gillani,1988,tharparkar,1993|1997|2002|2008|2018|2024,mirpur khas|mirpurkhas|old mirpurkhas,sqL25
+P01779,Pir Shafqat Hussain Shah,Pir Shafqat Hussain Shah,1988,tharparkar,1997,mirpurkhas,sqL21
+P00482,Pir Aftab Hussain Shah Gilani,Pir Aftab Hussain Shah Jillani,1988,tharparkar,1993|1997|2002|2008|2018|2024,mirpur khas|mirpurkhas|old mirpurkhas,sqL26
+P01783,Ghulam Mustafa Khaskheli,Ghulam Mustafa Khaskheli,1988,tharparkar,1997,mirpurkhas cum umerkot,sqL22
+P00518,Hussain Shah Rashdi,Hussain Shah Rashdi,1988,dadu,1993,dadu,sq+dL17
+P00561,Roshan Din Junejo,Roshan Din Junejo,1988|1990,sanghar,1993|1997|2008|2013|2018|2024,sanghar,sq+dL15
+P00546,Abdul Aziz Ghori,Abdul Aziz Ghori,1988,sanghar,1993,sanghar,sq+dL14
+P00562,Ghulam Hussain Alias Babu,Ghulam Hussain Alias Babu,1988|1990,thatta,1993|1997|2013,thatta,sq+dL22
+P00614,Syed Saeed Hassan,Syed Saeed Hassan,1988,karachi central,1993,karachi central,sq+dL15
+P00626,M. Younas Baloch,Muhammad Younas Baloch,1988,karachi south,1993|1997,karachi south,di+d
+P00646,Muhammad Farooq Sattar,Muhammad Farooq Sattar,1988|1990,karachi south,1993|1997|2008|2013|2018|2024,karachi|karachi east|karachi south|karachi west,sq+dL20
+P00672,Zuhair Akram Nadeem,Zuhair Akram Nadeem,1988|1990,karachi east,1993,karachi east,sq+dL17
+P00675,Ghulam Murtaza Durrani,Ghulam Murtaza Durrani,1988,karachi east,1993,karachi east,sq+dL20
+P00662,Shahzad Tariq,Shahzada Tariq,1988|1990,karachi east|karachi south,1993,karachi south,sq+dL12
+P01970,Hafiz Hussain Ahmad,Hafiz Hussain Ahmad,1988|1990,quetta,1997|2002|2018|2024,killa abdullah cum chaman|quetta|quetta cum chagai|quetta cum chagai cum mastung,sq+dL12
+P03786,Khudai Noor,Khudai Noor,1988,quetta,2002|2008,quetta,sq+d di10 GAP14
+P08189,Ali Ahmed Kurd,Ali Ahmad Kurd,1988,quetta,2013,quetta,sq+d+rare di12 GAP25
+P01988,Sardar Muhammad Yaqoob Khan Nasir,Sardar Muhammad Yaqoob Khan Nasir,1988|1990,loralai,1997|2008|2013|2024,loralai cum barkhan cum musakhel|musakhel cum barkhan cum loralai cum duki|old loralai,sqL29
+P00794,Molvi M. Khan Sherani,Maulvi Muhammad Khan Sherani,1988|1990,zhob,1993|1997|2002|2008|2013,old zhob|zhob cum killa saifullah,sqL19
+P01609,Mian Farooq Ahmed,Mian Farooq Ahmad,1988,zhob,1997|2002|2008,ghotki,sqL15
+P02026,Mir Tariq Hussain Magsi,Mir Tariq Hussain Magsi,1988,kachhi,1997,bolan cum jhall magsi,sqL20
+P02043,Dr. Abdul Hayee Baloch,Doctor Abdul Hayee Baloch,1988|1990,bolan|kachhi,1997|2002|2013|2018,dera bugti cum kohlu cum barkhan cum sibi cum lehri|jaffarabad cum nasirabad|kacchi|old nasirabad,sqL16
+P05445,Molvi Qamar-Ud-Din,Molvi Qamaruddin,1988,khuzdar,2008,khuzdar,sq+d di10 GAP20
+P00832,Ghulam Akbar Lasi,Ghulam Akbar Lasi,1988|1990,lasbela cum gwadar|lasbela gawadar,1993|1997,labdela cum gwadar|lasbela cum gawadar,sqL15
+P02058,Abdul Rahim Zafar,Abdul Rahim Zafar,1988,lasbela gawadar,1997,lasbela cum gawadar,sqL15
+P00006,Syed Javed Hassan Shah,Syed Javed Hassan Shah,1990,peshawar,1993,peshawar,sq+dL19
+P01023,M. Ajmal Khan Khattak,Muhammad Ajmal Khan Khattak,1990,nowshera,1993|2018,nowshera,di+d
+P02718,Rahim Dad Khan,Rahim Dad Khan,1990,mardan,2002,mardan,sq+d di12 GAP12
+P03903,Abdul Akbar Khan,Abdul Akbar Khan,1990,mardan,2002|2008,chitral|mardan,sq+d di14 GAP12
+P01224,Haji Rehmanullah,Rehmanullah,1990,swabi,1993|1997|2013,swabi,sq+dL11
+P01277,Javed Ibrahim Paracha,Javed Ibrahim Paracha,1990,kohat,1993|1997|2002|2008,hangu|kohat|kohat cum hangu,sq+dL19
+P00015,Gul Shahzad Khattak,Gul Shahzad Khattak,1990,kohat,1993,karak,sqL16
+P00011,Afrasiab Khattak,Afra Siab Khattak,1990,karak,1993,karak,sq+dL14
+P04649,Sher Nawaz Khattak,Sher Nawaz Khattak,1990,karak,2008,karak,sq+d di15 GAP18
+P00072,Sardar Mehtab Ahmad Khan,Sardar Mehtab Ahmad Khan,1990,abbottabad,1993|1997|2008|2013|2024,abbbottabad cum haripur|abbottabad|abbottabad cum haripur,sq+dL21
+P01535,Molana Syed Ghulam Nabi Shah,Syed Ghulam Nabi Shah,1990,mansehra,1997|2002,mansehra,sq+dL18
+P00260,Zargul,Zar Gul,1990,mansehra,1993,mansehra,sq+dL6
+P01732,Aurangzeb,Aurang Zeb,1990,kohistan,1997|2008,kohistan|peshawar,sq+dL9
+P00446,Haji Ali Dad,Haji Ali Dad,1990,kohistan,1993,kohistan,sq+dL6
+P00535,Asmatullah Khan Mastikhel,Asmatullah Khan Mastikhel,1990,di khan,1993,di khan cum tank,sqL23
+P00852,Abdul Matin Khan,Abdul Matin Khan,1990,swat,1993|1997|2008,bunair cum shangla|buner|buner cum swat,sqL14
+P05499,Sher Bahader,Sher Bahadar,1990,swat,2008|2013,swat,sq+d di11 GAP18
+P00898,Syed Yousaf Hussain,Syed Yousuf Hussain,1990,ta kurram agency,1993|1997,ta kurram agency,sq+dL17
+P02187,Dr. Abdul Janan,Abdul Manan,1990,ta kurram agency,1997|2002,ta birmal wana trikhel and tiarzara tehsils of south waziristan agency|ta frontier region kurram and parts of lower kurram|ta kurram agency|ta upper kurram and parts of lower khurram,sq+dL10
+P00977,Sultan Muhammad,Sultan Muhammad,1990,ta south waziristan agency,1993|1997,ta khyber agency|ta kurram agency,sqL14
+P00973,Ali Akbar,Ali Akbar,1990,ta khyber agency,1993|1997,ta khyber agency,sq+dL8
+P02352,Malik Haji Fateh Khan,Malik Fateh Khan,1990,chakwal,1997,ta tas attached to peshawar kohat bbannu di khan tank and lakki marwat districts,sqL14
+P01055,Inam-Ul-Haq Paracha,Inam ul Haq Paracha,1990,sargodha,1993|1997|2002,sargodha,sq+dL16
+P01065,Anwar Kamal Pasha,Anwar Kamal Pasha,1990,sargodha,1993,sargodha,sq+dL15
+P01078,Malik M. Bashir Awan,Malik Muhammad Bashir Awan,1990,sargodha cum khushab,1993,sargodha cum khushab,di+d
+P01079,Sardar Shujah M. Khan,Sardar Shuja Muhammad Khan,1990,khushab,1993|1997|2008|2013,khushab,di+d
+P01091,Sardar Rafiq Khan,Sardar Rafiq Khan,1990,mianwali,1993|1997,mianwali,sq+dL15
+P01097,M. Zafarullah Khan Dhandla,Muhammad Zafar Ullah Khan Dhandla,1990,bhakkar,1993|1997,bhakkar,di+d
+P01105,Arif Hussain,Arif Hussain,1990,faisalabad,1993,faisalabad,sq+dL11
+P05828,Rai Salah-Ud-Din,Rai Salah-ud-Din,1990,faisalabad,2008,faisalabad,sq+d di13 GAP18
+P01112,Mirza M. Ahmad,Mirza Muhammad Ahmad,1990,faisalabad,1993,faisalabad,di+d
+P01116,Ch. M. Ilyas Ahmad,Chaudhary Muhammad Ilyas Ahmad,1990,faisalabad,1993,faisalabad,di+d
+P00239,Ghulam Rasool,Qari Muhammad Ghulam Rasool,1990,faisalabad,1993|2002|2013|2018|2024,bahawalnagar|faisalabad|jhang|sheikhupura,sq+dL20
+P04267,Fazal Hussain Rahi,Fazal Hussain Rahi,1990,faisalabad,2002,faisalabad,sq+d di15 GAP12
+P05860,Sahibzada Haji Muhammad Fazal-E-Kareem,Sahibzada Haji Muhammad Fazal Karim,1990,faisalabad,2008,faisalabad,sq+d di18 GAP18
+P05887,Sheikh Hakim Ali,Shaikh Hakim Ali,1990,jhang,2008|2013,jhang,sq+d di14 GAP18
+P01193,Afzal Hussain Tarar,Afzal Hussain Tarar,1990,gujranwala,1993|1997,hafizabad,sqL17
+P01198,M. Ihsanullah,Ihsan Ullah,1990,gujranwala,1993|2002,gujranwala,sq+dL10
+P02572,Kh. M. Aslam Lone,Kh. Muhammad Aslam Lone,1990,gujranwala,1997,gujranwala,di+d
+P01212,Ch. M. Abdullah Virk,Chaudhary Muhammad Abdullah Virk,1990,gujranwala,1993|1997|2002|2008|2013,gujranwala|gujranwalla,sq+dL28
+P01226,Nawabzada Ghazanfar Ali Gul,Nawabzada Ghazanfar Ali Gul,1990,gujrat,1993|1997|2002|2008|2013|2018|2024,gujrat,sq+dL24
+P01229,Ghazanfar Ali,Ghazanfar Ali,1990,gujrat,1993,gujrat,sq+dL12
+P01233,Ch. Ahmad Mukhtar,Chaudhary Ahmad Mukhtar,1990,gujrat,1993|1997|2002|2008|2013,gujrat,sq+dL20
+P01249,Zafarullah Tarar,Zafar Ullah Tarar,1990,gujrat,1993|1997|2002|2008|2013,m b din|mandi bahauddin|mandi bahauddin cum gujrat,sqL15
+P01300,Humayun Akhtar Khan,Hamayun Akhtar Khan,1990,lahore,1993|2002|2008|2018|2024,faisalabad|lahore,sq+dL17
+P01104,Mian Abdul Waheed,Mian Abdul Waheed,1990,lahore,1993|1997|2002|2008|2013|2024,faisalabad|lahore|sheikhupura,sq+dL15
+P01309,Mian Ijaz Ahmad Momenjee,Mian Ijaz Ahmad Momenjee,1990,lahore,1993,lahore,sq+dL21
+P01312,Salman Taseer,Salman Taseer,1990,lahore,1993|1997,lahore,sq+dL12
+P01325,Mian Muhammad Shehbaz Sharif,Mian Muhammad Shahbaz Sharif,1990,lahore,1993|1997|2013|2018|2024,dg khan|karachi west|kasur|lahore|swat,sq+dL25
+P00528,Abdul Hameed Khan,Abdul Hameed Khan,1990,dadu|lahore,1993,dadu,sq+dL15
+P02874,Maj. (R) Faisal Naseer Khan,Major (R) Faisal Naseer Khan,1990,lahore,2002,lahore,sq+d di16 GAP12
+P02684,M. Ashfaq Ch.,Muhammad Ashfaq Chaudhary,1990,lahore,1997,lahore,di+d
+P01327,Ijaz Ahmad Ch.,Ijaz Ahmad Chaudhary,1990,lahore,1993|2002|2008|2013,lahore|m b din|mandi bahauddin,sq+dL17
+P01349,Mirza Zahid Hussain,Mirza Zahid Hussain,1990,lahore,1993,lahore,sq+dL17
+P01341,Mehar Zulfiqar Ali Babu,Mehar Zulfiqar Ali Babu,1990,lahore,1993,lahore,sq+dL20
+P00239,Ghulam Rasool,Mian Ghulam Rasool,1990,sheikhupura,1993|2002|2013|2018|2024,bahawalnagar|faisalabad|jhang|sheikhupura,di+d
+P00043,Rai Bashir Ahmad Khan Bhatti,Rai Bashir Ahmad Khan Bhatti,1990,sheikhupura,1993|1997|2002,sheikhupura,sq+dL24
+P02962,Allama Syed Shabbir Ahmed Hashmi,Allama Syed Shabbir Ahmad Hashmi,1990,kasur,2002,kasur,sq+d di22 GAP12
+P02578,Ch. M. Boota,Chaudhary Muhammad Boota,1990,okara,1997|2024,gujranwala|sialkot,sqL21
+P00089,Syed Ahmad Hassan Shah,Syed Ahmad Hassan Shah,1990,okara,1993,okara,sq+dL19
+P04627,Syed Abbas Raza Rizvi,Syed Abbas Raza Rizvi,1990,okara,2008|2018|2024,okara,sq+d di18 GAP18
+P00114,Tanveer-Ul-Hassan Gilani,Syed Tanveer ul Hassan Gillani,1990,multan,1993|1997|2002|2018,multan,sq+dL25
+P00124,Syed Javed Ali Shah,Syed Javed Ali Shah,1990,multan,1993|1997|2002|2008|2013|2018|2024,khairpur|multan,sq+dL16
+P00148,Syed Nadeem Hussain,Syed Nadeem Hussain,1990,sahiwal,1993,sahiwal,sq+dL17
+P01472,Rana M. Hanif Khan,Rana Muhammad Hanif Khan,1990,sahiwal,1997,sahiwal,di+d
+P01497,Haji Zafar Ali,Zafar Ali,1990,vehari,1997|2013|2018,vehari,sq+dL8
+P00184,Sardar Muhammad Amjad Farooq Khan Khosa,Sardar Muhammad Amjad Farooq Khan,1990,dg khan,1993|1997|2002|2008|2013|2018|2024,dg khan|taunsa,di+d
+P00210,Abdullah Salfi,Abdullah Salfi,1990,muzaffargarh,1993,muzaffargarh,sq+dL13
+P00237,Mian Mumtaz Ahmad,Mian Mumtaz Ahmad,1990,bahawalnagar,1993|2018,bahawalnagar,sq+dL15
+P00241,Ali Akbar Mazhar Wains,Ali Akbar Mazhar Wains,1990,bahawalnagar,1993|1997,bahawalnagar,sq+dL19
+P01558,Ehsan Bari Mian Dr. Sahib (Retired),Doctor Mian Ehsan Bari ( Retired),1990,bahawalnagar,1997,bahawalnagar|rahimyar khan,di+d
+P03248,Syed Khursheed Ahmed Shah,Syed Khursheed Ahmad Shah,1990,sukkur,2002|2008|2013|2018|2024,old sukkur|sukkur,sq+d di22 GAP12
+P00421,Amanullah,Amanullah,1990,sukkur,1993|1997|2018|2024,gujranwala|hyderabad|naushahro feroze|sargodha cum khushab|sukkur|sukkur cum ghotki,sq+dL9
+P01594,Ali Nawaz Shah,Ali Nawaz Shah,1990,sukkur,1997|2008|2018|2024,mirpur khas|mirpurkhas|old mirpurkhas|sukkur,sq+dL12
+P10971,KHURSHID AFGHAN,Miss Khurshid Afghan,1990,sukkur,2018,sukkur,sq+d+rare di14 GAP28
+P00284,Jam Saifullah Khan Dharejo,Jam Saifullah Khan Dharejo,1990,sukkur,1993|1997|2002|2008,ghotki|old sukkur|sukkur cum ghotki,sqL23
+P00293,Jam Mumtaz Hussain,Jam Mumtaz Hussain,1990,sukkur,1993,ghotki,sqL16
+P01612,Junaid Ahmad Soomro,Junaid Ahmad Soomro,1990,shikarpur,1997|2008,old shikarpur|shikarpur,sq+dL17
+P03338,Mir Hazar Khan Bijarani,Mir Hazar Khan Bijarani,1990,jacobabad,2002|2008,jacobabad,sq+d di20 GAP12
+P00000,Syed Zafar Ali Shah,Zafar Ali Shah,1990,naushero feroz,1993|1997|2002|2008|2013|2018|2024,dadu|islamabad|naushero feroz|naushero feroze|nawabshah|peshawar|rawalpindi,sq+dL12
+P01644,Ghulam Murtaza Khan Jatoi,Ghulam Murtaza Khan Jatoi,1990,nawabshah,1997|2008|2013|2018|2024,naushahro feroze|naushero feroz|naushero feroze,sqL22
+P00330,Asif Ali Zardari,Asif Ali Zardari,1990,karachi south|nawabshah,1993|2018|2024,naushero feroz|nawabshah|shaheed benazirabad,sq+dL14
+P03377,Syed Irshad Hussain Shah,Syed Irshad Hussain Shah,1990,nawabshah,2002|2013,nawabshah|old hyderabad,sq+d di21 GAP12
+P00390,Rahim Bakhsh Wassan,Rahim Bux Wassan,1990,khairpur,1993,khairpur,sq+dL17
+P00417,Dr. Khalid Mehmood Soomro,Doctor Khalid Mehmood Soomro,1990,larkana,1993|1997|2002,larkana,sq+dL19
+P01708,Syed Shahabuddin Shah,Syed Shahab Ud Din Shah,1990,hyderabad,1997|2002,hyderabad,sq+dL19
+P01724,Dr. Khalid Maqbool Siddiqi,Dr. Khalid Maqbool Siddiqui,1990,hyderabad,1997|2013|2018|2024,hyderabad|karachi central|old hyderabad,sq+dL21
+P03445,Syed Naveed Qamar,Syed Naveed Qamar,1990,hyderabad,2002|2008|2013|2018|2024,hyderabad|old hyderabad|tando muhammad khan,sq+d di15 GAP12
+P00472,Dr. Zulfiqar Ali Mirza,Zulfiqar Ali Mirza,1990,hyderabad,1993|2008|2024,badin|old badin,sqL16
+P00456,Abdul Sattar Bachani,Abdul Sattar Bachani,1990,hyderabad,1993|1997|2013|2018|2024,hyderabad|old hyderabad|tando allahyar,sq+dL18
+P00439,Zafar Ali Rajput,Zafar Ali Rajput,1990,hyderabad,1993,hyderabad,sq+dL14
+P01759,Ghulam Ali Nizamani,Ghulam Ali Nizamani,1990,badin,1997|2002|2008|2013,badin|old badin,sq+dL17
+P01794,Pir Aftab Hussain Shah,Pir Aftab Hussain Shah,1990,tharparkar,1997,tharparkar,sq+dL19
+P00503,Arbab Ghulam Rahim,Arbab Ghulam Rahim,1990,tharparkar,1993|1997|2002|2008|2013|2018|2024,mirpurkhas|thar|tharparkar|umerkot,sq+dL16
+P00511,Javed,Javed,1990,dadu,1993,dadu,sq+dL5
+P01804,Syed Abdullah Shah,Syed Abdullah Shah,1990,dadu,1997|2013,dadu|muzaffargarh,sq+dL16
+P00521,Dr. Manzoor Hussain Leghari,Doctor Manzoor Hussain Leghari,1990,dadu,1993|1997,dadu,sq+dL21
+P00527,Rafiq Ahmad Mahessar,Rafiq Ahmad Mahessar,1990,dadu,1993|1997|2002,dadu,sq+dL18
+P00559,Altaf Hussain Rind,Altaf Hussain Rind,1990,sanghar,1993,sanghar,sq+dL16
+P00543,Jam Mashooq Ali,Jam Mashooq Ali,1990,sanghar,1993|1997|2008,sanghar,sq+dL13
+P01844,Sufi M. Habib Khan Warsi,Sufi Muhammad Habib Khan Warsi,1990,thatta,1997,thatta,di+d
+P00564,Syed Shafqat Hussain Shah Sheerazi,Syed Shafqat Hussain Shah Sheerazi,1990,thatta,1993|1997|2013|2018,sujawal|thatta,sq+dL30
+P00566,Syed Ghulam Akram Shah Sheerazi,Syed Ghulam Akram Shah Sheerazi,1990,thatta,1993,thatta,sq+dL27
+P00577,M. Irfan Khan,Muhammad Irfan Khan,1990,karachi west,1993|1997,karachi west,di+d
+P01851,Molana M. Abdul Rehman Farooqi,Muhammad Abdul Rehman Farooqi,1990,karachi west,1997,karachi west,di+d
+P00711,Khalil Ahmad Nanitalwala,Khalil Ahmad Nanitalwala,1990,karachi west,1993,karachi east,sqL22
+P01884,Syed Hassan Raza,Syed Hassan Raza,1990,karachi central,1997,karachi central,sq+dL14
+P00625,Ahmad,Ahmad,1990,karachi south,1993,karachi south,sq+dL5
+P11333,ABDUL HABIB,Abdul Habib,1990,karachi south,2018,karachi south,sq+d+rare di10 GAP28
+P00653,Abdul Qadir Lakhani,Abdul Qadir Lakhani,1990,karachi south,1993,karachi south,sq+dL17
+P01960,Sardar Akhtar Ali Baloch,Sardar Akhtar Ali Baloch,1990,karachi east,1997,malir cum karachi east,sqL21
+P01093,Bashir Ahmad Khan,Bashir Ahmad Khan,1990,pishin,1993,bhakkar,sqL15
+P00793,Nawab M. Ayyaz Khan Jogezai,Nawab Muhammad Ayaz Khan Jogezai,1990,zhob,1993|1997|2002|2024,quetta|sherani cum zhob cum killa saifullah|zhob cum killa saifullah,sqL28
+P02054,Khair Jan Baloch,Khair Jan Baloch,1990,khuzdar,1997,khuzdar cum awaran,sqL14

@@ -7,10 +7,10 @@
    {
     "id": "P00187",
     "name": "Sardar Farooq Ahmad Khan Leghari",
-    "wins": 4,
-    "win_years": "1993|2002|2008",
-    "years": "1993|2002|2008",
-    "parties": "IND|NA(alliance)|PMLQ|PPP",
+    "wins": 7,
+    "win_years": "1977|1988|1990|1993|2002|2008",
+    "years": "1977|1988|1990|1993|2002|2008",
+    "parties": "IND|NA(alliance)|PDA|PMLQ|PPP",
     "districts": "dg khan|dg khan cum rajanpur|rajanpur|sahiwal"
    },
    {
@@ -158,7 +158,7 @@
     "src": "https://alchetron.com/Mina-Ehsan-Leghari"
    }
   ],
-  "total_wins": 13
+  "total_wins": 16
  },
  {
   "family": "Khosa",
@@ -194,11 +194,11 @@
    },
    {
     "id": "P00184",
-    "name": "Sardar M. Amjad Farooq Khan",
-    "wins": 3,
-    "win_years": "1997|2013|2018",
-    "years": "1993|1997|2002|2008|2013|2018|2024",
-    "parties": "IND|PMLN",
+    "name": "Sardar Muhammad Amjad Farooq Khan",
+    "wins": 4,
+    "win_years": "1990|1997|2013|2018",
+    "years": "1990|1993|1997|2002|2008|2013|2018|2024",
+    "parties": "IJI|IND|PMLN",
     "districts": "dg khan|taunsa"
    },
    {
@@ -273,7 +273,7 @@
     "src": "https://thefridaytimes.com/01-Jan-2024/attack-on-police-personnel-latif-khosa-s-son-arrested-in-lahore"
    }
   ],
-  "total_wins": 6
+  "total_wins": 7
  },
  {
   "family": "Kanju",
@@ -423,11 +423,11 @@
   "nodes": [
    {
     "id": "P01487",
-    "name": "M. Nawaz Khan Alias Dilawar Khan Khichi",
-    "wins": 1,
-    "win_years": "1997",
-    "years": "1997",
-    "parties": "PMLN",
+    "name": "Mohammad Nawaz Khan @ Dilawar Khan   Khichi",
+    "wins": 4,
+    "win_years": "1977|1985|1990|1997",
+    "years": "1977|1985|1988|1990|1997",
+    "parties": "IJI|NONP|PMLN|PPP",
     "districts": "vehari"
    },
    {
@@ -472,7 +472,7 @@
     "src": "https://loksujag.com/story/vehari-election-situation-scenario-eng"
    }
   ],
-  "total_wins": 4
+  "total_wins": 7
  },
  {
   "family": "Daultana",
@@ -616,10 +616,10 @@
    {
     "id": "P00456",
     "name": "Abdul Sattar Bachani",
-    "wins": 2,
-    "win_years": "1993|2013",
-    "years": "1993|1997|2013|2018|2024",
-    "parties": "IND|PPP",
+    "wins": 3,
+    "win_years": "1990|1993|2013",
+    "years": "1990|1993|1997|2013|2018|2024",
+    "parties": "IND|PDA|PPP",
     "districts": "hyderabad|old hyderabad|tando allahyar"
    },
    {
@@ -664,7 +664,7 @@
     "src": "https://www.pakpedia.pk/zulfiqar-bachani/"
    }
   ],
-  "total_wins": 6
+  "total_wins": 7
  },
  {
   "family": "Mirza",
@@ -676,9 +676,9 @@
     "name": "Dr. Zulfiqar Ali Mirza",
     "wins": 1,
     "win_years": "1993",
-    "years": "1993|2008|2024",
+    "years": "1990|1993|2008|2024",
     "parties": "IND|PPP",
-    "districts": "badin|old badin"
+    "districts": "badin|hyderabad|old badin"
    },
    {
     "id": "P01764",
@@ -764,9 +764,9 @@
     "name": "Pir Aftab Hussain Shah Gilani",
     "wins": 5,
     "win_years": "1993|1997|2002|2008|2024",
-    "years": "1993|1997|2002|2008|2018|2024",
-    "parties": "IND|PPP",
-    "districts": "mirpur khas|mirpurkhas|old mirpurkhas"
+    "years": "1988|1993|1997|2002|2008|2018|2024",
+    "parties": "IJI|IND|PPP",
+    "districts": "mirpur khas|mirpurkhas|old mirpurkhas|tharparkar"
    },
    {
     "id": "P05094",
@@ -833,7 +833,7 @@
     "name": "Syed Shafqat Hussain Shah Sheerazi",
     "wins": 2,
     "win_years": "1993|1997",
-    "years": "1993|1997|2013|2018",
+    "years": "1990|1993|1997|2013|2018",
     "parties": "IND|PPP",
     "districts": "sujawal|thatta"
    },
@@ -1025,20 +1025,20 @@
    {
     "id": "P00400",
     "name": "Begum Nusrat Bhutto",
-    "wins": 2,
-    "win_years": "1993|1997",
-    "years": "1993|1997",
-    "parties": "PPP",
-    "districts": "larkana"
+    "wins": 5,
+    "win_years": "1988|1990|1993|1997",
+    "years": "1988|1990|1993|1997",
+    "parties": "PDA|PPP",
+    "districts": "chitral|larkana"
    },
    {
     "id": "P00416",
     "name": "Benazir Bhutto",
-    "wins": 3,
-    "win_years": "1993|1997",
-    "years": "1993|1997",
-    "parties": "PPP",
-    "districts": "hyderabad|larkana"
+    "wins": 7,
+    "win_years": "1988|1990|1993|1997",
+    "years": "1988|1990|1993|1997",
+    "parties": "PDA|PPP",
+    "districts": "hyderabad|karachi south|lahore|larkana|peshawar"
    },
    {
     "id": "P00412",
@@ -1052,11 +1052,11 @@
    {
     "id": "P00330",
     "name": "Asif Ali Zardari",
-    "wins": 3,
-    "win_years": "1993|2018|2024",
-    "years": "1993|2018|2024",
-    "parties": "PPP",
-    "districts": "naushero feroz|nawabshah|shaheed benazirabad"
+    "wins": 4,
+    "win_years": "1990|1993|2018|2024",
+    "years": "1990|1993|2018|2024",
+    "parties": "PDA|PPP",
+    "districts": "karachi south|naushero feroz|nawabshah|shaheed benazirabad"
    },
    {
     "id": "P09469",
@@ -1070,10 +1070,10 @@
    {
     "id": "P00374",
     "name": "Hakim Ali Zardari",
-    "wins": 1,
-    "win_years": "1993",
-    "years": "1993|1997",
-    "parties": "IND|PPP",
+    "wins": 2,
+    "win_years": "1988|1993",
+    "years": "1985|1988|1990|1993|1997",
+    "parties": "IND|NONP|PPP",
     "districts": "nawabshah"
    },
    {
@@ -1188,7 +1188,7 @@
     "src": "https://en.wikipedia.org/wiki/Ghinwa_Bhutto"
    }
   ],
-  "total_wins": 13
+  "total_wins": 22
  },
  {
   "family": "Jatoi",
@@ -1198,20 +1198,20 @@
    {
     "id": "P00329",
     "name": "Ghulam Mustafa Khan Jatoi",
-    "wins": 2,
-    "win_years": "1993|1997",
-    "years": "1993|1997",
-    "parties": "National Peoples Party",
-    "districts": "naushero feroz"
+    "wins": 3,
+    "win_years": "1990|1993|1997",
+    "years": "1988|1990|1993|1997",
+    "parties": "IJI|National Peoples Party",
+    "districts": "naushero feroz|nawabshah"
    },
    {
     "id": "P01644",
     "name": "Ghulam Murtaza Khan Jatoi",
-    "wins": 2,
-    "win_years": "2008|2013",
-    "years": "1997|2008|2013|2018|2024",
-    "parties": "GDA|IND|NP|National Peoples Party",
-    "districts": "naushahro feroze|naushero feroz|naushero feroze"
+    "wins": 3,
+    "win_years": "1990|2008|2013",
+    "years": "1990|1997|2008|2013|2018|2024",
+    "parties": "GDA|IJI|IND|NP|National Peoples Party",
+    "districts": "naushahro feroze|naushero feroz|naushero feroze|nawabshah"
    },
    {
     "id": "P01640",
@@ -1287,7 +1287,7 @@
     "src": "https://www.dawn.com/news/846847/veteran-politician-mustafa-jatoi-dies"
    }
   ],
-  "total_wins": 5
+  "total_wins": 7
  },
  {
   "family": "Sharif",
@@ -1297,19 +1297,19 @@
    {
     "id": "P00127",
     "name": "Mian M. Nawaz Sharif",
-    "wins": 8,
-    "win_years": "1993|1997|2013|2024",
-    "years": "1993|1997|2013|2024",
-    "parties": "PMLN",
-    "districts": "abbbottabad cum haripur|abbottabad cum haripur|lahore|manseh"
+    "wins": 13,
+    "win_years": "1985|1988|1990|1993|1997|2013|2024",
+    "years": "1985|1988|1990|1993|1997|2013|2024",
+    "parties": "IJI|NONP|PMLN",
+    "districts": "abbbottabad cum haripur|abbottabad cum haripur|lahore|lahore"
    },
    {
     "id": "P01325",
     "name": "Mian Muhammad Shehbaz Sharif",
-    "wins": 6,
-    "win_years": "1993|1997|2013|2018|2024",
-    "years": "1993|1997|2013|2018|2024",
-    "parties": "PMLN",
+    "wins": 7,
+    "win_years": "1990|1993|1997|2013|2018|2024",
+    "years": "1990|1993|1997|2013|2018|2024",
+    "parties": "IJI|PMLN",
     "districts": "dg khan|karachi west|kasur|lahore|swat"
    },
    {
@@ -1338,6 +1338,33 @@
     "years": "2013",
     "parties": "PMLN",
     "districts": "tor ghar cum mansehra"
+   },
+   {
+    "id": "P02691",
+    "name": "M. Ishaq Dar",
+    "wins": 1,
+    "win_years": "1997",
+    "years": "1997",
+    "parties": "PMLN",
+    "districts": "lahore"
+   },
+   {
+    "id": "P04266",
+    "name": "Abid Ali",
+    "wins": 3,
+    "win_years": "2002|2008|2013",
+    "years": "2002|2008|2013",
+    "parties": "PMLN",
+    "districts": "faisalabad"
+   },
+   {
+    "id": "P01133",
+    "name": "Ch. Sher Ali",
+    "wins": 3,
+    "win_years": "1990|1993|1997",
+    "years": "1988|1990|1993|1997",
+    "parties": "IJI|IND|PMLN",
+    "districts": "faisalabad"
    }
   ],
   "edges": [
@@ -1396,9 +1423,30 @@
     "rel": "in-laws",
     "note": "Son-in-law",
     "src": "https://en.wikipedia.org/wiki/Muhammad_Safdar_Awan"
+   },
+   {
+    "a": "P00127",
+    "b": "P02691",
+    "rel": "in-laws",
+    "note": "Samdhis: Dar's eldest son married Nawaz's daughter Asma, 2004",
+    "src": "https://en.wikipedia.org/wiki/Ishaq_Dar"
+   },
+   {
+    "a": "P00127",
+    "b": "P04266",
+    "rel": "uncle-nephew",
+    "note": "Abid Sher Ali, thrice MNA NA-84 Faisalabad (listed as 'Abid Ali' in the 2002-13 returns)",
+    "src": "https://en.wikipedia.org/wiki/Abid_Sher_Ali"
+   },
+   {
+    "a": "P01133",
+    "b": "P04266",
+    "rel": "father-son",
+    "note": "Ch. Sher Ali, ex-mayor of Faisalabad, is Abid's father",
+    "src": "https://en.wikipedia.org/wiki/Abid_Sher_Ali"
    }
   ],
-  "total_wins": 19
+  "total_wins": 32
  },
  {
   "family": "Chaudhry of Gujrat",
@@ -1408,10 +1456,10 @@
    {
     "id": "P01227",
     "name": "Ch. Shujaat Hussain",
-    "wins": 3,
-    "win_years": "1997|2002",
-    "years": "1993|1997|2002|2008",
-    "parties": "PMLN|PMLQ",
+    "wins": 6,
+    "win_years": "1985|1988|1990|1997|2002",
+    "years": "1977|1985|1988|1990|1993|1997|2002|2008",
+    "parties": "IJI|IND|NONP|PMLN|PMLQ",
     "districts": "bhakkar|gujrat"
    },
    {
@@ -1569,7 +1617,7 @@
     "src": "https://en.wikipedia.org/wiki/Chaudhry_Hussain_Elahi"
    }
   ],
-  "total_wins": 11
+  "total_wins": 14
  },
  {
   "family": "Bilour",
@@ -1578,10 +1626,10 @@
   "nodes": [
    {
     "id": "P00001",
-    "name": "Haji Ghulam Ahmed Bilour",
-    "wins": 1,
-    "win_years": "2008",
-    "years": "1993|2008|2013|2018|2024",
+    "name": "Ghulam Ahmad Bilour",
+    "wins": 2,
+    "win_years": "1990|2008",
+    "years": "1988|1990|1993|2008|2013|2018|2024",
     "parties": "ANP",
     "districts": "peshawar"
    },
@@ -1627,7 +1675,7 @@
     "src": "https://en.wikipedia.org/wiki/Ilyas_Ahmed_Bilour"
    }
   ],
-  "total_wins": 1
+  "total_wins": 2
  },
  {
   "family": "Wali Khan / Hoti",
@@ -1690,34 +1738,16 @@
  {
   "family": "Niazi (Mianwali)",
   "base": "Mianwali",
-  "notes": "2024 NA-89 'Imran Khan' (IND, 8th) is a namesake, not the PTI founder. Rokhri-Niazi family (Humair Hayat Rokhri) is a third Mianwali dynasty.",
+  "notes": "Imran Khan and his estranged cousin Inamullah Niazi are excluded: an estranged cousin tie is not a functioning political dynasty. 2024 NA-89 'Imran Khan' (IND, 8th) is a namesake, not the PTI founder.",
   "nodes": [
    {
-    "id": "P01405",
-    "name": "Imran Ahmed Khan Niazi",
-    "wins": 9,
-    "win_years": "2002|2013|2018",
-    "years": "1997|2002|2013|2018",
-    "parties": "PTI",
-    "districts": "abbbottabad cum haripur|bannu|di khan cum tank cum kulachi|i"
-   },
-   {
-    "id": "P02450",
-    "name": "Inamullah Khan",
-    "wins": 1,
-    "win_years": "1997",
-    "years": "1997|2002|2008|2013",
-    "parties": "IND|PMLN",
-    "districts": "lahore|mianwali"
-   },
-   {
     "id": "P01088",
-    "name": "Dr. Sher Afghan Khan Niazi",
-    "wins": 2,
-    "win_years": "1993|2002",
-    "years": "1993|1997|2002|2008",
-    "parties": "IND|PMLQ|PPP",
-    "districts": "mianwali"
+    "name": "Doctor Sher Afgan Khan Niazi",
+    "wins": 4,
+    "win_years": "1985|1988|1993|2002",
+    "years": "1985|1988|1990|1993|1997|2002|2008",
+    "parties": "IND|NONP|PAI|PDA|PMLQ|PPP",
+    "districts": "mianwali|mianwali bhakkar|mianwali full"
    },
    {
     "id": "P09068",
@@ -1731,13 +1761,6 @@
   ],
   "edges": [
    {
-    "a": "P01405",
-    "b": "P02450",
-    "rel": "cousins",
-    "note": "Inamullah Niazi, Imran Khan's estranged first cousin; ran against him in 2013",
-    "src": "https://en.wikipedia.org/wiki/Inamullah_Niazi"
-   },
-   {
     "a": "P01088",
     "b": "P09068",
     "rel": "father-son",
@@ -1745,7 +1768,7 @@
     "src": "https://en.wikipedia.org/wiki/Amjad_Ali_Khan_Niazi"
    }
   ],
-  "total_wins": 14
+  "total_wins": 6
  },
  {
   "family": "Gilani",
@@ -1808,11 +1831,11 @@
    },
    {
     "id": "P00114",
-    "name": "Tanveer-Ul-Hassan Gilani",
-    "wins": 0,
-    "win_years": "",
-    "years": "1993|1997|2002|2018",
-    "parties": "IND|PMLQ|PPP",
+    "name": "Syed Tanveer ul Hassan Gillani",
+    "wins": 1,
+    "win_years": "1990",
+    "years": "1990|1993|1997|2002|2018",
+    "parties": "IJI|IND|PMLQ|PPP",
     "districts": "multan"
    },
    {
@@ -1876,7 +1899,7 @@
     "src": "https://en.wikipedia.org/wiki/Assad_Murtaza_Gilani"
    }
   ],
-  "total_wins": 6
+  "total_wins": 7
  },
  {
   "family": "Qureshi",
@@ -1961,11 +1984,11 @@
   "nodes": [
    {
     "id": "P01184",
-    "name": "Ch. Hamid Nasir Chatha",
-    "wins": 2,
-    "win_years": "1993|2002",
-    "years": "1993|1997|2002|2008",
-    "parties": "PML-H|PMLJ|PMLQ",
+    "name": "Hamid Nasir Chattha",
+    "wins": 4,
+    "win_years": "1985|1990|1993|2002",
+    "years": "1977|1985|1988|1990|1993|1997|2002|2008",
+    "parties": "IJI|NONP|PML-H|PMLJ|PMLQ|PNA",
     "districts": "gujranwala|gujranwalla"
    },
    {
@@ -2010,7 +2033,7 @@
     "src": "https://en.wikipedia.org/wiki/Hamid_Nasir_Chattha"
    }
   ],
-  "total_wins": 3
+  "total_wins": 5
  },
  {
   "family": "Cheema (Wazirabad)",
@@ -2106,11 +2129,11 @@
    {
     "id": "P01193",
     "name": "Afzal Hussain Tarar",
-    "wins": 1,
-    "win_years": "1997",
-    "years": "1993|1997",
-    "parties": "PMLN",
-    "districts": "hafizabad"
+    "wins": 2,
+    "win_years": "1990|1997",
+    "years": "1990|1993|1997",
+    "parties": "IND|PMLN",
+    "districts": "gujranwala|hafizabad"
    },
    {
     "id": "P04391",
@@ -2131,7 +2154,7 @@
     "src": "https://english.aaj.tv/news/330359560/veteran-politican-afzal-tarar-passes-away"
    }
   ],
-  "total_wins": 3
+  "total_wins": 4
  },
  {
   "family": "Warraich",
@@ -2349,11 +2372,11 @@
    {
     "id": "P00814",
     "name": "Mir Zafarullah Khan Jamali",
-    "wins": 3,
-    "win_years": "1993|2002|2013",
-    "years": "1993|2002|2013",
-    "parties": "IND|PMLQ",
-    "districts": "jaffarabad cum nasirabad|nasirabad|old nasirabad"
+    "wins": 5,
+    "win_years": "1985|1988|1993|2002|2013",
+    "years": "1985|1988|1990|1993|2002|2013",
+    "parties": "IJI|IND|NONP|PMLQ",
+    "districts": "jaffarabad|jaffarabad cum nasirabad|naseerabad|nasirabad|old"
    },
    {
     "id": "P02035",
@@ -2461,7 +2484,7 @@
     "src": "https://www.dawn.com/news/1010600"
    }
   ],
-  "total_wins": 7
+  "total_wins": 9
  },
  {
   "family": "Jadoon",
@@ -2471,10 +2494,10 @@
    {
     "id": "P00073",
     "name": "Amanullah Khan Jadoon",
-    "wins": 1,
-    "win_years": "2002",
-    "years": "1993|1997|2002|2008",
-    "parties": "IND|PML-H|PMLQ",
+    "wins": 2,
+    "win_years": "1985|2002",
+    "years": "1985|1990|1993|1997|2002|2008",
+    "parties": "IND|NONP|PML-H|PMLQ",
     "districts": "abbbottabad cum haripur|abbottabad|abbottabad cum haripur"
    },
    {
@@ -2496,7 +2519,7 @@
     "src": "https://en.wikipedia.org/wiki/Ali_Khan_Jadoon"
    }
   ],
-  "total_wins": 3
+  "total_wins": 4
  },
  {
   "family": "Tamman",
@@ -2626,12 +2649,12 @@
   "nodes": [
    {
     "id": "P00314",
-    "name": "Illahi Bakhsh Soomro",
-    "wins": 1,
-    "win_years": "1997",
-    "years": "1993|1997|2002|2008|2013",
-    "parties": "PMLN|PMLQ",
-    "districts": "jacobabad"
+    "name": "Ellahi Bakhsh Soomro",
+    "wins": 3,
+    "win_years": "1985|1990|1997",
+    "years": "1985|1988|1990|1993|1997|2002|2008|2013",
+    "parties": "IJI|IND|NONP|PMLN|PMLQ",
+    "districts": "jacobabad|shikarpur"
    },
    {
     "id": "P10865",
@@ -2668,7 +2691,7 @@
     "src": "https://www.liquisearch.com/elahi_bux_soomro/family"
    }
   ],
-  "total_wins": 2
+  "total_wins": 4
  },
  {
   "family": "Soomro (Larkana JUI-F)",
@@ -2680,7 +2703,7 @@
     "name": "Dr. Khalid Mehmood Soomro",
     "wins": 0,
     "win_years": "",
-    "years": "1993|1997|2002",
+    "years": "1990|1993|1997|2002",
     "parties": "IJM|JUIF|MMA",
     "districts": "larkana"
    },
@@ -2713,9 +2736,9 @@
    {
     "id": "P03338",
     "name": "Mir Hazar Khan Bijarani",
-    "wins": 2,
-    "win_years": "2002|2008",
-    "years": "2002|2008",
+    "wins": 3,
+    "win_years": "1990|2002|2008",
+    "years": "1990|2002|2008",
     "parties": "IND|PPP",
     "districts": "jacobabad"
    },
@@ -2761,7 +2784,7 @@
     "src": "https://tribune.com.pk/story/1745359/bijarani-likely-return-ppp"
    }
   ],
-  "total_wins": 4
+  "total_wins": 5
  },
  {
   "family": "Sultan (Sultan Bahoo shrine)",
@@ -2770,11 +2793,11 @@
   "nodes": [
    {
     "id": "P01170",
-    "name": "Sahabzada M. Nazeer Sultan",
-    "wins": 2,
-    "win_years": "1993|2013",
-    "years": "1993|1997|2002|2008|2013",
-    "parties": "IND|NA(alliance)|PMLQ|PPP",
+    "name": "Sahibzada Muhamamd Nazir Sultan",
+    "wins": 4,
+    "win_years": "1988|1990|1993|2013",
+    "years": "1985|1988|1990|1993|1997|2002|2008|2013",
+    "parties": "IND|NA(alliance)|NONP|PDA|PMLQ|PPP",
     "districts": "jhang"
    },
    {
@@ -2828,6 +2851,6 @@
     "src": "https://www.dawn.com/news/1408322"
    }
   ],
-  "total_wins": 8
+  "total_wins": 10
  }
 ]
