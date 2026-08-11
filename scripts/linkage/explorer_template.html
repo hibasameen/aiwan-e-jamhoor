@@ -105,6 +105,13 @@ svg .axis line{stroke:var(--line)}
   <h2>Candidates switching party labels between consecutive elections</h2>
   <div class="svgwrap" id="switchVolChart"></div>
   <p class="note">A "switch" = the same person contesting consecutive GEs under different labels. 2018→2024 is inflated by PTI candidates forced to run as independents after the party lost its electoral symbol.</p>
+  <h2>Persistence and the political class, by province</h2>
+  <p class="note">General seats won 1993–2024, grouped by the constituency's province. Sindh returns the same individuals most reliably — a majority of its seat-wins sit with politicians who won at least twice in this window — while KP has the fastest-churning political class. "Had won before" (1997 onward) means the winner had already won an earlier GE in the window. Family figures count only the 39 verified families, so they understate dynastic penetration.</p>
+  <div class="legend" id="provLegend"></div>
+  <div class="svgwrap" id="provChart"></div>
+  <h3>How thin is the political class?</h3>
+  <div id="provThin" style="max-width:560px"></div>
+
 </section>
 
 <section id="longest">
@@ -243,6 +250,39 @@ const adjKeys = ['1993-1997','1997-2002','2002-2008','2008-2013','2013-2018','20
 barChart(document.getElementById('switchVolChart'),
   adjKeys.map(k=>[k.replace('-','→'), sp[k]||0, `${sp[k]||0} candidates changed label ${k.replace('-',' → ')}`]),
   v=>Math.round(v), '#7a1f3d');
+
+// ---------- province persistence ----------
+const PROV = {
+ 'Sindh':{n:395,uniq:253,r2:.565,r3:.311,ret:.415,dyn:.190},
+ 'Punjab':{n:948,uniq:632,r2:.540,r3:.274,ret:.372,dyn:.137},
+ 'KP':{n:251,uniq:191,r2:.410,r3:.179,ret:.292,dyn:.048},
+ 'Balochistan':{n:94,uniq:72,r2:.394,r3:.181,ret:.277,dyn:.149}
+};
+const PSER=[['r2','seat-wins held by 2+ time winners','var(--accent)'],['r3','held by 3+ time winners','#85B7EB'],['ret','winner had won before (1997 on)','#7a1f3d']];
+(function(){
+  const provs=Object.keys(PROV), W=640,H=210,P={l:44,r:14,t:14,b:26}, max=.65;
+  let s=`<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`;
+  for(let g=0;g<=4;g++){const v=max*g/4,y=H-P.b-(H-P.t-P.b)*g/4;
+    s+=`<line x1="${P.l}" x2="${W-P.r}" y1="${y}" y2="${y}" stroke="var(--line)" stroke-width="1"/>`;
+    s+=`<text x="${P.l-6}" y="${y+4}" text-anchor="end">${Math.round(v*100)}%</text>`;}
+  const gw=(W-P.l-P.r)/provs.length;
+  provs.forEach((pv,i)=>{
+    const d=PROV[pv], x0=P.l+gw*i;
+    PSER.forEach((sr,j)=>{
+      const v=d[sr[0]], h=(H-P.t-P.b)*v/max, bw=gw*.22, x=x0+gw*.14+bw*j, y=H-P.b-h;
+      s+=`<rect data-tt="${pv}: ${Math.round(v*100)}% — ${sr[1]} (${d.n} seat-wins 1993–2024)" x="${x}" y="${y}" width="${bw-3}" height="${h}" rx="3" fill="${sr[2]}"/>`;
+    });
+    s+=`<text x="${x0+gw/2}" y="${H-P.b+16}" text-anchor="middle">${pv}</text>`;
+  });
+  s+='</svg>';
+  const el=document.getElementById('provChart'); el.innerHTML=s;
+  el.querySelectorAll('rect').forEach(r=>{r.addEventListener('mousemove',e=>showTip(e,r.dataset.tt));r.addEventListener('mouseleave',hideTip);});
+  document.getElementById('provLegend').innerHTML=PSER.map(sr=>`<span><span class="sw" style="background:${sr[2]}"></span>${sr[1]}</span>`).join('');
+  document.getElementById('provThin').innerHTML=Object.entries(PROV).map(([pv,d])=>{
+    const u=d.uniq/d.n;
+    return `<div class="bar-row"><span>${pv}</span><div class="bar-track"><div class="bar-fill" style="width:${u*100}%"></div></div><span>${u.toFixed(2)} <span class="small">winners / seat-win</span></span></div>`;}).join('')
+   +`<p class="note" style="margin-top:8px">Distinct individuals per seat-win; lower = thinner. Sindh filled 395 seat-wins with 253 people; verified-family share of wins runs Sindh 19%, Balochistan 15%, Punjab 14%, KP 5%.</p>`;
+})();
 
 // ---------- longest ----------
 const mainParties=['PMLN','PPP','PTI','PMLQ','JUIF','MMA','MQM','ANP','IND'];
