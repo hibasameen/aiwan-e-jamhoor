@@ -70,9 +70,6 @@ table.heat td,table.heat th{border:0;padding:0}
 table.heat th{padding:6px 8px}
 table.heat td.cell{text-align:center;font-family:'Space Mono',monospace;font-size:12.5px;padding:11px 8px;min-width:56px}
 table.heat td.rowl{font-size:13.5px;padding:6px 12px 6px 8px;white-space:nowrap}
-.sharebar{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
-.sharebar button{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);font:600 12px Archivo,sans-serif;padding:6px 12px;border-radius:2px;cursor:pointer}
-.sharebar button:hover{color:var(--ink);border-color:var(--ink-3)}
 .tabsec{display:none}
 .tabsec.on{display:block}
 table{border-collapse:collapse;width:100%;margin-top:10px;font-size:13.5px}
@@ -149,7 +146,6 @@ ul.src{font-size:13px;color:var(--ink-2)}
   <p class="note">Share of valid votes for National Assembly general seats. Columns stack the five traditions plus cross-sect alliances (MMA 2002 &amp; 2018; MDM 1993). Hover any segment for the parties behind it.</p>
   <div class="legend" id="tsLegend"></div>
   <div class="card" style="overflow-x:auto"><svg id="ts" width="100%" height="360" viewBox="0 0 1080 360" preserveAspectRatio="xMidYMid meet"></svg></div>
-  <div class="sharebar"><button data-png="ts" data-name="aiwan_islamic_voteshare">Download PNG</button><button data-link="trend">Copy link</button></div>
   <p class="note">The series starts in 1988, the first election with clean party-level counts: in 1977 the religious parties (JUI, JUP, JI) fielded joint candidates under the nine-party PNA's single symbol, so their votes cannot be separated from the alliance's secular components (the count was also disputed); 1985 was held on a non-party basis. JI boycotted 1997 and 2008; Tehreek-e-Jafaria boycotted 1990; PAT (counted Barelvi) boycotted 2008–2018.</p>
 
   </section>
@@ -163,7 +159,6 @@ ul.src{font-size:13px;color:var(--ink-2)}
   </div>
   <div class="mapwrap">
     <div class="card" style="padding:8px"><svg id="map" width="100%" height="640" viewBox="0 0 720 640" preserveAspectRatio="xMidYMid meet"></svg></div>
-    <div class="sharebar"><button data-png="map" data-name="aiwan_islamic_map">Download PNG</button><button data-link="map">Copy link</button></div>
     <div>
       <div class="card" id="seatcard"><div class="p">SELECT A SEAT</div><div class="t">Click any seat or district</div>
         <div style="font-size:13px;color:var(--ink-2);margin-top:6px">The panel will show the combined religio-political vote and its sect breakdown.</div></div>
@@ -190,7 +185,6 @@ ul.src{font-size:13px;color:var(--ink-2)}
     </label>
   </div>
   <div class="card" style="overflow-x:auto"><svg id="provChart" width="100%" height="330" viewBox="0 0 1080 330" preserveAspectRatio="xMidYMid meet"></svg></div>
-  <div class="sharebar"><button data-png="provChart" data-name="aiwan_islamic_provinces">Download PNG</button><button data-link="prov">Copy link</button></div>
   <div class="card" style="overflow-x:auto"><table id="provTbl"></table></div>
   <p class="note">The 1997 and 2008 dips partly reflect boycotts (JI both years; PAT and others in 2008), not only lost support. When a sect or party is selected, a zero can mean it did not contest under that label in that election (e.g. MMA outside 2002 and 2018).</p>
 
@@ -537,51 +531,6 @@ document.getElementById('pageTabs').addEventListener('click',function(e){
 </div>
 <script>
 (function(){
-  function inlineStyles(src,dst){
-    var cs=getComputedStyle(src);
-    ['fill','stroke','stroke-width','stroke-dasharray','font-family','font-size','font-weight','opacity','fill-opacity','text-anchor'].forEach(function(p){
-      var v=cs.getPropertyValue(p); if(v) dst.setAttribute('style',(dst.getAttribute('style')||'')+p+':'+v+';');
-    });
-    for(var i=0;i<src.children.length;i++) inlineStyles(src.children[i],dst.children[i]);
-  }
-  function downloadPng(svgId,name){
-    var svg=document.getElementById(svgId);
-    var vb=svg.getAttribute('viewBox').split(' ');
-    var w=+vb[2],hh=+vb[3];
-    var clone=svg.cloneNode(true);
-    inlineStyles(svg,clone);
-    clone.setAttribute('width',w); clone.setAttribute('height',hh);
-    clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
-    var bg=document.createElementNS('http://www.w3.org/2000/svg','rect');
-    bg.setAttribute('x',0);bg.setAttribute('y',0);bg.setAttribute('width',w);bg.setAttribute('height',hh);
-    bg.setAttribute('fill',getComputedStyle(document.body).backgroundColor||'#eeece6');
-    clone.insertBefore(bg,clone.firstChild);
-    var xml=new XMLSerializer().serializeToString(clone);
-    var img=new Image();
-    img.onload=function(){
-      var c=document.createElement('canvas'); c.width=w*2; c.height=hh*2;
-      var ctx=c.getContext('2d'); ctx.scale(2,2); ctx.drawImage(img,0,0);
-      var a=document.createElement('a'); a.download=name+'.png'; a.href=c.toDataURL('image/png'); a.click();
-    };
-    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(xml);
-  }
-  function copyLink(tab){
-    var hash='#'+tab;
-    if(tab==='map'&&window.__shareState) hash='#map~'+window.__shareState();
-    var url=location.origin==='null'||location.protocol==='file:'
-      ? 'https://hibasameen.github.io/aiwan-e-jamhoor/islam.html'+hash
-      : location.href.split('#')[0]+hash;
-    function done(btn){btn.textContent='Copied!';setTimeout(function(){btn.textContent='Copy link';},1400);}
-    var btn=event.target;
-    if(navigator.clipboard&&navigator.clipboard.writeText){
-      navigator.clipboard.writeText(url).then(function(){done(btn);},function(){window.prompt('Copy this link:',url);});
-    } else window.prompt('Copy this link:',url);
-  }
-  document.querySelectorAll('.sharebar button').forEach(function(b){
-    if(b.dataset.png) b.addEventListener('click',function(){downloadPng(b.dataset.png,b.dataset.name);});
-    if(b.dataset.link) b.addEventListener('click',function(){copyLink(b.dataset.link);});
-  });
-  // hash routing: #trend #map #prov #read #method, optional #map~YEAR~MEASURE
   var hh=decodeURIComponent(location.hash.slice(1));
   if(hh){
     var parts=hh.split('~'), tab=parts[0];
