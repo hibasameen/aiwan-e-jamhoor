@@ -118,6 +118,8 @@ main{max-width:1400px;margin:0 auto;padding:20px 32px 60px}
 .cand .fill{height:100%}
 .hist{border-top:1px solid var(--line-2);margin-top:16px;padding-top:14px}
 .hist .hrow{display:grid;grid-template-columns:44px 12px 1fr auto;gap:9px;align-items:center;padding:5px 3px;font-size:13px;cursor:pointer}
+.hrow.hg{grid-template-columns:38px 56px 12px minmax(0,1fr) 34px auto}
+.hrow.hg .ov{font-size:10px;color:var(--ink-3);text-align:right}
 .hist .hrow:hover{background:var(--page)}
 .hist .hy{font-family:'Space Mono',monospace;color:var(--ink-3)}
 .hist .hsw{width:10px;height:10px;border-radius:2px}
@@ -411,7 +413,7 @@ function renderDetail(){
     const hh=na2?(R[yy]||{})[na2]:null;
     const wn=hh?hh.wn:(na2&&YEARS[yy].postponed.includes(na2)?'poll postponed':'no overlapping seat');
     const c=hh?cat(hh.wp):'';const ccol=hh?col(cat(hh.wp)):'#d9d6cd';
-    html+=`<div class="hrow" data-y="${yy}" data-na2="${na2||''}" style="background:${yy===y?'var(--page)':'transparent'}"><span class="hy">${yy}</span><span class="mono" style="color:var(--ink-3);min-width:52px">${na2||'\u2014'}</span><span class="hsw" style="background:${ccol}"></span><span style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">${wn}</span>${ov!==null?`<span class="mono" style="color:var(--ink-3);font-size:10px" title="share of this seat's area covered">${ov}%</span>`:''}<span class="hc">${c}</span></div>`;});
+    html+=`<div class="hrow hg" data-y="${yy}" data-na2="${na2||''}" style="background:${yy===y?'var(--page)':'transparent'}"><span class="hy">${yy}</span><span class="mono" style="color:var(--ink-3)">${na2||'\u2014'}</span><span class="hsw" style="background:${ccol}"></span><span style="overflow:hidden;white-space:nowrap;text-overflow:ellipsis">${wn}</span><span class="mono ov" title="share of this seat's area covered">${ov!==null?ov+'%':''}</span><span class="hc">${c}</span></div>`;});
   html+='<div class="note">Linked by ground, not number: each row shows the seat whose territory overlaps this one most in that delimitation, with the share of this seat\u2019s area it covers. Boundaries were re-cut in 1977, 1985, 2002, 2018 and 2023, so matches across those breaks are approximate.</div></div>';
   if(bn)html+=`<div class="note">${bn}</div>`;
   d.innerHTML=html;
