@@ -101,7 +101,7 @@ a.hemi svg{width:100%;height:auto;display:block}
 .hemi-swing .up{color:var(--green-2);font-weight:700}
 .hemi-swing .dn{color:#a8433a;font-weight:700}
 :root[data-theme="dark"] .hemi-swing .dn{color:#d0685e}
-.strip-note{margin-top:26px;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:2px;font-size:13.5px;line-height:1.6;color:var(--ink-2);max-width:100ch}
+.strip-note{margin-top:26px;padding:14px 18px;background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:2px;font-size:13.5px;line-height:1.6;color:var(--ink-2)}
 .strip-note b{color:var(--ink)}
 
 /* ---- section links ---- */
@@ -146,6 +146,9 @@ body{padding-bottom:44px}
 @media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
 @media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
 @media (max-width:720px){.legal-in{padding:11px 18px}}
+.htip{position:fixed;pointer-events:none;background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:8px 11px;font-size:12.5px;box-shadow:0 4px 14px rgba(0,0,0,.18);z-index:60;display:none;max-width:240px}
+.htip .t{font-weight:600;color:var(--ink)}
+.htip .m{font-family:'Space Mono',monospace;color:var(--ink-2);font-size:11.5px}
 </style>
 </head>
 <body>
@@ -697,5 +700,46 @@ body{padding-bottom:44px}
     <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
   </div>
 </div>
+<div class="htip" id="htip"></div>
+<script>
+(function(){
+  var tip=document.getElementById('htip');
+  var NAMES={'PTI-IND':'IND (PTI)','IND':'Independents','Other':'Other parties'};
+  function show(html,e){tip.innerHTML=html;tip.style.display='block';move(e);}
+  function move(e){var x=e.clientX+14,y=e.clientY+12;if(x+250>innerWidth)x=e.clientX-260;if(y+80>innerHeight)y=e.clientY-70;tip.style.left=x+'px';tip.style.top=y+'px';}
+  function hide(){tip.style.display='none';}
+  function arcSeats(p,total){
+    var d=p.getAttribute('d')||'';
+    var m=d.match(/M([\d.]+) ([\d.]+) A[\d. ]+ 0 [01] [01] ([\d.]+) ([\d.]+)/);
+    if(!m) return null;
+    var cx=110,cy=118;
+    function ang(x,y){return Math.atan2(cy-y,x-cx);}
+    var a1=ang(+m[1],+m[2]), a2=ang(+m[3],+m[4]);
+    var span=(a1<a2)?(a2-a1):(a1-a2);
+    // arcs sweep left(pi) to right(0): fraction of half-circle
+    var frac=Math.abs(a1-a2)/Math.PI;
+    return Math.max(1,Math.round(frac*total));
+  }
+  document.querySelectorAll('.hemi').forEach(function(hemi){
+    var yearEl=hemi.querySelector('.hemi-year .yr'), seatsEl=hemi.querySelector('.hemi-year .seats');
+    var year=yearEl?yearEl.textContent:'', total=seatsEl?parseInt(seatsEl.textContent):0;
+    hemi.querySelectorAll('svg path[data-cat]').forEach(function(p){
+      var cat=p.getAttribute('data-cat'), n=total?arcSeats(p,total):null;
+      var label=NAMES[cat]||cat;
+      p.addEventListener('mousemove',function(e){
+        var extra=(n!=null&&total)?(n+' of '+total+' seats ('+(n/total*100).toFixed(1)+'%)'):'';
+        show('<div class="t">'+label+' \u2014 '+year+'</div><div class="m">'+extra+'</div>',e);
+      });
+      p.addEventListener('mouseleave',hide);
+    });
+    hemi.querySelectorAll('.hemi-share .sb i').forEach(function(b){
+      var t=b.getAttribute('title')||'';
+      if(t){ b.removeAttribute('title'); b.setAttribute('aria-label',t); }
+      b.addEventListener('mousemove',function(e){ show('<div class="t">'+year+'</div><div class="m">'+t+'</div>',e); });
+      b.addEventListener('mouseleave',hide);
+    });
+  });
+})();
+</script>
 </body>
 </html>

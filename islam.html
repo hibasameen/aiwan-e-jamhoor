@@ -70,6 +70,9 @@ table.heat td,table.heat th{border:0;padding:0}
 table.heat th{padding:6px 8px}
 table.heat td.cell{text-align:center;font-family:'Space Mono',monospace;font-size:12.5px;padding:11px 8px;min-width:56px}
 table.heat td.rowl{font-size:13.5px;padding:6px 12px 6px 8px;white-space:nowrap}
+.sharebar{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+.sharebar button{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);font:600 12px Archivo,sans-serif;padding:6px 12px;border-radius:2px;cursor:pointer}
+.sharebar button:hover{color:var(--ink);border-color:var(--ink-3)}
 .tabsec{display:none}
 .tabsec.on{display:block}
 table{border-collapse:collapse;width:100%;margin-top:10px;font-size:13.5px}
@@ -146,6 +149,7 @@ ul.src{font-size:13px;color:var(--ink-2)}
   <p class="note">Share of valid votes for National Assembly general seats. Columns stack the five traditions plus cross-sect alliances (MMA 2002 &amp; 2018; MDM 1993). Hover any segment for the parties behind it.</p>
   <div class="legend" id="tsLegend"></div>
   <div class="card" style="overflow-x:auto"><svg id="ts" width="100%" height="360" viewBox="0 0 1080 360" preserveAspectRatio="xMidYMid meet"></svg></div>
+  <div class="sharebar"><button data-png="ts" data-name="aiwan_islamic_voteshare">Download PNG</button><button data-link="trend">Copy link</button></div>
   <p class="note">The series starts in 1988, the first election with clean party-level counts: in 1977 the religious parties (JUI, JUP, JI) fielded joint candidates under the nine-party PNA's single symbol, so their votes cannot be separated from the alliance's secular components (the count was also disputed); 1985 was held on a non-party basis. JI boycotted 1997 and 2008; Tehreek-e-Jafaria boycotted 1990; PAT (counted Barelvi) boycotted 2008–2018.</p>
 
   </section>
@@ -159,6 +163,7 @@ ul.src{font-size:13px;color:var(--ink-2)}
   </div>
   <div class="mapwrap">
     <div class="card" style="padding:8px"><svg id="map" width="100%" height="640" viewBox="0 0 720 640" preserveAspectRatio="xMidYMid meet"></svg></div>
+    <div class="sharebar"><button data-png="map" data-name="aiwan_islamic_map">Download PNG</button><button data-link="map">Copy link</button></div>
     <div>
       <div class="card" id="seatcard"><div class="p">SELECT A SEAT</div><div class="t">Click any seat or district</div>
         <div style="font-size:13px;color:var(--ink-2);margin-top:6px">The panel will show the combined religio-political vote and its sect breakdown.</div></div>
@@ -185,6 +190,7 @@ ul.src{font-size:13px;color:var(--ink-2)}
     </label>
   </div>
   <div class="card" style="overflow-x:auto"><svg id="provChart" width="100%" height="330" viewBox="0 0 1080 330" preserveAspectRatio="xMidYMid meet"></svg></div>
+  <div class="sharebar"><button data-png="provChart" data-name="aiwan_islamic_provinces">Download PNG</button><button data-link="prov">Copy link</button></div>
   <div class="card" style="overflow-x:auto"><table id="provTbl"></table></div>
   <p class="note">The 1997 and 2008 dips partly reflect boycotts (JI both years; PAT and others in 2008), not only lost support. When a sect or party is selected, a zero can mean it did not contest under that label in that election (e.g. MMA outside 2002 and 2018).</p>
 
@@ -404,6 +410,20 @@ function init(TS,MAPS,GEO){
       this.querySelectorAll('button').forEach(function(b){b.classList.toggle('on',b.dataset.y===cur);}); buildSel(); draw(); }
   });
   buildSel(); draw();
+  window.__shareState=function(){
+    var m=sel.type==='all'?'all':(sel.type==='sect'?'s:'+sel.key:'p:'+sel.key);
+    return cur+'~'+encodeURIComponent(m);
+  };
+  window.__setMapState=function(y,m){
+    if(CFG[y]){ cur=y;
+      document.querySelectorAll('#yrTog button').forEach(function(b){b.classList.toggle('on',b.dataset.y===cur);});
+    }
+    m=decodeURIComponent(m||'all');
+    if(m==='all') sel={type:'all',key:null};
+    else if(m.slice(0,2)==='s:') sel={type:'sect',key:m.slice(2)};
+    else if(m.slice(0,2)==='p:') sel={type:'party',key:m.slice(2)};
+    buildSel(); draw();
+  };
 
   // ---- provincial chart + table ----
   var PROV={"1988":{"KP":{"pct":12.7,"sects":{"Deobandi":11.9,"Shia":0.8},"ps":{"JUI (other factions)":1.9,"JUI-F":10.0,"TNFJ / Islami Tehreek":0.8}},"FATA":{"pct":0.0,"sects":{},"ps":{}},"Islamabad":{"pct":2.0,"sects":{"Deobandi":1.2,"Shia":0.8},"ps":{"JUI (other factions)":1.2,"TNFJ / Islami Tehreek":0.8}},"Punjab":{"pct":0.7,"sects":{"Deobandi":0.5,"Shia":0.1,"Barelvi":0.1},"ps":{"JUI-F":0.5,"TNFJ / Islami Tehreek":0.1,"PAT (Minhaj)":0.1}},"Sindh":{"pct":0.7,"sects":{"Deobandi":0.7},"ps":{"JUI-F":0.7}},"SindhX":{"pct":1.0,"sects":{"Deobandi":1.0},"ps":{"JUI-F":1.0}},"Karachi":{"pct":0.2,"sects":{"Deobandi":0.2},"ps":{"JUI-F":0.2}},"Balochistan":{"pct":20.1,"sects":{"Deobandi":18.5,"Shia":1.5},"ps":{"JUI-F":17.4,"TNFJ / Islami Tehreek":1.5,"JUI (other factions)":1.1}},"KP+FATA":{"pct":12.6,"sects":{"Deobandi":11.7,"Shia":0.8},"ps":{"JUI (other factions)":1.9,"JUI-F":9.9,"TNFJ / Islami Tehreek":0.8}}},"1990":{"KP":{"pct":21.1,"sects":{"Barelvi":0.8,"Deobandi":20.2},"ps":{"PAT (Minhaj)":0.7,"JUI-F":20.2,"JUP":0.1}},"FATA":{"pct":0.0,"sects":{},"ps":{}},"Islamabad":{"pct":3.4,"sects":{"Barelvi":3.0,"Deobandi":0.4},"ps":{"PAT (Minhaj)":3.0,"JUI-F":0.4}},"Punjab":{"pct":3.5,"sects":{"Barelvi":3.3,"Deobandi":0.2},"ps":{"PAT (Minhaj)":1.5,"JUP":1.8,"JUI-F":0.2}},"Sindh":{"pct":2.0,"sects":{"Barelvi":1.3,"Deobandi":0.8},"ps":{"JUP":1.2,"JUI-F":0.8,"PAT (Minhaj)":0.1}},"SindhX":{"pct":1.4,"sects":{"Barelvi":0.5,"Deobandi":0.9},"ps":{"JUP":0.5,"JUI-F":0.9}},"Karachi":{"pct":3.3,"sects":{"Deobandi":0.4,"Barelvi":2.8},"ps":{"JUI-F":0.4,"PAT (Minhaj)":0.2,"JUP":2.7}},"Balochistan":{"pct":20.0,"sects":{"Deobandi":19.8,"Barelvi":0.2},"ps":{"JUI-F":18.8,"PAT (Minhaj)":0.2,"JUP":0.1,"JUI (other factions)":1.0}},"KP+FATA":{"pct":20.9,"sects":{"Barelvi":0.8,"Deobandi":20.1},"ps":{"PAT (Minhaj)":0.7,"JUI-F":20.1,"JUP":0.1}}},"1993":{"KP":{"pct":24.2,"sects":{"JI (Islamist)":11.7,"Deobandi":10.6,"Multi-sect alliance":2.0},"ps":{"Jamaat-e-Islami":11.7,"IJM (JUI-F-led, 1993)":10.6,"MDM (1993)":2.0}},"FATA":{"pct":0.0,"sects":{},"ps":{}},"Islamabad":{"pct":6.9,"sects":{"JI (Islamist)":6.9},"ps":{"Jamaat-e-Islami":6.9}},"Punjab":{"pct":3.6,"sects":{"JI (Islamist)":2.2,"Deobandi":0.4,"Multi-sect alliance":1.1},"ps":{"Jamaat-e-Islami":2.2,"IJM (JUI-F-led, 1993)":0.4,"MDM (1993)":1.1}},"Sindh":{"pct":5.0,"sects":{"Deobandi":2.3,"JI (Islamist)":2.6,"Multi-sect alliance":0.1},"ps":{"IJM (JUI-F-led, 1993)":2.3,"Jamaat-e-Islami":2.6,"MDM (1993)":0.1}},"SindhX":{"pct":2.7,"sects":{"Deobandi":1.8,"JI (Islamist)":1.0},"ps":{"IJM (JUI-F-led, 1993)":1.8,"Jamaat-e-Islami":1.0}},"Karachi":{"pct":14.6,"sects":{"Deobandi":4.2,"JI (Islamist)":9.8,"Multi-sect alliance":0.5},"ps":{"IJM (JUI-F-led, 1993)":4.2,"Jamaat-e-Islami":9.8,"MDM (1993)":0.5}},"Balochistan":{"pct":21.5,"sects":{"Deobandi":19.1,"JI (Islamist)":0.7,"Multi-sect alliance":1.7},"ps":{"IJM (JUI-F-led, 1993)":19.1,"Jamaat-e-Islami":0.7,"MDM (1993)":1.7}},"KP+FATA":{"pct":24.0,"sects":{"JI (Islamist)":11.6,"Deobandi":10.5,"Multi-sect alliance":2.0},"ps":{"Jamaat-e-Islami":11.6,"IJM (JUI-F-led, 1993)":10.5,"MDM (1993)":2.0}}},"1997":{"KP":{"pct":7.0,"sects":{"Deobandi":7.0},"ps":{"JUI-F":6.0,"JUI-S":1.0}},"FATA":{"pct":0.0,"sects":{},"ps":{}},"Islamabad":{"pct":0.0,"sects":{},"ps":{}},"Punjab":{"pct":0.2,"sects":{"Deobandi":0.2},"ps":{"JUI-S":0.2}},"Sindh":{"pct":1.5,"sects":{"Deobandi":1.5},"ps":{"JUI-F":1.5}},"SindhX":{"pct":2.0,"sects":{"Deobandi":2.0},"ps":{"JUI-F":2.0}},"Karachi":{"pct":0.2,"sects":{"Deobandi":0.2},"ps":{"JUI-F":0.2}},"Balochistan":{"pct":16.3,"sects":{"Deobandi":16.1,"JI (Islamist)":0.1},"ps":{"JUI-F":12.3,"JUI (other factions)":2.9,"JUI-S":0.9,"Jamaat-e-Islami":0.1}},"KP+FATA":{"pct":5.5,"sects":{"Deobandi":5.5},"ps":{"JUI-F":4.7,"JUI-S":0.8}}},"2002":{"KP":{"pct":47.1,"sects":{"Multi-sect alliance":46.7,"Barelvi":0.3},"ps":{"MMA":46.7,"PAT (Minhaj)":0.3}},"Punjab":{"pct":6.6,"sects":{"Multi-sect alliance":5.4,"Barelvi":1.0,"Shia":0.2},"ps":{"MMA":5.4,"PAT (Minhaj)":0.9,"Other Barelvi":0.1,"Other Shia":0.2}},"Sindh":{"pct":12.2,"sects":{"Multi-sect alliance":10.6,"Barelvi":1.5},"ps":{"MMA":10.6,"Sunni Tehreek":1.2,"Other Barelvi":0.1,"PAT (Minhaj)":0.2}},"SindhX":{"pct":4.0,"sects":{"Multi-sect alliance":3.7,"Barelvi":0.3},"ps":{"MMA":3.7,"Sunni Tehreek":0.1,"PAT (Minhaj)":0.1}},"Karachi":{"pct":32.3,"sects":{"Multi-sect alliance":27.7,"Barelvi":4.6},"ps":{"MMA":27.7,"Sunni Tehreek":3.8,"PAT (Minhaj)":0.6,"Other Barelvi":0.3}},"Balochistan":{"pct":20.0,"sects":{"Multi-sect alliance":19.9,"Barelvi":0.1},"ps":{"MMA":19.9,"PAT (Minhaj)":0.1}},"FATA":{"pct":0.0,"sects":{},"ps":{}},"Islamabad":{"pct":22.4,"sects":{"Multi-sect alliance":20.7,"Barelvi":1.7},"ps":{"MMA":20.7,"PAT (Minhaj)":1.6,"Other Barelvi":0.1}},"KP+FATA":{"pct":42.5,"sects":{"Multi-sect alliance":42.2,"Barelvi":0.3},"ps":{"MMA":42.2,"PAT (Minhaj)":0.3}}},"2008":{"KP":{"pct":13.8,"sects":{"Deobandi":13.8},"ps":{"JUI-F":13.8}},"Punjab":{"pct":0.2,"sects":{"Deobandi":0.2},"ps":{"JUI-F":0.2}},"Sindh":{"pct":0.8,"sects":{"Deobandi":0.8},"ps":{"JUI-F":0.8}},"SindhX":{"pct":0.9,"sects":{"Deobandi":0.9},"ps":{"JUI-S":0.1,"JUI-F":0.8}},"Karachi":{"pct":0.7,"sects":{"Deobandi":0.7},"ps":{"JUI-F":0.7}},"Balochistan":{"pct":13.3,"sects":{"Deobandi":13.3},"ps":{"JUI-F":13.3}},"FATA":{"pct":0.0,"sects":{},"ps":{}},"Islamabad":{"pct":0.5,"sects":{"Deobandi":0.5},"ps":{"JUI-F":0.5}},"KP+FATA":{"pct":12.7,"sects":{"Deobandi":12.7},"ps":{"JUI-F":12.7}}},"2013":{"KP":{"pct":26.7,"sects":{"JI (Islamist)":7.0,"Deobandi":19.5,"Barelvi":0.1},"ps":{"Jamaat-e-Islami":7.0,"JUI-S":1.4,"JUI-F":17.9,"JUP":0.1,"JUI (other factions)":0.2}},"Punjab":{"pct":2.5,"sects":{"JI (Islamist)":1.2,"Deobandi":1.0,"Barelvi":0.3,"Shia":0.1},"ps":{"Jamaat-e-Islami":1.2,"JUI-F":0.4,"Sunni Tehreek":0.1,"JUP":0.1,"MWM":0.1,"Sunni Ittehad Council":0.1,"JUI-S":0.6}},"Sindh":{"pct":4.7,"sects":{"Deobandi":2.2,"Shia":0.2,"JI (Islamist)":1.9,"Barelvi":0.5},"ps":{"JUI-F":1.4,"MWM":0.2,"JUI-S":0.8,"Jamaat-e-Islami":1.9,"Sunni Tehreek":0.1,"JUP":0.4}},"SindhX":{"pct":2.8,"sects":{"Deobandi":2.0,"Shia":0.2,"JI (Islamist)":0.3,"Barelvi":0.2},"ps":{"JUI-F":1.3,"MWM":0.2,"JUI-S":0.7,"Jamaat-e-Islami":0.3,"JUP":0.2}},"Karachi":{"pct":8.5,"sects":{"Deobandi":2.5,"JI (Islamist)":4.8,"Barelvi":1.0,"Shia":0.3},"ps":{"JUI-F":1.4,"Jamaat-e-Islami":4.8,"JUI-S":1.0,"Sunni Tehreek":0.1,"JUP":0.9,"MWM":0.3}},"Balochistan":{"pct":29.2,"sects":{"Deobandi":28.6,"Shia":0.1,"JI (Islamist)":0.2,"Barelvi":0.3},"ps":{"JUI-S":1.7,"JUI-F":19.2,"JUI (other factions)":7.7,"MWM":0.1,"Jamaat-e-Islami":0.2,"JUP":0.2,"Sunni Tehreek":0.1}},"FATA":{"pct":16.3,"sects":{"JI (Islamist)":6.3,"Deobandi":9.9},"ps":{"Jamaat-e-Islami":6.3,"JUI-F":8.9,"JUI-S":1.0}},"Islamabad":{"pct":9.6,"sects":{"JI (Islamist)":9.0,"Shia":0.3,"Deobandi":0.2},"ps":{"Jamaat-e-Islami":9.0,"MWM":0.3,"JUI-F":0.2}},"KP+FATA":{"pct":25.7,"sects":{"JI (Islamist)":7.0,"Deobandi":18.6,"Barelvi":0.1},"ps":{"Jamaat-e-Islami":7.0,"JUI-S":1.3,"JUI-F":17.1,"JUP":0.1,"JUI (other factions)":0.2}}},"2018":{"KP":{"pct":19.8,"sects":{"Multi-sect alliance":17.9,"Deobandi":0.6,"Barelvi":1.2,"Ahl-e-Hadith":0.1,"Shia":0.1},"ps":{"MMA":17.9,"Rah-e-Haq (ASWJ)":0.2,"JUI (other factions)":0.1,"TLP (incl. TLI)":1.2,"Ahl-e-Hadith parties":0.1,"MWM":0.1,"JUI-S":0.3}},"Islamabad":{"pct":9.0,"sects":{"Barelvi":5.0,"Multi-sect alliance":3.8,"Ahl-e-Hadith":0.3},"ps":{"TLP (incl. TLI)":5.0,"MMA":3.8,"Ahl-e-Hadith parties":0.3}},"Punjab":{"pct":6.4,"sects":{"Barelvi":5.3,"Multi-sect alliance":0.7,"Ahl-e-Hadith":0.5},"ps":{"TLP (incl. TLI)":5.3,"MMA":0.7,"Ahl-e-Hadith parties":0.5}},"Sindh":{"pct":11.5,"sects":{"Multi-sect alliance":6.6,"Deobandi":0.4,"Shia":0.1,"Barelvi":4.4,"Ahl-e-Hadith":0.1},"ps":{"MMA":6.6,"Rah-e-Haq (ASWJ)":0.4,"MWM":0.1,"TLP (incl. TLI)":4.1,"Ahl-e-Hadith parties":0.1,"JUP":0.2}},"SindhX":{"pct":6.4,"sects":{"Multi-sect alliance":5.2,"Deobandi":0.1,"Shia":0.1,"Barelvi":0.9,"Ahl-e-Hadith":0.1},"ps":{"MMA":5.2,"Rah-e-Haq (ASWJ)":0.1,"MWM":0.1,"TLP (incl. TLI)":0.6,"Ahl-e-Hadith parties":0.1,"JUP":0.3}},"Karachi":{"pct":22.7,"sects":{"Barelvi":11.9,"Multi-sect alliance":9.7,"Deobandi":0.9,"Ahl-e-Hadith":0.2},"ps":{"TLP (incl. TLI)":11.8,"MMA":9.7,"Rah-e-Haq (ASWJ)":0.9,"Sunni Tehreek":0.1,"Ahl-e-Hadith parties":0.2}},"Balochistan":{"pct":19.5,"sects":{"Multi-sect alliance":16.4,"Deobandi":1.7,"Barelvi":0.8,"Ahl-e-Hadith":0.3,"Shia":0.3},"ps":{"MMA":16.4,"JUI (other factions)":1.5,"JUI-S":0.1,"Rah-e-Haq (ASWJ)":0.2,"TLP (incl. TLI)":0.8,"Ahl-e-Hadith parties":0.3,"MWM":0.3}},"KP+FATA":{"pct":19.8,"sects":{"Multi-sect alliance":17.9,"Deobandi":0.6,"Barelvi":1.2,"Ahl-e-Hadith":0.1,"Shia":0.1},"ps":{"MMA":17.9,"Rah-e-Haq (ASWJ)":0.2,"JUI (other factions)":0.1,"TLP (incl. TLI)":1.2,"Ahl-e-Hadith parties":0.1,"MWM":0.1,"JUI-S":0.3}}},"2024":{"KP":{"pct":23.1,"sects":{"Deobandi":16.1,"JI (Islamist)":4.5,"Barelvi":1.7,"Ahl-e-Hadith":0.1,"Shia":0.7},"ps":{"JUI-F":15.8,"Jamaat-e-Islami":4.5,"TLP (incl. TLI)":1.1,"JUI (other factions)":0.1,"Ahl-e-Hadith parties":0.1,"Rah-e-Haq (ASWJ)":0.3,"Sunni Ittehad Council":0.6,"MWM":0.7}},"Islamabad":{"pct":10.6,"sects":{"JI (Islamist)":4.8,"Barelvi":5.0,"Deobandi":0.6,"Ahl-e-Hadith":0.2},"ps":{"Jamaat-e-Islami":4.8,"TLP (incl. TLI)":5.0,"JUI (other factions)":0.3,"Ahl-e-Hadith parties":0.2,"Rah-e-Haq (ASWJ)":0.2,"JUI-F":0.1}},"Punjab":{"pct":8.8,"sects":{"Barelvi":6.7,"JI (Islamist)":1.2,"Deobandi":0.5,"Ahl-e-Hadith":0.5},"ps":{"TLP (incl. TLI)":6.6,"Jamaat-e-Islami":1.2,"Rah-e-Haq (ASWJ)":0.2,"Ahl-e-Hadith parties":0.5,"JUI-F":0.3}},"Sindh":{"pct":12.1,"sects":{"Barelvi":2.9,"JI (Islamist)":4.5,"Deobandi":4.5,"Ahl-e-Hadith":0.1},"ps":{"TLP (incl. TLI)":2.8,"Jamaat-e-Islami":4.5,"JUI-F":4.2,"Rah-e-Haq (ASWJ)":0.3,"Ahl-e-Hadith parties":0.1}},"SindhX":{"pct":8.2,"sects":{"Barelvi":1.4,"JI (Islamist)":0.8,"Deobandi":5.9,"Shia":0.1,"Ahl-e-Hadith":0.1},"ps":{"TLP (incl. TLI)":1.4,"Jamaat-e-Islami":0.8,"JUI-F":5.8,"MWM":0.1,"Rah-e-Haq (ASWJ)":0.1,"Ahl-e-Hadith parties":0.1}},"Karachi":{"pct":20.8,"sects":{"Barelvi":6.1,"JI (Islamist)":13.0,"Ahl-e-Hadith":0.2,"Deobandi":1.5},"ps":{"TLP (incl. TLI)":6.0,"Jamaat-e-Islami":13.0,"Ahl-e-Hadith parties":0.2,"Rah-e-Haq (ASWJ)":0.8,"JUI-F":0.6,"JUP":0.1}},"Balochistan":{"pct":18.7,"sects":{"Deobandi":16.5,"JI (Islamist)":0.8,"Barelvi":1.1,"Shia":0.2},"ps":{"JUI-F":16.1,"JUI (other factions)":0.4,"Jamaat-e-Islami":0.8,"TLP (incl. TLI)":1.1,"MWM":0.2,"Rah-e-Haq (ASWJ)":0.1}},"KP+FATA":{"pct":23.1,"sects":{"Deobandi":16.1,"JI (Islamist)":4.5,"Barelvi":1.7,"Ahl-e-Hadith":0.1,"Shia":0.7},"ps":{"JUI-F":15.8,"Jamaat-e-Islami":4.5,"TLP (incl. TLI)":1.1,"JUI (other factions)":0.1,"Ahl-e-Hadith parties":0.1,"Rah-e-Haq (ASWJ)":0.3,"Sunni Ittehad Council":0.6,"MWM":0.7}}}};
@@ -515,5 +535,61 @@ document.getElementById('pageTabs').addEventListener('click',function(e){
     <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
   </div>
 </div>
+<script>
+(function(){
+  function inlineStyles(src,dst){
+    var cs=getComputedStyle(src);
+    ['fill','stroke','stroke-width','stroke-dasharray','font-family','font-size','font-weight','opacity','fill-opacity','text-anchor'].forEach(function(p){
+      var v=cs.getPropertyValue(p); if(v) dst.setAttribute('style',(dst.getAttribute('style')||'')+p+':'+v+';');
+    });
+    for(var i=0;i<src.children.length;i++) inlineStyles(src.children[i],dst.children[i]);
+  }
+  function downloadPng(svgId,name){
+    var svg=document.getElementById(svgId);
+    var vb=svg.getAttribute('viewBox').split(' ');
+    var w=+vb[2],hh=+vb[3];
+    var clone=svg.cloneNode(true);
+    inlineStyles(svg,clone);
+    clone.setAttribute('width',w); clone.setAttribute('height',hh);
+    clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
+    var bg=document.createElementNS('http://www.w3.org/2000/svg','rect');
+    bg.setAttribute('x',0);bg.setAttribute('y',0);bg.setAttribute('width',w);bg.setAttribute('height',hh);
+    bg.setAttribute('fill',getComputedStyle(document.body).backgroundColor||'#eeece6');
+    clone.insertBefore(bg,clone.firstChild);
+    var xml=new XMLSerializer().serializeToString(clone);
+    var img=new Image();
+    img.onload=function(){
+      var c=document.createElement('canvas'); c.width=w*2; c.height=hh*2;
+      var ctx=c.getContext('2d'); ctx.scale(2,2); ctx.drawImage(img,0,0);
+      var a=document.createElement('a'); a.download=name+'.png'; a.href=c.toDataURL('image/png'); a.click();
+    };
+    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(xml);
+  }
+  function copyLink(tab){
+    var hash='#'+tab;
+    if(tab==='map'&&window.__shareState) hash='#map~'+window.__shareState();
+    var url=location.origin==='null'||location.protocol==='file:'
+      ? 'https://hibasameen.github.io/aiwan-e-jamhoor/islam.html'+hash
+      : location.href.split('#')[0]+hash;
+    function done(btn){btn.textContent='Copied!';setTimeout(function(){btn.textContent='Copy link';},1400);}
+    var btn=event.target;
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){done(btn);},function(){window.prompt('Copy this link:',url);});
+    } else window.prompt('Copy this link:',url);
+  }
+  document.querySelectorAll('.sharebar button').forEach(function(b){
+    if(b.dataset.png) b.addEventListener('click',function(){downloadPng(b.dataset.png,b.dataset.name);});
+    if(b.dataset.link) b.addEventListener('click',function(){copyLink(b.dataset.link);});
+  });
+  // hash routing: #trend #map #prov #read #method, optional #map~YEAR~MEASURE
+  var hh=decodeURIComponent(location.hash.slice(1));
+  if(hh){
+    var parts=hh.split('~'), tab=parts[0];
+    var btn=document.querySelector('#pageTabs button[data-t="'+tab+'"]');
+    if(btn) btn.click();
+    if(tab==='map'&&parts[1]&&window.__setMapState) window.__setMapState(parts[1],parts[2]||'all');
+  }
+})();
+</script>
 </body>
 </html>
