@@ -6,14 +6,14 @@
 <title>Aiwan-e-Jamhoor — Candidates</title>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Aiwan-e-Jamhoor">
-<meta property="og:url" content="https://hibasameen.github.io/aiwan-e-jamhoor/candidates.html">
+<meta property="og:url" content="https://aiwan.adaad.org/candidates.html">
 <meta property="og:title" content="Aiwan-e-Jamhoor — Candidates">
 <meta property="og:description" content="Eleven general elections, 1977–2024: candidacies linked into people — long careers, party switching, and political families in the National Assembly.">
-<meta property="og:image" content="https://hibasameen.github.io/aiwan-e-jamhoor/og-candidates.png">
+<meta property="og:image" content="https://aiwan.adaad.org/og-candidates.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Aiwan-e-Jamhoor — Candidates">
 <meta name="twitter:description" content="Eleven general elections, 1977–2024: candidacies linked into people — long careers, party switching, and political families in the National Assembly.">
-<meta name="twitter:image" content="https://hibasameen.github.io/aiwan-e-jamhoor/og-candidates.png">
+<meta name="twitter:image" content="https://aiwan.adaad.org/og-candidates.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2210%22%20fill%3D%22%2314523a%22/%3E%3Cg%20transform%3D%22translate%286%206%29%20scale%280.8125%29%22%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2229%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2226%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%224.2%22%20stroke-dasharray%3D%223.4%203.4%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2223%22%20fill%3D%22none%22%20stroke%3D%22%23f2efe6%22%20stroke-width%3D%221.8%22/%3E%3Cg%20stroke%3D%22%23c9a13f%22%20stroke-width%3D%221.7%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M13%2032%20H51%20M32%2013%20V51%20M15.55%2022.5%20L48.45%2041.5%20M22.5%2015.55%20L41.5%2048.45%20M22.5%2048.45%20L41.5%2015.55%20M15.55%2041.5%20L48.45%2022.5%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2219%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%2213%22%20stroke-width%3D%222.2%22/%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%227%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2232%22%20cy%3D%2232%22%20r%3D%223.6%22%20fill%3D%22%23c9a13f%22/%3E%3C/g%3E%3C/svg%3E">
 <link rel="stylesheet" href="fonts/fonts.css">
 <style>
@@ -258,7 +258,7 @@ document.addEventListener('click',function(e){
   const b=e.target.closest&&e.target.closest('.cbtn'); if(!b) return;
   const card=b.closest('.card'), svg=card.querySelector('svg');
   if(b.dataset.act==='link'){
-    const url=(location.protocol==='file:'?'https://hibasameen.github.io/aiwan-e-jamhoor/candidates.html':location.href.split('#')[0])+'#'+state.tab;
+    const url=(location.protocol==='file:'?'https://aiwan.adaad.org/candidates.html':location.href.split('#')[0])+'#'+state.tab;
     const done=()=>{const t=b.textContent;b.textContent='Copied!';setTimeout(()=>b.textContent=t,1400);};
     if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done,()=>window.prompt('Copy this link:',url));
     else window.prompt('Copy this link:',url);
