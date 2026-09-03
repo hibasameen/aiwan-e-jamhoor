@@ -353,7 +353,7 @@ function renderHemi(y){
     var c=col(s.p), title='';
     if(s.k==='g') out+='<circle class="seat" data-i="'+i+'" cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="6.2" fill="'+c+'"/>';
     else if(s.k==='w') out+='<circle class="seat" data-i="'+i+'" cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="6.2" fill="'+c+'"/><circle cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="2.6" fill="var(--surface)" pointer-events="none"/>';
-    else out+='<rect class="seat" data-i="'+i+'" x="'+(q.x-5.6).toFixed(1)+'" y="'+(q.y-5.6).toFixed(1)+'" width="11.2" height="11.2" fill="'+c+'"/>';
+    else out+='<rect class="seat" data-i="'+i+'" x="'+(q.x-5.6).toFixed(1)+'" y="'+(q.y-5.6).toFixed(1)+'" width="11.2" height="11.2" fill="'+c+'" transform="rotate('+(90-q.a*180/Math.PI).toFixed(1)+' '+q.x.toFixed(1)+' '+q.y.toFixed(1)+')"/>';
   });
   var HS=H.meta.house[y], maj=Math.floor(HS/2)+1;
   out+='<text x="360" y="366" text-anchor="middle" style="font-size:24px;fill:var(--ink);font-family:EB Garamond,serif">'+y+'</text>';
