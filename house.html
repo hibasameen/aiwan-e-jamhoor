@@ -239,6 +239,7 @@ details.fold>summary:hover{color:var(--green)}
   <div class="two">
     <div class="card"><svg id="wchart" width="100%" height="300" viewBox="0 0 900 300" preserveAspectRatio="xMidYMid meet"></svg>
       <div class="legend" id="wLegend"></div>
+      <div class="callout compact" id="lapseNote" style="font-size:13px;line-height:1.5"><b>Why there were no women's seats from 1990 to 1997.</b> The 1973 Constitution reserved the seats only for a fixed period: Article 51(4) read "until the expiration of a period of ten years from the commencing day or the holding of the second general election to the National Assembly, whichever occurs later, ten seats … shall be reserved for women". Zia's Revival of the Constitution Order of 1985 raised the number to twenty, and the Eighth Amendment changed "second" to "third" — so the provision expired with the third election, 1988. Restoring it needed a constitutional amendment passed by two-thirds of both Houses, and no government of the 1990s had that majority: bills were tabled under Benazir Bhutto's first government in 1989 and again in 1994, and lapsed. The 1997 Commission of Inquiry for Women recommended a third of seats for women; nothing was enacted before the 1999 coup. The seats came back under Musharraf's Legal Framework Order of 2002, at sixty, and the Eighteenth Amendment in 2010 made them permanent. In those three assemblies the women present were only those who won general seats outright — two, four and seven seats, held by two, four and six women. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: Constitution of Pakistan, Art. 51(4) as adopted 1973, RCO 1985 (P.O. 14 of 1985) and the Constitution (Eighth Amendment) Act 1985; Women's Parliamentary Caucus, history of women in parliament; Report of the Commission of Inquiry for Women, 1997.</span></div>
       <div class="chartbar"><button data-act="link" data-tab="women">Share link</button><button data-act="png" data-svg="wchart" data-name="aiwan_women_na">PNG</button><button data-act="csv" data-kind="women">CSV</button></div>
     </div>
     <div class="card scroll" id="wstats"></div>
@@ -252,11 +253,6 @@ details.fold>summary:hover{color:var(--green)}
       <div class="card scroll" id="wparty"></div>
       <div class="card scroll" id="wpartyAll"></div>
     </div>
-  </details>
-
-  <details class="fold">
-    <summary>Why there were no women's seats from 1990 to 1997<span class="cnt">Art. 51(4)</span></summary>
-    <div class="callout compact" id="lapseNote">The 1973 Constitution reserved the seats only for a fixed period: Article 51(4) read "until the expiration of a period of ten years from the commencing day or the holding of the second general election to the National Assembly, whichever occurs later, ten seats … shall be reserved for women". Zia's Revival of the Constitution Order of 1985 raised the number to twenty, and the Eighth Amendment changed "second" to "third" — so the provision expired with the third election, 1988. Restoring it needed a constitutional amendment passed by two-thirds of both Houses, and no government of the 1990s had that majority: bills were tabled under Benazir Bhutto's first government in 1989 and again in 1994, and lapsed. The 1997 Commission of Inquiry for Women recommended a third of seats for women; nothing was enacted before the 1999 coup. The seats came back under Musharraf's Legal Framework Order of 2002, at sixty, and the Eighteenth Amendment in 2010 made them permanent. In those three assemblies the women present were only those who won general seats outright — two, four and seven seats, held by two, four and six women. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: Constitution of Pakistan, Art. 51(4) as adopted 1973, RCO 1985 (P.O. 14 of 1985) and the Constitution (Eighth Amendment) Act 1985; Women's Parliamentary Caucus, history of women in parliament; Report of the Commission of Inquiry for Women, 1997.</span></div>
   </details>
 
   <details class="fold">
@@ -618,11 +614,11 @@ function renderWomenPartyAll(){
   var agg={};
   YL.forEach(function(y){womenByParty(y).forEach(function(r){var a=agg[r.p]=agg[r.p]||{p:r.p,r:0,g:0,yrs:{}};a.r+=r.r;a.g+=r.g;a.yrs[y]=1;});});
   var list=Object.keys(agg).map(function(p){return agg[p];}).sort(function(a,b){return (b.r+b.g)-(a.r+a.g)||b.g-a.g;});
-  var h='<div class="kicker">All eleven assemblies · 1977–2024</div><table><thead><tr><th>Party</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th><th class="num">General share</th></tr></thead><tbody>';
+  var h='<div class="kicker">All eleven assemblies · 1977–2024</div><table><thead><tr><th>Party</th><th class="num">Assemblies</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th><th class="num">General share</th></tr></thead><tbody>';
   var sr=0,sg=0;
-  list.forEach(function(r){sr+=r.r;sg+=r.g;h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+' <span class="dim mono" style="font-size:10.5px">'+Object.keys(r.yrs).length+' yr</span></td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td><td class="num">'+pct(r.g,r.r+r.g)+'</td></tr>';});
-  h+='<tr class="tot"><td>All</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td><td class="num">'+pct(sg,sr+sg)+'</td></tr></tbody></table>';
-  h+='<p class="note" style="margin-top:8px">Seat-terms, not people: a woman who sat in three assemblies counts three times, and a multi-seat winner once per seat. Reserved terms are on election-day allocation (60 per assembly since 2002; replacements excluded). "General share" is the fraction of a party\'s women who won a seat outright rather than arriving by list — the measure of whether a party runs women or only lists them.</p>';
+  list.forEach(function(r){sr+=r.r;sg+=r.g;h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+'</td><td class="num dim">'+Object.keys(r.yrs).length+'</td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td><td class="num">'+pct(r.g,r.r+r.g)+'</td></tr>';});
+  h+='<tr class="tot"><td>All</td><td class="num">'+YL.length+'</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td><td class="num">'+pct(sg,sr+sg)+'</td></tr></tbody></table>';
+  h+='<p class="note" style="margin-top:8px">Seat-terms, not people: a woman who sat in three assemblies counts three times, and a multi-seat winner once per seat. "Assemblies" is the number of the eleven in which the party had any woman member. Reserved terms are on election-day allocation (60 per assembly since 2002; replacements excluded). "General share" is the fraction of a party\'s women who won a seat outright rather than arriving by list — the measure of whether a party runs women or only lists them.</p>';
   document.getElementById('wpartyAll').innerHTML=h;
 }
 
@@ -652,10 +648,10 @@ function renderNMPartyAll(){
   var agg={};
   YL.forEach(function(y){nmByParty(y).forEach(function(r){var a=agg[r.p]=agg[r.p]||{p:r.p,r:0,g:0,yrs:{}};a.r+=r.r;a.g+=r.g;a.yrs[y]=1;});});
   var list=Object.keys(agg).map(function(p){return agg[p];}).sort(function(a,b){return (b.r+b.g)-(a.r+a.g)||b.g-a.g;});
-  var h='<div class="kicker">All eleven assemblies · 1977–2024</div><table><thead><tr><th>Party</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th></tr></thead><tbody>';
+  var h='<div class="kicker">All eleven assemblies · 1977–2024</div><table><thead><tr><th>Party</th><th class="num">Assemblies</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th></tr></thead><tbody>';
   var sr=0,sg=0;
-  list.forEach(function(r){sr+=r.r;sg+=r.g;h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+' <span class="dim mono" style="font-size:10.5px">'+Object.keys(r.yrs).length+' yr</span></td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td></tr>';});
-  h+='<tr class="tot"><td>All</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td></tr></tbody></table>';
+  list.forEach(function(r){sr+=r.r;sg+=r.g;h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+'</td><td class="num dim">'+Object.keys(r.yrs).length+'</td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td></tr>';});
+  h+='<tr class="tot"><td>All</td><td class="num">'+YL.length+'</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td></tr></tbody></table>';
   h+='<p class="note" style="margin-top:8px">Seat-terms on election day; replacements excluded. Since 2002 the seats are a by-product of general-seat totals, so PML-N and PPP hold most of them; before 2002, 47 of the 55 terms carry no party label at all (the 1985 non-party House and the separate-electorate seats of 1988–97). Two general-seat wins in 48 years — both Mahesh Kumar Malani\'s — against 105 reserved terms.</p>';
   document.getElementById('nmpartyAll').innerHTML=h;
 }
