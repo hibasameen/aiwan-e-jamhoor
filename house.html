@@ -97,6 +97,8 @@ tr.tot td{border-top:1px solid var(--line);font-weight:600}
 html[data-th=dark] .delta.neg{color:#e07a6e}
 .two{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;align-items:start}
 .two>*{min-width:0}
+.two.eq{align-items:stretch}
+.two.eq>.card{margin-top:14px}
 .card>svg{display:block;width:100%;max-width:100%;height:auto}
 @media(max-width:560px){.statrow{grid-template-columns:1fr 1fr}.stat .v{font-size:20px}.toggle button{padding:7px 12px}}
 @media(max-width:880px){.two{grid-template-columns:1fr}}
@@ -236,22 +238,22 @@ details.fold>summary:hover{color:var(--green)}
   <section class="tabsec" data-t="women">
   <h2>Women in the House</h2>
   <p class="note">Ten reserved seats in 1977, twenty in 1985 and 1988, none at all from 1990 to 1997 after the provision lapsed, sixty since 2002: the reserved quota has decided how many women sit far more than the ballot has. Women winning general seats stayed in single figures until 2002 — and in 1988 four women held nine of them, because Benazir Bhutto, Nusrat Bhutto and Abida Hussain each won more than one seat. The bars count seats held by women on election day; by-election winners are excluded, so a widely quoted figure of 16 for 2008 (which counts Faryal Talpur and Natasha Daultana, both returned at by-elections) appears here as 14.</p>
-  <div class="two">
+  <div class="two eq">
     <div class="card"><svg id="wchart" width="100%" height="300" viewBox="0 0 900 300" preserveAspectRatio="xMidYMid meet"></svg>
       <div class="legend" id="wLegend"></div>
       <div class="callout compact" id="lapseNote" style="font-size:13px;line-height:1.5"><b>Why there were no women's seats from 1990 to 1997.</b> The 1973 Constitution reserved the seats only for a fixed period: Article 51(4) read "until the expiration of a period of ten years from the commencing day or the holding of the second general election to the National Assembly, whichever occurs later, ten seats … shall be reserved for women". Zia's Revival of the Constitution Order of 1985 raised the number to twenty, and the Eighth Amendment changed "second" to "third" — so the provision expired with the third election, 1988. Restoring it needed a constitutional amendment passed by two-thirds of both Houses, and no government of the 1990s had that majority: bills were tabled under Benazir Bhutto's first government in 1989 and again in 1994, and lapsed. The 1997 Commission of Inquiry for Women recommended a third of seats for women; nothing was enacted before the 1999 coup. The seats came back under Musharraf's Legal Framework Order of 2002, at sixty, and the Eighteenth Amendment in 2010 made them permanent. In those three assemblies the women present were only those who won general seats outright — two, four and seven seats, held by two, four and six women. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: Constitution of Pakistan, Art. 51(4) as adopted 1973, RCO 1985 (P.O. 14 of 1985) and the Constitution (Eighth Amendment) Act 1985; Women's Parliamentary Caucus, history of women in parliament; Report of the Commission of Inquiry for Women, 1997.</span></div>
       <div class="chartbar"><button data-act="link" data-tab="women">Share link</button><button data-act="png" data-svg="wchart" data-name="aiwan_women_na">PNG</button><button data-act="csv" data-kind="women">CSV</button></div>
     </div>
-    <div class="card scroll" id="wstats"></div>
+    <div class="card" id="wstats"></div>
   </div>
 
   <details class="fold" open>
     <summary>Women by party<span class="cnt">reserved · general</span></summary>
     <p class="note">Every woman seated on election day, by the party she sat for, split by route into the House. Reserved members before 2002 carry the party recorded by the Women's Parliamentary Caucus (1988) or the PPP that elected them (1977); 1985 was non-party. The share column is women as a proportion of all the party's seats in that House.</p>
     <div class="toggle" id="yrTog3"></div>
-    <div class="two">
-      <div class="card scroll" id="wparty"></div>
-      <div class="card scroll" id="wpartyAll"></div>
+    <div class="two eq">
+      <div class="card" id="wparty"></div>
+      <div class="card" id="wpartyAll"></div>
     </div>
   </details>
 
@@ -278,9 +280,9 @@ details.fold>summary:hover{color:var(--green)}
     <summary>Non-Muslim members by party<span class="cnt">reserved · general</span></summary>
     <p class="note">Every non-Muslim member seated on election day, by party and route. Before 2002 the seats carried no party label — "No party label" is the Assembly's own record, not a gap in ours — except the six 1977 members elected by the PPP majority and Khatumal Jeewan's PPP ticket in 1990 and 1993.</p>
     <div class="toggle" id="yrTog4"></div>
-    <div class="two">
-      <div class="card scroll" id="nmparty"></div>
-      <div class="card scroll" id="nmpartyAll"></div>
+    <div class="two eq">
+      <div class="card" id="nmparty"></div>
+      <div class="card" id="nmpartyAll"></div>
     </div>
   </details>
 
