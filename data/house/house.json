@@ -1,0 +1,10498 @@
+{
+"meta": {
+"house": {
+"2002": 342,
+"2008": 342,
+"2013": 342,
+"2018": 342,
+"2024": 336
+},
+"general": {
+"2002": 272,
+"2008": 272,
+"2013": 272,
+"2018": 272,
+"2024": 266
+},
+"wquota": {
+"2002": {
+"Punjab": 35,
+"Sindh": 14,
+"Khyber Pakhtunkhwa": 8,
+"Balochistan": 3
+},
+"2008": {
+"Punjab": 35,
+"Sindh": 14,
+"Khyber Pakhtunkhwa": 8,
+"Balochistan": 3
+},
+"2013": {
+"Punjab": 35,
+"Sindh": 14,
+"Khyber Pakhtunkhwa": 8,
+"Balochistan": 3
+},
+"2018": {
+"Punjab": 35,
+"Sindh": 14,
+"Khyber Pakhtunkhwa": 8,
+"Balochistan": 3
+},
+"2024": {
+"Punjab": 32,
+"Sindh": 14,
+"Khyber Pakhtunkhwa": 10,
+"Balochistan": 4
+}
+},
+"nm_seats": 10,
+"joiners": {
+"2002": "no figure found",
+"2008": "7 → PPP, 3 → PML-N",
+"2013": "19 → PML-N",
+"2018": "9 → PTI",
+"2024": "≈8 → PML-N; 84–88 → SIC (disallowed)"
+},
+"official_2024_first": {
+"PML-N": [
+19,
+4
+],
+"PPP": [
+12,
+2
+],
+"MQM": [
+4,
+0
+],
+"JUI-F": [
+2,
+0
+],
+"IPP": [
+1,
+0
+],
+"PML-Q": [
+1,
+0
+]
+},
+"pti_ind_2024": 85
+},
+"years": {
+"2002": {
+"assembly": 12,
+"polled": 270,
+"general": {
+"MMA": 45,
+"PML-Q": 78,
+"PML-J": 3,
+"PPP": 63,
+"PML-N": 14,
+"IND": 28,
+"Other": 3,
+"National Alliance": 13,
+"PML-Z": 1,
+"PML-F": 4,
+"MQM": 13,
+"JWP": 1,
+"BNP": 1,
+"QWP": 2,
+"PTI": 1
+},
+"winners": {
+"MMA": [
+{
+"na": "NA-1",
+"name": "Shabir Ahmad"
+},
+{
+"na": "NA-2",
+"name": "Molana Rehmatullah"
+},
+{
+"na": "NA-3",
+"name": "Qari Fayaz-Ur-Rehman Alvi"
+},
+{
+"na": "NA-4",
+"name": "Sabir Hussain Awan"
+},
+{
+"na": "NA-5",
+"name": "Qazi Hussain Ahmed"
+},
+{
+"na": "NA-6",
+"name": "Molana Hamid-Ul-Haq Haqqani"
+},
+{
+"na": "NA-7",
+"name": "Molona M. Gohar Shah"
+},
+{
+"na": "NA-9",
+"name": "Shuja-Ul-Mulk"
+},
+{
+"na": "NA-10",
+"name": "Molana M. Qasim"
+},
+{
+"na": "NA-11",
+"name": "Molana Atta-Ur-Rehman"
+},
+{
+"na": "NA-12",
+"name": "M. Usman"
+},
+{
+"na": "NA-13",
+"name": "Molana Khalil Ahmed"
+},
+{
+"na": "NA-14",
+"name": "Mufti Ibrar Sultan"
+},
+{
+"na": "NA-15",
+"name": "Shah Abdul Aziz"
+},
+{
+"na": "NA-16",
+"name": "Akhunzada M. Sadiq"
+},
+{
+"na": "NA-21",
+"name": "Molana Abdul Malik"
+},
+{
+"na": "NA-22",
+"name": "Qari M. Yousaf"
+},
+{
+"na": "NA-23",
+"name": "Molvi Abdul Haleem"
+},
+{
+"na": "NA-24",
+"name": "Molana Fazal-Ur-Rehman"
+},
+{
+"na": "NA-25",
+"name": "Molana Fazal-Ur-Rehman"
+},
+{
+"na": "NA-26",
+"name": "Molana Nasib Ali Shah"
+},
+{
+"na": "NA-27",
+"name": "Molana Amanullah Khan"
+},
+{
+"na": "NA-29",
+"name": "Qari Abdul Baees Saddiqi"
+},
+{
+"na": "NA-30",
+"name": "Fazal-E-Subhan"
+},
+{
+"na": "NA-31",
+"name": "Amir Muqam"
+},
+{
+"na": "NA-32",
+"name": "Abdul Akbar Khan"
+},
+{
+"na": "NA-33",
+"name": "Molana Asadullah"
+},
+{
+"na": "NA-34",
+"name": "Qazi Hussain Ahmad"
+},
+{
+"na": "NA-35",
+"name": "Molana M. Inayat-Ur-Rehman"
+},
+{
+"na": "NA-48",
+"name": "Mian M. Aslam"
+},
+{
+"na": "NA-96",
+"name": "Qazi Hameedullah Khan"
+},
+{
+"na": "NA-121",
+"name": "Farid Ahmed Paracha"
+},
+{
+"na": "NA-126",
+"name": "Liaqat Baloch"
+},
+{
+"na": "NA-220",
+"name": "Dr. Shabzada Abul Khair M. Zubair"
+},
+{
+"na": "NA-239",
+"name": "Hakim Qari Gul Rehman"
+},
+{
+"na": "NA-241",
+"name": "M. Laeeq Khan"
+},
+{
+"na": "NA-250",
+"name": "Abdul Sattar Afghani"
+},
+{
+"na": "NA-252",
+"name": "M. Hussain Mehanti"
+},
+{
+"na": "NA-253",
+"name": "Asadullah Bhutto"
+},
+{
+"na": "NA-259",
+"name": "Molvi Noor Muhammad"
+},
+{
+"na": "NA-260",
+"name": "Hafiz Hussain Ahmed"
+},
+{
+"na": "NA-261",
+"name": "Haji Gul M. Dummar"
+},
+{
+"na": "NA-264",
+"name": "Molvi M. Khan Sherani"
+},
+{
+"na": "NA-268",
+"name": "Molana Abdul Ghafoor Haideri"
+},
+{
+"na": "NA-271",
+"name": "Molvi Rehmatullah"
+}
+],
+"PML-Q": [
+{
+"na": "NA-17",
+"name": "Amanullah Khan Jadoon"
+},
+{
+"na": "NA-18",
+"name": "Sardar M. Yaqoob"
+},
+{
+"na": "NA-19",
+"name": "Umer Ayub Khan"
+},
+{
+"na": "NA-20",
+"name": "Sardar Shah Jehan Yousaf"
+},
+{
+"na": "NA-57",
+"name": "Malik Amin Aslam Khan"
+},
+{
+"na": "NA-58",
+"name": "Malik Allah Yar Khan"
+},
+{
+"na": "NA-59",
+"name": "Eman Wasim"
+},
+{
+"na": "NA-60",
+"name": "Maj. (R) Tahir Iqbal"
+},
+{
+"na": "NA-62",
+"name": "Ch. Shahbaz Hussain"
+},
+{
+"na": "NA-65",
+"name": "Ch. Ghias Ahmed Mela"
+},
+{
+"na": "NA-67",
+"name": "Ch. Anwar Ali Cheema"
+},
+{
+"na": "NA-68",
+"name": "Mazhar Ahmed Qureshi"
+},
+{
+"na": "NA-73",
+"name": "M. Sanaullah Khan"
+},
+{
+"na": "NA-74",
+"name": "Ch. Shujaat Hussain"
+},
+{
+"na": "NA-75",
+"name": "Lt. Col. (R) Ghulam Rasool Sahi"
+},
+{
+"na": "NA-76",
+"name": "M. Wasi Zafar"
+},
+{
+"na": "NA-77",
+"name": "Ch. M. Asim"
+},
+{
+"na": "NA-78",
+"name": "Rajab Ali Khan Baloch"
+},
+{
+"na": "NA-79",
+"name": "M. Safdar Shaker"
+},
+{
+"na": "NA-83",
+"name": "Mushtaq Ali Cheema"
+},
+{
+"na": "NA-86",
+"name": "M. Tahir Shah"
+},
+{
+"na": "NA-87",
+"name": "Ghulam Bibi Bharwana"
+},
+{
+"na": "NA-91",
+"name": "Sahabzada M. Mehboob Sultan"
+},
+{
+"na": "NA-97",
+"name": "Ch. Shahid Akram Bhinder"
+},
+{
+"na": "NA-99",
+"name": "Rana Umar Nazir Khan"
+},
+{
+"na": "NA-100",
+"name": "Ch. Bilal Ijaz"
+},
+{
+"na": "NA-102",
+"name": "Ch. Mehdi Hasan Bhatti"
+},
+{
+"na": "NA-103",
+"name": "Ch. Liaqat Abbas Bhatti"
+},
+{
+"na": "NA-104",
+"name": "Ch. Wajahat Hussain"
+},
+{
+"na": "NA-105",
+"name": "Ch. Shujaat Hussain"
+},
+{
+"na": "NA-108",
+"name": "Ijaz Ahmad Ch."
+},
+{
+"na": "NA-111",
+"name": "Ch. Amir Hussain"
+},
+{
+"na": "NA-112",
+"name": "Umar Ahmad Ghumman"
+},
+{
+"na": "NA-113",
+"name": "Ali Asjad Malhi"
+},
+{
+"na": "NA-114",
+"name": "Zahid Hamid Khan"
+},
+{
+"na": "NA-115",
+"name": "M. Nasir Khan"
+},
+{
+"na": "NA-116",
+"name": "Daniyal Aziz Ch."
+},
+{
+"na": "NA-117",
+"name": "Riffat Javed"
+},
+{
+"na": "NA-125",
+"name": "Humayun Akhtar Khan"
+},
+{
+"na": "NA-129",
+"name": "Maj. (R) Habibullah Warraich"
+},
+{
+"na": "NA-131",
+"name": "Brig. (R) Zulfiqar Ahmad Dhillon"
+},
+{
+"na": "NA-133",
+"name": "M. Saeed Virk"
+},
+{
+"na": "NA-135",
+"name": "Mian Shamim Haider"
+},
+{
+"na": "NA-136",
+"name": "Bilal Ahmad Virk"
+},
+{
+"na": "NA-137",
+"name": "Rai Mansab Ali Khan"
+},
+{
+"na": "NA-138",
+"name": "Sardar Tufail Ahmad Khan"
+},
+{
+"na": "NA-140",
+"name": "Mian Khursheed Mehmood Kasuri"
+},
+{
+"na": "NA-141",
+"name": "Sardar M. Asif Nakai"
+},
+{
+"na": "NA-142",
+"name": "Sardar M. Asif Nakai"
+},
+{
+"na": "NA-143",
+"name": "Rai M. Aslam Kharal"
+},
+{
+"na": "NA-145",
+"name": "Syed Gulzar Sabtain Shah"
+},
+{
+"na": "NA-151",
+"name": "Sikandar Hayat Khan Bosan"
+},
+{
+"na": "NA-154",
+"name": "Nawab Amanullah Khan"
+},
+{
+"na": "NA-155",
+"name": "M. Akhtar Khan Kanjoo"
+},
+{
+"na": "NA-159",
+"name": "Malik Ghulam Murtaza Maitla"
+},
+{
+"na": "NA-162",
+"name": "Rai Azizullah Khan"
+},
+{
+"na": "NA-164",
+"name": "Pir M. Shah Khaggah"
+},
+{
+"na": "NA-165",
+"name": "Ahmed Raz Manika"
+},
+{
+"na": "NA-166",
+"name": "Dr. Junaid Mumtaz Joiya"
+},
+{
+"na": "NA-167",
+"name": "Ch. Nazir Ahmad Jat"
+},
+{
+"na": "NA-168",
+"name": "Ishaq Khan Khakwani"
+},
+{
+"na": "NA-169",
+"name": "Khan Aftab Ahmed Khan Khichi"
+},
+{
+"na": "NA-171",
+"name": "Kh. Sheraz Mehmood"
+},
+{
+"na": "NA-177",
+"name": "Hina Rabbani Khar"
+},
+{
+"na": "NA-178",
+"name": "Engr. M. Shahid Jamil Qureshi"
+},
+{
+"na": "NA-179",
+"name": "Syed Basit Ahmad Sultan Bokhari"
+},
+{
+"na": "NA-181",
+"name": "Sardar Bahadur Ahmad Khan Sehar"
+},
+{
+"na": "NA-183",
+"name": "Makhdoomzada Syed Ali Hassan Gilani"
+},
+{
+"na": "NA-188",
+"name": "Syed M. Asghar Shah"
+},
+{
+"na": "NA-190",
+"name": "Abdul Sattar Khan"
+},
+{
+"na": "NA-194",
+"name": "Makhdoom Khusro Bakhtiar"
+},
+{
+"na": "NA-195",
+"name": "Jahangir Khan Tareen"
+},
+{
+"na": "NA-203",
+"name": "Ghous Bakhsh Mehar"
+},
+{
+"na": "NA-233",
+"name": "Liaqat Ali Jatoi"
+},
+{
+"na": "NA-237",
+"name": "Syed Ayaz Ali Shah Sheerazi"
+},
+{
+"na": "NA-238",
+"name": "M. Ali Malkani"
+},
+{
+"na": "NA-266",
+"name": "Haji Mir Zafarullah Khan Jamali"
+},
+{
+"na": "NA-270",
+"name": "Pir Abdul Qadir Al-Gilani"
+}
+],
+"PML-J": [
+{
+"na": "NA-92",
+"name": "Amjad Ali Warraich"
+},
+{
+"na": "NA-101",
+"name": "Hamid Nasir Chattha"
+},
+{
+"na": "NA-147",
+"name": "Rubina Shaheen Wattoo"
+}
+],
+"PPP": [
+{
+"na": "NA-49",
+"name": "Syed Nayyar Hussain Bokhari"
+},
+{
+"na": "NA-50",
+"name": "Ghulam Murtaza Satti"
+},
+{
+"na": "NA-51",
+"name": "Raha Pervaiz Ashraf"
+},
+{
+"na": "NA-54",
+"name": "Zamurd Khan, Adv."
+},
+{
+"na": "NA-64",
+"name": "Inam-Ul-Haq Paracha"
+},
+{
+"na": "NA-66",
+"name": "Tasneem Ahmed Qureshi"
+},
+{
+"na": "NA-72",
+"name": "Dr. Sher Afgan Khan"
+},
+{
+"na": "NA-81",
+"name": "Dr. Nisar Ahmad"
+},
+{
+"na": "NA-88",
+"name": "Makhdoom Syed Faisal Saleh Hayat"
+},
+{
+"na": "NA-95",
+"name": "Ch. Imranullah, Adv."
+},
+{
+"na": "NA-98",
+"name": "Imtiaz Safdar"
+},
+{
+"na": "NA-106",
+"name": "Ch. Qamar Zaman"
+},
+{
+"na": "NA-107",
+"name": "Rehman Naseer Ch."
+},
+{
+"na": "NA-109",
+"name": "Maj. (R) Zulfiqar Ali Gondal"
+},
+{
+"na": "NA-124",
+"name": "Aitzaz Ahsan"
+},
+{
+"na": "NA-128",
+"name": "Malik Zaheer Abbas, Adv."
+},
+{
+"na": "NA-130",
+"name": "Samin Khalid Ghurki"
+},
+{
+"na": "NA-134",
+"name": "Khurram Munawar Manj"
+},
+{
+"na": "NA-139",
+"name": "Ch. Manzoor Ahmad"
+},
+{
+"na": "NA-144",
+"name": "Rao Sikander Iqbal"
+},
+{
+"na": "NA-148",
+"name": "Makhdoom Shah Mehmood Qureshi"
+},
+{
+"na": "NA-149",
+"name": "Malik Liaqat Ali Dogar"
+},
+{
+"na": "NA-152",
+"name": "Syed Asad Murtaza Gilani"
+},
+{
+"na": "NA-156",
+"name": "M. Raza Hayat Hiraj"
+},
+{
+"na": "NA-158",
+"name": "Pir M. Aslam Bodla"
+},
+{
+"na": "NA-160",
+"name": "Ch. Noraiz Shakoor Khan"
+},
+{
+"na": "NA-170",
+"name": "Azhar Ahmad Khan Yousufzai"
+},
+{
+"na": "NA-176",
+"name": "Khalida Mohsin Ali Qureshi"
+},
+{
+"na": "NA-180",
+"name": "Abdul Qayoom Khan Jatoi"
+},
+{
+"na": "NA-182",
+"name": "Malik Niaz Ahmad Jakhar"
+},
+{
+"na": "NA-184",
+"name": "Aamir Yar Malik"
+},
+{
+"na": "NA-187",
+"name": "Aitzaz Ahsan"
+},
+{
+"na": "NA-189",
+"name": "Mian Mumtaz Ahmed Matiana"
+},
+{
+"na": "NA-193",
+"name": "Maj. (R) Syed Tanveer Hussain Syed"
+},
+{
+"na": "NA-196",
+"name": "Ch. Zaffar Iqbbal Warraich"
+},
+{
+"na": "NA-197",
+"name": "Rais Munir Ahmed"
+},
+{
+"na": "NA-198",
+"name": "Syed Khursheed Ahmed Shah"
+},
+{
+"na": "NA-199",
+"name": "Abdul Mujeeb Pirzada"
+},
+{
+"na": "NA-200",
+"name": "Khalid Ahmed Khan Lund"
+},
+{
+"na": "NA-204",
+"name": "M. Anwar Bhutto"
+},
+{
+"na": "NA-205",
+"name": "Hizbullah Bughio"
+},
+{
+"na": "NA-206",
+"name": "Khalid Iqbal Memon"
+},
+{
+"na": "NA-207",
+"name": "Shahid Hussain Bhutto"
+},
+{
+"na": "NA-208",
+"name": "Mir Ijaz Hussain Jakhrani"
+},
+{
+"na": "NA-209",
+"name": "Mir Hazar Khan Bijarani"
+},
+{
+"na": "NA-212",
+"name": "Allahandho Shah Alias Zafar Ali Shah"
+},
+{
+"na": "NA-213",
+"name": "Azra Fazal"
+},
+{
+"na": "NA-214",
+"name": "Syed Ghulam Mustafa Shah"
+},
+{
+"na": "NA-215",
+"name": "Manzoor Hussain Wasan"
+},
+{
+"na": "NA-217",
+"name": "Pir Syed Fazal Ali Shah Jilani"
+},
+{
+"na": "NA-218",
+"name": "Makhdoom M. Amin Faheem"
+},
+{
+"na": "NA-221",
+"name": "Syed Amir Ali Shah Jamot"
+},
+{
+"na": "NA-222",
+"name": "Syed Naveed Qamar"
+},
+{
+"na": "NA-223",
+"name": "Shamshad Sattar Bachani"
+},
+{
+"na": "NA-224",
+"name": "Ghulam Ali Nizamani"
+},
+{
+"na": "NA-225",
+"name": "Dr. Fehmida Mirza"
+},
+{
+"na": "NA-226",
+"name": "Pir Aftab Hussain Shah Jilani"
+},
+{
+"na": "NA-227",
+"name": "Syed Qurban Ali Shah"
+},
+{
+"na": "NA-228",
+"name": "Nawab M. Yusuf Talpur"
+},
+{
+"na": "NA-231",
+"name": "Nawab Abdul Ghani Talpur"
+},
+{
+"na": "NA-232",
+"name": "Rafiq Ahmed Jamali"
+},
+{
+"na": "NA-248",
+"name": "Nabeel Ahmed Gabbol"
+},
+{
+"na": "NA-258",
+"name": "Sher M. Baloch"
+}
+],
+"PML-N": [
+{
+"na": "NA-52",
+"name": "Ch. Nisar Ali Khan"
+},
+{
+"na": "NA-63",
+"name": "Raja M. Asad Khan"
+},
+{
+"na": "NA-80",
+"name": "Asif Tauseef"
+},
+{
+"na": "NA-82",
+"name": "Sahabzada Haji M. Fazal Karim"
+},
+{
+"na": "NA-84",
+"name": "Abid Ali"
+},
+{
+"na": "NA-85",
+"name": "Raja Nadir Pervaiz"
+},
+{
+"na": "NA-110",
+"name": "Kh. M. Asif"
+},
+{
+"na": "NA-119",
+"name": "Kh. Saad Rafiq"
+},
+{
+"na": "NA-120",
+"name": "M. Pervaiz Malik"
+},
+{
+"na": "NA-122",
+"name": "Sardar Ayaz Sadiq"
+},
+{
+"na": "NA-123",
+"name": "Makhdoom M. Javed Hashmi"
+},
+{
+"na": "NA-132",
+"name": "Mian Jalil Ahmad Sharkpuri"
+},
+{
+"na": "NA-150",
+"name": "Rana Mehmood-Ul-Hassan"
+},
+{
+"na": "NA-153",
+"name": "Deewan Jaffer Hussain Bukhari"
+}
+],
+"IND": [
+{
+"na": "NA-36",
+"name": "Molana Ghulam M. Sadiq"
+},
+{
+"na": "NA-37",
+"name": "Dr. Syed Javed Hussain Mian"
+},
+{
+"na": "NA-38",
+"name": "Munir Khan Orakzai"
+},
+{
+"na": "NA-39",
+"name": "Dr. Syed Ghazi Gulab Jamal"
+},
+{
+"na": "NA-40",
+"name": "Molvi Nek Zaman"
+},
+{
+"na": "NA-41",
+"name": "Abdul Malik"
+},
+{
+"na": "NA-42",
+"name": "M. Mirajuddin"
+},
+{
+"na": "NA-43",
+"name": "Molvi M. Sadiq"
+},
+{
+"na": "NA-44",
+"name": "Haroon Rashid"
+},
+{
+"na": "NA-45",
+"name": "Noor-Ul-Haq Qadri"
+},
+{
+"na": "NA-46",
+"name": "Molana Khalil-Ur-Rehman Afridi"
+},
+{
+"na": "NA-47",
+"name": "Dr. Aseem Afridi"
+},
+{
+"na": "NA-53",
+"name": "Ghulam Sarwar Khan"
+},
+{
+"na": "NA-55",
+"name": "Sheikh Rashid Ahmad"
+},
+{
+"na": "NA-56",
+"name": "Sheikh Rashid Ahmad"
+},
+{
+"na": "NA-61",
+"name": "M. Faiz Malik Tamman"
+},
+{
+"na": "NA-70",
+"name": "Malik M. Saifullah Tiwana"
+},
+{
+"na": "NA-89",
+"name": "Molana M. Azam Tariq"
+},
+{
+"na": "NA-90",
+"name": "Saima Akhtar Bharwana"
+},
+{
+"na": "NA-93",
+"name": "M. Farhan Latif"
+},
+{
+"na": "NA-94",
+"name": "Riaz Fatiana"
+},
+{
+"na": "NA-118",
+"name": "Hafiz Salman Butt"
+},
+{
+"na": "NA-146",
+"name": "Rao M. Ajmal Khan"
+},
+{
+"na": "NA-157",
+"name": "Hamid Yar Hiraj"
+},
+{
+"na": "NA-175",
+"name": "Sardar Nasrullah Khan Dreshak"
+},
+{
+"na": "NA-192",
+"name": "Makhdoom Syed Ahmad Alam Anwar"
+},
+{
+"na": "NA-201",
+"name": "Ali M. Khan"
+},
+{
+"na": "NA-272",
+"name": "Zubaida Jalal"
+}
+],
+"Other": [
+{
+"na": "NA-127",
+"name": "Dr. M. Tahir-Ul-Qadri"
+},
+{
+"na": "NA-161",
+"name": "Rana Tariq Javed"
+},
+{
+"na": "NA-255",
+"name": "Mehmood Ahmed Qureshi"
+}
+],
+"National Alliance": [
+{
+"na": "NA-69",
+"name": "Sumera Malik"
+},
+{
+"na": "NA-163",
+"name": "Sardar Farooq Ahmad Khan Leghari"
+},
+{
+"na": "NA-172",
+"name": "Sardar Farooq Ahmad Khan Leghari"
+},
+{
+"na": "NA-173",
+"name": "Awais Ahmad Khan Leghari"
+},
+{
+"na": "NA-174",
+"name": "Sardar M. Jaffar Khan Leghari"
+},
+{
+"na": "NA-185",
+"name": "M. Farooq Azam Malik"
+},
+{
+"na": "NA-186",
+"name": "Riaz Hussain Pirzada"
+},
+{
+"na": "NA-202",
+"name": "M. Ibrahim Jatoi"
+},
+{
+"na": "NA-210",
+"name": "Sardar Saleem Jan Khan Mazari"
+},
+{
+"na": "NA-211",
+"name": "Dr. Abdul Ghaffar Khan Jatoi"
+},
+{
+"na": "NA-229",
+"name": "Arbab Ghulam Rahim"
+},
+{
+"na": "NA-230",
+"name": "Ghulam Haider Samejo"
+},
+{
+"na": "NA-267",
+"name": "Sardar Yar M. Rind"
+}
+],
+"PML-Z": [
+{
+"na": "NA-191",
+"name": "M. Ijaz-Ul-Haq"
+}
+],
+"PML-F": [
+{
+"na": "NA-216",
+"name": "Syed Sadaruddin Shah"
+},
+{
+"na": "NA-234",
+"name": "Haji Khuda Bakhsh Nizamani"
+},
+{
+"na": "NA-235",
+"name": "Qazi Abdul Qudus Rajar"
+},
+{
+"na": "NA-236",
+"name": "M. Khan Junejo"
+}
+],
+"MQM": [
+{
+"na": "NA-219",
+"name": "Prof. Khalid Wahab"
+},
+{
+"na": "NA-240",
+"name": "Sarkaruddin, Adv."
+},
+{
+"na": "NA-242",
+"name": "M. Abbdul Rauf Siddiqi"
+},
+{
+"na": "NA-243",
+"name": "Sultan Ahmed Khan"
+},
+{
+"na": "NA-244",
+"name": "Syed Haider Abbas Rizvi"
+},
+{
+"na": "NA-245",
+"name": "Kunwar Khalid Younas"
+},
+{
+"na": "NA-246",
+"name": "Haji Azizullah"
+},
+{
+"na": "NA-247",
+"name": "Israr-Ul-Ebad Khan"
+},
+{
+"na": "NA-249",
+"name": "Amir Liaquat Hussain"
+},
+{
+"na": "NA-251",
+"name": "Syed Safwanullah"
+},
+{
+"na": "NA-254",
+"name": "Nawab Mirza Adv."
+},
+{
+"na": "NA-256",
+"name": "Iqbbal M. Ali Khan"
+},
+{
+"na": "NA-257",
+"name": "M. Shamim Siddiqi"
+}
+],
+"JWP": [
+{
+"na": "NA-265",
+"name": "Haider Bugti"
+}
+],
+"BNP": [
+{
+"na": "NA-269",
+"name": "Abdur Rauf Mengal"
+}
+],
+"QWP": [
+{
+"na": "NA-8",
+"name": "Aftab Ahmad Khan Sherpao"
+},
+{
+"na": "NA-28",
+"name": "Sher Akbar Khan, Adv."
+}
+],
+"PTI": [
+{
+"na": "NA-71",
+"name": "Imran Khan"
+}
+]
+},
+"general_by_prov": {
+"Khyber Pakhtunkhwa": {
+"MMA": 29,
+"PML-Q": 4,
+"QWP": 2
+},
+"Punjab": {
+"PML-Q": 68,
+"PML-J": 3,
+"PPP": 35,
+"PML-N": 14,
+"IND": 14,
+"MMA": 3,
+"Other": 2,
+"National Alliance": 7,
+"PML-Z": 1,
+"PTI": 1
+},
+"Sindh": {
+"PPP": 27,
+"IND": 1,
+"National Alliance": 5,
+"PML-Q": 4,
+"PML-F": 4,
+"MQM": 13,
+"MMA": 6,
+"Other": 1
+},
+"Balochistan": {
+"MMA": 6,
+"JWP": 1,
+"PML-Q": 2,
+"National Alliance": 1,
+"BNP": 1,
+"IND": 1
+},
+"ICT/FATA": {
+"IND": 12,
+"MMA": 1,
+"PPP": 1
+}
+},
+"reserved_women": [
+{
+"name": "Mrs. Mehnaz Raffi",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Hijra Tariq Aziz",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tanzeela Aamir Cheema",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Donya Aziz",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kashmala Tariq",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Saira Tariq",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Riffat Amjad",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Attiya Inayatullah",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Bushra Rahman",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farzeen Ahmed Sarfaraz",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahzadi Umer Zadi Tiwana",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rahila Yahya Munawar",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Prof. Aasiya Azeem",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Firdous Ashiq Awan",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P06118",
+"career": {
+"contested": [
+2013,
+2024
+],
+"won": [],
+"name": "Dr Firdous Ashiq Awan"
+}
+},
+{
+"name": "Begum Tehmina Dasti",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P10774",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "Tehmina Dasti"
+}
+},
+{
+"name": "Onaza Ehsan",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Bushra Anwar Sipra",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Rozina Tufail",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Tahira Asif",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P04500",
+"career": {
+"contested": [
+2008,
+2013
+],
+"won": [],
+"name": "Begum Tahira Asif"
+}
+},
+{
+"name": "Naheed Khan",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P02370",
+"career": {
+"contested": [
+1997
+],
+"won": [],
+"name": "Naheed Khan"
+}
+},
+{
+"name": "Mrs. Belum Hasnain",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Shakeela Khanam Rashid",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fauzia Habib",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Mehreen Anwar Raja",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P09935",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "MEHREEN ANWAR RAJA"
+}
+},
+{
+"name": "Mr. Yasmeen Rehman",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Begum Shahnaz Sheikh",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rukhsana Bangash",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Nasim Akhtar Chaudhry",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Samia Raheel Qazi",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Maimona Hashmi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Begum I shrat Ashraf",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Tehmina Daultana",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P00173",
+"career": {
+"contested": [
+1993,
+1997,
+2002,
+2008,
+2018,
+2024
+],
+"won": [
+1993,
+1997,
+2008,
+2024
+],
+"name": "Tehmina Daultana"
+}
+},
+{
+"name": "Begum Rehana Aleem Mashhadi",
+"party": "PML-J",
+"party_raw": "PML (J)",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Meena Ehsan Laghari",
+"party": "National Alliance",
+"party_raw": "NA",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ayla Malik",
+"party": "National Alliance",
+"party_raw": "NA",
+"province": "Punjab",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Faiza Junejo",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sherry Rehman",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Ruqia Khanum Soomro",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fauzia Wahab",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rubina Saddat Qaimkhani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Raja",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Miss Shagufta Jumani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Farida Ahmed",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Aisha Munawar",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shamim Akhtar",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P09996",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "SHAMIM AKHTAR"
+}
+},
+{
+"name": "Afsar Begum",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shabina Talat",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Gul-e-Farkhanda",
+"party": "National Alliance",
+"party_raw": "NA",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Madam Khurshid Afghan",
+"party": "PML-F",
+"party_raw": "PML (F)",
+"province": "Sindh",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P10971",
+"career": {
+"contested": [
+1990,
+2018
+],
+"won": [],
+"name": "Miss Khurshid Afghan"
+}
+},
+{
+"name": "Mrs. Zeb Gohar Ayub",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sayyeda Farhana Khalid Banoori",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Razia Aziz",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nayyer Sultana",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Jamila Ahmed",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Ambareen Naeem",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Inayat Begum",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mrs. Shahida Akhtar Ali",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Noor Jahan Panezai",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": "Balochistan",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Imrana Khawar",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Balochistan",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Bilqees Saif",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Balochistan",
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+}
+],
+"reserved_nonmuslim": [
+{
+"name": "Mr. Akram Masih Gill",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ch. Haroon Qaiser",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Engr. Gayan Chand Singh",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. M.P. Bhandara",
+"party": "PML-Q",
+"party_raw": "PML (Q)",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Prof. Mushtaq Victor",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Ramesh Lal",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Pervaiz Masih",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": "P06401",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Pervaiz Masih"
+}
+},
+{
+"name": "Mrs. Asiya Nasir",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Krishan Bheel Adv.",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Dev Das",
+"party": "MQM",
+"party_raw": "MQM",
+"province": null,
+"na_id": null,
+"elected_via": "indirect",
+"remarks": null,
+"person_id": null
+}
+],
+"entitlement": {
+"women_by_prov": {
+"Punjab": {
+"PML-Q": 18,
+"PML-J": 1,
+"PPP": 9,
+"PML-N": 4,
+"MMA": 1,
+"National Alliance": 2
+},
+"Sindh": {
+"PPP": 6,
+"National Alliance": 1,
+"PML-Q": 1,
+"PML-F": 1,
+"MQM": 3,
+"MMA": 2
+},
+"Khyber Pakhtunkhwa": {
+"MMA": 7,
+"PML-Q": 1
+},
+"Balochistan": {
+"MMA": 2,
+"PML-Q": 1
+}
+},
+"women": {
+"PML-Q": 21,
+"PML-J": 1,
+"PPP": 15,
+"PML-N": 4,
+"MMA": 12,
+"National Alliance": 3,
+"PML-F": 1,
+"MQM": 3
+},
+"nonmuslim": {
+"MMA": 2,
+"PML-Q": 3,
+"PPP": 3,
+"PML-N": 1,
+"MQM": 1
+}
+},
+"counterfactual": null,
+"official": {
+"PML-Q": {
+"women": 23,
+"nonmuslim": 4
+},
+"PPP": {
+"women": 14,
+"nonmuslim": 2
+},
+"MMA": {
+"women": 12,
+"nonmuslim": 2
+},
+"PML-N": {
+"women": 3,
+"nonmuslim": 1
+},
+"National Alliance": {
+"women": 3,
+"nonmuslim": 0
+},
+"MQM": {
+"women": 3,
+"nonmuslim": 1
+},
+"PML-F": {
+"women": 1,
+"nonmuslim": 0
+},
+"PML-J": {
+"women": 1,
+"nonmuslim": 0
+}
+},
+"women_general": [
+{
+"na": "NA-117",
+"name": "Riffat Javed",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P02803"
+},
+{
+"na": "NA-130",
+"name": "Samin Khalid Ghurki",
+"party": "PPP",
+"province": "Punjab",
+"person_id": "P01360"
+},
+{
+"na": "NA-147",
+"name": "Rubina Shaheen Wattoo",
+"party": "PML-J",
+"province": "Punjab",
+"person_id": "P02981"
+},
+{
+"na": "NA-176",
+"name": "Khalida Mohsin Ali Qureshi",
+"party": "PPP",
+"province": "Punjab",
+"person_id": "P03136"
+},
+{
+"na": "NA-177",
+"name": "Hina Rabbani Khar",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P03143"
+},
+{
+"na": "NA-213",
+"name": "Azra Fazal",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P03371"
+},
+{
+"na": "NA-223",
+"name": "Shamshad Sattar Bachani",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P03451"
+},
+{
+"na": "NA-225",
+"name": "Dr. Fehmida Mirza",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P01764"
+},
+{
+"na": "NA-272",
+"name": "Zubaida Jalal",
+"party": "IND",
+"province": "Balochistan",
+"person_id": "P03871"
+},
+{
+"na": "NA-59",
+"name": "Eman Wasim",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P04136"
+},
+{
+"na": "NA-69",
+"name": "Sumera Malik",
+"party": "National Alliance",
+"province": "Punjab",
+"person_id": "P04191"
+},
+{
+"na": "NA-87",
+"name": "Ghulam Bibi Bharwana",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P04285"
+},
+{
+"na": "NA-90",
+"name": "Saima Akhtar Bharwana",
+"party": "IND",
+"province": "Punjab",
+"person_id": "P04311"
+}
+],
+"nonmuslim_general": [],
+"roll_notes": [
+"This PDF has explicit headings 'SEATS RESERVED FOR WOMEN' (sub-headed PUNJAB / SINDH / N.W.F.P / BALOCHISTAN, entries numbered 273-332, 60 members total, i.e. 35 Punjab + 14 Sindh + 8 NWFP + 3 Balochistan) and 'SEATS RESERVED FOR NON-MUSLIMS' (entries 333-342, 10 members, nationwide, no province given). These are tagged seat_type='reserved_women' / 'reserved_nonmuslim' with elected_via='indirect' (allocated proportionally to parties, not directly voted).",
+"1 seat(s) listed as 'Vacant' in the source PDF and omitted from members[]: NA-35",
+"Counts: 271 general seats, 60 reserved-women seats, 10 reserved-non-Muslim seats, 1 vacant seats (vacant omitted from members[]).",
+"raw_constituency and name were split heuristically from OCR text using a list of honorific/title prefixes (Mr./Mrs./Sardar/Malik/Maulana/Rana/Rao/Syed/etc.) to find where the constituency label ends and the member's name begins. In a small number of entries (roughly 5-7% of general seats per assembly) the source PDF crams the constituency name and the member's name onto the same line with no separating honorific recognized by this heuristic (or the constituency name is itself an honorific-like word, e.g. 'Nawab Shah'); in those cases raw_constituency is empty and the constituency label appears as a leading fragment in 'name' instead. These were not hand-corrected.",
+"Parse issues (entries skipped/could not confidently parse): S.No 113: source PDF omits the 'NA-<n>' seat label for this entry (likely OCR/layout artifact); seat set to null. Raw text: Sialkot-IV Mr. Ali Asj id Malhi PML (Q) 24-R, Defence Housing Authority Phase-II, Lahore",
+"The PDF also contains post-roster tables ('MEMBERS VACATED ONE OF DOUBLE SEATS AND RETURNED', 'MEMBERS WHO JOINED OTHER POLITICAL PARTIES', 'MEMBERS WHO DIED AND RETURNED', 'MEMBERS WHO RESIGNED AND RETURNED', 'MEMBER WHO DISQUALIFIED AND RETURNED') documenting churn during the assembly's term; these were not parsed into separate member records -- only the main numbered roster (snapshot list) is represented here.",
+"OCR text had stray internal spaces within words throughout (e.g. 'Moham m ad', 'Muham mad'); these were collapsed to normal spelling per instructions where detected. Addresses/phone numbers printed in the source were not transcribed into this JSON (not part of the requested schema)."
+]
+},
+"2008": {
+"assembly": 13,
+"polled": 268,
+"general": {
+"ANP": 10,
+"MMA": 6,
+"IND": 29,
+"PML-N": 67,
+"PML-Q": 42,
+"PPP": 88,
+"PML-F": 4,
+"NP": 1,
+"MQM": 19,
+"BNP-A": 1,
+"QWP": 1
+},
+"winners": {
+"ANP": [
+{
+"na": "NA-1",
+"name": "Haji Ghulam Ahmed Bilour"
+},
+{
+"na": "NA-4",
+"name": "Arbab Muhammad Zahir Khan"
+},
+{
+"na": "NA-6",
+"name": "Masood Abbas Khattak"
+},
+{
+"na": "NA-7",
+"name": "Asfandiyar Wali Khan"
+},
+{
+"na": "NA-9",
+"name": "Nawabzada Khawaja Muhammad Khan Hoti (Toti Khan)"
+},
+{
+"na": "NA-13",
+"name": "Perviz Khan"
+},
+{
+"na": "NA-14",
+"name": "Pir Dilawar Shah"
+},
+{
+"na": "NA-16",
+"name": "Syed Haidar Ali Shah"
+},
+{
+"na": "NA-28",
+"name": "Abdul Matin Khan"
+},
+{
+"na": "NA-29",
+"name": "Muzafer Ul Mulk"
+}
+],
+"MMA": [
+{
+"na": "NA-10",
+"name": "Maulana Mohammad Qasim"
+},
+{
+"na": "NA-15",
+"name": "Mufti Ajmal Khan"
+},
+{
+"na": "NA-25",
+"name": "Atta Ur Rehman"
+},
+{
+"na": "NA-26",
+"name": "Maulana Fazal Ur Rehman"
+},
+{
+"na": "NA-261",
+"name": "Molvi Agha Muhammad"
+},
+{
+"na": "NA-262",
+"name": "Haji Rozuddin"
+}
+],
+"IND": [
+{
+"na": "NA-12",
+"name": "Usman Khan Tarkai"
+},
+{
+"na": "NA-23",
+"name": "Mehboobullah"
+},
+{
+"na": "NA-36",
+"name": "Bilal Rehman"
+},
+{
+"na": "NA-38",
+"name": "Munir Khan Orakzai"
+},
+{
+"na": "NA-39",
+"name": "Jawad Hussain"
+},
+{
+"na": "NA-40",
+"name": "Muhammad Kamran Khan"
+},
+{
+"na": "NA-41",
+"name": "Maulana Abdul Malik Wazir"
+},
+{
+"na": "NA-43",
+"name": "Shaukatullah Khan"
+},
+{
+"na": "NA-44",
+"name": "Syed Akhun Zada Chittan"
+},
+{
+"na": "NA-45",
+"name": "Noor Ul Haq Qadri"
+},
+{
+"na": "NA-46",
+"name": "Hamidullah Jan Afridi"
+},
+{
+"na": "NA-47",
+"name": "Zafar Baig Bhattani"
+},
+{
+"na": "NA-71",
+"name": "Nawabzada Malik Amad Khan"
+},
+{
+"na": "NA-72",
+"name": "Humair Hayat Rokhari"
+},
+{
+"na": "NA-73",
+"name": "Abdul Majeed Khan Khanan Khel"
+},
+{
+"na": "NA-74",
+"name": "Rasheed Akbar Khan"
+},
+{
+"na": "NA-79",
+"name": "Rana Muhammad Farooq Saeed Khan"
+},
+{
+"na": "NA-90",
+"name": "Saima Akhtar Bharwana"
+},
+{
+"na": "NA-100",
+"name": "Haji Mudassar Qayyum Nahra"
+},
+{
+"na": "NA-116",
+"name": "Ch. Muhammad Tariq Anees"
+},
+{
+"na": "NA-137",
+"name": "Saeed Ahmed Zafar"
+},
+{
+"na": "NA-144",
+"name": "Sajjad Ul Hassan"
+},
+{
+"na": "NA-146",
+"name": "Mian Manzoor Ahmad Khan Wattoo"
+},
+{
+"na": "NA-147",
+"name": "Muhammad Zafar Yasin Wattoo"
+},
+{
+"na": "NA-184",
+"name": "Malik Aamir Yar Waran"
+},
+{
+"na": "NA-201",
+"name": "Ali Mohammad Khan Mahar"
+},
+{
+"na": "NA-264",
+"name": "Maulvi Asmatullah"
+},
+{
+"na": "NA-267",
+"name": "Mir Hamayun Aziz Kurd"
+},
+{
+"na": "NA-269",
+"name": "Muhammad Usman"
+}
+],
+"PML-N": [
+{
+"na": "NA-17",
+"name": "Sardar Mehtab Ahmed Khan"
+},
+{
+"na": "NA-18",
+"name": "Murtaza Javid Abbasi"
+},
+{
+"na": "NA-19",
+"name": "Sardar Muhammad Mushtaq"
+},
+{
+"na": "NA-21",
+"name": "Faiz Muhammad Khan"
+},
+{
+"na": "NA-48",
+"name": "Anjum Aqeel Khan"
+},
+{
+"na": "NA-49",
+"name": "Dr. Tariq Fazal Chaudry"
+},
+{
+"na": "NA-50",
+"name": "Shahid Khaqan Abbassi"
+},
+{
+"na": "NA-52",
+"name": "Chaudhry Nisar Ali Khan"
+},
+{
+"na": "NA-53",
+"name": "Chaudhry Nisar Ali Khan"
+},
+{
+"na": "NA-54",
+"name": "Malik Abrar Ahmad"
+},
+{
+"na": "NA-55",
+"name": "Makhdoom Muhammad Javed Hashmi"
+},
+{
+"na": "NA-56",
+"name": "Muhammad Hanif Abbasi"
+},
+{
+"na": "NA-57",
+"name": "Sheikh Aftab Ahmad"
+},
+{
+"na": "NA-60",
+"name": "Ayaz Amit"
+},
+{
+"na": "NA-61",
+"name": "Muhammad Faiz Tamman"
+},
+{
+"na": "NA-62",
+"name": "Raja Muhammad Safdar"
+},
+{
+"na": "NA-63",
+"name": "Raja Muhammad Asad Khan"
+},
+{
+"na": "NA-68",
+"name": "Syed Javed Hassnain Shah"
+},
+{
+"na": "NA-70",
+"name": "Malik Shakir Bashir Awan"
+},
+{
+"na": "NA-82",
+"name": "Sahibzada Haji Muhammad Fazal-E-Kareem"
+},
+{
+"na": "NA-84",
+"name": "Abid Ali"
+},
+{
+"na": "NA-85",
+"name": "Haji Muhammad Akram Ansari"
+},
+{
+"na": "NA-93",
+"name": "Muhammad Junaid Anwaar Chudhary"
+},
+{
+"na": "NA-95",
+"name": "Usman Ibrahim"
+},
+{
+"na": "NA-96",
+"name": "Khuram Dastgir Khan"
+},
+{
+"na": "NA-97",
+"name": "Ch. Mehmood Bashir Virk"
+},
+{
+"na": "NA-99",
+"name": "Rana Nazir Ahmad Khan"
+},
+{
+"na": "NA-101",
+"name": "Justice Iftikhar Ahmad Cheema"
+},
+{
+"na": "NA-102",
+"name": "Saira Afzal Tarar"
+},
+{
+"na": "NA-107",
+"name": "Muhammad Jamil Malik"
+},
+{
+"na": "NA-110",
+"name": "Khawaja Muhammad Asif"
+},
+{
+"na": "NA-112",
+"name": "Rana Abdul Sattar Bin Rana Shamim Ahmed Khan"
+},
+{
+"na": "NA-113",
+"name": "Sahabzada Syden Murtaza Amin"
+},
+{
+"na": "NA-114",
+"name": "Zahid Hamid"
+},
+{
+"na": "NA-115",
+"name": "Sumaira Naz"
+},
+{
+"na": "NA-117",
+"name": "Ahsan Iqbal"
+},
+{
+"na": "NA-118",
+"name": "Muhammad Riaz"
+},
+{
+"na": "NA-120",
+"name": "Bilal Yaseen"
+},
+{
+"na": "NA-121",
+"name": "Mian Margood Ahmad"
+},
+{
+"na": "NA-122",
+"name": "Sardar Ayaz Sadiq"
+},
+{
+"na": "NA-123",
+"name": "Makhdoom Muhammad Javed Hashmi"
+},
+{
+"na": "NA-124",
+"name": "Sheikh Rohale Asghar"
+},
+{
+"na": "NA-125",
+"name": "Khawaja Saad Rafique"
+},
+{
+"na": "NA-126",
+"name": "Umer Sohail Zia Butt"
+},
+{
+"na": "NA-127",
+"name": "Chaudry Nasir Ahmed Bhutta"
+},
+{
+"na": "NA-128",
+"name": "Malik Muhammad Afzal Khokhar"
+},
+{
+"na": "NA-131",
+"name": "Rana Tanveer Hussain"
+},
+{
+"na": "NA-132",
+"name": "Rana Tanveer Hussain"
+},
+{
+"na": "NA-133",
+"name": "Mian Javed Latif"
+},
+{
+"na": "NA-134",
+"name": "Sardar Muhammad Irfan Dogar"
+},
+{
+"na": "NA-135",
+"name": "Choudhary Muhammad Barjees Tahir"
+},
+{
+"na": "NA-136",
+"name": "Ch. Bilal Ahmed Virk"
+},
+{
+"na": "NA-138",
+"name": "Rao Mazhar Hayyat Khan"
+},
+{
+"na": "NA-139",
+"name": "Waseem Akhtar Sheikh"
+},
+{
+"na": "NA-141",
+"name": "Rana Muhammad Ishaq Khan"
+},
+{
+"na": "NA-149",
+"name": "Makhdoom Muhammad Javed Hashmi"
+},
+{
+"na": "NA-150",
+"name": "Rana Mahmood Ul Hassan"
+},
+{
+"na": "NA-160",
+"name": "Syed Imran Ahmed Shah"
+},
+{
+"na": "NA-164",
+"name": "Sardar Mansab Ali Doggar"
+},
+{
+"na": "NA-165",
+"name": "Syed Muhammad Salman Mohsin Gillani"
+},
+{
+"na": "NA-166",
+"name": "Rana Zahid Hussain Khan"
+},
+{
+"na": "NA-169",
+"name": "Tehmina Daultana"
+},
+{
+"na": "NA-173",
+"name": "Sardar Muhammad Saif Ul Din Khan Khosa"
+},
+{
+"na": "NA-182",
+"name": "Syed Muhammad Saqlain Bukhari"
+},
+{
+"na": "NA-185",
+"name": "Muhammad Baleegh-Ur-Rehman"
+},
+{
+"na": "NA-187",
+"name": "Ch. Saud Majeed"
+},
+{
+"na": "NA-197",
+"name": "Sardar Muhammad Arshad Khan Laghari"
+}
+],
+"PML-Q": [
+{
+"na": "NA-20",
+"name": "Sardar Shajehan Yousaf"
+},
+{
+"na": "NA-22",
+"name": "Muhammad Nawaz Khan"
+},
+{
+"na": "NA-27",
+"name": "Hamayun Saifullah Khan"
+},
+{
+"na": "NA-31",
+"name": "Amir Muqam"
+},
+{
+"na": "NA-32",
+"name": "Shahzada Muhyuddin"
+},
+{
+"na": "NA-58",
+"name": "Pervaiz Ellahi"
+},
+{
+"na": "NA-65",
+"name": "Ghais Ahmed Mela"
+},
+{
+"na": "NA-67",
+"name": "Anwar Ali Cheema"
+},
+{
+"na": "NA-69",
+"name": "Sumaira Malik"
+},
+{
+"na": "NA-77",
+"name": "Muhammad Asim Nazir"
+},
+{
+"na": "NA-80",
+"name": "Asif Tauseef"
+},
+{
+"na": "NA-87",
+"name": "Ghulam Bibi Bharwana"
+},
+{
+"na": "NA-88",
+"name": "Makhdoom Syed Faisal Saleh Hayat"
+},
+{
+"na": "NA-89",
+"name": "Sheikh Waqas Akram"
+},
+{
+"na": "NA-91",
+"name": "Muhammad Mehbook Sultan"
+},
+{
+"na": "NA-92",
+"name": "Farkhanda Amjad Warraich"
+},
+{
+"na": "NA-94",
+"name": "Riaz Fatiyana"
+},
+{
+"na": "NA-103",
+"name": "Ch. Liaqat Abbas Bhatti"
+},
+{
+"na": "NA-104",
+"name": "Chaudhary Wajahat Hussain"
+},
+{
+"na": "NA-142",
+"name": "Sardar Talib Hassan Nakai"
+},
+{
+"na": "NA-153",
+"name": "Dewan Syed Ashiq Hussain Bukhari"
+},
+{
+"na": "NA-154",
+"name": "Muhammad Saddique Khan Baluch"
+},
+{
+"na": "NA-156",
+"name": "Muhammad Raza Hayat Hiraj"
+},
+{
+"na": "NA-157",
+"name": "Hamid Yar Hiraj"
+},
+{
+"na": "NA-158",
+"name": "Pir Aslam Bodla"
+},
+{
+"na": "NA-163",
+"name": "Malik Naum Ahmed Langriyal"
+},
+{
+"na": "NA-167",
+"name": "Chaudhry Nazir Ahmed Jatt"
+},
+{
+"na": "NA-171",
+"name": "Khawja Sheeraz Mehmood"
+},
+{
+"na": "NA-172",
+"name": "Farooq Ahmed Khan Leghari"
+},
+{
+"na": "NA-174",
+"name": "Sardar Muhammad Jafar Khan Leghari"
+},
+{
+"na": "NA-181",
+"name": "Sardar Bahadur Ahmad Khan Seehar"
+},
+{
+"na": "NA-186",
+"name": "Mian Riaz Hussain Pirzada"
+},
+{
+"na": "NA-188",
+"name": "Muhammad Akhtar Khadim Alias Khadim Hussain"
+},
+{
+"na": "NA-203",
+"name": "Ghous Bux Khan Mahar"
+},
+{
+"na": "NA-210",
+"name": "Nasrullah Khan Bijarani"
+},
+{
+"na": "NA-229",
+"name": "Arbab Zakaullah"
+},
+{
+"na": "NA-230",
+"name": "Dr. Ghulam Hyder Samejo"
+},
+{
+"na": "NA-238",
+"name": "Syed Ayaz Ali Shah Sheerazi"
+},
+{
+"na": "NA-263",
+"name": "Sardar Muhammad Israr Tareen"
+},
+{
+"na": "NA-265",
+"name": "Mir Ahmadan Khan Bugti"
+},
+{
+"na": "NA-270",
+"name": "Jam Mir Muhammad Yousuf"
+},
+{
+"na": "NA-271",
+"name": "Ehsanullah Reki"
+}
+],
+"PPP": [
+{
+"na": "NA-2",
+"name": "Dr. Arbab Alamgir Khan"
+},
+{
+"na": "NA-3",
+"name": "Noor Alam Khan"
+},
+{
+"na": "NA-5",
+"name": "Muhammad Tariq Khattak"
+},
+{
+"na": "NA-11",
+"name": "Abdul Akbar Khan"
+},
+{
+"na": "NA-24",
+"name": "Faisal Karim Kundi"
+},
+{
+"na": "NA-30",
+"name": "Syed Allauddin"
+},
+{
+"na": "NA-33",
+"name": "Najum-Din Khan"
+},
+{
+"na": "NA-34",
+"name": "Malak Azmat Khan"
+},
+{
+"na": "NA-35",
+"name": "Lal Muhammad Khan"
+},
+{
+"na": "NA-51",
+"name": "Raja Pervaiz Ashraf"
+},
+{
+"na": "NA-59",
+"name": "Sardar Saleem Haider Khan"
+},
+{
+"na": "NA-64",
+"name": "Nadeem Afzal Gondal"
+},
+{
+"na": "NA-66",
+"name": "Tasneem Ahmed Qureshi"
+},
+{
+"na": "NA-75",
+"name": "Tariq Mehmood Bajwa"
+},
+{
+"na": "NA-76",
+"name": "Malik Nawab Sher Waseer"
+},
+{
+"na": "NA-78",
+"name": "Raheela Perveen"
+},
+{
+"na": "NA-81",
+"name": "Saeed Iqbal"
+},
+{
+"na": "NA-83",
+"name": "Muhammad Ijaz Virk"
+},
+{
+"na": "NA-86",
+"name": "Syed Anayat Ali Shah"
+},
+{
+"na": "NA-98",
+"name": "Imtiaz Safdar Warraich"
+},
+{
+"na": "NA-105",
+"name": "Ch. Ahmed Mukhtar"
+},
+{
+"na": "NA-106",
+"name": "Qamar Zaman Kaira"
+},
+{
+"na": "NA-108",
+"name": "Muhammad Tariq Tarar"
+},
+{
+"na": "NA-109",
+"name": "Nazar Muhammad Gondal"
+},
+{
+"na": "NA-111",
+"name": "Dr. Fardos Ashiq Awan"
+},
+{
+"na": "NA-129",
+"name": "Tariq Shabbir"
+},
+{
+"na": "NA-130",
+"name": "Samina Khalid Ghurki"
+},
+{
+"na": "NA-140",
+"name": "Sardar Asif Ahmad Ali"
+},
+{
+"na": "NA-143",
+"name": "Capt. Rai Ghulam Mujtaba Kharral"
+},
+{
+"na": "NA-145",
+"name": "Syed Sumsan Ali Shah Bukhari"
+},
+{
+"na": "NA-148",
+"name": "Makhdoom Shah Mehmood Qureshi"
+},
+{
+"na": "NA-151",
+"name": "Syed Yousaf Raza Gilani"
+},
+{
+"na": "NA-152",
+"name": "Liaqat Ali Khan"
+},
+{
+"na": "NA-155",
+"name": "Hayat Ullah Khan Tareen"
+},
+{
+"na": "NA-159",
+"name": "Ch. Iftikhar Nazir"
+},
+{
+"na": "NA-161",
+"name": "Ghulam Farid Kathia"
+},
+{
+"na": "NA-162",
+"name": "Chaudhary Zahid Iqbal"
+},
+{
+"na": "NA-168",
+"name": "Azeema Daultana"
+},
+{
+"na": "NA-170",
+"name": "Mehmood Hayat Khan"
+},
+{
+"na": "NA-175",
+"name": "Meer Dost Muhammad Mazari"
+},
+{
+"na": "NA-176",
+"name": "Muhammad Mohsin Ali Qureshi"
+},
+{
+"na": "NA-177",
+"name": "Hina Rabbani Khar"
+},
+{
+"na": "NA-178",
+"name": "Jamshed Ahmad Khan Dasti"
+},
+{
+"na": "NA-179",
+"name": "Muhammad Moazam Ali Khan Jatoi"
+},
+{
+"na": "NA-180",
+"name": "Abdul Qayyum Khan Jatoi"
+},
+{
+"na": "NA-183",
+"name": "Aarif Aziz Sheikh"
+},
+{
+"na": "NA-189",
+"name": "Sayed Mumtaz Alam Gilani"
+},
+{
+"na": "NA-190",
+"name": "Abdul Ghafoor Chaudhary"
+},
+{
+"na": "NA-191",
+"name": "Muhammad Afzal Sindhu"
+},
+{
+"na": "NA-192",
+"name": "Syed Hamid Saeed Kazmi"
+},
+{
+"na": "NA-193",
+"name": "Mian Abdul Sattar"
+},
+{
+"na": "NA-194",
+"name": "Makhdoom Shahab Ud Din"
+},
+{
+"na": "NA-196",
+"name": "Javed Iqbal Warraich"
+},
+{
+"na": "NA-198",
+"name": "Nauman Islam Shaikh"
+},
+{
+"na": "NA-199",
+"name": "Syed Khursheed Ahmed Shah"
+},
+{
+"na": "NA-200",
+"name": "Mian Abdul Haq"
+},
+{
+"na": "NA-202",
+"name": "Aftab Shahban Mirani"
+},
+{
+"na": "NA-204",
+"name": "Shahid Hussain Bhutto"
+},
+{
+"na": "NA-205",
+"name": "Nazir Ahmed Bughio"
+},
+{
+"na": "NA-206",
+"name": "Mir Ami Ali Khan Magsi"
+},
+{
+"na": "NA-208",
+"name": "Mir Aijaz Hussain Jakhrani"
+},
+{
+"na": "NA-209",
+"name": "Mir Hazzar Khan Bijarani"
+},
+{
+"na": "NA-212",
+"name": "Zaffar Ali Shah"
+},
+{
+"na": "NA-213",
+"name": "Azra Fazal Pecheho"
+},
+{
+"na": "NA-214",
+"name": "Syed Ghulam Mustafa Shah"
+},
+{
+"na": "NA-215",
+"name": "Nawab Ali Wassan"
+},
+{
+"na": "NA-217",
+"name": "Pir Syed Fazal Ali Shah Jeelani"
+},
+{
+"na": "NA-218",
+"name": "Makhdoom Muhammad Ameen Faheem"
+},
+{
+"na": "NA-221",
+"name": "Syed Ameer Shah Jamot"
+},
+{
+"na": "NA-222",
+"name": "Syed Naveed Qamar"
+},
+{
+"na": "NA-223",
+"name": "Shamshad Sattar Bachani"
+},
+{
+"na": "NA-224",
+"name": "Ghulam Ali Nizamani"
+},
+{
+"na": "NA-225",
+"name": "Dr. Fahmida Mirza"
+},
+{
+"na": "NA-226",
+"name": "Pir Aftab Hussain Shah Jillani"
+},
+{
+"na": "NA-227",
+"name": "Mir Munawar Ali Talpur"
+},
+{
+"na": "NA-228",
+"name": "Nawab Mohammad Yousif Talpur"
+},
+{
+"na": "NA-231",
+"name": "Nawab Abdul Ghani Talpur"
+},
+{
+"na": "NA-232",
+"name": "Rafique Ahmed Jamali"
+},
+{
+"na": "NA-233",
+"name": "Talat Iqbal Mahessar"
+},
+{
+"na": "NA-236",
+"name": "Roshan Din Junejo"
+},
+{
+"na": "NA-237",
+"name": "Dr. Abdul Wahid Soomro"
+},
+{
+"na": "NA-239",
+"name": "Abdul Qadir Patel"
+},
+{
+"na": "NA-248",
+"name": "Nabeel Ahmed Gabol"
+},
+{
+"na": "NA-258",
+"name": "Sher Muhammad Balcoh"
+},
+{
+"na": "NA-259",
+"name": "Syed Nasir Ali Shah"
+},
+{
+"na": "NA-260",
+"name": "Sardar Al-Haaj Muhammad Umar Goragaje"
+},
+{
+"na": "NA-266",
+"name": "Taj Muhammad Jamali"
+},
+{
+"na": "NA-268",
+"name": "Dr. Ayatullah Durrani"
+}
+],
+"PML-F": [
+{
+"na": "NA-195",
+"name": "Jahangir Khan Tareen"
+},
+{
+"na": "NA-216",
+"name": "Pir Syed Saddaruddin Shah Rashdi"
+},
+{
+"na": "NA-234",
+"name": "Muhammad Jadam Mangrio"
+},
+{
+"na": "NA-235",
+"name": "Ghulam Dastgir Rajar"
+}
+],
+"NP": [
+{
+"na": "NA-211",
+"name": "Ghulam Murtaza Khan Jatoi"
+}
+],
+"MQM": [
+{
+"na": "NA-219",
+"name": "Syed Tayyab Hussain"
+},
+{
+"na": "NA-220",
+"name": "Salahuddin"
+},
+{
+"na": "NA-240",
+"name": "Khawaja Sohail Mansoor"
+},
+{
+"na": "NA-241",
+"name": "S. A. Iqbal Qadiri"
+},
+{
+"na": "NA-242",
+"name": "Dr. Abdul Qadir Khanzada"
+},
+{
+"na": "NA-243",
+"name": "Abdul Waseem"
+},
+{
+"na": "NA-244",
+"name": "Shaikh Salahuddin"
+},
+{
+"na": "NA-245",
+"name": "Farhat Muhammad Khan"
+},
+{
+"na": "NA-246",
+"name": "Sufyan Yousuf"
+},
+{
+"na": "NA-247",
+"name": "Dr. Nadeem Ehsan"
+},
+{
+"na": "NA-249",
+"name": "Dr. Muhammad Farooq Sattar"
+},
+{
+"na": "NA-250",
+"name": "Khush Bakhat Shujaat"
+},
+{
+"na": "NA-251",
+"name": "Waseem Akhter"
+},
+{
+"na": "NA-252",
+"name": "Abdul Rasheed Godil"
+},
+{
+"na": "NA-253",
+"name": "Syed Haider Abbas Rizvi"
+},
+{
+"na": "NA-254",
+"name": "Dr. Muhammad Ayoub Shaikh"
+},
+{
+"na": "NA-255",
+"name": "Syed Asif Hassnain"
+},
+{
+"na": "NA-256",
+"name": "Iqbal Muhammad Ali Khan"
+},
+{
+"na": "NA-257",
+"name": "Sajid Ahmed"
+}
+],
+"BNP-A": [
+{
+"na": "NA-272",
+"name": "Yaqoob Bizenjo"
+}
+],
+"QWP": [
+{
+"na": "NA-8",
+"name": "Aftab Ahmad Khan Sherpao"
+}
+]
+},
+"general_by_prov": {
+"Khyber Pakhtunkhwa": {
+"ANP": 10,
+"MMA": 4,
+"PPP": 9,
+"IND": 2,
+"PML-N": 4,
+"PML-Q": 5,
+"QWP": 1
+},
+"Punjab": {
+"IND": 13,
+"PML-N": 61,
+"PML-Q": 28,
+"PPP": 44,
+"PML-F": 1
+},
+"Sindh": {
+"PPP": 31,
+"IND": 1,
+"PML-Q": 5,
+"NP": 1,
+"PML-F": 3,
+"MQM": 19
+},
+"Balochistan": {
+"PPP": 4,
+"MMA": 2,
+"PML-Q": 4,
+"IND": 3,
+"BNP-A": 1
+},
+"ICT/FATA": {
+"IND": 10,
+"PML-N": 2
+}
+},
+"reserved_women": [
+{
+"name": "Asiya Nasir",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Balochistan",
+"na_id": 255,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Zil-e-Huma",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Balochistan",
+"na_id": 254,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Zubaida Jalal",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Balochistan",
+"na_id": 253,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P03871",
+"career": {
+"contested": [
+2002,
+2013,
+2018
+],
+"won": [
+2002,
+2018
+],
+"name": "Zubaida Jalal"
+}
+},
+{
+"name": "Asma Arbab Alamgir",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 248,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Bushra Gohar",
+"party": "ANP",
+"party_raw": "ANP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 245,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farhat Khan",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 250,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farzana Mushtaq Ghani",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 252,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Imtiaz Sultan Bukhari",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 251,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Jamila Gallani",
+"party": "ANP",
+"party_raw": "ANP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 246,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Khurshid Begum Saeed",
+"party": "ANP",
+"party_raw": "ANP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 247,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mehrunnisa Afridi Advocate",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 249,
+"elected_via": "general",
+"remarks": "Passed Away",
+"person_id": null
+},
+{
+"name": "Anusha Rahman Khan Advocate",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 224,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Attiya Inayatullah",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 231,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Begum Nasim Akhtar Chaudhry",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 243,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Belum Hasnain",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 235,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Bushra Rehman",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 232,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Donya Aziz",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 230,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fakhar-un-Nisa Khokhar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 238,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farzana Raja",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 237,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fouzia Habib",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 239,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ishrat Ashraf",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 169,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kashmala Tariq",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 240,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Khalida Mansoor",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 190,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mamoona Hashmi",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 170,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Marvi Memon",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 233,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": "P07890",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Marvi Memon"
+}
+},
+{
+"name": "Mehreen Anwar Raja Advocate",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 236,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nighat Parveen Mir",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 186,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nisar Tanveer",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 222,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nosheen Saeed",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 244,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nuzhat Sadiq",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 183,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Palwasha Khan",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 227,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Parveen Masood Bhatti",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 194,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Qudsia Arshad",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 171,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rukhsana Bangash",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 225,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rukhsana Jamshed Buttar",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 669,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sabeen Rizvi",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 218,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Samina Mushtaq Pagganwala",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 242,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Seema Mohiuddin Jameeli",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 664,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaheen Ashfaq",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 223,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaheen Shafiq",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 663,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahnaz Saleem",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 192,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahnaz Sheikh (Suspended by Supreme Court)",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 229,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Shahnaz Wazir Ali",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 226,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shakeela Khanam Rashid",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 228,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shireen Arshad Khan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 219,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Surriya Ashgar",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 220,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tahira Aurangzeb",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 179,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tanzila Aamir Cheema",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 619,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tasneem Siddiqui",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 221,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Yasmeen Rehman",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 241,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farah Naz Ispahani (Membership Suspended by the S.C)",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 331,
+"elected_via": "general",
+"remarks": "Disqualified",
+"person_id": null
+},
+{
+"name": "Fauzia Wahab",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 334,
+"elected_via": "general",
+"remarks": "Passed Away",
+"person_id": null
+},
+{
+"name": "Fiza Junejo",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Sindh",
+"na_id": 343,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fouzia Ejaz Khan",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 340,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Imrana Saeed Jamil",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 341,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kishwer Zehra",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 339,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mahreen Razaque Bhutto",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 333,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P10995",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Mahreen Razzaq Bhutto"
+}
+},
+{
+"name": "Munira Shakir",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 668,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nafisa Shah",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 336,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P10978",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [
+2018,
+2024
+],
+"name": "Nafisa Shah"
+}
+},
+{
+"name": "Nahid Shahid Ali",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 338,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Reena Kumari",
+"party": "PML-F",
+"party_raw": "PML(F)",
+"province": "Sindh",
+"na_id": 344,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rubina Saadat Qaim Khani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 335,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shagufta Jumani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 337,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shagufta Sadiq",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 342,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shazia Marri",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 666,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P07873",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Shazia Marri"
+}
+},
+{
+"name": "Sherry Rehman",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 332,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Surraiya Jatoi",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 656,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+}
+],
+"reserved_nonmuslim": [
+{
+"name": "Akram Masih Gill",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": null,
+"na_id": 302,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Araish Kumar",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 301,
+"elected_via": "general",
+"remarks": "Resigned",
+"person_id": null
+},
+{
+"name": "Bhawan Das",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 672,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Darshan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 298,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Khatu Mal Jeewan",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 620,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kishan Chand Parwani",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": null,
+"na_id": 303,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P03489",
+"career": {
+"contested": [
+2002,
+2013
+],
+"won": [],
+"name": "Kishan Chand Parwani"
+}
+},
+{
+"name": "Lal Chand",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 295,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P14067",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Lal Chand"
+}
+},
+{
+"name": "Mahesh Kumar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 297,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Manwer Lal",
+"party": "MQM",
+"party_raw": "MQM",
+"province": null,
+"na_id": 305,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nelson Azeem",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 299,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ramesh Lal",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 293,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+}
+],
+"entitlement": {
+"women_by_prov": {
+"Punjab": {
+"PML-N": 16,
+"PML-Q": 7,
+"PPP": 12
+},
+"Sindh": {
+"PPP": 7,
+"PML-Q": 1,
+"PML-F": 1,
+"MQM": 5
+},
+"Khyber Pakhtunkhwa": {
+"ANP": 3,
+"MMA": 1,
+"PPP": 2,
+"PML-N": 1,
+"PML-Q": 1
+},
+"Balochistan": {
+"PPP": 1,
+"MMA": 1,
+"PML-Q": 1
+}
+},
+"women": {
+"PML-N": 17,
+"PML-Q": 10,
+"PPP": 22,
+"PML-F": 1,
+"MQM": 5,
+"ANP": 3,
+"MMA": 2
+},
+"nonmuslim": {
+"PML-N": 3,
+"PML-Q": 2,
+"PPP": 4,
+"MQM": 1
+}
+},
+"counterfactual": null,
+"official": {
+"PPP": {
+"women": 23,
+"nonmuslim": 4
+},
+"PML-N": {
+"women": 17,
+"nonmuslim": 3
+},
+"PML-Q": {
+"women": 10,
+"nonmuslim": 2
+},
+"MQM": {
+"women": 5,
+"nonmuslim": 1
+},
+"ANP": {
+"women": 3,
+"nonmuslim": 0
+},
+"MMA": {
+"women": 1,
+"nonmuslim": 0
+},
+"PML-F": {
+"women": 1,
+"nonmuslim": 0
+}
+},
+"women_general": [
+{
+"na": "NA-102",
+"name": "Saira Afzal Tarar",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P04391"
+},
+{
+"na": "NA-111",
+"name": "Dr. Fardos Ashiq Awan",
+"party": "PPP",
+"province": "Punjab",
+"person_id": "P04421"
+},
+{
+"na": "NA-115",
+"name": "Sumaira Naz",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P04438"
+},
+{
+"na": "NA-130",
+"name": "Samina Khalid Ghurki",
+"party": "PPP",
+"province": "Punjab",
+"person_id": "P01360"
+},
+{
+"na": "NA-169",
+"name": "Tehmina Daultana",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P00173"
+},
+{
+"na": "NA-177",
+"name": "Hina Rabbani Khar",
+"party": "PPP",
+"province": "Punjab",
+"person_id": "P03143"
+},
+{
+"na": "NA-213",
+"name": "Azra Fazal Pecheho",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P04979"
+},
+{
+"na": "NA-223",
+"name": "Shamshad Sattar Bachani",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P03451"
+},
+{
+"na": "NA-225",
+"name": "Dr. Fahmida Mirza",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P01764"
+},
+{
+"na": "NA-69",
+"name": "Sumaira Malik",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P05800"
+},
+{
+"na": "NA-78",
+"name": "Raheela Perveen",
+"party": "PPP",
+"province": "Punjab",
+"person_id": "P05844"
+},
+{
+"na": "NA-87",
+"name": "Ghulam Bibi Bharwana",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P04285"
+},
+{
+"na": "NA-90",
+"name": "Saima Akhtar Bharwana",
+"party": "IND",
+"province": "Punjab",
+"person_id": "P04311"
+},
+{
+"na": "NA-92",
+"name": "Farkhanda Amjad Warraich",
+"party": "PML-Q",
+"province": "Punjab",
+"person_id": "P04317"
+}
+],
+"nonmuslim_general": [],
+"roll_notes": [
+"Scraped from official NA former-members list; includes by-election entrants and members later resigned/disqualified/deceased (see elected_via/remarks).",
+"Reserved seats (women, non-Muslim) are proportionally allocated, not directly elected; women's province from the RS(Women) label; non-Muslim seats are a nationwide list so province is null (raw label kept in raw_constituency).",
+"na_id = na.gov.pk profile uid (profile-old.php?uid=N); NOT comparable across assemblies or with candidate IDs in data/.",
+"Missing general seats (never returned/withheld or absent from source list): NA-42, NA-69"
+]
+},
+"2013": {
+"assembly": 14,
+"polled": 269,
+"general": {
+"PTI": 28,
+"PML-N": 126,
+"IND": 29,
+"PML-Q": 2,
+"Other": 2,
+"PML-Z": 1,
+"PPP": 34,
+"NPP": 2,
+"PML-F": 5,
+"MQM": 18,
+"JUI-F": 12,
+"PkMAP": 3,
+"NP": 1,
+"JI": 3,
+"AML": 1,
+"QWP": 1,
+"ANP": 1
+},
+"winners": {
+"PTI": [
+{
+"na": "NA-1",
+"name": "Imran Khan"
+},
+{
+"na": "NA-2",
+"name": "Hamid Ul Haq"
+},
+{
+"na": "NA-3",
+"name": "Sajid Nawaz"
+},
+{
+"na": "NA-4",
+"name": "Gulzar Khan"
+},
+{
+"na": "NA-5",
+"name": "Pervez Khattak"
+},
+{
+"na": "NA-6",
+"name": "Siraj Muhammad Khan"
+},
+{
+"na": "NA-10",
+"name": "Ali Muhammad Khan"
+},
+{
+"na": "NA-11",
+"name": "Mujahid Ali"
+},
+{
+"na": "NA-13",
+"name": "Asad Qaisar"
+},
+{
+"na": "NA-14",
+"name": "Shehryar Afridi"
+},
+{
+"na": "NA-15",
+"name": "Nasir Khan Khattak"
+},
+{
+"na": "NA-16",
+"name": "Khial Zaman Aurak Zai"
+},
+{
+"na": "NA-17",
+"name": "Dr Muhammad Azhar Khan Jadoon"
+},
+{
+"na": "NA-19",
+"name": "Raja Aamer Zaman"
+},
+{
+"na": "NA-29",
+"name": "Murad Saeed"
+},
+{
+"na": "NA-30",
+"name": "Salim Rehman"
+},
+{
+"na": "NA-35",
+"name": "Junaid Akbar"
+},
+{
+"na": "NA-47",
+"name": "Qaisar Jamal"
+},
+{
+"na": "NA-48",
+"name": "Makhdom Javed Hashmi"
+},
+{
+"na": "NA-53",
+"name": "Ghulam Sarwar Khan"
+},
+{
+"na": "NA-56",
+"name": "Imran Khan"
+},
+{
+"na": "NA-71",
+"name": "Imran Khan"
+},
+{
+"na": "NA-72",
+"name": "Amjid Ali Khan"
+},
+{
+"na": "NA-126",
+"name": "Shafqat Mehmood"
+},
+{
+"na": "NA-149",
+"name": "Makhdoom Javaid Hussain Hashmi"
+},
+{
+"na": "NA-150",
+"name": "Makhdoom Shah Mahmood Qureshi"
+},
+{
+"na": "NA-162",
+"name": "Rai Hasan Nawaz Khan"
+},
+{
+"na": "NA-250",
+"name": "Arif Ur Rehman Alvi"
+}
+],
+"PML-N": [
+{
+"na": "NA-18",
+"name": "Murtaza Javed Abbasi"
+},
+{
+"na": "NA-20",
+"name": "Sardar Mohammad Yousaf"
+},
+{
+"na": "NA-21",
+"name": "Capt. (R) Muhammad Safdar"
+},
+{
+"na": "NA-31",
+"name": "Ibadullah"
+},
+{
+"na": "NA-41",
+"name": "Ghalib Khan"
+},
+{
+"na": "NA-44",
+"name": "Shahab Ud Din Khan"
+},
+{
+"na": "NA-49",
+"name": "Dr. Tariq Fazal Chudhary"
+},
+{
+"na": "NA-50",
+"name": "Shahid Khaqan Abbasi"
+},
+{
+"na": "NA-51",
+"name": "Raja Muhammad Javed Ikhlas"
+},
+{
+"na": "NA-52",
+"name": "Ch Nisar Ali Khan"
+},
+{
+"na": "NA-54",
+"name": "Malik Ibrar Ahmed"
+},
+{
+"na": "NA-57",
+"name": "Sheikh Aftab Ahmed"
+},
+{
+"na": "NA-58",
+"name": "Malik Ihtebar Khan"
+},
+{
+"na": "NA-60",
+"name": "Major Rtd Tahir Iqbal"
+},
+{
+"na": "NA-61",
+"name": "Sardar Mumtaz Khan"
+},
+{
+"na": "NA-62",
+"name": "Chaudhry Khadim Hussain"
+},
+{
+"na": "NA-63",
+"name": "Malik Iqbal Mehdi Khan"
+},
+{
+"na": "NA-64",
+"name": "Pir Muhammad Amin Ul Hasnat Shah"
+},
+{
+"na": "NA-65",
+"name": "Mohsin Shah Nawaz Ranjha"
+},
+{
+"na": "NA-66",
+"name": "Chudhary Hamid Hameed"
+},
+{
+"na": "NA-67",
+"name": "Dr Zulfiqar Ali Bhatti"
+},
+{
+"na": "NA-68",
+"name": "Muhammad Nawaz Sharif"
+},
+{
+"na": "NA-69",
+"name": "Sumaira Malik"
+},
+{
+"na": "NA-70",
+"name": "Malik Shakir Bashir Awan"
+},
+{
+"na": "NA-73",
+"name": "Abdul Majeed Khan"
+},
+{
+"na": "NA-75",
+"name": "Ghulam Rasool Sahi"
+},
+{
+"na": "NA-76",
+"name": "Muhammad Tallal Choudhary"
+},
+{
+"na": "NA-77",
+"name": "Muhammad Asim Nazeer"
+},
+{
+"na": "NA-78",
+"name": "Rajab Ali Khan Baloch"
+},
+{
+"na": "NA-79",
+"name": "Choudhry Muhammad Shahbaz Babar"
+},
+{
+"na": "NA-80",
+"name": "Mian Muhammad Farooq"
+},
+{
+"na": "NA-81",
+"name": "Nisar Ahmad"
+},
+{
+"na": "NA-82",
+"name": "Rana Muhammad Afzal Khan"
+},
+{
+"na": "NA-84",
+"name": "Abid Ali"
+},
+{
+"na": "NA-85",
+"name": "Haji Muhammad Akram Ansari"
+},
+{
+"na": "NA-86",
+"name": "Qaiser Ahmad Sheikh"
+},
+{
+"na": "NA-87",
+"name": "Ghulam Muhammad Lali"
+},
+{
+"na": "NA-88",
+"name": "Ghulam Bibi Bharwana"
+},
+{
+"na": "NA-89",
+"name": "Sheikh Muhammad Akram"
+},
+{
+"na": "NA-92",
+"name": "Chaudhry Khalid Javed Warraich"
+},
+{
+"na": "NA-93",
+"name": "Muhammad Junaid Anwaar Chudhary"
+},
+{
+"na": "NA-94",
+"name": "Ch Asad Ur Rehman"
+},
+{
+"na": "NA-95",
+"name": "Usman Ibrahim"
+},
+{
+"na": "NA-96",
+"name": "Engr Khurram Dastgir Khan"
+},
+{
+"na": "NA-97",
+"name": "Chaudhry Mahmood Bashir Virk"
+},
+{
+"na": "NA-98",
+"name": "Mian Tariq Mehmood"
+},
+{
+"na": "NA-99",
+"name": "Rana Umer Nazir Khan"
+},
+{
+"na": "NA-100",
+"name": "Azhar Qayyum Nahra"
+},
+{
+"na": "NA-101",
+"name": "Justice (Ret) Iftikhar Ahmad Cheema"
+},
+{
+"na": "NA-102",
+"name": "Saira Afzal Tarar"
+},
+{
+"na": "NA-104",
+"name": "Nawabzada Mazher Ali"
+},
+{
+"na": "NA-106",
+"name": "Ch Jaffar Iqbal"
+},
+{
+"na": "NA-107",
+"name": "Ch Abid Raza"
+},
+{
+"na": "NA-109",
+"name": "Nasar Iqbal Bosal"
+},
+{
+"na": "NA-110",
+"name": "Khawaja Muhammad Asif"
+},
+{
+"na": "NA-111",
+"name": "Chaudhary Armaghan Subhani"
+},
+{
+"na": "NA-112",
+"name": "Rana Shamim Ahmed Khan"
+},
+{
+"na": "NA-113",
+"name": "Syed Iftikhar Ul Hassan"
+},
+{
+"na": "NA-114",
+"name": "Zahid Hamid"
+},
+{
+"na": "NA-115",
+"name": "Mian Muhammad Rasheed"
+},
+{
+"na": "NA-116",
+"name": "Daniyal Aziz"
+},
+{
+"na": "NA-117",
+"name": "Ahsan Iqbal"
+},
+{
+"na": "NA-118",
+"name": "Muhammad Riaz Malik"
+},
+{
+"na": "NA-119",
+"name": "Muhammad Hamza Shehbaz Sharif"
+},
+{
+"na": "NA-120",
+"name": "Muhammad Nawaz Sharif"
+},
+{
+"na": "NA-121",
+"name": "Mehar Ishtiaq Ahmad"
+},
+{
+"na": "NA-122",
+"name": "Sardar Ayaz Sadiq"
+},
+{
+"na": "NA-123",
+"name": "Muhammad Pervaiz Malik"
+},
+{
+"na": "NA-124",
+"name": "Shaikh Rohale Asghar"
+},
+{
+"na": "NA-125",
+"name": "Khawaja Saad Rafique"
+},
+{
+"na": "NA-127",
+"name": "Waheed Alam Khan"
+},
+{
+"na": "NA-128",
+"name": "Muhammad Afzal Khokar"
+},
+{
+"na": "NA-129",
+"name": "Mian Muhammad Shehbaz Sharif"
+},
+{
+"na": "NA-130",
+"name": "Sohail Shoukat Butt"
+},
+{
+"na": "NA-131",
+"name": "Rana Afzaal Hussain"
+},
+{
+"na": "NA-132",
+"name": "Rana Tanveer Hussain"
+},
+{
+"na": "NA-133",
+"name": "Mian Javed Latif"
+},
+{
+"na": "NA-134",
+"name": "Sardar Muhammad Irfan Dogar"
+},
+{
+"na": "NA-135",
+"name": "Muhammad Barjees Tahir"
+},
+{
+"na": "NA-136",
+"name": "Chudhary Bilal Ahmed Virk"
+},
+{
+"na": "NA-137",
+"name": "Rai Mansab Ali Khan"
+},
+{
+"na": "NA-138",
+"name": "Salman Hanif"
+},
+{
+"na": "NA-139",
+"name": "Waseem Akhtar Sheikh"
+},
+{
+"na": "NA-140",
+"name": "Rasheed Ahmad Khan"
+},
+{
+"na": "NA-141",
+"name": "Rana Muhammad Ishaq Khan"
+},
+{
+"na": "NA-142",
+"name": "Rana Muhammad Hayat Khan"
+},
+{
+"na": "NA-143",
+"name": "Ch Nadeem Abbas Rebera"
+},
+{
+"na": "NA-144",
+"name": "Muhammad Arif Ch"
+},
+{
+"na": "NA-145",
+"name": "Syed Muhammad Ashiq Hussain Shah"
+},
+{
+"na": "NA-146",
+"name": "Rao Muhammad Ajmal Khan"
+},
+{
+"na": "NA-147",
+"name": "Muhammad Moeen Wattoo"
+},
+{
+"na": "NA-148",
+"name": "Malik Abdul Ghaffar Dogar"
+},
+{
+"na": "NA-151",
+"name": "Skindar Hayyat Khan Bosan"
+},
+{
+"na": "NA-152",
+"name": "Syed Javed Ali Shah"
+},
+{
+"na": "NA-153",
+"name": "Dewan Ashiq Hussain Bukhari"
+},
+{
+"na": "NA-157",
+"name": "Muhammad Khan Daha"
+},
+{
+"na": "NA-158",
+"name": "Aslam Bodla"
+},
+{
+"na": "NA-159",
+"name": "Choudhary Iftikhar Nazir"
+},
+{
+"na": "NA-160",
+"name": "Syed Imran Ahmad Shah"
+},
+{
+"na": "NA-161",
+"name": "Chaudhary Muhammad Ashraf"
+},
+{
+"na": "NA-163",
+"name": "Chaudhry Muhammad Munir Azhar"
+},
+{
+"na": "NA-164",
+"name": "Sardar Mansab Ali Doggar"
+},
+{
+"na": "NA-165",
+"name": "Syed Muhammad Athar Hussain Shah Gillani"
+},
+{
+"na": "NA-166",
+"name": "Rana Zahid Hussain Khan"
+},
+{
+"na": "NA-167",
+"name": "Chaudhary Nazeer Ahmed"
+},
+{
+"na": "NA-168",
+"name": "Sajid Mehdi"
+},
+{
+"na": "NA-170",
+"name": "Saeed Ahmed Khan Manais"
+},
+{
+"na": "NA-171",
+"name": "Sardar Muhammad Amjad Farooq Khan Khosa"
+},
+{
+"na": "NA-172",
+"name": "Hafiz Abdul Karim"
+},
+{
+"na": "NA-174",
+"name": "Sardar Muhammad Jaffar Khan Leghari"
+},
+{
+"na": "NA-175",
+"name": "Doctor Hafeez Ur Rehman Khan Drishak"
+},
+{
+"na": "NA-176",
+"name": "Malik Sultan Mehmood"
+},
+{
+"na": "NA-179",
+"name": "Makhdoomzada S B A Sultan"
+},
+{
+"na": "NA-181",
+"name": "Sahibzada Faiz Ul Hussain"
+},
+{
+"na": "NA-182",
+"name": "Syed Muhammad Saqlain Bukhari"
+},
+{
+"na": "NA-183",
+"name": "Makhdoom Syed Ali Hassan Gillani"
+},
+{
+"na": "NA-184",
+"name": "Mian Najibuddin Awaisi"
+},
+{
+"na": "NA-185",
+"name": "Muhammad Baligh Ur Rehman"
+},
+{
+"na": "NA-186",
+"name": "Mian Riaz Hussain Peerzada"
+},
+{
+"na": "NA-189",
+"name": "Alam Dad Laleka"
+},
+{
+"na": "NA-190",
+"name": "Tahir Bashir Cheema"
+},
+{
+"na": "NA-193",
+"name": "Sheikh Fayyaz Ud Din"
+},
+{
+"na": "NA-196",
+"name": "Mian Imtiaz Ahmed"
+},
+{
+"na": "NA-197",
+"name": "Muhammad Arshad Khan Laghari"
+},
+{
+"na": "NA-258",
+"name": "Abdul Hakeem Baloch"
+},
+{
+"na": "NA-271",
+"name": "Lt. Gen (Ret) Abdul Qadir Baloch"
+}
+],
+"IND": [
+{
+"na": "NA-23",
+"name": "Sarzameen"
+},
+{
+"na": "NA-36",
+"name": "Bilal Rehman"
+},
+{
+"na": "NA-37",
+"name": "Mr Sajid Hussain Turi"
+},
+{
+"na": "NA-39",
+"name": "Syed Ghazi Gulab Jamal"
+},
+{
+"na": "NA-40",
+"name": "Muhammad Nazir Khan"
+},
+{
+"na": "NA-43",
+"name": "Bismillah Khan"
+},
+{
+"na": "NA-45",
+"name": "Alhaj Shah Jee Gul Afridi"
+},
+{
+"na": "NA-46",
+"name": "Nasir Khan"
+},
+{
+"na": "NA-59",
+"name": "Muhammad Zain Ellahi"
+},
+{
+"na": "NA-74",
+"name": "Dr Muhammad Afzal Khan Dhandia"
+},
+{
+"na": "NA-90",
+"name": "Sahibzada Mohammad Nazir"
+},
+{
+"na": "NA-91",
+"name": "Najaf Abbas Sial"
+},
+{
+"na": "NA-103",
+"name": "Choudhary Liaqat Abbas Bhatti"
+},
+{
+"na": "NA-108",
+"name": "Muhammad Ijaz Ahmed Chaudhary"
+},
+{
+"na": "NA-154",
+"name": "Muhammad Siddique Khan Baloch"
+},
+{
+"na": "NA-155",
+"name": "Abdul Rehman Khan Kanju"
+},
+{
+"na": "NA-156",
+"name": "Mohammad Raza Hayat Hiraj"
+},
+{
+"na": "NA-169",
+"name": "Tahir Iqbal Ch"
+},
+{
+"na": "NA-173",
+"name": "Sardar Awais Ahmad Khan Leghari"
+},
+{
+"na": "NA-177",
+"name": "Jamshaid Ahmad Dasti"
+},
+{
+"na": "NA-178",
+"name": "Jamshed Ahmad Dasti"
+},
+{
+"na": "NA-180",
+"name": "Ashiq Hussain Khan"
+},
+{
+"na": "NA-188",
+"name": "Syed Muhammad Asghar"
+},
+{
+"na": "NA-194",
+"name": "Makhdoom Khusro Bakhtiar"
+},
+{
+"na": "NA-238",
+"name": "Syed Ayaz Ali Shah Sheerazi"
+},
+{
+"na": "NA-265",
+"name": "Mir Dostain Khan Domki"
+},
+{
+"na": "NA-266",
+"name": "Zafarullah Khan Jamali"
+},
+{
+"na": "NA-267",
+"name": "Khalid Hussain Magsi"
+},
+{
+"na": "NA-270",
+"name": "Jam Kamal Khan"
+}
+],
+"PML-Q": [
+{
+"na": "NA-105",
+"name": "Ch Parvez Elahi"
+},
+{
+"na": "NA-187",
+"name": "Tariq Basheer Cheema"
+}
+],
+"Other": [
+{
+"na": "NA-12",
+"name": "Engineer Usman Khan Tarrakai"
+},
+{
+"na": "NA-32",
+"name": "Iftikhar Ud Din"
+}
+],
+"PML-Z": [
+{
+"na": "NA-191",
+"name": "Muhammad Ijaz Ul Haq"
+}
+],
+"PPP": [
+{
+"na": "NA-192",
+"name": "Khawja Ghulam Rasool Koreja"
+},
+{
+"na": "NA-195",
+"name": "Makhdoom Syed Mustafa Mehmood"
+},
+{
+"na": "NA-198",
+"name": "Nauman Islam Shaikh"
+},
+{
+"na": "NA-199",
+"name": "Syed Khursheed Ahmed Shah"
+},
+{
+"na": "NA-200",
+"name": "Ali Gohar Khan Mahar"
+},
+{
+"na": "NA-201",
+"name": "Ali Muhammad Khan Mahar"
+},
+{
+"na": "NA-204",
+"name": "Mohammad Ayaz Soomro"
+},
+{
+"na": "NA-205",
+"name": "Nazir Ahmed Bughio"
+},
+{
+"na": "NA-206",
+"name": "Mir Aamir Ali Khan Magsi"
+},
+{
+"na": "NA-207",
+"name": "Faryal Talpur"
+},
+{
+"na": "NA-208",
+"name": "Aijaz Hussain Jakhrani"
+},
+{
+"na": "NA-209",
+"name": "Mir Shabbir Ali Bijarani"
+},
+{
+"na": "NA-210",
+"name": "Ihsan Ur Rahman Mazari"
+},
+{
+"na": "NA-212",
+"name": "Asghar Ali Shah"
+},
+{
+"na": "NA-213",
+"name": "Dr Azra Fazal Pechuho"
+},
+{
+"na": "NA-214",
+"name": "Syed Ghulam Mustafa Shah"
+},
+{
+"na": "NA-215",
+"name": "Nawab Ali Wassan"
+},
+{
+"na": "NA-218",
+"name": "Makhdoom Muhammad Ameen Faheem"
+},
+{
+"na": "NA-221",
+"name": "Syed Amir Ali Shah Jamote"
+},
+{
+"na": "NA-222",
+"name": "Syed Naveed Qamar"
+},
+{
+"na": "NA-223",
+"name": "Abdul Sattar Bachani"
+},
+{
+"na": "NA-224",
+"name": "Sardar Kamal Khan Chang"
+},
+{
+"na": "NA-225",
+"name": "Dr Fehmida Mirza"
+},
+{
+"na": "NA-226",
+"name": "Pir Shafqat Hussain Shah Jilani"
+},
+{
+"na": "NA-227",
+"name": "Mir Munawar Ali Talpur"
+},
+{
+"na": "NA-228",
+"name": "Nawab Muhammad Yousif Talpur"
+},
+{
+"na": "NA-229",
+"name": "Faqir Sher Muhammad Bilalani"
+},
+{
+"na": "NA-230",
+"name": "Pir Noor Muhammad Shah Jeelani"
+},
+{
+"na": "NA-231",
+"name": "Malik Asad Sikandar"
+},
+{
+"na": "NA-232",
+"name": "Rafique Ahmed Jamali"
+},
+{
+"na": "NA-233",
+"name": "Mr Imran Zafar Leghari"
+},
+{
+"na": "NA-236",
+"name": "Roshan Din Junejo"
+},
+{
+"na": "NA-237",
+"name": "Sadiq Ali Memon"
+},
+{
+"na": "NA-248",
+"name": "Shahjahan Baloch"
+}
+],
+"NPP": [
+{
+"na": "NA-202",
+"name": "Muhammad Ibrahim Jatoi"
+},
+{
+"na": "NA-211",
+"name": "Rais Ghulam Murtaza Jatoi"
+}
+],
+"PML-F": [
+{
+"na": "NA-203",
+"name": "Ghous Bux Khan Mahar"
+},
+{
+"na": "NA-216",
+"name": "Pir Sadruddin Shah"
+},
+{
+"na": "NA-217",
+"name": "Syed Qazim Ali Shah"
+},
+{
+"na": "NA-234",
+"name": "Pir Bux Junejo"
+},
+{
+"na": "NA-235",
+"name": "Pir Sadaruddin Shah"
+}
+],
+"MQM": [
+{
+"na": "NA-219",
+"name": "Khalid Maqbool Siddiqui"
+},
+{
+"na": "NA-220",
+"name": "Syed Waseem Hussain"
+},
+{
+"na": "NA-239",
+"name": "Mohammad Salman Khan Baloch"
+},
+{
+"na": "NA-240",
+"name": "Sohail Mansoor Khawaja"
+},
+{
+"na": "NA-241",
+"name": "Syed Akhter Ul Iqbal Qadri"
+},
+{
+"na": "NA-242",
+"name": "Mehboob Alam"
+},
+{
+"na": "NA-243",
+"name": "Abdul Waseem"
+},
+{
+"na": "NA-244",
+"name": "Sheikh Salahuddin"
+},
+{
+"na": "NA-245",
+"name": "Muhammad Rehan Hashmi"
+},
+{
+"na": "NA-246",
+"name": "Sardar Nabeel Ahmed Gabol"
+},
+{
+"na": "NA-247",
+"name": "Sufyan Yousaf"
+},
+{
+"na": "NA-249",
+"name": "Dr Muhammad Farooq Sattar"
+},
+{
+"na": "NA-251",
+"name": "Syed Ali Raza Abidi"
+},
+{
+"na": "NA-252",
+"name": "Abdul Rashid Godli"
+},
+{
+"na": "NA-253",
+"name": "Muhammad Muzammil Qureshi"
+},
+{
+"na": "NA-255",
+"name": "Syed Asif Hasnain"
+},
+{
+"na": "NA-256",
+"name": "Iqbal Muhammad Ali Khan"
+},
+{
+"na": "NA-257",
+"name": "Sajid Ahmed"
+}
+],
+"JUI-F": [
+{
+"na": "NA-7",
+"name": "Maulana Muhammad Gohar Shah"
+},
+{
+"na": "NA-22",
+"name": "Qari Mohammad Yousif"
+},
+{
+"na": "NA-24",
+"name": "Maulana Fazl Ur Rehman"
+},
+{
+"na": "NA-25",
+"name": "Maulana Fazl Ur Rehman"
+},
+{
+"na": "NA-26",
+"name": "Akram Khan Durrani"
+},
+{
+"na": "NA-27",
+"name": "Maulana Fazal Rehman"
+},
+{
+"na": "NA-42",
+"name": "Muhammad Jamal Ud Din"
+},
+{
+"na": "NA-261",
+"name": "Maulvi Agha Muhammad"
+},
+{
+"na": "NA-263",
+"name": "Maulana Ameer Zaman"
+},
+{
+"na": "NA-264",
+"name": "Maulana Mohammad Khan Sherani"
+},
+{
+"na": "NA-269",
+"name": "Molana Qamar Din"
+},
+{
+"na": "NA-272",
+"name": "Abdul Hameed"
+}
+],
+"PkMAP": [
+{
+"na": "NA-259",
+"name": "Mehmood Khan Achakzai"
+},
+{
+"na": "NA-260",
+"name": "Abdul Rahim Mandokhail"
+},
+{
+"na": "NA-262",
+"name": "Mehmood Khan Achakzai"
+}
+],
+"NP": [
+{
+"na": "NA-268",
+"name": "Sardar Kamal Khan Bangulzai"
+}
+],
+"JI": [
+{
+"na": "NA-28",
+"name": "Sher Akbar Khan"
+},
+{
+"na": "NA-33",
+"name": "Sahibzada Tariq Ullah"
+},
+{
+"na": "NA-34",
+"name": "Shahib Zada Muhammad Yaqub"
+}
+],
+"AML": [
+{
+"na": "NA-55",
+"name": "Sheikh Rashid Ahmed"
+}
+],
+"QWP": [
+{
+"na": "NA-8",
+"name": "Aftab Ahmad Khan Sherpao"
+}
+],
+"ANP": [
+{
+"na": "NA-9",
+"name": "Amir Haider Khan"
+}
+]
+},
+"general_by_prov": {
+"Khyber Pakhtunkhwa": {
+"PTI": 17,
+"Other": 2,
+"PML-N": 4,
+"JUI-F": 6,
+"IND": 1,
+"JI": 3,
+"QWP": 1,
+"ANP": 1
+},
+"Punjab": {
+"PML-N": 117,
+"IND": 16,
+"PML-Q": 2,
+"PTI": 8,
+"PML-Z": 1,
+"PPP": 2,
+"AML": 1
+},
+"Sindh": {
+"PPP": 32,
+"NPP": 2,
+"PML-F": 5,
+"MQM": 18,
+"IND": 1,
+"PTI": 1,
+"PML-N": 1
+},
+"Balochistan": {
+"PkMAP": 3,
+"JUI-F": 5,
+"IND": 4,
+"NP": 1,
+"PML-N": 1
+},
+"ICT/FATA": {
+"IND": 7,
+"PML-N": 3,
+"JUI-F": 1,
+"PTI": 2
+}
+},
+"reserved_women": [
+{
+"name": "Aliya Kamran",
+"party": "JUI-F",
+"party_raw": "JUI-F",
+"province": "Balochistan",
+"na_id": 986,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kiran Haider",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Balochistan",
+"na_id": 984,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Naseema Hafeez Panezai",
+"party": "PkMAP",
+"party_raw": "PMAP",
+"province": "Balochistan",
+"na_id": 985,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Aaisha Gulalai",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 979,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Aisha",
+"party": "JI",
+"party_raw": "JI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 983,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Begum Tahira Bukhari",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 982,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P09581",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "Begum Tahira Bukhari"
+}
+},
+{
+"name": "Mussarat Ahmadzeb",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 977,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Naeema Kishwar Khan",
+"party": "JUI-F",
+"party_raw": "JUI-F",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 981,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nafeesa Inayatullah Khan Khattak",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 976,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sajida Begum",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 978,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahida Akhtar Ali",
+"party": "JUI-F",
+"party_raw": "JUI-F",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 980,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Amra Khan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1002,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Anusha Rahman Ahmad Khan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 937,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Arifa Khalid Parvez",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 951,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Asma Mamdot",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 999,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Asyia Naz Tanoli",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 946,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ayesha Raza Farooq",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 941,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P09339",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Ayesha Raza Farooq"
+}
+},
+{
+"name": "Begum Majeeda Wyne",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 944,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P00139",
+"career": {
+"contested": [
+1993,
+1997
+],
+"won": [
+1997
+],
+"name": "Majeeda Begum Wyne"
+}
+},
+{
+"name": "Belum Hasnain",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 1009,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farhana Qamar",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 955,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P12184",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Farhana Qamar"
+}
+},
+{
+"name": "Iffat Liaqat",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 957,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Khalida Mansoor",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 945,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kiran Imran Dar",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1043,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Leila Khan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 950,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Maiza Hameed",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 954,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Marriyum Aurangzeb",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1000,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Munaza Hassan",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 961,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nighat Parveen",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 943,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Parveen Masood Bhatti",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 940,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Phyllis Azeem",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1003,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rida Khan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 947,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Romina Khurshid Alam",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 959,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sabiha Nazir",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1001,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Seema Mohiuddin Jameeli",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 948,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahnaz Saleem Malik",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 949,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaista Pervaiz",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 942,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shakila Luqman",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1015,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaza Fatima Khawaja",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1004,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shazadi Tiwana",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 953,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shazia Sohail Mir",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 958,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shireen Mehrunnisa Mazari",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 960,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Surriya Asghar",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 952,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P04444",
+"career": {
+"contested": [
+2008
+],
+"won": [],
+"name": "Surraya Asghar"
+}
+},
+{
+"name": "Tahira Aurangzeb",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 939,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tahmina Daultana",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 1005,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P00173",
+"career": {
+"contested": [
+1993,
+1997,
+2002,
+2008,
+2018,
+2024
+],
+"won": [
+1993,
+1997,
+2008,
+2024
+],
+"name": "Tehmina Daultana"
+}
+},
+{
+"name": "Zahra Wadood Fatemi",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 998,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Zeb Jaffar",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Punjab",
+"na_id": 938,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Alizeh Iqbal Haider",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 967,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fouzia Hameed",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 1038,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P11354",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Fouzia Hameed"
+}
+},
+{
+"name": "Kishwer Zehra",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 969,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mahreen Razaque Bhutto",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 966,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P10995",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Mahreen Razzaq Bhutto"
+}
+},
+{
+"name": "Marvi Memon",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": "Sindh",
+"na_id": 975,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P07890",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Marvi Memon"
+}
+},
+{
+"name": "Musarat Rafique Mahesar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 968,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nafisa Shah",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 964,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P10978",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [
+2018,
+2024
+],
+"name": "Nafisa Shah"
+}
+},
+{
+"name": "Nikhat Shakeel Khan",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 972,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Reeta Ishwar",
+"party": "PML-F",
+"party_raw": "PML-F",
+"province": "Sindh",
+"na_id": 973,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Saman Sultana Jafri",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 971,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P08068",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Saman Sultana Jafri"
+}
+},
+{
+"name": "Shagufta Jumani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 963,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahida Rehmani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 962,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahjehan",
+"party": "NPP",
+"party_raw": "NPP",
+"province": "Sindh",
+"na_id": 974,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shazia Marri",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 965,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P07873",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Shazia Marri"
+}
+},
+{
+"name": "Shazia Sobia",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1046,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Suraiya Jatoi",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1029,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tahira Asif",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 970,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P04500",
+"career": {
+"contested": [
+2008,
+2013
+],
+"won": [],
+"name": "Begum Tahira Asif"
+}
+}
+],
+"reserved_nonmuslim": [
+{
+"name": "Aasiya Nasir",
+"party": "JUI-F",
+"party_raw": "JUI-F",
+"province": null,
+"na_id": 995,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Bhawan Das",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 988,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Darshan",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 987,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Isphanyar M. Bhandara",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 989,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Khalil George",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 991,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Lal Chand Malhi",
+"party": "PTI",
+"party_raw": "PTI",
+"province": null,
+"na_id": 993,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ramesh Kumar Vankwani",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 997,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ramesh Lal",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 992,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sanjay Perwani",
+"party": "MQM",
+"party_raw": "MQM",
+"province": null,
+"na_id": 994,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P11063",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Sanjay Perwani"
+}
+},
+{
+"name": "Tariq Christopher Qaiser",
+"party": "PML-N",
+"party_raw": "PML(N)",
+"province": null,
+"na_id": 990,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+}
+],
+"entitlement": {
+"women_by_prov": {
+"Punjab": {
+"PML-N": 31,
+"PML-Q": 1,
+"PTI": 2,
+"PPP": 1
+},
+"Sindh": {
+"PPP": 8,
+"NPP": 1,
+"PML-F": 1,
+"MQM": 4
+},
+"Khyber Pakhtunkhwa": {
+"PTI": 4,
+"Other": 1,
+"PML-N": 1,
+"JUI-F": 1,
+"JI": 1
+},
+"Balochistan": {
+"PkMAP": 1,
+"JUI-F": 2
+}
+},
+"women": {
+"PML-N": 32,
+"PML-Q": 1,
+"PTI": 6,
+"PPP": 9,
+"NPP": 1,
+"PML-F": 1,
+"MQM": 4,
+"Other": 1,
+"JUI-F": 3,
+"JI": 1,
+"PkMAP": 1
+},
+"nonmuslim": {
+"PTI": 1,
+"PML-N": 5,
+"PPP": 2,
+"MQM": 1,
+"JUI-F": 1
+}
+},
+"counterfactual": null,
+"official": {
+"PML-N": {
+"women": 34,
+"nonmuslim": 6
+},
+"PPP": {
+"women": 8,
+"nonmuslim": 1
+},
+"PTI": {
+"women": 6,
+"nonmuslim": 1
+},
+"MQM": {
+"women": 4,
+"nonmuslim": 1
+},
+"JUI-F": {
+"women": 3,
+"nonmuslim": 1
+},
+"PML-F": {
+"women": 1,
+"nonmuslim": 0
+},
+"JI": {
+"women": 1,
+"nonmuslim": 0
+},
+"PkMAP": {
+"women": 1,
+"nonmuslim": 0
+},
+"NPP": {
+"women": 1,
+"nonmuslim": 0
+}
+},
+"women_general": [
+{
+"na": "NA-102",
+"name": "Saira Afzal Tarar",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P04391"
+},
+{
+"na": "NA-207",
+"name": "Faryal Talpur",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P01651"
+},
+{
+"na": "NA-213",
+"name": "Dr Azra Fazal Pechuho",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P04979"
+},
+{
+"na": "NA-225",
+"name": "Dr Fehmida Mirza",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P01764"
+},
+{
+"na": "NA-69",
+"name": "Sumaira Malik",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P05800"
+},
+{
+"na": "NA-88",
+"name": "Ghulam Bibi Bharwana",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P04285"
+}
+],
+"nonmuslim_general": [],
+"roll_notes": [
+"Scraped from official NA former-members list; includes by-election entrants and members later resigned/disqualified/deceased (see elected_via/remarks).",
+"Reserved seats (women, non-Muslim) are proportionally allocated, not directly elected; women's province from the RS(Women) label; non-Muslim seats are a nationwide list so province is null (raw label kept in raw_constituency).",
+"na_id = na.gov.pk profile uid (profile.php?uid=N); NOT comparable across assemblies or with candidate IDs in data/.",
+"Site labels all 14th-NA minority members 'RS(Minority) Khyber Pukhtunkhwa' - a data-entry artifact; ignored.",
+"Missing general seats (never returned/withheld or absent from source list): NA-38"
+]
+},
+"2018": {
+"assembly": 15,
+"polled": 270,
+"general": {
+"MMA": 12,
+"PML-N": 64,
+"IND": 13,
+"PTI": 116,
+"PML-Q": 4,
+"PPP": 43,
+"GDA": 2,
+"ANP": 1,
+"MQM": 6,
+"BAP": 4,
+"JWP": 1,
+"BNP": 3,
+"AML": 1
+},
+"winners": {
+"MMA": [
+{
+"na": "NA-1",
+"name": "Moulana Abdul Akbar Chitrali"
+},
+{
+"na": "NA-11",
+"name": "Afreen Khan"
+},
+{
+"na": "NA-36",
+"name": "Muhammad Anwar"
+},
+{
+"na": "NA-37",
+"name": "Asad Mehmood"
+},
+{
+"na": "NA-45",
+"name": "Munir Khan Orakzai"
+},
+{
+"na": "NA-49",
+"name": "Muhammad Jamal Ud Din"
+},
+{
+"na": "NA-51",
+"name": "Abdul Shakoor"
+},
+{
+"na": "NA-257",
+"name": "Abdul Wasay"
+},
+{
+"na": "NA-262",
+"name": "Kamal Uddin"
+},
+{
+"na": "NA-263",
+"name": "Salahuddin"
+},
+{
+"na": "NA-264",
+"name": "Asmatullah"
+},
+{
+"na": "NA-267",
+"name": "Syed Mehmood Shah"
+}
+],
+"PML-N": [
+{
+"na": "NA-10",
+"name": "Ibadullah Khan"
+},
+{
+"na": "NA-14",
+"name": "Muhammad Sajjad"
+},
+{
+"na": "NA-15",
+"name": "Murtaza Javed Abbasi"
+},
+{
+"na": "NA-71",
+"name": "Chaudhry Abid Raza"
+},
+{
+"na": "NA-72",
+"name": "CHAUDHRY ARMGHAN SUBHANI"
+},
+{
+"na": "NA-73",
+"name": "Khawaja Muhammad Asif"
+},
+{
+"na": "NA-74",
+"name": "Ali Zahid"
+},
+{
+"na": "NA-75",
+"name": "Syed Iftikhar Ul Hassan"
+},
+{
+"na": "NA-76",
+"name": "Rana Shamim Ahmed Khan"
+},
+{
+"na": "NA-77",
+"name": "Mehnaz Akber Aziz"
+},
+{
+"na": "NA-78",
+"name": "Ahsan Iqbal Chaudhary"
+},
+{
+"na": "NA-79",
+"name": "NISAR AHMED CHEEMA"
+},
+{
+"na": "NA-80",
+"name": "CH MEHMOOD BASHIR VIRK"
+},
+{
+"na": "NA-81",
+"name": "Khurram Dastgir Khan"
+},
+{
+"na": "NA-82",
+"name": "Usman Ibrahim S O Muhammad Ibrahim"
+},
+{
+"na": "NA-83",
+"name": "ZULIFIQAR AHMAD"
+},
+{
+"na": "NA-84",
+"name": "Azhar Qayyum Nahra"
+},
+{
+"na": "NA-86",
+"name": "Nasir Iqbal Bosal"
+},
+{
+"na": "NA-88",
+"name": "MUKHTAR AHMAD MALIK"
+},
+{
+"na": "NA-89",
+"name": "Mohsin Nawaz Ranjha"
+},
+{
+"na": "NA-90",
+"name": "Ch Muhammad Hamid Hameed"
+},
+{
+"na": "NA-91",
+"name": "Zulfiqar Ali Bhatti"
+},
+{
+"na": "NA-92",
+"name": "SYED JAVED HUSNAIN"
+},
+{
+"na": "NA-100",
+"name": "QAISER AHMED SHEIKH"
+},
+{
+"na": "NA-104",
+"name": "Ch  Muhammad Shahbaz Babar"
+},
+{
+"na": "NA-106",
+"name": "Rana Sana Ullah Khan"
+},
+{
+"na": "NA-111",
+"name": "CHAUDHARY KHALID JAVED"
+},
+{
+"na": "NA-112",
+"name": "MUHAMMAD JUNAID ANWAR CHAUDHRY"
+},
+{
+"na": "NA-117",
+"name": "CH MUHAMMAD BARJEES TAHIR"
+},
+{
+"na": "NA-120",
+"name": "Rana Tanveer Hussain"
+},
+{
+"na": "NA-121",
+"name": "Javed Latif"
+},
+{
+"na": "NA-122",
+"name": "Sardar Muhammad Arfan Dogar"
+},
+{
+"na": "NA-123",
+"name": "muhammad Riaz"
+},
+{
+"na": "NA-124",
+"name": "Muhammad Hamza Shehbaz Sharif"
+},
+{
+"na": "NA-125",
+"name": "Waheed Alam Khan"
+},
+{
+"na": "NA-127",
+"name": "ALI PERVAIZ"
+},
+{
+"na": "NA-128",
+"name": "Sh  Rohale Asghar"
+},
+{
+"na": "NA-129",
+"name": "Sardar Ayaz Sadiq"
+},
+{
+"na": "NA-132",
+"name": "Mian Muhammad Shehbaz Sharif"
+},
+{
+"na": "NA-133",
+"name": "Mohammad pervaiz malik"
+},
+{
+"na": "NA-134",
+"name": "Rana Mubashir Iqbal"
+},
+{
+"na": "NA-136",
+"name": "MUHAMMAD AFZAL"
+},
+{
+"na": "NA-137",
+"name": "Saad Waseem"
+},
+{
+"na": "NA-138",
+"name": "RASHEED AHMAD KHAN"
+},
+{
+"na": "NA-139",
+"name": "RANA MUHAMMAD ISHAQ KHAN"
+},
+{
+"na": "NA-141",
+"name": "NADEEM ABBAS"
+},
+{
+"na": "NA-142",
+"name": "Riaz ul Haq"
+},
+{
+"na": "NA-143",
+"name": "RAO MUHAMMAD AJMAL KHAN"
+},
+{
+"na": "NA-144",
+"name": "Muhammad Mueen Wattoo"
+},
+{
+"na": "NA-145",
+"name": "Ahmad Raza Maneka"
+},
+{
+"na": "NA-146",
+"name": "rana iradat sharif khan"
+},
+{
+"na": "NA-147",
+"name": "SYED IMRAN AHMAD SHAH"
+},
+{
+"na": "NA-148",
+"name": "Chaudry Muhammad Ashraf"
+},
+{
+"na": "NA-151",
+"name": "Muhammad Khan Daha"
+},
+{
+"na": "NA-153",
+"name": "Chaudhry Iftikhar Nazir"
+},
+{
+"na": "NA-160",
+"name": "ABDUL REHMAN KHAN KANJU"
+},
+{
+"na": "NA-162",
+"name": "Choudhary Faqir Ahmad"
+},
+{
+"na": "NA-163",
+"name": "Sajid Mehdi"
+},
+{
+"na": "NA-167",
+"name": "Alam Dad Laleka"
+},
+{
+"na": "NA-168",
+"name": "Ehsan Ul Haq Bajwa"
+},
+{
+"na": "NA-169",
+"name": "NOOR UL HASSAN TANVIR"
+},
+{
+"na": "NA-171",
+"name": "Mian Riaz Hussain Pirzada"
+},
+{
+"na": "NA-173",
+"name": "MIAN NAJEEB UD DIN AWAISI"
+},
+{
+"na": "NA-176",
+"name": "SHEIKH FAYYAZ UD DIN"
+}
+],
+"IND": [
+{
+"na": "NA-13",
+"name": "Saleh Muhammad"
+},
+{
+"na": "NA-48",
+"name": "Mohsin Javed"
+},
+{
+"na": "NA-50",
+"name": "Muhammad Ali"
+},
+{
+"na": "NA-97",
+"name": "MUHAMMAD SANA ULLAH KHAN MASTI KHEL"
+},
+{
+"na": "NA-101",
+"name": "Muhammad Asim Nazir"
+},
+{
+"na": "NA-150",
+"name": "Syed Fakhar Imam"
+},
+{
+"na": "NA-166",
+"name": "Muhammad Abdul Ghafar Wattoo"
+},
+{
+"na": "NA-181",
+"name": "Muhammad Shabbir Ali"
+},
+{
+"na": "NA-185",
+"name": "Makhdom Zada Sayed Basit Ahmad Sultan"
+},
+{
+"na": "NA-190",
+"name": "MUHAMMAD AMJAD FAROOQ KHAN KHOSA"
+},
+{
+"na": "NA-205",
+"name": "Ali Muhammad Khan Mahar"
+},
+{
+"na": "NA-218",
+"name": "Ali Nawaz Shah"
+},
+{
+"na": "NA-272",
+"name": "Mohammad Aslam Bhootani"
+}
+],
+"PTI": [
+{
+"na": "NA-2",
+"name": "Haider Ali Khan"
+},
+{
+"na": "NA-3",
+"name": "Saleem Rehman"
+},
+{
+"na": "NA-4",
+"name": "Murad Saeed"
+},
+{
+"na": "NA-5",
+"name": "SAHIBZADA SIBGHATULLAH"
+},
+{
+"na": "NA-6",
+"name": "Mehboob Shah"
+},
+{
+"na": "NA-7",
+"name": "Muhammad Bashir Khan"
+},
+{
+"na": "NA-8",
+"name": "Junaid Akbar"
+},
+{
+"na": "NA-9",
+"name": "SHER AKBAR KHAN"
+},
+{
+"na": "NA-12",
+"name": "Muhammad Nawaz Khan"
+},
+{
+"na": "NA-16",
+"name": "Ali Khan Jadoon"
+},
+{
+"na": "NA-17",
+"name": "Omar Ayub Khan"
+},
+{
+"na": "NA-18",
+"name": "Asad Qaiser"
+},
+{
+"na": "NA-19",
+"name": "Usman Khan"
+},
+{
+"na": "NA-20",
+"name": "Mujahid Ali"
+},
+{
+"na": "NA-22",
+"name": "Ali Muhammad"
+},
+{
+"na": "NA-23",
+"name": "Anwar Taj"
+},
+{
+"na": "NA-24",
+"name": "Fazal Muhammad Khan"
+},
+{
+"na": "NA-25",
+"name": "Pervez Khattak"
+},
+{
+"na": "NA-26",
+"name": "Imran Khattak"
+},
+{
+"na": "NA-27",
+"name": "Noor Alam Khan"
+},
+{
+"na": "NA-28",
+"name": "Arbab Amir Ayub"
+},
+{
+"na": "NA-29",
+"name": "Nasir Khan"
+},
+{
+"na": "NA-30",
+"name": "Sher Ali Arbab"
+},
+{
+"na": "NA-31",
+"name": "Shaukat Ali S o Liaqat Ali"
+},
+{
+"na": "NA-32",
+"name": "Shehryar Afridi"
+},
+{
+"na": "NA-33",
+"name": "Khial Zaman"
+},
+{
+"na": "NA-34",
+"name": "Shahid Ahmad"
+},
+{
+"na": "NA-35",
+"name": "Imran Ahmed Khan Niazi"
+},
+{
+"na": "NA-38",
+"name": "Ali Amin Khan"
+},
+{
+"na": "NA-39",
+"name": "Muhammad Yaqoob Sheikh"
+},
+{
+"na": "NA-40",
+"name": "Gul Dad khan"
+},
+{
+"na": "NA-41",
+"name": "Gul Zafar Khan"
+},
+{
+"na": "NA-42",
+"name": "Sajid Khan"
+},
+{
+"na": "NA-43",
+"name": "Noor Ul Haq AlQadri"
+},
+{
+"na": "NA-44",
+"name": "Mohammad Iqbal Khan"
+},
+{
+"na": "NA-47",
+"name": "Jawad Hussain"
+},
+{
+"na": "NA-52",
+"name": "Raja Khurram Shahzad Nawaz"
+},
+{
+"na": "NA-53",
+"name": "Imran Ahmed Khan Niazi"
+},
+{
+"na": "NA-54",
+"name": "Asad Umer"
+},
+{
+"na": "NA-55",
+"name": "TAHIR SADIQ"
+},
+{
+"na": "NA-56",
+"name": "Tahir Sadiq"
+},
+{
+"na": "NA-57",
+"name": "SADAQAT ALI KHAN"
+},
+{
+"na": "NA-59",
+"name": "Ghulam Sarwar Khan"
+},
+{
+"na": "NA-61",
+"name": "Aamir Mehmood Kiani"
+},
+{
+"na": "NA-63",
+"name": "Ghulam Sarwar Khan"
+},
+{
+"na": "NA-64",
+"name": "ZULFIQAR ALI KHAN"
+},
+{
+"na": "NA-66",
+"name": "CHAUDHARY FARRUKH ALTAF"
+},
+{
+"na": "NA-67",
+"name": "Fawad Ahmed"
+},
+{
+"na": "NA-70",
+"name": "Syed Faiz ul Hassan"
+},
+{
+"na": "NA-85",
+"name": "Haji Imtiaz Ahmed Choudhary"
+},
+{
+"na": "NA-87",
+"name": "Ch  Shoukat Ali Bhatti"
+},
+{
+"na": "NA-93",
+"name": "Umar Aslam Khan"
+},
+{
+"na": "NA-94",
+"name": "MALIK MUHAMMAD EHSAN ULLAH TIWANA"
+},
+{
+"na": "NA-95",
+"name": "Imran Ahmed Khan Niazi"
+},
+{
+"na": "NA-96",
+"name": "AMJID ALI KHAN"
+},
+{
+"na": "NA-98",
+"name": "Muhammad Afzal Khan"
+},
+{
+"na": "NA-99",
+"name": "GHULAM MUHAMMAD"
+},
+{
+"na": "NA-102",
+"name": "NAWAB SHER"
+},
+{
+"na": "NA-105",
+"name": "Raza Nasrullah"
+},
+{
+"na": "NA-107",
+"name": "Khurram Shahzad"
+},
+{
+"na": "NA-108",
+"name": "FARRUKH HABIB"
+},
+{
+"na": "NA-109",
+"name": "FAIZ ULLAH"
+},
+{
+"na": "NA-110",
+"name": "Raja Riaz Ahmad"
+},
+{
+"na": "NA-113",
+"name": "MUHAMMAD RIAZ KHAN"
+},
+{
+"na": "NA-114",
+"name": "SAHIBZADA MUHAMMAD MEHBOOB SULTAN"
+},
+{
+"na": "NA-115",
+"name": "GHULAM BIBI"
+},
+{
+"na": "NA-116",
+"name": "Muhammad Ameer Sultan"
+},
+{
+"na": "NA-118",
+"name": "Ijaz Ahmad Shah"
+},
+{
+"na": "NA-119",
+"name": "RAHAT AMAN ULLAH BHATTI"
+},
+{
+"na": "NA-126",
+"name": "Muhammad Hammad Azhar"
+},
+{
+"na": "NA-130",
+"name": "Shafqat Mahmood"
+},
+{
+"na": "NA-131",
+"name": "Imran Ahmed Khan Niazi"
+},
+{
+"na": "NA-135",
+"name": "MALIK KARAMAT ALI"
+},
+{
+"na": "NA-140",
+"name": "SARDAR TALIB HASSAN NAKAI"
+},
+{
+"na": "NA-149",
+"name": "RAI MUHAMMAD MURTAZA IQBAL"
+},
+{
+"na": "NA-152",
+"name": "Zahoor Hussain Qureshi"
+},
+{
+"na": "NA-154",
+"name": "AHMAD HUSSAIN"
+},
+{
+"na": "NA-155",
+"name": "Malik Muhammad Amir Doger"
+},
+{
+"na": "NA-156",
+"name": "Makhdoom Shah Mahmood Hussain Qureshi"
+},
+{
+"na": "NA-157",
+"name": "MAKHDOOM ZAIN  HUSSAIN QURESHI"
+},
+{
+"na": "NA-158",
+"name": "Muhammad ibrahim khan"
+},
+{
+"na": "NA-159",
+"name": "Rana Muhammad Qasim Noon"
+},
+{
+"na": "NA-161",
+"name": "MIAN MUHAMMAD SHAFIQ"
+},
+{
+"na": "NA-164",
+"name": "Tahir Iqbal"
+},
+{
+"na": "NA-165",
+"name": "Aurangzeb Khan Khichi"
+},
+{
+"na": "NA-170",
+"name": "MUHAMMAD FAROOQ AZAM MALIK"
+},
+{
+"na": "NA-174",
+"name": "Makhdoom Syed Sami ul Hassan Gillani"
+},
+{
+"na": "NA-175",
+"name": "Syed Mobeen Ahmed"
+},
+{
+"na": "NA-177",
+"name": "Makhdoom Khusro Bukhtyar"
+},
+{
+"na": "NA-179",
+"name": "JAVED IQBAL"
+},
+{
+"na": "NA-186",
+"name": "Aamir Talal Khan"
+},
+{
+"na": "NA-187",
+"name": "Abdul Majeed Khan"
+},
+{
+"na": "NA-188",
+"name": "Niaz Ahmed"
+},
+{
+"na": "NA-189",
+"name": "Khawja Sheraz Mehmood"
+},
+{
+"na": "NA-191",
+"name": "Zartaj Gul"
+},
+{
+"na": "NA-192",
+"name": "Sirdar Muhammad Khan Laghari"
+},
+{
+"na": "NA-193",
+"name": "SARDAR MUHAMMAD JAFFAR KHAN LEGHARI"
+},
+{
+"na": "NA-194",
+"name": "SARDAR NASRULLAH KHAN DRESHAK"
+},
+{
+"na": "NA-195",
+"name": "Sardar Riaz Mehmood Khan Mazari"
+},
+{
+"na": "NA-196",
+"name": "Muhammad Mian Soomro"
+},
+{
+"na": "NA-237",
+"name": "Jamil Ahmed Khan"
+},
+{
+"na": "NA-239",
+"name": "MUHAMMAD AKRAM"
+},
+{
+"na": "NA-241",
+"name": "Faheem Khan"
+},
+{
+"na": "NA-242",
+"name": "Saif Ur Rehman"
+},
+{
+"na": "NA-243",
+"name": "Imran Ahmed Khan Niazi"
+},
+{
+"na": "NA-244",
+"name": "Syed Ali Haider Zaidi"
+},
+{
+"na": "NA-245",
+"name": "Aamir Hussain"
+},
+{
+"na": "NA-246",
+"name": "Abdul Shakoor Shad"
+},
+{
+"na": "NA-247",
+"name": "ARIF UR REHMAN ALVI"
+},
+{
+"na": "NA-249",
+"name": "Muhammad Faisal Vawda"
+},
+{
+"na": "NA-250",
+"name": "Attaullah"
+},
+{
+"na": "NA-252",
+"name": "Aftab Jehangir"
+},
+{
+"na": "NA-254",
+"name": "Muhammad Aslam Khan"
+},
+{
+"na": "NA-256",
+"name": "Muhammad Najeeb Haroon"
+},
+{
+"na": "NA-261",
+"name": "Mir Khan Muhammad Jamali"
+},
+{
+"na": "NA-265",
+"name": "Qasim Khan Soori"
+}
+],
+"PML-Q": [
+{
+"na": "NA-65",
+"name": "Parvez Elahi"
+},
+{
+"na": "NA-68",
+"name": "Hussain Elahi"
+},
+{
+"na": "NA-69",
+"name": "Parvez Elahi"
+},
+{
+"na": "NA-172",
+"name": "Chaudhary Tariq Bashir Cheema"
+}
+],
+"PPP": [
+{
+"na": "NA-46",
+"name": "Sajid Hussain Turi"
+},
+{
+"na": "NA-58",
+"name": "Raja Pervaiz Ashraf"
+},
+{
+"na": "NA-178",
+"name": "SYED MUSTAFA MAHMUD"
+},
+{
+"na": "NA-180",
+"name": "Syed Murtaza Mahmud"
+},
+{
+"na": "NA-182",
+"name": "Mahar Irshad Ahmad Khan"
+},
+{
+"na": "NA-183",
+"name": "Raza Rabani Khar"
+},
+{
+"na": "NA-184",
+"name": "Nawabzada Iftakhar Ahmed Khan Babar"
+},
+{
+"na": "NA-197",
+"name": "Ehsan ur Rehman Mazari"
+},
+{
+"na": "NA-198",
+"name": "Abid Hussain Bhayo"
+},
+{
+"na": "NA-200",
+"name": "Bilawal Bhutto Zardari"
+},
+{
+"na": "NA-201",
+"name": "Khursheed Ahmed Junejo"
+},
+{
+"na": "NA-202",
+"name": "Aftab Shahban Mirani"
+},
+{
+"na": "NA-203",
+"name": "Mir Amer Ali Khan Magsi"
+},
+{
+"na": "NA-204",
+"name": "Khalid Ahmed Khan Lund"
+},
+{
+"na": "NA-206",
+"name": "Syed Khursheed Ahmed Shah"
+},
+{
+"na": "NA-207",
+"name": "NAUMAN ISLAM SHAIKH"
+},
+{
+"na": "NA-208",
+"name": "Nafisa Shah"
+},
+{
+"na": "NA-209",
+"name": "Pir Syed Fazal Ali Shah Jillani"
+},
+{
+"na": "NA-210",
+"name": "Syed Javed Ali Shah Jillani"
+},
+{
+"na": "NA-211",
+"name": "Syed Abrar Ali Shah"
+},
+{
+"na": "NA-212",
+"name": "Zulfiqar Ali Behan"
+},
+{
+"na": "NA-213",
+"name": "Asif Ali Zardari"
+},
+{
+"na": "NA-214",
+"name": "Syed Ghulam Mustafa Shah"
+},
+{
+"na": "NA-215",
+"name": "Naveed Dero"
+},
+{
+"na": "NA-216",
+"name": "Shazia Jannat Marri"
+},
+{
+"na": "NA-217",
+"name": "Roshanuddin Junejo"
+},
+{
+"na": "NA-219",
+"name": "Mir Munwar Ali Talpur"
+},
+{
+"na": "NA-220",
+"name": "Nawab Muhammad Yousuf Talpur"
+},
+{
+"na": "NA-221",
+"name": "Pir Noor Muhammad Shah Jillani"
+},
+{
+"na": "NA-222",
+"name": "Mahesh Kumar Malani"
+},
+{
+"na": "NA-223",
+"name": "Makhdoom Jamil Uz Zaman"
+},
+{
+"na": "NA-224",
+"name": "Zulfiqar Bachani"
+},
+{
+"na": "NA-225",
+"name": "Syed Hussain Tariq"
+},
+{
+"na": "NA-228",
+"name": "Syed Naveed Qamar"
+},
+{
+"na": "NA-229",
+"name": "Mir Ghulam Ali Talpur"
+},
+{
+"na": "NA-231",
+"name": "Syed Ayaz Ali Shah Sheerazi"
+},
+{
+"na": "NA-232",
+"name": "Shams un Nisa"
+},
+{
+"na": "NA-233",
+"name": "SIKANDAR ALI RAHOUPOTO"
+},
+{
+"na": "NA-234",
+"name": "Irfan Ali Leghari"
+},
+{
+"na": "NA-235",
+"name": "Rafique Ahmed Jamali"
+},
+{
+"na": "NA-236",
+"name": "JAM ABDUL KARIM BIJAR"
+},
+{
+"na": "NA-238",
+"name": "Syed Rafiullah"
+},
+{
+"na": "NA-248",
+"name": "Abdul Qadir Patel"
+}
+],
+"GDA": [
+{
+"na": "NA-199",
+"name": "Ghous Bux Khan Mahar"
+},
+{
+"na": "NA-230",
+"name": "Dr. Fehmida Mirza"
+}
+],
+"ANP": [
+{
+"na": "NA-21",
+"name": "Amir Haider Azam Khan"
+}
+],
+"MQM": [
+{
+"na": "NA-226",
+"name": "Sabir Hussain"
+},
+{
+"na": "NA-227",
+"name": "Salahuddin son of Shaikh Rahimuddin"
+},
+{
+"na": "NA-240",
+"name": "IQBAL MUHAMMAD ALI KHAN"
+},
+{
+"na": "NA-251",
+"name": "SYED AMIN UL HAQUE"
+},
+{
+"na": "NA-253",
+"name": "Usama Qadri"
+},
+{
+"na": "NA-255",
+"name": "KHALID MAQBOOL SIDDIQUI"
+}
+],
+"BAP": [
+{
+"na": "NA-258",
+"name": "Muhammad Israr Tareen"
+},
+{
+"na": "NA-260",
+"name": "Khalid Hussain Magsi"
+},
+{
+"na": "NA-270",
+"name": "Ehsanullah Reki"
+},
+{
+"na": "NA-271",
+"name": "Zubaida Jalal"
+}
+],
+"JWP": [
+{
+"na": "NA-259",
+"name": "Nawabzada Shahzain Bugtti"
+}
+],
+"BNP": [
+{
+"na": "NA-266",
+"name": "Agha Hassan Baloch"
+},
+{
+"na": "NA-268",
+"name": "Muhammad Hashim"
+},
+{
+"na": "NA-269",
+"name": "Muhammad Akhtar Mengal"
+}
+],
+"AML": [
+{
+"na": "NA-62",
+"name": "SHEIKH RASHID AHMED"
+}
+]
+},
+"general_by_prov": {
+"Khyber Pakhtunkhwa": {
+"MMA": 7,
+"PML-N": 3,
+"PTI": 36,
+"IND": 3,
+"ANP": 1,
+"PPP": 1
+},
+"Punjab": {
+"PML-N": 61,
+"IND": 7,
+"PTI": 60,
+"PML-Q": 4,
+"PPP": 6,
+"AML": 1
+},
+"Sindh": {
+"PTI": 15,
+"PPP": 36,
+"GDA": 2,
+"IND": 2,
+"MQM": 6
+},
+"Balochistan": {
+"MMA": 5,
+"BAP": 4,
+"JWP": 1,
+"PTI": 2,
+"BNP": 3,
+"IND": 1
+},
+"ICT/FATA": {
+"PTI": 3
+}
+},
+"reserved_women": [
+{
+"name": "Aliya Kamran",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Balochistan",
+"na_id": 1568,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Munawara Bibi Baloch",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Balochistan",
+"na_id": 1571,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P14887",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Munawara Bibi Baloch"
+}
+},
+{
+"name": "Prof. Dr. Shahnaz Baloch",
+"party": "BNP",
+"party_raw": "BNP",
+"province": "Balochistan",
+"na_id": 1570,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rubina Irfan",
+"party": "BAP",
+"party_raw": "BAP",
+"province": "Balochistan",
+"na_id": 1569,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P14874",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Rubina Irfan"
+}
+},
+{
+"name": "Begum Tahira Bukhari",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1567,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P09581",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "Begum Tahira Bukhari"
+}
+},
+{
+"name": "Nafeesa Inayatullah Khan Khattak",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1560,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Naureen Farooq Ibrahim",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1562,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sajida Begum",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1561,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaheen Naz Saifullah",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1584,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahida Akhtar Ali",
+"party": "MMA",
+"party_raw": "MMAP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1566,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shandana Gulzar Khan",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1563,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P11910",
+"career": {
+"contested": [
+2024
+],
+"won": [
+2024
+],
+"name": "Shandana Gulzar Khan"
+}
+},
+{
+"name": "Uzma Riaz",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1564,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Zille Huma",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1565,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Aisha Ghaus Pasha",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1518,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Aliya Hamza Malik",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1532,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P13156",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Aliya Hamza Malik"
+}
+},
+{
+"name": "Andleeb Abbas",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1530,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Asma Qadeer",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1531,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Aysha Rajab Ali",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1515,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Seemi Bukhari",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1535,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Shireen M. Mazari",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1528,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Farukh Khan",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 1545,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Fauzia Behram",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1540,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Hina Rabbani Khar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 1544,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P03143",
+"career": {
+"contested": [
+2002,
+2008
+],
+"won": [
+2002,
+2008
+],
+"name": "Hina Rabbani Khar"
+}
+},
+{
+"name": "Javaria Zafar Aheer",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1533,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kanwal Shauzab",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1534,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P13644",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Kanwal Shauzab"
+}
+},
+{
+"name": "Kiran Imran Dar",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1520,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Maiza Hameed",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1527,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Maleeka Ali Bokhari",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1539,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Marriyum Aurangzeb",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1516,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Asiya Azeem",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1610,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shakila Luqman",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1606,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Munaza Hassan",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1529,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Musarrat Asif Khawaja",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1522,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nausheen Hamid",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1537,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Romina Khurshid Alam",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1521,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rubina Jamil",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1538,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Rukhsana Naveed",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1541,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P13206",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Rukhsana Naveed"
+}
+},
+{
+"name": "Samina Matloob",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1524,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Seema Mohiuddin Jameeli",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1526,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahnaz Saleem Malik",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1525,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaista Pervaiz",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1514,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shaza Fatima Khawaja",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1517,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sobia Kamal Khan",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1536,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Syeda Nosheen Iftikhar",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1603,
+"elected_via": "by_election",
+"remarks": null,
+"person_id": "P12588",
+"career": {
+"contested": [
+2024
+],
+"won": [
+2024
+],
+"name": "Nosheen Iftikhar"
+}
+},
+{
+"name": "Tahira Aurangzeb",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1513,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Tashfeen Safdar",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1542,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Wajiha Qamar",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Punjab",
+"na_id": 1543,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Zahra Wadood Fatemi",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1519,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Zeb Jaffar",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": "Punjab",
+"na_id": 1523,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Shazia Sobia Aslam Soomro",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1552,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ghazala Saifi",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Sindh",
+"na_id": 1555,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kishwar Zehra",
+"party": "MQM",
+"party_raw": "MQMP",
+"province": "Sindh",
+"na_id": 1558,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P11268",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "Kishwar Zehra"
+}
+},
+{
+"name": "Mahreen Razzaq Bhutto",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1551,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P10995",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Mahreen Razzaq Bhutto"
+}
+},
+{
+"name": "Mussarat Rafique Mahesar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1548,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nasiba Channa",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1583,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Naz Baloch",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1549,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P07954",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Naz Baloch"
+}
+},
+{
+"name": "Nusrat Wahid",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Sindh",
+"na_id": 1557,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P14451",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Nusrat Wahid"
+}
+},
+{
+"name": "Nuzhat Pathan",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Sindh",
+"na_id": 1556,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Saira Bano",
+"party": "GDA",
+"party_raw": "GDA",
+"province": "Sindh",
+"na_id": 1559,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P14043",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Saira Bano"
+}
+},
+{
+"name": "Shagufta Jumani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1546,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahida Rehmani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1550,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shamim Ara Panhwar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1553,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Syma Nadeem",
+"party": "PTI",
+"party_raw": "PTI",
+"province": "Sindh",
+"na_id": 1554,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+}
+],
+"reserved_nonmuslim": [
+{
+"name": "Dr. Darshan",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": null,
+"na_id": 1577,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Jai Parkash",
+"party": "PTI",
+"party_raw": "PTI",
+"province": null,
+"na_id": 1575,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "James Iqbal",
+"party": "JUI-F",
+"party_raw": "JUI (F)",
+"province": null,
+"na_id": 1581,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Jamshed Thomas",
+"party": "PTI",
+"party_raw": "PTI",
+"province": null,
+"na_id": 1576,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Kesoo Mal Kheeal Das",
+"party": "PML-N",
+"party_raw": "PML-N",
+"province": null,
+"na_id": 1578,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P11170",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "KESOO MAL KHEEAL DAS"
+}
+},
+{
+"name": "Lal Chand",
+"party": "PTI",
+"party_raw": "PTI",
+"province": null,
+"na_id": 1572,
+"elected_via": "general",
+"remarks": null,
+"person_id": "P14067",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Lal Chand"
+}
+},
+{
+"name": "Naveed Aamir Jeeva",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 1580,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ramesh Kumar Vankwani",
+"party": "PTI",
+"party_raw": "PTI",
+"province": null,
+"na_id": 1574,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ramesh Lal",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 1579,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shunila Ruth",
+"party": "PTI",
+"party_raw": "PTI",
+"province": null,
+"na_id": 1573,
+"elected_via": "general",
+"remarks": null,
+"person_id": null
+}
+],
+"entitlement": {
+"women_by_prov": {
+"Punjab": {
+"PML-N": 16,
+"PTI": 16,
+"PML-Q": 1,
+"PPP": 2
+},
+"Sindh": {
+"PTI": 4,
+"PPP": 9,
+"MQM": 1
+},
+"Khyber Pakhtunkhwa": {
+"MMA": 1,
+"PML-N": 1,
+"PTI": 6
+},
+"Balochistan": {
+"MMA": 1,
+"BAP": 1,
+"BNP": 1
+}
+},
+"women": {
+"PML-N": 17,
+"PTI": 26,
+"PML-Q": 1,
+"PPP": 11,
+"MQM": 1,
+"MMA": 2,
+"BAP": 1,
+"BNP": 1
+},
+"nonmuslim": {
+"PML-N": 3,
+"PTI": 5,
+"PPP": 2
+}
+},
+"counterfactual": null,
+"official": {
+"PTI": {
+"women": 28,
+"nonmuslim": 5
+},
+"PML-N": {
+"women": 16,
+"nonmuslim": 2
+},
+"PPP": {
+"women": 9,
+"nonmuslim": 2
+},
+"MMA": {
+"women": 2,
+"nonmuslim": 1
+},
+"GDA": {
+"women": 1,
+"nonmuslim": 0
+},
+"MQM": {
+"women": 1,
+"nonmuslim": 0
+},
+"PML-Q": {
+"women": 1,
+"nonmuslim": 0
+},
+"BAP": {
+"women": 1,
+"nonmuslim": 0
+},
+"BNP": {
+"women": 1,
+"nonmuslim": 0
+}
+},
+"women_general": [
+{
+"na": "NA-115",
+"name": "GHULAM BIBI",
+"party": "PTI",
+"province": "Punjab",
+"person_id": "P10346"
+},
+{
+"na": "NA-191",
+"name": "Zartaj Gul",
+"party": "PTI",
+"province": "Punjab",
+"person_id": "P10836"
+},
+{
+"na": "NA-208",
+"name": "Nafisa Shah",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P10978"
+},
+{
+"na": "NA-216",
+"name": "Shazia Jannat Marri",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P11046"
+},
+{
+"na": "NA-230",
+"name": "Dr. Fehmida Mirza",
+"party": "GDA",
+"province": "Sindh",
+"person_id": "P01764"
+},
+{
+"na": "NA-232",
+"name": "Shams un Nisa",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P07894"
+},
+{
+"na": "NA-271",
+"name": "Zubaida Jalal",
+"party": "BAP",
+"province": "Balochistan",
+"person_id": "P03871"
+},
+{
+"na": "NA-77",
+"name": "Mehnaz Akber Aziz",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P10069"
+}
+],
+"nonmuslim_general": [
+{
+"na": "NA-222",
+"name": "Mahesh Kumar Malani",
+"party": "PPP",
+"person_id": "P05128"
+}
+],
+"roll_notes": [
+"Scraped from official NA former-members list; includes by-election entrants and members later resigned/disqualified/deceased (see elected_via/remarks).",
+"Reserved seats (women, non-Muslim) are proportionally allocated, not directly elected; women's province from the RS(Women) label; non-Muslim seats are a nationwide list so province is null (raw label kept in raw_constituency).",
+"na_id = na.gov.pk profile uid (profile.php?uid=N); NOT comparable across assemblies or with candidate IDs in data/.",
+"Syeda Nosheen Iftikhar (na_id 1603) was double-listed by the site (bare RS(Women) by-election row + RS(Women) Punjab row); collapsed to one reserved_women entry, elected_via by_election."
+]
+},
+"2024": {
+"assembly": 16,
+"polled": 266,
+"general": {
+"IND": 14,
+"PML-N": 78,
+"IPP": 3,
+"PPP": 54,
+"PML-Z": 1,
+"PML-Q": 3,
+"MQM": 17,
+"JUI-F": 6,
+"BAP": 1,
+"BNP": 1,
+"NP": 1,
+"PkMAP": 1,
+"MWM": 1,
+"PTI-IND": 85
+},
+"winners": {
+"PML-N": [
+{
+"na": "NA-11",
+"name": "Amir Muqam"
+},
+{
+"na": "NA-14",
+"name": "Sardar Muhammad Yousaf Zaman"
+},
+{
+"na": "NA-46",
+"name": "Anjum Aqeel Khan"
+},
+{
+"na": "NA-47",
+"name": "Tariq Fazal Chaudhary"
+},
+{
+"na": "NA-49",
+"name": "Sheikh Aftab Ahmad"
+},
+{
+"na": "NA-50",
+"name": "Malik Sohail Khan"
+},
+{
+"na": "NA-51",
+"name": "Raja Osama Sarwar"
+},
+{
+"na": "NA-53",
+"name": "Raja Qamar Ul Islam"
+},
+{
+"na": "NA-55",
+"name": "Ibrar Ahmad"
+},
+{
+"na": "NA-56",
+"name": "Muhammad Hanif Abbasi"
+},
+{
+"na": "NA-57",
+"name": "Danyal Choudhary"
+},
+{
+"na": "NA-58",
+"name": "Tahir Iqbal"
+},
+{
+"na": "NA-59",
+"name": "Sardar Ghulam Abbas"
+},
+{
+"na": "NA-60",
+"name": "Bilal Azhar Kiani"
+},
+{
+"na": "NA-61",
+"name": "Chaudhary Farrukh Altaf"
+},
+{
+"na": "NA-65",
+"name": "Chaudhry Naseer Ahmad Abbas"
+},
+{
+"na": "NA-69",
+"name": "Nasir Iqbal Bosal"
+},
+{
+"na": "NA-70",
+"name": "Choudhary Armghan Subhani"
+},
+{
+"na": "NA-71",
+"name": "Khawaja Muhammad Asif"
+},
+{
+"na": "NA-72",
+"name": "Ali Zahid"
+},
+{
+"na": "NA-73",
+"name": "Nosheen Iftikhar"
+},
+{
+"na": "NA-75",
+"name": "Anwar ul Haq Chaudhry"
+},
+{
+"na": "NA-76",
+"name": "Chaudhary Ahsan Iqbal"
+},
+{
+"na": "NA-77",
+"name": "Chaudhry Mahmood Bashir Virk"
+},
+{
+"na": "NA-79",
+"name": "Ch. Zulfiqar Ali Bhindar"
+},
+{
+"na": "NA-80",
+"name": "Shahid Usman"
+},
+{
+"na": "NA-81",
+"name": "Azhar Qayyum Nahra"
+},
+{
+"na": "NA-82",
+"name": "Mukhtar Ahmed Malik"
+},
+{
+"na": "NA-85",
+"name": "Zulfiqar Ali Bhatti"
+},
+{
+"na": "NA-87",
+"name": "Malik Shakir Bashir Awan"
+},
+{
+"na": "NA-94",
+"name": "Qaiser Ahmad Sheikh"
+},
+{
+"na": "NA-98",
+"name": "Chaudhary Muhammad Shahbaz Babar"
+},
+{
+"na": "NA-106",
+"name": "Muhammad Junaid Anwar Chaudhry"
+},
+{
+"na": "NA-112",
+"name": "Dr. Shizra Mansab Ali Khan Kharal"
+},
+{
+"na": "NA-113",
+"name": "Ahmad Atteeq Anwar"
+},
+{
+"na": "NA-114",
+"name": "Rana Tanveer Hussain"
+},
+{
+"na": "NA-118",
+"name": "Muhammad Hamza Shehbaz Sharif"
+},
+{
+"na": "NA-119",
+"name": "Maryam Nawaz Sharif"
+},
+{
+"na": "NA-120",
+"name": "Sardar Ayaz Sadiq"
+},
+{
+"na": "NA-123",
+"name": "Mian Muhammad Shehbaz Sharif"
+},
+{
+"na": "NA-124",
+"name": "Rana Mubashir Iqbal"
+},
+{
+"na": "NA-125",
+"name": "Muhammad Afzal Khokhar"
+},
+{
+"na": "NA-126",
+"name": "Malik Saif Ul Mulook Khokhar"
+},
+{
+"na": "NA-127",
+"name": "Attah Ullah Tarrar"
+},
+{
+"na": "NA-130",
+"name": "Mian Muhammad Nawaz Sharif"
+},
+{
+"na": "NA-131",
+"name": "Saad Waseem"
+},
+{
+"na": "NA-132",
+"name": "Mian Muhammad Shehbaz Sharif"
+},
+{
+"na": "NA-134",
+"name": "Rana Muhammad Hayat Khan"
+},
+{
+"na": "NA-135",
+"name": "Nadeem Abbas"
+},
+{
+"na": "NA-136",
+"name": "Riaz ul Haq Jujj"
+},
+{
+"na": "NA-138",
+"name": "Mian Muhammad Mueen Wattoo"
+},
+{
+"na": "NA-139",
+"name": "Mian Ahmed Raza Maneka"
+},
+{
+"na": "NA-140",
+"name": "Rana Iradat Sharif Khan"
+},
+{
+"na": "NA-141",
+"name": "Syed Imran Ahmad Shah"
+},
+{
+"na": "NA-145",
+"name": "Muhammad Khan Daha"
+},
+{
+"na": "NA-147",
+"name": "Chaudry Iftikhar Nazir"
+},
+{
+"na": "NA-153",
+"name": "Rana Muhammad Qasim Noon"
+},
+{
+"na": "NA-154",
+"name": "Abdul Rehman Khan Kanju"
+},
+{
+"na": "NA-155",
+"name": "Khan Muhammad Saddique Khan Baloch"
+},
+{
+"na": "NA-157",
+"name": "Syed Sajid Mehdi"
+},
+{
+"na": "NA-158",
+"name": "Begum Tehmina Doultana"
+},
+{
+"na": "NA-160",
+"name": "Muhammad Abdul Ghafar Wattoo"
+},
+{
+"na": "NA-161",
+"name": "Alam Dad Laleka"
+},
+{
+"na": "NA-162",
+"name": "Chaudhary Ehsan Ul Haq Bajwa"
+},
+{
+"na": "NA-164",
+"name": "Mian Riaz Hussain Pirzada"
+},
+{
+"na": "NA-166",
+"name": "Makhdoom Syed Sami Ul Hassan Gillani"
+},
+{
+"na": "NA-167",
+"name": "Muhammad Usman Awaisi"
+},
+{
+"na": "NA-168",
+"name": "Malik Muhammad Iqbal Channar"
+},
+{
+"na": "NA-174",
+"name": "Muhammad Azhar Khan Leghari"
+},
+{
+"na": "NA-178",
+"name": "Amir Talal Gopang"
+},
+{
+"na": "NA-184",
+"name": "Abdul Qadir Khan Khosa"
+},
+{
+"na": "NA-186",
+"name": "Sardar Awais Ahmad Khan Leghari"
+},
+{
+"na": "NA-187",
+"name": "Ammar Ahmad Khan Leghari"
+},
+{
+"na": "NA-188",
+"name": "Hafeez Ur Rehman Khan Dreshak"
+},
+{
+"na": "NA-252",
+"name": "Sardar Yaqoob Khan Nasir"
+},
+{
+"na": "NA-255",
+"name": "Mir Khan Muhammad Jamali"
+},
+{
+"na": "NA-257",
+"name": "Jam Kamal Khan"
+},
+{
+"na": "NA-263",
+"name": "Haji Jamal Shah Kakar"
+}
+],
+"IPP": [
+{
+"na": "NA-88",
+"name": "Gul Asghar Khan Baghoor"
+},
+{
+"na": "NA-117",
+"name": "Abdul Aleem Khan"
+},
+{
+"na": "NA-128",
+"name": "Mohammad Awn Saqlain"
+}
+],
+"PPP": [
+{
+"na": "NA-45",
+"name": "Fateh Ullah Khan Miankhel"
+},
+{
+"na": "NA-52",
+"name": "Raja Parvaiz Ashraf"
+},
+{
+"na": "NA-148",
+"name": "Syed Yousuf Raza Gilani"
+},
+{
+"na": "NA-151",
+"name": "Syed Ali Moosa Gilani"
+},
+{
+"na": "NA-152",
+"name": "Syed Abdul Qadir Gilani"
+},
+{
+"na": "NA-169",
+"name": "Makhdoomzada Syed Murtaza Mahmood"
+},
+{
+"na": "NA-173",
+"name": "Syed Mustafa Mehmood"
+},
+{
+"na": "NA-176",
+"name": "Nawabzada Iftikhar Ahmed Khan Babar"
+},
+{
+"na": "NA-190",
+"name": "Mir Aijaz Hussain Jakhrani"
+},
+{
+"na": "NA-191",
+"name": "Ali Jan Mazari"
+},
+{
+"na": "NA-192",
+"name": "Mir Shabir Ali Bijarani"
+},
+{
+"na": "NA-193",
+"name": "Muhammad Shahryar Khan Mahar"
+},
+{
+"na": "NA-194",
+"name": "Bilawal Bhutto Zardari"
+},
+{
+"na": "NA-195",
+"name": "Nazir Ahmed Bughio"
+},
+{
+"na": "NA-196",
+"name": "Bilawal Bhutto Zardari"
+},
+{
+"na": "NA-197",
+"name": "Mir Amir Ali Khan Magsi"
+},
+{
+"na": "NA-198",
+"name": "Khalid Ahmad Khan Lund"
+},
+{
+"na": "NA-199",
+"name": "Ali Gohar Khan Mahar"
+},
+{
+"na": "NA-200",
+"name": "Nauman Islam Shaikh"
+},
+{
+"na": "NA-201",
+"name": "Syed Khursheed Ahmed Shah"
+},
+{
+"na": "NA-202",
+"name": "Nafisa Shah"
+},
+{
+"na": "NA-203",
+"name": "Pir Syed Fazal Ali Shah Jillani"
+},
+{
+"na": "NA-204",
+"name": "Syed Javed Ali Shah"
+},
+{
+"na": "NA-205",
+"name": "Syed Abrar Ali Shah"
+},
+{
+"na": "NA-206",
+"name": "Zulfiqar Ali Behan"
+},
+{
+"na": "NA-207",
+"name": "Asif Ali Zardari"
+},
+{
+"na": "NA-208",
+"name": "Syed Ghulam Mustafa Shah"
+},
+{
+"na": "NA-209",
+"name": "Shazia Jannat Marri"
+},
+{
+"na": "NA-210",
+"name": "Salahuddin Junejo"
+},
+{
+"na": "NA-211",
+"name": "Pir Aftab Hussain Shah Jeelani"
+},
+{
+"na": "NA-212",
+"name": "Mir Munwar Ali Talpur"
+},
+{
+"na": "NA-213",
+"name": "Nawab Muhammad Yousif Talpur"
+},
+{
+"na": "NA-214",
+"name": "Pir Ameer Ali Shah Jellani"
+},
+{
+"na": "NA-215",
+"name": "Mahesh Kumar Malani"
+},
+{
+"na": "NA-216",
+"name": "Makhdoom Jamil uz Zaman"
+},
+{
+"na": "NA-217",
+"name": "Zulfiqar Bachani"
+},
+{
+"na": "NA-218",
+"name": "Syed Hussain Tariq"
+},
+{
+"na": "NA-221",
+"name": "Syed Naveed Qamar"
+},
+{
+"na": "NA-222",
+"name": "Mir Ghulam Ali Talpur"
+},
+{
+"na": "NA-223",
+"name": "Haji Rasool Bakhsh Chandio"
+},
+{
+"na": "NA-224",
+"name": "Syed Ayaz Ali Shah Sheerazi"
+},
+{
+"na": "NA-225",
+"name": "Sadiq Ali Memon"
+},
+{
+"na": "NA-226",
+"name": "Malik Asad Sikandar"
+},
+{
+"na": "NA-227",
+"name": "Irfan Ali Leghari"
+},
+{
+"na": "NA-228",
+"name": "Rafiq Ahmad Jamali"
+},
+{
+"na": "NA-229",
+"name": "Jam Abdul Karim Bijar"
+},
+{
+"na": "NA-230",
+"name": "Syed Rafi Ullah"
+},
+{
+"na": "NA-231",
+"name": "Abdul Hakeem Baloch"
+},
+{
+"na": "NA-237",
+"name": "Asad Alam Niazi"
+},
+{
+"na": "NA-239",
+"name": "Nabeel Ahmad Gabool"
+},
+{
+"na": "NA-241",
+"name": "Mirza Ikhtiar Baig"
+},
+{
+"na": "NA-243",
+"name": "Abdul Qadir Patel"
+},
+{
+"na": "NA-259",
+"name": "Haji Malik Shah Gorgaij"
+},
+{
+"na": "NA-264",
+"name": "Nawabzada Mir Jamal Khan Raisani"
+}
+],
+"PML-Z": [
+{
+"na": "NA-163",
+"name": "Muhammad Ijaz Ul Haq"
+}
+],
+"PML-Q": [
+{
+"na": "NA-63",
+"name": "Hussain Elahi"
+},
+{
+"na": "NA-64",
+"name": "Choudhary Salik Hussain"
+},
+{
+"na": "NA-165",
+"name": "Tariq Bashir Cheema"
+}
+],
+"MQM": [
+{
+"na": "NA-219",
+"name": "Abdul Aleam Khan"
+},
+{
+"na": "NA-220",
+"name": "Syed Waseem Hussain"
+},
+{
+"na": "NA-232",
+"name": "Aasia Ishaq Siddique"
+},
+{
+"na": "NA-233",
+"name": "Muhammad Javed Haneef Khan"
+},
+{
+"na": "NA-234",
+"name": "Muhammad Moin Aamir Pirzada"
+},
+{
+"na": "NA-235",
+"name": "Muhammad Iqbal Khan"
+},
+{
+"na": "NA-236",
+"name": "Hassan Shabbir"
+},
+{
+"na": "NA-238",
+"name": "Sadiq Iftikhar"
+},
+{
+"na": "NA-240",
+"name": "Arshad Abdullah Vohra"
+},
+{
+"na": "NA-242",
+"name": "Syed Mustafa Kamal"
+},
+{
+"na": "NA-244",
+"name": "Muhammad Farooq Sattar"
+},
+{
+"na": "NA-245",
+"name": "Syed Hafeez Uddin"
+},
+{
+"na": "NA-246",
+"name": "Syed Amin ul Haq"
+},
+{
+"na": "NA-247",
+"name": "Khawaja Izhar Ul Hassan"
+},
+{
+"na": "NA-248",
+"name": "Khalid Maqbool Siddique"
+},
+{
+"na": "NA-249",
+"name": "Ahmad Saleem Siddique"
+},
+{
+"na": "NA-250",
+"name": "Farhan Chishti"
+}
+],
+"JUI-F": [
+{
+"na": "NA-28",
+"name": "Noor Alam Khan"
+},
+{
+"na": "NA-40",
+"name": "Mufti Misbha Uddin S/O Ahmad Uddin"
+},
+{
+"na": "NA-251",
+"name": "Maulana Syed Sami Ullah"
+},
+{
+"na": "NA-260",
+"name": "Muhammad Usman Badini"
+},
+{
+"na": "NA-261",
+"name": "Maulana Abdul Ghafoor Haidari"
+},
+{
+"na": "NA-265",
+"name": "Moulana Fazal ur Rehman"
+}
+],
+"BAP": [
+{
+"na": "NA-254",
+"name": "Khalid Hussain Magsi"
+}
+],
+"BNP": [
+{
+"na": "NA-256",
+"name": "Muhammad Akhtar Mengal"
+}
+],
+"NP": [
+{
+"na": "NA-258",
+"name": "Phullain"
+}
+],
+"PkMAP": [
+{
+"na": "NA-266",
+"name": "Mehmood Khan Achakzai"
+}
+],
+"MWM": [
+{
+"na": "NA-37",
+"name": "Hameed Hussain"
+}
+]
+},
+"general_by_prov": {
+"Khyber Pakhtunkhwa": {
+"IND": 39,
+"PML-N": 2,
+"JUI-F": 2,
+"MWM": 1,
+"PPP": 1
+},
+"Punjab": {
+"IND": 57,
+"PML-N": 70,
+"IPP": 3,
+"PPP": 7,
+"PML-Z": 1,
+"PML-Q": 3
+},
+"Sindh": {
+"PPP": 44,
+"MQM": 17
+},
+"Balochistan": {
+"JUI-F": 4,
+"PML-N": 4,
+"IND": 2,
+"BAP": 1,
+"BNP": 1,
+"NP": 1,
+"PPP": 2,
+"PkMAP": 1
+},
+"ICT/FATA": {
+"PML-N": 2,
+"IND": 1
+}
+},
+"reserved_women": [
+{
+"name": "Ms. Shaista Khan",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1883,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Shahida Begum",
+"party": "JUI-F",
+"party_raw": "JUI (P)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1884,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Ghazala Anjum",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1931,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shaheen",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1933,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Naeema Kishwar Khan",
+"party": "JUI-F",
+"party_raw": "JUI (P)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1934,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Asma Arbab Alamgir",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1936,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Naima Kanwal",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1937,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Sadaf Ihsan",
+"party": "JUI-F",
+"party_raw": "JUI (P)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1935,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Samar Haroon Bilour",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1969,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Saeeda Jamshid",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Khyber Pakhtunkhwa",
+"na_id": 1970,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Tahira Aurangzeb",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1885,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shaista Pervaiz",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1886,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Muneeba Iqbal",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1887,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Nuzhat Sadiq",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1888,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Musarrat Asif Khawaja",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1889,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Seema Mohiud Din Jameeli",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1890,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shaza Fatima Khawaja",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1891,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Romina Khurshid Alam",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1892,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Wajiha Qamar",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1893,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Zeb Jaffar",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1894,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Kiranlmran Dar",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1895,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Zahra Wadood Fatemi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1897,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Asia Naz Tanoli",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1898,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Saba Sadiq",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1899,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Farah Naz Akbar",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1900,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shahnaz Saleem Malik",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1901,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Hina Rabbani Khar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 1902,
+"elected_via": null,
+"remarks": null,
+"person_id": "P03143",
+"career": {
+"contested": [
+2002,
+2008
+],
+"won": [
+2002,
+2008
+],
+"name": "Hina Rabbani Khar"
+}
+},
+{
+"name": "Ms. Munaza Hassan",
+"party": "IPP",
+"party_raw": "IPP",
+"province": "Punjab",
+"na_id": 1903,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Farakh Khan",
+"party": "PML-Q",
+"party_raw": "PML",
+"province": "Punjab",
+"na_id": 1904,
+"elected_via": null,
+"remarks": null,
+"person_id": "P11862",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Farah Khan"
+}
+},
+{
+"name": "Ms. Zainab Mehmood Baloch",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1962,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Samina Khalid Ghurki",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 1941,
+"elected_via": null,
+"remarks": null,
+"person_id": "P01360",
+"career": {
+"contested": [
+1997,
+2002,
+2008,
+2013,
+2018
+],
+"won": [
+2002,
+2008
+],
+"name": "Samin Khalid Ghurki"
+}
+},
+{
+"name": "Ms. Natasha Daultana",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Punjab",
+"na_id": 1942,
+"elected_via": null,
+"remarks": null,
+"person_id": "P06924",
+"career": {
+"contested": [
+2013,
+2018
+],
+"won": [],
+"name": "Natasha Daultana"
+}
+},
+{
+"name": "Ms. Tamkeen Akhtar Niazi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1943,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Saira Tarar",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1945,
+"elected_via": null,
+"remarks": null,
+"person_id": "P04391",
+"career": {
+"contested": [
+2008,
+2013,
+2018,
+2024
+],
+"won": [
+2008,
+2013
+],
+"name": "Saira Afzal Tarar"
+}
+},
+{
+"name": "Ms. Erum Hamid Hameed",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1968,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Huma Akhtar Chughtai",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1947,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Mah Jabeen Khan Abbasi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1948,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Gulnaz Shahzadi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1949,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shamaila Rana",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1950,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shazia Farid",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1951,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Syeda Amnah Batool",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1952,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms Rabia Naseem Farooqi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Punjab",
+"na_id": 1956,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Sehar Kamran",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1905,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Dr. Sharmila Sahiba Faruqui Hashaam",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1906,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shagufta Jumani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1907,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Shahida Rehmani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1908,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Syeda Shehla Raza",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1909,
+"elected_via": null,
+"remarks": null,
+"person_id": "P11282",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "Syeda Shehla Raza"
+}
+},
+{
+"name": "Ms. Mahtab Akbar Rashdi",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1910,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Mussarat Rafique Mahesar",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1911,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Mahreen Razzaq Bhutto",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1912,
+"elected_via": null,
+"remarks": null,
+"person_id": "P10995",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Mahreen Razzaq Bhutto"
+}
+},
+{
+"name": "Dr. Shazia Sobia Aslam Soomro",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1913,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Naz Baloch",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Sindh",
+"na_id": 1914,
+"elected_via": null,
+"remarks": null,
+"person_id": "P07954",
+"career": {
+"contested": [
+2013
+],
+"won": [],
+"name": "Naz Baloch"
+}
+},
+{
+"name": "Ms. Nikhat Shakeel Khan",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 1916,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Sabheen Ghoury",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 1917,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Rana Ansar",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 1918,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Sofia Saeed Shah",
+"party": "MQM",
+"party_raw": "MQM",
+"province": "Sindh",
+"na_id": 1944,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Izbal Zehri",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": "Balochistan",
+"na_id": 1919,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Kiran Haider",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Balochistan",
+"na_id": 1920,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Akhtar Bibi",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": "Balochistan",
+"na_id": 1921,
+"elected_via": null,
+"remarks": null,
+"person_id": "P12736",
+"career": {
+"contested": [
+2024
+],
+"won": [],
+"name": "Akhtari Bibi"
+}
+},
+{
+"name": "Ms. Aliya Kamran",
+"party": "JUI-F",
+"party_raw": "JUI (P)",
+"province": "Balochistan",
+"na_id": 1922,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+}
+],
+"reserved_nonmuslim": [
+{
+"name": "Kesoo Mal Kheal Das",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": null,
+"na_id": 1923,
+"elected_via": null,
+"remarks": null,
+"person_id": "P11170",
+"career": {
+"contested": [
+2018
+],
+"won": [],
+"name": "KESOO MAL KHEEAL DAS"
+}
+},
+{
+"name": "Dr. Darshan",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": null,
+"na_id": 1924,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Nelson Azeem",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": null,
+"na_id": 1925,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Isphanyar M. Bhandara",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": null,
+"na_id": 1926,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ramesh Lal",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 1927,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Naveed Aamir",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 1928,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Ms. Neelam",
+"party": "PML-N",
+"party_raw": "PML (N)",
+"province": null,
+"na_id": 1938,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. James Iqbal",
+"party": "JUI-F",
+"party_raw": "JUI (P)",
+"province": null,
+"na_id": 1939,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Mr. Ramesh Kumar Vankwani",
+"party": "PPP",
+"party_raw": "PPPP",
+"province": null,
+"na_id": 1940,
+"elected_via": null,
+"remarks": null,
+"person_id": null
+},
+{
+"name": "Sanjay Perwani",
+"party": "MQM",
+"party_raw": "MQM",
+"province": null,
+"na_id": 1966,
+"elected_via": null,
+"remarks": null,
+"person_id": "P11063",
+"career": {
+"contested": [
+2018,
+2024
+],
+"won": [],
+"name": "Sanjay Perwani"
+}
+}
+],
+"entitlement": {
+"women_by_prov": {
+"Punjab": {
+"PML-N": 27,
+"IPP": 1,
+"PPP": 3,
+"PML-Q": 1
+},
+"Sindh": {
+"PPP": 10,
+"MQM": 4
+},
+"Khyber Pakhtunkhwa": {
+"PML-N": 3,
+"JUI-F": 3,
+"MWM": 2,
+"PPP": 2
+},
+"Balochistan": {
+"JUI-F": 1,
+"PML-N": 1,
+"BAP": 1,
+"PPP": 1
+}
+},
+"women": {
+"PML-N": 31,
+"IPP": 1,
+"PPP": 16,
+"PML-Q": 1,
+"MQM": 4,
+"JUI-F": 4,
+"MWM": 2,
+"BAP": 1
+},
+"nonmuslim": {
+"PML-N": 5,
+"PPP": 3,
+"MQM": 1,
+"JUI-F": 1
+}
+},
+"counterfactual": {
+"women_by_prov": {
+"Punjab": {
+"PML-N": 16,
+"IPP": 1,
+"PPP": 2,
+"PML-Q": 1,
+"PTI-IND": 12
+},
+"Sindh": {
+"PPP": 10,
+"MQM": 4
+},
+"Khyber Pakhtunkhwa": {
+"PML-N": 1,
+"JUI-F": 1,
+"PTI-IND": 8
+},
+"Balochistan": {
+"JUI-F": 1,
+"PML-N": 1,
+"BAP": 1,
+"PPP": 1
+}
+},
+"women": {
+"PML-N": 18,
+"IPP": 1,
+"PPP": 13,
+"PML-Q": 1,
+"PTI-IND": 20,
+"MQM": 4,
+"JUI-F": 2,
+"BAP": 1
+},
+"nonmuslim": {
+"PML-N": 3,
+"PPP": 2,
+"MQM": 1,
+"PTI-IND": 4
+},
+"basis_split": {
+"Punjab": 52,
+"Khyber Pakhtunkhwa": 32,
+"Balochistan": 1
+}
+},
+"official": {
+"PML-Q": {
+"women": 1,
+"nonmuslim": 0
+},
+"PML-N": {
+"women": 34,
+"nonmuslim": 5
+},
+"MQM": {
+"women": 4,
+"nonmuslim": 1
+},
+"IPP": {
+"women": 1,
+"nonmuslim": 0
+},
+"JUI-F": {
+"women": 4,
+"nonmuslim": 1
+},
+"PPP": {
+"women": 16,
+"nonmuslim": 3
+}
+},
+"women_general": [
+{
+"na": "NA-112",
+"name": "Dr. Shizra Mansab Ali Khan Kharal",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P10365"
+},
+{
+"na": "NA-119",
+"name": "Maryam Nawaz Sharif",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P13165"
+},
+{
+"na": "NA-156",
+"name": "Ayesha Nazir Jatt",
+"party": "IND",
+"province": "Punjab",
+"person_id": "P13556"
+},
+{
+"na": "NA-158",
+"name": "Begum Tehmina Doultana",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P00173"
+},
+{
+"na": "NA-181",
+"name": "Umber Majeed Niazi",
+"party": "IND",
+"province": "Punjab",
+"person_id": "P13806"
+},
+{
+"na": "NA-185",
+"name": "Zartaj Gull",
+"party": "IND",
+"province": "Punjab",
+"person_id": "P10836"
+},
+{
+"na": "NA-202",
+"name": "Nafisa Shah",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P10978"
+},
+{
+"na": "NA-209",
+"name": "Shazia Jannat Marri",
+"party": "PPP",
+"province": "Sindh",
+"person_id": "P11046"
+},
+{
+"na": "NA-232",
+"name": "Aasia Ishaq Siddique",
+"party": "MQM",
+"province": "Sindh",
+"person_id": "P14277"
+},
+{
+"na": "NA-30",
+"name": "Shandana Gulzar Khan",
+"party": "IND",
+"province": "Khyber Pakhtunkhwa",
+"person_id": "P11910"
+},
+{
+"na": "NA-67",
+"name": "Aneeqa Mehdi Bhatti",
+"party": "IND",
+"province": "Punjab",
+"person_id": "P12505"
+},
+{
+"na": "NA-73",
+"name": "Nosheen Iftikhar",
+"party": "PML-N",
+"province": "Punjab",
+"person_id": "P12588"
+}
+],
+"nonmuslim_general": [
+{
+"na": "NA-215",
+"name": "Mahesh Kumar Malani",
+"party": "PPP",
+"person_id": "P05128"
+}
+],
+"roll_notes": []
+}
+}
+}

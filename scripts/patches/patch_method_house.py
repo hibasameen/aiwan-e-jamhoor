@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+"""Add §11 'The full House: reserved seats' to method.html (renumbering Limitations
+and Sources to 12/13) and the matching section to docs/METHODOLOGY.md. Idempotent."""
+import os, re
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+P = os.path.join(ROOT, 'method.html')
+s = open(P, encoding='utf-8').read()
+if 'id="house"' in s:
+    print('method.html already patched'); raise SystemExit
+
+SECTION = '''
+    <h2 id="house"><span class="n">11</span>The full House: reserved seats</h2>
+    <p>The map and the candidate pages deal only with the seats voters fill. The <a href="house.html">Full House</a> page adds the rest: since 2002 the National Assembly has had 60 seats reserved for women and 10 for non-Muslims, allocated to parties in proportion to the general seats they won. This section records where those members come from, how the entitlement is calculated, and what the numbers can and cannot bear.</p>
+
+    <p><strong>Membership.</strong> The reserved members are taken from the National Assembly's own membership lists: the scanned PDF roster of the 12th Assembly and the HTML former-member lists for the 13th–15th, plus the current members list for the 16th, all on <a href="https://na.gov.pk/en/content.php?id=121">na.gov.pk</a>. Seat type is assigned only from the list's own section headings ("Seats reserved for women", "RS(Women) Punjab", "RS(Minority)"), never inferred from a name. Two properties of these lists shape everything downstream. The 12th and 16th are snapshots — exactly 60 and 10. The 13th, 14th and 15th are <em>cumulative</em>: a member who resigned, died or was disqualified stays on the list beside her replacement, so they carry 63–67 women and 10–11 non-Muslim members. The page's roster shows them all and says so; the seat counts on the hemicycle come from the ECP allocation, not from counting names. The 12th Assembly PDF also lost its provincial sub-headings in extraction; province was restored from the roster's fixed order (Punjab 35, Sindh 14, NWFP 8, Balochistan 3), which the PDF's own numbering confirms.</p>
+
+    <p><strong>The rule, and how we apply it.</strong> Article 51(6)(d)–(e) of the Constitution and section 104 of the Elections Act 2017 allocate the women's seats province by province — Punjab 35, Sindh 14, Khyber Pakhtunkhwa 8 and Balochistan 3 until 2018; 32, 14, 10 and 4 from 2024, after the tribal areas merged into KP — in proportion to the general seats each party won in that province, and the ten non-Muslim seats nationwide in proportion to general seats won overall. Independents receive nothing unless they join a party within three days of the notification of results, after which they count towards it. The seats of FATA and Islamabad carried no women's quota. We apply the rule with the largest-remainder method (Hare quota, remainders in descending order, ties to the larger party) to the parties <em>as declared on election day</em> in our own results, and set that against the allocation the ECP actually notified. The two differ, and the difference is itself the finding: it is almost entirely the three-day window — nineteen independents joining PML-N in 2013, nine joining PTI in 2018, seven joining the PPP in 2008 — plus the occasional marginal seat decided by a remainder or a tie, which we flag rather than force. We do not have the ECP's provincial breakdown of joiners, so the provincial entitlement columns are election-day only.</p>
+
+    <p><strong>Where the ECP figures come from.</strong> For 2002–2018 the notified allocations are the ECP party-position notifications as compiled in the results tables of the Wikipedia articles on each election, which cite those notifications; the notifications themselves could not be retrieved from the ECP's site. For 2024 the allocation is read from the 16th Assembly's list as it stands after the Supreme Court's review verdict of 27 June 2025, which restored the Commission's distribution of 4 March 2024. The 2013 table sums to 59 women's seats; one seat was withheld at notification, and we show the table as published rather than reconcile it. Two labelling conventions were needed: in 2008 JUI-F contested under the MMA name and the ECP books its seats as MMA, so our 2008 JUI-F winners are counted as MMA on that page; and the roster's "PML" for 2008–2013 is PML-Q.</p>
+
+    <p><strong>2024.</strong> The 85 PTI-backed independents were the largest bloc of elected members but, as independents, had no entitlement. The ECP withheld the seats that would have gone to the Sunni Ittehad Council, which they had joined, and then distributed them to the other parties; the Peshawar High Court upheld that on 14 March 2024, the Supreme Court suspended it on 6 May and set it aside 8–5 on 12 July 2024, holding that PTI was entitled to the seats; a constitutional bench reversed that on review on 27 June 2025. The page presents three counts side by side — the rule on election-day parties, the ECP's first-round notification with 25 seats withheld, and the rule with the PTI bloc counted as one party — and reports each decision with its date. The third is a counterfactual, not a result; its provincial basis (Punjab 52, KP 32, Balochistan 1) is the ECP/FAFEN split of the PTI-backed winners scaled to our reconciled 85. Under the site's editorial standard the page takes no view on the merits.</p>
+
+    <p><strong>Women and non-Muslims on general seats.</strong> Neither the results nor the rosters record gender. The general-seat women were identified by hand from the winners' names, cross-checked against the Assembly's honorifics where the list carries them, and counted on election day only: 13 in 2002, 14 in 2008, 6 in 2013, 8 in 2018, 12 in 2024. The widely quoted 16 for 2008 includes two by-election winners (Faryal Talpur and Natasha Daultana) and the 9 sometimes given for 2013 is likewise a cumulative figure. The one non-Muslim general-seat winner in the period is Mahesh Kumar Malani (PPP, Tharparkar, 2018 and 2024). These lists live in <code>scripts/house/build_house.py</code> and are the only hand-curated inputs on the page.</p>
+
+    <p><strong>Linking reserved members to the candidate spine.</strong> To see who has moved between the two routes into the House, reserved members' names are matched to the candidate spine used on the Candidates page: honorifics stripped, transliteration folded (Mohammad/Muhammad, Hussain/Husain, ur-Rehman/Rahman), a match accepted only when it is exact or near-exact (ratio ≥ 0.92) <em>and</em> resolves to exactly one person, with single-token names never matched. This is deliberately conservative; about one in six reserved members matches, and the page says which. The audit trail is <code>data/house/reserved_linkage.csv</code>. Where a match exists the roster links to the person's general-seat record.</p>
+
+    <p><strong>Before 2002.</strong> The same rosters exist for the 1st–11th assemblies and are in the repository, but they describe four different regimes — no reserved seats in the constituent assemblies; six indirectly elected women's seats under the 1962 constitution; ten women's and six minority seats in 1973 that lapsed after three elections, so the 1990, 1993 and 1997 assemblies had no women's seats at all; and, from 1985 to 1997, non-Muslim members elected <em>directly</em> on nationwide separate electorates, which are election results rather than list allocations. Pooling any of that with the post-2002 lists without saying which mechanism produced it would mislead, and the pre-2002 rosters also lack party labels. The page therefore starts in 2002; the earlier assemblies are documented in <code>hansard/linkage/MEMBERS_README.md</code> and are on the list.</p>
+'''
+
+anchor = '    <h2 id="limits"><span class="n">11</span>Limitations, in one place</h2>'
+assert s.count(anchor) == 1
+s = s.replace(anchor, SECTION.lstrip('\n') + '\n' + anchor.replace('<span class="n">11</span>', '<span class="n">12</span>'))
+old = '    <h2 id="sources"><span class="n">12</span>Sources</h2>'
+assert s.count(old) == 1
+s = s.replace(old, old.replace('12', '13'))
+toc_old = '      <li><a href="#limits">Limitations</a></li>'
+assert s.count(toc_old) == 1
+s = s.replace(toc_old, '      <li><a href="#house">The full House: reserved seats</a></li>\n' + toc_old)
+open(P, 'w', encoding='utf-8').write(s)
+print('method.html patched')
+
+# ---- docs/METHODOLOGY.md ----
+M = os.path.join(ROOT, 'docs', 'METHODOLOGY.md')
+m = open(M, encoding='utf-8').read()
+if '## The full House' not in m:
+    md = re.sub(r'<h2 id="house"><span class="n">11</span>(.*?)</h2>', r'## \1', SECTION)
+    md = re.sub(r'<p><strong>(.*?)</strong>', r'**\1**', md)
+    md = re.sub(r'<a href="([^"]+)">(.*?)</a>', r'[\2](\1)', md)
+    md = re.sub(r'</?(p|em|code|strong)>', lambda x: '*' if x.group(1) == 'em' else '`' if x.group(1) == 'code' else '', md)
+    md = re.sub(r'^\s{4}', '', md, flags=re.M)
+    m = m.rstrip('\n') + '\n\n' + md.strip() + '\n'
+    open(M, 'w', encoding='utf-8').write(m)
+    print('METHODOLOGY.md appended')

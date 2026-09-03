@@ -36,18 +36,19 @@ html,body{margin:0;background:var(--page);color:var(--ink);font-family:Archivo,s
 a{color:var(--green);text-decoration:none} a:hover{color:var(--ink)}
 .mono{font-family:'Space Mono',monospace} .serif{font-family:'EB Garamond',serif}
 header.shell{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
-.shell-in{max-width:1180px;margin:0 auto;padding:10px 22px;display:flex;align-items:center;gap:14px}
-.brand{display:flex;align-items:center;gap:11px}
+.shell-in{max-width:1400px;margin:0 auto;padding:13px 32px;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:13px;cursor:pointer}
 .brand .mk{width:38px;height:38px;color:var(--green);flex:none}
 .brand .wm{font-family:'EB Garamond',serif;font-size:23px;line-height:1.05;color:var(--ink)}
 .brand .wm .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:17px;color:var(--gold);margin-inline-start:8px;vertical-align:2px}
 .brand .sub{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-top:1px}
 nav.main{display:flex;gap:2px;margin-left:6px}
-nav.main a{color:var(--ink-2);font:600 13.5px Archivo,sans-serif;padding:8px 14px;border-radius:2px}
+nav.main a{border:0;background:transparent;color:var(--ink-2);font:600 13.5px Archivo,sans-serif;padding:8px 14px;border-radius:2px;cursor:pointer}
 nav.main a:hover{background:var(--surface-2);color:var(--ink)}
-nav.main a.on{background:var(--surface-2);color:var(--ink)}
+nav.main a.on{background:var(--ink);color:var(--page)}
 .spacer{flex:1}
-.icon-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink-2);width:32px;height:32px;border-radius:2px;cursor:pointer;font-size:15px}
+.hdr-tools{display:flex;align-items:center;gap:8px}
+.icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--page);color:var(--ink-2);border-radius:2px;cursor:pointer;font-size:15px;line-height:1}
 main{max-width:1180px;margin:0 auto;padding:30px 22px 70px}
 h1{font-family:'EB Garamond',serif;font-weight:500;font-size:40px;line-height:1.12;margin:6px 0 4px}
 h1 .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:26px;color:var(--gold);margin-inline-start:10px}
@@ -89,6 +90,8 @@ th,td{border-bottom:1px solid var(--line-2);padding:7px 10px;text-align:left}
 th{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
 td.num,th.num{text-align:right;font-family:'Space Mono',monospace}
 .mapwrap{display:grid;grid-template-columns:1fr 300px;gap:18px;align-items:start}
+.mapwrap>*{min-width:0}
+.card>svg{display:block;width:100%;max-width:100%;height:auto}
 @media(max-width:880px){.mapwrap{grid-template-columns:1fr}}
 #seatcard .t{font-weight:700;font-size:15px}
 #seatcard .p{font-family:'Space Mono',monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.05em}
@@ -105,6 +108,22 @@ footer{border-top:1px solid var(--line);margin-top:60px;margin-bottom:44px}
 .foot-in{max-width:1180px;margin:0 auto;padding:16px 22px;font-family:'Space Mono',monospace;font-size:11px;color:var(--ink-3)}
 sup{color:var(--gold)}
 ul.src{font-size:13px;color:var(--ink-2)}
+/* ---- shared responsive header (identical on every page) ---- */
+@media (max-width:1040px){
+  .shell-in{flex-wrap:wrap;gap:8px 14px;padding:10px 18px}
+  .brand{order:1} .hdr-tools{order:2;margin-left:auto} .spacer{display:none}
+  nav.main{order:3;flex:1 0 100%;margin:0 -18px -10px;padding:0 18px 10px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}
+  nav.main::-webkit-scrollbar{display:none}
+  nav.main a{padding:7px 11px;font-size:13px;flex:none}
+}
+@media (max-width:560px){
+  .brand .mk{width:32px;height:32px}
+  .brand .wm{font-size:20px} .brand .wm .ur{font-size:15px;margin-inline-start:6px}
+  .brand .sub{display:none}
+  .icon-btn{width:32px;height:32px}
+  main{padding-left:16px;padding-right:16px}
+  h1{font-size:30px} h1 .ur{font-size:20px;margin-inline-start:6px}
+}
 </style>
 </head>
 <body>
@@ -132,6 +151,7 @@ ul.src{font-size:13px;color:var(--ink-2)}
       <a href="index.html">Home</a>
       <a href="map.html">Constituency Results</a>
       <a href="candidates.html">Candidates</a>
+      <a href="house.html">The House</a>
       <a class="on" href="islam.html">Islam &amp; Politics</a>
       <a href="about.html">About</a>
       <a href="method.html">Method</a>

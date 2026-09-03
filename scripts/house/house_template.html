@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Full House — Aiwan-e-Jamhoor</title>
+<meta name="description" content="Pakistan's National Assembly with its reserved seats, 2002–2024: how the 60 women's and 10 non-Muslim seats are allocated, who holds them, and how they change the balance of the House.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aiwan-e-Jamhoor">
+<meta property="og:url" content="https://aiwan.adaad.org/house.html">
+<meta property="og:title" content="The Full House — Aiwan-e-Jamhoor">
+<meta property="og:description" content="General and reserved seats of the National Assembly, 2002–2024: allocation rules, entitlement versus notified allocation, women and non-Muslim members.">
+<meta property="og:image" content="https://aiwan.adaad.org/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Full House — Aiwan-e-Jamhoor">
+<meta name="twitter:image" content="https://aiwan.adaad.org/og-image.png">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{
+  color-scheme:light;
+  --page:#eeece6; --surface:#f7f6f2; --surface-2:#e7e4dc;
+  --ink:#12110f; --ink-2:#4a473f; --ink-3:#6a675e;
+  --line:#cfcbc0; --line-2:#e3e0d7;
+  --green:#14523a; --green-2:#2f6b52; --gold:#b8912f; --gold-2:#c9a13f;
+  --cream:#f2efe6;
+}
+html[data-th=dark]{
+  color-scheme:dark;
+  --page:#12130f; --surface:#1a1b17; --surface-2:#24251f;
+  --ink:#f3f1e9; --ink-2:#c7c3b6; --ink-3:#918d80;
+  --line:#33342c; --line-2:#2a2b23;
+  --green:#4f9e78; --green-2:#3f8a66; --gold:#cba43f; --gold-2:#d8b451;
+  --cream:#f2efe6;
+}
+html,body{margin:0;background:var(--page);color:var(--ink);font-family:Archivo,system-ui,sans-serif;font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-decoration:none} a:hover{color:var(--ink)}
+.mono{font-family:'Space Mono',monospace} .serif{font-family:'EB Garamond',serif}
+header.shell{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40}
+.shell-in{max-width:1400px;margin:0 auto;padding:13px 32px;display:flex;align-items:center;gap:24px}
+.brand{display:flex;align-items:center;gap:13px;cursor:pointer}
+.brand .mk{width:38px;height:38px;color:var(--green);flex:none}
+.brand .wm{font-family:'EB Garamond',serif;font-size:23px;line-height:1.05;color:var(--ink)}
+.brand .wm .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:17px;color:var(--gold);margin-inline-start:8px;vertical-align:2px}
+.brand .sub{font-family:'Space Mono',monospace;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);margin-top:1px}
+nav.main{display:flex;gap:2px;margin-left:6px;flex-wrap:wrap}
+nav.main a{border:0;background:transparent;color:var(--ink-2);font:600 13.5px Archivo,sans-serif;padding:8px 14px;border-radius:2px;cursor:pointer}
+nav.main a:hover{background:var(--surface-2);color:var(--ink)}
+nav.main a.on{background:var(--ink);color:var(--page)}
+.spacer{flex:1}
+.hdr-tools{display:flex;align-items:center;gap:8px}
+.icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--page);color:var(--ink-2);border-radius:2px;cursor:pointer;font-size:15px;line-height:1}
+main{max-width:1180px;margin:0 auto;padding:30px 22px 70px}
+h1{font-family:'EB Garamond',serif;font-weight:500;font-size:40px;line-height:1.12;margin:6px 0 4px}
+h1 .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:26px;color:var(--gold);margin-inline-start:10px}
+h2{font-family:'EB Garamond',serif;font-weight:500;font-size:26px;margin:44px 0 6px}
+h3{font-family:'EB Garamond',serif;font-weight:500;font-size:20px;margin:22px 0 4px}
+.kicker{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+p.lede{font-size:16.5px;color:var(--ink-2);max-width:74ch}
+p.note{font-size:13.5px;color:var(--ink-3);max-width:80ch}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:18px 20px;margin-top:14px}
+.card{overflow-x:auto}
+@media(max-width:560px){.card{padding:14px 14px}th,td{padding:6px 7px;font-size:12.5px}table{font-size:12.5px}.callout{padding:10px 12px;font-size:13px}}
+.statrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:16px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:13px 15px}
+.stat .v{font-family:'Space Mono',monospace;font-size:23px;margin-top:2px}
+.stat .l{font-size:12px;color:var(--ink-3);letter-spacing:.04em;text-transform:uppercase}
+.stat .s{font-size:12px;color:var(--ink-3);margin-top:3px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:10px 0 4px;font-size:12.5px;color:var(--ink-2)}
+.legend .sw{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.legend .sw.sq{border-radius:1px}
+.legend .sw.ring{box-shadow:inset 0 0 0 2.5px var(--surface);border:1px solid currentColor}
+svg text{font-family:'Space Mono',monospace;fill:var(--ink-3);font-size:10.5px}
+.tip{position:fixed;pointer-events:none;background:var(--surface);border:1px solid var(--line);border-radius:3px;padding:9px 12px;font-size:12.5px;box-shadow:0 4px 14px rgba(0,0,0,.18);z-index:60;max-width:280px;display:none}
+.tip .t{font-weight:600;font-size:13px;color:var(--ink)}
+.tip .m{font-family:'Space Mono',monospace;color:var(--ink-2);font-size:11.5px}
+.toggle{display:inline-flex;border:1px solid var(--line);border-radius:2px;overflow:hidden;margin:6px 0 4px;flex-wrap:wrap}
+.toggle button{border:0;background:var(--surface);color:var(--ink-2);font:600 13px Archivo;padding:7px 16px;cursor:pointer}
+.toggle button.on{background:var(--green);color:#fff}
+html[data-th=dark] .toggle button.on{color:#0e1512}
+.tabs{display:flex;gap:2px;flex-wrap:wrap;align-items:center}
+.tabs button{border:0;border-bottom:2px solid transparent;background:transparent;color:var(--ink-3);font:600 13.5px Archivo,sans-serif;padding:8px 14px;cursor:pointer}
+.tabs button:hover{color:var(--ink)}
+.tabs button.on{color:var(--ink);border-bottom-color:var(--gold)}
+.tabsec{display:none}
+.tabsec.on{display:block}
+table{border-collapse:collapse;width:100%;margin-top:10px;font-size:13.5px}
+th,td{border-bottom:1px solid var(--line-2);padding:7px 10px;text-align:left;vertical-align:top}
+th{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+td.num,th.num{text-align:right;font-family:'Space Mono',monospace}
+td.dim{color:var(--ink-3)}
+tr.tot td{border-top:1px solid var(--line);font-weight:600}
+.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:7px;vertical-align:-1px}
+.delta{font-family:'Space Mono',monospace}
+.delta.pos{color:var(--green)} .delta.neg{color:#b03a2e}
+html[data-th=dark] .delta.neg{color:#e07a6e}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:18px;align-items:start}
+.two>*{min-width:0}
+.card>svg{display:block;width:100%;max-width:100%;height:auto}
+@media(max-width:560px){.statrow{grid-template-columns:1fr 1fr}.stat .v{font-size:20px}.toggle button{padding:7px 12px}}
+@media(max-width:880px){.two{grid-template-columns:1fr}}
+.chartbar{display:flex;gap:8px;justify-content:flex-end;align-items:center;border-top:1px solid var(--line-2);margin-top:10px;padding-top:8px}
+.chartbar button{border:1px solid var(--line);background:transparent;color:var(--ink-3);font:600 11.5px 'Space Mono',monospace;letter-spacing:.04em;padding:5px 11px;border-radius:2px;cursor:pointer}
+.chartbar button:hover{color:var(--ink);border-color:var(--ink-3)}
+.callout{border-left:3px solid var(--gold);background:var(--surface);padding:12px 16px;margin-top:14px;font-size:14px;color:var(--ink-2);max-width:86ch}
+.callout b{color:var(--ink)}
+blockquote{margin:10px 0 4px;padding:0 0 0 14px;border-left:2px solid var(--line);font-family:'EB Garamond',serif;font-size:16px;color:var(--ink-2)}
+blockquote cite{display:block;font:11px 'Space Mono',monospace;color:var(--ink-3);margin-top:4px;font-style:normal}
+.searchbox{width:100%;box-sizing:border-box;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:2px;font:14px Archivo,sans-serif;padding:8px 11px}
+select{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:2px;font:600 13px Archivo,sans-serif;padding:7px 10px;cursor:pointer}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0}
+.pill{display:inline-block;font:10.5px 'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:2px;padding:1px 6px;color:var(--ink-3);margin-left:6px}
+.pill.w{border-color:var(--gold);color:var(--gold)}
+.pill.n{border-color:var(--green);color:var(--green)}
+.timeline{list-style:none;padding:0;margin:8px 0 0}
+.timeline li{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:7px 0;border-bottom:1px solid var(--line-2);font-size:13.5px}
+.timeline li .d{font-family:'Space Mono',monospace;font-size:11.5px;color:var(--ink-3);padding-top:2px}
+footer{border-top:1px solid var(--line);margin-top:60px;margin-bottom:44px}
+.legal{position:fixed;left:0;right:0;bottom:0;z-index:50;border-top:1px solid var(--line);background:var(--surface-2)}
+.legal-in{max-width:1400px;margin:0 auto;padding:12px 32px;display:flex;flex-wrap:nowrap;align-items:center;gap:6px 20px;font-family:'Space Mono',monospace;font-size:11px;line-height:1.6;color:var(--ink-3);white-space:nowrap;overflow:hidden}
+.legal-in .sp{flex:1 1 auto}
+.legal-in a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.legal-in a:hover{color:var(--green);border-bottom-color:var(--green)}
+@media (max-width:900px){.legal-in .lg-opt{display:none}}
+@media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
+.foot-in{max-width:1180px;margin:0 auto;padding:16px 22px;font-family:'Space Mono',monospace;font-size:11px;color:var(--ink-3)}
+sup{color:var(--gold)}
+ul.src{font-size:13px;color:var(--ink-2)}
+.hemi-wrap{overflow-x:auto}
+.seat{cursor:pointer}
+.seat:hover{stroke:var(--ink);stroke-width:1.5}
+/* ---- shared responsive header (identical on every page) ---- */
+@media (max-width:1040px){
+  .shell-in{flex-wrap:wrap;gap:8px 14px;padding:10px 18px}
+  .brand{order:1} .hdr-tools{order:2;margin-left:auto} .spacer{display:none}
+  nav.main{order:3;flex:1 0 100%;margin:0 -18px -10px;padding:0 18px 10px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}
+  nav.main::-webkit-scrollbar{display:none}
+  nav.main a{padding:7px 11px;font-size:13px;flex:none}
+}
+@media (max-width:560px){
+  .brand .mk{width:32px;height:32px}
+  .brand .wm{font-size:20px} .brand .wm .ur{font-size:15px;margin-inline-start:6px}
+  .brand .sub{display:none}
+  .icon-btn{width:32px;height:32px}
+  main{padding-left:16px;padding-right:16px}
+  h1{font-size:30px} h1 .ur{font-size:20px;margin-inline-start:6px}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="mk" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="4.2" stroke-dasharray="3.4 3.4"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <g stroke="#c9a13f" stroke-width="1.7" fill="none">
+    <path d="M13 32 H51 M32 13 V51 M15.55 22.5 L48.45 41.5 M22.5 15.55 L41.5 48.45 M22.5 48.45 L41.5 15.55 M15.55 41.5 L48.45 22.5"/>
+    <circle cx="32" cy="32" r="19"/><circle cx="32" cy="32" r="13" stroke-width="2.2"/><circle cx="32" cy="32" r="7"/>
+  </g>
+  <circle cx="32" cy="32" r="3.6" fill="#c9a13f"/>
+</symbol></svg>
+
+<header class="shell">
+  <div class="shell-in">
+    <a class="brand" href="index.html">
+      <svg class="mk" viewBox="0 0 64 64"><use href="#mk"></use></svg>
+      <div>
+        <div class="wm">Aiwan-e-Jamhoor<span class="ur">ایوانِ جمہور</span></div>
+        <div class="sub">The People's House</div>
+      </div>
+    </a>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="map.html">Constituency Results</a>
+      <a href="candidates.html">Candidates</a>
+      <a class="on" href="house.html">The House</a>
+      <a href="islam.html">Islam &amp; Politics</a>
+      <a href="about.html">About</a>
+      <a href="method.html">Method</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="hdr-tools">
+      <button class="icon-btn" id="theme" title="Toggle light / dark">◐</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="kicker">Analysis · National Assembly · 2002 – 2024</div>
+  <h1>The Full House<span class="ur">مکمل ایوان</span></h1>
+  <p class="lede">Voters fill only the general seats. Another <b>70</b> — 60 for women, 10 for non-Muslims — are handed to parties in proportion to the general seats they won, from lists they filed before polling day. This page draws the House as it is actually seated, works out what each party was entitled to under the rule, sets that against what the Election Commission notified, and follows the women and non-Muslim members who hold those seats.</p>
+
+  <div class="statrow" id="stats"></div>
+
+  <div class="tabs" id="pageTabs" style="margin-top:30px;border-bottom:1px solid var(--line-2)"><button data-t="house" class="on">The House</button><button data-t="alloc">Who gets the reserved seats</button><button data-t="women">Women</button><button data-t="nonmuslim">Non-Muslim seats</button><button data-t="roster">Roster</button></div>
+
+  <!-- ============ HOUSE ============ -->
+  <section class="tabsec on" data-t="house">
+  <h2>The House as seated</h2>
+  <p class="note">Every seat, general and reserved, coloured by party. Filled dots are general seats won at the poll; ringed dots are women's reserved seats; squares are non-Muslim reserved seats. Hover a seat for the member. The share columns show how the reserved seats change each party's weight in the House relative to its weight among elected seats.</p>
+  <div class="toggle" id="yrTog"></div>
+  <div class="two">
+    <div class="card hemi-wrap">
+      <svg id="hemi" width="100%" height="445" viewBox="0 0 720 445" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="legend" id="hemiLegend"></div>
+      <div class="chartbar"><button data-act="link" data-tab="house">Share link</button><button data-act="png" data-svg="hemi" data-name="aiwan_house">PNG</button><button data-act="csv" data-kind="house">CSV</button></div>
+    </div>
+    <div>
+      <div class="card" id="houseTable"></div>
+      <div class="callout" id="houseNote"></div>
+    </div>
+  </div>
+  </section>
+
+  <!-- ============ ALLOCATION ============ -->
+  <section class="tabsec" data-t="alloc">
+  <h2>Entitlement versus allocation</h2>
+  <p class="note">The rule (Article 51(6)(d)–(e), section 104 of the Elections Act 2017): women's seats are shared out province by province — Punjab 35, Sindh 14, Khyber Pakhtunkhwa 8, Balochistan 3 until 2018; 32/14/10/4 from 2024 — in proportion to the general seats each party won in that province; the 10 non-Muslim seats nationwide in proportion to general seats won overall. Independents earn nothing unless they join a party within three days of the result, after which they count towards it. The seats of FATA and Islamabad carried no women's quota. The <i>entitlement</i> columns apply that rule to the parties as declared on election day, using the largest-remainder method; the <i>ECP</i> columns are the Commission's notified allocation. The difference is mostly the three-day window — the table says where.</p>
+  <div class="toggle" id="yrTog2"></div>
+  <div class="card" style="overflow-x:auto" id="allocTable"></div>
+  <div class="callout" id="allocNote"></div>
+  <div id="cf2024"></div>
+  </section>
+
+  <!-- ============ WOMEN ============ -->
+  <section class="tabsec" data-t="women">
+  <h2>Women in the House</h2>
+  <p class="note">Since 2002 the 60 reserved seats have guaranteed women roughly a sixth of the House. The number who win general seats on their own account has stayed in single or low double digits. The bars count women seated on election day; by-election winners are excluded, so a widely quoted figure of 16 for 2008 (which counts Faryal Talpur and Natasha Daultana, both returned at by-elections) appears here as 14.</p>
+  <div class="two">
+    <div class="card"><svg id="wchart" width="100%" height="300" viewBox="0 0 640 300" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="legend" id="wLegend"></div>
+      <div class="chartbar"><button data-act="link" data-tab="women">Share link</button><button data-act="png" data-svg="wchart" data-name="aiwan_women_na">PNG</button><button data-act="csv" data-kind="women">CSV</button></div>
+    </div>
+    <div class="card" id="wstats"></div>
+  </div>
+  <h3>Women elected on general seats</h3>
+  <p class="note">By province the pattern is stark: outside Punjab and Sindh a woman has won a general seat only three times in five elections — Zubaida Jalal twice in Balochistan's Kech, Shandana Gulzar once in Peshawar.</p>
+  <div class="card" style="overflow-x:auto" id="wgeneral"></div>
+  <h3>Crossing between the two routes</h3>
+  <p class="note">Reserved members matched to the candidate spine by name (exact or near-exact, unique match only — see Method). Those below either won a general seat before or after holding a reserved one, or contested and lost. Most reserved members never appear on a general ballot at all.</p>
+  <div class="card" style="overflow-x:auto" id="wcross"></div>
+  </section>
+
+  <!-- ============ NON-MUSLIM ============ -->
+  <section class="tabsec" data-t="nonmuslim">
+  <h2>The ten non-Muslim seats</h2>
+  <p class="note">Allocated nationwide, so they track the largest parties. Between 1985 and 1997 non-Muslim members were instead elected directly on separate electorates — those results are not on this page (see Method). Only one non-Muslim candidate has won a general seat in this period: Mahesh Kumar Malani, for the PPP in Tharparkar, in 2018 and again in 2024.</p>
+  <div class="card" style="overflow-x:auto" id="nmTable"></div>
+  <h3>Who has held them</h3>
+  <div class="card" style="overflow-x:auto" id="nmRoster"></div>
+  </section>
+
+  <!-- ============ ROSTER ============ -->
+  <section class="tabsec" data-t="roster">
+  <h2>Reserved-seat roster</h2>
+  <p class="note">All reserved members recorded on the National Assembly's own membership lists for the 12th–16th assemblies. The 13th–15th lists are cumulative — a member who resigned, died or was disqualified stays on the list beside the person who replaced her — so counts run above 60 and 10. The 12th and 16th are snapshots. Names as printed by the Assembly (OCR-corrected for the 12th).</p>
+  <div class="filters">
+    <select id="rYear"></select>
+    <select id="rType"><option value="">Women + non-Muslim</option><option value="reserved_women">Women</option><option value="reserved_nonmuslim">Non-Muslim</option></select>
+    <select id="rParty"><option value="">All parties</option></select>
+    <select id="rProv"><option value="">All provinces</option><option>Punjab</option><option>Sindh</option><option>Khyber Pakhtunkhwa</option><option>Balochistan</option></select>
+    <input class="searchbox" id="rQ" type="search" placeholder="Search a name…" style="max-width:260px">
+  </div>
+  <div class="card" style="overflow-x:auto" id="roster"></div>
+  <div class="chartbar"><button data-act="csv" data-kind="roster">CSV — all years</button></div>
+  </section>
+
+  <h2 id="sources" style="font-size:20px">Sources</h2>
+  <ul class="src">
+    <li>Membership lists: National Assembly of Pakistan, <a href="https://na.gov.pk/en/content.php?id=121">Former Members</a> (12th assembly PDF; 13th–15th HTML lists) and the current members list (16th). Built into <span class="mono">hansard/linkage/members_na12–16.json</span>.</li>
+    <li>General-seat results: this site's own results and candidate spine (ECP Form-47 for 2024; see <a href="method.html">Method</a>).</li>
+    <li>ECP notified allocations 2002–2018: Election Commission of Pakistan party-position notifications, as compiled in the results tables of the Wikipedia articles on each election (<a href="https://en.wikipedia.org/wiki/2002_Pakistani_general_election">2002</a>, <a href="https://en.wikipedia.org/wiki/2008_Pakistani_general_election">2008</a>, <a href="https://en.wikipedia.org/wiki/2013_Pakistani_general_election">2013</a>, <a href="https://en.wikipedia.org/wiki/2018_Pakistani_general_election">2018</a>). 2024: the 16th assembly's list as it stands after the June 2025 review verdict.</li>
+    <li>2024 reserved-seats litigation: Supreme Court of Pakistan, <i>Sunni Ittehad Council v. ECP</i> (judgment 12 July 2024; review decided 27 June 2025); ECP order of 4 March 2024; Peshawar High Court, 14 March 2024. Summarised at <a href="https://en.wikipedia.org/wiki/Reserved_seats_case">Wikipedia: Reserved seats case</a>.</li>
+    <li>Constitution of Pakistan, Article 51; Elections Act 2017, s. 104.</li>
+  </ul>
+</main>
+
+<footer><div class="foot-in">AIWAN-E-JAMHOOR · ANALYSIS — THE FULL HOUSE · SOURCES: NATIONAL ASSEMBLY OF PAKISTAN / ECP</div></footer>
+<div class="tip" id="tip"></div>
+
+<script>
+/*__HOUSE_JSON__*/
+</script>
+<script>
+(function(){
+  function lsGet(k){ try{return localStorage.getItem(k);}catch(e){return null;} }
+  function lsSet(k,v){ try{localStorage.setItem(k,v);}catch(e){} }
+  var t=lsGet('aj-theme'); if(t) document.documentElement.dataset.th=t;
+  document.getElementById('theme').onclick=function(){
+    var d=document.documentElement.dataset.th==='dark'?'':'dark';
+    if(d) document.documentElement.dataset.th=d; else delete document.documentElement.dataset.th;
+    lsSet('aj-theme',d);
+  };
+})();
+
+var COLORS={'PML-N':'#006400','PML-Q':'#52b452','PPP':'#C1272D','IND':'#b7b3a8','MQM':'#c245b8','ANP':'#17A398','PTI':'#7a1f3d','PTI-IND':'#7a1f3d','JUI-F':'#c98500','MMA':'#c98500','PML-F':'#2a5bd7','BAP':'#5b7ba6','IPP':'#8a6d1a','National Alliance':'#6d4aa7','PML-J':'#6bbf59','PPP-P':'#8c3b3b','PPP-S':'#d46a6a','GDA':'#2e6f9e','JI':'#3f7f4f','NPP':'#7a7a3a','PkMAP':'#a0522d','PkNAP':'#a0522d','NP':'#4b6b8a','MWM':'#5b3a7a','QWP':'#b0803a','PML-Z':'#8fbf8f','AML':'#556b2f','BNP':'#5b7ba6','BNP-A':'#7c9cc4','JWP':'#7d6bbf','SIC':'#7a1f3d','Other':'#00a3c7'};
+var LABEL={'PTI-IND':'IND (PTI-backed)','IND':'Independent','National Alliance':'Nat. Alliance','PPP-P':'PPP (Patriots)','PPP-S':'PPP (Sherpao)'};
+function col(p){return COLORS[p]||COLORS.Other;}
+function lab(p){return LABEL[p]||p;}
+var YL=['2002','2008','2013','2018','2024'];
+var PROVS=['Punjab','Sindh','Khyber Pakhtunkhwa','Balochistan'];
+var PSHORT={'Punjab':'Punjab','Sindh':'Sindh','Khyber Pakhtunkhwa':'KP','Balochistan':'Bal.'};
+var H=window.HOUSE, state={year:'2024'};
+var tip=document.getElementById('tip');
+function showTip(h,e){tip.innerHTML=h;tip.style.display='block';tip.style.left=Math.min(e.clientX+14,innerWidth-300)+'px';tip.style.top=Math.min(e.clientY+14,innerHeight-120)+'px';}
+function hideTip(){tip.style.display='none';}
+function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');}
+function pct(a,b){return b?(100*a/b).toFixed(1)+'%':'–';}
+function sum(o){var s=0;for(var k in o)s+=o[k];return s;}
+
+// ---------- per-year composition ----------
+function composition(y){
+  var Y=H.years[y], gen=Y.general, off=Y.official, rows={};
+  Object.keys(gen).forEach(function(p){rows[p]=rows[p]||{g:0,w:0,n:0};rows[p].g+=gen[p];});
+  Object.keys(off).forEach(function(p){rows[p]=rows[p]||{g:0,w:0,n:0};rows[p].w+=off[p].women;rows[p].n+=off[p].nonmuslim;});
+  var list=Object.keys(rows).map(function(p){var r=rows[p];r.p=p;r.t=r.g+r.w+r.n;return r;});
+  list.sort(function(a,b){ if(a.p==='IND')return 1; if(b.p==='IND')return -1; return b.t-a.t||b.g-a.g; });
+  return list;
+}
+
+// ---------- hemicycle ----------
+function seatLayout(N,cx,cy,rIn,rOut,rows){
+  var pts=[], radii=[], caps=[], total=0;
+  for(var i=0;i<rows;i++){var r=rIn+(rOut-rIn)*i/(rows-1);radii.push(r);caps.push(Math.PI*r);total+=Math.PI*r;}
+  var per=caps.map(function(c){return Math.round(N*c/total);});
+  var d=N-per.reduce(function(a,b){return a+b;},0); per[rows-1]+=d;
+  for(var i=0;i<rows;i++){
+    var n=per[i]; for(var j=0;j<n;j++){var a=Math.PI*(n===1?0.5:j/(n-1)); pts.push({x:cx-radii[i]*Math.cos(a),y:cy-radii[i]*Math.sin(a),a:a,row:i});}
+  }
+  pts.sort(function(p,q){return p.a-q.a||p.row-q.row;});
+  return pts;
+}
+function renderHemi(y){
+  var Y=H.years[y], list=composition(y), svg=document.getElementById('hemi');
+  var seats=[]; // ordered by party
+  // reserved members by party in roll order, capped at allocation
+  var wByP={}, nByP={};
+  Y.reserved_women.forEach(function(m){(wByP[m.party]=wByP[m.party]||[]).push(m);});
+  Y.reserved_nonmuslim.forEach(function(m){(nByP[m.party]=nByP[m.party]||[]).push(m);});
+  var winners=(Y.winners||{});
+  list.forEach(function(r){
+    var p=r.p;
+    var gw=winners[p]||[];
+    for(var i=0;i<r.g;i++){var w=gw[i]; seats.push({p:p,k:'g',name:w?w.name:null,seat:w?w.na:null});}
+    for(var i=0;i<r.w;i++){var m=(wByP[p]||[])[i]; seats.push({p:p,k:'w',name:m?m.name:null,prov:m?m.province:null});}
+    for(var i=0;i<r.n;i++){var m=(nByP[p]||[])[i]; seats.push({p:p,k:'n',name:m?m.name:null});}
+  });
+  var N=seats.length, pts=seatLayout(N,360,380,150,350,9);
+  var out='';
+  seats.forEach(function(s,i){
+    var q=pts[i]; if(!q)return;
+    var c=col(s.p), title='';
+    if(s.k==='g') out+='<circle class="seat" data-i="'+i+'" cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="6.2" fill="'+c+'"/>';
+    else if(s.k==='w') out+='<circle class="seat" data-i="'+i+'" cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="6.2" fill="'+c+'"/><circle cx="'+q.x.toFixed(1)+'" cy="'+q.y.toFixed(1)+'" r="2.6" fill="var(--surface)" pointer-events="none"/>';
+    else out+='<rect class="seat" data-i="'+i+'" x="'+(q.x-5.6).toFixed(1)+'" y="'+(q.y-5.6).toFixed(1)+'" width="11.2" height="11.2" fill="'+c+'"/>';
+  });
+  var HS=H.meta.house[y], maj=Math.floor(HS/2)+1;
+  out+='<text x="360" y="366" text-anchor="middle" style="font-size:24px;fill:var(--ink);font-family:EB Garamond,serif">'+y+'</text>';
+  out+='<text x="360" y="412" text-anchor="middle" style="font-size:13px;fill:var(--ink)">'+N+' of '+HS+' seats · majority '+maj+'</text>';
+  out+='<text x="360" y="430" text-anchor="middle">'+Y.polled+' of '+H.meta.general[y]+' general seats polled on election day</text>';
+  svg.innerHTML=out;
+  svg.querySelectorAll('.seat').forEach(function(el){
+    el.addEventListener('mousemove',function(e){
+      var s=seats[+el.dataset.i], kind=s.k==='g'?'General seat':s.k==='w'?'Reserved seat · women':'Reserved seat · non-Muslim';
+      var t=s.name?esc(s.name):(s.p==='PTI-IND'?'PTI-backed independent bloc':s.p==='IND'&&y==='2024'?'Independent (not PTI-backed)':lab(s.p));
+      var m=lab(s.p)+(s.seat?' · '+s.seat:'')+(s.prov?' · '+s.prov:'');
+      showTip('<div class="t">'+t+'</div><div class="m">'+esc(m)+'</div><div class="m">'+kind+'</div>',e);
+    });
+    el.addEventListener('mouseleave',hideTip);
+  });
+  // legend
+  var lg=list.filter(function(r){return r.t>0;}).map(function(r){return '<span><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+' '+r.t+'</span>';});
+  lg.push('<span style="margin-left:auto"><span class="sw ring" style="color:var(--ink-3)"></span>women\'s seat</span><span><span class="sw sq" style="background:var(--ink-3)"></span>non-Muslim seat</span>');
+  document.getElementById('hemiLegend').innerHTML=lg.join('');
+  // table
+  var G=sum(Y.general), T=H.meta.house[y], top=list[0];
+  var h='<table><thead><tr><th>Party</th><th class="num">General</th><th class="num">Women</th><th class="num">Non-Muslim</th><th class="num">Total</th><th class="num">Share of elected</th><th class="num">Share of House <span style="font-weight:400;text-transform:none;letter-spacing:0">(of '+T+')</span></th></tr></thead><tbody>';
+  list.forEach(function(r){
+    if(!r.t)return;
+    var d=r.t/T-r.g/G;
+    h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+'</td><td class="num">'+r.g+'</td><td class="num">'+(r.w||'·')+'</td><td class="num">'+(r.n||'·')+'</td><td class="num">'+r.t+'</td><td class="num">'+pct(r.g,G)+'</td><td class="num">'+pct(r.t,T)+' <span class="delta '+(d>0.0005?'pos':d<-0.0005?'neg':'')+'">'+(d>0.0005?'+':'')+(100*d).toFixed(1)+'</span></td></tr>';
+  });
+  h+='<tr class="tot"><td>Total</td><td class="num">'+G+'</td><td class="num">'+list.reduce(function(a,r){return a+r.w;},0)+'</td><td class="num">'+list.reduce(function(a,r){return a+r.n;},0)+'</td><td class="num">'+N+'</td><td class="num">100%</td><td class="num">'+pct(N,T)+'</td></tr></tbody></table>';
+  document.getElementById('houseTable').innerHTML=h;
+  // note — numbers computed from the table above; prose adds context only
+  var HS=H.meta.house[y], maj=Math.floor(HS/2)+1, r1=list[0], r2=list[1];
+  var gap0=r1.g-r2.g, gap1=r1.t-r2.t;
+  var lead=gap0>=0?'Its lead over '+esc(lab(r2.p))+' goes from '+gap0+' elected seats to '+gap1+' in the House.':'It trailed '+esc(lab(r2.p))+' by '+(-gap0)+' elected seats but leads by '+gap1+' in the House.';
+  var base='<b>'+y+'.</b> '+esc(lab(r1.p))+' won '+r1.g+' of the '+G+' general seats polled ('+pct(r1.g,G)+') and sits with '+r1.t+' in the '+HS+'-seat House ('+pct(r1.t,HS)+') once its '+r1.w+' women\'s and '+r1.n+' non-Muslim seats are added — '+(r1.t>=maj?'past':(maj-r1.t)+' short of')+' the majority line of '+maj+'. '+lead;
+  var extra={
+    '2002':' The Assembly\'s own roll was compiled after the PPP "Patriots" split of November 2002; the general-seat column is the election-day result, not that later snapshot.',
+    '2008':' Reserved seats did not bring the PPP a majority, hence the coalition with PML-N, ANP and MQM.',
+    '2013':' PML-N crossed the majority line only with the 19 independents who joined it within three days of the result; the reserved allocation on its own added '+(r1.w+r1.n)+' seats to a party that had won '+r1.g+'.',
+    '2018':' The 9 independents who joined PTI are not in this count; even with them it needed allies.',
+    '2024':' The 85 PTI-backed independents were the largest bloc of elected members but, as independents, drew no reserved seats: all 70 went to parties that had won '+(G-(Y.general['IND']||0)-(Y.general['PTI-IND']||0))+' general seats between them. See "Who gets the reserved seats" for the entitlement and the litigation.'
+  };
+  document.getElementById('houseNote').innerHTML=base+(extra[y]||'');
+  window.__csvHouse=function(){var rows=[['year','party','general','women','nonmuslim','total']];list.forEach(function(r){if(r.t)rows.push([y,lab(r.p),r.g,r.w,r.n,r.t]);});return rows.map(function(r){return r.join(',');}).join('\n');};
+}
+
+// ---------- allocation table ----------
+function renderAlloc(y){
+  var Y=H.years[y], ent=Y.entitlement, off=Y.official, gbp=Y.general_by_prov, parties={};
+  function add(p){parties[p]=parties[p]||{g:0,gp:{},ew:0,ewp:{},en:0,ow:0,on:0};return parties[p];}
+  PROVS.forEach(function(pr){var c=gbp[pr]||{};Object.keys(c).forEach(function(p){var r=add(p);r.g+=c[p];r.gp[pr]=(r.gp[pr]||0)+c[p];});});
+  Object.keys(gbp).forEach(function(pr){if(PROVS.indexOf(pr)<0){var c=gbp[pr];Object.keys(c).forEach(function(p){var r=add(p);r.g+=c[p];r.gp['other']=(r.gp['other']||0)+c[p];});}});
+  PROVS.forEach(function(pr){var e=ent.women_by_prov[pr]||{};Object.keys(e).forEach(function(p){var r=add(p);r.ew+=e[p];r.ewp[pr]=e[p];});});
+  Object.keys(ent.nonmuslim).forEach(function(p){add(p).en=ent.nonmuslim[p];});
+  Object.keys(off).forEach(function(p){var r=add(p);r.ow=off[p].women;r.on=off[p].nonmuslim;});
+  var list=Object.keys(parties).map(function(p){var r=parties[p];r.p=p;return r;}).filter(function(r){return r.p!=='IND'&&r.p!=='PTI-IND';});
+  list.sort(function(a,b){return (b.ow+b.on)-(a.ow+a.on)||b.g-a.g;});
+  var ind=(parties['IND']||{g:0}).g;
+  var q=H.meta.wquota[y];
+  var h='<table><thead><tr><th rowspan="2">Party</th><th class="num" rowspan="2">General seats<br><span style="font-weight:400;text-transform:none;letter-spacing:0">election day</span></th><th colspan="'+(PROVS.length+1)+'" style="text-align:center;border-bottom:0">Women\'s seats — entitlement by province</th><th class="num" rowspan="2">Women<br>ECP</th><th class="num" rowspan="2">Δ</th><th class="num" rowspan="2">Non-Muslim<br>entitlement</th><th class="num" rowspan="2">Non-Muslim<br>ECP</th><th class="num" rowspan="2">Δ</th></tr><tr>';
+  PROVS.forEach(function(pr){h+='<th class="num">'+PSHORT[pr]+' <span style="color:var(--ink-3);font-weight:400">'+q[pr]+'</span></th>';});
+  h+='<th class="num">All</th></tr></thead><tbody>';
+  function dl(v){return '<span class="delta '+(v>0?'pos':v<0?'neg':'')+'">'+(v>0?'+':'')+(v||'·')+'</span>';}
+  var tot={g:0,ew:0,ow:0,en:0,on:0};
+  list.forEach(function(r){
+    tot.g+=r.g;tot.ew+=r.ew;tot.ow+=r.ow;tot.en+=r.en;tot.on+=r.on;
+    h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+'</td><td class="num">'+r.g+'</td>';
+    PROVS.forEach(function(pr){h+='<td class="num'+(r.ewp[pr]?'':' dim')+'">'+(r.ewp[pr]||(r.gp[pr]?'0':'·'))+'</td>';});
+    h+='<td class="num">'+r.ew+'</td><td class="num">'+r.ow+'</td><td class="num">'+dl(r.ow-r.ew)+'</td><td class="num">'+(r.en||'·')+'</td><td class="num">'+(r.on||'·')+'</td><td class="num">'+dl(r.on-r.en)+'</td></tr>';
+  });
+  h+='<tr><td class="dim">Independents</td><td class="num dim">'+ind+'</td><td class="dim" colspan="'+(PROVS.length+1)+'">no entitlement</td><td class="num dim">·</td><td></td><td class="num dim">·</td><td class="num dim">·</td><td></td></tr>';
+  h+='<tr class="tot"><td>Total</td><td class="num">'+(tot.g+ind)+'</td>';
+  PROVS.forEach(function(pr){h+='<td class="num">'+sum(ent.women_by_prov[pr]||{})+'</td>';});
+  h+='<td class="num">'+tot.ew+'</td><td class="num">'+tot.ow+'</td><td></td><td class="num">'+tot.en+'</td><td class="num">'+tot.on+'</td><td></td></tr></tbody></table>';
+  document.getElementById('allocTable').innerHTML=h;
+  var j=H.meta.joiners[y];
+  var gains=[],losses=[];
+  list.forEach(function(r){var d=(r.ow-r.ew)+(r.on-r.en);if(d>0)gains.push(esc(lab(r.p))+' +'+d);if(d<0)losses.push(esc(lab(r.p))+' '+d);});
+  var comp='Against the election-day entitlement, the ECP allocation gives '+(gains.length?gains.join(', '):'nothing extra')+(losses.length?' and takes '+losses.join(', '):'')+'.';
+  var ctx={
+    '2002':'The ECP\'s 2002 party-position notification is not online; the pattern — extra seats to PML-Q, fewer to PPP and PML-N — is consistent with independents joining PML-Q within the window, but no count of them was found. Two seats (NA-262, NA-263) were not polled on election day.',
+    '2008':'Seven independents joined the PPP and three PML-N within the window, which is enough to move one women\'s seat to the PPP. JUI-F contested as MMA in 2008 and is booked as MMA on both sides of this table.',
+    '2013':'Nineteen independents joined PML-N within three days — the largest accession of the period — which is what lifts its women\'s allocation from 32 to 34 and its non-Muslim allocation from 5 to 6.',
+    '2018':'Nine independents joined PTI, worth two women\'s seats. The smaller shifts are marginal seats decided by remainders, where a single accession or a tie changes the outcome.',
+    '2024':'The parties won 167 of the 266 general seats; PTI-backed candidates, running as independents after the party lost its symbol, won 85 and were entitled to nothing. The ECP initially withheld the seats it calculated as the SIC\'s claim (21 women\'s and 4 non-Muslim in the National Assembly), then on 4 March 2024 distributed them to the other parties. Roughly eight independents joined PML-N, which is most of its gain here. The panel below sets out what the rule would have given the PTI bloc as a party, and the decisions that followed.'
+  };
+  document.getElementById('allocNote').innerHTML='<b>'+y+'.</b> '+comp+' '+(ctx[y]||'')+(j?' <span class="mono" style="font-size:11.5px;color:var(--ink-3)">Independents joining within the window: '+esc(j)+'.</span>':'')+' <span class="mono" style="font-size:11.5px;color:var(--ink-3)">Ties at the margin are broken in favour of the larger party; a different tie-break can move a single seat.</span>';
+  // 2024 counterfactual panel
+  var cf=document.getElementById('cf2024');
+  if(y!=='2024'){cf.innerHTML='';return;}
+  var C=Y.counterfactual, first=H.meta.official_2024_first;
+  var ps=['PTI-IND','PML-N','PPP','MQM','JUI-F','IPP','PML-Q','MWM','BAP'];
+  var h2='<h3>2024: three ways to count the same House</h3><p class="note">Left: the rule applied to the parties as declared on election day (what the ECP\'s March 2024 order and the 2025 review verdict amount to). Middle: the ECP\'s first-round notification, which withheld 25 seats while the SIC claim was pending. Right: the rule applied with the 85 PTI-backed independents counted as a single party — the Supreme Court majority\'s July 2024 position, never implemented. Provincial split of the PTI bloc taken from the ECP/FAFEN reconciliation (Punjab 52, KP 32, Balochistan 1).</p>';
+  h2+='<div class="card" style="overflow-x:auto"><table><thead><tr><th>Party</th><th class="num">Elected</th><th class="num" colspan="2">Election-day parties<br>W · NM</th><th class="num" colspan="2">ECP first round<br>W · NM</th><th class="num" colspan="2">PTI bloc as a party<br>W · NM</th><th class="num">House<br>(rule)</th><th class="num">House<br>(PTI counted)</th></tr></thead><tbody>';
+  ps.forEach(function(p){
+    var g=Y.general[p]||0, ew=(Y.entitlement.women[p]||0), en=(Y.entitlement.nonmuslim[p]||0), fw=first[p]?first[p][0]:0, fn=first[p]?first[p][1]:0, cw=C.women[p]||0, cn=C.nonmuslim[p]||0;
+    var ow=(off[p]||{}).women||0, on=(off[p]||{}).nonmuslim||0;
+    h2+='<tr><td><span class="sw" style="background:'+col(p)+'"></span>'+esc(lab(p))+'</td><td class="num">'+g+'</td><td class="num">'+(ow||'·')+'</td><td class="num">'+(on||'·')+'</td><td class="num">'+(fw||'·')+'</td><td class="num">'+(fn||'·')+'</td><td class="num">'+(cw||'·')+'</td><td class="num">'+(cn||'·')+'</td><td class="num">'+(g+ow+on)+'</td><td class="num">'+(g+cw+cn)+'</td></tr>';
+  });
+  h2+='</tbody></table><p class="note" style="margin-top:8px">"Election-day parties" is the ECP\'s final notified allocation, which is the rule applied to the declared parties after the independents who joined PML-N are counted. The PTI-counted column is a counterfactual, not a result: 20 women\'s and 4 non-Muslim seats — the same 24 seats the Supreme Court suspended on 6 May 2024.</p></div>';
+  h2+='<div class="card"><div class="kicker">What the courts and the Commission said</div><ul class="timeline">'+
+  '<li><span class="d">13 Jan 2024</span><span>Supreme Court upholds the ECP\'s withdrawal of PTI\'s election symbol over its intra-party elections; PTI candidates contest as independents.</span></li>'+
+  '<li><span class="d">19–22 Feb 2024</span><span>PTI-backed winners file affidavits joining the Sunni Ittehad Council, a party that fielded no NA candidates and had filed no priority list of reserved-seat nominees under s. 104.</span></li>'+
+  '<li><span class="d">4 Mar 2024</span><span>ECP, 4–1, rejects the SIC claim and distributes the withheld seats to the other parties in proportion, holding that seats cannot be left vacant.</span></li>'+
+  '<li><span class="d">14 Mar 2024</span><span>Peshawar High Court dismisses the SIC petition.</span></li>'+
+  '<li><span class="d">6 May 2024</span><span>Supreme Court suspends the PHC judgment and the ECP allocation; 24 National Assembly members lose their seats pending the appeal.</span></li>'+
+  '<li><span class="d">12 Jul 2024</span><span>Full court, 8–5: the ECP and PHC orders are set aside; PTI "was and is a political party" entitled to reserved seats and may file lists. The order is not implemented; Parliament passes the Elections (Second Amendment) Act 2024, restricting late changes of party affiliation.</span></li>'+
+  '<li><span class="d">27 Jun 2025</span><span>Constitutional bench, on review: the July 2024 majority judgment is set aside; the ECP\'s allocation of March 2024 stands and the affected members are re-notified.</span></li>'+
+  '</ul><p class="note" style="margin-top:8px">This site records what each body decided and when; it takes no view on the merits. Dates and holdings per the judgments and ECP orders as summarised in the sources listed below.</p></div>';
+  cf.innerHTML=h2;
+}
+
+// ---------- women ----------
+function renderWomen(){
+  var svg=document.getElementById('wchart'), W=640, Hh=300, padL=48, padB=40, padT=18, cw=(W-padL-20)/YL.length;
+  var maxv=80, out='';
+  function ys(v){return padT+(Hh-padT-padB)*(1-v/maxv);}
+  [0,20,40,60,80].forEach(function(v){out+='<line x1="'+padL+'" x2="'+(W-14)+'" y1="'+ys(v)+'" y2="'+ys(v)+'" stroke="var(--line-2)"/><text x="'+(padL-6)+'" y="'+(ys(v)+3.5)+'" text-anchor="end">'+v+'</text>';});
+  var csv=[['year','reserved_women','women_general_seats','house_size','women_share_of_house','women_share_of_general_winners']];
+  YL.forEach(function(y,i){
+    var Y=H.years[y], res=60;
+    var g=Y.women_general.length, T=H.meta.house[y], x=padL+i*cw+cw*0.2, bw=cw*0.6;
+    out+='<rect x="'+x+'" y="'+ys(res)+'" width="'+bw+'" height="'+(ys(0)-ys(res))+'" fill="var(--gold)" opacity=".85"/>';
+    out+='<rect x="'+x+'" y="'+ys(res+g)+'" width="'+bw+'" height="'+(ys(res)-ys(res+g))+'" fill="var(--green)"/>';
+    out+='<text x="'+(x+bw/2)+'" y="'+(ys(res+g)-6)+'" text-anchor="middle" style="fill:var(--ink)">'+(res+g)+'</text>';
+    out+='<text x="'+(x+bw/2)+'" y="'+(ys(0)+16)+'" text-anchor="middle" style="fill:var(--ink)">'+y+'</text>';
+    out+='<text x="'+(x+bw/2)+'" y="'+(ys(0)+30)+'" text-anchor="middle">'+pct(res+g,T)+'</text>';
+    csv.push([y,res,g,T,(100*(res+g)/T).toFixed(1),(100*g/Y.polled).toFixed(1)]);
+  });
+  svg.innerHTML=out;
+  document.getElementById('wLegend').innerHTML='<span><span class="sw" style="background:var(--gold)"></span>reserved seats (60)</span><span><span class="sw" style="background:var(--green)"></span>won on general seats</span>';
+  window.__csvWomen=function(){return csv.map(function(r){return r.join(',');}).join('\n');};
+  // stats
+  var s='<div class="kicker">Women on general seats</div><table><thead><tr><th>Year</th><th class="num">Won</th><th class="num">Of polled</th><th class="num">Punjab</th><th class="num">Sindh</th><th class="num">KP</th><th class="num">Bal.</th></tr></thead><tbody>';
+  YL.forEach(function(y){var Y=H.years[y], c={};Y.women_general.forEach(function(w){c[w.province]=(c[w.province]||0)+1;});
+    s+='<tr><td>'+y+'</td><td class="num">'+Y.women_general.length+'</td><td class="num">'+pct(Y.women_general.length,Y.polled)+'</td>'+PROVS.map(function(p){return '<td class="num">'+(c[p]||'·')+'</td>';}).join('')+'</tr>';});
+  s+='</tbody></table><p class="note" style="margin-top:10px">Women\'s share of the House has sat between 19% and 22% throughout: the reserved seats fix the floor at 17.6–17.9%, and the general seats have never added more than 4 points to it.</p>';
+  document.getElementById('wstats').innerHTML=s;
+  // general-seat list
+  var h='<table><thead><tr><th>Year</th><th>Seat</th><th>Member</th><th>Party</th><th>Province</th></tr></thead><tbody>';
+  YL.forEach(function(y){H.years[y].women_general.slice().sort(function(a,b){return +a.na.slice(3)-+b.na.slice(3);}).forEach(function(w){
+    h+='<tr><td class="mono">'+y+'</td><td class="mono"><a href="map.html?year='+y+'&seat='+w.na+'">'+w.na+'</a></td><td>'+esc(w.name)+'</td><td><span class="sw" style="background:'+col(w.party)+'"></span>'+esc(lab(w.party))+'</td><td>'+esc(w.province)+'</td></tr>';});});
+  h+='</tbody></table>';
+  document.getElementById('wgeneral').innerHTML=h;
+  // crossings
+  var seen={}, rows=[];
+  YL.forEach(function(y){H.years[y].reserved_women.forEach(function(m){ if(!m.person_id||!m.career)return; var k=m.person_id; if(!seen[k]) seen[k]={pid:k,name:m.career.name||m.name,res:[],won:m.career.won,contested:m.career.contested,party:m.party}; seen[k].res.push(y); });});
+  Object.keys(seen).forEach(function(k){rows.push(seen[k]);});
+  rows.sort(function(a,b){return (b.won.length-a.won.length)||(b.contested.length-a.contested.length)||a.name.localeCompare(b.name);});
+  var h3='<table><thead><tr><th>Member</th><th>Reserved seat</th><th>Won general seat</th><th>Contested general seat</th></tr></thead><tbody>';
+  rows.forEach(function(r){h3+='<tr><td><a href="candidates.html?tab=search&q='+encodeURIComponent(r.name)+'">'+esc(r.name)+'</a></td><td class="mono">'+r.res.join(' · ')+'</td><td class="mono">'+(r.won.length?r.won.join(' · '):'<span class="dim">–</span>')+'</td><td class="mono">'+r.contested.join(' · ')+'</td></tr>';});
+  h3+='</tbody></table><p class="note" style="margin-top:8px">'+rows.length+' of the reserved women across the five assemblies match a name on the general-seat candidate spine; '+rows.filter(function(r){return r.won.length;}).length+' of them have won a general seat at some point. Matching is conservative — unmatched members may still have contested under a differently spelt name.</p>';
+  document.getElementById('wcross').innerHTML=h3;
+}
+
+// ---------- non-Muslim ----------
+function renderNM(){
+  var parties={};
+  YL.forEach(function(y){var o=H.years[y].official;Object.keys(o).forEach(function(p){if(o[p].nonmuslim){parties[p]=parties[p]||{};parties[p][y]=o[p].nonmuslim;}});});
+  var ps=Object.keys(parties).sort(function(a,b){return sum(parties[b])-sum(parties[a]);});
+  var h='<table><thead><tr><th>Party</th>'+YL.map(function(y){return '<th class="num">'+y+'</th>';}).join('')+'</tr></thead><tbody>';
+  ps.forEach(function(p){h+='<tr><td><span class="sw" style="background:'+col(p)+'"></span>'+esc(lab(p))+'</td>'+YL.map(function(y){return '<td class="num">'+(parties[p][y]||'·')+'</td>';}).join('')+'</tr>';});
+  h+='<tr class="tot"><td>Total</td>'+YL.map(function(y){return '<td class="num">10</td>';}).join('')+'</tr></tbody></table>';
+  document.getElementById('nmTable').innerHTML=h;
+  // roster by person (fold by squashed name)
+  var people={};
+  function key(n){return n.toLowerCase().replace(/^(mr|mrs|ms|dr|prof|engr)\.?\s+/,'').replace(/[^a-z]/g,'').replace(/kheeal/,'kheal');}
+  YL.forEach(function(y){H.years[y].reserved_nonmuslim.forEach(function(m){var k=key(m.name);if(!people[k])people[k]={name:m.name,terms:[],parties:{}};people[k].terms.push(y);people[k].parties[m.party]=1;if(m.remarks)people[k].remarks=m.remarks;});});
+  var list=Object.keys(people).map(function(k){return people[k];}).sort(function(a,b){return b.terms.length-a.terms.length||a.name.localeCompare(b.name);});
+  var h2='<table><thead><tr><th>Member</th><th>Assemblies</th><th>Party</th><th>Note</th></tr></thead><tbody>';
+  list.forEach(function(p){h2+='<tr><td>'+esc(p.name)+'</td><td class="mono">'+p.terms.join(' · ')+'</td><td>'+Object.keys(p.parties).map(function(q){return '<span class="sw" style="background:'+col(q)+'"></span>'+esc(lab(q));}).join(' ')+'</td><td class="dim">'+esc(p.remarks||'')+'</td></tr>';});
+  h2+='</tbody></table><p class="note" style="margin-top:8px">'+list.length+' individuals have held the ten seats across five assemblies; '+list.filter(function(p){return p.terms.length>=3;}).length+' have sat in three or more. Names grouped by spelling; the 13th–15th lists include replacements.</p>';
+  document.getElementById('nmRoster').innerHTML=h2;
+}
+
+// ---------- roster ----------
+function rosterRows(){
+  var rows=[];
+  YL.forEach(function(y){var Y=H.years[y];
+    Y.reserved_women.forEach(function(m){rows.push({y:y,asm:Y.assembly,type:'reserved_women',name:m.name,party:m.party,prov:m.province,via:m.elected_via,rem:m.remarks,pid:m.person_id,career:m.career});});
+    Y.reserved_nonmuslim.forEach(function(m){rows.push({y:y,asm:Y.assembly,type:'reserved_nonmuslim',name:m.name,party:m.party,prov:null,via:m.elected_via,rem:m.remarks,pid:m.person_id,career:m.career});});
+  });
+  return rows;
+}
+var ROWS=rosterRows();
+function renderRoster(){
+  var y=document.getElementById('rYear').value, t=document.getElementById('rType').value, p=document.getElementById('rParty').value, pr=document.getElementById('rProv').value, q=(document.getElementById('rQ').value||'').toLowerCase().trim();
+  var rows=ROWS.filter(function(r){return (!y||r.y===y)&&(!t||r.type===t)&&(!p||r.party===p)&&(!pr||r.prov===pr)&&(!q||r.name.toLowerCase().indexOf(q)>-1);});
+  var h='<table><thead><tr><th>Assembly</th><th>Member</th><th>Seat</th><th>Province</th><th>Party</th><th>Status</th><th>General-seat record</th></tr></thead><tbody>';
+  rows.forEach(function(r){
+    var rec=r.career?('won '+(r.career.won.length?r.career.won.join(', '):'–')+' · ran '+r.career.contested.join(', ')):'';
+    h+='<tr><td class="mono">'+r.y+' · '+r.asm+'th</td><td>'+esc(r.name)+(r.pid?' <a class="pill" href="candidates.html?tab=search&q='+encodeURIComponent(r.career&&r.career.name||r.name)+'">spine</a>':'')+'</td><td><span class="pill '+(r.type==='reserved_women'?'w':'n')+'" style="margin:0">'+(r.type==='reserved_women'?'women':'non-Muslim')+'</span></td><td>'+esc(r.prov||'nationwide')+'</td><td><span class="sw" style="background:'+col(r.party)+'"></span>'+esc(lab(r.party))+'</td><td class="dim">'+esc(r.rem||(r.via==='by_election'?'by-election / replacement':''))+'</td><td class="dim mono" style="font-size:11.5px">'+esc(rec)+'</td></tr>';
+  });
+  h+='</tbody></table><p class="note" style="margin-top:8px">'+rows.length+' members shown.</p>';
+  document.getElementById('roster').innerHTML=h;
+}
+
+// ---------- stats strip ----------
+function renderStats(){
+  var Y=H.years['2024'], wg=0; YL.forEach(function(y){wg+=H.years[y].women_general.length;});
+  var cross=0; YL.forEach(function(y){H.years[y].reserved_women.forEach(function(m){if(m.career&&m.career.won.length)cross++;});});
+  var s=[
+    ['70','reserved seats','of 336 in the 16th Assembly'],
+    ['60 + 12','women in 2024','reserved + general seats'],
+    [wg,'general seats won by women','2002–2024, election day'],
+    ['24','seats in dispute, 2024','20 women\'s + 4 non-Muslim'],
+    ['5','assemblies','12th–16th, 2002–2024']
+  ];
+  document.getElementById('stats').innerHTML=s.map(function(x){return '<div class="stat"><div class="l">'+x[1]+'</div><div class="v">'+x[0]+'</div><div class="s">'+x[2]+'</div></div>';}).join('');
+}
+
+// ---------- wiring ----------
+function yearToggle(id,fn){
+  var el=document.getElementById(id);
+  el.innerHTML=YL.map(function(y){return '<button data-y="'+y+'"'+(y===state.year?' class="on"':'')+'>'+y+'</button>';}).join('');
+  el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;state.year=b.dataset.y;document.querySelectorAll('#yrTog button,#yrTog2 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);});
+}
+yearToggle('yrTog'); yearToggle('yrTog2');
+renderStats(); renderHemi(state.year); renderAlloc(state.year); renderWomen(); renderNM();
+(function(){
+  var ry=document.getElementById('rYear'); ry.innerHTML='<option value="">All assemblies</option>'+YL.map(function(y){return '<option value="'+y+'">'+y+' · '+H.years[y].assembly+'th</option>';}).join('');
+  var ps={}; ROWS.forEach(function(r){ps[r.party]=1;});
+  var rp=document.getElementById('rParty'); Object.keys(ps).sort().forEach(function(p){var o=document.createElement('option');o.value=p;o.textContent=lab(p);rp.appendChild(o);});
+  ['rYear','rType','rParty','rProv'].forEach(function(id){document.getElementById(id).onchange=renderRoster;});
+  document.getElementById('rQ').oninput=renderRoster;
+  renderRoster();
+})();
+document.getElementById('pageTabs').addEventListener('click',function(e){
+  var b=e.target.closest('button'); if(!b)return;
+  document.querySelectorAll('#pageTabs button').forEach(function(x){x.classList.toggle('on',x===b);});
+  document.querySelectorAll('.tabsec').forEach(function(s){s.classList.toggle('on',s.dataset.t===b.dataset.t);});
+  history.replaceState(null,'','#'+b.dataset.t+(b.dataset.t==='house'||b.dataset.t==='alloc'?'~'+state.year:''));
+});
+(function(){
+  function dl(name,mime,content){var a=document.createElement('a');a.download=name;a.href='data:'+mime+';charset=utf-8,'+encodeURIComponent(content);a.click();}
+  function inlineStyles(src,dst){var cs=getComputedStyle(src);['fill','stroke','stroke-width','font-family','font-size','font-weight','opacity','text-anchor'].forEach(function(p){var v=cs.getPropertyValue(p);if(v)dst.setAttribute('style',(dst.getAttribute('style')||'')+p+':'+v+';');});for(var i=0;i<src.children.length;i++)inlineStyles(src.children[i],dst.children[i]);}
+  function downloadPng(svgId,name){
+    var svg=document.getElementById(svgId), vb=svg.getAttribute('viewBox').split(' '), w=+vb[2], hh=+vb[3];
+    var clone=svg.cloneNode(true); inlineStyles(svg,clone); clone.setAttribute('width',w); clone.setAttribute('height',hh); clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
+    var bg=document.createElementNS('http://www.w3.org/2000/svg','rect'); bg.setAttribute('width',w); bg.setAttribute('height',hh); bg.setAttribute('fill',getComputedStyle(document.body).backgroundColor||'#eeece6'); clone.insertBefore(bg,clone.firstChild);
+    var img=new Image(); img.onload=function(){var c=document.createElement('canvas');c.width=w*2;c.height=hh*2;var ctx=c.getContext('2d');ctx.scale(2,2);ctx.drawImage(img,0,0);var a=document.createElement('a');a.download=name+'_'+state.year+'.png';a.href=c.toDataURL('image/png');a.click();};
+    img.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(new XMLSerializer().serializeToString(clone));
+  }
+  function copyLink(tab,btn){
+    var hash='#'+tab+(tab==='house'||tab==='alloc'?'~'+state.year:'');
+    var url=(location.protocol==='file:')?'https://aiwan.adaad.org/house.html'+hash:location.href.split('#')[0]+hash;
+    function done(){var t=btn.textContent;btn.textContent='Copied!';setTimeout(function(){btn.textContent=t;},1400);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,function(){window.prompt('Copy this link:',url);});} else window.prompt('Copy this link:',url);
+  }
+  document.querySelectorAll('.chartbar button').forEach(function(b){
+    b.addEventListener('click',function(){
+      if(b.dataset.act==='link') copyLink(b.dataset.tab,b);
+      else if(b.dataset.act==='png') downloadPng(b.dataset.svg,b.dataset.name);
+      else if(b.dataset.act==='csv'){
+        if(b.dataset.kind==='house') dl('aiwan_house_'+state.year+'.csv','text/csv',window.__csvHouse());
+        else if(b.dataset.kind==='women') dl('aiwan_women_na_2002_2024.csv','text/csv',window.__csvWomen());
+        else if(b.dataset.kind==='roster'){var rows=[['year','assembly','seat_type','name','party','province','status','person_id']];ROWS.forEach(function(r){rows.push([r.y,r.asm,r.type,'"'+r.name.replace(/"/g,'""')+'"',lab(r.party),r.prov||'',r.rem||'',r.pid||'']);});dl('aiwan_reserved_roster_2002_2024.csv','text/csv',rows.map(function(r){return r.join(',');}).join('\n'));}
+      }
+    });
+  });
+  var hh=decodeURIComponent(location.hash.slice(1));
+  if(hh){var parts=hh.split('~'), tab=parts[0]; if(parts[1]&&YL.indexOf(parts[1])>-1){state.year=parts[1];document.querySelectorAll('#yrTog button,#yrTog2 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);}
+    var btn=document.querySelector('#pageTabs button[data-t="'+tab+'"]'); if(btn) btn.click();}
+})();
+</script>
+<div class="legal">
+  <div class="legal-in">
+    <span>&copy; 2026 Hiba Sameen</span>
+    <span>Code: <a href="https://opensource.org/licenses/MIT">MIT Licence</a></span>
+    <span class="lg-opt">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+    <span class="sp"></span>
+    <a class="lg-nav" href="about.html">About</a>
+    <a class="lg-nav" href="method.html">Method</a>
+    <a href="https://github.com/hibasameen/aiwan-e-jamhoor">GitHub</a>
+  </div>
+</div>
+<script data-goatcounter="https://aiwan.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

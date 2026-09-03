@@ -114,6 +114,22 @@ body{padding-bottom:44px}
 @media (max-width:560px){.legal-in{gap:6px 14px}.legal-in .lg-nav{display:none}}
 @media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
 @media (max-width:720px){.legal-in{padding:11px 18px}}
+/* ---- shared responsive header (identical on every page) ---- */
+@media (max-width:1040px){
+  .shell-in{flex-wrap:wrap;gap:8px 14px;padding:10px 18px}
+  .brand{order:1} .hdr-tools{order:2;margin-left:auto} .spacer{display:none}
+  nav.main{order:3;flex:1 0 100%;margin:0 -18px -10px;padding:0 18px 10px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}
+  nav.main::-webkit-scrollbar{display:none}
+  nav.main a{padding:7px 11px;font-size:13px;flex:none}
+}
+@media (max-width:560px){
+  .brand .mk{width:32px;height:32px}
+  .brand .wm{font-size:20px} .brand .wm .ur{font-size:15px;margin-inline-start:6px}
+  .brand .sub{display:none}
+  .icon-btn{width:32px;height:32px}
+  main{padding-left:16px;padding-right:16px}
+  h1{font-size:30px} h1 .ur{font-size:20px;margin-inline-start:6px}
+}
 </style>
 </head>
 <body>
@@ -136,6 +152,7 @@ body{padding-bottom:44px}
       <a href="index.html">Home</a>
       <a href="map.html">Constituency Results</a>
       <a class="on" href="candidates.html">Candidates</a>
+      <a href="house.html">The House</a>
       <a href="islam.html">Islam &amp; Politics</a>
       <a href="about.html">About</a>
       <a href="method.html">Method</a>
@@ -169,7 +186,7 @@ const PIDX=Object.entries(PEOPLE).map(([id,x])=>[id,x.n.toLowerCase()]);
 function isDark(){return document.documentElement.dataset.theme==='dark'||(!document.documentElement.dataset.theme&&matchMedia('(prefers-color-scheme: dark)').matches);}
 function ccol(p){return (isDark()&&DARK_OVR[p])?DARK_OVR[p]:(CAREER_COLORS[p]||CAREER_COLORS.Other);}
 function cfg(p){return p==='IND'?(isDark()?'#12110f':'#12110f'):'#fff';}
-const __q=new URLSearchParams(location.search);const __t=__q.get('tab')||location.hash.slice(1);const state={tab:(['overview','longest','switching','dynasties','search'].indexOf(__t)>-1?__t:'overview'),fam:0,q:'',person:null,prov:'All',ffNoDyn:true};
+const __q=new URLSearchParams(location.search);const __t=__q.get('tab')||location.hash.slice(1);const state={tab:(['overview','longest','switching','dynasties','search'].indexOf(__t)>-1?__t:'overview'),fam:0,q:(__q.get('q')||''),person:null,prov:'All',ffNoDyn:true};
 const tip=document.getElementById('tip');
 function showTip(h,e){tip.innerHTML=h;tip.style.display='block';tip.style.left=Math.min(e.clientX+14,innerWidth-300)+'px';tip.style.top=Math.min(e.clientY+14,innerHeight-120)+'px';}
 function hideTip(){tip.style.display='none';}
