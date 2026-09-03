@@ -127,6 +127,16 @@ footer{border-top:1px solid var(--line);margin-top:60px;margin-bottom:44px}
 sup{color:var(--gold)}
 ul.src{font-size:13px;color:var(--ink-2)}
 .hemi-wrap{overflow-x:auto}
+details.fold{border-top:1px solid var(--line);margin-top:18px}
+details.fold>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:12px;padding:12px 0 8px;font-family:'EB Garamond',serif;font-weight:500;font-size:20px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary::before{content:'+';font-family:'Space Mono',monospace;font-size:15px;color:var(--gold);border:1px solid var(--line);width:20px;height:20px;line-height:18px;text-align:center;border-radius:2px;flex:none;position:relative;top:-2px}
+details.fold[open]>summary::before{content:'−'}
+details.fold>summary .cnt{font:11px 'Space Mono',monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-left:auto}
+details.fold>summary:hover{color:var(--green)}
+.scroll{max-height:440px;overflow:auto}
+.scroll table thead th{position:sticky;top:0;background:var(--surface);z-index:1}
+.callout.compact{margin-top:10px}
 .seat{cursor:pointer}
 .seat:hover{stroke:var(--ink);stroke-width:1.5}
 /* ---- shared responsive header (identical on every page) ---- */
@@ -230,33 +240,62 @@ ul.src{font-size:13px;color:var(--ink-2)}
       <div class="legend" id="wLegend"></div>
       <div class="chartbar"><button data-act="link" data-tab="women">Share link</button><button data-act="png" data-svg="wchart" data-name="aiwan_women_na">PNG</button><button data-act="csv" data-kind="women">CSV</button></div>
     </div>
-    <div class="card" id="wstats"></div>
-  </div>
-  <div class="callout" id="lapseNote"><b>Why there were no women's seats from 1990 to 1997.</b> The 1973 Constitution reserved the seats only for a fixed period: Article 51(4) read "until the expiration of a period of ten years from the commencing day or the holding of the second general election to the National Assembly, whichever occurs later, ten seats … shall be reserved for women". Zia's Revival of the Constitution Order of 1985 raised the number to twenty, and the Eighth Amendment changed "second" to "third" — so the provision expired with the third election, 1988. Restoring it needed a constitutional amendment passed by two-thirds of both Houses, and no government of the 1990s had that majority: bills were tabled under Benazir Bhutto's first government in 1989 and again in 1994, and lapsed. The 1997 Commission of Inquiry for Women recommended a third of seats for women; nothing was enacted before the 1999 coup. The seats came back under Musharraf's Legal Framework Order of 2002, at sixty, and the Eighteenth Amendment in 2010 made them permanent. In those three assemblies the women present were only those who won general seats outright — two, four and seven seats, held by two, four and six women. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: Constitution of Pakistan, Art. 51(4) as adopted 1973, RCO 1985 (P.O. 14 of 1985) and the Constitution (Eighth Amendment) Act 1985; Women's Parliamentary Caucus, history of women in parliament; Report of the Commission of Inquiry for Women, 1997.</span></div>
-
-  <h3>Women by party</h3>
-  <p class="note">Every woman seated on election day, by the party she sat for, split by route into the House. Reserved members before 2002 carry the party recorded by the Women's Parliamentary Caucus (1988) or the PPP that elected them (1977); 1985 was non-party. The share column is women as a proportion of all the party's seats in that House.</p>
-  <div class="toggle" id="yrTog3"></div>
-  <div class="two">
-    <div class="card" id="wparty"></div>
-    <div class="card" id="wpartyAll"></div>
+    <div class="card scroll" id="wstats"></div>
   </div>
 
-  <h3>Women elected on general seats</h3>
-  <p class="note">Outside Punjab and Sindh a woman has won a general seat only five times in eleven elections: Nasim Wali Khan's two Frontier seats in 1977, Zubaida Jalal twice in Balochistan's Kech, Shandana Gulzar once in Peshawar. Pre-2002 provinces are not recorded in the results for 1977–1990 and are left blank.</p>
-  <div class="card" style="overflow-x:auto" id="wgeneral"></div>
-  <h3>Crossing between the two routes</h3>
-  <p class="note">Reserved members matched to the candidate spine by name (exact or near-exact, unique match only — see Method). Those below either won a general seat before or after holding a reserved one, or contested and lost. Most reserved members never appear on a general ballot at all.</p>
-  <div class="card" style="overflow-x:auto" id="wcross"></div>
+  <details class="fold" open>
+    <summary>Women by party<span class="cnt">reserved · general</span></summary>
+    <p class="note">Every woman seated on election day, by the party she sat for, split by route into the House. Reserved members before 2002 carry the party recorded by the Women's Parliamentary Caucus (1988) or the PPP that elected them (1977); 1985 was non-party. The share column is women as a proportion of all the party's seats in that House.</p>
+    <div class="toggle" id="yrTog3"></div>
+    <div class="two">
+      <div class="card scroll" id="wparty"></div>
+      <div class="card scroll" id="wpartyAll"></div>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Why there were no women's seats from 1990 to 1997<span class="cnt">Art. 51(4)</span></summary>
+    <div class="callout compact" id="lapseNote">The 1973 Constitution reserved the seats only for a fixed period: Article 51(4) read "until the expiration of a period of ten years from the commencing day or the holding of the second general election to the National Assembly, whichever occurs later, ten seats … shall be reserved for women". Zia's Revival of the Constitution Order of 1985 raised the number to twenty, and the Eighth Amendment changed "second" to "third" — so the provision expired with the third election, 1988. Restoring it needed a constitutional amendment passed by two-thirds of both Houses, and no government of the 1990s had that majority: bills were tabled under Benazir Bhutto's first government in 1989 and again in 1994, and lapsed. The 1997 Commission of Inquiry for Women recommended a third of seats for women; nothing was enacted before the 1999 coup. The seats came back under Musharraf's Legal Framework Order of 2002, at sixty, and the Eighteenth Amendment in 2010 made them permanent. In those three assemblies the women present were only those who won general seats outright — two, four and seven seats, held by two, four and six women. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: Constitution of Pakistan, Art. 51(4) as adopted 1973, RCO 1985 (P.O. 14 of 1985) and the Constitution (Eighth Amendment) Act 1985; Women's Parliamentary Caucus, history of women in parliament; Report of the Commission of Inquiry for Women, 1997.</span></div>
+  </details>
+
+  <details class="fold">
+    <summary>Women elected on general seats<span class="cnt" id="wgeneralCnt"></span></summary>
+    <p class="note">Outside Punjab and Sindh a woman has won a general seat only five times in eleven elections: Nasim Wali Khan's two Frontier seats in 1977, Zubaida Jalal twice in Balochistan's Kech, Shandana Gulzar once in Peshawar. Pre-2002 provinces are not recorded in the results for 1977–1990 and are left blank.</p>
+    <div class="card scroll" id="wgeneral"></div>
+  </details>
+
+  <details class="fold">
+    <summary>Crossing between the two routes<span class="cnt" id="wcrossCnt"></span></summary>
+    <p class="note">Reserved members matched to the candidate spine by name (exact or near-exact, unique match only — see Method). Those below either won a general seat before or after holding a reserved one, or contested and lost. Most reserved members never appear on a general ballot at all.</p>
+    <div class="card scroll" id="wcross"></div>
+  </details>
   </section>
 
   <!-- ============ NON-MUSLIM ============ -->
   <section class="tabsec" data-t="nonmuslim">
   <h2>The non-Muslim seats</h2>
   <p class="note">Six seats elected by the Assembly in 1977; ten from 1985 to 1997 elected directly by non-Muslim voters on separate rolls — four Christian, four Hindu and scheduled-caste, one Sikh/Buddhist/Parsi, one Ahmadi — with no party ticket; ten since 2002 allocated nationwide from party lists, so they track the largest parties. The same handful of names recur across the separate-electorate years. Only one non-Muslim candidate has won a general seat in this period: Mahesh Kumar Malani, for the PPP in Tharparkar, in 2018 and again in 2024.</p>
-  <div class="card" style="overflow-x:auto" id="nmTable"></div>
-  <h3>Who has held them</h3>
-  <div class="card" style="overflow-x:auto" id="nmRoster"></div>
+  <div class="card scroll" id="nmTable"></div>
+
+  <details class="fold" open>
+    <summary>Non-Muslim members by party<span class="cnt">reserved · general</span></summary>
+    <p class="note">Every non-Muslim member seated on election day, by party and route. Before 2002 the seats carried no party label — "No party label" is the Assembly's own record, not a gap in ours — except the six 1977 members elected by the PPP majority and Khatumal Jeewan's PPP ticket in 1990 and 1993.</p>
+    <div class="toggle" id="yrTog4"></div>
+    <div class="two">
+      <div class="card scroll" id="nmparty"></div>
+      <div class="card scroll" id="nmpartyAll"></div>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>"Scheduled castes" — the Constitution's own category<span class="cnt">Art. 260(3)(b)</span></summary>
+    <div class="callout compact">The Assembly's rolls record community as "Christian", "Hindu/Scheduled Castes", "Parsi/Sikh/Buddhists and others" and "Ahmadi", and this page keeps those headings. The phrase is the Constitution's. Zia's Revival of the Constitution Order of 1985 fixed the ten seats as "Christians 4; Hindus and persons belonging to the scheduled castes 4; Sikh, Buddhist and Parsi communities and other non-Muslims 1; persons belonging to the Quadiani group or the Lahori group (who call themselves Ahmadis) 1" (Article 51(2A), with a parallel Article 106 for the provinces). Those quota clauses were rewritten in 2002 when separate electorates ended, but the definition survives: Article 260(3)(b), also inserted in 1985 and untouched since, defines a non-Muslim as one who "is not a Muslim and includes a person belonging to the Christian, Hindu, Sikh, Buddhist or Parsi community, a person of the Quadiani group or the Lahori group … or a Bahai, and a person belonging to any of the scheduled castes". The term is inherited from the Government of India (Scheduled Castes) Order of 1936 and Pakistan's 1956 Constitution, which reserved seats for scheduled castes in East Pakistan; the federal list, from a 1957 ordinance, names some forty castes, most of them in Sindh — Kolhi, Bheel, Meghwar among them — and the census counts them separately from "Hindu (jati)". Folding them into one Hindu seat category was the Constitution's choice; members such as Parumal Kolhi (1985) and Kirshan Bheel (1997) sat under it. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: P.O. 14 of 1985, Schedule; Constitution of Pakistan, Arts. 51, 106, 260(3)(b); Conduct of General Elections Order 2002; Pakistan Bureau of Statistics, Census 2017 and 2023, religion tables.</span></div>
+  </details>
+
+  <details class="fold">
+    <summary>Who has held them<span class="cnt" id="nmRosterCnt"></span></summary>
+    <div class="card scroll" id="nmRoster"></div>
+  </details>
   </section>
 
   <!-- ============ ROSTER ============ -->
@@ -270,7 +309,7 @@ ul.src{font-size:13px;color:var(--ink-2)}
     <select id="rProv"><option value="">All provinces</option><option>Punjab</option><option>Sindh</option><option>Khyber Pakhtunkhwa</option><option>Balochistan</option></select>
     <input class="searchbox" id="rQ" type="search" placeholder="Search a name…" style="max-width:260px">
   </div>
-  <div class="card" style="overflow-x:auto" id="roster"></div>
+  <div class="card scroll" id="roster" style="max-height:640px"></div>
   <div class="chartbar"><button data-act="csv" data-kind="roster">CSV — all years</button></div>
   </section>
 
@@ -537,7 +576,8 @@ function renderWomen(){
   YL.forEach(function(y){H.years[y].women_general.slice().sort(function(a,b){return +a.na.slice(3)-+b.na.slice(3);}).forEach(function(w){
     h+='<tr><td class="mono">'+y+'</td><td class="mono"><a href="map.html?year='+y+'&seat='+w.na+'">'+w.na+'</a></td><td>'+esc(w.name)+'</td><td><span class="sw" style="background:'+col(w.party)+'"></span>'+esc(lab(w.party))+'</td><td>'+esc(w.province)+'</td></tr>';});});
   h+='</tbody></table>';
-  document.getElementById('wgeneral').innerHTML=h;
+  document.getElementById('wgeneral').innerHTML=h; document.getElementById('wgeneralCnt').textContent=d3sum()+' seats';
+  function d3sum(){var n=0;YL.forEach(function(y){n+=H.years[y].women_general.length;});return n;}
   // crossings
   var seen={}, rows=[];
   YL.forEach(function(y){H.years[y].reserved_women.forEach(function(m){ if(!m.person_id||!m.career)return; var k=m.person_id; if(!seen[k]) seen[k]={pid:k,name:m.career.name||m.name,res:[],won:m.career.won,contested:m.career.contested,party:m.party}; seen[k].res.push(y); });});
@@ -546,7 +586,7 @@ function renderWomen(){
   var h3='<table><thead><tr><th>Member</th><th>Reserved seat</th><th>Won general seat</th><th>Contested general seat</th></tr></thead><tbody>';
   rows.forEach(function(r){h3+='<tr><td><a href="candidates.html?tab=search&q='+encodeURIComponent(r.name)+'">'+esc(r.name)+'</a></td><td class="mono">'+r.res.join(' · ')+'</td><td class="mono">'+(r.won.length?r.won.join(' · '):'<span class="dim">–</span>')+'</td><td class="mono">'+r.contested.join(' · ')+'</td></tr>';});
   h3+='</tbody></table><p class="note" style="margin-top:8px">'+rows.length+' of the reserved women across the five assemblies match a name on the general-seat candidate spine; '+rows.filter(function(r){return r.won.length;}).length+' of them have won a general seat at some point. Matching is conservative — unmatched members may still have contested under a differently spelt name.</p>';
-  document.getElementById('wcross').innerHTML=h3;
+  document.getElementById('wcross').innerHTML=h3; document.getElementById('wcrossCnt').textContent=rows.length+' members';
 }
 
 // ---------- women by party ----------
@@ -585,6 +625,40 @@ function renderWomenPartyAll(){
   document.getElementById('wpartyAll').innerHTML=h;
 }
 
+// ---------- non-Muslim by party ----------
+function nmByParty(y){
+  var Y=H.years[y], rows={};
+  function add(p){rows[p]=rows[p]||{p:p,r:0,g:0};return rows[p];}
+  if(Y.regime.nonmuslim==='list'){ Object.keys(Y.official).forEach(function(p){ if(Y.official[p].nonmuslim) add(p).r+=Y.official[p].nonmuslim; }); }
+  else Y.reserved_nonmuslim.forEach(function(m){ add(m.party).r++; });
+  Y.nonmuslim_general.forEach(function(w){add(w.party).g++;});
+  return Object.keys(rows).map(function(p){return rows[p];});
+}
+function renderNMParty(y){
+  var Y=H.years[y], list=nmByParty(y), comp=composition(y), tot={};
+  comp.forEach(function(r){tot[r.p]=r.t;});
+  list.sort(function(a,b){return (b.r+b.g)-(a.r+a.g)||b.g-a.g;});
+  var h='<div class="kicker">Non-Muslim members in the '+Y.assembly+'th Assembly · '+y+'</div><table><thead><tr><th>Party</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th><th class="num">Party seats</th><th class="num">Share</th></tr></thead><tbody>';
+  var sr=0,sg=0;
+  list.forEach(function(r){var t=tot[r.p]||0; sr+=r.r; sg+=r.g;
+    h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+'</td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td><td class="num dim">'+(t||'·')+'</td><td class="num">'+(t?pct(r.r+r.g,t):'–')+'</td></tr>';});
+  var HS=H.meta.house[y];
+  h+='<tr class="tot"><td>All</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td><td class="num">'+HS+'</td><td class="num">'+pct(sr+sg,HS)+'</td></tr></tbody></table>';
+  h+='<p class="note" style="margin-top:8px">'+esc(Y.regime.label)+'</p>';
+  document.getElementById('nmparty').innerHTML=h;
+}
+function renderNMPartyAll(){
+  var agg={};
+  YL.forEach(function(y){nmByParty(y).forEach(function(r){var a=agg[r.p]=agg[r.p]||{p:r.p,r:0,g:0,yrs:{}};a.r+=r.r;a.g+=r.g;a.yrs[y]=1;});});
+  var list=Object.keys(agg).map(function(p){return agg[p];}).sort(function(a,b){return (b.r+b.g)-(a.r+a.g)||b.g-a.g;});
+  var h='<div class="kicker">All eleven assemblies · 1977–2024</div><table><thead><tr><th>Party</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th></tr></thead><tbody>';
+  var sr=0,sg=0;
+  list.forEach(function(r){sr+=r.r;sg+=r.g;h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+' <span class="dim mono" style="font-size:10.5px">'+Object.keys(r.yrs).length+' yr</span></td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td></tr>';});
+  h+='<tr class="tot"><td>All</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td></tr></tbody></table>';
+  h+='<p class="note" style="margin-top:8px">Seat-terms on election day; replacements excluded. Since 2002 the seats are a by-product of general-seat totals, so PML-N and PPP hold most of them; before 2002, 47 of the 55 terms carry no party label at all (the 1985 non-party House and the separate-electorate seats of 1988–97). Two general-seat wins in 48 years — both Mahesh Kumar Malani\'s — against 105 reserved terms.</p>';
+  document.getElementById('nmpartyAll').innerHTML=h;
+}
+
 // ---------- non-Muslim ----------
 function renderNM(){
   var parties={};
@@ -602,7 +676,7 @@ function renderNM(){
   var h2='<table><thead><tr><th>Member</th><th>Assemblies</th><th>Community</th><th>Party</th><th>Note</th></tr></thead><tbody>';
   list.forEach(function(p){h2+='<tr><td>'+esc(p.name)+'</td><td class="mono">'+p.terms.join(' · ')+'</td><td class="dim">'+esc(p.comm||'')+'</td><td>'+Object.keys(p.parties).map(function(q){return '<span class="sw" style="background:'+col(q)+'"></span>'+esc(lab(q));}).join(' ')+'</td><td class="dim">'+esc([p.remarks].concat(p.affil).filter(Boolean).join(' · '))+'</td></tr>';});
   h2+='</tbody></table><p class="note" style="margin-top:8px">'+list.length+' named individuals have held the seats across eleven assemblies; '+list.filter(function(p){return p.terms.length>=3;}).length+' have sat in three or more. Names grouped by spelling (the same person can appear under two spellings from different rolls); the 13th–15th lists include replacements; five 1977 members are unnamed in every source.</p>';
-  document.getElementById('nmRoster').innerHTML=h2;
+  document.getElementById('nmRoster').innerHTML=h2; document.getElementById('nmRosterCnt').textContent=list.length+' names';
 }
 
 // ---------- roster ----------
@@ -645,10 +719,10 @@ function renderStats(){
 function yearToggle(id,fn){
   var el=document.getElementById(id);
   el.innerHTML=YL.map(function(y){return '<button data-y="'+y+'"'+(y===state.year?' class="on"':'')+'>'+y+'</button>';}).join('');
-  el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;state.year=b.dataset.y;document.querySelectorAll('#yrTog button,#yrTog2 button,#yrTog3 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);renderWomenParty(state.year);});
+  el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;state.year=b.dataset.y;document.querySelectorAll('#yrTog button,#yrTog2 button,#yrTog3 button,#yrTog4 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);renderWomenParty(state.year);renderNMParty(state.year);});
 }
-yearToggle('yrTog'); yearToggle('yrTog2'); yearToggle('yrTog3');
-renderStats(); renderHemi(state.year); renderAlloc(state.year); renderWomen(); renderWomenParty(state.year); renderWomenPartyAll(); renderNM();
+yearToggle('yrTog'); yearToggle('yrTog2'); yearToggle('yrTog3'); yearToggle('yrTog4');
+renderStats(); renderHemi(state.year); renderAlloc(state.year); renderWomen(); renderWomenParty(state.year); renderWomenPartyAll(); renderNMParty(state.year); renderNMPartyAll(); renderNM();
 (function(){
   var ry=document.getElementById('rYear'); ry.innerHTML='<option value="">All assemblies</option>'+YL.map(function(y){return '<option value="'+y+'">'+y+' · '+H.years[y].assembly+'th</option>';}).join('');
   var ps={}; ROWS.forEach(function(r){ps[r.party]=1;});
@@ -691,7 +765,7 @@ document.getElementById('pageTabs').addEventListener('click',function(e){
     });
   });
   var hh=decodeURIComponent(location.hash.slice(1));
-  if(hh){var parts=hh.split('~'), tab=parts[0]; if(parts[1]&&YL.indexOf(parts[1])>-1){state.year=parts[1];document.querySelectorAll('#yrTog button,#yrTog2 button,#yrTog3 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);renderWomenParty(state.year);}
+  if(hh){var parts=hh.split('~'), tab=parts[0]; if(parts[1]&&YL.indexOf(parts[1])>-1){state.year=parts[1];document.querySelectorAll('#yrTog button,#yrTog2 button,#yrTog3 button,#yrTog4 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);renderWomenParty(state.year);renderNMParty(state.year);}
     var btn=document.querySelector('#pageTabs button[data-t="'+tab+'"]'); if(btn) btn.click();}
 })();
 </script>
