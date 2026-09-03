@@ -1,100 +1,114 @@
 # Aiwan-e-Jamhoor — ایوانِ جمہور
 
-**The People's House** — an interactive record of Pakistan's National Assembly general
-elections since 1977: eleven elections, every seat, every candidate, every party, mapped on
-the constituency boundaries that were actually in force at each election.
+**The People's House** — an open record of Pakistan's National Assembly general elections
+since 1977: eleven elections, every seat, every candidate, every vote count, drawn on the
+constituency boundaries that were in force at the time.
 
-This is the project's working repository — the static site, the data-processing and
-map-building code, the derived datasets, and the full methodology.
+Live at **[aiwan.adaad.org](https://aiwan.adaad.org/)**. This repository holds the site,
+the data pipeline, the derived datasets and the methodology. It is a companion to
+[Adaad](https://adaad.org/), a monthly data journal of Pakistan, alongside
+[Data Darbar](https://darbar.adaad.org/).
 
-> **Not affiliated with the Election Commission of Pakistan.** Constituency boundaries are
-> unofficial digitisations/reconstructions/traces; 2024 results are provisional; results for
-> 1977–1990 come from an unofficial transcription and carry no per-seat turnout. See
-> [`METHODOLOGY.md`](METHODOLOGY.md) and [`DEPLOYMENT.md`](DEPLOYMENT.md) for the full list
-> of limitations before citing.
+> **Not affiliated with the Election Commission of Pakistan.** Boundaries are unofficial
+> digitisations, traces and reconstructions; 2024 results are provisional; 1977–1997 results
+> come from transcriptions and carry no per-seat turnout. Read
+> [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) before citing, and
+> [`docs/CORRECTIONS.md`](docs/CORRECTIONS.md) for what has been found wrong and fixed.
 
 ## The site
 
-Five static, self-contained pages (open directly, or serve the folder):
+Static, self-contained pages; open the folder directly or serve it.
 
-| File | Page |
-|------|------|
-| `index.html` | Home — the House election by election |
-| `map.html` | The map — eleven elections, seat by seat (D3 + all data inlined, ~7 MB) |
-| `candidates.html` | Dynasties — careers, party switching, political families |
-| `about.html` | About — what this is, who built it, sources, licence |
-| `method.html` | Method & sources — the methodology, in the site's style |
+| Page | What it shows |
+|------|---------------|
+| `index.html` | Home — the House, election by election |
+| `map.html` | Constituency results — eleven elections seat by seat, with seat histories that follow the ground rather than the number |
+| `house.html` | The Full House — reserved seats for women and non-Muslims, 1977–2024: how they were filled, entitlement against ECP allocation, who held them |
+| `candidates.html` | Candidates — careers, party switching, political families, linked across elections back to 1977 |
+| `islam.html` | Islam & the Ballot — the religious vote by sect and by seat, 1988–2024 |
+| `about.html` · `method.html` | What this is, who built it, sources, method and limitations |
 
 ```bash
 python3 -m http.server 8000    # then open http://localhost:8000
 ```
 
-Everything the map needs is inlined, so it also runs offline and from any static host.
+Every chart exports as PNG and CSV, and every view has a share link that reopens the page
+on the same tab and selection.
+
+## Coverage
+
+| Election | Seats | Boundary layer | How it was made |
+|----------|-------|----------------|-----------------|
+| 1977 | 200 | 1977 delimitation | reconstructed, approximate |
+| 1985 | 207 | 1985 delimitation (non-party) | reconstructed, approximate, source numbering |
+| 1988 · 1990 · 1993 · 1997 | 207 | 1985–1997 delimitation | traced from the published maps |
+| 2002 · 2008 · 2013 | 272 | 2002 delimitation | third-party digitisation |
+| 2018 | 272 | 2018 delimitation | digitised from ECP sheets |
+| 2024 | 266 | 2023 delimitation | digitised; 203 seats high confidence, 44 medium, 19 low |
+
+Korangi's three 2024 seats (NA-232 to NA-234) are reconstructed from the Form-7 town
+compositions, because the published shapefile had them wrong.
 
 ## Repository layout
 
 ```
-Aiwan-e-Jamhoor/
-├── index.html · map.html · candidates.html · about.html · method.html
-├── og-image.png                     social-share card
-├── METHODOLOGY.md                   full methodology (authoritative)
-├── DATA_DICTIONARY.md               schema of every dataset
-├── DEPLOYMENT.md                    deployment readiness + checklist
-├── DATA_LICENSE.md                  data provenance + upstream licenses
-├── data_inventory.md               survey of Pakistan election data sources
-├── LICENSE · CITATION.cff · requirements.txt · Makefile
-├── map_template.html                un-inlined app source (data placeholders)
-├── brand/                           brand assets
-├── scripts/                         the data & map pipeline
-└── data/                            derived datasets + curated inputs
+├── index.html · map.html · house.html · candidates.html · islam.html · about.html · method.html
+├── docs/
+│   ├── METHODOLOGY.md          the method, in full (authoritative)
+│   ├── DATA_DICTIONARY.md      schema of every dataset
+│   ├── DATA_LICENSE.md         provenance and upstream licences
+│   ├── CORRECTIONS.md          the corrections log
+│   ├── CROSSCHECK.md · BOUNDARIES_TODO.md · DEPLOYMENT.md · data_inventory.md
+├── data/
+│   ├── results_<year>/         per-seat results, 1977–2024
+│   ├── results_all.json        every election, one file
+│   ├── linked/                 the candidate spine: persons, candidacies, family clusters
+│   ├── house/                  reserved-seat rosters and allocations
+│   ├── boundaries/ · digitised/  constituency geometry by delimitation
+│   └── sources/                curated inputs
+├── hansard/linkage/            National Assembly membership rolls, 2nd–9th assemblies (see below)
+├── scripts/                    the pipeline: scrape → results → boundaries → linkage → house → app
+├── brand/ · fonts/             site assets
+└── LICENSE · CITATION.cff · Makefile · requirements.txt
 ```
 
-Large raw ECP source archives (delimitation sheets, Form-47 scans) and the big third-party
-district base layers are **git-ignored** — they exceed hosting limits and carry their own
-terms. `data_inventory.md` and `DATA_LICENSE.md` say where to obtain each.
+Large raw archives (ECP delimitation sheets, Form-47 scans, third-party district base
+layers) are git-ignored; `docs/data_inventory.md` and `docs/DATA_LICENSE.md` say where each
+comes from.
 
-## Rebuilding the data & maps
+## Rebuilding
 
 ```bash
 pip install -r requirements.txt
 npm install -g mapshaper && npm install d3@7
-make            # results -> baseline geometry -> app  (see Makefile)
+make            # results → geometry → app
 ```
 
-Two non-negotiable build gotchas (details in `METHODOLOGY.md`):
+Two things that will bite (details in `docs/METHODOLOGY.md`): every GeoJSON must have
+clockwise exterior rings and be `make_valid`-ed or d3-geo draws a filled rectangle; and the
+shipped 2018 and 2024 layers were patched in surgically, so fix `scripts/build/build_map.py`'s
+inputs before attempting a clean rebuild.
 
-- **d3-geo winding** — every GeoJSON must have clockwise exterior rings
-  (`shapely.orient(sign=-1)`) and be `make_valid`-ed, or the map renders as a filled
-  rectangle.
-- **Do not do a naïve full rebuild.** The shipped app carries a newer 2018 layer than
-  `scripts/build_map.py` references; the 2024 layer was swapped in **surgically** by
-  `scripts/patch_app_2024.py`. Fix `build_map.py`'s 2018 input path before ever running a
-  clean rebuild, or you will regress 2018.
+## Where this is going: the debates
 
-## Data & results at a glance
+The results tell you who was sent to the House. The next ambition is to record what they
+did there. The National Assembly publishes its debates as scanned PDFs, in Urdu and English,
+going back decades, and almost none of it is searchable. The plan is to digitise those
+proceedings, structure them sitting by sitting and speech by speech, and link every speaker
+to the same member record that the election pages already use, so that a constituency's
+history runs from the ballot to the floor of the House.
 
-| Year | Seats shown | Boundary vintage | Boundary confidence |
-|------|-------------|------------------|---------------------|
-| 2008 | 268 (4 postponed) | 2002 | third-party digitisation |
-| 2013 | 269 (3 postponed) | 2002 | third-party digitisation |
-| 2018 | 270 (2 postponed) | 2018 | digitised from ECP sheets |
-| 2024 | 266 | 2023 | 203 high · 44 medium · 19 low |
+The first piece is in place: `hansard/linkage/` holds the Assembly's own membership rolls
+for the 2nd to 9th National Assemblies (1962–1997), transcribed from na.gov.pk, which
+extend the member record back past the 2002 rolls the site already used. The rest is in
+progress and will appear here as it is checked.
 
 ## Licensing
 
-Code is MIT (`LICENSE`). Derived data is CC-BY-4.0 **subject to upstream terms** — the
+Code is MIT (`LICENSE`). Derived data is CC BY 4.0 **subject to upstream terms**: the
 2008–2018 results derive from Colin Cookman's GPL-3.0 datasets and the 2002 boundaries from
-a GPL-3.0 shapefile. Read [`DATA_LICENSE.md`](DATA_LICENSE.md) before redistributing data.
+a GPL-3.0 shapefile. Read [`docs/DATA_LICENSE.md`](docs/DATA_LICENSE.md) before
+redistributing. Cite with `CITATION.cff`.
 
-## Making this a git repository
-
-```bash
-git init -b main
-git add .
-git commit -m "Aiwan-e-Jamhoor: site, data pipeline, methodology & docs"
-git remote add origin <your-remote-url>
-git push -u origin main
-```
-
-If the folder lives in iCloud Drive, consider moving it to a normal local path first —
-iCloud's file syncing and a live `.git` directory don't always coexist happily.
+Corrections and questions: the About page says how to reach us. Errors are logged in
+[`docs/CORRECTIONS.md`](docs/CORRECTIONS.md) with the evidence and the fix.
