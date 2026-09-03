@@ -1,54 +1,362 @@
 {
   "merges": [
-    {"ids": ["P04748","P04751"], "why": "Meena Ehsan Leghari spelling variants (agent-verified)"},
-    {"ids": ["P01512","P03124"], "why": "Awais Leghari 1997 NA variant (probable)"},
-    {"ids": ["P03125","P10834"], "why": "Irfanullah Khosa"},
-    {"ids": ["P01265","P02644"], "why": "Col Mushtaq Khichi Sialkot"},
-    {"ids": ["P00173","P01494"], "why": "Tehmina Daultana"},
-    {"ids": ["P05102","P11073"], "why": "Mir Munawar Ali Talpur"},
-    {"ids": ["P07754","P14193"], "why": "Hasnain Mirza"},
-    {"ids": ["P00564","P11161"], "why": "Shafqat Shirazi (probable)"},
-    {"ids": ["P01601","P07352"], "why": "Ali Gohar Mahar (probable)"},
-    {"ids": ["P01687","P04911","P07433"], "why": "Ghinwa Bhutto multi-seat variants"},
-    {"ids": ["P01644","P07517"], "why": "Ghulam Murtaza Jatoi"},
-    {"ids": ["P01638","P07549"], "why": "Masroor Khan Jatoi"},
-    {"ids": ["P03518","P05159"], "why": "Liaqat Ali Jatoi (Dadu)"},
-    {"ids": ["P04809","P06028","P09985"], "why": "Ch Pervaiz Elahi 2008/2013/2018"},
-    {"ids": ["P01071","P02425"], "why": "Asfandyar Wali Khan 1997 win"},
-    {"ids": ["P11838","P09286","P09569"], "why": "Ameer Haider Hoti 2013/2018/2024"},
-    {"ids": ["P05892","P09288"], "why": "Khwaja Muhammad Khan Hoti"},
-    {"ids": ["P02450","P05812"], "why": "Inamullah Khan Niazi"},
-    {"ids": ["P01088","P04204"], "why": "Dr Sher Afgan Niazi"},
-    {"ids": ["P01089","P02451","P10215"], "why": "Humair Hayat Rokhri (probable)"},
-    {"ids": ["P06667","P10635"], "why": "Ali Musa Gilani"},
-    {"ids": ["P00114","P10627"], "why": "Tanveer-ul-Hassan Gilani (plausible)"},
-    {"ids": ["P03024","P06748"], "why": "Asad Murtaza Gilani (plausible)"},
-    {"ids": ["P00130","P02989"], "why": "Shah Mehmood Qureshi pre/post Makhdoom"},
-    {"ids": ["P00131","P06676","P08775"], "why": "Javed Hashmi 2013 wins (after Lahore split)"},
-    {"ids": ["P01184","P02722","P04387"], "why": "Hamid Nasir Chattha"},
-    {"ids": ["P04389","P10085"], "why": "Muhammad Ahmad Chattha"},
-    {"ids": ["P04386","P05984"], "why": "Justice Iftikhar Cheema (after Bahawalpur split)"},
-    {"ids": ["P00226","P07144","P07151"], "why": "Tariq Bashir Cheema"},
-    {"ids": ["P04391","P10149"], "why": "Saira Afzal Tarar"},
-    {"ids": ["P00254","P03233"], "why": "Zafar Iqbal Warraich"},
-    {"ids": ["P00819","P02045","P14817"], "why": "Akhtar Mengal"},
-    {"ids": ["P05448","P08391"], "why": "Atta-ur-Rehman Mengal"},
-    {"ids": ["P11574","P14871"], "why": "Ramzan Mengal PRHP"},
-    {"ids": ["P08197","P08249"], "why": "Talal Akbar Bugti"},
-    {"ids": ["P00814","P08326"], "why": "Zafarullah Jamali"},
-    {"ids": ["P03832","P05416"], "why": "Taj Muhammad Jamali"},
-    {"ids": ["P04150","P05767","P09986"], "why": "Faiz Malik Tamman"},
-    {"ids": ["P02411","P05779"], "why": "Ghias Mela"},
-    {"ids": ["P01074","P05791"], "why": "Anwar Ali Cheema Sargodha"},
-    {"ids": ["P04795","P07120"], "why": "Najibuddin Awaisi"},
-    {"ids": ["P00314","P07463"], "why": "Elahi Bux Soomro 2013"},
-    {"ids": ["P01612","P04900"], "why": "Junaid Soomro (probable)"},
-    {"ids": ["P01170","P09295"], "why": "Sahibzada Nazir Sultan 2013 win"}
+    {
+      "ids": [
+        "P04748",
+        "P04751"
+      ],
+      "why": "Meena Ehsan Leghari spelling variants (agent-verified)"
+    },
+    {
+      "ids": [
+        "P01512",
+        "P03124"
+      ],
+      "why": "Awais Leghari 1997 NA variant (probable)"
+    },
+    {
+      "ids": [
+        "P03125",
+        "P10834"
+      ],
+      "why": "Irfanullah Khosa"
+    },
+    {
+      "ids": [
+        "P01265",
+        "P02644"
+      ],
+      "why": "Col Mushtaq Khichi Sialkot"
+    },
+    {
+      "ids": [
+        "P00173",
+        "P01494"
+      ],
+      "why": "Tehmina Daultana"
+    },
+    {
+      "ids": [
+        "P05102",
+        "P11073"
+      ],
+      "why": "Mir Munawar Ali Talpur"
+    },
+    {
+      "ids": [
+        "P07754",
+        "P14193"
+      ],
+      "why": "Hasnain Mirza"
+    },
+    {
+      "ids": [
+        "P00564",
+        "P11161"
+      ],
+      "why": "Shafqat Shirazi (probable)"
+    },
+    {
+      "ids": [
+        "P01601",
+        "P07352"
+      ],
+      "why": "Ali Gohar Mahar (probable)"
+    },
+    {
+      "ids": [
+        "P01687",
+        "P04911",
+        "P07433"
+      ],
+      "why": "Ghinwa Bhutto multi-seat variants"
+    },
+    {
+      "ids": [
+        "P01644",
+        "P07517"
+      ],
+      "why": "Ghulam Murtaza Jatoi"
+    },
+    {
+      "ids": [
+        "P01638",
+        "P07549"
+      ],
+      "why": "Masroor Khan Jatoi"
+    },
+    {
+      "ids": [
+        "P03518",
+        "P05159"
+      ],
+      "why": "Liaqat Ali Jatoi (Dadu)"
+    },
+    {
+      "ids": [
+        "P04809",
+        "P06028",
+        "P09985"
+      ],
+      "why": "Ch Pervaiz Elahi 2008/2013/2018"
+    },
+    {
+      "ids": [
+        "P01071",
+        "P02425"
+      ],
+      "why": "Asfandyar Wali Khan 1997 win"
+    },
+    {
+      "ids": [
+        "P11838",
+        "P09286",
+        "P09569"
+      ],
+      "why": "Ameer Haider Hoti 2013/2018/2024"
+    },
+    {
+      "ids": [
+        "P05892",
+        "P09288"
+      ],
+      "why": "Khwaja Muhammad Khan Hoti"
+    },
+    {
+      "ids": [
+        "P02450",
+        "P05812"
+      ],
+      "why": "Inamullah Khan Niazi"
+    },
+    {
+      "ids": [
+        "P01088",
+        "P04204"
+      ],
+      "why": "Dr Sher Afgan Niazi"
+    },
+    {
+      "ids": [
+        "P01089",
+        "P02451",
+        "P10215"
+      ],
+      "why": "Humair Hayat Rokhri (probable)"
+    },
+    {
+      "ids": [
+        "P06667",
+        "P10635"
+      ],
+      "why": "Ali Musa Gilani"
+    },
+    {
+      "ids": [
+        "P00114",
+        "P10627"
+      ],
+      "why": "Tanveer-ul-Hassan Gilani (plausible)"
+    },
+    {
+      "ids": [
+        "P03024",
+        "P06748"
+      ],
+      "why": "Asad Murtaza Gilani (plausible)"
+    },
+    {
+      "ids": [
+        "P00130",
+        "P02989"
+      ],
+      "why": "Shah Mehmood Qureshi pre/post Makhdoom"
+    },
+    {
+      "ids": [
+        "P00131",
+        "P06676",
+        "P08775"
+      ],
+      "why": "Javed Hashmi 2013 wins (after Lahore split)"
+    },
+    {
+      "ids": [
+        "P01184",
+        "P02722",
+        "P04387"
+      ],
+      "why": "Hamid Nasir Chattha"
+    },
+    {
+      "ids": [
+        "P04389",
+        "P10085"
+      ],
+      "why": "Muhammad Ahmad Chattha"
+    },
+    {
+      "ids": [
+        "P04386",
+        "P05984"
+      ],
+      "why": "Justice Iftikhar Cheema (after Bahawalpur split)"
+    },
+    {
+      "ids": [
+        "P00226",
+        "P07144",
+        "P07151"
+      ],
+      "why": "Tariq Bashir Cheema"
+    },
+    {
+      "ids": [
+        "P04391",
+        "P10149"
+      ],
+      "why": "Saira Afzal Tarar"
+    },
+    {
+      "ids": [
+        "P00254",
+        "P03233"
+      ],
+      "why": "Zafar Iqbal Warraich"
+    },
+    {
+      "ids": [
+        "P00819",
+        "P02045",
+        "P14817"
+      ],
+      "why": "Akhtar Mengal"
+    },
+    {
+      "ids": [
+        "P05448",
+        "P08391"
+      ],
+      "why": "Atta-ur-Rehman Mengal"
+    },
+    {
+      "ids": [
+        "P11574",
+        "P14871"
+      ],
+      "why": "Ramzan Mengal PRHP"
+    },
+    {
+      "ids": [
+        "P08197",
+        "P08249"
+      ],
+      "why": "Talal Akbar Bugti"
+    },
+    {
+      "ids": [
+        "P00814",
+        "P08326"
+      ],
+      "why": "Zafarullah Jamali"
+    },
+    {
+      "ids": [
+        "P03832",
+        "P05416"
+      ],
+      "why": "Taj Muhammad Jamali"
+    },
+    {
+      "ids": [
+        "P04150",
+        "P05767",
+        "P09986"
+      ],
+      "why": "Faiz Malik Tamman"
+    },
+    {
+      "ids": [
+        "P02411",
+        "P05779"
+      ],
+      "why": "Ghias Mela"
+    },
+    {
+      "ids": [
+        "P01074",
+        "P05791"
+      ],
+      "why": "Anwar Ali Cheema Sargodha"
+    },
+    {
+      "ids": [
+        "P04795",
+        "P07120"
+      ],
+      "why": "Najibuddin Awaisi"
+    },
+    {
+      "ids": [
+        "P00314",
+        "P07463"
+      ],
+      "why": "Elahi Bux Soomro 2013"
+    },
+    {
+      "ids": [
+        "P01612",
+        "P04900"
+      ],
+      "why": "Junaid Soomro (probable)"
+    },
+    {
+      "ids": [
+        "P01170",
+        "P09295"
+      ],
+      "why": "Sahibzada Nazir Sultan 2013 win"
+    },
+    {
+      "ids": [
+        "P00097",
+        "H2486",
+        "P01417"
+      ],
+      "why": "Mian Manzoor Ahmad Khan Wattoo: 1988/1993 'Mian Manzoor Ahmad Khan' (P00097), 1990 'Watto' (H2486), 1997-2024 (P01417); Okara NA-113/112 -> NA-146/147 -> NA-143/144 -> NA-138. Applies on next spine rebuild; 2008 NA-147 win corrected in place by scripts/patches/patch_na147_2008.py"
+    }
   ],
   "splits": [
-    {"person_id": "P00131", "match": {"year": "2013", "district": "lahore"}, "why": "fringe namesake Javed Hashmi Lahore 2013 (56/30 votes)"},
-    {"person_id": "P04386", "match": {"year": "2008", "district_contains": "bahaw"}, "why": "PPP Iftikhar Cheema Advocate Bahawalpur is a different person"},
-    {"person_id": "P00253", "match": {"district": "gujrat"}, "merge_into": "P10022", "why": "Gujrat Ch Jaffar Iqbal (b.1972) is distinct from RYK Gujjar; merge with P10022"},
-    {"person_id": "P03121", "match": {"name_contains": "hussain"}, "why": "Sardar Hussain Ahmad Khan Leghari NA-173 distinct from Sardar M. Khan Leghari NA-172"}
+    {
+      "person_id": "P00131",
+      "match": {
+        "year": "2013",
+        "district": "lahore"
+      },
+      "why": "fringe namesake Javed Hashmi Lahore 2013 (56/30 votes)"
+    },
+    {
+      "person_id": "P04386",
+      "match": {
+        "year": "2008",
+        "district_contains": "bahaw"
+      },
+      "why": "PPP Iftikhar Cheema Advocate Bahawalpur is a different person"
+    },
+    {
+      "person_id": "P00253",
+      "match": {
+        "district": "gujrat"
+      },
+      "merge_into": "P10022",
+      "why": "Gujrat Ch Jaffar Iqbal (b.1972) is distinct from RYK Gujjar; merge with P10022"
+    },
+    {
+      "person_id": "P03121",
+      "match": {
+        "name_contains": "hussain"
+      },
+      "why": "Sardar Hussain Ahmad Khan Leghari NA-173 distinct from Sardar M. Khan Leghari NA-172"
+    }
   ]
 }

@@ -3677,15 +3677,15 @@
 },
 "counterfactual": null,
 "official": {
-"JUI-F": {
-"women": 1,
-"nonmuslim": 0
-},
 "IJI": {
 "women": 5,
 "nonmuslim": 0
 },
 "IND": {
+"women": 1,
+"nonmuslim": 0
+},
+"JUI-F": {
 "women": 1,
 "nonmuslim": 0
 },
@@ -9264,7 +9264,7 @@
 },
 {
 "na": "NA-147",
-"name": "Muhammad Zafar Yasin Wattoo"
+"name": "Mian Manzoor Ahmad Khan Wattoo"
 },
 {
 "na": "NA-184",
@@ -17263,17 +17263,13 @@
 }
 },
 "official": {
-"PPP": {
-"women": 16,
-"nonmuslim": 3
-},
-"PML-N": {
-"women": 34,
-"nonmuslim": 5
-},
 "IPP": {
 "women": 1,
 "nonmuslim": 0
+},
+"PPP": {
+"women": 16,
+"nonmuslim": 3
 },
 "JUI-F": {
 "women": 4,
@@ -17286,6 +17282,10 @@
 "PML-Q": {
 "women": 1,
 "nonmuslim": 0
+},
+"PML-N": {
+"women": 34,
+"nonmuslim": 5
 }
 },
 "women_general": [
