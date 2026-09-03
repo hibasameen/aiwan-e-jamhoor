@@ -232,6 +232,16 @@ ul.src{font-size:13px;color:var(--ink-2)}
     </div>
     <div class="card" id="wstats"></div>
   </div>
+  <div class="callout" id="lapseNote"><b>Why there were no women's seats from 1990 to 1997.</b> The 1973 Constitution reserved the seats only for a fixed period: Article 51(4) read "until the expiration of a period of ten years from the commencing day or the holding of the second general election to the National Assembly, whichever occurs later, ten seats … shall be reserved for women". Zia's Revival of the Constitution Order of 1985 raised the number to twenty, and the Eighth Amendment changed "second" to "third" — so the provision expired with the third election, 1988. Restoring it needed a constitutional amendment passed by two-thirds of both Houses, and no government of the 1990s had that majority: bills were tabled under Benazir Bhutto's first government in 1989 and again in 1994, and lapsed. The 1997 Commission of Inquiry for Women recommended a third of seats for women; nothing was enacted before the 1999 coup. The seats came back under Musharraf's Legal Framework Order of 2002, at sixty, and the Eighteenth Amendment in 2010 made them permanent. In those three assemblies the women present were only those who won general seats outright — two, four and seven seats, held by two, four and six women. <span class="mono" style="font-size:11px;color:var(--ink-3)">Sources: Constitution of Pakistan, Art. 51(4) as adopted 1973, RCO 1985 (P.O. 14 of 1985) and the Constitution (Eighth Amendment) Act 1985; Women's Parliamentary Caucus, history of women in parliament; Report of the Commission of Inquiry for Women, 1997.</span></div>
+
+  <h3>Women by party</h3>
+  <p class="note">Every woman seated on election day, by the party she sat for, split by route into the House. Reserved members before 2002 carry the party recorded by the Women's Parliamentary Caucus (1988) or the PPP that elected them (1977); 1985 was non-party. The share column is women as a proportion of all the party's seats in that House.</p>
+  <div class="toggle" id="yrTog3"></div>
+  <div class="two">
+    <div class="card" id="wparty"></div>
+    <div class="card" id="wpartyAll"></div>
+  </div>
+
   <h3>Women elected on general seats</h3>
   <p class="note">Outside Punjab and Sindh a woman has won a general seat only five times in eleven elections: Nasim Wali Khan's two Frontier seats in 1977, Zubaida Jalal twice in Balochistan's Kech, Shandana Gulzar once in Peshawar. Pre-2002 provinces are not recorded in the results for 1977–1990 and are left blank.</p>
   <div class="card" style="overflow-x:auto" id="wgeneral"></div>
@@ -539,6 +549,42 @@ function renderWomen(){
   document.getElementById('wcross').innerHTML=h3;
 }
 
+// ---------- women by party ----------
+function womenByParty(y){
+  var Y=H.years[y], rows={};
+  function add(p){rows[p]=rows[p]||{p:p,r:0,g:0};return rows[p];}
+  if(Y.regime.women==='list'){ Object.keys(Y.official).forEach(function(p){ if(Y.official[p].women) add(p).r+=Y.official[p].women; }); }
+  else Y.reserved_women.forEach(function(m){ add(m.party).r++; });
+  Y.women_general.forEach(function(w){add(w.party).g++;});
+  return Object.keys(rows).map(function(p){return rows[p];});
+}
+function renderWomenParty(y){
+  var Y=H.years[y], list=womenByParty(y), comp=composition(y), tot={};
+  comp.forEach(function(r){tot[r.p]=r.t;});
+  list.sort(function(a,b){return (b.r+b.g)-(a.r+a.g)||b.g-a.g;});
+  var h='<div class="kicker">Women in the '+Y.assembly+'th Assembly · '+y+'</div><table><thead><tr><th>Party</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th><th class="num">Party seats</th><th class="num">Women share</th></tr></thead><tbody>';
+  var sr=0,sg=0,st=0;
+  list.forEach(function(r){var t=tot[r.p]||0; sr+=r.r; sg+=r.g; st+=t;
+    h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+'</td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td><td class="num dim">'+(t||'·')+'</td><td class="num">'+(t?pct(r.r+r.g,t):'–')+'</td></tr>';});
+  var HS=H.meta.house[y];
+  h+='<tr class="tot"><td>All parties</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td><td class="num">'+HS+'</td><td class="num">'+pct(sr+sg,HS)+'</td></tr></tbody></table>';
+  if(Y.regime.women==='list') h+='<p class="note" style="margin-top:8px">Reserved seats as allocated by the ECP at the start of the term; replacements during the term are in the Roster.</p>';
+  if(y==='1985') h+='<p class="note" style="margin-top:8px">Non-party election: no member carried a label.</p>';
+  document.getElementById('wparty').innerHTML=h;
+  window.__csvWomenParty=function(){var rows=[['year','party','reserved','general','total','party_seats']];list.forEach(function(r){rows.push([y,lab(r.p),r.r,r.g,r.r+r.g,tot[r.p]||0]);});return rows.map(function(r){return r.join(',');}).join('\n');};
+}
+function renderWomenPartyAll(){
+  var agg={};
+  YL.forEach(function(y){womenByParty(y).forEach(function(r){var a=agg[r.p]=agg[r.p]||{p:r.p,r:0,g:0,yrs:{}};a.r+=r.r;a.g+=r.g;a.yrs[y]=1;});});
+  var list=Object.keys(agg).map(function(p){return agg[p];}).sort(function(a,b){return (b.r+b.g)-(a.r+a.g)||b.g-a.g;});
+  var h='<div class="kicker">All eleven assemblies · 1977–2024</div><table><thead><tr><th>Party</th><th class="num">Reserved</th><th class="num">General</th><th class="num">Total</th><th class="num">General share</th></tr></thead><tbody>';
+  var sr=0,sg=0;
+  list.forEach(function(r){sr+=r.r;sg+=r.g;h+='<tr><td><span class="sw" style="background:'+col(r.p)+'"></span>'+esc(lab(r.p))+' <span class="dim mono" style="font-size:10.5px">'+Object.keys(r.yrs).length+' yr</span></td><td class="num">'+(r.r||'·')+'</td><td class="num">'+(r.g||'·')+'</td><td class="num">'+(r.r+r.g)+'</td><td class="num">'+pct(r.g,r.r+r.g)+'</td></tr>';});
+  h+='<tr class="tot"><td>All</td><td class="num">'+sr+'</td><td class="num">'+sg+'</td><td class="num">'+(sr+sg)+'</td><td class="num">'+pct(sg,sr+sg)+'</td></tr></tbody></table>';
+  h+='<p class="note" style="margin-top:8px">Seat-terms, not people: a woman who sat in three assemblies counts three times, and a multi-seat winner once per seat. Reserved terms are on election-day allocation (60 per assembly since 2002; replacements excluded). "General share" is the fraction of a party\'s women who won a seat outright rather than arriving by list — the measure of whether a party runs women or only lists them.</p>';
+  document.getElementById('wpartyAll').innerHTML=h;
+}
+
 // ---------- non-Muslim ----------
 function renderNM(){
   var parties={};
@@ -599,10 +645,10 @@ function renderStats(){
 function yearToggle(id,fn){
   var el=document.getElementById(id);
   el.innerHTML=YL.map(function(y){return '<button data-y="'+y+'"'+(y===state.year?' class="on"':'')+'>'+y+'</button>';}).join('');
-  el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;state.year=b.dataset.y;document.querySelectorAll('#yrTog button,#yrTog2 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);});
+  el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;state.year=b.dataset.y;document.querySelectorAll('#yrTog button,#yrTog2 button,#yrTog3 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);renderWomenParty(state.year);});
 }
-yearToggle('yrTog'); yearToggle('yrTog2');
-renderStats(); renderHemi(state.year); renderAlloc(state.year); renderWomen(); renderNM();
+yearToggle('yrTog'); yearToggle('yrTog2'); yearToggle('yrTog3');
+renderStats(); renderHemi(state.year); renderAlloc(state.year); renderWomen(); renderWomenParty(state.year); renderWomenPartyAll(); renderNM();
 (function(){
   var ry=document.getElementById('rYear'); ry.innerHTML='<option value="">All assemblies</option>'+YL.map(function(y){return '<option value="'+y+'">'+y+' · '+H.years[y].assembly+'th</option>';}).join('');
   var ps={}; ROWS.forEach(function(r){ps[r.party]=1;});
@@ -645,7 +691,7 @@ document.getElementById('pageTabs').addEventListener('click',function(e){
     });
   });
   var hh=decodeURIComponent(location.hash.slice(1));
-  if(hh){var parts=hh.split('~'), tab=parts[0]; if(parts[1]&&YL.indexOf(parts[1])>-1){state.year=parts[1];document.querySelectorAll('#yrTog button,#yrTog2 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);}
+  if(hh){var parts=hh.split('~'), tab=parts[0]; if(parts[1]&&YL.indexOf(parts[1])>-1){state.year=parts[1];document.querySelectorAll('#yrTog button,#yrTog2 button,#yrTog3 button').forEach(function(x){x.classList.toggle('on',x.dataset.y===state.year);});renderHemi(state.year);renderAlloc(state.year);renderWomenParty(state.year);}
     var btn=document.querySelector('#pageTabs button[data-t="'+tab+'"]'); if(btn) btn.click();}
 })();
 </script>
