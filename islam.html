@@ -91,7 +91,11 @@ table{border-collapse:collapse;width:100%;margin-top:10px;font-size:13.5px}
 th,td{border-bottom:1px solid var(--line-2);padding:7px 10px;text-align:left}
 th{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
 td.num,th.num{text-align:right;font-family:'Space Mono',monospace}
-.mapwrap{display:grid;grid-template-columns:1fr 300px;gap:18px;align-items:start}
+.mapwrap{display:grid;grid-template-columns:1fr 300px;gap:18px;align-items:stretch}
+.mapwrap>.side{display:flex;flex-direction:column;gap:14px;min-height:0}
+.mapwrap>.side>.card{margin-top:0}
+.mapwrap>.side>#topseats{flex:1 1 auto;min-height:0;overflow:auto}
+@media(max-width:880px){.mapwrap>.side>#topseats{flex:none}}
 .mapwrap>*{min-width:0}
 .card>svg{display:block;width:100%;max-width:100%;height:auto}
 @media(max-width:880px){.mapwrap{grid-template-columns:1fr}}
@@ -195,7 +199,7 @@ ul.src{font-size:13px;color:var(--ink-2)}
   <div class="mapwrap">
     <div class="card" style="padding:8px"><svg id="map" width="100%" height="640" viewBox="0 0 720 640" preserveAspectRatio="xMidYMid meet"></svg>
   <div class="chartbar" style="padding-right:6px"><button data-act="link" data-tab="map">Share link</button><button data-act="png" data-svg="map" data-name="aiwan_islamic_map">PNG</button><button data-act="csv" data-kind="map">CSV — this election</button></div></div>
-    <div>
+    <div class="side">
       <div class="card" id="seatcard"><div class="p">SELECT A SEAT</div><div class="t">Click any seat or district</div>
         <div style="font-size:13px;color:var(--ink-2);margin-top:6px">The panel will show the combined religio-political vote and its sect breakdown.</div></div>
       <div class="card">

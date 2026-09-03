@@ -99,6 +99,13 @@ html[data-th=dark] .delta.neg{color:#e07a6e}
 .two>*{min-width:0}
 .two.eq{align-items:stretch}
 .two.eq>.card{margin-top:14px}
+.two.eq>.fill{position:relative;margin-top:14px;min-height:360px}
+.two.eq>.fill>.inner{position:absolute;inset:0;display:flex;flex-direction:column;gap:14px}
+.fill .card,.fill .callout{margin-top:0}
+.fill .grow{flex:1 1 auto;min-height:0;overflow:auto}
+.fill .grow table thead th{position:sticky;top:0;background:var(--surface);z-index:1}
+.fill .callout{max-height:45%;overflow:auto}
+@media(max-width:880px){.two.eq>.fill{min-height:0}.two.eq>.fill>.inner{position:static}.fill .callout{max-height:none}}
 .card>svg{display:block;width:100%;max-width:100%;height:auto}
 @media(max-width:560px){.statrow{grid-template-columns:1fr 1fr}.stat .v{font-size:20px}.toggle button{padding:7px 12px}}
 @media(max-width:880px){.two{grid-template-columns:1fr}}
@@ -211,17 +218,17 @@ details.fold>summary:hover{color:var(--green)}
   <h2>The House as seated</h2>
   <p class="note">Every seat, general and reserved, coloured by party. Filled dots are general seats won at the poll; ringed dots are women's reserved seats; squares are non-Muslim reserved seats. Hover a seat for the member. The share columns show how the reserved seats change each party's weight in the House relative to its weight among elected seats.</p>
   <div class="toggle" id="yrTog"></div>
-  <div class="two">
+  <div class="two eq">
     <div class="card hemi-wrap">
       <svg id="hemi" width="100%" height="445" viewBox="0 0 720 445" preserveAspectRatio="xMidYMid meet"></svg>
       <div class="legend" id="hemiLegend"></div>
       <div class="chartbar"><button data-act="link" data-tab="house">Share link</button><button data-act="png" data-svg="hemi" data-name="aiwan_house">PNG</button><button data-act="csv" data-kind="house">CSV</button></div>
     </div>
-    <div>
-      <div class="card" id="houseTable"></div>
-      <div class="callout" id="houseNote"></div>
-    </div>
+    <div class="fill"><div class="inner">
+      <div class="card grow" id="houseTable"></div>
+    </div></div>
   </div>
+  <div class="callout" id="houseNote"></div>
   </section>
 
   <!-- ============ ALLOCATION ============ -->
