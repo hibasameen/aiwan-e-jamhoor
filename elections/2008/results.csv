@@ -1,0 +1,269 @@
+year,seat,constituency,province,recorded_winner,party,winner_votes,winner_vote_share_pct,registered_voters,turnout_pct,margin_pp,candidate_count
+2008,NA-1,Peshawar 1,Khyber Paktunkhwa (NWFP),Haji Ghulam Ahmed Bilour,Awami National Party,44210,50.1,387083,23.0,7.4,13
+2008,NA-2,Peshawar 2,Khyber Paktunkhwa (NWFP),Dr. Arbab Alamgir Khan,Pakistan Peoples Party Parliamentarians,34443,45.1,314904,24.9,13.7,9
+2008,NA-3,Peshawar 3,Khyber Paktunkhwa (NWFP),Noor Alam Khan,Pakistan Peoples Party Parliamentarians,27038,29.7,257192,36.3,0.9,8
+2008,NA-4,Peshawar 4,Khyber Paktunkhwa (NWFP),Arbab Muhammad Zahir Khan,Awami National Party,31598,39.1,260335,31.7,16.0,8
+2008,NA-5,Nowshera 1,Khyber Paktunkhwa (NWFP),Muhammad Tariq Khattak,Pakistan Peoples Party Parliamentarians,31907,33.7,263153,37.0,2.5,7
+2008,NA-6,Nowshera 2,Khyber Paktunkhwa (NWFP),Masood Abbas Khattak,Awami National Party,36835,43.3,238295,37.2,10.4,3
+2008,NA-7,Charsadda 1,Khyber Paktunkhwa (NWFP),Asfandiyar Wali Khan,Awami National Party,57234,65.3,273747,32.8,44.9,4
+2008,NA-8,Charsadda 2,Khyber Paktunkhwa (NWFP),Aftab Ahmad Khan Sherpao,Qaumi Watan Party,30626,39.2,246261,32.4,0.9,5
+2008,NA-9,Mardan 1,Khyber Paktunkhwa (NWFP),Nawabzada Khawaja Muhammad Khan Hoti (Toti Khan),Awami National Party,31075,39.0,262042,31.2,8.6,10
+2008,NA-10,Mardan 2,Khyber Paktunkhwa (NWFP),Maulana Mohammad Qasim,Jamiat Ulema-e Islam (Fazl),29279,31.2,256037,37.8,6.5,9
+2008,NA-11,Mardan 3,Khyber Paktunkhwa (NWFP),Abdul Akbar Khan,Pakistan Peoples Party Parliamentarians,49060,61.2,265000,31.5,28.1,5
+2008,NA-12,Swabi 1,Khyber Paktunkhwa (NWFP),Usman Khan Tarkai,Independents,49872,45.8,283709,39.4,0.3,5
+2008,NA-13,Swabi 2,Khyber Paktunkhwa (NWFP),Perviz Khan,Awami National Party,26603,25.9,287549,36.7,7.0,9
+2008,NA-14,Kohat,Khyber Paktunkhwa (NWFP),Pir Dilawar Shah,Awami National Party,30681,31.1,357556,28.4,7.8,9
+2008,NA-15,Karak,Khyber Paktunkhwa (NWFP),Mufti Ajmal Khan,Jamiat Ulema-e Islam (Fazl),28665,25.9,291693,38.8,6.0,8
+2008,NA-16,Hangu,Khyber Paktunkhwa (NWFP),Syed Haidar Ali Shah,Awami National Party,22180,37.9,187636,31.8,4.6,5
+2008,NA-17,Abbottabad,Khyber Paktunkhwa (NWFP),Sardar Mehtab Ahmed Khan,Pakistan Muslim League (Nawaz),58041,44.1,314337,42.8,16.2,5
+2008,NA-18,Abbottabad 2,Khyber Paktunkhwa (NWFP),Murtaza Javid Abbasi,Pakistan Muslim League (Nawaz),72586,48.1,347770,44.5,24.6,13
+2008,NA-19,Haripur,Khyber Paktunkhwa (NWFP),Sardar Muhammad Mushtaq,Pakistan Muslim League (Nawaz),98670,44.3,484252,47.1,12.3,5
+2008,NA-20,Mansehra 1,Khyber Paktunkhwa (NWFP),Sardar Shajehan Yousaf,Pakistan Muslim League (Qaid-e-Azam),73644,47.5,437390,36.3,0.7,4
+2008,NA-21,Tor Ghar Cum Mansehra 2,Khyber Paktunkhwa (NWFP),Faiz Muhammad Khan,Pakistan Muslim League (Nawaz),51482,37.1,424342,32.7,10.0,7
+2008,NA-22,Battagram,Khyber Paktunkhwa (NWFP),Muhammad Nawaz Khan,Pakistan Muslim League (Qaid-e-Azam),22316,40.5,151437,37.0,4.1,7
+2008,NA-23,Kohistan,Khyber Paktunkhwa (NWFP),Mehboobullah,Independents,14100,26.6,317734,17.8,1.3,8
+2008,NA-24,Dera Ismail Khan,Khyber Paktunkhwa (NWFP),Faisal Karim Kundi,Pakistan Peoples Party Parliamentarians,83560,60.3,347165,41.2,27.1,9
+2008,NA-25,D.i. Khan Cum Tank,Khyber Paktunkhwa (NWFP),Atta Ur Rehman,Jamiat Ulema-e Islam (Fazl),44673,33.6,320178,42.9,1.4,11
+2008,NA-26,Bannu,Khyber Paktunkhwa (NWFP),Maulana Fazal Ur Rehman,Jamiat Ulema-e Islam (Fazl),91484,55.6,384896,43.5,21.2,6
+2008,NA-27,Lakki Marwat,Khyber Paktunkhwa (NWFP),Hamayun Saifullah Khan,Pakistan Muslim League (Qaid-e-Azam),61303,49.6,266658,47.8,7.3,13
+2008,NA-28,Buner,Khyber Paktunkhwa (NWFP),Abdul Matin Khan,Awami National Party,21801,29.1,290460,27.2,4.5,6
+2008,NA-29,Swat 1,Khyber Paktunkhwa (NWFP),Muzafer Ul Mulk,Awami National Party,19860,27.3,412055,18.2,3.6,8
+2008,NA-30,Swat 2,Khyber Paktunkhwa (NWFP),Syed Allauddin,Pakistan Peoples Party Parliamentarians,24063,34.7,404540,17.9,11.1,10
+2008,NA-31,Shangla,Khyber Paktunkhwa (NWFP),Amir Muqam,Pakistan Muslim League (Qaid-e-Azam),26928,40.0,263581,26.6,16.6,8
+2008,NA-32,Chitral,Khyber Paktunkhwa (NWFP),Shahzada Muhyuddin,Pakistan Muslim League (Qaid-e-Azam),33278,38.5,197022,45.5,2.5,5
+2008,NA-33,Upper Dir Cum Lower Din (Old Upper Dir),Khyber Paktunkhwa (NWFP),Najum-Din Khan,Pakistan Peoples Party Parliamentarians,27594,39.5,267936,26.8,11.0,9
+2008,NA-34,Lower Dir,Khyber Paktunkhwa (NWFP),Malak Azmat Khan,Pakistan Peoples Party Parliamentarians,38068,43.5,371903,24.3,15.5,7
+2008,NA-35,Malakand P Area,Khyber Paktunkhwa (NWFP),Lal Muhammad Khan,Pakistan Peoples Party Parliamentarians,34472,48.7,233458,31.3,27.5,6
+2008,NA-36,Tribal Area 1,Islamabad and FATA,Bilal Rehman,Independents,5270,23.0,126007,18.5,4.6,21
+2008,NA-38,Tribal Area 3,Islamabad and FATA,Munir Khan Orakzai,Independents,16525,66.4,87993,28.3,49.2,20
+2008,NA-39,Tribal Area 4,Islamabad and FATA,Jawad Hussain,Independents,21844,44.5,123335,40.1,27.7,14
+2008,NA-40,Tribal Area 5,Islamabad and FATA,Muhammad Kamran Khan,Independents,5894,17.0,126453,27.9,1.3,20
+2008,NA-41,Tribal Area 6,Islamabad and FATA,Maulana Abdul Malik Wazir,Independents,7957,25.4,94077,34.0,0.1,11
+2008,NA-43,Tribal Area 8,Islamabad and FATA,Shaukatullah Khan,Independents,7428,49.8,119088,12.8,29.2,9
+2008,NA-44,Tribal Area 9,Islamabad and FATA,Syed Akhun Zada Chittan,Independents,6257,26.9,136052,17.7,4.5,9
+2008,NA-45,Tribal Area 10,Islamabad and FATA,Noor Ul Haq Qadri,Independents,13876,39.7,101272,35.0,3.8,13
+2008,NA-46,Tribal Area 11,Islamabad and FATA,Hamidullah Jan Afridi,Independents,5660,25.4,94208,23.8,2.8,23
+2008,NA-47,Tribal Area 12,Islamabad and FATA,Zafar Baig Bhattani,Independents,21426,44.9,131222,36.7,23.0,20
+2008,NA-48,Islamabad 1,Islamabad and FATA,Anjum Aqeel Khan,Pakistan Muslim League (Nawaz),61480,58.9,239924,43.7,33.5,23
+2008,NA-49,Islamabad 2,Islamabad and FATA,Dr. Tariq Fazal Chaudry,Pakistan Muslim League (Nawaz),45482,33.5,242877,56.2,0.6,11
+2008,NA-50,Rawalpindi 1,Punjab,Shahid Khaqan Abbassi,Pakistan Muslim League (Nawaz),99988,48.5,403566,52.3,10.7,4
+2008,NA-51,Rawalpindi 2,Punjab,Raja Pervaiz Ashraf,Pakistan Peoples Party Parliamentarians,80247,38.8,390375,53.9,5.1,5
+2008,NA-52,Rawalpindi 3,Punjab,Chaudhry Nisar Ali Khan,Pakistan Muslim League (Nawaz),97747,50.6,375934,52.3,22.1,9
+2008,NA-53,Rawalpindi 4,Punjab,Chaudhry Nisar Ali Khan,Pakistan Muslim League (Nawaz),72257,41.2,343853,52.3,13.2,7
+2008,NA-54,Rawalpindi 5,Punjab,Malik Abrar Ahmad,Pakistan Muslim League (Nawaz),58228,56.4,271396,38.5,23.7,13
+2008,NA-55,Rawalpindi 6,Punjab,Makhdoom Muhammad Javed Hashmi,Pakistan Muslim League (Nawaz),76980,58.5,333928,40.1,30.1,8
+2008,NA-56,Rawalpindi 7,Punjab,Muhammad Hanif Abbasi,Pakistan Muslim League (Nawaz),73433,68.2,312220,35.1,47.1,6
+2008,NA-57,Attock 1,Punjab,Sheikh Aftab Ahmad,Pakistan Muslim League (Nawaz),38755,30.4,275468,48.8,0.3,8
+2008,NA-58,Attock 2,Punjab,Pervaiz Ellahi,Pakistan Muslim League (Qaid-e-Azam),70743,39.0,315556,59.3,6.1,5
+2008,NA-59,Attock 3,Punjab,Sardar Saleem Haider Khan,Pakistan Peoples Party Parliamentarians,71400,45.7,263849,60.8,8.0,4
+2008,NA-60,Chakwal 1,Punjab,Ayaz Amit,Pakistan Muslim League (Nawaz),125437,51.8,433391,57.0,14.1,4
+2008,NA-61,Chakwal 2,Punjab,Muhammad Faiz Tamman,Pakistan Muslim League (Nawaz),92201,42.7,394663,57.5,0.2,4
+2008,NA-62,Jhelum 1,Punjab,Raja Muhammad Safdar,Pakistan Muslim League (Nawaz),92479,51.3,370090,50.4,17.2,5
+2008,NA-63,Jhelum 2,Punjab,Raja Muhammad Asad Khan,Pakistan Muslim League (Nawaz),79662,50.1,378616,43.1,17.6,4
+2008,NA-64,Sargodha 1,Punjab,Nadeem Afzal Gondal,Pakistan Peoples Party Parliamentarians,65628,37.2,429937,42.4,2.9,5
+2008,NA-65,Sargodha 2,Punjab,Ghais Ahmed Mela,Pakistan Muslim League (Qaid-e-Azam),53518,35.9,345850,44.9,0.2,5
+2008,NA-66,Sargodha 3,Punjab,Tasneem Ahmed Qureshi,Pakistan Peoples Party Parliamentarians,69943,48.1,408823,36.5,3.4,11
+2008,NA-67,Sargodha 4,Punjab,Anwar Ali Cheema,Pakistan Muslim League (Qaid-e-Azam),83594,48.9,372351,46.9,10.1,6
+2008,NA-68,Sargodha 5,Punjab,Syed Javed Hassnain Shah,Pakistan Muslim League (Nawaz),80174,44.4,383849,48.6,12.9,5
+2008,NA-69,Khushab 1,Punjab,Sumaira Malik,Pakistan Muslim League (Qaid-e-Azam),61076,37.2,283887,59.9,0.4,4
+2008,NA-70,Khushab 2,Punjab,Malik Shakir Bashir Awan,Pakistan Muslim League (Nawaz),66361,41.3,273799,60.8,4.6,4
+2008,NA-71,Mianwali 1,Punjab,Nawabzada Malik Amad Khan,Independents,83098,51.1,330173,50.9,6.2,4
+2008,NA-72,Mianwali 2,Punjab,Humair Hayat Rokhari,Independents,49294,30.8,307839,54.1,1.5,6
+2008,NA-73,Bhakkar 1,Punjab,Abdul Majeed Khan Khanan Khel,Independents,83850,48.4,266265,67.4,0.6,4
+2008,NA-74,Bhakkar 2,Punjab,Rasheed Akbar Khan,Independents,98366,52.1,300762,65.1,6.2,5
+2008,NA-75,Faisalabad 1,Punjab,Tariq Mehmood Bajwa,Pakistan Peoples Party Parliamentarians,83699,54.4,265662,58.9,10.1,7
+2008,NA-76,Faisalabad 2,Punjab,Malik Nawab Sher Waseer,Pakistan Peoples Party Parliamentarians,43294,31.1,255928,56.1,1.6,11
+2008,NA-77,Faisalabad 3,Punjab,Muhammad Asim Nazir,Pakistan Muslim League (Qaid-e-Azam),63776,46.1,240482,59.0,10.1,11
+2008,NA-78,Faisalabad 4,Punjab,Raheela Perveen,Pakistan Peoples Party Parliamentarians,79127,55.9,273193,53.8,14.1,4
+2008,NA-79,Faisalabad 5,Punjab,Rana Muhammad Farooq Saeed Khan,Independents,58563,39.3,275953,56.6,19.7,7
+2008,NA-80,Faisalabad 6,Punjab,Asif Tauseef,Pakistan Muslim League (Qaid-e-Azam),56724,40.8,260300,54.9,8.5,4
+2008,NA-81,Faisalabad 7,Punjab,Saeed Iqbal,Pakistan Peoples Party Parliamentarians,65322,45.1,252974,58.7,6.7,5
+2008,NA-82,Faisalabad 8,Punjab,Sahibzada Haji Muhammad Fazal-E-Kareem,Pakistan Muslim League (Nawaz),62889,47.3,287186,47.0,5.9,6
+2008,NA-83,Faisalabad 9,Punjab,Muhammad Ijaz Virk,Pakistan Peoples Party Parliamentarians,56910,40.6,311576,46.0,0.7,8
+2008,NA-84,Faisalabad 10,Punjab,Abid Ali,Pakistan Muslim League (Nawaz),59616,53.2,249391,45.7,18.9,9
+2008,NA-85,Faisalabad 11,Punjab,Haji Muhammad Akram Ansari,Pakistan Muslim League (Nawaz),72197,55.2,286136,46.5,19.7,4
+2008,NA-86,Jhang 1,Punjab,Syed Anayat Ali Shah,Pakistan Peoples Party Parliamentarians,57583,41.5,307209,45.1,12.1,4
+2008,NA-87,Jhang 2,Punjab,Ghulam Bibi Bharwana,Pakistan Muslim League (Qaid-e-Azam),63515,44.7,307499,48.3,5.6,4
+2008,NA-88,Jhang 3,Punjab,Makhdoom Syed Faisal Saleh Hayat,Pakistan Muslim League (Qaid-e-Azam),72162,44.8,372743,45.5,9.5,4
+2008,NA-89,Jhang 4,Punjab,Sheikh Waqas Akram,Pakistan Muslim League (Qaid-e-Azam),51976,41.4,312773,41.7,5.4,12
+2008,NA-90,Jhang 5,Punjab,Saima Akhtar Bharwana,Independents,64759,49.5,273873,49.4,5.1,5
+2008,NA-91,Jhang 6,Punjab,Muhammad Mehbook Sultan,Pakistan Muslim League (Qaid-e-Azam),75803,50.4,320219,48.6,7.0,3
+2008,NA-92,Toba Tek Singh 1,Punjab,Farkhanda Amjad Warraich,Pakistan Muslim League (Qaid-e-Azam),69827,41.3,286827,60.4,7.5,3
+2008,NA-93,Toba Tek Singh 2,Punjab,Muhammad Junaid Anwaar Chudhary,Pakistan Muslim League (Nawaz),84061,49.5,289211,60.5,11.7,7
+2008,NA-94,Toba Tek Singh,Punjab,Riaz Fatiyana,Pakistan Muslim League (Qaid-e-Azam),63444,34.4,314704,60.5,2.2,10
+2008,NA-95,Gujranwala 1,Punjab,Usman Ibrahim,Pakistan Muslim League (Nawaz),51705,47.9,328711,33.5,7.1,14
+2008,NA-96,Gujranwala 2,Punjab,Khuram Dastgir Khan,Pakistan Muslim League (Nawaz),61972,61.7,345090,29.7,29.0,14
+2008,NA-97,Gujranwala 3,Punjab,Ch. Mehmood Bashir Virk,Pakistan Muslim League (Nawaz),48701,42.9,344369,34.0,6.3,7
+2008,NA-98,Gujranwala 4,Punjab,Imtiaz Safdar Warraich,Pakistan Peoples Party Parliamentarians,68509,46.9,368599,40.9,14.7,9
+2008,NA-99,Gujranwalla 5,Punjab,Rana Nazir Ahmad Khan,Pakistan Muslim League (Nawaz),60219,41.3,342054,43.8,10.6,6
+2008,NA-100,Gujranwalla 6,Punjab,Haji Mudassar Qayyum Nahra,Independents,57320,38.3,329185,48.1,2.7,6
+2008,NA-101,Gujranwalla 7,Punjab,Justice Iftikhar Ahmad Cheema,Pakistan Muslim League (Nawaz),71792,44.6,377640,43.9,14.3,5
+2008,NA-102,Hafizabad 1,Punjab,Saira Afzal Tarar,Pakistan Muslim League (Nawaz),56313,46.7,204649,61.2,11.2,3
+2008,NA-103,Hafizabad 2,Punjab,Ch. Liaqat Abbas Bhatti,Pakistan Muslim League (Qaid-e-Azam),56791,46.8,198007,63.4,2.0,3
+2008,NA-104,Gujrat 1,Punjab,Chaudhary Wajahat Hussain,Pakistan Muslim League (Qaid-e-Azam),96379,56.6,311343,55.9,19.4,5
+2008,NA-105,Gujrat 2,Punjab,Ch. Ahmed Mukhtar,Pakistan Peoples Party Parliamentarians,79735,54.5,332332,45.1,9.6,4
+2008,NA-106,Gujrat 3,Punjab,Qamar Zaman Kaira,Pakistan Peoples Party Parliamentarians,89555,51.9,322310,55.5,10.8,6
+2008,NA-107,Gujrat 4,Punjab,Muhammad Jamil Malik,Pakistan Muslim League (Nawaz),75205,46.0,321304,52.8,3.7,7
+2008,NA-108,M.b. Din 1,Punjab,Muhammad Tariq Tarar,Pakistan Peoples Party Parliamentarians,73951,40.5,338597,55.4,3.4,5
+2008,NA-109,M.b. Din 2,Punjab,Nazar Muhammad Gondal,Pakistan Peoples Party Parliamentarians,74163,44.9,309950,54.8,4.0,5
+2008,NA-110,Sialkot 1,Punjab,Khawaja Muhammad Asif,Pakistan Muslim League (Nawaz),73007,63.6,275969,42.8,35.6,4
+2008,NA-111,Sialkot 2,Punjab,Dr. Fardos Ashiq Awan,Pakistan Peoples Party Parliamentarians,78925,48.2,307465,55.7,19.9,4
+2008,NA-112,Sialkot 3,Punjab,Rana Abdul Sattar Bin Rana Shamim Ahmed Khan,Pakistan Muslim League (Nawaz),92182,56.0,302932,56.0,30.0,6
+2008,NA-113,Sialkot 4,Punjab,Sahabzada Syden Murtaza Amin,Pakistan Muslim League (Nawaz),77819,50.1,292273,55.2,24.9,9
+2008,NA-114,Sialkot 5,Punjab,Zahid Hamid,Pakistan Muslim League (Nawaz),62362,35.6,305217,59.3,3.4,5
+2008,NA-115,Narowal 1,Punjab,Sumaira Naz,Pakistan Muslim League (Nawaz),59688,53.6,202087,56.8,17.5,6
+2008,NA-116,Narowal 2,Punjab,Ch. Muhammad Tariq Anees,Independents,45097,39.4,224956,53.7,7.0,5
+2008,NA-117,Narowal 3,Punjab,Ahsan Iqbal,Pakistan Muslim League (Nawaz),66633,58.5,213474,55.3,26.7,5
+2008,NA-118,Lahore 1,Punjab,Muhammad Riaz,Pakistan Muslim League (Nawaz),55900,60.1,250850,37.8,33.6,13
+2008,NA-120,Lahore 3,Punjab,Bilal Yaseen,Pakistan Muslim League (Nawaz),65946,68.5,268552,36.3,43.2,8
+2008,NA-121,Lahore 4,Punjab,Mian Margood Ahmad,Pakistan Muslim League (Nawaz),72227,66.6,303962,36.3,40.8,8
+2008,NA-122,Lahore 5,Punjab,Sardar Ayaz Sadiq,Pakistan Muslim League (Nawaz),79506,68.3,331381,35.6,46.9,10
+2008,NA-123,Lahore 6,Punjab,Makhdoom Muhammad Javed Hashmi,Pakistan Muslim League (Nawaz),67707,70.3,288994,33.8,50.7,11
+2008,NA-124,Lahore 7,Punjab,Sheikh Rohale Asghar,Pakistan Muslim League (Nawaz),71342,67.0,275697,39.4,45.0,6
+2008,NA-125,Lahore 8,Punjab,Khawaja Saad Rafique,Pakistan Muslim League (Nawaz),70752,64.2,311540,35.9,41.9,11
+2008,NA-126,Lahore 9,Punjab,Umer Sohail Zia Butt,Pakistan Muslim League (Nawaz),69718,58.3,360304,33.5,37.3,13
+2008,NA-127,Lahore 10,Punjab,Chaudry Nasir Ahmed Bhutta,Pakistan Muslim League (Nawaz),53602,57.6,279080,33.8,34.3,11
+2008,NA-128,Lahore 11,Punjab,Malik Muhammad Afzal Khokhar,Pakistan Muslim League (Nawaz),65727,53.6,275267,45.5,22.9,8
+2008,NA-129,Lahore 12,Punjab,Tariq Shabbir,Pakistan Peoples Party Parliamentarians,36604,39.3,200935,47.6,8.1,7
+2008,NA-130,Lahore 13,Punjab,Samina Khalid Ghurki,Pakistan Peoples Party Parliamentarians,44692,45.2,226575,43.6,3.7,7
+2008,NA-131,Sheikhupura 1,Punjab,Rana Tanveer Hussain,Pakistan Muslim League (Nawaz),50638,43.6,217332,55.4,8.4,8
+2008,NA-132,Sheikhupura 2,Punjab,Rana Tanveer Hussain,Pakistan Muslim League (Nawaz),48193,44.6,229477,49.3,13.1,11
+2008,NA-133,Sheikhupura 3,Punjab,Mian Javed Latif,Pakistan Muslim League (Nawaz),44786,45.7,222833,45.7,17.1,11
+2008,NA-134,Sheikhupura 4,Punjab,Sardar Muhammad Irfan Dogar,Pakistan Muslim League (Nawaz),47925,45.7,208782,51.6,14.3,8
+2008,NA-135,Sheikhupura 5,Punjab,Choudhary Muhammad Barjees Tahir,Pakistan Muslim League (Nawaz),46739,39.5,227137,54.8,3.5,8
+2008,NA-136,Sheikhupura 6,Punjab,Ch. Bilal Ahmed Virk,Pakistan Muslim League (Nawaz),49681,42.8,219843,55.0,8.9,10
+2008,NA-137,Sheikhupura 7,Punjab,Saeed Ahmed Zafar,Independents,54732,43.8,234225,55.7,8.0,8
+2008,NA-138,Kasur 1,Punjab,Rao Mazhar Hayyat Khan,Pakistan Muslim League (Nawaz),58832,44.5,232483,58.6,14.3,10
+2008,NA-139,Kasur 2,Punjab,Waseem Akhtar Sheikh,Pakistan Muslim League (Nawaz),51436,43.7,239473,50.7,6.3,7
+2008,NA-140,Kasur 3,Punjab,Sardar Asif Ahmad Ali,Pakistan Peoples Party Parliamentarians,41626,32.9,230446,56.6,7.5,9
+2008,NA-141,Kasur 4,Punjab,Rana Muhammad Ishaq Khan,Pakistan Muslim League (Nawaz),58807,46.3,251254,52.5,11.3,11
+2008,NA-142,Kasur 5,Punjab,Sardar Talib Hassan Nakai,Pakistan Muslim League (Qaid-e-Azam),47192,39.4,225459,54.9,1.4,8
+2008,NA-143,Okara 1,Punjab,Capt. Rai Ghulam Mujtaba Kharral,Pakistan Peoples Party Parliamentarians,63960,51.5,280597,45.9,16.2,5
+2008,NA-144,Okara 2,Punjab,Sajjad Ul Hassan,Independents,77795,65.9,301559,40.5,37.5,10
+2008,NA-145,Okara 3,Punjab,Syed Sumsan Ali Shah Bukhari,Pakistan Peoples Party Parliamentarians,64607,49.9,287122,46.6,16.9,6
+2008,NA-146,Okara 4,Punjab,Mian Manzoor Ahmad Khan Wattoo,Independents,46941,35.1,311975,44.7,0.7,10
+2008,NA-147,Okara 5,Punjab,Mian Manzoor Ahmad Khan Wattoo,Independents,84778,60.6,320579,45.5,38.1,9
+2008,NA-148,Multan 1,Punjab,Makhdoom Shah Mehmood Qureshi,Pakistan Peoples Party Parliamentarians,83184,56.4,344896,43.6,29.4,3
+2008,NA-149,Multan 2,Punjab,Makhdoom Muhammad Javed Hashmi,Pakistan Muslim League (Nawaz),70864,55.4,427253,30.3,19.7,6
+2008,NA-150,Multan 3,Punjab,Rana Mahmood Ul Hassan,Pakistan Muslim League (Nawaz),57774,45.5,399931,32.1,11.4,6
+2008,NA-151,Multan 4,Punjab,Syed Yousaf Raza Gilani,Pakistan Peoples Party Parliamentarians,77664,54.4,351092,41.5,22.3,6
+2008,NA-152,Multan 5,Punjab,Liaqat Ali Khan,Pakistan Peoples Party Parliamentarians,47880,35.4,336035,41.3,7.2,7
+2008,NA-153,Multan 6,Punjab,Dewan Syed Ashiq Hussain Bukhari,Pakistan Muslim League (Qaid-e-Azam),69246,43.8,350676,46.9,0.3,4
+2008,NA-154,Lodhran 1,Punjab,Muhammad Saddique Khan Baluch,Pakistan Muslim League (Qaid-e-Azam),81983,48.5,260489,66.3,1.4,4
+2008,NA-155,Lodhran 2,Punjab,Hayat Ullah Khan Tareen,Pakistan Peoples Party Parliamentarians,50490,29.6,272022,65.3,5.2,6
+2008,NA-156,Khanewal 1,Punjab,Muhammad Raza Hayat Hiraj,Pakistan Muslim League (Qaid-e-Azam),71381,48.4,247583,61.1,8.9,7
+2008,NA-157,Khanewal 2,Punjab,Hamid Yar Hiraj,Pakistan Muslim League (Qaid-e-Azam),58819,42.8,268515,53.0,0.4,4
+2008,NA-158,Khanewal 3,Punjab,Pir Aslam Bodla,Pakistan Muslim League (Qaid-e-Azam),57777,37.1,262562,60.8,0.6,5
+2008,NA-159,Khanewal 4,Punjab,Ch. Iftikhar Nazir,Pakistan Peoples Party Parliamentarians,78255,50.6,253131,62.6,11.0,6
+2008,NA-160,Sahiwal 1,Punjab,Syed Imran Ahmed Shah,Pakistan Muslim League (Nawaz),59373,47.8,248573,51.4,22.8,11
+2008,NA-161,Sahiwal 2,Punjab,Ghulam Farid Kathia,Pakistan Peoples Party Parliamentarians,38962,30.2,236482,57.1,4.5,8
+2008,NA-162,Sahiwal 3,Punjab,Chaudhary Zahid Iqbal,Pakistan Peoples Party Parliamentarians,70634,50.2,250159,57.6,3.7,4
+2008,NA-163,Sahiwal 4,Punjab,Malik Naum Ahmed Langriyal,Pakistan Muslim League (Qaid-e-Azam),39864,30.2,219426,61.8,1.4,5
+2008,NA-164,Pakpattan 1,Punjab,Sardar Mansab Ali Doggar,Pakistan Muslim League (Nawaz),35597,31.5,201597,58.5,1.2,5
+2008,NA-165,Pakpattan 2,Punjab,Syed Muhammad Salman Mohsin Gillani,Pakistan Muslim League (Nawaz),67400,56.2,227991,54.6,25.7,3
+2008,NA-166,Pakpattan 3,Punjab,Rana Zahid Hussain Khan,Pakistan Muslim League (Nawaz),66418,53.8,221602,57.9,19.1,5
+2008,NA-167,Vehari 1,Punjab,Chaudhry Nazir Ahmed Jatt,Pakistan Muslim League (Qaid-e-Azam),65250,40.7,363183,45.9,16.7,7
+2008,NA-168,Vehari 2,Punjab,Azeema Daultana,Pakistan Peoples Party Parliamentarians,49299,33.0,313416,49.1,0.9,9
+2008,NA-169,Vehari 3,Punjab,Tehmina Daultana,Pakistan Muslim League (Nawaz),48999,32.5,320861,48.2,2.1,7
+2008,NA-170,Vehari 4,Punjab,Mehmood Hayat Khan,Pakistan Peoples Party Parliamentarians,87124,56.3,328176,48.6,19.6,8
+2008,NA-171,Dera Ghazi Khan 1,Punjab,Khawja Sheeraz Mehmood,Pakistan Muslim League (Qaid-e-Azam),39628,24.4,381343,44.5,2.0,10
+2008,NA-172,Dera Ghazi Khan 2,Punjab,Farooq Ahmed Khan Leghari,Pakistan Muslim League (Qaid-e-Azam),45370,35.0,392109,34.3,2.7,6
+2008,NA-173,Dera Ghazi Khan 3,Punjab,Sardar Muhammad Saif Ul Din Khan Khosa,Pakistan Muslim League (Nawaz),56475,41.9,334228,41.9,0.3,7
+2008,NA-174,Rajanpur 1,Punjab,Sardar Muhammad Jafar Khan Leghari,Pakistan Muslim League (Qaid-e-Azam),50440,38.7,292419,46.5,8.0,6
+2008,NA-175,Rajanpur 2,Punjab,Meer Dost Muhammad Mazari,Pakistan Peoples Party Parliamentarians,78427,59.3,285365,48.3,24.4,5
+2008,NA-176,Muzaffargarh 1,Punjab,Muhammad Mohsin Ali Qureshi,Pakistan Peoples Party Parliamentarians,50826,35.7,275075,53.4,2.9,7
+2008,NA-177,Muzaffargarh 2,Punjab,Hina Rabbani Khar,Pakistan Peoples Party Parliamentarians,84916,60.0,257818,57.1,24.1,3
+2008,NA-178,Muzaffargarh 3,Punjab,Jamshed Ahmad Khan Dasti,Pakistan Peoples Party Parliamentarians,57946,42.4,283548,49.7,11.3,6
+2008,NA-179,Muzaffargarh 4,Punjab,Muhammad Moazam Ali Khan Jatoi,Pakistan Peoples Party Parliamentarians,79643,54.4,264185,56.5,13.0,6
+2008,NA-180,Muzaffargarh 5,Punjab,Abdul Qayyum Khan Jatoi,Pakistan Peoples Party Parliamentarians,68270,50.2,257481,54.3,3.8,8
+2008,NA-181,Layyah 1,Punjab,Sardar Bahadur Ahmad Khan Seehar,Pakistan Muslim League (Qaid-e-Azam),58797,36.0,263128,63.6,1.1,6
+2008,NA-182,Layyah 2,Punjab,Syed Muhammad Saqlain Bukhari,Pakistan Muslim League (Nawaz),75910,44.8,295598,59.0,14.1,3
+2008,NA-183,Bahawalpur 1,Punjab,Aarif Aziz Sheikh,Pakistan Peoples Party Parliamentarians,71394,62.5,314932,37.1,27.8,5
+2008,NA-184,Bahawalpur 2,Punjab,Malik Aamir Yar Waran,Independents,59277,44.7,321581,42.9,15.7,10
+2008,NA-185,Bahawalpur 3,Punjab,Muhammad Baleegh-Ur-Rehman,Pakistan Muslim League (Nawaz),54334,44.8,364465,34.0,5.8,7
+2008,NA-186,Bahawlpur 4,Punjab,Mian Riaz Hussain Pirzada,Pakistan Muslim League (Qaid-e-Azam),66757,42.7,345653,46.7,10.4,4
+2008,NA-187,Bahawalpur 5,Punjab,Ch. Saud Majeed,Pakistan Muslim League (Nawaz),77860,53.8,317589,46.8,12.3,4
+2008,NA-188,Bahawalnagar 1,Punjab,Muhammad Akhtar Khadim Alias Khadim Hussain,Pakistan Muslim League (Qaid-e-Azam),52981,37.1,269766,55.0,5.7,5
+2008,NA-189,Bahawalnagar 2,Punjab,Sayed Mumtaz Alam Gilani,Pakistan Peoples Party Parliamentarians,49678,38.5,323939,41.1,9.7,8
+2008,NA-190,Bahawalnagar 3,Punjab,Abdul Ghafoor Chaudhary,Pakistan Peoples Party Parliamentarians,77664,51.4,316829,48.8,5.0,5
+2008,NA-191,Bahawalnagar 4,Punjab,Muhammad Afzal Sindhu,Pakistan Peoples Party Parliamentarians,83903,49.8,362672,47.6,2.7,6
+2008,NA-192,Rahimyar Khan 1,Punjab,Syed Hamid Saeed Kazmi,Pakistan Peoples Party Parliamentarians,65395,42.1,400697,39.9,12.7,7
+2008,NA-193,Rahimyar Khan 2,Punjab,Mian Abdul Sattar,Pakistan Peoples Party Parliamentarians,58572,43.5,356244,39.1,16.0,8
+2008,NA-194,Rahimyar Khan 3,Punjab,Makhdoom Shahab Ud Din,Pakistan Peoples Party Parliamentarians,59710,43.2,357267,39.9,12.5,5
+2008,NA-195,Rahimyar Khan 4,Punjab,Jahangir Khan Tareen,Pakistan Muslim League (Functional),84577,60.5,335006,43.3,27.6,5
+2008,NA-196,Rahimyar Khan 5,Punjab,Javed Iqbal Warraich,Pakistan Peoples Party Parliamentarians,52090,37.0,352887,41.2,3.5,10
+2008,NA-197,Rahimyar Khan 6,Punjab,Sardar Muhammad Arshad Khan Laghari,Pakistan Muslim League (Nawaz),82565,58.6,352085,41.5,20.3,7
+2008,NA-198,Old Sukkur 1,Sindh,Nauman Islam Shaikh,Pakistan Peoples Party Parliamentarians,74086,68.9,265679,41.4,47.6,16
+2008,NA-199,Old Sukkur 2,Sindh,Syed Khursheed Ahmed Shah,Pakistan Peoples Party Parliamentarians,93394,72.7,269546,48.6,46.1,13
+2008,NA-200,Ghotki 1,Sindh,Mian Abdul Haq,Pakistan Peoples Party Parliamentarians,59022,41.4,296064,50.5,6.2,14
+2008,NA-201,Ghotki 2,Sindh,Ali Mohammad Khan Mahar,Independents,74714,58.6,282085,46.6,17.9,10
+2008,NA-202,Old Shikarpur 1,Sindh,Aftab Shahban Mirani,Pakistan Peoples Party Parliamentarians,47379,46.6,275349,38.6,7.8,9
+2008,NA-203,Old Shikarpur 2,Sindh,Ghous Bux Khan Mahar,Pakistan Muslim League (Qaid-e-Azam),89921,69.5,241456,55.0,39.3,7
+2008,NA-204,Old Larkana 1,Sindh,Shahid Hussain Bhutto,Pakistan Peoples Party Parliamentarians,81439,83.4,374350,26.6,70.8,14
+2008,NA-205,Old Larkana 2,Sindh,Nazir Ahmed Bughio,Pakistan Peoples Party Parliamentarians,72928,72.1,276839,37.5,46.5,11
+2008,NA-206,Old Larkana 3,Sindh,Mir Ami Ali Khan Magsi,Pakistan Peoples Party Parliamentarians,49524,65.9,148797,52.1,34.6,10
+2008,NA-208,Jacobabad 1,Sindh,Mir Aijaz Hussain Jakhrani,Pakistan Peoples Party Parliamentarians,52813,71.3,271568,28.3,49.1,12
+2008,NA-209,Jacobabad 2,Sindh,Mir Hazzar Khan Bijarani,Pakistan Peoples Party Parliamentarians,111578,84.7,283779,47.1,75.6,8
+2008,NA-210,Jacobabad 3,Sindh,Nasrullah Khan Bijarani,Pakistan Muslim League (Qaid-e-Azam),56515,56.4,292284,35.3,13.4,11
+2008,NA-211,Naushero Feroze 1,Sindh,Ghulam Murtaza Khan Jatoi,National Party,109319,66.4,381020,44.1,33.5,10
+2008,NA-212,Naushero Feroze 2,Sindh,Zaffar Ali Shah,Pakistan Peoples Party Parliamentarians,98999,62.6,376544,43.0,32.7,9
+2008,NA-213,Nawabshah 1,Sindh,Azra Fazal Pecheho,Pakistan Peoples Party Parliamentarians,108404,66.8,350280,47.7,37.8,13
+2008,NA-214,Nawabshah 2,Sindh,Syed Ghulam Mustafa Shah,Pakistan Peoples Party Parliamentarians,81194,61.8,283305,48.0,26.0,10
+2008,NA-215,Khairpur 1,Sindh,Nawab Ali Wassan,Pakistan Peoples Party Parliamentarians,98782,70.3,362823,39.6,46.1,10
+2008,NA-216,Khairpur 2,Sindh,Pir Syed Saddaruddin Shah Rashdi,Pakistan Muslim League (Functional),97347,54.7,378628,48.2,10.3,13
+2008,NA-217,Khairpur 3,Sindh,Pir Syed Fazal Ali Shah Jeelani,Pakistan Peoples Party Parliamentarians,77125,58.0,341935,40.4,19.5,10
+2008,NA-218,Old Hyderabad 1,Sindh,Makhdoom Muhammad Ameen Faheem,Pakistan Peoples Party Parliamentarians,97717,76.9,264345,49.4,56.0,11
+2008,NA-219,Old Hyderabad 2,Sindh,Syed Tayyab Hussain,Muttahida Qaumi Movement,168136,85.8,352697,56.1,72.9,8
+2008,NA-220,Old Hyderabad 3,Sindh,Salahuddin,Muttahida Qaumi Movement,147040,84.1,364798,48.4,70.3,9
+2008,NA-221,Old Hyderabad 4,Sindh,Syed Ameer Shah Jamot,Pakistan Peoples Party Parliamentarians,102737,85.9,326095,37.1,77.1,8
+2008,NA-222,Old Hyderabad 5,Sindh,Syed Naveed Qamar,Pakistan Peoples Party Parliamentarians,84041,74.1,318867,36.3,50.8,9
+2008,NA-223,Old Hyderabad 6,Sindh,Shamshad Sattar Bachani,Pakistan Peoples Party Parliamentarians,84669,64.7,276836,49.0,30.7,14
+2008,NA-224,Old Badin 1,Sindh,Ghulam Ali Nizamani,Pakistan Peoples Party Parliamentarians,87102,67.0,331871,41.8,38.3,11
+2008,NA-225,Old Badin 2,Sindh,Dr. Fahmida Mirza,Pakistan Peoples Party Parliamentarians,88983,76.2,285471,41.9,55.2,11
+2008,NA-226,Old Mirpurkhas 1,Sindh,Pir Aftab Hussain Shah Jillani,Pakistan Peoples Party Parliamentarians,78543,54.6,354611,41.8,28.0,14
+2008,NA-227,Old Mirpurkhas 2,Sindh,Mir Munawar Ali Talpur,Pakistan Peoples Party Parliamentarians,82697,66.2,331905,39.2,41.3,17
+2008,NA-228,Old Mirpurkhas 3,Sindh,Nawab Mohammad Yousif Talpur,Pakistan Peoples Party Parliamentarians,75080,57.3,277564,49.3,34.4,18
+2008,NA-229,Tharparkar 1,Sindh,Arbab Zakaullah,Pakistan Muslim League (Qaid-e-Azam),135697,82.4,256685,65.7,65.2,9
+2008,NA-230,Tharparkar 2,Sindh,Dr. Ghulam Hyder Samejo,Pakistan Muslim League (Qaid-e-Azam),109580,71.6,237555,67.0,43.2,13
+2008,NA-231,Old Dadu 1,Sindh,Nawab Abdul Ghani Talpur,Pakistan Peoples Party Parliamentarians,138320,76.4,492758,37.8,57.9,11
+2008,NA-232,Old Dadu 2,Sindh,Rafique Ahmed Jamali,Pakistan Peoples Party Parliamentarians,87467,71.6,389936,32.2,43.7,10
+2008,NA-233,Old Dadu 3,Sindh,Talat Iqbal Mahessar,Pakistan Peoples Party Parliamentarians,83493,62.3,438137,31.3,24.9,10
+2008,NA-234,Sanghar 1,Sindh,Muhammad Jadam Mangrio,Pakistan Muslim League (Functional),71394,61.1,230943,52.0,22.7,9
+2008,NA-235,Sanghar 2,Sindh,Ghulam Dastgir Rajar,Pakistan Muslim League (Functional),68122,67.0,201610,52.1,35.5,9
+2008,NA-236,Sanghar 3,Sindh,Roshan Din Junejo,Pakistan Peoples Party Parliamentarians,90311,63.9,286317,50.5,28.9,13
+2008,NA-237,Thatta 1,Sindh,Dr. Abdul Wahid Soomro,Pakistan Peoples Party Parliamentarians,85138,60.1,431030,34.2,20.5,4
+2008,NA-238,Thatta 2,Sindh,Syed Ayaz Ali Shah Sheerazi,Pakistan Muslim League (Qaid-e-Azam),76812,54.7,363663,39.8,10.4,4
+2008,NA-239,Karachi 1,Sindh,Abdul Qadir Patel,Pakistan Peoples Party Parliamentarians,56840,51.4,312401,36.2,29.7,14
+2008,NA-240,Karachi 2,Sindh,Khawaja Sohail Mansoor,Muttahida Qaumi Movement,67799,51.9,279723,46.8,5.2,7
+2008,NA-241,Karachi 3,Sindh,S. A. Iqbal Qadiri,Muttahida Qaumi Movement,93617,64.2,268582,54.9,39.4,11
+2008,NA-242,Karachi 4,Sindh,Dr. Abdul Qadir Khanzada,Muttahida Qaumi Movement,147892,83.5,296822,60.3,68.1,6
+2008,NA-243,Karachi 5,Sindh,Abdul Waseem,Muttahida Qaumi Movement,167764,87.3,333290,58.2,75.8,6
+2008,NA-244,Karachi 6,Sindh,Shaikh Salahuddin,Muttahida Qaumi Movement,174044,93.8,290891,64.3,88.8,5
+2008,NA-245,Karachi 7,Sindh,Farhat Muhammad Khan,Muttahida Qaumi Movement,149157,88.6,344004,49.2,79.5,5
+2008,NA-246,Karachi 8,Sindh,Sufyan Yousuf,Muttahida Qaumi Movement,186933,96.2,310045,63.1,92.7,3
+2008,NA-247,Karachi 9,Sindh,Dr. Nadeem Ehsan,Muttahida Qaumi Movement,168007,92.0,303455,60.6,84.3,5
+2008,NA-248,Karachi 10,Sindh,Nabeel Ahmed Gabol,Pakistan Peoples Party Parliamentarians,84217,80.5,351345,30.3,71.3,9
+2008,NA-249,Karachi 11,Sindh,Dr. Muhammad Farooq Sattar,Muttahida Qaumi Movement,103846,57.5,388099,47.0,16.9,5
+2008,NA-250,Karachi 12,Sindh,Khush Bakhat Shujaat,Muttahida Qaumi Movement,52045,51.2,344657,30.2,7.5,12
+2008,NA-251,Karachi 13,Sindh,Waseem Akhter,Muttahida Qaumi Movement,83537,63.8,337193,39.6,46.7,7
+2008,NA-252,Karachi 14,Sindh,Abdul Rasheed Godil,Muttahida Qaumi Movement,87280,75.7,277553,42.4,53.7,6
+2008,NA-253,Karachi 15,Sindh,Syed Haider Abbas Rizvi,Muttahida Qaumi Movement,96973,63.4,398527,39.0,32.6,18
+2008,NA-254,Karachi 16,Sindh,Dr. Muhammad Ayoub Shaikh,Muttahida Qaumi Movement,132648,86.4,309295,50.1,77.1,8
+2008,NA-255,Karachi 17,Sindh,Syed Asif Hassnain,Muttahida Qaumi Movement,157971,82.9,331927,57.9,66.4,6
+2008,NA-256,Karachi 18,Sindh,Iqbal Muhammad Ali Khan,Muttahida Qaumi Movement,123491,75.4,371067,44.5,60.8,7
+2008,NA-257,Karachi 19,Sindh,Sajid Ahmed,Muttahida Qaumi Movement,134498,72.3,386376,48.1,47.6,7
+2008,NA-258,Karachi 20,Sindh,Sher Muhammad Balcoh,Pakistan Peoples Party Parliamentarians,134696,79.6,418663,41.0,70.7,17
+2008,NA-259,Quetta,Balochistan,Syed Nasir Ali Shah,Pakistan Peoples Party Parliamentarians,24936,41.0,365579,17.1,22.3,18
+2008,NA-260,Quetta Cum Chagai,Balochistan,Sardar Al-Haaj Muhammad Umar Goragaje,Pakistan Peoples Party Parliamentarians,40773,40.5,398782,26.3,11.3,13
+2008,NA-261,Pishin Cum Ziarat,Balochistan,Molvi Agha Muhammad,Jamiat Ulema-e Islam (Fazl),30611,37.4,297591,28.6,8.9,17
+2008,NA-262,Killa Abdullah,Balochistan,Haji Rozuddin,Jamiat Ulema-e Islam (Fazl),45590,33.5,392221,35.0,0.8,7
+2008,NA-263,Old Loralai,Balochistan,Sardar Muhammad Israr Tareen,Pakistan Muslim League (Qaid-e-Azam),52818,38.3,349596,40.7,12.9,11
+2008,NA-264,Old Zhob,Balochistan,Maulvi Asmatullah,Independents,24204,41.2,222330,27.9,12.1,8
+2008,NA-265,Old Sibi,Balochistan,Mir Ahmadan Khan Bugti,Pakistan Muslim League (Qaid-e-Azam),56715,56.9,281867,35.9,39.5,7
+2008,NA-266,Old Nasirabad,Balochistan,Taj Muhammad Jamali,Pakistan Peoples Party Parliamentarians,76556,52.8,651356,23.2,17.2,17
+2008,NA-267,Old Kachhi,Balochistan,Mir Hamayun Aziz Kurd,Independents,61249,54.9,242024,46.9,11.6,6
+2008,NA-268,Kalat,Balochistan,Dr. Ayatullah Durrani,Pakistan Peoples Party Parliamentarians,19355,30.8,210875,31.1,5.6,11
+2008,NA-269,Khuzdar,Balochistan,Muhammad Usman,Independents,17609,30.0,186598,33.7,2.8,11
+2008,NA-270,Awaran-Cum-Lasbela,Balochistan,Jam Mir Muhammad Yousuf,Pakistan Muslim League (Qaid-e-Azam),50476,54.6,247737,39.3,9.3,2
+2008,NA-271,Kharan-Cum-Panjgur,Balochistan,Ehsanullah Reki,Pakistan Muslim League (Qaid-e-Azam),22856,32.0,201952,36.6,1.0,9
+2008,NA-272,Kech-Cum-Gwadar,Balochistan,Yaqoob Bizenjo,Balochistan National Party (Awami),61655,59.3,316766,34.1,27.0,6
