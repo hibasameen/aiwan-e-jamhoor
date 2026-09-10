@@ -45,12 +45,22 @@ nav.main a:hover{background:var(--surface-2);color:var(--ink)}
 nav.main a.on{background:var(--ink);color:var(--page)}
 .spacer{flex:1}
 .hdr-tools{display:flex;align-items:center;gap:8px}
+.brand{flex:none}.brand .wm{white-space:nowrap}
+nav.main{flex:none}nav.main a{white-space:nowrap}
+.hdr-tools{flex:none}.hdr-tools .hdr-search{width:200px}.hdr-search::-webkit-calendar-picker-indicator,.hdr-search::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+@media (max-width:1360px){.shell-in{gap:16px}nav.main a{padding:8px 10px}.hdr-tools .hdr-search{width:160px}}
 input[type=search]{background:var(--page);border:1px solid var(--line);border-radius:2px;padding:8px 12px;font:400 13.5px/1 'Space Mono',monospace;color:var(--ink);width:190px}
 input[type=search]:focus{outline:none;border-color:var(--green)}
 .icon-btn{width:34px;height:34px;border:1px solid var(--line);background:var(--page);color:var(--ink-2);border-radius:2px;cursor:pointer;font-size:15px}
 /* map layout */
 main{max-width:1400px;margin:0 auto;padding:20px 32px 60px}
 .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-bottom:14px}
+.page-head{margin:2px 0 18px}
+.page-head .kicker{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.page-head h1{font-family:'EB Garamond',serif;font-weight:500;font-size:32px;line-height:1.12;margin:4px 0 4px}
+.page-head h1 .ur{font-family:'Noto Nastaliq Urdu',serif;font-size:21px;color:var(--gold);margin-inline-start:10px}
+.page-head .lede{font-size:15px;line-height:1.55;color:var(--ink-2);margin:0;max-width:78ch;text-wrap:pretty}
+@media (max-width:720px){.page-head h1{font-size:26px}.page-head h1 .ur{font-size:17px}.page-head .lede{font-size:14px}}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:2px;overflow:hidden;background:var(--surface)}
 .seg button{border:0;background:transparent;color:var(--ink-2);font:600 13px/1 'Space Mono',monospace;padding:9px 16px;cursor:pointer}
 .seg.arch button{font-family:Archivo,sans-serif}
@@ -147,9 +157,10 @@ body{padding-bottom:44px}
 @media (max-width:400px){.legal-in{font-size:10px;gap:6px 10px}}
 @media (max-width:720px){.legal-in{padding:11px 18px}}
 /* ---- shared responsive header (identical on every page) ---- */
-@media (max-width:1040px){
+@media (max-width:1200px){
   .shell-in{flex-wrap:wrap;gap:8px 14px;padding:10px 18px}
   .brand{order:1} .hdr-tools{order:2;margin-left:auto} .spacer{display:none}
+  .hdr-tools .hdr-search{width:200px}
   nav.main{order:3;flex:1 0 100%;margin:0 -18px -10px;padding:0 18px 10px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}
   nav.main::-webkit-scrollbar{display:none}
   nav.main a{padding:7px 11px;font-size:13px;flex:none}
@@ -196,7 +207,6 @@ body{padding-bottom:44px}
     </a>
     <nav class="main"><a href="index.html">Home</a>
       <a class="on" href="map.html">Constituency Results</a>
-      <a href="/elections/">Results Archive</a>
       <a href="house.html">The House</a>
       <a href="candidates.html">Candidates</a>
       <a href="islam.html">Islam &amp; Politics</a>
@@ -213,7 +223,11 @@ body{padding-bottom:44px}
 <datalist id="cst"></datalist>
 
 <main>
-  <section aria-label="Election archive" style="margin-bottom:18px"><h1 style="font-size:22px;margin:0 0 5px">Pakistan National Assembly election results</h1><p style="margin:0;font-size:13px">Explore eleven elections, 1977–2024, or <a href="/elections/" style="text-decoration:underline">browse readable results and source notes by year</a>.</p></section>
+  <div class="page-head">
+    <div class="kicker">Constituency results · National Assembly · 1977 – 2024</div>
+    <h1>Constituency Results<span class="ur">حلقہ وار نتائج</span></h1>
+    <p class="lede">Every National Assembly general election since 1977 — eleven of them — drawn on the constituency boundaries in force at the time. Pick a year, click a seat for the full candidate list and its history on the ground, or search by seat number. The address keeps the year and seat, so a view can be shared.</p>
+  </div>
   <div class="toolbar">
     <div class="seg" id="yearseg"></div>
     <div class="seg arch" id="modeseg">
@@ -484,23 +498,14 @@ function renderElection(){
     <div><div class="k" style="margin-bottom:8px">What observers said</div>${q}</div>
   </div>`;
 }
-// Preserve the selected result in shared URLs and link to its readable archive.
-function syncResultLink(){
+// Keep the selected year and seat in the URL so a view can be shared.
+function syncResultUrl(){
   const url=new URL(location.href);
   url.searchParams.set('year',state.year);
   if(state.selected)url.searchParams.set('seat',state.selected);else url.searchParams.delete('seat');
   if(url.href!==location.href)history.replaceState(null,'',url);
-  const detail=document.getElementById('detail');
-  const old=detail.querySelector('[data-result-link]');if(old)old.remove();
-  const link=document.createElement('a');
-  link.dataset.resultLink='';
-  const hasSeat=state.year==='2024'&&state.selected&&(R[state.year]||{})[state.selected];
-  link.href=hasSeat?'/elections/2024/'+state.selected.toLowerCase()+'/':'/elections/'+state.year+'/';
-  link.textContent=hasSeat?'Read and download '+state.selected+' results →':'Read '+state.year+' results and sources →';
-  link.style.cssText='display:block;margin-top:16px;text-decoration:underline;font-size:13px';
-  detail.appendChild(link);
 }
-function renderAll(){renderToolbar();if(state.tableMode){renderTable();}else{renderMap();}renderLegend();renderDetail();renderElection();renderSearch();syncResultLink();}
+function renderAll(){renderToolbar();if(state.tableMode){renderTable();}else{renderMap();}renderLegend();renderDetail();renderElection();renderSearch();syncResultUrl();}
 
 // URL params: ?year=YYYY & ?seat=NA-x
 (function(){const q=new URLSearchParams(location.search);const y=q.get('year');if(y&&YEARS[y])state.year=y;const seat=q.get('seat');if(seat){const na=seat.toUpperCase();if((R[state.year]||{})[na]||YEARS[state.year].postponed.includes(na))state.selected=na;}})();
@@ -519,4 +524,5 @@ renderAll();
   </div>
 </div>
 <script src="/assets/analytics.js" defer></script>
+<script>(function(){var i=document.querySelector('.hdr-search');if(!i)return;var m=matchMedia('(max-width:1360px) and (min-width:1200.02px)'),f=function(){i.placeholder=m.matches?'e.g. NA-127':'Seat, e.g. NA-127'};f();if(m.addEventListener)m.addEventListener('change',f);else m.addListener(f);})();</script>
 </body></html>
