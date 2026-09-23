@@ -56,7 +56,7 @@ onto 2002 constituencies.
 | `labels_1990.py` | 1990 constituency labels from the 9th National Assembly roster (Wikipedia) |
 | `normalise_1990_titles.py` | Normalise the scraped 1990 constituency titles into the same convention the 1993 and 1997 returns use, so the existing district pipeline handles 1990 |
 
-## `boundaries/` — 15 scripts
+## `boundaries/` — 16 scripts
 
 Constituency geometry: Voronoi reconstruction, tracing of the labelled Commons maps,
 tessellation, and assembly of the 266-seat 2023 layer.
@@ -75,6 +75,7 @@ tessellation, and assembly of the 266-seat 2023 layer.
 | `merge_traced_v2.py` | Merge the v2 traces (na_traced2_{1990,1993,1997}.geojson) into the final 207-seat boundary set, with placement validation |
 | `patch_finalize_boundaries.py` | Final boundary fix in map.html: * GEOS['207seat'] <- merged v2 traced set (162 main + 21 inset + 16 low-conf + 8 Voronoi), correct inset placement, va |
 | `patch_swap_traced.py` | Swap the all-Voronoi GEOS['207seat'] in map.html for the map-traced boundary set (176 traced from the 1990/93/97 Commons maps + 31 reconstructed fallb |
+| `split_gujranwala_2002.py` | Draw NA-95/NA-96 (Gujranwala city, 2002 delimitation) from rugpundit's PP-91..PP-94 per the ECP gazette, carve them out of NA-97/NA-98, and cross-check against the Commons 2002 map |
 | `tessellate_207.py` | Turn the merged traced boundary set into a complete tessellation of the National Assembly area |
 | `trace_commons_full.py` | Full trace of a labelled Commons election map: main map + EVERY inset box, label gating, and district-elimination gap fill |
 | `trace_commons_map.py` | Trace true constituency polygons from a labelled Commons election map |
@@ -106,7 +107,7 @@ province drivers and their fix-ups. This is the heaviest, most manual part of th
 | `run_sindh2.py` | Sindh v2: fixes over run_sindh.py: - content-blob union for outline fit on sheets with weak/absent fills (use_blob) - relaxed saturation gates for pal |
 | `split_district_by_sheet.py` | Split a known district polygon along the internal constituency lines of an ungridded ECP delimitation sheet |
 
-## `patches/` — 9 scripts
+## `patches/` — 10 scripts
 
 Surgical edits applied to already-built HTML. They rewrite the shipped files in place rather
 than regenerating them — see the build gotchas in README.md before running any of these.
@@ -120,6 +121,7 @@ than regenerating them — see the build gotchas in README.md before running any
 | `patch_city_zoom.py` | Add "zoom to city" chips to the map: Karachi, Lahore, Islamabad-Rawalpindi, Faisalabad, Peshawar, Quetta, plus a Whole-country reset |
 | `patch_election_notes.py` | Add a per-election context card ("This election") to the map's side column, and a sourced "The four elections" section to the Method page |
 | `patch_era_layers.py` | Rebuild the 1977 (200-seat) and 1985 (own-numbering 207-seat) Voronoi layers with full era coverage, then swap them into map.html |
+| `patch_gujranwala_2002.py` | Surgically add NA-95/NA-96 to the 2002 layer in map.html (GEOS and the GXW crosswalk) and islam.html, and update the islam.html caption |
 | `patch_home_hemicycles.py` | Add 1977 / 1985 / 1988 hemicycle cards to index.html, matching the existing static hemicycle SVGs (cx=110, cy=118, outer R=104, inner r=54, 180deg->0d |
 | `patch_method_elections.py` | Add a sourced 'The four elections' section to method.html (anchor #elections) and mirror a condensed version into docs/METHODOLOGY.md |
 
