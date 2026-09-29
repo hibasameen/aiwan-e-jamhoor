@@ -106,10 +106,16 @@ produced the committed CSVs and is re-runnable without network.
 ## 3. Constituency geometry — the three delimitations
 
 **2002 delimitation (GE-2002/2008/2013).** `rugpundit/PakistanConstituencies2013`
-shapefile — an unofficial digitisation of ECP's low-resolution map sheets. 270 of 272
-seats have polygons; **NA-95 and NA-96 (Gujranwala urban) are missing** (the city area
-sits inside the NA-97/98 polygons); their results remain searchable in the app. 34
-features had invalid (bowtie) rings, repaired with `make_valid`.
+shapefile — an unofficial digitisation of ECP's low-resolution map sheets. The NA layer
+has 270 of 272 seats: **NA-95 and NA-96 (Gujranwala urban) are folded into NA-97/98**
+upstream. They were added in September 2026 (Sheroze Khan, PR #2) from the same
+digitiser's provincial shapefile: per the ECP gazette of 28 June 2002 each city seat is
+exactly two provincial seats (NA-95 = PP-91 + PP-92, NA-96 = PP-93 + PP-94), so those
+polygons were united, clipped to the old NA-97 ∪ NA-98 and carved out of it, leaving no
+gaps. Both carry `approx: true, confidence: medium`; the manifest with the measurements
+and a Commons-inset cross-check is `data/digitised/gujranwala_2002_split.json`
+(`scripts/boundaries/split_gujranwala_2002.py`). 34 features had invalid (bowtie)
+rings, repaired with `make_valid`.
 
 **2018 and 2023 delimitations (GE-2018/GE-2024): reconstructed.** ECP has never
 released GIS for these; no complete public vector file exists (verified July 2026).
