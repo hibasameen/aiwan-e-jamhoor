@@ -13,12 +13,19 @@ Voronoi fallbacks although their numbers are printed on the maps. This script
   1. sets the crosswalk entry for NA-120 from build_map_numbering.NAME88_FIX
      (the base entry came from a 1988 page title that repeats NA-94's), so the
      re-tiling keeps NA-120 in Multan-cum-Khanewal rather than Lahore;
-  2. keeps every merged seat whose source region carries its own number;
-  3. for the others, traces the region printed with the seat's number on the
+  2. draws the seats of Lahore, Faisalabad, Peshawar and Rawalpindi, whose city
+     boxes show only part of the district, from their printed regions placed
+     with the district (audit_207_identity.city_frames). The shipped trace
+     fitted each of those boxes to the whole district, which left NA-99 and
+     NA-100 as slivers and put Faisalabad's NA-65 about 45 km south-east of
+     the city;
+  3. elsewhere keeps every merged seat whose source region carries its own
+     number;
+  4. for the others, traces the region printed with the seat's number on the
      1993 map (the largest, where a number is printed twice), through the same
      transform the shipped traces used, cleaned and rounded as merge_traced_v2
      does, and gated as it is (within 40 km of the seat's districts);
-  4. writes the merged set back and re-runs tessellate_207.py unchanged.
+  5. writes the merged set back and re-runs tessellate_207.py unchanged.
 
 Seats it replaces get src commons-1993 (-inset for city boxes), approx false
 and no confidence flag, since the number is read from the map exactly. Seats it
@@ -90,7 +97,21 @@ def main():
     out, log = [], []
     for f in merged['features']:
         na, p = f['properties']['na'], f['properties']
-        r = A.source_region(maps, off, f)
+        r, frame = A.source_region(maps, off, f)
+        ct = A.city_trace(base, na)
+        if ct is not None:
+            t, g = ct
+            new = {'type': 'Feature', 'properties': {
+                'na': na, 'src': f'commons-{A.BASE_YEAR}' + ('' if t['main'] else '-inset'), 'approx': False},
+                'geometry': rnd(mapping(clean(g)))}
+            new = json.loads(json.dumps(new))          # lists, as read back from the file
+            out.append(new)
+            if new != f:
+                was = 'Voronoi fallback' if r is None else (
+                    f"{p['src']}{', low confidence' if p.get('confidence') == 'low' else ''}, "
+                    f"region printed {' '.join(sorted(set(r['exact']))) or '(none)'}")
+                log.append((na, was, f"now {new['properties']['src']}, region printed {na}, placed with its district"))
+            continue
         if r is not None and sorted(set(r['exact'])) == [na]:
             out.append(f)
             continue

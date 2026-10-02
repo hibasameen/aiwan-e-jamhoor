@@ -74,6 +74,69 @@
   "NA-168",
   "NA-197"
  ],
+ "city_boxes": {
+  "NA-92 NA-93 NA-94 NA-95 NA-96 NA-97 NA-98": {
+   "districts": [
+    "Lahore"
+   ],
+   "box_on_patch_iou": 0.844,
+   "zoom": 7.3,
+   "district_drawing_iou_shipped_warp": 0.487,
+   "district_drawing_iou_fitted": 0.877,
+   "shipped_warp_off_by_km_east_north": [
+    13.4,
+    9.3
+   ]
+  },
+  "NA-1": {
+   "districts": [
+    "FR Peshawar",
+    "Nowshera",
+    "Peshawar"
+   ],
+   "box_on_patch_iou": 0.912,
+   "zoom": 8.6,
+   "district_drawing_iou_shipped_warp": 0.653,
+   "district_drawing_iou_fitted": 0.834,
+   "shipped_warp_off_by_km_east_north": [
+    -5.4,
+    -5.0
+   ]
+  },
+  "NA-63 NA-64 NA-65": {
+   "districts": [
+    "Faisalabad"
+   ],
+   "box_on_patch_iou": 0.875,
+   "zoom": 8.8,
+   "district_drawing_iou_shipped_warp": 0.799,
+   "district_drawing_iou_fitted": 0.909,
+   "shipped_warp_off_by_km_east_north": [
+    4.2,
+    -1.9
+   ]
+  },
+  "NA-38": {
+   "districts": [
+    "Rawalpindi"
+   ],
+   "box_on_patch_iou": 0.87,
+   "zoom": 4.2,
+   "district_drawing_iou_shipped_warp": 0.78,
+   "district_drawing_iou_fitted": 0.842,
+   "shipped_warp_off_by_km_east_north": [
+    -0.7,
+    -1.2
+   ]
+  }
+ },
+ "city_boxes_placed_in_district": false,
+ "seat_at_city_centre": {
+  "Lahore": "NA-99",
+  "Faisalabad": "NA-63",
+  "Rawalpindi": "NA-38",
+  "Peshawar": "NA-2"
+ },
  "region_colour_vs_own_winner": {
   "1990": {
    "agrees": 189,

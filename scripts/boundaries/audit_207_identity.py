@@ -11,7 +11,7 @@ north-to-south pairing inside the district. The labels are set in a 13-glyph
 bitmap font, so scripts/digitise/map_labels.py reads every one exactly. This
 script finds the region each seat was traced from and compares.
 
-Linking a seat to its region needs no new fitting:
+Linking a shipped seat to its region needs no new fitting:
 
   main map  the shipped quadratic warp is cached (data/wip/trace/
             ge<year>_poly.npy). A region is the seat's source if its outline,
@@ -22,6 +22,10 @@ Linking a seat to its region needs no new fitting:
             na_traced2_<year>.geojson (outline centroid -> feature centroid,
             least squares) and used the same way. The Peshawar and Rawalpindi
             boxes hold one seat each and are linked by their label.
+  cities    a layer built by fix_207seat_identity.py draws the seats of Lahore,
+            Faisalabad, Peshawar and Rawalpindi through city_frames instead (a
+            fit of each district's drawing to the district); its seats there
+            are linked, and its labels placed, through those frames.
 
 The three maps are one drawing: every uniquely printed label sits at the same
 pixel offset from its 1993 position (reported in the summary), so a region can
@@ -64,6 +68,7 @@ from shapely.validation import make_valid
 import read_labelled_map as RL
 import georef_refine as GR
 import build_reconstructed_geometry as brg
+import inset_transforms as IT
 from map_labels import read_labels
 
 OUT = 'data/wip/identity'
@@ -288,18 +293,28 @@ def fill_on(m, r, off):
 
 
 # ---- geographic side -------------------------------------------------------------
-def label_test(base, feats):
+def transform_of(base, r, city=False):
+    """px -> lon/lat for region r of the base map: the shipped transform, or with
+    city=True the district-level one for the four city districts (city_frames)."""
+    if city and r is not None:
+        for g in base.get('city', {}).values():
+            if r['key'] in g['regions']:
+                return g['main'] if r['main'] else g['box']
+    return base['warps'].get(r['cid']) if r is not None else None
+
+
+def label_test(base, feats, city=False):
     """Where each label printed on the base map lands in a layer: its centre is
-    carried by the shipped transform of the region it sits in, then matched to
-    the layer polygon containing it. Returns [(printed, seat it lands in)];
-    the seat is '' for a gap and None where the box has no recovered transform."""
+    carried by the transform of the region it sits in (see transform_of), then
+    matched to the layer polygon containing it. Returns [(printed, seat it lands
+    in)]; the seat is '' for a gap and None where there is no transform."""
     from shapely import STRtree
     geoms = [(f['properties']['na'], shape(f['geometry']).buffer(0)) for f in feats]
     tree = STRtree([g for _, g in geoms])
     out = []
     for w in base['words']:
         r = base['regions'][w['rid']] if w['rid'] >= 0 else None
-        f = base['warps'].get(r['cid']) if r is not None else None
+        f = transform_of(base, r, city)
         if f is None:
             out.append((w['na'], None))
             continue
@@ -332,18 +347,105 @@ def district_layer():
 
 
 # ---- the audit -------------------------------------------------------------------
+def city_frames(m):
+    """District-level placement for the city boxes that draw only part of their
+    district: Lahore (NA-92..98 of NA-92..100), Faisalabad (NA-63..65 of
+    NA-57..65), Peshawar (NA-1 of NA-1..4) and Rawalpindi (NA-38 of NA-36..40).
+
+    The shipped trace fitted each of these boxes to its whole district, so the
+    box seats spread over the district and the main-map seats around the city
+    were squeezed (NA-99 and NA-100 in Lahore). Here the map's own drawing of
+    the district, its main-map seats plus the grey patch the box enlarges, is
+    fitted to the true district (fit_inset_geo, similarity: scale, rotation and
+    shift), starting from the shipped warp. The main-map seats take that
+    transform; the box goes onto its patch (fit_inset, scale and shift) and
+    then through the same transform. A box that draws every seat of its
+    districts (Karachi) keeps the shipped fit.
+
+    Returns {box seats: {'main', 'box': px -> lon/lat, 'regions': keys,
+    'report': fit figures}}."""
+    a, base_w = m['a'], m['warps'][m['main_cid']]
+    lab, comps = IT.land_components(a)
+    assert comps[0]['cid'] == m['main_cid']
+    phs = IT.placeholders(a, lab, m['main_cid'])
+    XW = json.load(open(XWALK))['base']
+    DIST = brg.load_districts()
+    seats_in = collections.defaultdict(set)
+    for r in m['regions']:
+        if not r['main']:
+            seats_in[r['cid']] |= set(r['exact'])
+    partial = []
+    for c in comps[1:]:
+        box = seats_in.get(c['cid'])
+        if not box:
+            continue
+        D = sorted({d for na in box for d in XW[na]})
+        group = {na for na, ds in XW.items() if sorted(ds) == D}
+        if box < group:
+            partial.append(dict(c, mask=(lab == c['cid']), seats=box, D=D, group=group))
+    pair, _, fits = IT.pair_insets(partial, phs, lambda ins, ph: ph['mask'].astype(float))
+    out = {}
+    for i, j in sorted(pair.items()):
+        box, ph = partial[i], phs[j]
+        fb = IT.fit_inset(box['mask'], box['bbox'], ph['mask'].astype(float), 'st', step=2,
+                          p0=fits[i, j]['p'][:3])
+        drawn = ph['mask'].copy()
+        regs = [r for r in m['regions'] if set(r['exact']) & box['group']]
+        for r in regs:
+            if r['main']:
+                x0, y0, x1, y1 = r['bbox']
+                drawn[y0:y1, x0:x1] |= r['comp']
+        drawn = ndimage.binary_fill_holes(ndimage.binary_closing(drawn, np.ones((5, 5))))
+        ys, xs = np.nonzero(drawn)
+        bb = (int(xs.min()) - 6, int(ys.min()) - 6, int(xs.max()) + 7, int(ys.max()) + 7)
+        L0 = IT.linearise(base_w, bb)
+        L, iou1, _, iou0 = IT.fit_inset_geo(drawn, bb, unary_union([DIST[d] for d in box['D']]), L0, 'sim')
+        ctr = np.array([(bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2, 1.0])
+        lat = (L @ ctr)[1]
+        shift = (L @ ctr - L0 @ ctr) * np.array([KM * np.cos(np.radians(lat)), KM])
+        lw = (lambda L: lambda P: np.column_stack(
+            [np.atleast_2d(np.asarray(P, float)), np.ones(len(np.atleast_2d(P)))]) @ L.T)(L)
+        bw = (lambda L, M, c: lambda P: np.column_stack(
+            [IT.apply(M, c, np.atleast_2d(np.asarray(P, float))), np.ones(len(np.atleast_2d(P)))]) @ L.T)(
+            L, fb['M'], fb['c'])
+        key = ' '.join(sorted(box['seats'], key=lambda s: int(s[3:])))
+        out[key] = {'main': lw, 'box': bw, 'seats': box['group'],
+                    'regions': {r['key'] for r in regs} | {r['key'] for r in m['regions'] if r['cid'] == box['cid']},
+                    'report': {'districts': box['D'], 'box_on_patch_iou': round(fb['iou'], 3),
+                               'zoom': round(1 / fb['scale'], 1),
+                               'district_drawing_iou_shipped_warp': round(iou0, 3),
+                               'district_drawing_iou_fitted': round(iou1, 3),
+                               'shipped_warp_off_by_km_east_north': [round(-float(v), 1) for v in shift]}}
+    return out
+
+
 def load_maps():
     maps = {y: audit_map(y) for y in YEARS}
+    maps[BASE_YEAR]['city'] = city_frames(maps[BASE_YEAR])
     return maps, offsets(maps)
+
+
+def city_trace(base, na):
+    """The region printed na and its outline through the city frame, or None
+    when na is not a seat of the four city districts."""
+    for g in base['city'].values():
+        if na in g['seats']:
+            rs = [r for r in base['regions'] if na in r['exact'] and r['key'] in g['regions']]
+            r = max(rs, key=lambda r: r['area'])
+            return r, warp_geom(pixel_polygon(r), g['main'] if r['main'] else g['box'])
+    return None
 
 
 def source_region(maps, off, f):
     """The base-map region a merged feature was traced from: on the feature's own
     map, the region whose traced outline matches it (IoU >= 0.9), then moved to
-    the base map by that map's offset. None for a Voronoi fallback."""
+    the base map by that map's offset; failing that, for the four city
+    districts, the region whose outline through the city frame matches. Returns
+    (region, frame) with frame 'shipped' or 'city', or (None, None) for a
+    Voronoi fallback."""
     src = f['properties']['src']
     if not src.startswith('commons-'):
-        return None
+        return None, None
     y = src.split('-')[1]
     m, g = maps[y], shape(f['geometry']).buffer(0)
     box = src.endswith('-inset')
@@ -356,21 +458,25 @@ def source_region(maps, off, f):
             v = iou(t, g)
             if v >= 0.9 and (best is None or v > best[0]):
                 best = (v, r)
+    if best is None and y == BASE_YEAR:
+        ct = city_trace(m, f['properties']['na'])
+        if ct is not None and iou(ct[1], g) >= 0.9:
+            return ct[0], 'city'
     if best is None:
         # the two one-seat boxes (Peshawar, Rawalpindi) have no recovered
-        # transform; their seat is the box's only labelled region
+        # shipped transform; their seat is the box's only labelled region
         cand = [r for r in m['regions'] if not r['main'] and r['cid'] not in m['warps']
                 and f['properties']['na'] in r['exact']]
         best = (None, max(cand, key=lambda r: r['area'])) if cand else None
     if best is None:
-        return None
+        return None, None
     r = best[1]
     if y == BASE_YEAR:
-        return r
+        return r, 'shipped'
     dx, dy = off[y]['offset']
     x, yy = deep_point(r) - (dx, dy)
     k = maps[BASE_YEAR]['rid'][int(yy), int(x)]
-    return maps[BASE_YEAR]['regions'][k] if k >= 0 else None
+    return (maps[BASE_YEAR]['regions'][k], 'shipped') if k >= 0 else (None, None)
 
 
 def audit(maps, off, merged, layer):
@@ -386,7 +492,9 @@ def audit(maps, off, merged, layer):
             dcache[na] = unary_union(gs) if gs else None
         return dcache[na]
 
-    src_region = {f['properties']['na']: source_region(maps, off, f) for f in merged}
+    linked = {f['properties']['na']: source_region(maps, off, f) for f in merged}
+    src_region = {na: r for na, (r, _) in linked.items()}
+    city = any(fr == 'city' for _, fr in linked.values())
     drawn_as = collections.defaultdict(list)
     for na, r in src_region.items():
         if r is not None:
@@ -461,7 +569,12 @@ def audit(maps, off, merged, layer):
             c['no source region' if r is None else 'no result' if not w else
               'colour not in key' if not pt else 'agrees' if pt == w else 'disagrees'] += 1
         colour[y] = dict(c)
-    hits = label_test(base, layer)
+    hits = label_test(base, layer, city)
+    centres = {}
+    for c, (x, y) in CENTRES.items():
+        p = Point(x, y)
+        near = min(layer, key=lambda f: shape(f['geometry']).distance(p))
+        centres[c] = near['properties']['na']
     lt, lt_wrong = label_score(hits)
     verdicts = collections.Counter('region is printed another number' if r['verdict'].startswith('region is')
                                    else r['verdict'] for r in rows)
@@ -475,12 +588,15 @@ def audit(maps, off, merged, layer):
         'verdicts': dict(verdicts),
         'disagreements': [r['na'] for r in rows if r['verdict'].startswith('region')],
         'fallbacks': [r['na'] for r in rows if r['verdict'] == 'Voronoi fallback'],
+        'city_boxes': {k: g['report'] for k, g in base['city'].items()},
+        'city_boxes_placed_in_district': city,
+        'seat_at_city_centre': centres,
         'region_colour_vs_own_winner': colour,
         'printed_labels_in_layer': lt,
         'printed_labels_in_another_seat': [list(t) for t in lt_wrong],
     }
     return {'rows': rows, 'summary': summary, 'src_region': src_region, 'printed_at': printed_at,
-            'drawn_as': drawn_as, 'layer': layer, 'maps': maps, 'off': off}
+            'drawn_as': drawn_as, 'layer': layer, 'maps': maps, 'off': off, 'city': city}
 
 
 def write(res, out):
@@ -541,9 +657,11 @@ def clusters(rows):
     return out
 
 
-def draw_clusters(res, out, after=None):
+def draw_clusters(res, out, after=None, after_city=False):
     """One figure per group: the Commons map with the regions involved, the
-    audited layer, and (with after=) a second layer for comparison."""
+    audited layer, and (with after=) a second layer for comparison. Printed
+    labels are placed in each layer's own frame (after_city: the second layer
+    was built with the city frames)."""
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -553,7 +671,15 @@ def draw_clusters(res, out, after=None):
     a = base['a']
     os.makedirs(out, exist_ok=True)
     byna = {r['na']: r for r in rows}
-    layers = [('Shipped layer' if after else 'Layer', res['layer'])] + ([('After this fix', after)] if after else [])
+    layers = [('Shipped layer' if after else 'Layer', res['layer'], res['city'])] + \
+        ([('After this fix', after, after_city)] if after else [])
+
+    def label_points(na, city):
+        for t in printed_at.get(na, []):
+            f = transform_of(base, t, city)
+            for w in (t['words'] if f else []):
+                if w['na'] == na:
+                    yield f(np.array([w['cx'], w['cy']]))[0]
     written = []
     for comp in clusters(rows):
         regs = {}
@@ -596,13 +722,11 @@ def draw_clusters(res, out, after=None):
                          'printed labels; red = regions involved', fontsize=8.5)
         # one extent for every layer panel: the group's seats in all layers,
         # plus where its printed labels fall
-        lgeoms = [{f['properties']['na']: shape(f['geometry']) for f in feats} for _, feats in layers]
-        pts = [Point(*base['warps'][t['cid']](np.array([w['cx'], w['cy']]))[0])
-               for na in comp for t in printed_at.get(na, []) if t['cid'] in base['warps']
-               for w in t['words'] if w['na'] == na]
+        lgeoms = [{f['properties']['na']: shape(f['geometry']) for f in feats} for _, feats, _ in layers]
+        pts = [Point(*ll) for _, _, city in layers for na in comp for ll in label_points(na, city)]
         focus = unary_union([g[na] for g in lgeoms for na in comp if na in g] + pts)
         minx, miny, maxx, maxy = focus.buffer(0.12).bounds
-        for ax, (title, feats), geoms in zip(axes[len(panels):], layers, lgeoms):
+        for ax, (title, feats, city), geoms in zip(axes[len(panels):], layers, lgeoms):
             for na, g in geoms.items():
                 if not g.intersects(focus.buffer(0.4)):
                     continue
@@ -615,18 +739,14 @@ def draw_clusters(res, out, after=None):
                     ax.text(c.x, c.y, na, fontsize=7.5 if inc else 6, ha='center', va='center',
                             color='black' if inc else '#8a8a8a', weight='bold' if inc else 'normal')
             for na in comp:
-                for t in printed_at.get(na, []):
-                    w_ = base['warps'].get(t['cid'])
-                    for wd in (t['words'] if w_ else []):
-                        if wd['na'] == na:
-                            ll = w_(np.array([wd['cx'], wd['cy']]))[0]
-                            ax.plot(*ll, marker='o', ms=3.5, color='#1565c0')
-                            ax.annotate(f'printed {na}', ll, xytext=(0, 5), textcoords='offset points',
-                                        ha='center', fontsize=6.5, color='#1565c0')
+                for ll in label_points(na, city):
+                    ax.plot(*ll, marker='o', ms=3.5, color='#1565c0')
+                    ax.annotate(f'printed {na}', ll, xytext=(0, 5), textcoords='offset points',
+                                ha='center', fontsize=6.5, color='#1565c0')
             ax.set_xlim(minx, maxx); ax.set_ylim(miny, maxy)
             ax.set_aspect(1 / np.cos(np.radians((miny + maxy) / 2)))
             ax.tick_params(labelsize=6.5)
-            ax.set_title(f'{title} (seat numbers in black);\nblue: printed labels placed by the shipped transform',
+            ax.set_title(f'{title} (seat numbers in black);\nblue: printed labels placed as the layer places them',
                          fontsize=8.5)
         lines = []
         for na in comp:
@@ -651,6 +771,55 @@ def draw_clusters(res, out, after=None):
     return written
 
 
+# city centres (Wikipedia coordinates), to check where the city seats fall
+CENTRES = {'Lahore': (74.3436, 31.5497), 'Faisalabad': (73.0911, 31.4167),
+           'Rawalpindi': (73.0333, 33.6000), 'Peshawar': (71.5675, 34.0144)}
+
+
+def draw_cities(res, out, after, after_city=False):
+    """The four city districts (city_frames) in the audited layer and in a
+    second layer, with the city centre marked."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from matplotlib.patches import Polygon as MPoly
+    base = res['maps'][BASE_YEAR]
+    DIST = brg.load_districts()
+    groups = list(base['city'].values())
+    fig, axes = plt.subplots(2, len(groups), figsize=(5.2 * len(groups), 10.4))
+    for j, g in enumerate(groups):
+        dist = unary_union([DIST[d] for d in g['report']['districts']])
+        city = next(c for c in CENTRES if c in g['report']['districts'])
+        minx, miny, maxx, maxy = dist.buffer(0.03).bounds
+        for i, (title, feats) in enumerate((('Shipped layer', res['layer']), ('After this fix', after))):
+            ax = axes[i, j]
+            for f in feats:
+                na, sh = f['properties']['na'], shape(f['geometry'])
+                if not sh.intersects(dist.buffer(0.05)):
+                    continue
+                inc = na in g['seats']
+                for q in (sh.geoms if sh.geom_type == 'MultiPolygon' else [sh]):
+                    ax.add_patch(MPoly(np.asarray(q.exterior.coords), fc='#f6d0cc' if inc else '#eeeeee',
+                                       ec='#666666', lw=0.6))
+                c = sh.representative_point()
+                if inc:
+                    ax.text(c.x, c.y, na, fontsize=7, ha='center', va='center', weight='bold')
+            for q in (dist.geoms if dist.geom_type == 'MultiPolygon' else [dist]):
+                ax.plot(*q.exterior.xy, color='#1565c0', lw=1.1)
+            ax.plot(*CENTRES[city], marker='*', ms=11, color='#1565c0')
+            ax.set_xlim(minx, maxx); ax.set_ylim(miny, maxy)
+            ax.set_aspect(1 / np.cos(np.radians((miny + maxy) / 2)))
+            ax.tick_params(labelsize=6.5)
+            ax.set_title(f'{city}: {title.lower()}', fontsize=9)
+    fig.text(0.008, 0.008, 'Pink: the seats of the district (blue outline); star: the city centre. '
+             'Seats from the city box: ' + '; '.join(k for k in base['city']) + '.', fontsize=7.5)
+    fig.subplots_adjust(left=0.03, right=0.99, top=0.96, bottom=0.05, wspace=0.12, hspace=0.12)
+    name = f'{out}/city_districts.png'
+    fig.savefig(name, dpi=100)
+    plt.close(fig)
+    return name
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n\n')[0])
     ap.add_argument('--merged', default=MERGED, help='merged trace (default: %(default)s)')
@@ -673,9 +842,16 @@ def main():
                   f"{r['district_share_layer']} vs printed {r['district_share_printed']} | "
                   f"region printed {r['na']} drawn as {r['printed_region_used_as']}")
     if args.crops:
-        after = json.load(open(args.compare))['features'] if args.compare else None
-        for name in draw_clusters(res, f'{args.out}/crops', after):
+        after, after_city = None, False
+        if args.compare:
+            # the layer to compare with is the current one: it was built in the
+            # city frames if the current merged trace was
+            after = json.load(open(args.compare))['features']
+            after_city = any(source_region(maps, off, f)[1] == 'city' for f in json.load(open(MERGED))['features'])
+        for name in draw_clusters(res, f'{args.out}/crops', after, after_city):
             print('wrote', name)
+        if after is not None:
+            print('wrote', draw_cities(res, f'{args.out}/crops', after, after_city))
 
 
 if __name__ == '__main__':
