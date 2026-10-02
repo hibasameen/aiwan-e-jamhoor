@@ -1,0 +1,123 @@
+{
+ "offsets_from_1993": {
+  "1990": {
+   "offset": [
+    -24,
+    -36
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  },
+  "1993": {
+   "offset": [
+    0,
+    0
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  },
+  "1997": {
+   "offset": [
+    -32,
+    12
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  }
+ },
+ "labels_read": {
+  "1990": 210,
+  "1993": 210,
+  "1997": 210
+ },
+ "label_attachment_below_75pct": [],
+ "traced_features_linked": {
+  "1990": "194/194",
+  "1993": "197/197",
+  "1997": "197/197"
+ },
+ "verdicts": {
+  "printed label agrees": 207
+ },
+ "disagreements": [],
+ "fallbacks": [],
+ "region_colour_vs_own_winner": {
+  "1990": {
+   "agrees": 204,
+   "disagrees": 3
+  },
+  "1993": {
+   "agrees": 205,
+   "no result": 2
+  },
+  "1997": {
+   "agrees": 201,
+   "no result": 5,
+   "disagrees": 1
+  }
+ },
+ "printed_labels_in_layer": {
+  "own seat": 183,
+  "no transform": 2,
+  "gap": 11,
+  "another seat": 14
+ },
+ "printed_labels_in_another_seat": [
+  [
+   "NA-34",
+   "NA-9"
+  ],
+  [
+   "NA-34",
+   "NA-18"
+  ],
+  [
+   "NA-34",
+   "NA-200"
+  ],
+  [
+   "NA-63",
+   "NA-62"
+  ],
+  [
+   "NA-65",
+   "NA-110"
+  ],
+  [
+   "NA-119",
+   "NA-141"
+  ],
+  [
+   "NA-123",
+   "NA-130"
+  ],
+  [
+   "NA-133",
+   "NA-134"
+  ],
+  [
+   "NA-155",
+   "NA-151"
+  ],
+  [
+   "NA-156",
+   "NA-154"
+  ],
+  [
+   "NA-165",
+   "NA-158"
+  ],
+  [
+   "NA-184",
+   "NA-206"
+  ],
+  [
+   "NA-196",
+   "NA-179"
+  ],
+  [
+   "NA-196",
+   "NA-179"
+  ]
+ ]
+}
