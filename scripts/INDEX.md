@@ -56,7 +56,7 @@ onto 2002 constituencies.
 | `labels_1990.py` | 1990 constituency labels from the 9th National Assembly roster (Wikipedia) |
 | `normalise_1990_titles.py` | Normalise the scraped 1990 constituency titles into the same convention the 1993 and 1997 returns use, so the existing district pipeline handles 1990 |
 
-## `boundaries/` — 16 scripts
+## `boundaries/` — 20 scripts
 
 Constituency geometry: Voronoi reconstruction, tracing of the labelled Commons maps,
 tessellation, and assembly of the 266-seat 2023 layer.
@@ -65,12 +65,15 @@ tessellation, and assembly of the 266-seat 2023 layer.
 |---|---|
 | `assemble_2023_partial.py` | Assemble all resolved 2023-delimitation seats into na_2023delim_true_partial.geojson: - 38 single-seat canvases from out/seats_2023_scaffold.geojson - |
 | `assemble_266.py` | Merge the 36 new KP/Balochistan/ICT seats into the 230-seat partial layer, clean slivers/overlaps, and verify a 266-seat exact national partition |
+| `audit_207_identity.py` | Check the seat numbers of the 207-seat layer against the NA labels printed on the Commons maps it was traced from: printed label, region colour against the recorded winner, district |
 | `build_historic_geometry.py` | Reconstruct approximate NA constituency boundaries for the two pre-2002 delimitations, from the scraped constituency->district information: * 200-seat |
 | `build_map_numbering.py` | Fix the numbering foundation for the 207-seat (1985–1997) delimitation |
 | `build_reconstructed_geometry.py` | Reconstruct approximate NA constituency boundaries for the 2018 and 2023 delimitations |
 | `crosscheck_commons_maps.py` | Cross-check our results against the labelled Commons maps |
 | `extract_1977_boundaries.py` | Extract true 1977-delimitation constituency boundaries from a labelled map |
 | `fill_holes.py` | Close internal gaps in na_2018delim_v2.geojson so all boundaries tile contiguously |
+| `fix_207seat_identity.py` | Give every seat of the 207-seat layer the region its number is printed in, and place the Lahore, Faisalabad, Peshawar and Rawalpindi boxes with their districts; runs between merge_traced_v2.py and tessellate_207.py |
+| `inset_transforms.py` | Fit a city box to the grey patch it enlarges on the main map, and pixels straight to a true outline |
 | `merge_traced_boundaries.py` | Merge the three traced Commons maps (1990/1993/1997 |
 | `merge_traced_v2.py` | Merge the v2 traces (na_traced2_{1990,1993,1997}.geojson) into the final 207-seat boundary set, with placement validation |
 | `patch_finalize_boundaries.py` | Final boundary fix in map.html: * GEOS['207seat'] <- merged v2 traced set (162 main + 21 inset + 16 low-conf + 8 Voronoi), correct inset placement, va |
@@ -79,8 +82,9 @@ tessellation, and assembly of the 266-seat 2023 layer.
 | `tessellate_207.py` | Turn the merged traced boundary set into a complete tessellation of the National Assembly area |
 | `trace_commons_full.py` | Full trace of a labelled Commons election map: main map + EVERY inset box, label gating, and district-elimination gap fill |
 | `trace_commons_map.py` | Trace true constituency polygons from a labelled Commons election map |
+| `validate_1977.py` | Score a 207-seat layer: national IoU and coverage, overlap, seats inside their districts, and the city seats |
 
-## `digitise/` — 19 scripts
+## `digitise/` — 20 scripts
 
 Digitisation of the ECP delimitation map sheets — the georeferencing toolkit plus the per-
 province drivers and their fix-ups. This is the heaviest, most manual part of the project.
@@ -97,6 +101,7 @@ province drivers and their fix-ups. This is the heaviest, most manual part of th
 | `fix_larkana_taluka.py` | Upgrade NA-200/201 (Larkana) from district-wide centroid Voronoi to a taluka-composition split |
 | `georef_map.py` | Georeference a labelled Commons election map by fitting its drawn National Assembly area to the true one |
 | `georef_refine.py` | Refine the affine georeference with a quadratic warp |
+| `map_labels.py` | Read the NA labels on the labelled Commons maps exactly, by looking up each glyph of their 13-glyph bitmap font |
 | `read_labelled_map.py` | Segment a labelled Commons election map into constituency regions, then OCR the NA number printed inside each one |
 | `rebuild_malir_from_prelim.py` | Rebuild NA-229/230/231 (District Malir, 2023 delimitation) from the PBS/ECP "District Malir — Preliminary Delimitation 2023" map supplied by Hib |
 | `rebuild_malir_v2.py` | Malir rebuild v2 from the PBS/ECP prelim-2023 map |
@@ -107,7 +112,7 @@ province drivers and their fix-ups. This is the heaviest, most manual part of th
 | `run_sindh2.py` | Sindh v2: fixes over run_sindh.py: - content-blob union for outline fit on sheets with weak/absent fills (use_blob) - relaxed saturation gates for pal |
 | `split_district_by_sheet.py` | Split a known district polygon along the internal constituency lines of an ungridded ECP delimitation sheet |
 
-## `patches/` — 10 scripts
+## `patches/` — 11 scripts
 
 Surgical edits applied to already-built HTML. They rewrite the shipped files in place rather
 than regenerating them — see the build gotchas in README.md before running any of these.
@@ -115,6 +120,7 @@ than regenerating them — see the build gotchas in README.md before running any
 | script | purpose |
 |---|---|
 | `patch_2024_city_detail.py` | Restore digitised detail to the 2024 city constituencies in map.html |
+| `patch_207seat_identity.py` | Swap the renumbered 207-seat layer into map.html (GEOS and the GXW crosswalk) and islam.html |
 | `patch_add_historic_years.py` | Surgically add the pre-2002 elections (1977, 1985, 1988) to map.html and switch 1990/1993/1997 onto the reconstructed 207-seat boundaries |
 | `patch_app_2024.py` | Surgically swap the 2024 boundary layer inside the built app and add the provisional-boundary treatment, without rebuilding 2002/2018 from source (the |
 | `patch_city_ui_fix.py` | UX fixes for the city-zoom feature: 1 |

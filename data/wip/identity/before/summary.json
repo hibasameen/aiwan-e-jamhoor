@@ -1,0 +1,294 @@
+{
+ "offsets_from_1993": {
+  "1990": {
+   "offset": [
+    -24,
+    -36
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  },
+  "1993": {
+   "offset": [
+    0,
+    0
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  },
+  "1997": {
+   "offset": [
+    -32,
+    12
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  }
+ },
+ "labels_read": {
+  "1990": 210,
+  "1993": 210,
+  "1997": 210
+ },
+ "label_attachment_below_75pct": [],
+ "traced_features_linked": {
+  "1990": "194/194",
+  "1993": "197/197",
+  "1997": "197/197"
+ },
+ "verdicts": {
+  "printed label agrees": 179,
+  "Voronoi fallback": 8,
+  "region is printed another number": 19,
+  "region carries no label": 1
+ },
+ "disagreements": [
+  "NA-39",
+  "NA-49",
+  "NA-91",
+  "NA-95",
+  "NA-96",
+  "NA-100",
+  "NA-101",
+  "NA-102",
+  "NA-106",
+  "NA-107",
+  "NA-108",
+  "NA-109",
+  "NA-114",
+  "NA-117",
+  "NA-119",
+  "NA-131",
+  "NA-154",
+  "NA-156",
+  "NA-178",
+  "NA-179"
+ ],
+ "fallbacks": [
+  "NA-13",
+  "NA-50",
+  "NA-110",
+  "NA-120",
+  "NA-165",
+  "NA-166",
+  "NA-168",
+  "NA-197"
+ ],
+ "city_boxes": {
+  "NA-92 NA-93 NA-94 NA-95 NA-96 NA-97 NA-98": {
+   "districts": [
+    "Lahore"
+   ],
+   "box_on_patch_iou": 0.844,
+   "zoom": 7.3,
+   "district_drawing_iou_shipped_warp": 0.487,
+   "district_drawing_iou_fitted": 0.877,
+   "shipped_warp_off_by_km_east_north": [
+    13.4,
+    9.3
+   ]
+  },
+  "NA-1": {
+   "districts": [
+    "FR Peshawar",
+    "Nowshera",
+    "Peshawar"
+   ],
+   "box_on_patch_iou": 0.912,
+   "zoom": 8.6,
+   "district_drawing_iou_shipped_warp": 0.653,
+   "district_drawing_iou_fitted": 0.834,
+   "shipped_warp_off_by_km_east_north": [
+    -5.4,
+    -5.0
+   ]
+  },
+  "NA-63 NA-64 NA-65": {
+   "districts": [
+    "Faisalabad"
+   ],
+   "box_on_patch_iou": 0.875,
+   "zoom": 8.8,
+   "district_drawing_iou_shipped_warp": 0.799,
+   "district_drawing_iou_fitted": 0.909,
+   "shipped_warp_off_by_km_east_north": [
+    4.2,
+    -1.9
+   ]
+  },
+  "NA-38": {
+   "districts": [
+    "Rawalpindi"
+   ],
+   "box_on_patch_iou": 0.87,
+   "zoom": 4.2,
+   "district_drawing_iou_shipped_warp": 0.78,
+   "district_drawing_iou_fitted": 0.842,
+   "shipped_warp_off_by_km_east_north": [
+    -0.7,
+    -1.2
+   ]
+  }
+ },
+ "city_boxes_placed_in_district": false,
+ "seat_at_city_centre": {
+  "Lahore": "NA-99",
+  "Faisalabad": "NA-63",
+  "Rawalpindi": "NA-38",
+  "Peshawar": "NA-2"
+ },
+ "region_colour_vs_own_winner": {
+  "1990": {
+   "agrees": 189,
+   "no source region": 8,
+   "disagrees": 9,
+   "colour not in key": 1
+  },
+  "1993": {
+   "agrees": 189,
+   "no source region": 8,
+   "no result": 2,
+   "disagrees": 7,
+   "colour not in key": 1
+  },
+  "1997": {
+   "agrees": 186,
+   "no source region": 8,
+   "no result": 5,
+   "disagrees": 7,
+   "colour not in key": 1
+  }
+ },
+ "printed_labels_in_layer": {
+  "own seat": 166,
+  "no transform": 2,
+  "gap": 11,
+  "another seat": 31
+ },
+ "printed_labels_in_another_seat": [
+  [
+   "NA-13",
+   "NA-11"
+  ],
+  [
+   "NA-34",
+   "NA-9"
+  ],
+  [
+   "NA-34",
+   "NA-18"
+  ],
+  [
+   "NA-34",
+   "NA-200"
+  ],
+  [
+   "NA-49",
+   "NA-50"
+  ],
+  [
+   "NA-50",
+   "NA-49"
+  ],
+  [
+   "NA-63",
+   "NA-62"
+  ],
+  [
+   "NA-65",
+   "NA-111"
+  ],
+  [
+   "NA-91",
+   "NA-89"
+  ],
+  [
+   "NA-95",
+   "NA-99"
+  ],
+  [
+   "NA-96",
+   "NA-95"
+  ],
+  [
+   "NA-102",
+   "NA-101"
+  ],
+  [
+   "NA-107",
+   "NA-109"
+  ],
+  [
+   "NA-108",
+   "NA-106"
+  ],
+  [
+   "NA-109",
+   "NA-108"
+  ],
+  [
+   "NA-114",
+   "NA-119"
+  ],
+  [
+   "NA-117",
+   "NA-118"
+  ],
+  [
+   "NA-119",
+   "NA-141"
+  ],
+  [
+   "NA-120",
+   "NA-114"
+  ],
+  [
+   "NA-123",
+   "NA-130"
+  ],
+  [
+   "NA-131",
+   "NA-130"
+  ],
+  [
+   "NA-133",
+   "NA-134"
+  ],
+  [
+   "NA-155",
+   "NA-151"
+  ],
+  [
+   "NA-156",
+   "NA-154"
+  ],
+  [
+   "NA-165",
+   "NA-158"
+  ],
+  [
+   "NA-166",
+   "NA-165"
+  ],
+  [
+   "NA-167",
+   "NA-168"
+  ],
+  [
+   "NA-178",
+   "NA-179"
+  ],
+  [
+   "NA-184",
+   "NA-206"
+  ],
+  [
+   "NA-196",
+   "NA-179"
+  ],
+  [
+   "NA-196",
+   "NA-179"
+  ]
+ ]
+}
