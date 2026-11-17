@@ -87,6 +87,11 @@ def attach(xwalk):
             for d in extra:
                 if d in TN and d not in xwalk[na]: xwalk[na].append(d)
     return xwalk
+
+# The 1988 page for NA-120 carries NA-94's title, "Lahore III" (the only repeated
+# title outside the tribal seats). 1990, 1993 and 1997 all name NA-120
+# Multan-cum-Khanewal, and the Commons maps print NA-120 inside Multan.
+NAME88_FIX = {'NA-120': 'Multan-Cum-Khanewal'}
 PHRASES = {'di khan': 'Dera Ismail Khan', 'dg khan': 'Dera Ghazi Khan',
            'rahimyar khan': 'Rahim Yar Khan'}
 STRIP = re.compile(r'\b(i{1,3}|iv|v i{0,3}|vi{1,3}|ix|x i{0,3}|xi{1,3}|\d+|general|full|cum|vote)\b')
@@ -123,7 +128,7 @@ def embedded_results():
     return json.loads(L[205][len('<script>window.RESULTS='):-1])
 
 def main():
-    n88 = load_names_88()
+    n88 = {**load_names_88(), **NAME88_FIX}
     R = embedded_results()
     # --- 1. map-numbering crosswalks
     xw = {}

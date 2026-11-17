@@ -1,0 +1,177 @@
+{
+ "offsets_from_1993": {
+  "1990": {
+   "offset": [
+    -24,
+    -36
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  },
+  "1993": {
+   "offset": [
+    0,
+    0
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  },
+  "1997": {
+   "offset": [
+    -32,
+    12
+   ],
+   "labels_agreeing": 205,
+   "labels_compared": 205
+  }
+ },
+ "labels_read": {
+  "1990": 210,
+  "1993": 210,
+  "1997": 210
+ },
+ "label_attachment_below_75pct": [],
+ "traced_features_linked": {
+  "1990": "194/194",
+  "1993": "197/197",
+  "1997": "197/197"
+ },
+ "verdicts": {
+  "printed label agrees": 207
+ },
+ "disagreements": [],
+ "fallbacks": [],
+ "city_boxes": {
+  "NA-92 NA-93 NA-94 NA-95 NA-96 NA-97 NA-98": {
+   "districts": [
+    "Lahore"
+   ],
+   "box_on_patch_iou": 0.844,
+   "zoom": 7.3,
+   "district_drawing_iou_shipped_warp": 0.487,
+   "district_drawing_iou_fitted": 0.877,
+   "shipped_warp_off_by_km_east_north": [
+    13.4,
+    9.3
+   ]
+  },
+  "NA-1": {
+   "districts": [
+    "FR Peshawar",
+    "Nowshera",
+    "Peshawar"
+   ],
+   "box_on_patch_iou": 0.912,
+   "zoom": 8.6,
+   "district_drawing_iou_shipped_warp": 0.653,
+   "district_drawing_iou_fitted": 0.834,
+   "shipped_warp_off_by_km_east_north": [
+    -5.4,
+    -5.0
+   ]
+  },
+  "NA-63 NA-64 NA-65": {
+   "districts": [
+    "Faisalabad"
+   ],
+   "box_on_patch_iou": 0.875,
+   "zoom": 8.8,
+   "district_drawing_iou_shipped_warp": 0.799,
+   "district_drawing_iou_fitted": 0.909,
+   "shipped_warp_off_by_km_east_north": [
+    4.2,
+    -1.9
+   ]
+  },
+  "NA-38": {
+   "districts": [
+    "Rawalpindi"
+   ],
+   "box_on_patch_iou": 0.87,
+   "zoom": 4.2,
+   "district_drawing_iou_shipped_warp": 0.78,
+   "district_drawing_iou_fitted": 0.842,
+   "shipped_warp_off_by_km_east_north": [
+    -0.7,
+    -1.2
+   ]
+  }
+ },
+ "city_boxes_placed_in_district": true,
+ "seat_at_city_centre": {
+  "Lahore": "NA-96",
+  "Faisalabad": "NA-65",
+  "Rawalpindi": "NA-38",
+  "Peshawar": "NA-1"
+ },
+ "region_colour_vs_own_winner": {
+  "1990": {
+   "agrees": 204,
+   "disagrees": 3
+  },
+  "1993": {
+   "agrees": 205,
+   "no result": 2
+  },
+  "1997": {
+   "agrees": 201,
+   "no result": 5,
+   "disagrees": 1
+  }
+ },
+ "printed_labels_in_layer": {
+  "own seat": 189,
+  "gap": 9,
+  "another seat": 12
+ },
+ "printed_labels_in_another_seat": [
+  [
+   "NA-34",
+   "NA-9"
+  ],
+  [
+   "NA-34",
+   "NA-18"
+  ],
+  [
+   "NA-34",
+   "NA-200"
+  ],
+  [
+   "NA-119",
+   "NA-141"
+  ],
+  [
+   "NA-123",
+   "NA-130"
+  ],
+  [
+   "NA-133",
+   "NA-134"
+  ],
+  [
+   "NA-155",
+   "NA-151"
+  ],
+  [
+   "NA-156",
+   "NA-154"
+  ],
+  [
+   "NA-165",
+   "NA-158"
+  ],
+  [
+   "NA-184",
+   "NA-206"
+  ],
+  [
+   "NA-196",
+   "NA-179"
+  ],
+  [
+   "NA-196",
+   "NA-179"
+  ]
+ ]
+}
